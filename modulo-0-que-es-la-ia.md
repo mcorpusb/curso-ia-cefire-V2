@@ -7,107 +7,97 @@ nav_order: 3
 # Bloque 0: ¿Qué es la IA?
 {: .fs-8 }
 
-Una base común para trabajar con IA generativa con criterio.
+Lo esencial para empezar con criterio.
 {: .fs-5 .fw-300 }
 
 ---
 
 {: .callout .callout--idea }
-**Para qué sirve este bloque**
-Al terminar deberíamos poder explicar qué es la IA generativa, por qué puede equivocarse, qué debemos comprobar, qué información no debemos compartir y qué decisiones no debemos delegar.
-
-Duración aproximada: **2 horas**.
+**Para qué sirve este bloque**  
+En dos horas entenderás qué es la IA generativa, por qué puede equivocarse, qué información no debemos introducir en las prácticas del curso y qué decisiones profesionales no debemos delegar.
 
 ---
 
-## 1. Qué es la inteligencia artificial
+## 1. ¿Qué es y qué no es?
 
-La **inteligencia artificial (IA)** es un campo amplio: incluye sistemas que reconocen patrones, clasifican información, hacen predicciones o generan contenido. No toda la IA es generativa ni adopta la forma de un chatbot.
+La **inteligencia artificial (IA)** es un campo amplio: incluye sistemas que reconocen patrones, hacen predicciones o generan contenido. No toda la IA es generativa ni adopta la forma de un chatbot.
 
-La **IA generativa** produce contenido nuevo —como texto, imagen, audio, vídeo o código— a partir de patrones aprendidos y del contexto que recibe.
+La **IA generativa** produce contenido nuevo —texto, imagen, audio, vídeo o código— a partir de patrones aprendidos y del contexto que recibe.
 
-**Ejemplo cotidiano:** una calculadora aplica reglas definidas; un teclado predictivo propone palabras a partir de patrones del lenguaje.
+**Un ejemplo sencillo:** una calculadora aplica reglas definidas; un teclado predictivo propone palabras a partir de patrones. Los sistemas generativos también trabajan con patrones aprendidos, pero pueden producir contenidos mucho más complejos y en distintos formatos.
 
 {: .callout .callout--recuerda }
-**Para recordar**
-La IA generativa no comprende el mundo como una persona: una respuesta fluida no equivale a una respuesta verdadera.
+**Una respuesta fluida no equivale a una respuesta verdadera.** La IA generativa no comprende el mundo como una persona.
+
+Algunas herramientas son **multimodales**: pueden interpretar o generar texto, imagen, audio o vídeo. También existen modos que dedican más tiempo y recursos a tareas complejas, aunque eso no garantiza que la respuesta sea correcta.
+
+En el **Bloque 3 · Generación Multimodal** profundizaremos en la creación, transformación y revisión de contenidos en distintos formatos.
 
 ---
 
-## 2. Formas prácticas de trabajar con IA generativa
+## 2. Cuatro formas de trabajar con ella
 
-Una misma herramienta puede combinar estas cuatro formas de trabajo:
+Una misma herramienta puede combinar distintas formas de trabajo.
 
-### A. Conversar y generar
+**Conversar y generar**  
+Preguntar, crear borradores, transformar notas, pedir explicaciones o proponer alternativas.
 
-Plantear preguntas, pedir explicaciones, crear borradores o transformar un contenido; por ejemplo, convertir unas notas en una explicación más clara.
+**Trabajar con documentos y fuentes**  
+Aportar documentos autorizados para fundamentar el trabajo. La herramienta puede ayudar a localizar y relacionar información, pero la fuente y su interpretación siguen necesitando revisión.
 
-### B. Trabajar con documentos y fuentes
+**Buscar e investigar**  
+Localizar, seleccionar, relacionar y sintetizar información. El proceso no termina al recibir una respuesta:
 
-Aportar documentos autorizados para fundamentar la respuesta y rastrearla mediante citas. Las herramientas documentales pueden ayudar, pero la fuente y la interpretación siguen necesitando revisión.
+> **BUSCA → SELECCIONA → SINTETIZA → CITA → TÚ VERIFICAS**
 
-### C. Buscar e investigar
-
-Localizar, relacionar y sintetizar información. El proceso no termina al recibir el informe:
-
-**BUSCA → SELECCIONA → SINTETIZA → CITA → TÚ VERIFICAS**
-
-Comprueba la autoridad, actualidad y diversidad de las fuentes, y que cada cita respalde la afirmación correspondiente.
-
-### D. Ejecutar acciones o procesos
-
-Los **agentes** pueden encadenar pasos y usar herramientas para avanzar hacia un objetivo. Son una posibilidad, no un objetivo obligatorio del curso.
+**Ejecutar acciones o procesos**  
+Algunos agentes pueden encadenar pasos y utilizar herramientas para avanzar hacia un objetivo. Son una posibilidad de ampliación, no un objetivo obligatorio del curso.
 
 {: .callout .callout--recuerda }
-**A mayor autonomía, mayor supervisión:** revisa permisos, datos accesibles y acciones antes de autorizar su ejecución.
+**A mayor autonomía, mayor supervisión.** Revisa permisos, datos accesibles y acciones antes de autorizar un proceso automático.
 
-Las funciones concretas cambian con frecuencia. El [Radar de herramientas](herramientas-ia-actualizadas.md) mantiene esa información actualizada.
+### Contexto y memoria
 
----
+**Contexto** es la información activa en una conversación: instrucciones, mensajes y documentos aportados.
 
-## 3. Multimodalidad
+**Memoria** es la información que algunos servicios pueden conservar entre conversaciones, según la herramienta, la cuenta y su configuración.
 
-Una herramienta **multimodal** interpreta o genera distintos formatos, como texto, imágenes o audio. En el **Bloque 3 · Generación Multimodal** aprenderemos a elegirlos por su valor pedagógico, revisar el resultado y atender a la accesibilidad.
+Si una conversación se alarga demasiado o cambia de objetivo, resume lo importante o abre un hilo nuevo.
 
----
+Las funciones concretas cambian con frecuencia. Consulta el [Radar de herramientas](herramientas-ia-actualizadas.md) para revisar opciones, condiciones de acceso y límites actualizados.
 
-## 4. Modos para tareas complejas
+### Mapa conceptual del bloque
 
-Algunas herramientas ofrecen modos que dedican más tiempo y recursos a tareas complejas. Pueden ayudar en problemas con varios pasos, pero no garantizan una respuesta correcta.
+<img src="{{ '/assets/img/bloque0-mapa-conceptual.svg' | relative_url }}" alt="Mapa conceptual del Bloque 0: la IA generativa permite conversar, trabajar con documentos, investigar y ejecutar procesos; sus resultados requieren revisar errores, fuentes, sesgos y adecuación al contexto, y el trabajo docente sigue un ciclo de necesidad, contexto y fuentes, primera respuesta, revisión, verificación y aplicación." style="width: 100%; height: auto;">
 
-**Pide:**
+El criterio que utilizaremos durante el curso será siempre el mismo:
 
-- una explicación;
-- pasos verificables;
-- los criterios utilizados;
-- fuentes;
-- una justificación observable.
+**NECESIDAD → CONTEXTO/FUENTES → 1.ª RESPUESTA → REVISIÓN → VERIFICACIÓN → APLICACIÓN**
 
 ---
 
-## 5. Contexto y memoria
+## 3. Cuándo desconfiar
 
-| Concepto | Significado |
-|:---------|:------------|
-| **Contexto** | Información activa en la conversación: instrucciones, mensajes y documentos aportados. |
-| **Memoria** | Información que algunos servicios pueden conservar entre conversaciones, según la herramienta y su configuración. |
+### Alucinaciones
 
-Si una conversación se alarga demasiado o cambia de objetivo, resume o abre un hilo nuevo.
+Una **alucinación** es una respuesta incorrecta o inventada con apariencia plausible.
 
----
-
-## 6. Errores y alucinaciones
-
-Una **alucinación** es una respuesta incorrecta o inventada con apariencia plausible. Puede incluir:
+Por ejemplo:
 
 - un artículo inexistente de una norma;
 - una referencia bibliográfica inventada;
-- una fecha o cifra incorrecta;
+- una cifra incorrecta;
 - un criterio de evaluación que no aparece en el decreto citado.
 
 {: .callout .callout--recuerda }
-**FLUIDEZ ≠ VERDAD**<br>
+**FLUIDEZ ≠ VERDAD**  
 **CITA ≠ GARANTÍA DE INTERPRETACIÓN CORRECTA**
+
+### Sesgos y ausencias
+
+La IA puede reproducir sesgos o dejar perspectivas fuera. En materiales educativos conviene revisar especialmente cuestiones de **género, cultura, capacidad, diversidad y contexto local**.
+
+Pedir a una herramienta que «sea neutral» no elimina automáticamente estos problemas.
 
 ### Cómo reducir el riesgo
 
@@ -116,107 +106,67 @@ Una **alucinación** es una respuesta incorrecta o inventada con apariencia plau
 - Revisa nombres, cifras, fechas y citas.
 - Para normativa, vuelve al DOGV, BOE o texto oficial correspondiente.
 
-Las herramientas documentales, como NotebookLM, pueden fundamentar mejor las respuestas en fuentes aportadas y facilitar el rastreo mediante citas, pero la fuente y la interpretación siguen necesitando revisión.
+Las herramientas documentales pueden facilitar el trabajo con fuentes y el rastreo mediante citas, pero la fuente y su interpretación siguen necesitando revisión.
 
 ---
 
-## 7. Sesgos y ausencias
-
-En los materiales educativos conviene revisar posibles sesgos de:
-
-- **género**;
-- **cultura**;
-- **capacidad**;
-- **contexto local**;
-- **lenguaje y diversidad**.
-
-La revisión humana debe detectar estereotipos, ausencias y desajustes con la realidad del alumnado: pedir a la herramienta que «sea neutral» no basta.
-
----
-
-## 8. Privacidad: qué no debemos compartir
-
-{: .callout .callout--privacidad }
-**NO COMPARTAS:**
-
-- nombres;
-- notas;
-- diagnósticos;
-- datos de salud;
-- situaciones familiares;
-- documentación sensible;
-- imágenes o trabajos identificables.
-
-Si no necesitas datos reales, utiliza datos ficticios o anonimizados.
-
----
-
-## 9. Cuándo no utilizar IA
-
-**Datos personales o sensibles.** No compartas información identificable, sanitaria, familiar o confidencial sin una base y unas condiciones institucionales adecuadas.
-
-**Decisiones importantes sobre personas.** No delegues diagnósticos, calificaciones, orientación, disciplina, adaptaciones ni decisiones que puedan afectar al alumnado.
-
-**Información que debe ser exacta.** La normativa, los datos médicos y cualquier resultado importante requieren fuentes vigentes, comprobación y, cuando corresponda, criterio especializado.
-
-**Situaciones delicadas.** La evaluación, los conflictos o los casos que exigen comprender el contexto necesitan supervisión y decisión profesional.
-
-{: .callout .callout--reflexion }
-**Pregunta antes de empezar**
-¿Esta tarea se beneficia realmente de la IA o hacerla sin IA tiene un valor profesional o formativo que conviene preservar?
-
-{: .callout .callout--privacidad }
-**Saber cuándo no utilizar IA también es una competencia profesional.**
-
----
-
-## 10. Un marco legal que exige prudencia
-
-El [Reglamento (UE) 2024/1689](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689), conocido como Reglamento Europeo de IA, establece un enfoque basado en riesgos. Algunos usos educativos, en especial los que afectan al acceso, la evaluación o decisiones relevantes sobre personas, pueden estar sujetos a requisitos específicos.
-
-En la práctica debemos asegurar supervisión humana, transparencia, alfabetización en IA y gestión del riesgo. Las instrucciones vigentes de la Generalitat Valenciana y del centro prevalecen; esta introducción no sustituye el asesoramiento jurídico.
-
----
-
-## 11. Qué puede aportar y qué no garantiza
+## 4. Qué puede aportar y qué no garantiza
 
 | Puede ayudar a… | No garantiza… |
 |:----------------|:--------------|
-| Resumir y reorganizar información | Verdad o actualidad |
-| Crear y revisar borradores | Comprensión humana |
-| Transformar contenidos y formatos | Criterio pedagógico |
-| Identificar patrones o elementos recurrentes | Ausencia de errores o sesgos |
-| Proponer preguntas, alternativas y materiales | Privacidad por defecto |
-| Apoyar un proceso documentado y supervisado | Corrección de fuentes ni sustitución de la responsabilidad profesional |
+| Crear y transformar borradores | Verdad |
+| Trabajar con información | Fuentes correctas |
+| Proponer alternativas | Criterio pedagógico |
+| Apoyar procesos | Decisiones profesionales |
 
 ---
 
-## 12. Referentes de competencia en IA
+## 5. Límites: privacidad, ética y legal
 
-El [Marco de competencias para docentes en materia de IA de UNESCO](https://www.unesco.org/es/articles/marco-de-competencias-para-docentes-en-materia-de-ia), publicado en **2024**, organiza las competencias en cinco dimensiones: enfoque humano, ética, fundamentos y aplicaciones, pedagogía y aprendizaje profesional. Propone tres niveles: **adquirir, profundizar y crear**.
+Estos límites ayudan a decidir **cuándo y cómo utilizar la IA de forma responsable**.
 
-UNESCO publicó también en 2024 un [marco de competencias en IA para estudiantes](https://www.unesco.org/en/articles/ai-competency-framework-students), que retomaremos en el Bloque 4.
+### Qué no compartir en las prácticas del curso
+
+{: .callout .callout--privacidad }
+**En las prácticas del curso no introduzcas datos personales ni sensibles.** Evita nombres, calificaciones, diagnósticos, datos de salud, situaciones familiares, documentación confidencial, imágenes o trabajos identificables. Utiliza datos ficticios o correctamente anonimizados.
+
+En situaciones reales, sigue las instrucciones institucionales y comprueba las condiciones del servicio antes de utilizar información del centro.
+
+### Cuándo no utilizar IA
+
+**Decisiones sobre personas**  
+No delegues diagnósticos, calificaciones, orientación, disciplina ni decisiones relevantes sobre adaptaciones.
+
+**Información que debe ser exacta**  
+La normativa, la información relacionada con la salud u otros datos con consecuencias requieren fuentes vigentes y comprobación.
+
+**Situaciones delicadas**  
+La evaluación, los conflictos o las situaciones que requieren conocer el contexto y la trayectoria del alumnado necesitan criterio y supervisión profesional.
+
+{: .callout .callout--reflexion }
+**Pregunta antes de empezar:** ¿Esta tarea se beneficia realmente de la IA o hacerla sin IA tiene un valor profesional o formativo que conviene preservar?
+
+**Saber cuándo no utilizar IA también es una competencia profesional.**
+
+### Marco legal
+
+El [Reglamento (UE) 2024/1689](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689) (Reglamento Europeo de IA) establece un enfoque basado en riesgos. Algunos usos educativos, especialmente los relacionados con el acceso, la evaluación o decisiones relevantes sobre personas, pueden estar sujetos a requisitos específicos según el sistema y el contexto.
+
+En la práctica, deben seguirse además las instrucciones vigentes de la Generalitat Valenciana y del centro. Esta introducción no sustituye asesoramiento jurídico.
 
 ---
 
-## 13. El ciclo que practicaremos
+## 6. Actividad de inicio
 
-{: .callout .callout--idea }
-**NECESIDAD → CONTEXTO/FUENTES → PRIMERA RESPUESTA → REVISIÓN → VERIFICACIÓN → APLICACIÓN**
-
-Este ciclo guiará el trabajo con necesidades docentes reales en los bloques siguientes.
-
----
-
-## 14. Actividad de inicio
-
-Antes de la primera sesión, dedica unos minutos a estas preguntas. **No hay entrega obligatoria.**
+Dedica unos minutos a estas preguntas antes de la primera sesión. **No hay entrega obligatoria.**
 
 1. ¿En qué tarea real de tu práctica docente crees que una IA podría aportar valor? ¿Qué esperas que aporte?
 2. ¿Qué tarea docente crees que no debería delegarse a una IA? ¿Por qué?
 3. ¿Qué necesitarías comprobar antes de utilizar una respuesta generada por IA en tu aula?
 
-Lleva tus respuestas a la primera sesión: servirán como punto de partida del Bloque 1.
+Lleva tus respuestas a la primera sesión: serán el punto de partida del Bloque 1.
+
+> El [Marco de competencias para docentes en materia de IA de UNESCO](https://www.unesco.org/es/articles/marco-de-competencias-para-docentes-en-materia-de-ia) (2024) organiza 15 competencias en cinco dimensiones y tres niveles de progresión: **adquirir, profundizar y crear**. Este curso conecta especialmente con los niveles de adquirir y profundizar.
 
 ---
 
@@ -225,9 +175,9 @@ Lleva tus respuestas a la primera sesión: servirán como punto de partida del B
 - La IA generativa produce contenido, pero no comprende como una persona.
 - Puede equivocarse aunque responda con fluidez.
 - Las fuentes, las citas y su interpretación necesitan revisión.
-- Los datos personales y sensibles no deben compartirse.
+- En las prácticas utilizamos datos ficticios o anonimizados.
 - Las decisiones profesionales sobre el alumnado no se delegan en una IA.
-- Saber cuándo no utilizar IA es una competencia profesional.
+- Saber cuándo no utilizar IA también es una competencia profesional.
 
 ---
 

@@ -1,0 +1,178 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 920"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Mapa conceptual del Bloque 0: ¿Qué es la IA?</title>
+  <desc id="desc">
+    La IA generativa permite conversar y generar, trabajar con documentos,
+    buscar e investigar y ejecutar procesos. Sus resultados requieren revisar
+    errores, fuentes, sesgos y adecuación al contexto. Las decisiones
+    profesionales y la información sensible requieren supervisión humana.
+    El ciclo de trabajo es necesidad, contexto y fuentes, primera respuesta,
+    revisión, verificación y aplicación.
+  </desc>
+
+  <style>
+    .title {
+      font: 700 34px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: #1f2937;
+    }
+    .branch-title {
+      font: 700 22px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: #1f2937;
+    }
+    .text {
+      font: 18px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: #374151;
+    }
+    .small {
+      font: 16px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: #374151;
+    }
+    .flow {
+      font: 700 15px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: #1f2937;
+    }
+    .line {
+      stroke: #64748b;
+      stroke-width: 3;
+      fill: none;
+    }
+  </style>
+
+  <!-- Fondo -->
+  <rect width="1200" height="920" rx="28" fill="#ffffff"/>
+
+  <!-- Nodo central -->
+  <rect x="400" y="40" width="400" height="90" rx="24"
+        fill="#eef2ff" stroke="#6366f1" stroke-width="3"/>
+  <text x="600" y="96" text-anchor="middle" class="title">
+    IA GENERATIVA
+  </text>
+
+  <!-- Conectores principales -->
+  <path d="M600 130 L600 170" class="line"/>
+  <path d="M600 170 L200 170 L200 215" class="line"/>
+  <path d="M600 170 L600 215" class="line"/>
+  <path d="M600 170 L1000 170 L1000 215" class="line"/>
+
+  <!-- Rama 1 -->
+  <rect x="40" y="215" width="320" height="330" rx="24"
+        fill="#eff6ff" stroke="#60a5fa" stroke-width="2.5"/>
+
+  <text x="200" y="258" text-anchor="middle" class="branch-title">
+    QUÉ PODEMOS HACER
+  </text>
+
+  <text x="75" y="310" class="text">• Conversar y generar</text>
+  <text x="75" y="355" class="text">• Trabajar con documentos</text>
+  <text x="75" y="400" class="text">• Buscar e investigar</text>
+  <text x="75" y="445" class="text">• Ejecutar procesos</text>
+
+  <text x="75" y="500" class="small">
+    Distintas herramientas pueden
+  </text>
+  <text x="75" y="525" class="small">
+    combinar varias capacidades.
+  </text>
+
+  <!-- Rama 2 -->
+  <rect x="440" y="215" width="320" height="330" rx="24"
+        fill="#f0fdf4" stroke="#4ade80" stroke-width="2.5"/>
+
+  <text x="600" y="258" text-anchor="middle" class="branch-title">
+    QUÉ DEBEMOS REVISAR
+  </text>
+
+  <text x="475" y="310" class="text">• Errores y alucinaciones</text>
+  <text x="475" y="355" class="text">• Fuentes y citas</text>
+  <text x="475" y="400" class="text">• Sesgos y ausencias</text>
+  <text x="475" y="445" class="text">• Adecuación al contexto</text>
+
+  <text x="475" y="500" class="small">
+    Fluidez y citas no sustituyen
+  </text>
+  <text x="475" y="525" class="small">
+    la verificación humana.
+  </text>
+
+  <!-- Rama 3 -->
+  <rect x="840" y="215" width="320" height="330" rx="24"
+        fill="#fff7ed" stroke="#fb923c" stroke-width="2.5"/>
+
+  <text x="1000" y="258" text-anchor="middle" class="branch-title">
+    QUÉ NO DEBEMOS DELEGAR
+  </text>
+
+  <text x="875" y="310" class="text">• Datos sensibles</text>
+  <text x="875" y="355" class="text">• Decisiones sobre personas</text>
+  <text x="875" y="400" class="text">• Responsabilidad profesional</text>
+  <text x="875" y="445" class="text">• Verificación crítica</text>
+
+  <text x="875" y="500" class="small">
+    La responsabilidad final
+  </text>
+  <text x="875" y="525" class="small">
+    sigue siendo profesional.
+  </text>
+
+  <!-- Separador -->
+  <line x1="80" y1="600" x2="1120" y2="600"
+        stroke="#e5e7eb" stroke-width="2"/>
+
+  <text x="600" y="650" text-anchor="middle" class="branch-title">
+    EL CICLO QUE PRACTICAREMOS
+  </text>
+
+  <!-- Flujo -->
+  <rect x="35" y="700" width="150" height="70" rx="18"
+        fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="110" y="742" text-anchor="middle" class="flow">NECESIDAD</text>
+
+  <path d="M185 735 L215 735" class="line"/>
+  <polygon points="215,735 203,728 203,742" fill="#64748b"/>
+
+  <rect x="220" y="700" width="170" height="70" rx="18"
+        fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="305" y="728" text-anchor="middle" class="flow">CONTEXTO</text>
+  <text x="305" y="749" text-anchor="middle" class="flow">/ FUENTES</text>
+
+  <path d="M390 735 L420 735" class="line"/>
+  <polygon points="420,735 408,728 408,742" fill="#64748b"/>
+
+  <rect x="425" y="700" width="150" height="70" rx="18"
+        fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="500" y="728" text-anchor="middle" class="flow">1.ª</text>
+  <text x="500" y="749" text-anchor="middle" class="flow">RESPUESTA</text>
+
+  <path d="M575 735 L605 735" class="line"/>
+  <polygon points="605,735 593,728 593,742" fill="#64748b"/>
+
+  <rect x="610" y="700" width="150" height="70" rx="18"
+        fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="685" y="742" text-anchor="middle" class="flow">REVISIÓN</text>
+
+  <path d="M760 735 L790 735" class="line"/>
+  <polygon points="790,735 778,728 778,742" fill="#64748b"/>
+
+  <rect x="795" y="700" width="170" height="70" rx="18"
+        fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="880" y="742" text-anchor="middle" class="flow">VERIFICACIÓN</text>
+
+  <path d="M965 735 L995 735" class="line"/>
+  <polygon points="995,735 983,728 983,742" fill="#64748b"/>
+
+  <rect x="1000" y="700" width="165" height="70" rx="18"
+        fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="1082" y="742" text-anchor="middle" class="flow">APLICACIÓN</text>
+
+  <!-- Cierre -->
+  <rect x="260" y="820" width="680" height="58" rx="18"
+        fill="#f9fafb" stroke="#d1d5db" stroke-width="2"/>
+
+  <text x="600" y="855" text-anchor="middle" class="text">
+    La IA propone · el profesorado revisa, verifica y decide
+  </text>
+</svg>
