@@ -1,0 +1,347 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 900 1050"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Mapa de trabajo del Bloque 1</title>
+
+  <desc id="desc">
+    El trabajo comienza con una necesidad docente. Después se elige una
+    herramienta adecuada, se aporta contexto seguro y se obtiene un primer
+    borrador para tareas de documentación, comunicación u organización.
+    Finalmente el profesorado revisa, refina, verifica y aplica el resultado.
+    La privacidad y el criterio profesional son transversales a todo el proceso.
+  </desc>
+
+  <style>
+    .main-title {
+      font: 700 32px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: #1f2937;
+    }
+
+    .step-title {
+      font: 700 21px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: #1f2937;
+    }
+
+    .text {
+      font: 17px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: #374151;
+    }
+
+    .small {
+      font: 16px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: #4b5563;
+    }
+
+    .chip {
+      font: 700 16px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: #1f2937;
+    }
+
+    .line {
+      stroke: #64748b;
+      stroke-width: 3;
+      fill: none;
+    }
+  </style>
+
+  <!-- Fondo -->
+  <rect
+    width="900"
+    height="1050"
+    rx="28"
+    fill="#ffffff"
+  />
+
+  <!-- Título -->
+  <text
+    x="450"
+    y="55"
+    text-anchor="middle"
+    class="main-title"
+  >
+    DEL PROBLEMA DOCENTE A UN RESULTADO ÚTIL
+  </text>
+
+  <!-- Paso 1 -->
+  <rect
+    x="170"
+    y="95"
+    width="560"
+    height="105"
+    rx="24"
+    fill="#eef2ff"
+    stroke="#6366f1"
+    stroke-width="3"
+  />
+
+  <text
+    x="450"
+    y="137"
+    text-anchor="middle"
+    class="step-title"
+  >
+    1 · NECESIDAD DOCENTE
+  </text>
+
+  <text
+    x="450"
+    y="172"
+    text-anchor="middle"
+    class="text"
+  >
+    ¿Qué necesito resolver, preparar u organizar?
+  </text>
+
+  <!-- Flecha -->
+  <path d="M450 200 L450 235" class="line"/>
+  <polygon points="450,245 441,230 459,230" fill="#64748b"/>
+
+  <!-- Paso 2 -->
+  <rect
+    x="170"
+    y="245"
+    width="560"
+    height="125"
+    rx="24"
+    fill="#eff6ff"
+    stroke="#60a5fa"
+    stroke-width="2.5"
+  />
+
+  <text
+    x="450"
+    y="287"
+    text-anchor="middle"
+    class="step-title"
+  >
+    2 · ELEGIR HERRAMIENTA
+  </text>
+
+  <text
+    x="450"
+    y="322"
+    text-anchor="middle"
+    class="text"
+  >
+    Acceso · privacidad · tipo de tarea · fuentes · formato
+  </text>
+
+  <text
+    x="450"
+    y="349"
+    text-anchor="middle"
+    class="small"
+  >
+    La herramienta se elige después de definir la necesidad.
+  </text>
+
+  <!-- Flecha -->
+  <path d="M450 370 L450 405" class="line"/>
+  <polygon points="450,415 441,400 459,400" fill="#64748b"/>
+
+  <!-- Paso 3 -->
+  <rect
+    x="170"
+    y="415"
+    width="560"
+    height="120"
+    rx="24"
+    fill="#f0fdf4"
+    stroke="#4ade80"
+    stroke-width="2.5"
+  />
+
+  <text
+    x="450"
+    y="457"
+    text-anchor="middle"
+    class="step-title"
+  >
+    3 · CONTEXTO SEGURO
+  </text>
+
+  <text
+    x="450"
+    y="492"
+    text-anchor="middle"
+    class="text"
+  >
+    Información necesaria · datos ficticios · criterios claros
+  </text>
+
+  <text
+    x="450"
+    y="519"
+    text-anchor="middle"
+    class="small"
+  >
+    Compartir solo lo necesario para realizar la tarea.
+  </text>
+
+  <!-- Flecha -->
+  <path d="M450 535 L450 570" class="line"/>
+  <polygon points="450,580 441,565 459,565" fill="#64748b"/>
+
+  <!-- Primer borrador -->
+  <rect
+    x="110"
+    y="580"
+    width="680"
+    height="165"
+    rx="24"
+    fill="#fff7ed"
+    stroke="#fb923c"
+    stroke-width="2.5"
+  />
+
+  <text
+    x="450"
+    y="622"
+    text-anchor="middle"
+    class="step-title"
+  >
+    4 · PRIMER BORRADOR
+  </text>
+
+  <!-- Chips -->
+  <rect
+    x="155"
+    y="655"
+    width="175"
+    height="55"
+    rx="16"
+    fill="#ffffff"
+    stroke="#fdba74"
+    stroke-width="2"
+  />
+
+  <text
+    x="242"
+    y="689"
+    text-anchor="middle"
+    class="chip"
+  >
+    DOCUMENTACIÓN
+  </text>
+
+  <rect
+    x="363"
+    y="655"
+    width="175"
+    height="55"
+    rx="16"
+    fill="#ffffff"
+    stroke="#fdba74"
+    stroke-width="2"
+  />
+
+  <text
+    x="450"
+    y="689"
+    text-anchor="middle"
+    class="chip"
+  >
+    COMUNICACIÓN
+  </text>
+
+  <rect
+    x="570"
+    y="655"
+    width="175"
+    height="55"
+    rx="16"
+    fill="#ffffff"
+    stroke="#fdba74"
+    stroke-width="2"
+  />
+
+  <text
+    x="657"
+    y="689"
+    text-anchor="middle"
+    class="chip"
+  >
+    ORGANIZACIÓN
+  </text>
+
+  <text
+    x="450"
+    y="730"
+    text-anchor="middle"
+    class="small"
+  >
+    La IA propone. El resultado todavía no está terminado.
+  </text>
+
+  <!-- Flecha -->
+  <path d="M450 745 L450 780" class="line"/>
+  <polygon points="450,790 441,775 459,775" fill="#64748b"/>
+
+  <!-- Revisión -->
+  <rect
+    x="120"
+    y="790"
+    width="660"
+    height="115"
+    rx="24"
+    fill="#f8fafc"
+    stroke="#94a3b8"
+    stroke-width="2.5"
+  />
+
+  <text
+    x="450"
+    y="832"
+    text-anchor="middle"
+    class="step-title"
+  >
+    5 · REVISAR → REFINAR → VERIFICAR
+  </text>
+
+  <text
+    x="450"
+    y="868"
+    text-anchor="middle"
+    class="text"
+  >
+    Exactitud · tono · omisiones · fuentes · privacidad
+  </text>
+
+  <!-- Flecha -->
+  <path d="M450 905 L450 930" class="line"/>
+  <polygon points="450,940 441,925 459,925" fill="#64748b"/>
+
+  <!-- Aplicación -->
+  <rect
+    x="265"
+    y="940"
+    width="370"
+    height="70"
+    rx="22"
+    fill="#eef2ff"
+    stroke="#6366f1"
+    stroke-width="3"
+  />
+
+  <text
+    x="450"
+    y="983"
+    text-anchor="middle"
+    class="step-title"
+  >
+    6 · APLICAR CON CRITERIO
+  </text>
+
+  <!-- Banda transversal -->
+  <text
+    x="450"
+    y="1037"
+    text-anchor="middle"
+    class="small"
+  >
+    PRIVACIDAD · VERIFICACIÓN · CRITERIO PROFESIONAL
+  </text>
+</svg>

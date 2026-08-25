@@ -1,32 +1,36 @@
 ---
 layout: page
-title: "Bloque 1: IA Colaborativa y Gestión GVA"
+title: "Bloque 1 · IA Colaborativa y Gestión GVA"
 nav_order: 4
 has_children: true
-release_at: 2026-04-20T14:00:00+02:00
-# PENDIENTE DE ACTUALIZAR PARA LA EDICIÓN 2026-2027
 ---
 
 # Bloque 1 · IA Colaborativa y Gestión GVA
 {: .fs-8 }
 
-Entra en este bloque con una idea sencilla: empezar por tareas pequeñas, útiles y fáciles de transferir a tu práctica docente.
+Empieza por una necesidad concreta. La herramienta viene después.
 {: .fs-5 .fw-300 }
+
+---
+
+{: .callout .callout--idea }
+**Para qué sirve este bloque**  
+Aprenderás a utilizar asistentes de IA en tareas habituales de comunicación, documentación y organización, aportando contexto, revisando los resultados y manteniendo siempre el criterio profesional.
+
+Duración aproximada: **8 horas**.
 
 ---
 
 ## Objetivos del bloque
 
-Al finalizar este bloque serás capaz de:
+Al finalizar serás capaz de:
 
-- comprobar qué asistente de IA está disponible mediante tu cuenta institucional;
+- comprobar qué herramientas tienes disponibles y en qué condiciones;
 - crear y revisar borradores de documentos docentes;
-- redactar y adaptar comunicaciones profesionales;
-- organizar información, documentación y plantillas reutilizables;
-- aportar contexto relevante sin exponer datos innecesarios;
-- revisar exactitud, tono, omisiones y privacidad antes de utilizar un resultado;
-- distinguir una práctica segura de otra inadecuada con información del alumnado o del centro;
-- aplicar el proceso aprendido a una necesidad real de tu práctica.
+- preparar comunicaciones profesionales claras y adecuadas;
+- organizar información mediante estructuras y plantillas;
+- aportar contexto sin exponer datos innecesarios;
+- revisar exactitud, tono, omisiones, privacidad y utilidad antes de aplicar un resultado.
 
 ---
 
@@ -34,240 +38,168 @@ Al finalizar este bloque serás capaz de:
 
 Encontrarás tres tipos de contenido:
 
-- **Contenido esencial:** criterios y procesos que necesitas comprender.
-- **Prácticas del bloque:** propuestas guiadas que no requieren entrega.
-- **Ampliación:** exploraciones opcionales para quien quiera profundizar.
+- **Esencial:** ideas y procesos que necesitas comprender.
+- **Prácticas:** propuestas breves para experimentar.
+- **Ampliación:** posibilidades que puedes explorar si resultan útiles en tu contexto.
 
-### Qué se espera de ti esta semana
+### Entrega del bloque
 
-- Comprobar qué herramienta tienes disponible.
-- Realizar varias prácticas guiadas.
-- Revisar al menos un borrador generado con IA.
-- Entregar una única actividad del bloque.
-- Reflexionar sobre qué decisiones has mantenido bajo tu criterio.
+Debes entregar **una única actividad individual**.
 
-### Entrega del Bloque 1
+La opción recomendada es realizar la actividad adaptada a tu etapa:
 
-Para completar el bloque debes entregar **una única actividad individual**. Elige una de estas rutas:
+- [Educación Infantil]({{ '/bloque1-actividad-infantil.html' | relative_url }})
+- [Educación Primaria]({{ '/bloque1-actividad-primaria.html' | relative_url }})
+- [Educación Secundaria]({{ '/bloque1-actividad-secundaria.html' | relative_url }})
+- [EOI]({{ '/bloque1-actividad-eoi.html' | relative_url }})
+- [Formación Profesional]({{ '/bloque1-actividad-fp.html' | relative_url }})
 
-Todas las rutas tienen el mismo valor formativo; elige la que mejor se adapte a tu contexto profesional.
+Si ninguna encaja con tu situación profesional, puedes utilizar como alternativa la **Práctica B** o la **Práctica C** de esta página.
 
-#### Ruta recomendada · Actividad adaptada a tu etapa
+Todas las rutas tienen el mismo valor formativo.
 
-- [Actividad Infantil](bloque1-actividad-infantil.html)
-- [Actividad Primaria](bloque1-actividad-primaria.html)
-- [Actividad Secundaria](bloque1-actividad-secundaria.html)
-- [Actividad EOI](bloque1-actividad-eoi.html)
-- [Actividad Formación Profesional](bloque1-actividad-fp.html)
+La entrega incluirá:
 
-#### Ruta alternativa · Actividad general
-
-Elige **una**:
-
-- **Actividad 1.1 · Borrador de acta con datos ficticios**.
-- **Actividad 1.3 · Propuesta de organización documental**.
-
-### Evidencia de aprendizaje
-
-La entrega debe incluir:
-
-- el producto o borrador final revisado;
-- la necesidad o contexto de partida, sin datos personales;
-- una muestra breve de cómo trabajaste con la IA;
-- los cambios que realizaste como docente;
-- una reflexión breve: qué funcionó, qué corregiste, qué no delegaste y qué verificaste.
-
-No necesitas documentar procesos internos de razonamiento de la herramienta. El formato de entrega será el indicado en Aules.
+- el producto final revisado;
+- el contexto utilizado, sin datos personales;
+- un ejemplo breve de las instrucciones o interacción con la IA;
+- los cambios realizados por ti;
+- una reflexión breve sobre qué funcionó, qué corregiste y qué decidiste no delegar.
 
 {: .callout .callout--privacidad }
-**Uso seguro durante todo el bloque**
-Cuando Copilot Chat esté disponible mediante la cuenta institucional, puede ofrecer condiciones de protección asociadas al entorno Microsoft 365 de la organización. Aun así, **cuenta institucional ≠ permiso para introducir cualquier dato**.
-
-No introduzcas nombres reales del alumnado, calificaciones, diagnósticos, situaciones familiares, información sensible, actas reales confidenciales ni documentación interna no autorizada. Para las prácticas utiliza datos ficticios o correctamente anonimizados y sigue siempre las instrucciones de la GVA y del centro.
+**Uso seguro durante todo el bloque**  
+En las prácticas no introduzcas nombres reales, calificaciones, diagnósticos, situaciones familiares, actas confidenciales ni documentación interna no autorizada. Utiliza datos ficticios o correctamente anonimizados.  
+**Cuenta institucional ≠ permiso para introducir cualquier dato.**
 
 ---
 
-## 1.1 · Comprobar qué experiencia de Copilot tienes disponible
+## 1. Tu herramienta
 
-Microsoft utiliza el nombre Copilot para experiencias distintas. Para este bloque basta con distinguir tres situaciones:
+No existe una herramienta adecuada para todas las tareas.
 
-1. **Microsoft Copilot para uso personal**, cuando se accede con una cuenta personal.
-2. **Copilot Chat con cuenta institucional**, cuando está disponible para una cuenta profesional o educativa elegible.
-3. **Microsoft 365 Copilot**, con funciones adicionales cuya disponibilidad depende de la licencia y de la configuración de la organización.
+En el entorno GVA, comienza comprobando qué tienes realmente disponible con tu cuenta institucional:
 
-Antes de una práctica:
+- **Qué servicio puedes utilizar.**
+- **Qué funciones están habilitadas.**
+- **Si es adecuado para la información y la tarea que vas a realizar.**
 
-1. Comprueba con qué cuenta has iniciado sesión.
-2. Revisa qué experiencia y funciones aparecen realmente.
-3. Ten en cuenta que las funciones dependen de la licencia, el despliegue y la configuración institucional.
-4. No asumas que todas las cuentas GVA ofrecen lo mismo ni interpretes un indicador visual como autorización para introducir datos sensibles.
+Microsoft ofrece distintas experiencias bajo la denominación **Copilot**, y sus funciones pueden depender de la licencia, el despliegue y la configuración institucional.
 
-Puedes probar el acceso desde la [aplicación web de Microsoft 365 Copilot](https://m365.cloud.microsoft/) con tu cuenta institucional. La disponibilidad no es igual para todas las cuentas `@edu.gva.es` y puede depender de la licencia, el despliegue y la configuración de la organización.
+La disponibilidad puede variar entre cuentas educativas. **Compruébala antes de realizar la actividad.**
+
+Si Copilot no está disponible o no resulta adecuado, utiliza otra opción del [Radar de herramientas]({{ '/herramientas-ia-actualizadas.html' | relative_url }}).
 
 {: .callout .callout--recuerda }
-**Cuenta institucional y protección de datos**
-Microsoft ofrece protecciones organizativas en determinadas experiencias profesionales y educativas. Estas condiciones no eliminan la responsabilidad docente ni convierten los datos personales, sensibles o confidenciales en información adecuada para una práctica con IA.
+**Lo importante en este bloque no es aprender una interfaz concreta, sino un proceso que puedas trasladar a distintas herramientas.**
 
-Si Copilot no está disponible mediante tu cuenta institucional, utiliza una alternativa del [Radar de herramientas](herramientas-ia-actualizadas.md) adecuada para la tarea. No introduzcas información personal o sensible en una cuenta personal o servicio no autorizado.
+### Cómo elegir una herramienta
 
-Las prácticas pueden realizarse con otros asistentes adecuados. **Lo importante es aprender el proceso, no memorizar una interfaz.**
+| Criterio | Pregunta útil |
+|:---------|:--------------|
+| **Acceso** | ¿Puedo utilizarla con una cuenta autorizada? |
+| **Privacidad** | ¿Qué información necesita realmente esta tarea? |
+| **Tarea** | ¿Necesito conversar, transformar, trabajar con documentos o investigar? |
+| **Fuentes** | ¿Podré comprobar la información importante? |
+| **Formato** | ¿El resultado se puede revisar y adaptar con facilidad? |
+
+### Mapa de trabajo del bloque
+
+<img src="{{ '/assets/img/bloque1-mapa-trabajo.svg' | relative_url }}" alt="Mapa del Bloque 1: una necesidad docente lleva a elegir una herramienta adecuada, aportar contexto seguro y crear un primer borrador para tareas de documentación, comunicación u organización. Después el profesorado revisa, refina, verifica y aplica el resultado, manteniendo de forma transversal la privacidad y el criterio profesional." style="width: 100%; height: auto;">
+
+El proceso será siempre parecido:
+
+**NECESIDAD → HERRAMIENTA ADECUADA → CONTEXTO SEGURO → PRIMER BORRADOR → REVISIÓN → VERIFICACIÓN → APLICACIÓN**
 
 ---
 
-## 1.2 · Borradores de actas con datos ficticios
+## 2. Tareas colaborativas
 
-Un asistente puede ayudar a convertir notas desordenadas en un primer borrador de acta. No decide qué ocurrió ni qué acuerdos se adoptaron: esa información debe proceder de las notas y revisarse por una persona responsable.
+La IA puede ayudar a preparar un primer borrador, reorganizar información o proponer alternativas.
 
-{: .callout .callout--privacidad }
-**Practica únicamente con datos ficticios**
-No copies actas reales que contengan información personal, incidencias sensibles o datos confidenciales. Utiliza nombres genéricos, una fecha marcada como ficticia y situaciones inventadas.
+Eso no significa que deba decidir qué ocurrió, qué información es correcta o qué debemos comunicar.
 
-### Un andamio posible
+### Borradores de actas
 
-Para empezar puedes ordenar la petición así:
+A partir de unas notas ficticias, un asistente puede ayudarte a construir una primera estructura.
 
-**NECESIDAD + CONTEXTO + INFORMACIÓN DISPONIBLE + FORMATO + CRITERIOS**
-
-No es una fórmula obligatoria. Asignar un rol puede resultar útil en algunos casos, pero lo esencial es explicar qué necesitas, qué información puede utilizarse y qué debe respetar el resultado.
-
-### Ejemplo
+**Ejemplo:**
 
 ```text
-Necesito convertir estas notas ficticias en un borrador de acta de una reunión
-de departamento de un centro educativo.
+Necesito convertir estas notas ficticias en un borrador de acta.
 
-Información disponible:
-- Fecha: [FECHA FICTICIA].
+Información:
+- Fecha: [FICTICIA].
 - Se revisó la programación del trimestre.
-- Se acordó compartir los materiales antes de la próxima reunión.
+- Se acordó compartir materiales antes de la próxima reunión.
 - Quedó pendiente decidir la fecha de una actividad conjunta.
 
-Formato deseado:
-- encabezado;
+Organiza el borrador en:
 - puntos tratados;
-- acuerdos y asuntos pendientes;
-- cierre.
+- acuerdos;
+- asuntos pendientes.
 
-Criterios: utiliza un tono profesional y claro. No añadas nombres ni datos
-personales. No inventes acuerdos que no aparezcan en las notas. Señala como
-pendiente cualquier información que falte.
+No inventes información que no aparezca en las notas.
+Utiliza un tono profesional.
 ```
 
-### Qué revisar en cualquier borrador
+**Después revisa:**
 
-- Exactitud de fechas, asuntos y acuerdos.
-- Estructura y tono.
-- Datos inventados u omisiones.
-- Información personal o confidencial.
-- Adecuación al contexto y al modelo documental del centro.
+- fechas y acuerdos;
+- información inventada;
+- omisiones;
+- datos personales;
+- adecuación al modelo documental de tu centro.
 
-La IA genera un borrador. Tú decides qué conservar, qué modificar y qué incorporar al documento final.
-
-### Transformación posterior
-
-Una vez revisada el acta, puedes pedir una versión de consulta rápida:
-
-```text
-Extrae los acuerdos y asuntos pendientes de esta acta revisada. Preséntalos
-en una lista numerada, con lenguaje claro, sin añadir información nueva.
-```
-
-Esta transformación puede facilitar la consulta, pero no garantiza por sí sola la accesibilidad completa del documento.
+{: .callout .callout--recuerda }
+**La IA redacta un borrador. No decide qué ocurrió ni qué acuerdos se adoptaron.**
 
 ---
 
-## 1.3 · Redacción y adaptación asistida de comunicaciones
+### Comunicaciones profesionales
 
-Un asistente puede ayudar a preparar un primer borrador para familias, alumnado, equipos docentes o administración. El docente debe comprobar la información, ajustar el tono y decidir qué enviar.
+También puede ayudarte a preparar borradores de mensajes dirigidos a familias, alumnado, equipos docentes o administración.
 
-### Caso ficticio
-
-```text
-Necesito un borrador de correo dirigido a las familias de un grupo de
-Secundaria sobre una actividad complementaria ficticia.
-
-Contexto:
-- Actividad: visita a un museo local.
-- Fecha: [FECHA FICTICIA].
-- La autorización se entregará mediante el canal habitual del centro.
-- Los detalles de horario y transporte se confirmarán más adelante.
-
-Redacta un correo profesional y cercano con:
-1. motivo del mensaje;
-2. información confirmada;
-3. información todavía pendiente;
-4. instrucciones para la autorización;
-5. despedida.
-
-No inventes datos. Utiliza frases claras y evita información personal.
-```
-
-### Revisar y adaptar
-
-Después de leer el borrador puedes continuar la conversación:
+**Ejemplo:**
 
 ```text
-Reformula el correo con frases más cortas, lenguaje claro y la información
-esencial organizada en apartados.
+Necesito un borrador de correo a las familias sobre una actividad complementaria ficticia.
+
+Información confirmada:
+- actividad: visita a un museo local;
+- fecha: [FICTICIA];
+- la autorización se entregará por el canal habitual.
+
+Todavía no están confirmados:
+- horario;
+- transporte.
+
+Redacta un mensaje claro y profesional.
+Distingue la información confirmada de la pendiente.
+No inventes datos.
 ```
 
-```text
-Prepara una versión en valenciano. Mantén el contenido y el tono del texto
-revisado, y utiliza terminología educativa adecuada.
-```
+Después puedes continuar la conversación:
 
-La versión en valenciano debe revisarse antes de enviarse, especialmente en terminología administrativa o educativa. Puedes consultar los recursos de la [Acadèmia Valenciana de la Llengua](https://www.avl.gva.es/).
+> Reformula el mensaje con frases más cortas y lenguaje claro.
 
-**La IA genera un borrador. Tú decides qué conservar, qué modificar y qué enviar.**
+o:
+
+> Prepara una versión en valenciano que después pueda revisar.
+
+Antes de enviar cualquier comunicación, comprueba datos, tono, claridad y adecuación al destinatario.
 
 ---
 
-## 1.4 · Trabajar de forma iterativa
+### Organización de información
 
-No existe un prompt perfecto. Una petición inicial sirve para comenzar una conversación y mejorar el resultado mediante revisión.
+La IA también puede ayudarte a **proponer estructuras** para organizar información o crear plantillas reutilizables.
 
-### Un punto de partida flexible
-
-**NECESIDAD + CONTEXTO + TAREA + CRITERIOS**
-
-- **Necesidad:** qué problema quieres resolver.
-- **Contexto:** qué información relevante necesita conocer la herramienta.
-- **Tarea:** qué debe producir o transformar.
-- **Criterios:** qué condiciones debe cumplir el resultado.
-
-Un rol puede ayudar a ajustar el registro, pero no es imprescindible. Piensa primero qué necesitas, qué contexto debe conocer la herramienta y qué criterios debe cumplir el resultado.
-
-### El proceso
-
-**PRIMERA RESPUESTA → REVISO → REFINO → VERIFICO**
-
-Preguntas útiles para continuar:
-
-- ¿Qué información has supuesto y debería completar yo?
-- Reorganiza el borrador sin añadir datos nuevos.
-- Haz el tono más claro y profesional.
-- Señala qué afirmaciones necesitan verificación.
-- Propón dos alternativas y explica sus diferencias observables.
-
-Aportar contexto puede ayudar a obtener una respuesta más relevante y adaptada. No garantiza que sea verdadera: la exactitud y la adecuación siguen necesitando revisión.
-
-{: .callout .callout--reflexion }
-**Para pensar**
-La IA puede apoyar algunas tareas, pero también puede hacer que deleguemos decisiones que conviene mantener bajo criterio profesional. ¿Qué parte de este trabajo prefieres seguir haciendo tú?
-
----
-
-## 1.5 · Organización de información y plantillas
-
-En tareas organizativas, la IA resulta útil para proponer estructuras que el docente valida y adapta. No debe decidir distribuciones de personal, horarios complejos ni otras cuestiones que requieran reglas, datos personales y responsabilidad organizativa.
-
-### Plantilla de seguimiento de tareas del departamento
+Por ejemplo:
 
 ```text
-Necesito una plantilla semanal para hacer seguimiento de tareas de un
-departamento docente.
+Necesito una plantilla semanal para realizar el seguimiento de tareas de un departamento docente.
 
-Incluye estas columnas:
+Incluye:
 - tarea;
 - finalidad;
 - fecha prevista;
@@ -275,152 +207,142 @@ Incluye estas columnas:
 - próximo paso;
 - observaciones.
 
-Utiliza ejemplos ficticios y no asignes tareas a personas. Presenta la
-plantilla como una tabla que podamos revisar y adaptar en la reunión.
+Utiliza ejemplos ficticios.
+No asignes tareas a personas reales.
+Presenta una estructura sencilla que pueda revisar y adaptar.
 ```
 
-### Inventario de material
+El resultado es una propuesta inicial.
 
-```text
-Diseña una plantilla de inventario para material de un departamento.
+Tú decides:
 
-Columnas: número, artículo, categoría, cantidad, estado, ubicación, fecha de
-revisión y observaciones. Incluye cinco filas ficticias de ejemplo.
+**qué conservar → qué eliminar → qué adaptar → cómo utilizarlo**
 
-Después ofrece la cabecera en formato CSV para poder importarla en una hoja
-de cálculo. No incluyas datos personales.
-```
-
-Al revisar tablas y listados, utiliza encabezados descriptivos, evita abreviaturas sin explicar y organiza la información en bloques comprensibles.
-
-{: .callout .callout--idea }
-**Idea clave**
-La finalidad es crear estructuras y plantillas reutilizables que después el docente valida y adapta.
+No utilices este tipo de actividad para delegar decisiones sobre distribución de personal, horarios complejos u otros procesos que dependan de información sensible, normativa o responsabilidad organizativa.
 
 ---
 
-## 1.6 · Copilot en servicios de Microsoft 365
+## 3. Trabajo iterativo
 
-Las funciones pueden variar según la aplicación, la licencia, el despliegue y la configuración institucional. Comprueba qué aparece realmente en tu cuenta; una función ausente o disponible para otra persona no demuestra por sí sola qué licencia o configuración tienes.
+No necesitamos encontrar un «prompt perfecto».
 
-Consulta la [ayuda oficial de Microsoft Copilot](https://support.microsoft.com/es-es/copilot) y el [Radar de herramientas](herramientas-ia-actualizadas.md) para revisar las condiciones vigentes.
+Una petición inicial sirve para comenzar. El valor aparece cuando revisamos el resultado y continuamos trabajando sobre él.
 
----
+### Un punto de partida sencillo
 
-## 1.7 · Cómo elegir una herramienta
+Puedes comenzar con cuatro elementos:
 
-No hay una herramienta preferente para todas las situaciones. Antes de elegir, considera:
+**NECESIDAD + CONTEXTO + TAREA + CRITERIOS**
 
-| Criterio | Pregunta útil |
-|:---------|:--------------|
-| Disponibilidad | ¿Puedo acceder con una cuenta adecuada y autorizada? |
-| Privacidad | ¿Qué datos necesita la tarea y puedo compartirlos en este servicio? |
-| Tipo de tarea | ¿Necesito conversar, transformar, trabajar con documentos o investigar? |
-| Fuentes | ¿Puedo rastrear y comprobar la información utilizada? |
-| Formato y accesibilidad | ¿Admite el formato necesario y permite revisar su accesibilidad? |
-| Límites | ¿Qué restricciones de uso o de tamaño afectan a la actividad? |
-| Cuenta y acceso | ¿Necesito crear una cuenta? ¿Puedo utilizar una cuenta institucional? ¿El acceso está autorizado para esta tarea? |
+**Necesidad**  
+¿Qué problema quieres resolver?
 
-Consulta el [Radar de herramientas](herramientas-ia-actualizadas.md) para conocer alternativas, requisitos de cuenta, planes, límites y condiciones de acceso actualizados.
+**Contexto**  
+¿Qué información necesita conocer la herramienta?
+
+**Tarea**  
+¿Qué quieres que produzca, transforme u organice?
+
+**Criterios**  
+¿Qué condiciones debe cumplir el resultado?
+
+Un rol —«actúa como…»— puede ser útil en algunos casos para orientar el registro, pero **no es imprescindible**.
+
+Lo esencial es explicar bien qué necesitas y qué debe respetar el resultado.
+
+### De la primera respuesta a un resultado útil
+
+El trabajo continúa así:
+
+**PRIMERA RESPUESTA → REVISO → REFINO → VERIFICO**
+
+Puedes continuar con preguntas como:
+
+- ¿Qué información has supuesto y debería completar yo?
+- Reorganiza el borrador sin añadir datos nuevos.
+- Haz el texto más claro y directo.
+- Señala qué afirmaciones necesitan verificación.
+- Propón dos alternativas y explica en qué se diferencian.
+
+No necesitamos pedir el razonamiento interno del sistema. Necesitamos **resultados, criterios y pasos que podamos observar y comprobar**.
+
+{: .callout .callout--reflexion }
+**Para pensar**  
+¿Qué parte de esta tarea puede apoyar una IA y qué parte prefieres mantener bajo tu criterio profesional?
 
 ---
 
 ## Prácticas del bloque
 
-Estas prácticas sirven para experimentar y **no requieren entrega**, salvo que elijas expresamente una de las actividades generales admitidas como entrega del bloque.
+Estas propuestas sirven para experimentar.
 
-### Actividad 1.0 · Continuar la primera interacción
+**No requieren entrega**, salvo que elijas la Práctica B o C como ruta alternativa a la actividad de tu etapa.
 
-**Objetivo:** familiarizarse con la interacción conversacional y comprobar posibilidades y límites.
+### Práctica A · Continuar una necesidad
 
-Recupera una necesidad docente real de la actividad iniciada en la portada. Añade contexto y criterios sin aportar datos personales, revisa la nueva respuesta y observa qué sigue necesitando tu decisión profesional.
+Recupera una necesidad docente que hayas identificado al comenzar el curso.
 
-### Actividad 1.1 · Borrador de acta con datos ficticios
+- Explica mejor el contexto sin introducir datos personales.
+- Añade dos o tres criterios que deba cumplir la respuesta.
+- Obtén un nuevo resultado.
+- Identifica qué has tenido que revisar o decidir tú.
 
-**Tipo:** práctica general elegible para la entrega.
+No es necesario entregar esta práctica.
 
-1. Utiliza el ejemplo de la sección 1.2 con notas completamente ficticias.
-2. Revisa exactitud, estructura, omisiones, privacidad y contenido inventado.
-3. Corrige el texto y señala qué decisiones has tomado tú.
-4. Entrega la evidencia en el formato indicado en Aules; no es obligatorio utilizar Word, Copilot ni `.docx`.
+---
 
-### Actividad 1.2 · Comunicación a familias
+### Práctica B · Borrador de acta
 
-**Tipo:** práctica recomendada, sin entrega obligatoria.
+**Elegible como entrega alternativa.**
 
-1. Utiliza preferentemente un caso ficticio. Si partes de una comunicación real, elimina previamente cualquier dato personal, información sensible o referencia que permita identificar a personas.
-2. Genera un primer borrador con un asistente adecuado.
-3. Revisa contenido, tono y claridad.
-4. Si necesitas una versión en valenciano, revísala antes de utilizarla.
+Utiliza notas completamente ficticias para crear un borrador de acta.
 
-Comparar dos herramientas es opcional y solo tiene sentido si ayuda a decidir cuál se adapta mejor a la tarea.
+Después:
 
-### Actividad 1.3 · Propuesta de organización documental
+- comprueba la exactitud;
+- localiza posibles invenciones u omisiones;
+- revisa privacidad y estructura;
+- modifica personalmente el resultado.
 
-**Tipo:** práctica general elegible para la entrega.
+Conserva un pequeño ejemplo de la interacción para explicar después cómo trabajaste.
 
-Diseña, sin implementarla necesariamente:
+---
 
-- un árbol ficticio de carpetas para tu documentación docente;
+### Práctica C · Organización documental
+
+**Elegible como entrega alternativa.**
+
+Diseña una propuesta sencilla para organizar información docente.
+
+Puede incluir:
+
+- un árbol ficticio de carpetas;
 - una plantilla de seguimiento;
 - una segunda plantilla útil para tu contexto.
 
-Puedes utilizar cualquier asistente adecuado. No reorganices realmente OneDrive, no muestres carpetas personales y no envíes capturas con información privada. El docente decide después si quiere aplicar total o parcialmente la propuesta.
+No reorganices realmente tu OneDrive ni compartas capturas que contengan información privada.
 
-### Actividad 1.4 · Comparación con propósito
-
-**Tipo:** ampliación opcional.
-
-Compara dos herramientas únicamente si la comparación te ayuda a tomar una decisión. Utiliza contenido ficticio o público y valora:
-
-- adecuación a la tarea;
-- tratamiento de fuentes;
-- privacidad;
-- facilidad de revisión;
-- calidad del resultado;
-- limitaciones observadas.
-
-No es necesario elegir un ganador absoluto ni publicar la comparación como entrega.
-
-### Reflexión de cierre
-
-- ¿En qué tarea real has encontrado valor?
-- ¿Qué parte has tenido que revisar?
-- ¿Qué decisión preferiste mantener sin delegarla?
-- ¿Qué información decidiste no compartir?
-- ¿Qué cambiarás en tu forma de trabajar a partir de esta experiencia?
+El objetivo es **diseñar y evaluar una estructura**, no entregar acceso a tus archivos.
 
 ---
 
 ## Cierre del bloque
 
-En este bloque has aplicado la IA a tareas de comunicación, documentación, organización y gestión. El aprendizaje principal no es una interfaz ni una fórmula: es saber aportar contexto, obtener un borrador y revisarlo sin delegar decisiones ni compartir información inadecuada.
+En este bloque has utilizado la IA para tareas habituales de:
 
-En el **Bloque 2 · Prompting avanzado y gestión documental** aprenderás a trabajar con documentos y fuentes, investigar, contrastar información y mejorar los resultados mediante contexto, revisión y verificación.
+**comunicación · documentación · organización**
 
----
+Pero el aprendizaje principal no es una herramienta concreta.
 
-## Recursos complementarios
+Es el proceso:
 
-- [Microsoft Copilot — ayuda oficial](https://support.microsoft.com/es-es/copilot)
-- [Radar de herramientas del curso](herramientas-ia-actualizadas.md)
-- [Acadèmia Valenciana de la Llengua](https://www.avl.gva.es/)
+**definir una necesidad → aportar contexto → obtener un borrador → revisar → verificar → decidir**
 
----
-
-## Checklist de autoevaluación
-
-Antes de pasar al Bloque 2, comprueba:
-
-- [ ] Sé comprobar qué herramienta tengo disponible.
-- [ ] Sé aportar contexto sin compartir datos innecesarios.
-- [ ] Sé obtener y revisar un borrador de documento o comunicación.
-- [ ] Sé distinguir una tarea que puedo apoyar con IA de una decisión que no debo delegar.
-- [ ] Sé revisar tono, exactitud, omisiones y privacidad.
-- [ ] Sé utilizar una alternativa si mi herramienta habitual no está disponible.
-- [ ] He completado una actividad aplicable a mi práctica.
+En el **Bloque 2 · Prompting avanzado y gestión documental** profundizaremos en el trabajo con documentos y fuentes, la investigación asistida y la mejora iterativa de los resultados.
 
 ---
+
+[Continuar con el Bloque 2 →]({{ '/bloque2.html' | relative_url }})
 
 <p style="text-align:center; color:gray; font-size:0.85em;">
 Curso · código pendiente de convocatoria · CEFIRE · Generalitat Valenciana · Edición 2026-2027<br>

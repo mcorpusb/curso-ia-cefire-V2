@@ -160,9 +160,9 @@ En la práctica, deben seguirse además las instrucciones vigentes de la General
 
 Dedica unos minutos a estas preguntas antes de la primera sesión. **No hay entrega obligatoria.**
 
-1. ¿En qué tarea real de tu práctica docente crees que una IA podría aportar valor? ¿Qué esperas que aporte?
-2. ¿Qué tarea docente crees que no debería delegarse a una IA? ¿Por qué?
-3. ¿Qué necesitarías comprobar antes de utilizar una respuesta generada por IA en tu aula?
+- ¿En qué tarea real de tu práctica docente crees que una IA podría aportar valor? ¿Qué esperas que aporte?
+- ¿Qué tarea docente crees que no debería delegarse a una IA? ¿Por qué?
+- ¿Qué necesitarías comprobar antes de utilizar una respuesta generada por IA en tu aula?
 
 Lleva tus respuestas a la primera sesión: serán el punto de partida del Bloque 1.
 
