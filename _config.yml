@@ -1,0 +1,12 @@
+remote_theme: just-the-docs/just-the-docs
+title: "IA para Docentes · CEFIRE"
+description: "Curso práctico del CEFIRE sobre IA, LOMLOE y productividad en el entorno GVA."
+
+url: "https://mcorpusb.github.io"
+baseurl: "/curso-ia-cefire"
+
+# Configuración de navegación
+nav_enabled: true
+search_enabled: true
+aux_links:
+  "Acceso a Aules": "https://aules.edu.gva.es"

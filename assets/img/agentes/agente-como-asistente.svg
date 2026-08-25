@@ -1,0 +1,103 @@
+<svg width="1200" height="480" viewBox="0 0 1200 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="480" fill="white"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+
+    <!-- Título principal -->
+    <text x="600" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">Chatbot general frente a agente especializado</text>
+
+    <!-- ════════ PANEL IZQUIERDO: Chatbot general ════════ -->
+    <rect x="20" y="60" width="520" height="400" rx="14" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+    <text x="280" y="98" text-anchor="middle" font-size="22" font-weight="bold" fill="#1565C0">Chatbot general</text>
+    <text x="280" y="122" text-anchor="middle" font-size="15" fill="#1976D2">Responde sobre muchos temas distintos</text>
+
+    <!-- Cabeza robot izquierdo -->
+    <rect x="248" y="145" width="64" height="52" rx="10" fill="white" stroke="#1976D2" stroke-width="2.5"/>
+    <circle cx="266" cy="164" r="7" fill="#1976D2"/>
+    <circle cx="294" cy="164" r="7" fill="#1976D2"/>
+    <rect x="261" y="181" width="38" height="7" rx="3.5" fill="#1976D2"/>
+    <line x1="280" y1="145" x2="280" y2="126" stroke="#1976D2" stroke-width="2"/>
+    <circle cx="280" cy="121" r="6" fill="#90CAF9" stroke="#1976D2" stroke-width="1.5"/>
+
+    <!-- Burbujas de temas alrededor del robot -->
+    <rect x="38" y="143" width="118" height="30" rx="15" fill="white" stroke="#1976D2" stroke-width="1.5"/>
+    <text x="97" y="163" text-anchor="middle" font-size="14" fill="#0D47A1">Redacción</text>
+
+    <rect x="395" y="143" width="118" height="30" rx="15" fill="white" stroke="#1976D2" stroke-width="1.5"/>
+    <text x="454" y="163" text-anchor="middle" font-size="14" fill="#0D47A1">Historia</text>
+
+    <rect x="28" y="238" width="132" height="30" rx="15" fill="white" stroke="#1976D2" stroke-width="1.5"/>
+    <text x="94" y="258" text-anchor="middle" font-size="14" fill="#0D47A1">Matemáticas</text>
+
+    <rect x="392" y="238" width="118" height="30" rx="15" fill="white" stroke="#1976D2" stroke-width="1.5"/>
+    <text x="451" y="258" text-anchor="middle" font-size="14" fill="#0D47A1">Ciencias</text>
+
+    <rect x="58" y="325" width="108" height="30" rx="15" fill="white" stroke="#1976D2" stroke-width="1.5"/>
+    <text x="112" y="345" text-anchor="middle" font-size="14" fill="#0D47A1">Idiomas</text>
+
+    <rect x="385" y="325" width="108" height="30" rx="15" fill="white" stroke="#1976D2" stroke-width="1.5"/>
+    <text x="439" y="345" text-anchor="middle" font-size="14" fill="#0D47A1">Arte</text>
+
+    <rect x="220" y="358" width="118" height="30" rx="15" fill="white" stroke="#1976D2" stroke-width="1.5"/>
+    <text x="279" y="378" text-anchor="middle" font-size="14" fill="#0D47A1">Cocina</text>
+
+    <!-- Líneas del robot a las burbujas -->
+    <line x1="250" y1="165" x2="156" y2="159" stroke="#90CAF9" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="310" y1="165" x2="395" y2="159" stroke="#90CAF9" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="250" y1="185" x2="160" y2="250" stroke="#90CAF9" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="310" y1="185" x2="392" y2="250" stroke="#90CAF9" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="258" y1="197" x2="148" y2="335" stroke="#90CAF9" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="302" y1="197" x2="385" y2="335" stroke="#90CAF9" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="280" y1="197" x2="279" y2="355" stroke="#90CAF9" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Nota inferior izquierda -->
+    <text x="280" y="420" text-anchor="middle" font-size="14" fill="#444" font-style="italic">Hay que explicar el contexto cada vez que se usa</text>
+    <text x="280" y="442" text-anchor="middle" font-size="12" fill="#666">Las respuestas pueden ser demasiado genéricas</text>
+
+    <!-- ════════ VS central ════════ -->
+    <circle cx="600" cy="260" r="42" fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+    <text x="600" y="270" text-anchor="middle" font-size="26" font-weight="bold" fill="#aaa">VS</text>
+
+    <!-- ════════ PANEL DERECHO: Agente especializado ════════ -->
+    <rect x="660" y="60" width="520" height="400" rx="14" fill="#E8F5E9" stroke="#388E3C" stroke-width="2"/>
+    <text x="920" y="98" text-anchor="middle" font-size="22" font-weight="bold" fill="#1B5E20">Agente especializado</text>
+    <text x="920" y="122" text-anchor="middle" font-size="15" fill="#2E7D32">Configurado para una tarea concreta</text>
+
+    <!-- Cabeza robot derecho -->
+    <rect x="888" y="145" width="64" height="52" rx="10" fill="white" stroke="#388E3C" stroke-width="2.5"/>
+    <circle cx="906" cy="164" r="7" fill="#388E3C"/>
+    <circle cx="934" cy="164" r="7" fill="#388E3C"/>
+    <rect x="901" y="181" width="38" height="7" rx="3.5" fill="#388E3C"/>
+    <line x1="920" y1="145" x2="920" y2="126" stroke="#388E3C" stroke-width="2"/>
+    <circle cx="920" cy="119" r="8" fill="#A5D6A7" stroke="#388E3C" stroke-width="1.5"/>
+    <text x="920" y="124" text-anchor="middle" font-size="11" font-weight="bold" fill="#1B5E20">+</text>
+
+    <!-- Flecha del robot a la tarea -->
+    <line x1="920" y1="197" x2="920" y2="228" stroke="#388E3C" stroke-width="2.5"/>
+    <polygon points="920,234 913,222 927,222" fill="#388E3C"/>
+
+    <!-- Caja de tarea principal -->
+    <rect x="690" y="234" width="460" height="56" rx="12" fill="white" stroke="#388E3C" stroke-width="2"/>
+    <text x="920" y="258" text-anchor="middle" font-size="15" font-weight="bold" fill="#1B5E20">Instrucciones guardadas:</text>
+    <text x="920" y="279" text-anchor="middle" font-size="14" fill="#2E7D32">Diseñar situaciones de aprendizaje</text>
+
+    <!-- Flecha a subtareas -->
+    <line x1="920" y1="290" x2="920" y2="312" stroke="#388E3C" stroke-width="2"/>
+    <polygon points="920,318 913,306 927,306" fill="#388E3C"/>
+
+    <!-- Subtareas -->
+    <rect x="685" y="318" width="140" height="34" rx="10" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="755" y="340" text-anchor="middle" font-size="13" fill="#1B5E20">Adaptar textos</text>
+
+    <rect x="850" y="318" width="140" height="34" rx="10" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="920" y="340" text-anchor="middle" font-size="13" fill="#1B5E20">Crear rúbricas</text>
+
+    <rect x="1015" y="318" width="140" height="34" rx="10" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1.5"/>
+    <text x="1085" y="340" text-anchor="middle" font-size="13" fill="#1B5E20">Actividades</text>
+
+    <!-- Nota inferior derecha -->
+    <text x="920" y="395" text-anchor="middle" font-size="14" fill="#444" font-style="italic">Las instrucciones se aplican siempre</text>
+    <text x="920" y="415" text-anchor="middle" font-size="12" fill="#666">Respuestas más coherentes y orientadas</text>
+    <text x="920" y="442" text-anchor="middle" font-size="12" fill="#888">Siempre requieren revisión docente</text>
+
+  </g>
+</svg>

@@ -1,0 +1,939 @@
+/* ── Ilustraciones grandes de página ── */
+.page-illustration,
+.page-illustration img,
+.page-illustration svg {
+  display: block;
+  margin: 2rem auto 2.5rem auto;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  border: 1px solid #e8eaed;
+  padding: 0.5rem;
+}
+@media (max-width: 600px) {
+  .page-illustration,
+  .page-illustration img,
+  .page-illustration svg {
+    margin: 1.2rem auto 1.5rem auto;
+    padding: 0.2rem;
+  }
+}
+/* ── Listas: restaurar marcadores nativos ── */
+/* Just the Docs aplica list-style:none y usa ::before para pintar marcadores.
+   Anulamos los ::before y forzamos el estilo nativo con !important.          */
+
+.main-content ul {
+  list-style: disc outside !important;
+}
+
+.main-content ol {
+  list-style: decimal outside !important;
+}
+
+.main-content ul,
+.main-content ol {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem !important;
+}
+
+.main-content li {
+  margin-bottom: 0.35rem;
+  display: list-item !important;
+}
+
+.main-content li::marker {
+  text-shadow: none !important;
+}
+
+/* Anular pseudo-elementos del tema que compitan con el marcador nativo */
+.main-content li::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* ── Sidebar: mejorar legibilidad de títulos largos ── */
+
+@media (min-width: 50rem) {
+  .side-bar {
+    width: 20rem;
+  }
+
+  .main {
+    margin-left: 20rem;
+  }
+}
+
+.site-title {
+  display: block;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
+  line-height: 1.3;
+  font-size: 1.05rem;
+  max-width: 100%;
+  padding-right: 0.5rem;
+}
+
+.site-header {
+  overflow: visible;
+}
+
+.nav-list-link,
+.navigation-list-link,
+.nav-list .nav-list-item a {
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
+  line-height: 1.35;
+}
+
+/* ── Sidebar: protección de release gates ── */
+
+/* Las páginas bloqueadas se ocultan vía JS (display:none en el <li>).
+   Este estilo suaviza el parpadeo mientras el JS carga. */
+.site-nav .nav-list {
+  transition: opacity 0.15s ease;
+}
+
+/* ── Aviso de contenido heredado (páginas hijas bloqueadas) ── */
+
+.release-gate-inherited {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  margin: 2rem 0;
+  background: #f5f7fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+}
+
+.release-gate-inherited__icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.release-gate-inherited__title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* ══════════════════════════════════════════════════════════
+   Componentes visuales — Página de accesibilidad
+   ══════════════════════════════════════════════════════════ */
+
+/* ── Callout blocks ── */
+
+.callout {
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  border-left: 4px solid;
+  line-height: 1.7;
+}
+
+.callout p:last-child {
+  margin-bottom: 0;
+}
+
+.callout--idea {
+  background-color: #eef4fb;
+  border-color: #4a90d9;
+}
+
+.callout--practica {
+  background-color: #eef8ee;
+  border-color: #2e7d32;
+}
+
+.callout--alerta {
+  background-color: #fef9f0;
+  border-color: #e67e22;
+}
+
+.callout--reflexion {
+  background-color: #f5f0fa;
+  border-color: #7b1fa2;
+}
+
+.callout__titulo {
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* ── Tarjetas de herramientas (grid) ── */
+
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.tool-card {
+  background: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  padding: 1.25rem;
+  transition: box-shadow 0.2s ease;
+}
+
+.tool-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.tool-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.tool-card__icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.tool-card__desc {
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 0.6rem;
+}
+
+.tool-card__tip {
+  background: #f5f7fa;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+/* ── Bloque comparativo (antes / después) ── */
+
+.comparacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 640px) {
+  .comparacion {
+    grid-template-columns: 1fr;
+  }
+}
+
+.comparacion__panel {
+  padding: 1.25rem;
+  border-radius: 8px;
+  border: 2px solid;
+}
+
+.comparacion__panel--antes {
+  background: #fdf2f2;
+  border-color: #d32f2f;
+}
+
+.comparacion__panel--despues {
+  background: #eef8ee;
+  border-color: #2e7d32;
+}
+
+.comparacion__label {
+  font-weight: 700;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.comparacion__panel--antes .comparacion__label {
+  color: #b71c1c;
+}
+
+.comparacion__panel--despues .comparacion__label {
+  color: #1b5e20;
+}
+
+.comparacion__texto {
+  font-size: 0.93rem;
+  line-height: 1.65;
+}
+
+/* ── Conector de prompt (entre antes/después) ── */
+
+.prompt-conector {
+  text-align: center;
+  margin: -0.25rem 0 1rem;
+  padding: 0.75rem 1rem;
+  background: #f5f7fa;
+  border: 1px dashed #bbb;
+  border-radius: 8px;
+}
+
+.prompt-conector__label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+
+.prompt-conector__text {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #444;
+}
+
+/* ── Checklist visual ── */
+
+.main-content .checklist-visual {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+.main-content .checklist-visual li {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 0.6rem 0.75rem;
+  margin-bottom: 0.35rem !important;
+  background: #fafbfc;
+  border-radius: 6px;
+  border: 1px solid #eef0f2;
+}
+
+.main-content .checklist-visual li::before {
+  content: "☐" !important;
+  display: inline !important;
+  font-size: 1.1rem;
+  color: #4a90d9;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+/* ── Flujo visual horizontal ── */
+
+.flujo-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+  padding: 1.25rem 1rem;
+  background: #f8f9fb;
+  border-radius: 10px;
+  border: 1px solid #e8eaed;
+}
+
+.flujo-horizontal__paso {
+  background: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.flujo-horizontal__paso--num {
+  display: inline-block;
+  background: #4a90d9;
+  color: #fff;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.4rem;
+  font-size: 0.75rem;
+  margin-right: 0.35rem;
+}
+
+.flujo-horizontal__flecha {
+  font-size: 1.2rem;
+  color: #4a90d9;
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .flujo-horizontal {
+    flex-direction: column;
+  }
+  .flujo-horizontal__flecha {
+    transform: rotate(90deg);
+  }
+}
+
+/* ── Tarjeta de reflexión ── */
+
+.reflexion-card {
+  background: linear-gradient(135deg, #f5f0fa 0%, #eef4fb 100%);
+  border-radius: 12px;
+  padding: 1.75rem;
+  margin: 1.75rem 0;
+  border: 1px solid #e0d4ed;
+  text-align: center;
+}
+
+.reflexion-card__pregunta {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.reflexion-card__cierre {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* ── Diagrama de tres columnas (barreras / IA / docente) ── */
+
+.tres-columnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 640px) {
+  .tres-columnas {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tres-columnas__col {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.1rem 1rem;
+  border-top: 4px solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.tres-columnas__col--barrera {
+  border-top-color: #d32f2f;
+}
+
+.tres-columnas__col--ia {
+  border-top-color: #4a90d9;
+}
+
+.tres-columnas__col--docente {
+  border-top-color: #2e7d32;
+}
+
+.tres-columnas__titulo {
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.tres-columnas__col--barrera .tres-columnas__titulo {
+  color: #b71c1c;
+}
+
+.tres-columnas__col--ia .tres-columnas__titulo {
+  color: #2c6fbb;
+}
+
+.tres-columnas__col--docente .tres-columnas__titulo {
+  color: #1b5e20;
+}
+
+.main-content .tres-columnas__lista {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.main-content .tres-columnas__lista li {
+  display: block !important;
+  padding: 0.25rem 0;
+  margin-bottom: 0 !important;
+}
+
+.main-content .tres-columnas__lista li::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* ── Bloque Qué sí / Qué no ── */
+
+.que-si-no {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 640px) {
+  .que-si-no {
+    grid-template-columns: 1fr;
+  }
+}
+
+.que-si-no__col {
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+}
+
+.que-si-no__col--si {
+  background: #eef8ee;
+  border: 1px solid #c8e6c9;
+}
+
+.que-si-no__col--no {
+  background: #fdf2f2;
+  border: 1px solid #f5c6cb;
+}
+
+.que-si-no__titulo {
+  font-weight: 700;
+  font-size: 0.92rem;
+  margin-bottom: 0.5rem;
+}
+
+.que-si-no__col--si .que-si-no__titulo {
+  color: #1b5e20;
+}
+
+.que-si-no__col--no .que-si-no__titulo {
+  color: #b71c1c;
+}
+
+.main-content .que-si-no__lista {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.main-content .que-si-no__lista li {
+  display: block !important;
+  padding: 0.2rem 0;
+  margin-bottom: 0.15rem !important;
+}
+
+.main-content .que-si-no__lista li::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* ── Resumen visual numerado ── */
+
+.resumen-pasos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  justify-content: center;
+}
+
+.resumen-pasos__item {
+  background: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  flex: 1 1 200px;
+  max-width: 280px;
+  text-align: center;
+}
+
+.resumen-pasos__num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #4a90d9;
+  color: #fff;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.resumen-pasos__texto {
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+/* ── Imagen con pie de figura ── */
+
+.figura {
+  margin: 1.75rem 0;
+  text-align: center;
+}
+
+.figura img {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #e8eaed;
+}
+
+.figura__pie {
+  font-size: 0.82rem;
+  color: #666;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* ── Bloque de prompt copiable ── */
+
+.prompt-bloque {
+  background: #f8f9fb;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 0.5rem 0 0;
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: #333;
+}
+
+/* ── Texto solo para lectores de pantalla ── */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* ══════════════════════════════════════════════════════════
+   Componentes visuales — Vibe Coding Educativo
+   ══════════════════════════════════════════════════════════ */
+
+/* ── Hero section ── */
+
+.vibe-hero {
+  background: linear-gradient(135deg, #eef4fb 0%, #f5f0fa 60%, #eef8ee 100%);
+  border-radius: 12px;
+  padding: 2rem 2rem 1.75rem;
+  margin: 1.5rem 0 2rem;
+  border: 1px solid #ddd4ed;
+  text-align: center;
+}
+
+.vibe-hero__lema {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #4a306a;
+  margin-bottom: 0.6rem;
+}
+
+.vibe-hero__desc {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ── Timeline vertical ── */
+
+.vibe-timeline {
+  position: relative;
+  margin: 1.5rem 0;
+  padding-left: 2.75rem;
+}
+
+.vibe-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.95rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 2px;
+  background: linear-gradient(to bottom, #4a90d9 0%, #7b1fa2 100%);
+  border-radius: 2px;
+}
+
+.vibe-timeline__paso {
+  position: relative;
+  margin-bottom: 0.85rem;
+  background: #fff;
+  border: 1px solid #e8eaed;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.vibe-timeline__paso::before {
+  content: '';
+  position: absolute;
+  left: -1.95rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: #4a90d9;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #4a90d9;
+}
+
+.vibe-timeline__paso:last-child::before {
+  background: #2e7d32;
+  box-shadow: 0 0 0 2px #2e7d32;
+}
+
+.vibe-timeline__num {
+  font-weight: 700;
+  color: #4a90d9;
+  margin-right: 0.3rem;
+}
+
+.vibe-timeline__paso:last-child .vibe-timeline__num {
+  color: #2e7d32;
+}
+
+@media (max-width: 640px) {
+  .vibe-timeline {
+    padding-left: 2rem;
+  }
+
+  .vibe-timeline__paso::before {
+    left: -1.5rem;
+    width: 0.65rem;
+    height: 0.65rem;
+  }
+}
+
+/* ── Resource cards (con botón) ── */
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.resource-card {
+  background: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.resource-card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.09);
+  transform: translateY(-2px);
+}
+
+.resource-card__icon {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0.55rem;
+}
+
+.resource-card__titulo {
+  font-weight: 700;
+  font-size: 0.97rem;
+  margin-bottom: 0.4rem;
+  color: #1a1a1a;
+}
+
+.resource-card__desc {
+  font-size: 0.88rem;
+  color: #555;
+  line-height: 1.55;
+  flex: 1;
+  margin-bottom: 0.9rem;
+}
+
+.resource-card__btn {
+  display: block;
+  text-align: center;
+  background: #4a90d9;
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 0.45rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.86rem;
+  font-weight: 600;
+  transition: background 0.18s ease;
+}
+
+.resource-card__btn:hover {
+  background: #2c6fbb;
+}
+
+/* ── Tabla responsive ── */
+
+.tabla-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.25rem 0;
+  border-radius: 8px;
+}
+
+/* ── Botón CTA grande ── */
+
+.btn-cta-wrapper {
+  text-align: center;
+  margin: 1.75rem 0 1.25rem;
+}
+
+.btn-cta {
+  display: inline-block;
+  background: linear-gradient(135deg, #4a90d9, #7b1fa2);
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 0.85rem 2.25rem;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+  transition: opacity 0.2s ease;
+  letter-spacing: 0.01em;
+}
+
+.btn-cta:hover {
+  opacity: 0.88;
+}
+
+/* ── Callout de seguridad (amarillo) ── */
+
+.callout--seguridad {
+  background-color: #fff8e1;
+  border-color: #f9a825;
+}
+
+/* ── Callout adicionales V2 ── */
+
+/* prueba: actividades de práctica guiada (teal) */
+.callout--prueba {
+  background-color: #e0f5f2;
+  border-color: #4a9c8e;
+}
+
+/* prompt: ejemplo de prompt o instrucción (indigo) */
+.callout--prompt {
+  background-color: #eef0fb;
+  border-color: #5c6bc0;
+}
+
+/* privacidad: advertencia sobre datos personales (rojo) */
+.callout--privacidad {
+  background-color: #fdecea;
+  border-color: #c0392b;
+}
+
+/* verifica: comprobación de fuentes y veracidad (verde) */
+.callout--verifica {
+  background-color: #eafaf1;
+  border-color: #27ae60;
+}
+
+/* accesibilidad: recursos de inclusión (azul) */
+.callout--accesibilidad {
+  background-color: #eaf4fd;
+  border-color: #2980b9;
+}
+
+/* aula: aplicación directa al aula (naranja) */
+.callout--aula {
+  background-color: #fef5ec;
+  border-color: #d35400;
+}
+
+/* compara: comparativa de herramientas (gris) */
+.callout--compara {
+  background-color: #f4f6f7;
+  border-color: #7f8c8d;
+}
+
+/* recuerda: recordatorio pedagógico clave (ámbar) */
+.callout--recuerda {
+  background-color: #fef9e7;
+  border-color: #f39c12;
+}
+
+/* ── Semáforo de privacidad ── */
+
+.semaforo-privacidad {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 1.25rem 0;
+}
+
+.semaforo-privacidad__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 180px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.semaforo-privacidad__item--verde {
+  background-color: #eafaf1;
+  border-left: 4px solid #27ae60;
+}
+
+.semaforo-privacidad__item--amarillo {
+  background-color: #fef9e7;
+  border-left: 4px solid #f39c12;
+}
+
+.semaforo-privacidad__item--rojo {
+  background-color: #fdecea;
+  border-left: 4px solid #c0392b;
+}
+
+.semaforo-privacidad__icono {
+  font-size: 1.35rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.semaforo-privacidad__texto strong {
+  display: block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.2rem;
+}
+
+@media (max-width: 640px) {
+  .semaforo-privacidad {
+    flex-direction: column;
+  }
+}

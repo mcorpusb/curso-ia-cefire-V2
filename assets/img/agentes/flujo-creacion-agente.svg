@@ -1,0 +1,85 @@
+<svg width="1400" height="320" viewBox="0 0 1400 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="320" fill="white"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+
+    <!-- Título -->
+    <text x="700" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">Proceso de creación de un agente docente</text>
+
+    <!-- ── Paso 1: Definir la tarea ── -->
+    <rect x="30" y="70" width="185" height="112" rx="14" fill="#E3F2FD" stroke="#1976D2" stroke-width="2"/>
+    <circle cx="122" cy="99" r="18" fill="#1976D2"/>
+    <text x="122" y="105" text-anchor="middle" font-size="16" font-weight="bold" fill="white">1</text>
+    <text x="122" y="130" text-anchor="middle" font-size="15" font-weight="bold" fill="#1565C0">Definir</text>
+    <text x="122" y="149" text-anchor="middle" font-size="13" fill="#1565C0">la tarea</text>
+    <text x="122" y="170" text-anchor="middle" font-size="12" fill="#555">¿Qué debe hacer</text>
+
+    <!-- Flecha 1→2 -->
+    <line x1="215" y1="126" x2="240" y2="126" stroke="#4a90d9" stroke-width="2.5"/>
+    <polygon points="240,126 231,120 231,132" fill="#4a90d9"/>
+
+    <!-- ── Paso 2: Escribir instrucciones ── -->
+    <rect x="243" y="70" width="185" height="112" rx="14" fill="#EDE7F6" stroke="#7B1FA2" stroke-width="2"/>
+    <circle cx="335" cy="99" r="18" fill="#7B1FA2"/>
+    <text x="335" y="105" text-anchor="middle" font-size="16" font-weight="bold" fill="white">2</text>
+    <text x="335" y="130" text-anchor="middle" font-size="15" font-weight="bold" fill="#6A1B9A">Escribir</text>
+    <text x="335" y="149" text-anchor="middle" font-size="13" fill="#6A1B9A">instrucciones</text>
+    <text x="335" y="170" text-anchor="middle" font-size="12" fill="#555">Rol + tarea</text>
+
+    <!-- Flecha 2→3 -->
+    <line x1="428" y1="126" x2="453" y2="126" stroke="#4a90d9" stroke-width="2.5"/>
+    <polygon points="453,126 444,120 444,132" fill="#4a90d9"/>
+
+    <!-- ── Paso 3: Añadir conocimiento ── -->
+    <rect x="456" y="70" width="185" height="112" rx="14" fill="#E8F5E9" stroke="#388E3C" stroke-width="2"/>
+    <circle cx="548" cy="99" r="18" fill="#388E3C"/>
+    <text x="548" y="105" text-anchor="middle" font-size="16" font-weight="bold" fill="white">3</text>
+    <text x="548" y="130" text-anchor="middle" font-size="15" font-weight="bold" fill="#1B5E20">Añadir</text>
+    <text x="548" y="149" text-anchor="middle" font-size="13" fill="#1B5E20">conocimiento</text>
+    <text x="548" y="170" text-anchor="middle" font-size="12" fill="#555">Documentos</text>
+
+    <!-- Flecha 3→4 -->
+    <line x1="641" y1="126" x2="666" y2="126" stroke="#4a90d9" stroke-width="2.5"/>
+    <polygon points="666,126 657,120 657,132" fill="#4a90d9"/>
+
+    <!-- ── Paso 4: Probar el agente ── -->
+    <rect x="669" y="70" width="185" height="112" rx="14" fill="#FFF3E0" stroke="#F57C00" stroke-width="2"/>
+    <circle cx="761" cy="99" r="18" fill="#F57C00"/>
+    <text x="761" y="105" text-anchor="middle" font-size="16" font-weight="bold" fill="white">4</text>
+    <text x="761" y="130" text-anchor="middle" font-size="15" font-weight="bold" fill="#E65100">Probar</text>
+    <text x="761" y="149" text-anchor="middle" font-size="13" fill="#E65100">el agente</text>
+    <text x="761" y="170" text-anchor="middle" font-size="12" fill="#555">Con casos reales</text>
+
+    <!-- Flecha 4→5 -->
+    <line x1="854" y1="126" x2="879" y2="126" stroke="#4a90d9" stroke-width="2.5"/>
+    <polygon points="879,126 870,120 870,132" fill="#4a90d9"/>
+
+    <!-- ── Paso 5: Mejorar y ajustar ── -->
+    <rect x="882" y="70" width="185" height="112" rx="14" fill="#FFF9C4" stroke="#F9A825" stroke-width="2"/>
+    <circle cx="974" cy="99" r="18" fill="#F9A825"/>
+    <text x="974" y="105" text-anchor="middle" font-size="16" font-weight="bold" fill="white">5</text>
+    <text x="974" y="130" text-anchor="middle" font-size="15" font-weight="bold" fill="#F57F17">Mejorar</text>
+    <text x="974" y="149" text-anchor="middle" font-size="13" fill="#F57F17">y ajustar</text>
+    <text x="974" y="170" text-anchor="middle" font-size="12" fill="#555">Revisar y refinar</text>
+
+    <!-- Flecha 5→6 -->
+    <line x1="1067" y1="126" x2="1092" y2="126" stroke="#4a90d9" stroke-width="2.5"/>
+    <polygon points="1092,126 1083,120 1083,132" fill="#4a90d9"/>
+
+    <!-- ── Paso 6: Usar con revisión ── -->
+    <rect x="1095" y="70" width="275" height="112" rx="14" fill="#E0F7FA" stroke="#00838F" stroke-width="2"/>
+    <circle cx="1232" cy="99" r="18" fill="#00838F"/>
+    <text x="1232" y="105" text-anchor="middle" font-size="16" font-weight="bold" fill="white">6</text>
+    <text x="1232" y="130" text-anchor="middle" font-size="15" font-weight="bold" fill="#006064">Usar</text>
+    <text x="1232" y="149" text-anchor="middle" font-size="13" fill="#006064">con revisión</text>
+    <text x="1232" y="170" text-anchor="middle" font-size="12" fill="#555">Siempre antes del aula</text>
+
+    <!-- ── Nota inferior ── -->
+    <rect x="30" y="208" width="1340" height="52" rx="10" fill="#f8f9fb" stroke="#e0e0e0" stroke-width="1"/>
+    <text x="700" y="229" text-anchor="middle" font-size="13" fill="#555">El proceso no es lineal: puedes volver a cualquier paso para mejorar las instrucciones.</text>
+    <text x="700" y="249" text-anchor="middle" font-size="13" fill="#777">La revisión docente antes de usar la propuesta con el alumnado es siempre imprescindible.</text>
+
+    <!-- ── Subtítulo secundario ── -->
+    <text x="700" y="295" text-anchor="middle" font-size="13" fill="#aaa" font-style="italic">Un agente puede mejorarse tantas veces como sea necesario.</text>
+
+  </g>
+</svg>

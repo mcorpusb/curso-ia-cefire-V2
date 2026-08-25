@@ -1,0 +1,30 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1400" height="900" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif" font-size="38" fill="#333">
+  <text x="700" y="90" text-anchor="middle" font-size="48" font-weight="bold">Flujo de acceso digital seguro</text>
+  <!-- Paso 1 -->
+  <rect x="200" y="180" width="1000" height="80" rx="25" fill="#E3F2FD" stroke="#1976D2" stroke-width="3"/>
+  <text x="700" y="235" text-anchor="middle">Usuario + contraseña</text>
+  <line x1="700" y1="260" x2="700" y2="300" stroke="#1976D2" stroke-width="4" marker-end="url(#arrow)"/>
+  <!-- Paso 2 -->
+  <rect x="200" y="300" width="1000" height="80" rx="25" fill="#E8F5E9" stroke="#388E3C" stroke-width="3"/>
+  <text x="700" y="355" text-anchor="middle">Verificación del sistema</text>
+  <line x1="700" y1="380" x2="700" y2="420" stroke="#388E3C" stroke-width="4" marker-end="url(#arrow)"/>
+  <!-- Paso 3 (MFA) -->
+  <rect x="200" y="420" width="1000" height="80" rx="25" fill="#FFF3E0" stroke="#F57C00" stroke-width="3"/>
+  <text x="700" y="475" text-anchor="middle">Segundo factor (MFA) <tspan font-size="30">(opcional/recomendable)</tspan></text>
+  <line x1="700" y1="500" x2="700" y2="540" stroke="#F57C00" stroke-width="4" marker-end="url(#arrow)"/>
+  <!-- Paso 4 -->
+  <rect x="200" y="540" width="1000" height="80" rx="25" fill="#E0F7FA" stroke="#00838F" stroke-width="3"/>
+  <text x="700" y="595" text-anchor="middle">Acceso a la plataforma</text>
+  <line x1="700" y1="620" x2="700" y2="660" stroke="#00838F" stroke-width="4" marker-end="url(#arrow)"/>
+  <!-- Paso 5 -->
+  <rect x="200" y="660" width="1000" height="80" rx="25" fill="#F1F8E9" stroke="#689F38" stroke-width="3"/>
+  <text x="700" y="715" text-anchor="middle">Permisos y protección de datos</text>
+</g>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,10 L10,5 z" fill="#1976D2" />
+  </marker>
+</defs>
+</svg>
