@@ -15,7 +15,9 @@ Empieza por una necesidad concreta. La herramienta viene después.
 
 {: .callout .callout--idea }
 **Para qué sirve este bloque**  
-Aprenderás a utilizar asistentes de IA en tareas habituales de comunicación, documentación y organización, aportando contexto, revisando los resultados y manteniendo siempre el criterio profesional.
+En el Bloque 0 comprobaste que una petición muy sencilla y otra más contextualizada pueden producir resultados muy diferentes.
+
+Ahora aprenderás a **pedir mejor, revisar lo que recibes y continuar trabajando sobre la respuesta**, aplicándolo a tareas habituales de comunicación, documentación y organización.
 
 Duración aproximada: **8 horas**.
 
@@ -25,12 +27,13 @@ Duración aproximada: **8 horas**.
 
 Al finalizar serás capaz de:
 
-- comprobar qué herramientas tienes disponibles y en qué condiciones;
-- crear y revisar borradores de documentos docentes;
-- preparar comunicaciones profesionales claras y adecuadas;
-- organizar información mediante estructuras y plantillas;
+- explicar qué es un prompt y qué información necesita una petición útil;
 - aportar contexto sin exponer datos innecesarios;
-- revisar exactitud, tono, omisiones, privacidad y utilidad antes de aplicar un resultado.
+- mejorar una petición de forma progresiva;
+- revisar y refinar una primera respuesta;
+- diferenciar peticiones de documentación, comunicación y organización;
+- comprobar qué herramientas tienes disponibles y en qué condiciones;
+- crear y revisar borradores manteniendo siempre el criterio profesional.
 
 ---
 
@@ -73,7 +76,214 @@ En las prácticas no introduzcas nombres reales, calificaciones, diagnósticos, 
 
 ---
 
-## 1. Tu herramienta
+## 1. Del Bloque 0 al Bloque 1: pedir mejor
+
+En el reto final del Bloque 0 hiciste dos cosas:
+
+1. pediste una actividad con una instrucción breve;
+2. pediste a la propia IA que te ayudara a construir una petición mucho más detallada.
+
+La diferencia entre ambos resultados nos sirve como punto de partida.
+
+### ¿Qué es un prompt?
+
+Un **prompt** es la instrucción o mensaje que proporcionamos a una herramienta de IA para indicarle qué necesitamos.
+
+Puede ser una sola frase o una conversación completa.
+
+La calidad del resultado no depende únicamente del modelo utilizado. También influye la información que aportamos, el objetivo que definimos y las condiciones que debe respetar la respuesta.
+
+### Un mismo ejemplo que iremos mejorando
+
+Partimos de esta petición:
+
+> **Diseña una actividad sobre redes.**
+
+Es comprensible, pero deja muchas decisiones en manos de la herramienta.
+
+Podemos mejorarla:
+
+> Diseña una actividad de una hora sobre introducción a las redes para alumnado de 1.º de ASIR.
+
+Y todavía podemos contextualizarla más:
+
+> Eres docente de Formación Profesional. Diseña una actividad de una hora sobre introducción a las redes para alumnado de 1.º de ASIR. Incluye objetivos, metodología activa, recursos necesarios, producto final y una propuesta sencilla de evaluación. Preséntala en una tabla.
+
+La necesidad es la misma.
+
+Lo que cambia es **la información que recibe la IA**.
+
+<img src="{{ '/assets/img/bloque1-construir-peticion.png' | relative_url }}" alt="Infografía que muestra cómo construir una petición útil: una petición vaga se va enriqueciendo con contexto, tarea, formato, criterios y limitaciones hasta obtener una solicitud más concreta y revisable." style="width: 100%; height: auto;">
+
+{: .callout .callout--recuerda }
+**No existe un prompt perfecto.**  
+Una buena petición depende siempre de la necesidad, el contexto y del resultado que quieras obtener.
+
+---
+
+## 2. Una receta sencilla para construir peticiones útiles
+
+No necesitas memorizar una fórmula rígida.
+
+Cuando una respuesta no se ajusta a lo que necesitas, comprueba si has explicado suficientemente estos elementos:
+
+### Necesidad
+
+**¿Qué problema quieres resolver?**
+
+Ejemplo: necesito preparar una primera actividad para introducir el concepto de redes.
+
+### Contexto
+
+**¿Qué necesita saber la herramienta para entender tu situación?**
+
+Etapa, nivel, módulo o materia, duración, características relevantes del grupo, conocimientos previos, recursos disponibles…
+
+### Tarea
+
+**¿Qué quieres que haga exactamente?**
+
+Crear, transformar, resumir, comparar, clasificar, proponer, adaptar, revisar…
+
+### Formato
+
+**¿Cómo quieres recibir el resultado?**
+
+Tabla, lista, secuencia de pasos, rúbrica, correo, esquema, plantilla, mapa conceptual…
+
+### Criterios
+
+**¿Qué condiciones debe cumplir?**
+
+Nivel de detalle, tono, extensión, metodología, elementos obligatorios, fuentes, número de propuestas…
+
+### Límites
+
+**¿Qué no debe hacer?**
+
+No inventar información, no añadir datos que no aparezcan en las fuentes, no utilizar datos personales, no superar una extensión determinada…
+
+{: .callout .callout--idea }
+Un rol —por ejemplo, «actúa como docente de Formación Profesional»— puede ser útil para orientar el registro o el enfoque, pero **no sustituye al contexto ni es obligatorio en todas las peticiones**.
+
+---
+
+## 3. El contexto cambia el resultado
+
+La herramienta no conoce tu aula, tu alumnado ni tu objetivo si no se lo explicas.
+
+No es lo mismo pedir:
+
+> Crea una actividad sobre redes.
+
+que indicar:
+
+> La actividad es para alumnado de 1.º de ASIR, debe durar una hora, servir como introducción al tema, partir de conocimientos muy básicos y terminar con un pequeño producto en parejas.
+
+La segunda petición reduce parte de las suposiciones que debe realizar la IA.
+
+{: .callout .callout--reflexion }
+**Recuerda el Bloque 0:**  
+¿Qué información tuvo que imaginar la IA en tu primera petición? ¿Qué dejó de imaginar cuando añadiste contexto?
+
+Más contexto **no significa escribir por escribir**.
+
+Significa aportar la información que realmente puede cambiar el resultado.
+
+---
+
+## 4. Iterar es parte del proceso
+
+No necesitamos acertar a la primera.
+
+Trabajar con IA suele ser un proceso de conversación:
+
+<img src="{{ '/assets/img/bloque1-ciclo-iterativo.png' | relative_url }}" alt="Ciclo de trabajo iterativo con inteligencia artificial: pedir, revisar, ajustar y volver a pedir, hasta obtener un resultado útil y verificable." style="width: 100%; height: auto;">
+
+**PEDIR → REVISAR → AJUSTAR → VOLVER A PEDIR**
+
+La primera respuesta es un punto de partida.
+
+Puedes continuar con instrucciones como:
+
+- ¿Qué información has supuesto y debería completar yo?
+- Reorganiza el borrador sin añadir datos nuevos.
+- Haz el texto más claro y directo.
+- Adapta el nivel al alumnado indicado.
+- Señala qué afirmaciones necesitan verificación.
+- Propón dos alternativas y explica en qué se diferencian.
+- Mantén el contenido, pero cambia el formato.
+
+{: .callout .callout--recuerda }
+**Iterar no es corregir un fallo del proceso. Iterar es el proceso.**
+
+No necesitamos pedir el razonamiento interno del sistema. Necesitamos **resultados, criterios y pasos que podamos observar, revisar y comprobar**.
+
+### Una transformación rápida
+
+Si no hiciste la fase opcional del Bloque 0, prueba ahora con el resultado que ya tienes:
+
+> Convierte esta actividad en un mapa mental para el alumnado.
+
+o:
+
+> Organiza el mismo contenido como una infografía.
+
+La necesidad original no ha cambiado.  
+Ha cambiado **el producto que estás pidiendo**.
+
+---
+
+## 5. No todas las peticiones persiguen lo mismo
+
+Antes de escribir un prompt, identifica **qué tipo de tarea estás intentando resolver**.
+
+<img src="{{ '/assets/img/bloque1-tipos-tareas.png' | relative_url }}" alt="Tres tipos de tareas docentes que pueden apoyarse con IA: documentación, comunicaciones profesionales y organización de información, indicando qué puede aportar la IA y qué decisiones mantiene el docente." style="width: 100%; height: auto;">
+
+### 📄 Documentación
+
+La IA puede ayudarte a:
+
+- convertir notas en un primer borrador;
+- ordenar información;
+- resumir documentos autorizados;
+- proponer una estructura;
+- transformar un contenido en otro formato.
+
+Aquí importa especialmente **no inventar datos ni acuerdos**.
+
+### 💬 Comunicación
+
+Puede ayudarte a preparar borradores dirigidos a familias, alumnado, equipos docentes o administración.
+
+Aquí adquieren especial importancia:
+
+- el destinatario;
+- el tono;
+- la claridad;
+- qué información está confirmada;
+- qué información sigue pendiente.
+
+### 🗂️ Organización
+
+Puede proponer:
+
+- plantillas;
+- tablas;
+- checklists;
+- estructuras de carpetas;
+- sistemas sencillos de seguimiento.
+
+Aquí la IA puede sugerir una estructura, pero **tú decides qué conservar, eliminar o adaptar**.
+
+{: .callout .callout--idea }
+El tipo de tarea cambia el prompt.
+
+No pedimos de la misma forma un **acta**, un **mensaje a familias**, una **actividad de aula** o una **plantilla de seguimiento**.
+
+---
+
+## 6. Tu herramienta
 
 No existe una herramienta adecuada para todas las tareas.
 
@@ -104,6 +314,8 @@ Si Copilot no está disponible o no resulta adecuado, utiliza otra opción del [
 
 ### Mapa de trabajo del bloque
 
+<!-- IMAGEN YA EXISTENTE: SE MANTIENE -->
+
 <img src="{{ '/assets/img/bloque1-mapa-trabajo.svg' | relative_url }}" alt="Mapa del Bloque 1: una necesidad docente lleva a elegir una herramienta adecuada, aportar contexto seguro y crear un primer borrador para tareas de documentación, comunicación u organización. Después el profesorado revisa, refina, verifica y aplica el resultado, manteniendo de forma transversal la privacidad y el criterio profesional." style="width: 100%; height: auto;">
 
 El proceso será siempre parecido:
@@ -112,11 +324,9 @@ El proceso será siempre parecido:
 
 ---
 
-## 2. Tareas colaborativas
+## 7. Aplicación · Tareas colaborativas
 
-La IA puede ayudar a preparar un primer borrador, reorganizar información o proponer alternativas.
-
-Eso no significa que deba decidir qué ocurrió, qué información es correcta o qué debemos comunicar.
+Ahora aplicamos lo anterior a tres situaciones habituales.
 
 ### Borradores de actas
 
@@ -127,19 +337,25 @@ A partir de unas notas ficticias, un asistente puede ayudarte a construir una pr
 ```text
 Necesito convertir estas notas ficticias en un borrador de acta.
 
-Información:
-- Fecha: [FICTICIA].
-- Se revisó la programación del trimestre.
-- Se acordó compartir materiales antes de la próxima reunión.
-- Quedó pendiente decidir la fecha de una actividad conjunta.
+Contexto:
+- reunión de coordinación docente;
+- fecha: [FICTICIA].
 
-Organiza el borrador en:
+Información confirmada:
+- se revisó la programación del trimestre;
+- se acordó compartir materiales antes de la próxima reunión;
+- quedó pendiente decidir la fecha de una actividad conjunta.
+
+Tarea:
+Organiza la información en:
 - puntos tratados;
 - acuerdos;
 - asuntos pendientes.
 
-No inventes información que no aparezca en las notas.
-Utiliza un tono profesional.
+Criterios:
+- utiliza un tono profesional;
+- no inventes información;
+- si falta algún dato, indícalo como pendiente.
 ```
 
 **Después revisa:**
@@ -157,7 +373,7 @@ Utiliza un tono profesional.
 
 ### Comunicaciones profesionales
 
-También puede ayudarte a preparar borradores de mensajes dirigidos a familias, alumnado, equipos docentes o administración.
+También puede ayudarte a preparar borradores de mensajes.
 
 **Ejemplo:**
 
@@ -169,16 +385,17 @@ Información confirmada:
 - fecha: [FICTICIA];
 - la autorización se entregará por el canal habitual.
 
-Todavía no están confirmados:
+Información todavía no confirmada:
 - horario;
 - transporte.
 
-Redacta un mensaje claro y profesional.
+Redacta un mensaje claro y profesional para las familias.
+
 Distingue la información confirmada de la pendiente.
 No inventes datos.
 ```
 
-Después puedes continuar la conversación:
+Después puedes iterar:
 
 > Reformula el mensaje con frases más cortas y lenguaje claro.
 
@@ -192,9 +409,7 @@ Antes de enviar cualquier comunicación, comprueba datos, tono, claridad y adecu
 
 ### Organización de información
 
-La IA también puede ayudarte a **proponer estructuras** para organizar información o crear plantillas reutilizables.
-
-Por ejemplo:
+La IA también puede ayudarte a **proponer estructuras** y plantillas reutilizables.
 
 ```text
 Necesito una plantilla semanal para realizar el seguimiento de tareas de un departamento docente.
@@ -222,70 +437,29 @@ No utilices este tipo de actividad para delegar decisiones sobre distribución d
 
 ---
 
-## 3. Trabajo iterativo
-
-No necesitamos encontrar un «prompt perfecto».
-
-Una petición inicial sirve para comenzar. El valor aparece cuando revisamos el resultado y continuamos trabajando sobre él.
-
-### Un punto de partida sencillo
-
-Puedes comenzar con cuatro elementos:
-
-**NECESIDAD + CONTEXTO + TAREA + CRITERIOS**
-
-**Necesidad**  
-¿Qué problema quieres resolver?
-
-**Contexto**  
-¿Qué información necesita conocer la herramienta?
-
-**Tarea**  
-¿Qué quieres que produzca, transforme u organice?
-
-**Criterios**  
-¿Qué condiciones debe cumplir el resultado?
-
-Un rol —«actúa como…»— puede ser útil en algunos casos para orientar el registro, pero **no es imprescindible**.
-
-Lo esencial es explicar bien qué necesitas y qué debe respetar el resultado.
-
-### De la primera respuesta a un resultado útil
-
-El trabajo continúa así:
-
-**PRIMERA RESPUESTA → REVISO → REFINO → VERIFICO**
-
-Puedes continuar con preguntas como:
-
-- ¿Qué información has supuesto y debería completar yo?
-- Reorganiza el borrador sin añadir datos nuevos.
-- Haz el texto más claro y directo.
-- Señala qué afirmaciones necesitan verificación.
-- Propón dos alternativas y explica en qué se diferencian.
-
-No necesitamos pedir el razonamiento interno del sistema. Necesitamos **resultados, criterios y pasos que podamos observar y comprobar**.
-
-{: .callout .callout--reflexion }
-**Para pensar**  
-¿Qué parte de esta tarea puede apoyar una IA y qué parte prefieres mantener bajo tu criterio profesional?
-
----
-
 ## Prácticas del bloque
 
 Estas propuestas sirven para experimentar.
 
 **No requieren entrega**, salvo que elijas la Práctica B o C como ruta alternativa a la actividad de tu etapa.
 
-### Práctica A · Continuar una necesidad
+### Práctica A · Mejora una petición
 
-Recupera una necesidad docente que hayas identificado al comenzar el curso.
+Recupera la necesidad que utilizaste en el Bloque 0 o elige otra necesidad docente real.
 
-- Explica mejor el contexto sin introducir datos personales.
-- Añade dos o tres criterios que deba cumplir la respuesta.
-- Obtén un nuevo resultado.
-- Identifica qué has tenido que revisar o decidir tú.
+1. Escribe una primera petición breve.
+2. Añade contexto relevante sin introducir datos personales.
+3. Define el resultado y dos o tres criterios.
+4. Obtén una nueva respuesta.
+5. Realiza al menos una iteración.
+6. Compara los resultados.
+
+Pregúntate:
+
+- ¿Qué mejoró al añadir contexto?
+- ¿Qué tuvo que seguir suponiendo la IA?
+- ¿Qué cambiaste tú después de revisar?
+- ¿Qué parte de la tarea no delegarías?
 
 No es necesario entregar esta práctica.
 
@@ -302,6 +476,7 @@ Después:
 - comprueba la exactitud;
 - localiza posibles invenciones u omisiones;
 - revisa privacidad y estructura;
+- realiza al menos una iteración;
 - modifica personalmente el resultado.
 
 Conserva un pequeño ejemplo de la interacción para explicar después cómo trabajaste.
@@ -322,23 +497,27 @@ Puede incluir:
 
 No reorganices realmente tu OneDrive ni compartas capturas que contengan información privada.
 
-El objetivo es **diseñar y evaluar una estructura**, no entregar acceso a tus archivos.
+El objetivo es **diseñar, probar y evaluar una estructura**, no entregar acceso a tus archivos.
 
 ---
 
 ## Cierre del bloque
 
-En este bloque has utilizado la IA para tareas habituales de:
+En este bloque has trabajado con una idea sencilla:
+
+> **Una buena interacción no consiste en encontrar una frase mágica. Consiste en explicar una necesidad, aportar el contexto necesario, revisar la respuesta y continuar afinándola.**
+
+Has aplicado este proceso a tareas de:
 
 **comunicación · documentación · organización**
 
-Pero el aprendizaje principal no es una herramienta concreta.
+El aprendizaje principal no es una herramienta concreta.
 
 Es el proceso:
 
-**definir una necesidad → aportar contexto → obtener un borrador → revisar → verificar → decidir**
+**NECESIDAD → CONTEXTO → PETICIÓN → PRIMERA RESPUESTA → REVISIÓN → AJUSTE → VERIFICACIÓN → DECISIÓN**
 
-En el **Bloque 2 · Prompting avanzado y gestión documental** profundizaremos en el trabajo con documentos y fuentes, la investigación asistida y la mejora iterativa de los resultados.
+En el **Bloque 2 · Prompting avanzado y gestión documental** profundizaremos en el trabajo con documentos y fuentes, la investigación asistida y estrategias de mejora para tareas más complejas.
 
 ---
 
