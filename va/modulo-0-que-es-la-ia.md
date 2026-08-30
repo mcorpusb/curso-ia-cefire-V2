@@ -291,7 +291,7 @@ L'objectiu **no és decidir quina és la millor**.
 
 Volem comprovar què ocorre quan fem peticions semblants a sistemes diferents i descobrir quina eina resulta més útil segons la tasca.
 
-<img src="{{ '/assets/img/bloque0-herramientas-ia.png' | relative_url }}" alt="Eines d'intel·ligència artificial utilitzades durant el curs: ChatGPT, Microsoft Copilot, Gemini, Claude i Kimi." style="width: 100%; height: auto;">
+<img src="{{ '/assets/img/bloque0-herramientas-ia-va.png' | relative_url }}" alt="Eines d'intel·ligència artificial utilitzades durant el curs: ChatGPT, Microsoft Copilot, Gemini, Claude i Kimi." style="width: 100%; height: auto;">
 
 Treballarem, entre altres, amb:
 
