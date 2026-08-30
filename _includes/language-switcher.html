@@ -1,0 +1,19 @@
+{% if page.translation_key %}
+  {% assign translations = site.pages | where: "translation_key", page.translation_key %}
+  {% assign spanish_page = translations | where: "lang", "es" | first %}
+  {% assign valencian_page = translations | where: "lang", "va" | first %}
+
+  <nav class="language-switcher" aria-label="Selector de idioma">
+    {% if page.lang == "es" %}
+      <strong lang="es" aria-current="page">Español</strong>
+    {% elsif spanish_page %}
+      <a href="{{ spanish_page.url | relative_url }}" lang="es" hreflang="es">Español</a>
+    {% endif %}
+    <span aria-hidden="true"> | </span>
+    {% if page.lang == "va" %}
+      <strong lang="ca-valencia" aria-current="page">Valencià</strong>
+    {% elsif valencian_page %}
+      <a href="{{ valencian_page.url | relative_url }}" lang="ca-valencia" hreflang="ca-valencia">Valencià</a>
+    {% endif %}
+  </nav>
+{% endif %}

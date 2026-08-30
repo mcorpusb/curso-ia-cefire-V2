@@ -2,7 +2,11 @@
 layout: page
 title: "Bloque 0: ¿Qué es la IA?"
 nav_order: 3
+lang: es
+translation_key: modulo-0-que-es-la-ia
 ---
+
+{% include language-switcher.html %}
 
 # Bloque 0: ¿Qué es la IA?
 {: .fs-8 }
