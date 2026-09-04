@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1030" role="img" aria-labelledby="title desc">
+  <title id="title">Proceso para solicitar una oferta de Google AI para estudiantes</title>
+  <desc id="desc">Seis pasos: usar una cuenta personal de Google, elegir la oferta, verificar la matrícula, confirmar la elegibilidad, revisar las condiciones y activar el plan.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b237b"/>
+    </marker>
+  </defs>
+  <rect width="760" height="1030" rx="24" fill="#faf7fc"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="380" y="57" text-anchor="middle" font-size="30" font-weight="700" fill="#24132e">SOLICITUD DE LA OFERTA</text>
+    <g font-size="25" fill="#24132e">
+      <circle cx="96" cy="139" r="38" fill="#5b237b"/><text x="96" y="148" text-anchor="middle" font-weight="700" fill="#ffffff">1</text>
+      <rect x="155" y="91" width="520" height="96" rx="16" fill="#ffffff" stroke="#5b237b" stroke-width="3"/>
+      <text x="180" y="132" font-weight="700">Cuenta personal de Google</text><text x="180" y="164" font-size="20" fill="#4a3c52">No una cuenta institucional del centro</text>
+      <line x1="96" y1="187" x2="96" y2="226" stroke="#5b237b" stroke-width="5" marker-end="url(#arrow)"/>
+
+      <circle cx="96" cy="275" r="38" fill="#5b237b"/><text x="96" y="284" text-anchor="middle" font-weight="700" fill="#ffffff">2</text>
+      <rect x="155" y="227" width="520" height="96" rx="16" fill="#ffffff" stroke="#5b237b" stroke-width="3"/>
+      <text x="180" y="268" font-weight="700">Oferta oficial para estudiantes</text><text x="180" y="300" font-size="20" fill="#4a3c52">Seleccionar la opción disponible en la cuenta</text>
+      <line x1="96" y1="323" x2="96" y2="362" stroke="#5b237b" stroke-width="5" marker-end="url(#arrow)"/>
+
+      <circle cx="96" cy="411" r="38" fill="#5b237b"/><text x="96" y="420" text-anchor="middle" font-weight="700" fill="#ffffff">3</text>
+      <rect x="155" y="363" width="520" height="96" rx="16" fill="#ffffff" stroke="#5b237b" stroke-width="3"/>
+      <text x="180" y="404" font-weight="700">Verificación universitaria</text><text x="180" y="436" font-size="20" fill="#4a3c52">SheerID y correo del centro educativo</text>
+      <line x1="96" y1="459" x2="96" y2="498" stroke="#5b237b" stroke-width="5" marker-end="url(#arrow)"/>
+
+      <circle cx="96" cy="547" r="38" fill="#287a36"/><text x="96" y="556" text-anchor="middle" font-weight="700" fill="#ffffff">4</text>
+      <rect x="155" y="499" width="520" height="96" rx="16" fill="#eaf6ec" stroke="#287a36" stroke-width="3"/>
+      <text x="180" y="540" font-weight="700">Confirmación de elegibilidad</text><text x="180" y="572" font-size="20" fill="#174c21">Completar solo lo que solicite el proceso</text>
+      <line x1="96" y1="595" x2="96" y2="634" stroke="#5b237b" stroke-width="5" marker-end="url(#arrow)"/>
+
+      <circle cx="96" cy="683" r="38" fill="#9a5700"/><text x="96" y="692" text-anchor="middle" font-weight="700" fill="#ffffff">5</text>
+      <rect x="155" y="635" width="520" height="96" rx="16" fill="#fff4df" stroke="#9a5700" stroke-width="3"/>
+      <text x="180" y="676" font-weight="700">Revisión de condiciones</text><text x="180" y="708" font-size="20" fill="#603600">Plan, precio, fechas y forma de pago</text>
+      <line x1="96" y1="731" x2="96" y2="770" stroke="#5b237b" stroke-width="5" marker-end="url(#arrow)"/>
+
+      <circle cx="96" cy="819" r="38" fill="#5b237b"/><text x="96" y="828" text-anchor="middle" font-weight="700" fill="#ffffff">6</text>
+      <rect x="155" y="771" width="520" height="96" rx="16" fill="#ffffff" stroke="#5b237b" stroke-width="3"/>
+      <text x="180" y="812" font-weight="700">Activación del plan</text><text x="180" y="844" font-size="20" fill="#4a3c52">Confirmar el estado en Google One</text>
+    </g>
+    <rect x="85" y="916" width="590" height="70" rx="16" fill="#eee3f5" stroke="#5b237b" stroke-width="3"/>
+    <text x="380" y="960" text-anchor="middle" font-size="23" font-weight="700" fill="#24132e">ANOTA LA FECHA DE FINALIZACIÓN</text>
+  </g>
+</svg>

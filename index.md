@@ -171,6 +171,13 @@ Propuestas opcionales para seguir explorando Gems/GPTs, agentes, vibe coding, ex
 <a href="{{ '/vibe-coding-educativo' | relative_url }}" style="font-weight:700; color:#388e3c;">→ Vibe Coding Educativo</a>
 </div>
 
+<div style="background-color:#faf7fc; border-left:4px solid #7b1fa2; padding:12px 14px; margin:18px 0; border-radius:6px;">
+🎓 <strong>IA PARA ESTUDIANTES</strong><br>
+Si además de docente estás matriculado/a en una universidad, consulta las promociones educativas actualmente disponibles para acceder a herramientas de IA y comprueba tu elegibilidad.
+<br><br>
+<a href="{{ '/primeros-pasos/ia-gratis-estudiantes' | relative_url }}" style="font-weight:700; color:#7b1fa2;">→ Consultar promociones para estudiantes</a>
+</div>
+
 ---
 
 <p style="text-align:center; color:gray; font-size:0.85em;">

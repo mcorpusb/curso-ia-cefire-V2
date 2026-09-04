@@ -8,11 +8,11 @@ description: "Tabla de referencia de herramientas de IA para docentes: modalidad
 # Herramientas de IA actualizadas
 {: .fs-8 }
 
-Tabla de referencia · Actualizada para el curso 2025-2026
+Tabla de referencia · Actualizada para el curso 2026-2027
 {: .fs-5 .fw-300 }
 
 {: .callout .callout--recuerda }
-**Esta tabla se revisa periódicamente.** Las condiciones de las herramientas cambian con frecuencia. Comprueba siempre el enlace oficial antes de diseñar una actividad que dependa de un límite gratuito concreto. Última revisión: **agosto 2026**.
+**Esta tabla se revisa periódicamente.** Las condiciones de las herramientas cambian con frecuencia. Comprueba siempre el enlace oficial antes de diseñar una actividad que dependa de un límite gratuito concreto. Última revisión: **septiembre de 2026**.
 
 ---
 
@@ -25,10 +25,14 @@ Tabla de referencia · Actualizada para el curso 2025-2026
 | **Copilot Chat** (Microsoft) | Chat IA conversacional, búsqueda web, documentos, imágenes, páginas colaborativas | Sí · Con cuenta Microsoft (modelos y funciones sujetos a cambios del servicio) | Límite de mensajes en horas punta con cuenta gratuita | Microsoft (personal o @edu.gva.es) | Web / App / Edge | ⚠️ Con cuenta personal: datos pueden usarse para mejora. Con cuenta institucional @edu.gva.es: protección superior si el tenant lo habilita. **Compruébalo en tu cuenta GVA.** | [copilot.microsoft.com](https://copilot.microsoft.com) |
 | **Microsoft 365 Copilot** | IA nativa en Word, PPT, Excel, Outlook, Teams | No · Requiere licencia de pago (~18 $/usuario/mes) | Solo disponible con suscripción M365 E3/E5 + add-on | Cuenta @edu.gva.es con licencia activa | Aplicaciones Office | Según política corporativa del tenant | [microsoft.com/microsoft-365/copilot](https://www.microsoft.com/es-es/microsoft-365/copilot/copilot-for-work) |
 | **ChatGPT** (OpenAI) | Chat IA multimodal, imágenes, análisis de documentos | Sí · GPT-4o mini gratuito; GPT-4o con límites | Número de mensajes con GPT-4o limitado en plan gratuito | OpenAI (edad mín. 13 años) | Web / App | ⚠️ Datos de conversación pueden usarse para entrenamiento en plan gratuito (desactivable en ajustes) | [chatgpt.com](https://chatgpt.com) |
-| **Gemini** (Google) | Chat IA, integración con Drive/Docs, búsqueda | Sí · Gemini 1.5 Flash gratuito | Gemini Advanced (2.0 Pro) requiere Google One AI Premium | Google (personal o Workspace) | Web / App | ⚠️ Con cuenta personal: revisar ajustes de actividad de IA de Google | [gemini.google.com](https://gemini.google.com) |
+| **Gemini** (Google) | Chat IA multimodal, búsqueda y trabajo con archivos | Sí · Modalidad gratuita con límites | Los planes Google AI Plus, Pro y Ultra amplían funciones y límites. Google ofrece en España una prueba educativa de Google AI Plus para estudiantes elegibles, sujeta a verificación y vigencia | Google; la promoción requiere una cuenta personal | Web / App | ⚠️ Con cuenta personal: revisar los ajustes de actividad y no tratarla como un entorno institucional autorizado | [gemini.google.com](https://gemini.google.com) |
 | **Kimi** (Moonshot AI) | Chat IA, Slides, Docs, Sheets, Websites, Agent, Deep Research | Sí · Plan gratuito con límites diarios | Funciones avanzadas limitadas en plan gratuito | Kimi (email o Google) | Web | ℹ️ Empresa china; datos procesados en servidores de Moonshot AI | [kimi.ai](https://kimi.ai) |
 
 </div>
+
+{: .callout .callout--idea }
+**🎓 Estudiantes universitarios**<br>
+En septiembre de 2026, Google ofrece en España una prueba de 12 meses de Google AI Plus a 0 € para estudiantes de educación superior elegibles, con verificación mediante SheerID, cuenta personal de Google y forma de pago. La oferta y el precio posterior pueden cambiar: consulta la [guía paso a paso para estudiantes]({{ '/primeros-pasos/ia-gratis-estudiantes' | relative_url }}).
 
 ---
 
@@ -121,4 +125,4 @@ En este curso trabajamos con **Copilot Chat** (gratuito). Las funciones de Micro
 
 ---
 
-*Fuentes: páginas oficiales de cada herramienta, agosto 2026. Los precios y límites pueden cambiar sin previo aviso.*
+*Fuentes: páginas oficiales de cada herramienta, septiembre de 2026. Los precios y límites pueden cambiar sin previo aviso.*
