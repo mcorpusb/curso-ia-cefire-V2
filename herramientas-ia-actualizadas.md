@@ -18,17 +18,14 @@ Tabla de referencia · Actualizada para el curso 2026-2027
 
 ## Herramientas de chat y asistencia docente
 
-<div class="tabla-responsive">
-
-| Herramienta | Función principal | Modalidad gratuita | Límites principales | Cuenta requerida | Entorno | Privacidad | Enlace oficial |
-|---|---|---|---|---|---|---|---|
-| **Copilot Chat** (Microsoft) | Chat IA conversacional, búsqueda web, documentos, imágenes, páginas colaborativas | Sí · Con cuenta Microsoft (modelos y funciones sujetos a cambios del servicio) | Límite de mensajes en horas punta con cuenta gratuita | Microsoft (personal o @edu.gva.es) | Web / App / Edge | ⚠️ Con cuenta personal: datos pueden usarse para mejora. Con cuenta institucional @edu.gva.es: protección superior si el tenant lo habilita. **Compruébalo en tu cuenta GVA.** | [copilot.microsoft.com](https://copilot.microsoft.com) |
-| **Microsoft 365 Copilot** | IA nativa en Word, PPT, Excel, Outlook, Teams | No · Requiere licencia de pago (~18 $/usuario/mes) | Solo disponible con suscripción M365 E3/E5 + add-on | Cuenta @edu.gva.es con licencia activa | Aplicaciones Office | Según política corporativa del tenant | [microsoft.com/microsoft-365/copilot](https://www.microsoft.com/es-es/microsoft-365/copilot/copilot-for-work) |
-| **ChatGPT** (OpenAI) | Chat IA multimodal, imágenes, análisis de documentos | Sí · GPT-4o mini gratuito; GPT-4o con límites | Número de mensajes con GPT-4o limitado en plan gratuito | OpenAI (edad mín. 13 años) | Web / App | ⚠️ Datos de conversación pueden usarse para entrenamiento en plan gratuito (desactivable en ajustes) | [chatgpt.com](https://chatgpt.com) |
-| **Gemini** (Google) | Chat IA multimodal, búsqueda y trabajo con archivos | Sí · Modalidad gratuita con límites | Los planes Google AI Plus, Pro y Ultra amplían funciones y límites. Google ofrece en España una prueba educativa de Google AI Plus para estudiantes elegibles, sujeta a verificación y vigencia | Google; la promoción requiere una cuenta personal | Web / App | ⚠️ Con cuenta personal: revisar los ajustes de actividad y no tratarla como un entorno institucional autorizado | [gemini.google.com](https://gemini.google.com) |
-| **Kimi** (Moonshot AI) | Chat IA, Slides, Docs, Sheets, Websites, Agent, Deep Research | Sí · Plan gratuito con límites diarios | Funciones avanzadas limitadas en plan gratuito | Kimi (email o Google) | Web | ℹ️ Empresa china; datos procesados en servidores de Moonshot AI | [kimi.ai](https://kimi.ai) |
-
-</div>
+| Herramienta | Para qué sirve | Acceso | Cuenta | A tener en cuenta |
+|---|---|---|---|---|
+| **[Copilot Chat](https://copilot.microsoft.com)** (Microsoft) | Chat, búsqueda, archivos e imágenes para tareas docentes. | ✅ Gratuito con límites. | Microsoft personal o institucional. | @edu.gva.es: funciones y protección según configuración. Cuenta personal: revisar uso de datos. |
+| **[Microsoft 365 Copilot](https://www.microsoft.com/es-es/microsoft-365/copilot/copilot-for-work)** (Microsoft) | IA en Word, Excel, PowerPoint, Outlook y Teams. | 💳 Licencia adicional de pago. | Microsoft 365 con licencia. | Según licencia y política de datos institucional. |
+| **[ChatGPT](https://chatgpt.com)** (OpenAI) | Chat multimodal, imágenes y análisis de documentos. | ✅ Gratuito con límites.<br>💳 Pago: mayor capacidad. | OpenAI. | Funciones según plan. Uso para entrenamiento desactivable en Controles de datos. |
+| **[Gemini](https://gemini.google.com)** (Google) | Chat multimodal, archivos y búsqueda. | ✅ Gratuito con límites.<br>💳 Planes Google AI.<br>🎓 Promoción para estudiantes elegibles. | Google personal para la promoción. | Cuenta personal: no es un entorno autorizado para datos del alumnado. Revisar actividad. |
+| **[Kimi](https://www.kimi.com)** (Moonshot AI) | Chat, documentos, presentaciones, agentes e investigación. | ✅ Gratuito con límites; funciones avanzadas según plan. | Kimi; correo o Google según disponibilidad. | Moonshot AI: revisar privacidad antes de subir documentos. |
+{: .radar-table tabindex="0" aria-labelledby="herramientas-de-chat-y-asistencia-docente" }
 
 {: .callout .callout--idea }
 **🎓 Estudiantes universitarios**<br>
@@ -38,20 +35,14 @@ En septiembre de 2026, Google ofrece en España una prueba de 12 meses de Google
 
 ## Herramientas de gestión documental
 
-<div class="tabla-responsive">
-
 | Herramienta | Función principal | Modalidad gratuita | Límites | Cuenta | Privacidad | Enlace |
 |---|---|---|---|---|---|---|
 | **NotebookLM** (Google) | Base de conocimiento conversacional sobre tus documentos | Sí · Gratuito con cuenta Google | 50 fuentes por notebook; límites de consulta por día en plan gratuito | Google personal o Workspace | ℹ️ Documentos NO se usan para entrenar modelos de Google (política actual) | [notebooklm.google.com](https://notebooklm.google.com) |
 | **Microsoft 365 Copilot Pages** | Páginas web colaborativas generadas desde Copilot | Sí · Con cuenta Microsoft gratuita | Integración avanzada solo con suscripción M365 | Microsoft | Según cuenta | [copilot.microsoft.com](https://copilot.microsoft.com) |
 
-</div>
-
 ---
 
 ## Herramientas de creación visual y presentaciones
-
-<div class="tabla-responsive">
 
 | Herramienta | Función | Gratuita | Límites | Cuenta | Privacidad | Enlace |
 |---|---|---|---|---|---|---|
@@ -59,33 +50,23 @@ En septiembre de 2026, Google ofrece en España una prueba de 12 meses de Google
 | **Adobe Firefly** | Generación de imágenes | Sí · 25 créditos/mes gratis | Créditos limitados en plan gratuito | Adobe (edad mín. 13 años) | ✅ Imágenes entrenadas con licencias Adobe Stock | [firefly.adobe.com](https://firefly.adobe.com) |
 | **Kimi Slides** | Presentaciones generadas desde texto o URL | Sí · Plan gratuito con límites | Límites de generación por día | Kimi | ℹ️ Ver privacidad Kimi | [kimi.ai](https://kimi.ai) |
 
-</div>
-
 ---
 
 ## Herramientas de audio y voz
-
-<div class="tabla-responsive">
 
 | Herramienta | Función | Gratuita | Límites | Cuenta | Privacidad | Enlace |
 |---|---|---|---|---|---|---|
 | **ElevenLabs** | Síntesis de voz, clonación de voz, texto a audio | Sí · ~10 min de audio/mes en plan gratuito | Clonación de voz y voces profesionales en planes de pago | ElevenLabs | ⚠️ Clonación de voz requiere consentimiento; usa con ética | [elevenlabs.io](https://elevenlabs.io) |
 | **Copilot / Gemini** (text-to-speech) | Narración de respuestas | Sí · Incluido en planes gratuitos | Funcionalidad básica | Ver herramienta principal | Ver herramienta principal | — |
 
-</div>
-
 ---
 
 ## Herramientas de vídeo con avatar IA
-
-<div class="tabla-responsive">
 
 | Herramienta | Función | Gratuita | Límites | Cuenta | Privacidad | Enlace |
 |---|---|---|---|---|---|---|
 | **HeyGen** | Vídeos con avatar IA, traducción de vídeos | Sí · Solo 3 vídeos de 1 min | Muy limitada en plan gratuito; planes de pago necesarios para uso regular | HeyGen | ⚠️ Avatar con cara propia requiere consentimiento explícito | [heygen.com](https://www.heygen.com) |
 | **Synthesia** | Vídeos didácticos con avatar IA | No · Solo prueba gratuita limitada | Plan de pago desde ~22 €/mes | Synthesia | ⚠️ Similar a HeyGen | [synthesia.io](https://www.synthesia.io) |
-
-</div>
 
 {: .callout .callout--alerta }
 **Nota sobre HeyGen y Synthesia:** Estas herramientas requieren planes de pago para un uso pedagógico regular. Considera si Canva (con narración grabada por el docente) o ElevenLabs (solo audio) cubren la necesidad con herramientas gratuitas.
@@ -94,14 +75,10 @@ En septiembre de 2026, Google ofrece en España una prueba de 12 meses de Google
 
 ## Herramientas experimentales y de laboratorio
 
-<div class="tabla-responsive">
-
 | Herramienta | Función | Gratuita | Enlace |
 |---|---|---|---|
 | **Google Labs / NotebookLM Plus** | Funciones experimentales de Google IA | Parcialmente | [labs.google.com](https://labs.google.com) |
 | **Gemini in Google Classroom** | IA integrada en Classroom (en expansión) | Con cuenta Workspace for Education | [edu.google.com](https://edu.google.com) |
-
-</div>
 
 ---
 

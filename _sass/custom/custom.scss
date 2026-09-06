@@ -800,6 +800,41 @@
   border-radius: 8px;
 }
 
+/* Primera tabla del radar: el tema ya aporta .table-wrapper y su scroll. */
+.radar-table {
+  width: 100%;
+  min-width: 736px;
+  table-layout: fixed;
+
+  th,
+  td {
+    vertical-align: top;
+    white-space: normal;
+    overflow-wrap: normal;
+    padding: 10px;
+    // El tema usa !important y reduce el tamaño en móvil.
+    font-size: 16px !important;
+    line-height: 1.5;
+  }
+
+  th {
+    background-color: #eef4fb;
+    color: #1a1a1a;
+    text-align: left;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #4a306a;
+    outline-offset: -2px;
+  }
+
+  th:nth-child(1) { width: 17%; }
+  th:nth-child(2) { width: 18%; }
+  th:nth-child(3) { width: 21%; }
+  th:nth-child(4) { width: 17%; }
+  th:nth-child(5) { width: 27%; }
+}
+
 /* ── Botón CTA grande ── */
 
 .btn-cta-wrapper {
