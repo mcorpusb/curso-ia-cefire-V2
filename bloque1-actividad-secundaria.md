@@ -31,9 +31,9 @@ Utilizar Microsoft Copilot para diseñar una actividad competencial realista y v
 
 Eres profesor/a de ESO o Bachillerato. Estás preparando una situación de aprendizaje y necesitas:
 
-1. Una actividad competencial que conecte el contenido curricular con un contexto real y motivador para tu alumnado.
-2. Un producto final claro y útil para el grupo.
-3. Un recurso visual que ayude a sintetizar y comunicar los contenidos clave de la actividad.
+- Una actividad competencial que conecte el contenido curricular con un contexto real y motivador para tu alumnado.
+- Un producto final claro y útil para el grupo.
+- Un recurso visual que ayude a sintetizar y comunicar los contenidos clave de la actividad.
 
 Diseñar una actividad sólida y acompañarla de un apoyo visual puede llevar mucho tiempo. Con Copilot puedes obtener un borrador de calidad en menos de 20 minutos y dedicar el resto a personalizarlo y adaptarlo a tu grupo.
 
@@ -44,14 +44,14 @@ Diseñar una actividad sólida y acompañarla de un apoyo visual puede llevar mu
 
 ## ⚙️ Qué vas a hacer
 
-1. Accede a **Microsoft Copilot** con tu cuenta `@edu.gva.es` y comprueba que aparece la insignia **"Protegido"**.
-2. Elige una unidad didáctica o situación de aprendizaje relevante para tu grupo.
-3. Completa el prompt principal con los datos reales de tu asignatura, nivel y contexto.
-4. Lanza el prompt en Copilot y revisa la actividad generada.
-5. Ajusta la propuesta para que sea clara, motivadora y viable para tu alumnado.
-6. Solicita a Copilot un prompt maestro para transformar los contenidos clave en un recurso visual (infografía, póster, esquema, etc.).
-7. Genera el recurso visual y revisa su claridad y adecuación.
-8. Guarda la actividad y el recurso para usarlos en clase.
+- Accede a **Microsoft Copilot** con tu cuenta `@edu.gva.es` y comprueba que aparece la insignia **"Protegido"**.
+- Elige una unidad didáctica o situación de aprendizaje relevante para tu grupo.
+- Completa el prompt principal con los datos reales de tu asignatura, nivel y contexto.
+- Lanza el prompt en Copilot y revisa la actividad generada.
+- Ajusta la propuesta para que sea clara, motivadora y viable para tu alumnado.
+- Solicita a Copilot un prompt maestro para transformar los contenidos clave en un recurso visual (infografía, póster, esquema, etc.).
+- Genera el recurso visual y revisa su claridad y adecuación.
+- Guarda la actividad y el recurso para usarlos en clase.
 
 ---
 
@@ -118,11 +118,11 @@ Infografía educativa o póster visual para exponer en el aula.
 2 sesiones de 50 minutos.
 
 **Desarrollo por fases:**
-1. Introducción al tema y lluvia de ideas sobre cambios históricos.
-2. Investigación en grupos sobre causas, inventos, transformaciones sociales y consecuencias.
-3. Selección de la información más relevante y organización en bloques visuales.
-4. Diseño de la infografía o póster (puede ser digital o en papel).
-5. Exposición oral breve y puesta en común.
+- Introducción al tema y lluvia de ideas sobre cambios históricos.
+- Investigación en grupos sobre causas, inventos, transformaciones sociales y consecuencias.
+- Selección de la información más relevante y organización en bloques visuales.
+- Diseño de la infografía o póster (puede ser digital o en papel).
+- Exposición oral breve y puesta en común.
 
 **Materiales:**
 Libros de texto, recursos digitales, papel, rotuladores, acceso a ordenador o tablet.

@@ -33,7 +33,8 @@ Encontrarás ejemplos para cada etapa educativa, una actividad práctica y crite
 
 ---
 
-## 1. ¿Qué es un agente de IA?
+## ¿Qué es un agente de IA?
+{: id="1-qué-es-un-agente-de-ia" }
 
 Dicho de forma sencilla: un agente de IA es un asistente digital al que le has explicado, de entrada, quién es, qué tiene que hacer y cómo debe responder.
 
@@ -92,7 +93,8 @@ En este curso, cuando hablemos de "diseñar un agente", nos referiremos sobre to
 
 ---
 
-## 2. Chatbot general frente a agente especializado
+## Chatbot general frente a agente especializado
+{: id="2-chatbot-general-frente-a-agente-especializado" }
 
 ¿Cuál es la diferencia práctica? La diferencia está en las instrucciones de partida.
 
@@ -111,7 +113,8 @@ En este curso, cuando hablemos de "diseñar un agente", nos referiremos sobre to
 
 ---
 
-## 3. ¿Para qué puede servir un agente en educación?
+## ¿Para qué puede servir un agente en educación?
+{: id="3-para-qué-puede-servir-un-agente-en-educación" }
 
 La utilidad principal de un agente docente es que te permite **reutilizar unas buenas instrucciones** sin tener que reescribirlas cada vez. Esto tiene sentido para tareas que se repiten.
 
@@ -171,7 +174,8 @@ Un agente no mejora automáticamente una actividad. Lo importante es configurarl
 
 ---
 
-## 4. Cómo funciona un agente: esquema visual
+## Cómo funciona un agente: esquema visual
+{: id="4-cómo-funciona-un-agente-esquema-visual" }
 
 El proceso de uso de un agente docente sigue esta secuencia:
 
@@ -199,7 +203,8 @@ Y el proceso para **crear** ese agente puede resumirse así:
 
 ---
 
-## 5. Usar Copilot con @edu.gva.es en "modo agente"
+## Usar Copilot con @edu.gva.es en "modo agente"
+{: id="5-usar-copilot-con-edugvaes-en-modo-agente" }
 
 La cuenta `@edu.gva.es` permite acceder al entorno Microsoft 365 educativo de la Conselleria d'Educació. A través de ella puedes usar Copilot para tareas docentes.
 
@@ -212,23 +217,23 @@ La creación de agentes reales en Copilot puede no estar disponible para todas l
 
 ### Opción A: si tu cuenta permite crear agentes
 
-1. Entra en [Microsoft 365](https://www.office.com) e inicia sesión con tu cuenta `@edu.gva.es`.
-2. Comprueba que estás en el entorno institucional (debe aparecer el nombre de tu organización).
-3. Busca la opción **"Agentes"** o **"Nuevo agente"**, o accede a **Copilot Studio** si está disponible.
-4. Crea un nuevo agente con un nombre claro (por ejemplo: "Diseñador de situaciones de aprendizaje").
-5. Copia las instrucciones diseñadas en el curso en el campo de configuración del agente.
-6. Prueba el agente con un caso sencillo.
-7. Ajusta las instrucciones a partir de lo que observes.
-8. Guarda o publica el agente según los permisos disponibles.
+- Entra en [Microsoft 365](https://www.office.com) e inicia sesión con tu cuenta `@edu.gva.es`.
+- Comprueba que estás en el entorno institucional (debe aparecer el nombre de tu organización).
+- Busca la opción **"Agentes"** o **"Nuevo agente"**, o accede a **Copilot Studio** si está disponible.
+- Crea un nuevo agente con un nombre claro (por ejemplo: "Diseñador de situaciones de aprendizaje").
+- Copia las instrucciones diseñadas en el curso en el campo de configuración del agente.
+- Prueba el agente con un caso sencillo.
+- Ajusta las instrucciones a partir de lo que observes.
+- Guarda o publica el agente según los permisos disponibles.
 
 ### Opción B: si tu cuenta NO permite crear agentes
 
-1. Entra en Copilot con tu cuenta `@edu.gva.es`.
-2. Abre una conversación nueva.
-3. Copia y pega el prompt completo del agente al inicio de la conversación.
-4. Responde a las preguntas que Copilot te haga para recopilar el contexto necesario.
-5. Usa la conversación como si fuera un asistente especializado.
-6. Guarda el prompt en un documento propio para reutilizarlo más adelante.
+- Entra en Copilot con tu cuenta `@edu.gva.es`.
+- Abre una conversación nueva.
+- Copia y pega el prompt completo del agente al inicio de la conversación.
+- Responde a las preguntas que Copilot te haga para recopilar el contexto necesario.
+- Usa la conversación como si fuera un asistente especializado.
+- Guarda el prompt en un documento propio para reutilizarlo más adelante.
 
 > **Importante:** si usamos un prompt en una conversación, no hemos creado un agente permanente. Hemos creado una forma de trabajo reutilizable. Para crear un agente real, la plataforma debe permitir guardar instrucciones, conocimiento y configuración.
 
@@ -282,7 +287,8 @@ En Copilot, según la versión, licencia y disponibilidad, el modo <strong>Smart
 
 ---
 
-## 6. Crear un Gem en Gemini: el agente personalizado de Google
+## Crear un Gem en Gemini: el agente personalizado de Google
+{: id="6-crear-un-gem-en-gemini-el-agente-personalizado-de-google" }
 
 Gemini llama **Gems** a sus asistentes personalizados. Un Gem permite guardar instrucciones de forma permanente, lo que lo hace más parecido a crear un agente personalizado real que el "modo agente" de Copilot. Si la función está disponible en tu cuenta, cada vez que accedas al Gem las instrucciones ya estarán cargadas.
 
@@ -295,16 +301,16 @@ Gemini llama **Gems** a sus asistentes personalizados. Un Gem permite guardar in
 
 ### Pasos para crear un Gem en Gemini
 
-1. Entra en [gemini.google.com](https://gemini.google.com).
-2. Inicia sesión con una cuenta personal de Google (no la cuenta institucional @edu.gva.es, que puede tener restricciones en herramientas externas).
-3. Busca la opción **"Explorar Gems"** o **"Explore Gems"** en el menú lateral.
-4. Pulsa **"Nuevo Gem"** o **"New Gem"**.
-5. Escribe un **nombre** claro para el Gem.
-6. Escribe las **instrucciones** del Gem (ver ejemplos más abajo).
-7. Usa la ventana de **vista previa** para probarlo con un caso sencillo.
-8. **Ajusta las instrucciones** a partir de lo que observes en la prueba.
-9. **Guarda** el Gem.
-10. Úsalo cuando necesites realizar esa tarea repetida.
+- Entra en [gemini.google.com](https://gemini.google.com).
+- Inicia sesión con una cuenta personal de Google (no la cuenta institucional @edu.gva.es, que puede tener restricciones en herramientas externas).
+- Busca la opción **"Explorar Gems"** o **"Explore Gems"** en el menú lateral.
+- Pulsa **"Nuevo Gem"** o **"New Gem"**.
+- Escribe un **nombre** claro para el Gem.
+- Escribe las **instrucciones** del Gem (ver ejemplos más abajo).
+- Usa la ventana de **vista previa** para probarlo con un caso sencillo.
+- **Ajusta las instrucciones** a partir de lo que observes en la prueba.
+- **Guarda** el Gem.
+- Úsalo cuando necesites realizar esa tarea repetida.
 
 ### Ejemplo de Gem: Adaptador de textos para el aula
 
@@ -413,6 +419,7 @@ Normas:
 ```
 
 - Ejemplo para primaria:
+
 ```text
 Quiero que actúes como un asistente docente especializado en el diseño de actividades competenciales para Educación Primaria.
 
@@ -478,15 +485,16 @@ Normas:
 
 Una vez hayas pegado este prompt en Copilot o Gemini:
 
-1. Observa cómo la herramienta responde a las preguntas de contexto.
-2. Completa el contexto con información de un grupo ficticio o genérico (sin datos personales).
-3. Revisa la propuesta generada y valora si las instrucciones funcionan.
-4. Si quieres crear un agente real, copia estas instrucciones en Agent Builder, en Gems o en un GPT personalizado de ChatGPT, según la herramienta que uses y los permisos disponibles.
-5. Si no tienes esa opción, guarda el prompt en un documento propio para reutilizarlo cuando lo necesites.
+- Observa cómo la herramienta responde a las preguntas de contexto.
+- Completa el contexto con información de un grupo ficticio o genérico (sin datos personales).
+- Revisa la propuesta generada y valora si las instrucciones funcionan.
+- Si quieres crear un agente real, copia estas instrucciones en Agent Builder, en Gems o en un GPT personalizado de ChatGPT, según la herramienta que uses y los permisos disponibles.
+- Si no tienes esa opción, guarda el prompt en un documento propio para reutilizarlo cuando lo necesites.
 
 ---
 
-## 7. Crear un GPT en ChatGPT: asistente personalizado para docentes
+## Crear un GPT en ChatGPT: asistente personalizado para docentes
+{: id="7-crear-un-gpt-en-chatgpt-asistente-personalizado-para-docentes" }
 
 ChatGPT permite crear GPTs personalizados: asistentes con nombre, descripción, instrucciones guardadas y, según la configuración y el plan, posibilidad de añadir conocimiento de apoyo o archivos de referencia. La disponibilidad de esta función puede depender del plan y de la configuración de la cuenta.
 
@@ -515,13 +523,13 @@ ChatGPT permite crear GPTs personalizados: asistentes con nombre, descripción, 
 
 ### Pasos generales para crear un GPT en ChatGPT
 
-1. **Entra en ChatGPT** con tu cuenta.
-2. **Ve a "Explorar GPTs"** o busca la opción **"Crear GPT"** en el menú.
-3. **Define el nombre y la descripción**: debe reflejar con claridad para qué sirve el asistente.
-4. **Escribe las instrucciones completas**: rol, función, qué preguntar, cómo responder y qué no hacer.
-5. **Pruébalo con un caso docente real** (sin datos personales).
-6. **Ajusta las instrucciones** a partir de lo que observes en la prueba.
-7. **Guarda el GPT** y, si procede, compártelo según los permisos disponibles en tu cuenta.
+- **Entra en ChatGPT** con tu cuenta.
+- **Ve a "Explorar GPTs"** o busca la opción **"Crear GPT"** en el menú.
+- **Define el nombre y la descripción**: debe reflejar con claridad para qué sirve el asistente.
+- **Escribe las instrucciones completas**: rol, función, qué preguntar, cómo responder y qué no hacer.
+- **Pruébalo con un caso docente real** (sin datos personales).
+- **Ajusta las instrucciones** a partir de lo que observes en la prueba.
+- **Guarda el GPT** y, si procede, compártelo según los permisos disponibles en tu cuenta.
 
 ### Ejemplo completo: Generador de feedback competencial
 
@@ -566,7 +574,8 @@ ChatGPT no es un entorno institucional. No introduzcas datos personales del alum
 
 ---
 
-## 8. Comparativa: Copilot, Gemini Gems y ChatGPT GPTs
+## Comparativa: Copilot, Gemini Gems y ChatGPT GPTs
+{: id="8-comparativa-copilot-gemini-gems-y-chatgpt-gpts" }
 
 Ninguna herramienta es "la mejor" en todos los casos. Elegir una u otra depende del contexto, del tipo de tarea y de los permisos disponibles.
 
@@ -696,7 +705,8 @@ Para tareas del curso y trabajo institucional, prioriza <strong>Copilot con la c
 
 ---
 
-## 9. Buenas instrucciones, malos resultados: por qué importa cómo configuramos el agente
+## Buenas instrucciones, malos resultados: por qué importa cómo configuramos el agente
+{: id="9-buenas-instrucciones-malos-resultados-por-qué-importa-cómo-configuramos-el-agente" }
 
 La calidad de un agente educativo no depende de la herramienta que usemos, sino de las instrucciones que le damos. Un prompt vago produce resultados vagos. Un prompt bien construido produce propuestas útiles, coherentes y adaptadas.
 
@@ -742,7 +752,8 @@ Lo importante no es la herramienta, sino las instrucciones. Una instrucción bie
 
 ---
 
-## 10. Plantilla universal para diseñar un asistente educativo
+## Plantilla universal para diseñar un asistente educativo
+{: id="10-plantilla-universal-para-diseñar-un-asistente-educativo" }
 
 Antes de crear un agente, conviene planificar qué queremos que haga. Esta plantilla sirve para cualquier herramienta: Copilot, Gemini Gems o ChatGPT GPTs.
 
@@ -798,7 +809,8 @@ Normas:
 
 ---
 
-## 11. Ejemplos de agentes útiles por etapa educativa
+## Ejemplos de agentes útiles por etapa educativa
+{: id="11-ejemplos-de-agentes-útiles-por-etapa-educativa" }
 
 En el aula puede servir para… muchas cosas distintas según la etapa. Aquí tienes un punto de partida para cada una.
 
@@ -913,7 +925,8 @@ Incluye:
 
 ---
 
-## 12. Ideas de asistentes según la necesidad docente
+## Ideas de asistentes según la necesidad docente
+{: id="12-ideas-de-asistentes-según-la-necesidad-docente" }
 
 Más allá de la etapa, los asistentes educativos pueden organizarse por la función que cumplen en la práctica docente. Aquí tienes un punto de partida organizado por necesidad.
 
@@ -961,20 +974,21 @@ Más allá de la etapa, los asistentes educativos pueden organizarse por la func
 
 ---
 
-## 13. Actividad práctica: diseña tu primer agente docente
+## Actividad práctica: diseña tu primer agente docente
+{: id="13-actividad-práctica-diseña-tu-primer-agente-docente" }
 
 Ahora te toca a ti. Esta actividad te guía para diseñar un agente útil para tu realidad docente.
 
 ### Pasos
 
-1. **Elige una tarea docente repetitiva** que te lleve tiempo o que hagas con frecuencia.
-2. **Define qué debe hacer el agente**: describe su función en una o dos frases.
-3. **Decide qué información necesita** antes de responder (etapa, grupo, tema, etc.).
-4. **Escribe las instrucciones** siguiendo la estructura: rol → función → qué preguntar → cómo responder → qué no hacer.
-5. **Prueba el agente** con un caso sencillo y real.
-6. **Observa los resultados**: ¿son útiles? ¿hay errores? ¿falta algo?
-7. **Mejora las instrucciones** y vuelve a probar.
-8. **Comparte una reflexión breve** en el espacio del curso sobre lo que has aprendido en el proceso.
+- **Elige una tarea docente repetitiva** que te lleve tiempo o que hagas con frecuencia.
+- **Define qué debe hacer el agente**: describe su función en una o dos frases.
+- **Decide qué información necesita** antes de responder (etapa, grupo, tema, etc.).
+- **Escribe las instrucciones** siguiendo la estructura: rol → función → qué preguntar → cómo responder → qué no hacer.
+- **Prueba el agente** con un caso sencillo y real.
+- **Observa los resultados**: ¿son útiles? ¿hay errores? ¿falta algo?
+- **Mejora las instrucciones** y vuelve a probar.
+- **Comparte una reflexión breve** en el espacio del curso sobre lo que has aprendido en el proceso.
 
 ### Plantilla de diseño de agente
 
@@ -1023,7 +1037,8 @@ Ejemplo de prompt de prueba:
 
 ---
 
-## 14. Errores frecuentes al crear agentes
+## Errores frecuentes al crear agentes
+{: id="14-errores-frecuentes-al-crear-agentes" }
 
 Estos son los errores más habituales que se cometen al diseñar agentes educativos. Reconocerlos es el primer paso para evitarlos.
 
@@ -1045,7 +1060,8 @@ La mayoría de estos errores tienen la misma solución: dedicar unos minutos a p
 
 ---
 
-## 15. Uso seguro de agentes de IA
+## Uso seguro de agentes de IA
+{: id="15-uso-seguro-de-agentes-de-ia" }
 
 Usar agentes de IA con responsabilidad implica aplicar los mismos principios que en cualquier otro uso de la IA en el entorno educativo.
 
@@ -1073,7 +1089,8 @@ Si no lo publicarías en un documento abierto o no lo enviarías a una herramien
 
 ---
 
-## 16. Cierre
+## Cierre
+{: id="16-cierre" }
 
 Los agentes de IA no son una solución mágica ni una novedad sin sentido. Son una forma de **reutilizar tus mejores instrucciones** para no empezar de cero en cada tarea repetitiva.
 

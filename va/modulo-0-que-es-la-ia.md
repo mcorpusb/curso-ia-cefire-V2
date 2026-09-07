@@ -27,7 +27,8 @@ També veurem una cosa fonamental: la IA pot ser molt útil, però pot equivocar
 
 ---
 
-## 1. La IA no és una sola cosa
+## La IA no és una sola cosa
+{: id="1-la-ia-no-és-una-sola-cosa" }
 
 La **intel·ligència artificial (IA)** és un camp ampli. Inclou sistemes capaços de reconéixer patrons, fer prediccions, generar continguts o executar processos.
 
@@ -65,7 +66,8 @@ I hi ha una idea que ens acompanyarà durant tot el curs:
 
 ---
 
-## 2. Ens centrarem en la IA generativa
+## Ens centrarem en la IA generativa
+{: id="2-ens-centrarem-en-la-ia-generativa" }
 
 La **IA generativa** serà una de les protagonistes del curs.
 
@@ -94,7 +96,8 @@ En el **Bloc 3 · Generació Multimodal** aprofundirem en estes possibilitats.
 
 ---
 
-## 3. Quatre formes de treballar-hi
+## Quatre formes de treballar-hi
+{: id="3-quatre-formes-de-treballar-hi" }
 
 Una mateixa eina pot combinar diferents formes de treball.
 
@@ -134,7 +137,8 @@ El criteri que utilitzarem durant tot el curs serà el mateix:
 
 ---
 
-## 4. Quan la IA sembla segura… però no ho és
+## Quan la IA sembla segura… però no ho és
+{: id="4-quan-la-ia-sembla-segura-però-no-ho-és" }
 
 Hi ha dos conceptes que necessitem conéixer des del principi:
 
@@ -208,7 +212,8 @@ Abans d'utilitzar informació important:
 
 ---
 
-## 5. Què pot aportar i què no garantix
+## Què pot aportar i què no garantix
+{: id="5-què-pot-aportar-i-què-no-garantix" }
 
 | Pot ajudar a… | No garantix… |
 |:----------------|:--------------|
@@ -230,7 +235,8 @@ També hem de preguntar-nos:
 
 ---
 
-## 6. Privacitat, responsabilitat i marc legal
+## Privacitat, responsabilitat i marc legal
+{: id="6-privacitat-responsabilitat-i-marc-legal" }
 
 No convertirem este bloc en una classe de legislació.
 
@@ -283,7 +289,8 @@ Durant el curs anirem incorporant qüestions relacionades amb **privacitat, èti
 
 ---
 
-## 7. Amb quines eines experimentarem?
+## Amb quines eines experimentarem?
+{: id="7-amb-quines-eines-experimentarem" }
 
 Durant el curs utilitzarem i compararem diferents eines.
 
@@ -318,7 +325,8 @@ Utilitza únicament les eines amb què et sentes còmode i revisa les seues cond
 
 ---
 
-## 8. Activitat d'inici
+## Activitat d'inici
+{: id="8-activitat-dinici" }
 
 En la primera sessió utilitzarem una **pissarra col·laborativa**.
 
@@ -346,7 +354,8 @@ En finalitzar el curs tornarem a esta mateixa pissarra i comprovarem si la nostr
 
 ---
 
-# 9. Ara sí: provarem la IA
+# Ara sí: provarem la IA
+{: id="9-ara-sí-provarem-la-ia" }
 
 Fins ara n'hem parlat.
 

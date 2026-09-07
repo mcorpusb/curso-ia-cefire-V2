@@ -56,11 +56,11 @@ La IA puede facilitar muchas tareas docentes, pero no siempre es la mejor herram
 
 **NECESIDAD DOCENTE → TRABAJAR CON IA → REVISAR → VERIFICAR → APLICAR**
 
-1. Partimos de una necesidad docente real.
-2. Elegimos una herramienta adecuada y aportamos el contexto necesario.
-3. Revisamos y mejoramos la primera respuesta mediante conversación e iteración.
-4. Verificamos la información y las fuentes, la privacidad, los posibles errores y los sesgos.
-5. Transformamos el resultado en algo útil para nuestra práctica docente.
+- Partimos de una necesidad docente real.
+- Elegimos una herramienta adecuada y aportamos el contexto necesario.
+- Revisamos y mejoramos la primera respuesta mediante conversación e iteración.
+- Verificamos la información y las fuentes, la privacidad, los posibles errores y los sesgos.
+- Transformamos el resultado en algo útil para nuestra práctica docente.
 
 ---
 
@@ -93,11 +93,13 @@ Todas las sesiones son de **17:30 a 19:30 h** a través de la sala virtual del c
 
 ## Primeros pasos antes de la primera sesión
 
-### 1 · Identidad digital y acceso
+### Identidad digital y acceso
+{: id="1--identidad-digital-y-acceso" }
 
 Antes de nada, asegúrate de poder acceder a las plataformas del curso. Consulta la [guía de identidad digital](primeros-pasos/identidad-digital.md).
 
-### 2 · Acceder a Copilot Chat
+### Acceder a Copilot Chat
+{: id="2--acceder-a-copilot-chat" }
 
 {: .callout .callout--privacidad }
 **Antes de usar Copilot, comprueba qué servicios tienes disponibles en tu cuenta institucional.**
@@ -105,15 +107,16 @@ Copilot Chat y Microsoft 365 Copilot son productos distintos. Microsoft 365 Copi
 
 **Pasos para verificar:**
 
-1. Ve a [copilot.microsoft.com](https://copilot.microsoft.com) e inicia sesión con tu cuenta `@edu.gva.es`.
-2. Si funciona, escribe una pregunta de prueba, por ejemplo: *«Explica qué es la inteligencia artificial en dos líneas»*.
-3. Si no funciona o ves un mensaje de error, utiliza una de las alternativas gratuitas indicadas en el [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}) del curso.
+- Ve a [copilot.microsoft.com](https://copilot.microsoft.com) e inicia sesión con tu cuenta `@edu.gva.es`.
+- Si funciona, escribe una pregunta de prueba, por ejemplo: *«Explica qué es la inteligencia artificial en dos líneas»*.
+- Si no funciona o ves un mensaje de error, utiliza una de las alternativas gratuitas indicadas en el [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}) del curso.
 
 {: .callout .callout--privacidad }
 **Privacidad desde el primer día**
 No introduzcas datos personales del alumnado ni subas documentación interna o sensible a servicios no autorizados. Una cuenta personal no equivale a un entorno institucional: revisa siempre qué información compartes y bajo qué condiciones.
 
-### 3 · Tu primera interacción con la IA
+### Tu primera interacción con la IA
+{: id="3--tu-primera-interacción-con-la-ia" }
 
 Antes de la primera sesión, piensa en un contenido, concepto o situación que vayas a trabajar próximamente con tu alumnado. Después, realiza este pequeño experimento en Copilot Chat o en una alternativa del Radar de herramientas.
 

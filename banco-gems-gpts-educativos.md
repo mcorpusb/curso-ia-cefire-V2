@@ -20,7 +20,8 @@ Un banco curado de Gems (Google Gemini) y GPTs (ChatGPT) educativos organizados 
 
 ---
 
-## 1. Presentación
+## Presentación
+{: id="1-presentación" }
 
 ### ¿Qué es una Gem o un GPT educativo?
 
@@ -67,30 +68,32 @@ Un banco de recursos compartido permite:
 
 ---
 
-## 2. Cómo usar este banco
+## Cómo usar este banco
+{: id="2-cómo-usar-este-banco" }
 
 Sigue estos pasos cada vez que quieras explorar un recurso:
 
-1. **Abre el enlace** del recurso en una pestaña nueva del navegador.
-2. **Inicia sesión** si es necesario:
+- **Abre el enlace** del recurso en una pestaña nueva del navegador.
+- **Inicia sesión** si es necesario:
    - EduGems → cuenta de Google (evita usar la cuenta `@edu.gva.es` en plataformas no homologadas).
    - ChatGPT GPTs → cuenta personal en ChatGPT o versión gratuita limitada.
-3. **Pruébalo con una tarea real**: escribe un prompt relacionado con tu asignatura o etapa (p. ej.: *"Crea una actividad de matemáticas para 4.º de primaria sobre fracciones"*).
-4. **Guarda el enlace** en tu gestor de favoritos o en el documento de recursos del departamento.
-5. **Revisa los resultados** antes de usarlos con el alumnado:
+- **Pruébalo con una tarea real**: escribe un prompt relacionado con tu asignatura o etapa (p. ej.: *"Crea una actividad de matemáticas para 4.º de primaria sobre fracciones"*).
+- **Guarda el enlace** en tu gestor de favoritos o en el documento de recursos del departamento.
+- **Revisa los resultados** antes de usarlos con el alumnado:
    - ¿Son precisos?
    - ¿Están alineados con el currículo?
    - ¿El lenguaje es adecuado para la edad?
-6. **No introduzcas datos personales del alumnado** en ningún momento.
-7. **Documenta el uso**: anota qué recurso usaste, para qué tarea y cuál fue el resultado en la plantilla de análisis (sección 6).
-8. **Adapta el recurso** al contexto del centro si lo necesitas: cambia el nivel, el idioma, la asignatura o las instrucciones.
-9. **Comparte la ficha de valoración** con el grupo-clase o el equipo docente para enriquecer el banco compartido.
+- **No introduzcas datos personales del alumnado** en ningún momento.
+- **Documenta el uso**: anota qué recurso usaste, para qué tarea y cuál fue el resultado en la plantilla de análisis (apartado «Plantilla de análisis de una Gem/GPT»).
+- **Adapta el recurso** al contexto del centro si lo necesitas: cambia el nivel, el idioma, la asignatura o las instrucciones.
+- **Comparte la ficha de valoración** con el grupo-clase o el equipo docente para enriquecer el banco compartido.
 
 > **Importante:** El uso de herramientas externas como EduGems o ChatGPT GPTs está fuera del entorno protegido de la GVA. Úsalas con criterio y no introduzcas información sensible del centro ni del alumnado.
 
 ---
 
-## 3. Banco de Gems/GPTs educativos organizados por etapas
+## Banco de Gems/GPTs educativos organizados por etapas
+{: id="3-banco-de-gemsgpts-educativos-organizados-por-etapas" }
 
 Las tablas siguientes recogen recursos organizados por etapa educativa. Las columnas indican la plataforma, el uso principal, el enlace directo, una sugerencia de uso en el aula y las precauciones más relevantes.
 
@@ -98,7 +101,8 @@ Las tablas siguientes recogen recursos organizados por etapa educativa. Las colu
 
 ---
 
-### 3.1 Infantil
+### Infantil
+{: id="31-infantil" }
 
 | Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
 |:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
@@ -109,7 +113,8 @@ Las tablas siguientes recogen recursos organizados por etapa educativa. Las colu
 
 ---
 
-### 3.2 Primaria
+### Primaria
+{: id="32-primaria" }
 
 | Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
 |:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
@@ -127,7 +132,8 @@ Las tablas siguientes recogen recursos organizados por etapa educativa. Las colu
 
 ---
 
-### 3.3 Secundaria
+### Secundaria
+{: id="33-secundaria" }
 
 | Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
 |:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
@@ -143,7 +149,8 @@ Las tablas siguientes recogen recursos organizados por etapa educativa. Las colu
 
 ---
 
-### 3.4 Bachillerato
+### Bachillerato
+{: id="34-bachillerato" }
 
 | Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
 |:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
@@ -158,7 +165,8 @@ Las tablas siguientes recogen recursos organizados por etapa educativa. Las colu
 
 ---
 
-### 3.5 Formación Profesional
+### Formación Profesional
+{: id="35-formación-profesional" }
 
 | Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
 |:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
@@ -172,7 +180,8 @@ Las tablas siguientes recogen recursos organizados por etapa educativa. Las colu
 
 ---
 
-### 3.6 Educación de personas adultas y EOI
+### Educación de personas adultas y EOI
+{: id="36-educación-de-personas-adultas-y-eoi" }
 
 | Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
 |:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
@@ -186,7 +195,8 @@ Las tablas siguientes recogen recursos organizados por etapa educativa. Las colu
 
 ---
 
-### 3.7 Educación especial y atención a la diversidad
+### Educación especial y atención a la diversidad
+{: id="37-educación-especial-y-atención-a-la-diversidad" }
 
 > **Importante:** Los recursos de esta sección están orientados al uso **docente** para diseñar materiales accesibles. Antes de proponer cualquier herramienta al alumnado con necesidades educativas especiales, consulta con el equipo de orientación del centro.
 
@@ -204,7 +214,8 @@ Las tablas siguientes recogen recursos organizados por etapa educativa. Las colu
 
 ---
 
-### 3.8 Profesorado y equipos docentes
+### Profesorado y equipos docentes
+{: id="38-profesorado-y-equipos-docentes" }
 
 | Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
 |:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
@@ -224,7 +235,8 @@ Las tablas siguientes recogen recursos organizados por etapa educativa. Las colu
 
 ---
 
-### 3.9 Familias y orientación
+### Familias y orientación
+{: id="39-familias-y-orientación" }
 
 | Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
 |:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
@@ -237,7 +249,8 @@ Las tablas siguientes recogen recursos organizados por etapa educativa. Las colu
 
 ---
 
-## 4. Recursos Generalitat Valenciana / CEFIRE
+## Recursos Generalitat Valenciana / CEFIRE
+{: id="4-recursos-generalitat-valenciana--cefire" }
 
 Los recursos del CEFIRE y de la Generalitat Valenciana no son Gems ni GPTs, pero pueden **alimentar la creación de agentes y recursos personalizados**: sus contenidos, marcos curriculares y situaciones de aprendizaje son la materia prima ideal para configurar instrucciones de una Gem propia.
 
@@ -256,7 +269,8 @@ Los recursos del CEFIRE y de la Generalitat Valenciana no son Gems ni GPTs, pero
 
 ---
 
-## 5. Actividad práctica
+## Actividad práctica
+{: id="5-actividad-práctica" }
 
 ## Actividad: Curar, probar y adaptar una Gem/GPT educativa
 
@@ -279,8 +293,8 @@ Individual o por parejas del mismo departamento o etapa.
 ### Materiales
 
 - Acceso a [EduGems](https://www.edugems.ai/) o [ChatGPT GPTs](https://chatgpt.com/gpts) (cuenta personal).
-- Plantilla de análisis (sección 6 de esta página).
-- Rúbrica de evaluación (sección 7 de esta página).
+- Plantilla de análisis (apartado «Plantilla de análisis de una Gem/GPT» de esta página).
+- Rúbrica de evaluación (apartado «Rúbrica de evaluación» de esta página).
 - Documento colaborativo del grupo (Aules, Drive o similar).
 
 ### Pasos
@@ -291,7 +305,7 @@ Decide con qué etapa vas a trabajar: Infantil, Primaria, Secundaria, Bachillera
 
 **Paso 2 — Selecciona una Gem/GPT del banco**
 
-Elige uno de los recursos de la sección 3 correspondiente a tu etapa. Puedes elegir el que más llame tu atención o el que más se ajuste a una necesidad real de tu aula.
+Elige uno de los recursos del banco de Gems/GPTs correspondiente a tu etapa. Puedes elegir el que más llame tu atención o el que más se ajuste a una necesidad real de tu aula.
 
 **Paso 3 — Pruébala con una tarea real**
 
@@ -304,7 +318,7 @@ Guarda las respuestas para analizarlas.
 
 **Paso 4 — Analiza su utilidad pedagógica**
 
-Rellena la **plantilla de análisis** de la sección 6. Responde a estas preguntas:
+Rellena la **plantilla de análisis** del apartado «Plantilla de análisis de una Gem/GPT». Responde a estas preguntas:
 
 - ¿El resultado es preciso y fiable?
 - ¿Está alineado con el currículo?
@@ -367,7 +381,7 @@ Sube la plantilla cumplimentada al espacio de trabajo colectivo del grupo (foro 
 
 ### Criterios de evaluación
 
-Consulta la rúbrica completa en la sección 7 de esta página. Se evaluará:
+Consulta la rúbrica completa en el apartado «Rúbrica de evaluación» de esta página. Se evaluará:
 
 - La adecuación pedagógica del recurso seleccionado.
 - La calidad del análisis crítico.
@@ -380,7 +394,8 @@ Una **ficha de análisis** cumplimentada y una **mini propuesta de aula** (activ
 
 ---
 
-## 6. Plantilla de análisis de una Gem/GPT
+## Plantilla de análisis de una Gem/GPT
+{: id="6-plantilla-de-análisis-de-una-gemgpt" }
 
 Usa esta plantilla para documentar cualquier recurso de IA educativo que explores. Puedes copiarla en un documento propio o en el espacio colaborativo del curso.
 
@@ -409,7 +424,8 @@ Usa esta plantilla para documentar cualquier recurso de IA educativo que explore
 
 ---
 
-## 7. Rúbrica de evaluación
+## Rúbrica de evaluación
+{: id="7-rúbrica-de-evaluación" }
 
 Usa esta rúbrica para valorar la calidad pedagógica de una Gem/GPT educativa o la propuesta de uso elaborada por el docente.
 
@@ -427,7 +443,8 @@ Usa esta rúbrica para valorar la calidad pedagógica de una Gem/GPT educativa o
 
 ---
 
-## 8. Dónde encontrar más recursos
+## Dónde encontrar más recursos
+{: id="8-dónde-encontrar-más-recursos" }
 
 | Fuente | Qué permite encontrar | Enlace |
 |:-------|:---------------------|:-------|
@@ -446,7 +463,8 @@ Usa esta rúbrica para valorar la calidad pedagógica de una Gem/GPT educativa o
 
 ---
 
-## 9. Cadenas de búsqueda útiles
+## Cadenas de búsqueda útiles
+{: id="9-cadenas-de-búsqueda-útiles" }
 
 Usa estas búsquedas en Google para encontrar más recursos de IA educativa. Puedes copiarlas directamente en la barra de búsqueda.
 
@@ -470,7 +488,8 @@ Usa estas búsquedas en Google para encontrar más recursos de IA educativa. Pue
 
 ---
 
-## 10. Cómo integrar esta página en el curso
+## Cómo integrar esta página en el curso
+{: id="10-cómo-integrar-esta-página-en-el-curso" }
 
 ### Enlace recomendado desde `index.md`
 
@@ -482,20 +501,20 @@ Se recomienda añadir esta página como recurso complementario en la sección **
 |:----------------|:------------------------|
 | [bloque1-agentes-ia.md](bloque1-agentes-ia.md) | El banco amplía los ejemplos de agentes con recursos ya construidos y listos para usar o adaptar. Los Gems/GPTs son la versión "lista para usar" de los agentes que el docente aprende a diseñar en ese bloque |
 | [bloque1-seguridad.md](bloque1-seguridad.md) | Las advertencias de privacidad, los criterios de edad y los riesgos de fiabilidad de esta página son un complemento directo de los contenidos de seguridad del bloque 1 |
-| [bloque1-accesibilidad-ia.md](bloque1-accesibilidad-ia.md) | La sección 3.7 (Educación especial y atención a la diversidad) y las adaptaciones DUA de los recursos conectan directamente con los contenidos de accesibilidad e inclusión del bloque 1 |
-| [bloque1-actividad-infantil.md](bloque1-actividad-infantil.md) | Los recursos de la sección 3.1 (Infantil) pueden usarse como punto de partida o como referencia para las actividades de esta página |
-| [bloque1-actividad-primaria.md](bloque1-actividad-primaria.md) | Los recursos de la sección 3.2 (Primaria) amplían y concretan las propuestas de actividad de primaria del bloque 1 |
+| [bloque1-accesibilidad-ia.md](bloque1-accesibilidad-ia.md) | La sección «Educación especial y atención a la diversidad» y las adaptaciones DUA de los recursos conectan directamente con los contenidos de accesibilidad e inclusión del bloque 1 |
+| [bloque1-actividad-infantil.md](bloque1-actividad-infantil.md) | Los recursos de la sección «Infantil» pueden usarse como punto de partida o como referencia para las actividades de esta página |
+| [bloque1-actividad-primaria.md](bloque1-actividad-primaria.md) | Los recursos de la sección «Primaria» amplían y concretan las propuestas de actividad de primaria del bloque 1 |
 | [bloque1-actividad-secundaria.md](bloque1-actividad-secundaria.md) | Los recursos de las secciones 3.3 y 3.4 (Secundaria y Bachillerato) se conectan con las actividades de secundaria del bloque 1 |
-| [bloque1-actividad-fp.md](bloque1-actividad-fp.md) | Los recursos de la sección 3.5 (FP) complementan directamente las actividades de formación profesional del bloque 1 |
-| [bloque1-actividad-eoi.md](bloque1-actividad-eoi.md) | Los recursos de la sección 3.6 (Adultos/EOI) amplían las propuestas de actividad para EOI y educación de adultos del bloque 1 |
+| [bloque1-actividad-fp.md](bloque1-actividad-fp.md) | Los recursos de la sección «Formación Profesional» complementan directamente las actividades de formación profesional del bloque 1 |
+| [bloque1-actividad-eoi.md](bloque1-actividad-eoi.md) | Los recursos de la sección «Educación de personas adultas y EOI» amplían las propuestas de actividad para EOI y educación de adultos del bloque 1 |
 
 ### Propuesta de uso como actividad transversal
 
 Esta página puede funcionar como **actividad transversal del curso** en tres momentos:
 
-1. **Al inicio del bloque 1**: exploración libre del banco para identificar recursos de interés personal.
-2. **Durante el bloque 2 o 3**: uso de la plantilla de análisis para documentar un recurso y diseñar una aplicación en el aula.
-3. **Al final del curso**: elaboración de un banco de recursos compartido del claustro, alimentado con las fichas de análisis de todos los participantes.
+- **Al inicio del bloque 1**: exploración libre del banco para identificar recursos de interés personal.
+- **Durante el bloque 2 o 3**: uso de la plantilla de análisis para documentar un recurso y diseñar una aplicación en el aula.
+- **Al final del curso**: elaboración de un banco de recursos compartido del claustro, alimentado con las fichas de análisis de todos los participantes.
 
 > **Sugerencia:** El banco puede crecer como documento colaborativo del equipo docente del centro, alimentado durante y después del curso. Propón a los participantes que aporten al menos una ficha antes del final de la formación.
 

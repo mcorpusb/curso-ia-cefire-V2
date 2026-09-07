@@ -47,8 +47,8 @@ Instalar Gemma 4 es sencillo para cualquier usuario:
   - Gemma-2 de 2 B de parámetros
   - Gemma 4 de 4 B de parámetros
 
-1. **Espera a que se descargue** el modelo (puede tardar unos minutos y ocupar espacio).
-2. **Abre la app y haz una primera prueba**: por ejemplo, pídele que resuma un texto o explique una imagen.
+- **Espera a que se descargue** el modelo (puede tardar unos minutos y ocupar espacio).
+- **Abre la app y haz una primera prueba**: por ejemplo, pídele que resuma un texto o explique una imagen.
 
 **Advertencias:**
 

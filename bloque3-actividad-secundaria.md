@@ -49,11 +49,11 @@ Diseña un cómic argumentativo, científico, histórico, ético o social para t
 
 ## ⚙️ Qué vas a hacer (paso a paso)
 
-1. Pido un prompt exhaustivo adaptando el que tengo listo para usar usando Copilot, ChatGPT o Gemini.
+- Pido un prompt exhaustivo adaptando el que tengo listo para usar usando Copilot, ChatGPT o Gemini.
 
-2. Con el prompt que me devuelve voy a generar el guion completo del cómic, revisando la adecuación al nivel, el rigor de la información, el lenguaje y la competencia trabajada.
+- Con el prompt que me devuelve voy a generar el guion completo del cómic, revisando la adecuación al nivel, el rigor de la información, el lenguaje y la competencia trabajada.
 
-3. Uso el cómic como recurso de aula, material de debate, actividad de análisis crítico o producto final de una situación de aprendizaje.
+- Uso el cómic como recurso de aula, material de debate, actividad de análisis crítico o producto final de una situación de aprendizaje.
 
 ## 💬 AJUSTA ESTE PROMPT listo para usar:
 

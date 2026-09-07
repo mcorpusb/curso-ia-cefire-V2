@@ -37,12 +37,13 @@ Seguirás este recorrido:
 
 Al finalizar tendrás:
 
-1. un cuento breve revisado;
-2. un pequeño cómic, cuento ilustrado o secuencia visual;
-3. una comunicación breve para las familias;
-4. una reflexión sobre el proceso.
+- un cuento breve revisado;
+- un pequeño cómic, cuento ilustrado o secuencia visual;
+- una comunicación breve para las familias;
+- una reflexión sobre el proceso.
 
-## 1. Define la necesidad de aula
+## Define la necesidad de aula
+{: id="1-define-la-necesidad-de-aula" }
 
 Completa esta mini ficha sin incluir información identificativa:
 
@@ -55,7 +56,8 @@ Interés general del grupo:
 Mensaje o aprendizaje que quieres trabajar:
 ```
 
-## 2. Crea un primer borrador del cuento
+## Crea un primer borrador del cuento
+{: id="2-crea-un-primer-borrador-del-cuento" }
 
 Adapta este prompt con la información de tu ficha:
 
@@ -93,7 +95,8 @@ Este ejemplo muestra una posible situación de educación emocional; no es una p
 
 La finalidad no es hacer desaparecer la emoción, sino reconocerla, expresarla y explorar estrategias adecuadas sin convertir el cuento en asesoramiento psicológico.
 
-## 3. Revisa y mejora el cuento
+## Revisa y mejora el cuento
+{: id="3-revisa-y-mejora-el-cuento" }
 
 La primera respuesta de la IA es un borrador. Revisa:
 
@@ -127,7 +130,8 @@ Evita presentar el miedo como algo malo.
 Introduce una repetición que el grupo pueda decir en voz alta.
 ```
 
-## 4. Convierte el cuento en un recurso visual
+## Convierte el cuento en un recurso visual
+{: id="4-convierte-el-cuento-en-un-recurso-visual" }
 
 Esta es una primera aproximación al proceso **texto → escenas → imágenes → recurso visual**.
 
@@ -178,7 +182,8 @@ Revisa siempre el texto generado dentro de las imágenes: puede contener errores
 
 <img src="{{ '/assets/img/Gemini_cuento infantil.png' | relative_url }}" alt="Ejemplo de cuento ilustrado infantil sobre un pequeño dinosaurio que aprende estrategias para afrontar el miedo acompañado por su maestra">
 
-## 5. Prepara una comunicación para las familias
+## Prepara una comunicación para las familias
+{: id="5-prepara-una-comunicación-para-las-familias" }
 
 Parte del cuento final revisado y adapta este prompt:
 
@@ -204,11 +209,11 @@ También puedes solicitar una versión en valenciano o bilingüe. Revísala ante
 
 Presenta:
 
-1. el cuento final revisado;
-2. el pequeño cómic, cuento ilustrado o secuencia visual;
-3. la nota a familias revisada;
-4. una muestra breve del proceso de trabajo con IA —el prompt inicial y uno o dos cambios relevantes son suficientes—;
-5. la reflexión final.
+- el cuento final revisado;
+- el pequeño cómic, cuento ilustrado o secuencia visual;
+- la nota a familias revisada;
+- una muestra breve del proceso de trabajo con IA —el prompt inicial y uno o dos cambios relevantes son suficientes—;
+- la reflexión final.
 
 Puedes utilizar un PDF, documento, presentación u otro formato admitido. **El formato de entrega será el indicado en Aules.**
 
@@ -216,10 +221,10 @@ Puedes utilizar un PDF, documento, presentación u otro formato admitido. **El f
 
 Responde brevemente:
 
-1. ¿Qué cambiaste respecto a la primera propuesta de la IA?
-2. ¿Qué decisión pedagógica mantuviste bajo tu criterio?
-3. ¿Qué información decidiste no compartir?
-4. ¿Utilizarías realmente este recurso con tu grupo? ¿Qué adaptarías?
+- ¿Qué cambiaste respecto a la primera propuesta de la IA?
+- ¿Qué decisión pedagógica mantuviste bajo tu criterio?
+- ¿Qué información decidiste no compartir?
+- ¿Utilizarías realmente este recurso con tu grupo? ¿Qué adaptarías?
 
 ## 🌱 Aplicación en el aula
 

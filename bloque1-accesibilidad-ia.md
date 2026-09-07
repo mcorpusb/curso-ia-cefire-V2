@@ -235,11 +235,11 @@ Veamos cómo un pequeño ajuste con IA transforma unas instrucciones de tarea.
     <div class="comparacion__label">✅ Después</div>
     <div class="comparacion__texto">
       <em>"Escribe un texto en el que des tu opinión sobre el uso de la inteligencia artificial en clase. Sigue estos pasos:"</em>
-      <ol>
+      <ul>
         <li><em>Elige si estás a favor, en contra o tienes una opinión intermedia.</em></li>
         <li><em>Busca dos artículos o vídeos que apoyen tu idea.</em></li>
         <li><em>Escribe entre 150 y 200 palabras.</em></li>
-      </ol>
+      </ul>
     </div>
   </div>
 </div>

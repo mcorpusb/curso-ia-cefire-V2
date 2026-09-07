@@ -21,7 +21,8 @@ Si además de docente estás estudiando en una universidad, algunas plataformas 
 
 ---
 
-## 1. ¿A quién puede interesar esta guía?
+## ¿A quién puede interesar esta guía?
+{: id="1-a-quién-puede-interesar-esta-guía" }
 
 Puede resultar útil para personas matriculadas en un grado, un máster, un doctorado u otros estudios de educación superior que cumplan las condiciones de la oferta.
 
@@ -33,7 +34,8 @@ Ser docente **no implica automáticamente** ser elegible. La posible ventaja pro
 
 ---
 
-## 2. Google Gemini y Google AI para estudiantes en España
+## Google Gemini y Google AI para estudiantes en España
+{: id="2-google-gemini-y-google-ai-para-estudiantes-en-españa" }
 
 En la fecha de esta revisión, Google ofrece en España una **prueba de 12 meses de Google AI Plus (400 GB) a 0 €** para estudiantes de educación superior que cumplan los requisitos. La oferta debe canjearse antes del **31 de diciembre de 2026**. Google indica que el plan incluido puede depender del país o territorio de la institución.
 
@@ -58,7 +60,8 @@ La promoción se activa en una **cuenta personal de Google**. El correo universi
 
 ---
 
-## 3. Requisitos confirmados
+## Requisitos confirmados
+{: id="3-requisitos-confirmados" }
 
 <div class="callout callout--verifica" role="note" aria-label="Requisitos de la oferta" markdown="1">
 
@@ -77,7 +80,8 @@ Google decide finalmente la elegibilidad de la cuenta. Estar matriculado/a no ga
 
 ---
 
-## 4. Paso a paso para solicitar la oferta
+## Paso a paso para solicitar la oferta
+{: id="4-paso-a-paso-para-solicitar-la-oferta" }
 
 ### Paso 1 · Accede a la página oficial
 
@@ -125,12 +129,12 @@ Una vez completada la suscripción, revisa la confirmación de Google One y el e
 
 Google indica que quienes terminaron la prueba de Google AI Pro de 2025 pueden optar a la oferta de Google AI Plus vigente si cumplen sus requisitos. Esto **no equivale a una renovación automática ni garantiza la elegibilidad** de todas las cuentas.
 
-1. Inicia sesión primero con la misma cuenta personal de Google.
-2. Comprueba el estado, el plan y la fecha final de tu suscripción actual.
-3. Entra en la página oficial de estudiantes para ver qué oferta aparece para esa cuenta.
-4. Revisa el correo asociado por si Google solicita una nueva verificación.
-5. Si se solicita, completa de nuevo la verificación de estudiante.
-6. Confirma el precio y las fechas antes de aceptar cualquier cambio.
+- Inicia sesión primero con la misma cuenta personal de Google.
+- Comprueba el estado, el plan y la fecha final de tu suscripción actual.
+- Entra en la página oficial de estudiantes para ver qué oferta aparece para esa cuenta.
+- Revisa el correo asociado por si Google solicita una nueva verificación.
+- Si se solicita, completa de nuevo la verificación de estudiante.
+- Confirma el precio y las fechas antes de aceptar cualquier cambio.
 
 No crees una cuenta nueva como primera solución: podrías separar archivos, historial, almacenamiento y facturación entre cuentas distintas.
 
@@ -141,7 +145,8 @@ Google exige reverificación cada 12 meses para las ofertas de estudiante de Goo
 
 ---
 
-## 5. 💳 Revisa qué ocurrirá después del periodo gratuito
+## 💳 Revisa qué ocurrirá después del periodo gratuito
+{: id="5--revisa-qué-ocurrirá-después-del-periodo-gratuito" }
 
 La promoción exige una forma de pago válida. La página española de la oferta indica que, si no cancelas antes, al finalizar la prueba se cobrará automáticamente el precio mensual de Google AI Plus que corresponda. En septiembre de 2026 muestra **4,99 € al mes**; verifica siempre el importe final en la pantalla de contratación, porque puede cambiar.
 
@@ -154,7 +159,8 @@ Puedes cancelar la suscripción de Google One antes de que termine el periodo pr
 
 ---
 
-## 6. Cuenta personal, correo universitario y cuenta docente
+## Cuenta personal, correo universitario y cuenta docente
+{: id="6-cuenta-personal-correo-universitario-y-cuenta-docente" }
 
 <div class="tabla-responsive">
 
@@ -170,7 +176,8 @@ Son situaciones distintas: **ser docente de la GVA**, **disponer de Microsoft 36
 
 ---
 
-## 7. 🔒 Privacidad: una promoción no autoriza cualquier uso
+## 🔒 Privacidad: una promoción no autoriza cualquier uso
+{: id="7--privacidad-una-promoción-no-autoriza-cualquier-uso" }
 
 {: .callout .callout--privacidad }
 **Cuenta gratuita o promocional ≠ entorno institucional autorizado**<br>
@@ -193,7 +200,8 @@ ChatGPT Free sigue siendo un plan distinto y ChatGPT Edu es una solución contra
 
 ---
 
-## 8. Resumen de disponibilidad
+## Resumen de disponibilidad
+{: id="8-resumen-de-disponibilidad" }
 
 <div class="tabla-responsive">
 

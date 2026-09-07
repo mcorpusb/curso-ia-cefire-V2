@@ -26,7 +26,8 @@ También veremos algo fundamental: la IA puede ser muy útil, pero puede equivoc
 
 ---
 
-## 1. La IA no es una sola cosa
+## La IA no es una sola cosa
+{: id="1-la-ia-no-es-una-sola-cosa" }
 
 La **inteligencia artificial (IA)** es un campo amplio. Incluye sistemas capaces de reconocer patrones, realizar predicciones, generar contenidos o ejecutar procesos.
 
@@ -64,7 +65,8 @@ Y hay una idea que nos acompañará durante todo el curso:
 
 ---
 
-## 2. Nos centraremos en la IA generativa
+## Nos centraremos en la IA generativa
+{: id="2-nos-centraremos-en-la-ia-generativa" }
 
 La **IA generativa** será una de las protagonistas del curso.
 
@@ -93,7 +95,8 @@ En el **Bloque 3 · Generación Multimodal** profundizaremos en estas posibilida
 
 ---
 
-## 3. Cuatro formas de trabajar con ella
+## Cuatro formas de trabajar con ella
+{: id="3-cuatro-formas-de-trabajar-con-ella" }
 
 Una misma herramienta puede combinar distintas formas de trabajo.
 
@@ -133,7 +136,8 @@ El criterio que utilizaremos durante todo el curso será el mismo:
 
 ---
 
-## 4. Cuando la IA parece segura… pero no lo está
+## Cuando la IA parece segura… pero no lo está
+{: id="4-cuando-la-ia-parece-segura-pero-no-lo-está" }
 
 Hay dos conceptos que necesitamos conocer desde el principio:
 
@@ -207,7 +211,8 @@ Antes de utilizar información importante:
 
 ---
 
-## 5. Qué puede aportar y qué no garantiza
+## Qué puede aportar y qué no garantiza
+{: id="5-qué-puede-aportar-y-qué-no-garantiza" }
 
 | Puede ayudar a… | No garantiza… |
 |:----------------|:--------------|
@@ -229,7 +234,8 @@ También debemos preguntarnos:
 
 ---
 
-## 6. Privacidad, responsabilidad y marco legal
+## Privacidad, responsabilidad y marco legal
+{: id="6-privacidad-responsabilidad-y-marco-legal" }
 
 No vamos a convertir este bloque en una clase de legislación.
 
@@ -282,7 +288,8 @@ Durante el curso iremos incorporando cuestiones relacionadas con **privacidad, �
 
 ---
 
-## 7. ¿Con qué herramientas vamos a experimentar?
+## ¿Con qué herramientas vamos a experimentar?
+{: id="7-con-qué-herramientas-vamos-a-experimentar" }
 
 Durante el curso utilizaremos y compararemos distintas herramientas.
 
@@ -317,7 +324,8 @@ Utiliza únicamente las herramientas con las que te sientas cómodo y revisa sus
 
 ---
 
-## 8. Actividad de inicio
+## Actividad de inicio
+{: id="8-actividad-de-inicio" }
 
 En la primera sesión utilizaremos una **pizarra colaborativa**.
 
@@ -345,7 +353,8 @@ Al finalizar el curso volveremos a esta misma pizarra y comprobaremos si nuestra
 
 ---
 
-# 9. Ahora sí: vamos a tocar la IA
+# Ahora sí: vamos a tocar la IA
+{: id="9-ahora-sí-vamos-a-tocar-la-ia" }
 
 Hasta ahora hemos hablado de ella.
 

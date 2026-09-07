@@ -50,11 +50,11 @@ Diseña un cómic didáctico para explicar una situación cercana al alumnado y 
 
 ## ⚙️ Qué vas a hacer (paso a paso)
 
-1. Pido un prompt exhaustivo adaptando el que tengo listo para usar usando Copilot, ChatGPT o Gemini.
+- Pido un prompt exhaustivo adaptando el que tengo listo para usar usando Copilot, ChatGPT o Gemini.
 
-2. Con el prompt que me devuelve voy a generar el guion completo del cómic, revisando la adecuación al nivel, el lenguaje, los objetivos didácticos y la situación propuesta.
+- Con el prompt que me devuelve voy a generar el guion completo del cómic, revisando la adecuación al nivel, el lenguaje, los objetivos didácticos y la situación propuesta.
 
-3. Uso el cómic como recurso de aula, material de repaso, disparador de conversación o actividad de producción escrita y oral.
+- Uso el cómic como recurso de aula, material de repaso, disparador de conversación o actividad de producción escrita y oral.
 
 ## 💬 AJUSTA ESTE PROMPT listo para usar
 

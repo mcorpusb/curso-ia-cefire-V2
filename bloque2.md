@@ -246,11 +246,11 @@ Herramientas recomendadas:
 
 #### Instrucciones
 
-1. Usa exactamente el mismo prompt en cada herramienta.
-2. No mejores el prompt entre una herramienta y otra.
-3. Guarda la respuesta completa o una parte representativa.
-4. Si la respuesta es muy extensa, puedes resumirla, pero indica que es un resumen.
-5. Observa si la respuesta es general, concreta, creativa, práctica, estructurada o ajustada al contexto.
+- Usa exactamente el mismo prompt en cada herramienta.
+- No mejores el prompt entre una herramienta y otra.
+- Guarda la respuesta completa o una parte representativa.
+- Si la respuesta es muy extensa, puedes resumirla, pero indica que es un resumen.
+- Observa si la respuesta es general, concreta, creativa, práctica, estructurada o ajustada al contexto.
 
 ---
 
@@ -322,17 +322,17 @@ Pega aquí tu versión final mejorada:
 
 Responde de forma breve a estas preguntas:
 
-1. ¿Qué cambió al añadir un rol?
-2. ¿Qué cambió al concretar el contexto educativo?
-3. ¿Qué efecto tuvo indicar estilo y tono?
-4. ¿Qué mejoró al pedir un formato concreto?
-5. ¿Qué restricciones fueron más útiles?
-6. ¿Qué diferencias observaste entre Copilot, Gemini y ChatGPT?
-7. ¿Qué herramienta ofreció una respuesta más útil para tu caso?
-8. ¿Qué versión del prompt fue más eficaz?
-9. ¿Qué mejorarías en tu prompt final?
-10. ¿Cómo podrías reutilizar este prompt en tu práctica docente?
-11. ¿Has observado diferencias importantes en las respuestas según el tipo de prompt utilizado?
+- ¿Qué cambió al añadir un rol?
+- ¿Qué cambió al concretar el contexto educativo?
+- ¿Qué efecto tuvo indicar estilo y tono?
+- ¿Qué mejoró al pedir un formato concreto?
+- ¿Qué restricciones fueron más útiles?
+- ¿Qué diferencias observaste entre Copilot, Gemini y ChatGPT?
+- ¿Qué herramienta ofreció una respuesta más útil para tu caso?
+- ¿Qué versión del prompt fue más eficaz?
+- ¿Qué mejorarías en tu prompt final?
+- ¿Cómo podrías reutilizar este prompt en tu práctica docente?
+- ¿Has observado diferencias importantes en las respuestas según el tipo de prompt utilizado?
 
 ---
 
@@ -953,7 +953,8 @@ Mejor pocos prompts útiles que muchos prompts que nunca vuelves a abrir.
 
 ### Ejemplos docentes para tu baúl
 
-#### 1. Explicar un tema difícil
+#### Explicar un tema difícil
+{: id="1-explicar-un-tema-difícil" }
 
 ```text
 Nombre: Explicar fácil
@@ -966,7 +967,8 @@ Estado: [Borrador / Probado / Verificado]
 Notas o mejoras: Añadir el área o materia para ajustar mejor la respuesta.
 ```
 
-#### 2. Resumir un texto
+#### Resumir un texto
+{: id="2-resumir-un-texto" }
 
 ```text
 Nombre: Resumen docente
@@ -979,7 +981,8 @@ Estado: [Borrador / Probado / Verificado]
 Notas o mejoras: Indicar el nivel del alumnado.
 ```
 
-#### 3. Mejorar un correo a familias
+#### Mejorar un correo a familias
+{: id="3-mejorar-un-correo-a-familias" }
 
 ```text
 Nombre: Correo claro a familias
@@ -992,7 +995,8 @@ Estado: [Borrador / Probado / Verificado]
 Notas o mejoras: Revisar siempre antes de enviar.
 ```
 
-#### 4. Crear una actividad de aula
+#### Crear una actividad de aula
+{: id="4-crear-una-actividad-de-aula" }
 
 ```text
 Nombre: Actividad lista para clase
@@ -1005,7 +1009,8 @@ Estado: [Borrador / Probado / Verificado]
 Notas o mejoras: Añadir si se quiere trabajo individual, por parejas o en grupo.
 ```
 
-#### 5. Adaptar una actividad
+#### Adaptar una actividad
+{: id="5-adaptar-una-actividad" }
 
 ```text
 Nombre: Adaptar para distintos niveles
@@ -1018,7 +1023,8 @@ Estado: [Borrador / Probado / Verificado]
 Notas o mejoras: No incluir datos personales del alumnado.
 ```
 
-#### 6. Crear una rúbrica sencilla
+#### Crear una rúbrica sencilla
+{: id="6-crear-una-rúbrica-sencilla" }
 
 ```text
 Nombre: Rúbrica rápida
@@ -1037,11 +1043,11 @@ El baúl funciona porque no tienes que inventar la instrucción cada vez.
 
 Solo tienes que:
 
-1. Copiar el prompt.
-2. Cambiar las partes entre llaves.
-3. Pegar el prompt en Copilot u otra IA.
-4. Revisar la respuesta.
-5. Guardar la versión mejorada.
+- Copiar el prompt.
+- Cambiar las partes entre llaves.
+- Pegar el prompt en Copilot u otra IA.
+- Revisar la respuesta.
+- Guardar la versión mejorada.
 
 Ejemplo:
 
@@ -1122,11 +1128,11 @@ Notas o mejoras:
 
 Después:
 
-1. Prueba uno de ellos en Copilot Chat u otra IA.
-2. Revisa la respuesta.
-3. Mejora el prompt si es necesario.
-4. Anota qué has cambiado y por qué.
-5. Comparte uno con tu grupo, foro, ciclo o departamento.
+- Prueba uno de ellos en Copilot Chat u otra IA.
+- Revisa la respuesta.
+- Mejora el prompt si es necesario.
+- Anota qué has cambiado y por qué.
+- Comparte uno con tu grupo, foro, ciclo o departamento.
 
 
 ### Idea final
@@ -1218,9 +1224,9 @@ RESTRICCIONES:
 ### Actividad 2.2 — Gemini Notebook como verificador curricular *(individual)*
 {: id="actividad-22--notebooklm-como-verificador-curricular-individual" }
 
-1. Crea un notebook en Gemini Notebook y sube el decreto curricular de tu etapa (Decreto 106, 107 o 108/2022).
-2. Copia la Situación de Aprendizaje generada en la Actividad 2.1.
-3. Pega en Gemini Notebook el siguiente prompt:
+- Crea un notebook en Gemini Notebook y sube el decreto curricular de tu etapa (Decreto 106, 107 o 108/2022).
+- Copia la Situación de Aprendizaje generada en la Actividad 2.1.
+- Pega en Gemini Notebook el siguiente prompt:
 
 ```text
 Revisa la siguiente Situación de Aprendizaje y verifica:
@@ -1232,8 +1238,8 @@ Indica con [✅ CORRECTO] o [❌ ERROR + corrección] cada elemento.
 [PEGAR AQUÍ LA SA GENERADA]
 ```
 
-4. Corrige la SA con la información de Gemini Notebook.
-5. **Entregable:** documento con tres partes: versión inicial de la situación de aprendizaje, comprobaciones y correcciones señaladas por Gemini Notebook, y versión final revisada.
+- Corrige la SA con la información de Gemini Notebook.
+- **Entregable:** documento con tres partes: versión inicial de la situación de aprendizaje, comprobaciones y correcciones señaladas por Gemini Notebook, y versión final revisada.
 
 
 * * *

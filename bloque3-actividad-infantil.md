@@ -47,11 +47,11 @@ Estilo: muy visual, colorido, con imágenes grandes, letra clara y máximo 10 pa
 
 ## ⚙️ Qué vas a hacer (paso a paso)
 
-1. Pido un prompt exhaustivo adaptando el que tengo listo para usar usando Copilot, ChatGPT o Gemini.
+- Pido un prompt exhaustivo adaptando el que tengo listo para usar usando Copilot, ChatGPT o Gemini.
 
-2. Con el prompt que me devuelve voy a generar el guion completo del cómic, revisando la adecuación al nivel, el lenguaje, la emoción trabajada y la claridad visual de cada escena.
+- Con el prompt que me devuelve voy a generar el guion completo del cómic, revisando la adecuación al nivel, el lenguaje, la emoción trabajada y la claridad visual de cada escena.
 
-3. Uso el cómic como recurso de aula para anticipar rutinas, trabajar hábitos, iniciar una conversación o reforzar la convivencia en el grupo.
+- Uso el cómic como recurso de aula para anticipar rutinas, trabajar hábitos, iniciar una conversación o reforzar la convivencia en el grupo.
 
 ## 💬 AJUSTA ESTE PROMPT listo para usar:
 

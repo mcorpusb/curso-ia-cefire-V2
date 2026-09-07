@@ -37,15 +37,15 @@ Este proceso suele llevarte varias horas. Con Copilot puedes generar el esquelet
 
 ## ⚙️ Qué vas a hacer
 
-1. Accede a **Microsoft Copilot** con tu cuenta `@edu.gva.es` y comprueba que aparece la insignia **"Protegido"**.
-2. Elige un módulo profesional y un resultado de aprendizaje concreto que tengas que trabajar esta evaluación.
-3. Piensa en el tipo de empresa o situación profesional que mejor se ajuste a ese resultado de aprendizaje.
-4. Completa el prompt con los datos reales de tu ciclo, módulo y contexto.
-5. Lanza el prompt en Copilot y revisa el caso generado.
-6. Comprueba que el nivel de complejidad es adecuado para tu grupo: ¿es un reto alcanzable? ¿Los datos son coherentes?
-7. Verifica que la documentación técnica generada es correcta para tu especialidad (la IA puede inventar normativas o datos técnicos).
-8. Usa las instrucciones de iteración para ajustar el resultado.
-9. Copia todo en un documento Word y prepáralo para repartirlo en clase.
+- Accede a **Microsoft Copilot** con tu cuenta `@edu.gva.es` y comprueba que aparece la insignia **"Protegido"**.
+- Elige un módulo profesional y un resultado de aprendizaje concreto que tengas que trabajar esta evaluación.
+- Piensa en el tipo de empresa o situación profesional que mejor se ajuste a ese resultado de aprendizaje.
+- Completa el prompt con los datos reales de tu ciclo, módulo y contexto.
+- Lanza el prompt en Copilot y revisa el caso generado.
+- Comprueba que el nivel de complejidad es adecuado para tu grupo: ¿es un reto alcanzable? ¿Los datos son coherentes?
+- Verifica que la documentación técnica generada es correcta para tu especialidad (la IA puede inventar normativas o datos técnicos).
+- Usa las instrucciones de iteración para ajustar el resultado.
+- Copia todo en un documento Word y prepáralo para repartirlo en clase.
 
 ---
 

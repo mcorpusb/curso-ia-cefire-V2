@@ -24,7 +24,8 @@ Transforma ideas docentes en herramientas interactivas usando inteligencia artif
 
 ---
 
-## 1. ¿Qué es el vibe coding?
+## ¿Qué es el vibe coding?
+{: id="1-qué-es-el-vibe-coding" }
 
 El **vibe coding** consiste en crear aplicaciones conversando con una IA. En lugar de programar desde cero, el docente describe qué quiere construir, prueba el resultado, detecta errores y mejora la herramienta mediante nuevas instrucciones.
 
@@ -60,7 +61,8 @@ Antes de abrir la IA, pregúntate: ¿qué problema real del aula quiero resolver
 
 ---
 
-## 2. ¿Qué relación tiene con los agentes de IA?
+## ¿Qué relación tiene con los agentes de IA?
+{: id="2-qué-relación-tiene-con-los-agentes-de-ia" }
 
 Los agentes de IA y el vibe coding son dos enfoques distintos pero complementarios para usar la inteligencia artificial en educación.
 
@@ -82,7 +84,8 @@ Si un agente ayuda al docente a <strong>pensar y organizar</strong> una tarea, e
 
 ---
 
-## 3. El proceso paso a paso
+## El proceso paso a paso
+{: id="3-el-proceso-paso-a-paso" }
 
 El vibe coding no es caótico: sigue una secuencia lógica que cualquier docente puede aprender.
 
@@ -142,7 +145,8 @@ No esperes que el primer resultado sea perfecto. La clave es describir bien lo q
 
 ---
 
-## 4. ¿Qué es la comunidad Vibe Coding Educativo?
+## ¿Qué es la comunidad Vibe Coding Educativo?
+{: id="4-qué-es-la-comunidad-vibe-coding-educativo" }
 
 [Vibe Coding Educativo](https://vibe-coding-educativo.github.io) es una **comunidad abierta, colaborativa y centrada en docentes** que quieren crear aplicaciones educativas interactivas usando inteligencia artificial.
 
@@ -191,7 +195,8 @@ La comunidad se adhiere a los principios del Conocimiento Abierto. Las aplicacio
 
 ---
 
-## 5. Recursos de la comunidad
+## Recursos de la comunidad
+{: id="5-recursos-de-la-comunidad" }
 
 <div class="resource-grid" role="list" aria-label="Recursos principales de Vibe Coding Educativo">
 
@@ -247,7 +252,8 @@ La comunidad se adhiere a los principios del Conocimiento Abierto. Las aplicacio
 
 ---
 
-## 6. Aplicaciones educativas por etapas
+## Aplicaciones educativas por etapas
+{: id="6-aplicaciones-educativas-por-etapas" }
 
 El repositorio cuenta con más de 300 aplicaciones. Aquí encontrarás una selección representativa organizada por etapa educativa, con aplicaciones reales que puedes empezar a usar en tu aula ahora mismo.
 
@@ -272,7 +278,8 @@ El repositorio cuenta con más de 300 aplicaciones. Aquí encontrarás una selec
 
 ---
 
-## 7. Galería visual
+## Galería visual
+{: id="7-galería-visual" }
 
 Esta sección está pensada para incluir capturas de pantalla e infografías que ilustren la comunidad y algunos de sus recursos. Añade las imágenes cuando las tengas disponibles.
 
@@ -344,7 +351,8 @@ Esta sección está pensada para incluir capturas de pantalla e infografías que
 
 ---
 
-## 8. Actividad práctica: diseña tu primera app educativa con IA
+## Actividad práctica: diseña tu primera app educativa con IA
+{: id="8-actividad-práctica-diseña-tu-primera-app-educativa-con-ia" }
 
 {: .fs-5 .fw-300 }
 
@@ -352,31 +360,31 @@ Esta actividad guía al profesorado en el proceso de crear una primera aplicaci�
 
 ### Pasos
 
-1. **Detecta una necesidad real del aula.**  
+- **Detecta una necesidad real del aula.**  
    ¿Qué actividad repites muchas veces? ¿Qué recurso digital mejoraría tu práctica? ¿Qué hace tu alumnado que podría hacerse de forma más interactiva?
 
-2. **Define el objetivo didáctico.**  
+- **Define el objetivo didáctico.**  
    ¿Qué debe aprender o practicar el alumnado con esta herramienta? Escríbelo en una sola frase clara.
 
-3. **Describe la idea con palabras sencillas.**  
+- **Describe la idea con palabras sencillas.**  
    Imagina que le explicas a un compañero qué quieres construir: qué hace la aplicación, a quién va dirigida, qué elementos tiene.
 
-4. **Escribe un prompt inicial para la IA.**  
+- **Escribe un prompt inicial para la IA.**  
    Usa la plantilla de abajo como punto de partida. Cuanto más concreto seas, mejor será el resultado.
 
-5. **Genera una primera versión con la IA.**  
+- **Genera una primera versión con la IA.**  
    Puedes usar ChatGPT, Claude, Gemini u otro modelo de lenguaje con capacidad de generar código HTML.
 
-6. **Prueba la herramienta en tu navegador.**  
+- **Prueba la herramienta en tu navegador.**  
    Guarda el código como un archivo `.html` y ábrelo. Comprueba que funciona como esperabas.
 
-7. **Detecta qué falla o qué mejorar.**  
+- **Detecta qué falla o qué mejorar.**  
    Anota los errores con precisión: "el botón no responde", "el texto es demasiado pequeño", "falta retroalimentación al alumno".
 
-8. **Mejora el prompt con las correcciones.**  
+- **Mejora el prompt con las correcciones.**  
    Describe a la IA exactamente qué cambiar. Sé específico: "Cuando el alumno acierta, muestra un mensaje de felicitación en verde".
 
-9. **Publica o comparte tu herramienta.**  
+- **Publica o comparte tu herramienta.**  
    Puedes publicarla en GitHub Pages (gratuito) o compartirla directamente con el grupo de Telegram de la comunidad para recibir opiniones.
 
 ### Plantilla de prompt inicial
@@ -405,7 +413,8 @@ La mejora es parte del proceso. Cada corrección que describes a la IA te enseñ
 
 ---
 
-## 9. Seguridad y privacidad
+## Seguridad y privacidad
+{: id="9-seguridad-y-privacidad" }
 
 Crear aplicaciones con IA implica asumir ciertas responsabilidades. Antes de publicar cualquier herramienta para uso en el aula, revisa siempre los siguientes puntos.
 
@@ -437,7 +446,7 @@ Si la aplicación va a ser usada con alumnado menor de 14 años, asegúrate de q
 
 ---
 
-## 10. Resolver dudas con Gemini Notebook
+## Resolver dudas con Gemini Notebook
 {: id="10-resolver-dudas-con-notebooklm" }
 
 La comunidad Vibe Coding Educativo comparte un **cuaderno de Gemini Notebook (anteriormente NotebookLM)** basado en materiales de su grupo de Telegram. Es una experiencia especializada en fuentes del ecosistema Gemini, cuyos cuadernos pueden sincronizarse con Gemini. Cargar estos materiales no equivale a entrenar un agente. El cuaderno puede ayudarte a:
@@ -465,7 +474,8 @@ Necesitarás una cuenta de Google para acceder. No introduzcas datos personales 
 
 ---
 
-## 11. Para pensar
+## Para pensar
+{: id="11-para-pensar" }
 
 <div class="reflexion-card" role="note" aria-label="Cierre reflexivo sobre el vibe coding educativo">
   <p class="reflexion-card__pregunta">El vibe coding es una herramienta.<br>La pedagogía sigue siendo tuya.</p>

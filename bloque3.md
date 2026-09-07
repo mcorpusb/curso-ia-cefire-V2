@@ -17,13 +17,13 @@ Crea presentaciones, cómics, infografías, podcasts, audios realistas y vídeos
 
 Al finalizar este bloque serás capaz de:
 
-1. **Transformar contenidos textuales en recursos multimodales dinámicos** (presentaciones, infografías, cómics, audios realistas, vídeos con avatares) que potencien la atención visual y auditiva en ESO/Bachillerato.
-2. Diseñar **presentaciones educativas completas** con Gamma y compararlas con las generadas por Copilot en PowerPoint.
-3. Crear **cómics, infografías e ilustraciones** adaptados a cada etapa educativa usando herramientas de IA generativa.
-4. Generar **audios realistas** (narración, podcasts, explicaciones) para hacer accesibles los contenidos a todo el alumnado.
-5. Producir **vídeos educativos cortos** con avatares IA y edición asistida.
-6. **Personalizar el aprendizaje mediante IA**, ajustando materiales multimodales a la diversidad de niveles y realidades del aula de forma rápida y escalable.
-7. Integrar todos estos recursos en **situaciones de aprendizaje LOMLOE** respetando los principios del **DUA** (múltiples medios de representación).
+- **Transformar contenidos textuales en recursos multimodales dinámicos** (presentaciones, infografías, cómics, audios realistas, vídeos con avatares) que potencien la atención visual y auditiva en ESO/Bachillerato.
+- Diseñar **presentaciones educativas completas** con Gamma y compararlas con las generadas por Copilot en PowerPoint.
+- Crear **cómics, infografías e ilustraciones** adaptados a cada etapa educativa usando herramientas de IA generativa.
+- Generar **audios realistas** (narración, podcasts, explicaciones) para hacer accesibles los contenidos a todo el alumnado.
+- Producir **vídeos educativos cortos** con avatares IA y edición asistida.
+- **Personalizar el aprendizaje mediante IA**, ajustando materiales multimodales a la diversidad de niveles y realidades del aula de forma rápida y escalable.
+- Integrar todos estos recursos en **situaciones de aprendizaje LOMLOE** respetando los principios del **DUA** (múltiples medios de representación).
 
 > **⚠️ Seguridad GVA:** Las herramientas de generación multimodal que veremos en este bloque son **externas al ecosistema GVA**. Nunca subas fotografías del alumnado, datos personales ni documentos internos. Usa solo contenido ficticio o con licencia abierta como material de partida.
 
@@ -498,12 +498,12 @@ términos históricos esenciales (que debes definir brevemente).
 
 ### Paso a paso: de texto a audio con ElevenLabs
 
-1. Accede a [elevenlabs.io](https://elevenlabs.io) y crea una cuenta gratuita. Otra opción es Copilot ( Clipchamp) o [Fish Audio] (https://fish.audio/es/)
-2. En el panel **"Text to Speech"**, pega el guion generado.
-3. Elige una **voz** en español (recomendamos probar varias: "Antoni", "Bella", "Callum").
-4. Ajusta la **estabilidad** (más alta = más neutra, más baja = más expresiva).
-5. Pulsa **"Generate"** y descarga el archivo `.mp3`.
-6. Sube el audio a **Aules** como material de apoyo en la Situación de Aprendizaje.
+- Accede a [elevenlabs.io](https://elevenlabs.io) y crea una cuenta gratuita. Otra opción es Copilot ( Clipchamp) o [Fish Audio] (https://fish.audio/es/)
+- En el panel **"Text to Speech"**, pega el guion generado.
+- Elige una **voz** en español (recomendamos probar varias: "Antoni", "Bella", "Callum").
+- Ajusta la **estabilidad** (más alta = más neutra, más baja = más expresiva).
+- Pulsa **"Generate"** y descarga el archivo `.mp3`.
+- Sube el audio a **Aules** como material de apoyo en la Situación de Aprendizaje.
 
 > **💡 Ejemplo:** Vamos a pedir guión para obtener el audio de cada uno de los cómics que hemos generado: " Quiero que me des un prompt exhaustivo para generar audio mediante ElevenLabs para este cómic que te paso; algo que pueda copiar y pegar, y que me genere el audio. Asegúrate de que no pase de 5000 caracteres."
 
@@ -540,12 +540,12 @@ La generación de canciones con IA puede convertirse en un recurso muy potente p
 
 Paso a paso con Gemini
 
-1. Accede a Gemini con tu cuenta Google.
-2. Explica el tema, nivel educativo y estilo musical deseado.
-3. Pide una letra estructurada (versos + estribillo).
-4. Ajusta el tono: infantil, motivador, épico, divertido, relajado…
-5. Copia la letra y úsala en herramientas musicales IA o como recurso de aula.
-6. Puedes acompañarla con imágenes, karaoke, vídeo o actividades de comprensión.
+- Accede a Gemini con tu cuenta Google.
+- Explica el tema, nivel educativo y estilo musical deseado.
+- Pide una letra estructurada (versos + estribillo).
+- Ajusta el tono: infantil, motivador, épico, divertido, relajado…
+- Copia la letra y úsala en herramientas musicales IA o como recurso de aula.
+- Puedes acompañarla con imágenes, karaoke, vídeo o actividades de comprensión.
 
 Ejemplo de prompt: Canción educativa con Gemini
 
@@ -622,12 +622,12 @@ Vídeo generado con el prompt: https://gvaedu-my.sharepoint.com/:v:/g/personal/m
 
 **Microsoft Clipchamp** está incluido en tu licencia Microsoft 365 de la GVA y es la opción más segura para vídeo:
 
-1. Accede a [clipchamp.com](https://clipchamp.com) con tu cuenta `@edu.gva.es`.
-2. Crea un **nuevo vídeo** y selecciona el formato (horizontal 16:9 para clase, vertical 9:16 para alumnado móvil).
-3. Graba tu pantalla o sube un vídeo ya existente.
-4. Usa la función **"Subtítulos automáticos"** (basada en IA) para generar subtítulos sincronizados.
-5. Activa **"Text to Speech"** para añadir narración IA en español a diapositivas o secciones sin voz.
-6. Exporta y sube el vídeo a **Aules** o a **Microsoft Stream** (entorno GVA).
+- Accede a [clipchamp.com](https://clipchamp.com) con tu cuenta `@edu.gva.es`.
+- Crea un **nuevo vídeo** y selecciona el formato (horizontal 16:9 para clase, vertical 9:16 para alumnado móvil).
+- Graba tu pantalla o sube un vídeo ya existente.
+- Usa la función **"Subtítulos automáticos"** (basada en IA) para generar subtítulos sincronizados.
+- Activa **"Text to Speech"** para añadir narración IA en español a diapositivas o secciones sin voz.
+- Exporta y sube el vídeo a **Aules** o a **Microsoft Stream** (entorno GVA).
 
 > **🚀 Reto:** Graba una explicación de 5 minutos sobre un tema de tu asignatura. Súbela a Clipchamp, genera subtítulos automáticos y corrige los errores. Después, usa **HeyGen** para generar una versión del vídeo traducida al inglés con avatar IA. Compara la calidad de los subtítulos y la traducción.
 
@@ -757,13 +757,13 @@ Además, incluye al final:
 
 ### Flujo de trabajo recomendado
 
-1. Define primero la idea educativa: objetivo, alumnado y tipo de interacción.
-2. Genera o revisa el contenido con Copilot, Gemini u otra IA.
-3. Crea el prototipo en Gemini Canvas o Canva Code.
-4. Prueba la app como si fueras el alumnado.
-5. Revisa errores, claridad, accesibilidad y adecuación curricular.
-6. Comprueba que no solicita datos personales ni incluye enlaces externos innecesarios.
-7. Comparte el enlace, exporta el resultado o captura evidencias para integrarlo en Aules.
+- Define primero la idea educativa: objetivo, alumnado y tipo de interacción.
+- Genera o revisa el contenido con Copilot, Gemini u otra IA.
+- Crea el prototipo en Gemini Canvas o Canva Code.
+- Prueba la app como si fueras el alumnado.
+- Revisa errores, claridad, accesibilidad y adecuación curricular.
+- Comprueba que no solicita datos personales ni incluye enlaces externos innecesarios.
+- Comparte el enlace, exporta el resultado o captura evidencias para integrarlo en Aules.
 
 ### Ejemplo rápido
 
@@ -1004,14 +1004,14 @@ Para cada versión incluye:
 
 ### Paso a paso
 
-1. Elige tema y contexto educativo.
-2. Selecciona el formato multimodal más útil para tu aula.
-3. Completa el prompt base con tus datos.
-4. Genera un primer borrador con IA.
-5. Revisa contenido, lenguaje, imágenes y accesibilidad.
-6. Adapta el recurso a diferentes niveles si procede.
-7. Exporta el resultado final.
-8. Prepara una breve reflexión docente.
+- Elige tema y contexto educativo.
+- Selecciona el formato multimodal más útil para tu aula.
+- Completa el prompt base con tus datos.
+- Genera un primer borrador con IA.
+- Revisa contenido, lenguaje, imágenes y accesibilidad.
+- Adapta el recurso a diferentes niveles si procede.
+- Exporta el resultado final.
+- Prepara una breve reflexión docente.
 
 ### Entregable
 

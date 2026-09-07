@@ -19,7 +19,8 @@ La IA ha llegado a los hogares del alumnado antes que a las aulas. Ignorarla no 
 
 ---
 
-## 1. Cuándo está bien usar la IA (y cuándo no)
+## Cuándo está bien usar la IA (y cuándo no)
+{: id="1-cuándo-está-bien-usar-la-ia-y-cuándo-no" }
 
 El primer paso no es prohibir ni permitir sin más: es **establecer criterios explícitos** que el alumnado pueda aplicar por sí mismo.
 
@@ -54,15 +55,16 @@ El primer paso no es prohibir ni permitir sin más: es **establecer criterios ex
 
 ---
 
-## 2. Normas de aula: construirlas con el alumnado
+## Normas de aula: construirlas con el alumnado
+{: id="2-normas-de-aula-construirlas-con-el-alumnado" }
 
 Las normas impuestas se incumplen; las normas **co-construidas** se interiorizan. Propuesta de dinámica:
 
-1. **Pregunta detonadora:** *¿Qué ventajas y qué riesgos tiene usar una IA para hacer los deberes?*
-2. **Debate en pequeño grupo** (10 min): cada grupo anota 3 ventajas y 3 riesgos.
-3. **Puesta en común:** el docente recoge en la pizarra y facilita el consenso.
-4. **Redacción colectiva** de las normas de uso en el aula (máximo 5 puntos).
-5. **Firma simbólica** o inclusión en el cuaderno de equipo.
+- **Pregunta detonadora:** *¿Qué ventajas y qué riesgos tiene usar una IA para hacer los deberes?*
+- **Debate en pequeño grupo** (10 min): cada grupo anota 3 ventajas y 3 riesgos.
+- **Puesta en común:** el docente recoge en la pizarra y facilita el consenso.
+- **Redacción colectiva** de las normas de uso en el aula (máximo 5 puntos).
+- **Firma simbólica** o inclusión en el cuaderno de equipo.
 
 {: .callout .callout--prueba }
 **Para hacer en clase**
@@ -70,7 +72,8 @@ Pide al alumnado que entreviste a la IA con esta pregunta: *"¿Qué debería hac
 
 ---
 
-## 3. Declaración de uso de IA
+## Declaración de uso de IA
+{: id="3-declaración-de-uso-de-ia" }
 
 En cursos donde se permita la asistencia de IA en trabajos, es buena práctica exigir una **declaración de uso breve**. Ejemplo de plantilla:
 
@@ -88,7 +91,8 @@ Esta declaración cumple una función pedagógica doble: obliga al alumnado a re
 
 ---
 
-## 4. Autoría y citación
+## Autoría y citación
+{: id="4-autoría-y-citación" }
 
 Cuando un trabajo ha contado con asistencia de IA, existen dos prácticas emergentes aceptadas académicamente:
 
@@ -103,7 +107,8 @@ Cuando un trabajo ha contado con asistencia de IA, existen dos prácticas emerge
 
 ---
 
-## 5. Pensamiento crítico ante las respuestas de la IA
+## Pensamiento crítico ante las respuestas de la IA
+{: id="5-pensamiento-crítico-ante-las-respuestas-de-la-ia" }
 
 La IA no sabe lo que no sabe. Esto es lo que los docentes deben enseñar al alumnado a detectar:
 
@@ -131,7 +136,8 @@ Los modelos de IA se entrenan con texto humano y heredan sus sesgos. Preguntas p
 
 ---
 
-## 6. Verificación: el ciclo de tres pasos
+## Verificación: el ciclo de tres pasos
+{: id="6-verificación-el-ciclo-de-tres-pasos" }
 
 Enseña al alumnado este ciclo como hábito sistemático:
 
@@ -157,7 +163,8 @@ Enseña al alumnado este ciclo como hábito sistemático:
 
 ---
 
-## 7. Imágenes generadas: aspectos éticos y legales
+## Imágenes generadas: aspectos éticos y legales
+{: id="7-imágenes-generadas-aspectos-éticos-y-legales" }
 
 {: .callout .callout--privacidad }
 **Puntos críticos al usar imágenes generadas por IA:**
@@ -168,7 +175,8 @@ Enseña al alumnado este ciclo como hábito sistemático:
 
 ---
 
-## 8. Privacidad del alumnado al usar IA
+## Privacidad del alumnado al usar IA
+{: id="8-privacidad-del-alumnado-al-usar-ia" }
 
 {: .callout .callout--privacidad }
 **Regla fundamental para el aula:**
@@ -181,7 +189,8 @@ Nunca introduzcas en una IA datos personales del alumnado: nombres completos, ca
 
 ---
 
-## 9. Tareas "resistentes a la IA": diseño intencional
+## Tareas "resistentes a la IA": diseño intencional
+{: id="9-tareas-resistentes-a-la-ia-diseño-intencional" }
 
 En lugar de intentar detectar si el alumnado ha usado IA (lo cual es técnicamente poco fiable), es más productivo **diseñar tareas que valoren lo que la IA no puede hacer**:
 
@@ -199,7 +208,8 @@ En lugar de intentar detectar si el alumnado ha usado IA (lo cual es técnicamen
 
 ---
 
-## 10. Evaluación del proceso, no solo del producto
+## Evaluación del proceso, no solo del producto
+{: id="10-evaluación-del-proceso-no-solo-del-producto" }
 
 La alfabetización en IA modifica cómo evaluamos. Herramientas recomendadas:
 
@@ -214,7 +224,8 @@ Una o dos preguntas al final de la tarea: *¿Qué aprendiste que no sabías? ¿Q
 
 ---
 
-## 11. Advertencia sobre los detectores de IA
+## Advertencia sobre los detectores de IA
+{: id="11-advertencia-sobre-los-detectores-de-ia" }
 
 {: .callout .callout--alerta }
 **Los detectores de IA actuales son poco fiables.**
@@ -224,7 +235,8 @@ Herramientas como GPTZero, Turnitin AI Detection o similares tienen tasas de **f
 
 ---
 
-## 12. Para seguir aprendiendo
+## Para seguir aprendiendo
+{: id="12-para-seguir-aprendiendo" }
 
 - [AI Literacy for Students – Mozilla Foundation](https://foundation.mozilla.org/en/internet-health/ai/)
 - [Day of AI – MIT RAISE](https://dayofai.org/)

@@ -25,13 +25,13 @@ Google explica el [cambio de nombre y la integración](https://blog.google/innov
 
 ## Un flujo práctico con el currículo
 
-1. Abre [Gemini Notebook](https://notebooklm.google.com) con tu cuenta de Google. El acceso en cuentas educativas depende de la habilitación institucional.
-2. Crea un cuaderno con un objetivo concreto, por ejemplo, contrastar los criterios de evaluación de una propuesta de aula.
-3. Incorpora fuentes públicas y pertinentes: el currículo oficial de tu etapa, orientaciones metodológicas y materiales propios sin datos personales. Revisa los límites vigentes de tu plan.
-4. Pregunta por una relación concreta entre competencias, criterios y actividades. Pide citas y que se señale lo que no puede justificarse con las fuentes.
-5. Abre las citas y comprueba el pasaje original. Una cita no garantiza que la interpretación sea correcta.
-6. Si continúas en Gemini, comprueba la sincronización del cuaderno y distingue las fuentes aportadas de la información procedente de búsquedas u otras herramientas.
-7. Revisa el material final antes de compartirlo o usarlo con el alumnado.
+- Abre [Gemini Notebook](https://notebooklm.google.com) con tu cuenta de Google. El acceso en cuentas educativas depende de la habilitación institucional.
+- Crea un cuaderno con un objetivo concreto, por ejemplo, contrastar los criterios de evaluación de una propuesta de aula.
+- Incorpora fuentes públicas y pertinentes: el currículo oficial de tu etapa, orientaciones metodológicas y materiales propios sin datos personales. Revisa los límites vigentes de tu plan.
+- Pregunta por una relación concreta entre competencias, criterios y actividades. Pide citas y que se señale lo que no puede justificarse con las fuentes.
+- Abre las citas y comprueba el pasaje original. Una cita no garantiza que la interpretación sea correcta.
+- Si continúas en Gemini, comprueba la sincronización del cuaderno y distingue las fuentes aportadas de la información procedente de búsquedas u otras herramientas.
+- Revisa el material final antes de compartirlo o usarlo con el alumnado.
 
 ```text
 Con las fuentes seleccionadas del cuaderno, revisa esta propuesta de actividad.

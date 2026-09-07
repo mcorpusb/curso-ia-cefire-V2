@@ -18,12 +18,12 @@ Diseña rúbricas LOMLOE, genera adaptaciones curriculares rápidas y reflexiona
 
 Al finalizar este bloque serás capaz de:
 
-1. **Automatizar la creación de rúbricas de evaluación alineadas con la LOMLOE** (criterios de evaluación, competencias específicas e indicadores de logro) utilizando IA generativa, liberando tiempo para la docencia esencial.
-2. Generar **correcciones y retroalimentación motivadora** de forma automática, con comentarios constructivos que orienten al alumnado hacia la mejora.
-3. Generar **adaptaciones curriculares** y materiales personalizados para alumnado NEAE de forma ágil y fundamentada en el DUA.
-4. Crear **instrumentos de evaluación variados** (listas de cotejo, dianas de evaluación, portfolios digitales) con asistencia de IA.
-5. **Promover un uso ético y crítico de la IA**, priorizando la privacidad del alumnado y reflexionando sobre su impacto real en la educación secundaria.
-6. Diseñar una **política de uso de IA en el aula** adaptada a tu centro y etapa educativa.
+- **Automatizar la creación de rúbricas de evaluación alineadas con la LOMLOE** (criterios de evaluación, competencias específicas e indicadores de logro) utilizando IA generativa, liberando tiempo para la docencia esencial.
+- Generar **correcciones y retroalimentación motivadora** de forma automática, con comentarios constructivos que orienten al alumnado hacia la mejora.
+- Generar **adaptaciones curriculares** y materiales personalizados para alumnado NEAE de forma ágil y fundamentada en el DUA.
+- Crear **instrumentos de evaluación variados** (listas de cotejo, dianas de evaluación, portfolios digitales) con asistencia de IA.
+- **Promover un uso ético y crítico de la IA**, priorizando la privacidad del alumnado y reflexionando sobre su impacto real en la educación secundaria.
+- Diseñar una **política de uso de IA en el aula** adaptada a tu centro y etapa educativa.
 
 > **⚠️ Seguridad GVA:** Este bloque aborda directamente la ética y la privacidad. Recuerda: **ninguna herramienta de IA debe tomar decisiones evaluativas finales sobre el alumnado**. La IA es un asistente; la responsabilidad profesional y legal recae siempre en el docente.
 
@@ -380,13 +380,13 @@ creación — taxonomía de Bloom).
 
 ### 4.4.2 · Los 7 principios de uso ético de la IA en tu aula
 
-1. **Transparencia:** Informa a alumnado y familias de que utilizas IA como herramienta de apoyo. No lo ocultes.
-2. **Supervisión humana:** Nunca delegues una decisión evaluativa o disciplinar en la IA. Revisa siempre.
-3. **Privacidad por defecto:** Usa Copilot `@edu.gva.es` para datos del centro. Para herramientas externas: solo datos ficticios o públicos.
-4. **Equidad:** Verifica que los materiales generados por IA no contienen sesgos (de género, culturales, socioeconómicos).
-5. **Verificación:** La IA puede alucinar. Contrasta siempre con fuentes oficiales (DOGV, BOE, libros de texto).
-6. **Alfabetización IA del alumnado:** Enseña a tu alumnado qué es la IA, cómo funciona y cómo usarla críticamente.
-7. **Proporcionalidad:** Usa la IA cuando aporte valor real. No la uses por usarla.
+- **Transparencia:** Informa a alumnado y familias de que utilizas IA como herramienta de apoyo. No lo ocultes.
+- **Supervisión humana:** Nunca delegues una decisión evaluativa o disciplinar en la IA. Revisa siempre.
+- **Privacidad por defecto:** Usa Copilot `@edu.gva.es` para datos del centro. Para herramientas externas: solo datos ficticios o públicos.
+- **Equidad:** Verifica que los materiales generados por IA no contienen sesgos (de género, culturales, socioeconómicos).
+- **Verificación:** La IA puede alucinar. Contrasta siempre con fuentes oficiales (DOGV, BOE, libros de texto).
+- **Alfabetización IA del alumnado:** Enseña a tu alumnado qué es la IA, cómo funciona y cómo usarla críticamente.
+- **Proporcionalidad:** Usa la IA cuando aporte valor real. No la uses por usarla.
 
 ### 4.4.3 · Qué PUEDO y qué NO PUEDO hacer: guía práctica
 
@@ -516,58 +516,58 @@ Fomenta el uso responsable, no la prohibición total.
 
 ### Actividad 4.1 — Rúbrica LOMLOE completa *(individual)*
 
-1. Elige un **criterio de evaluación real** de tu área y curso (cópialo del decreto).
-2. Usa el ejemplo de la sección 4.1 para generar una **rúbrica analítica con 4 niveles**.
-3. Verifica los criterios en **Gemini Notebook** (con el decreto cargado del Bloque 2).
-4. Corrige y ajusta la rúbrica.
-5. **Entregable:** rúbrica final en formato tabla + informe breve de las correcciones realizadas tras la verificación.
+- Elige un **criterio de evaluación real** de tu área y curso (cópialo del decreto).
+- Usa el ejemplo de la sección 4.1 para generar una **rúbrica analítica con 4 niveles**.
+- Verifica los criterios en **Gemini Notebook** (con el decreto cargado del Bloque 2).
+- Corrige y ajusta la rúbrica.
+- **Entregable:** rúbrica final en formato tabla + informe breve de las correcciones realizadas tras la verificación.
 
 ### Actividad 4.2 — Correcciones motivadoras automatizadas *(individual)*
 
 **Objetivo:** Automatizar la generación de retroalimentación constructiva para liberar tiempo docente.
 
-1. Toma **3 trabajos ficticios** (o reales anonimizados) de distinto nivel de tu asignatura.
-2. Usa el ejemplo de la sección 4.1b para generar retroalimentación motivadora para cada uno en **Copilot**.
-3. Repite en **Gemini** y compara: ¿cuál genera feedback más personalizado? ¿Cuál varía más la redacción?
-4. Revisa los comentarios generados y ajústalos con tu conocimiento del alumnado.
-5. **Entregable:** tabla con los 3 comentarios (versión Copilot + versión Gemini + versión final ajustada por ti) + reflexión (150 palabras) sobre cuánto tiempo te ha ahorrado y si el tono es adecuado.
+- Toma **3 trabajos ficticios** (o reales anonimizados) de distinto nivel de tu asignatura.
+- Usa el ejemplo de la sección 4.1b para generar retroalimentación motivadora para cada uno en **Copilot**.
+- Repite en **Gemini** y compara: ¿cuál genera feedback más personalizado? ¿Cuál varía más la redacción?
+- Revisa los comentarios generados y ajústalos con tu conocimiento del alumnado.
+- **Entregable:** tabla con los 3 comentarios (versión Copilot + versión Gemini + versión final ajustada por ti) + reflexión (150 palabras) sobre cuánto tiempo te ha ahorrado y si el tono es adecuado.
 
 ### Actividad 4.3 — Adaptación curricular con IA *(individual)*
 
-1. Elige a un **perfil ficticio** de alumno/a NEAE (no uses datos reales):
+- Elige a un **perfil ficticio** de alumno/a NEAE (no uses datos reales):
    - Opción A: dislexia (Primaria)
    - Opción B: incorporación tardía con español A2 (ESO)
    - Opción C: altas capacidades (cualquier etapa)
    - Opción D: discapacidad auditiva (FP)
-2. Toma un **material o prueba** que uses realmente en tu aula.
-3. Usa los prompts de la sección 4.3 para generar la adaptación con **Copilot**.
-4. Repite con **Gemini** y compara.
-5. **Entregable:** material adaptado (ambas versiones) + tabla comparativa Copilot vs. Gemini + reflexión (150 palabras) sobre qué herramienta ha generado adaptaciones más aplicables.
+- Toma un **material o prueba** que uses realmente en tu aula.
+- Usa los prompts de la sección 4.3 para generar la adaptación con **Copilot**.
+- Repite con **Gemini** y compara.
+- **Entregable:** material adaptado (ambas versiones) + tabla comparativa Copilot vs. Gemini + reflexión (150 palabras) sobre qué herramienta ha generado adaptaciones más aplicables.
 
 ### Actividad 4.4 — Auditoría de sesgos *(individual)*
 
-1. Toma cualquier material generado por IA durante el curso (una SA, una rúbrica, un cómic…).
-2. Pasa el material por el prompt de auditoría de sesgos (sección 4.4.5).
-3. Documenta los sesgos encontrados y las correcciones aplicadas.
-4. **Entregable:** tabla de auditoría completada + material corregido.
+- Toma cualquier material generado por IA durante el curso (una SA, una rúbrica, un cómic…).
+- Pasa el material por el prompt de auditoría de sesgos (sección 4.4.5).
+- Documenta los sesgos encontrados y las correcciones aplicadas.
+- **Entregable:** tabla de auditoría completada + material corregido.
 
 ### Actividad 4.5 — Debate: impacto real de la IA en el aula *(grupal, sesión síncrona)*
 
 **Objetivo:** Promover un uso ético y crítico de la IA reflexionando sobre su impacto real en la educación secundaria.
 
-1. En grupos de 4-5, leed la tabla de reflexión de la sección 4.4.4.
-2. Cada grupo elige **2 preguntas** de la tabla y prepara una postura argumentada (10 minutos).
-3. Debate abierto entre grupos (15 minutos): ¿la IA es una oportunidad o un riesgo para la educación secundaria? ¿Cómo cambia el rol del docente?
-4. Individualmente, redactad un **"Compromiso ético personal"** (5 frases) sobre cómo usaréis la IA en vuestra práctica docente a partir de ahora.
-5. **Entregable:** compromiso ético personal subido al foro + resumen de las conclusiones del grupo (200 palabras).
+- En grupos de 4-5, leed la tabla de reflexión de la sección 4.4.4.
+- Cada grupo elige **2 preguntas** de la tabla y prepara una postura argumentada (10 minutos).
+- Debate abierto entre grupos (15 minutos): ¿la IA es una oportunidad o un riesgo para la educación secundaria? ¿Cómo cambia el rol del docente?
+- Individualmente, redactad un **"Compromiso ético personal"** (5 frases) sobre cómo usaréis la IA en vuestra práctica docente a partir de ahora.
+- **Entregable:** compromiso ético personal subido al foro + resumen de las conclusiones del grupo (200 palabras).
 
 ### Actividad 4.6 — Política de IA para mi centro *(grupal, sesión síncrona)*
 
-1. En grupos de 4-5, usad el ejemplo de la sección 4.5 adaptándolo a vuestra etapa educativa.
-2. Revisad el borrador generado: ¿es equilibrado? ¿Es realista? ¿Faltan casos?
-3. Modificad y completad el documento.
-4. Presentad al gran grupo los 3 puntos más importantes de vuestra política.
-5. **Entregable:** documento de política (formato Word o PDF) + presentación de 3 diapositivas.
+- En grupos de 4-5, usad el ejemplo de la sección 4.5 adaptándolo a vuestra etapa educativa.
+- Revisad el borrador generado: ¿es equilibrado? ¿Es realista? ¿Faltan casos?
+- Modificad y completad el documento.
+- Presentad al gran grupo los 3 puntos más importantes de vuestra política.
+- **Entregable:** documento de política (formato Word o PDF) + presentación de 3 diapositivas.
 
 ---
 

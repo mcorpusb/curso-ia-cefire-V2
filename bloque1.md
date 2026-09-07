@@ -76,12 +76,13 @@ En las prácticas no introduzcas nombres reales, calificaciones, diagnósticos, 
 
 ---
 
-## 1. Del Bloque 0 al Bloque 1: pedir mejor
+## Del Bloque 0 al Bloque 1: pedir mejor
+{: id="1-del-bloque-0-al-bloque-1-pedir-mejor" }
 
 En el reto final del Bloque 0 hiciste dos cosas:
 
-1. pediste una actividad con una instrucción breve;
-2. pediste a la propia IA que te ayudara a construir una petición mucho más detallada.
+- pediste una actividad con una instrucción breve;
+- pediste a la propia IA que te ayudara a construir una petición mucho más detallada.
 
 La diferencia entre ambos resultados nos sirve como punto de partida.
 
@@ -121,7 +122,8 @@ Una buena petición depende siempre de la necesidad, el contexto y del resultado
 
 ---
 
-## 2. Una receta sencilla para construir peticiones útiles
+## Una receta sencilla para construir peticiones útiles
+{: id="2-una-receta-sencilla-para-construir-peticiones-útiles" }
 
 No necesitas memorizar una fórmula rígida.
 
@@ -168,7 +170,8 @@ Un rol —por ejemplo, «actúa como docente de Formación Profesional»— pued
 
 ---
 
-## 3. El contexto cambia el resultado
+## El contexto cambia el resultado
+{: id="3-el-contexto-cambia-el-resultado" }
 
 La herramienta no conoce tu aula, tu alumnado ni tu objetivo si no se lo explicas.
 
@@ -192,7 +195,8 @@ Significa aportar la información que realmente puede cambiar el resultado.
 
 ---
 
-## 4. Iterar es parte del proceso
+## Iterar es parte del proceso
+{: id="4-iterar-es-parte-del-proceso" }
 
 No necesitamos acertar a la primera.
 
@@ -234,7 +238,8 @@ Ha cambiado **el producto que estás pidiendo**.
 
 ---
 
-## 5. No todas las peticiones persiguen lo mismo
+## No todas las peticiones persiguen lo mismo
+{: id="5-no-todas-las-peticiones-persiguen-lo-mismo" }
 
 Antes de escribir un prompt, identifica **qué tipo de tarea estás intentando resolver**.
 
@@ -283,7 +288,8 @@ No pedimos de la misma forma un **acta**, un **mensaje a familias**, una **activ
 
 ---
 
-## 6. Tu herramienta
+## Tu herramienta
+{: id="6-tu-herramienta" }
 
 No existe una herramienta adecuada para todas las tareas.
 
@@ -324,7 +330,8 @@ El proceso será siempre parecido:
 
 ---
 
-## 7. Aplicación · Tareas colaborativas
+## Aplicación · Tareas colaborativas
+{: id="7-aplicación--tareas-colaborativas" }
 
 Ahora aplicamos lo anterior a tres situaciones habituales.
 
@@ -447,12 +454,12 @@ Estas propuestas sirven para experimentar.
 
 Recupera la necesidad que utilizaste en el Bloque 0 o elige otra necesidad docente real.
 
-1. Escribe una primera petición breve.
-2. Añade contexto relevante sin introducir datos personales.
-3. Define el resultado y dos o tres criterios.
-4. Obtén una nueva respuesta.
-5. Realiza al menos una iteración.
-6. Compara los resultados.
+- Escribe una primera petición breve.
+- Añade contexto relevante sin introducir datos personales.
+- Define el resultado y dos o tres criterios.
+- Obtén una nueva respuesta.
+- Realiza al menos una iteración.
+- Compara los resultados.
 
 Pregúntate:
 

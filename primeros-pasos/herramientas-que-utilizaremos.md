@@ -19,7 +19,7 @@ No dependeremos de una única plataforma. Elegiremos cada herramienta según la 
 ## En esta página
 {: .no_toc .text-delta }
 
-1. Contenidos
+- Contenidos
 {:toc}
 
 ## 🔐 Antes de empezar: cuentas y acceso

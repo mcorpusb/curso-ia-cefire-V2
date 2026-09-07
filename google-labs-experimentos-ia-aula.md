@@ -26,7 +26,8 @@ Al finalizar este módulo serás capaz de:
 
 ---
 
-## 1. ¿Qué es Google Labs?
+## ¿Qué es Google Labs?
+{: id="1-qué-es-google-labs" }
 
 Google Labs ([labs.google](https://labs.google/)) es el espacio de Google donde se publican y prueban herramientas experimentales de inteligencia artificial. No todas están diseñadas específicamente para educación, pero muchas pueden aprovecharse en el aula para trabajar creatividad, lenguaje, pensamiento crítico, diseño, cultura, investigación, música, imagen, vídeo o competencia digital.
 
@@ -39,7 +40,8 @@ Google Labs debe entenderse como un espacio de experimentación, no como una pla
 
 ---
 
-## 2. Ideas clave para el profesorado
+## Ideas clave para el profesorado
+{: id="2-ideas-clave-para-el-profesorado" }
 
 Google Labs puede utilizarse en educación para:
 
@@ -60,7 +62,8 @@ Estas herramientas deben utilizarse preferentemente como recursos guiados por el
 
 ---
 
-## 3. Experimentos destacados de Google Labs
+## Experimentos destacados de Google Labs
+{: id="3-experimentos-destacados-de-google-labs" }
 
 <div class="tool-grid">
 
@@ -208,7 +211,8 @@ Estas herramientas deben utilizarse preferentemente como recursos guiados por el
 
 ---
 
-## 4. Experimentos recomendados por etapa educativa
+## Experimentos recomendados por etapa educativa
+{: id="4-experimentos-recomendados-por-etapa-educativa" }
 
 ### 🧒 Educación Infantil
 
@@ -401,7 +405,8 @@ Presentarlo como tecnología emergente, no como herramienta estable de aula.
 
 ---
 
-## 5. Herramientas más transversales
+## Herramientas más transversales
+{: id="5-herramientas-más-transversales" }
 
 | Herramienta | Usos más transversales |
 |:------------|:------------------------|
@@ -415,7 +420,8 @@ Presentarlo como tecnología emergente, no como herramienta estable de aula.
 
 ---
 
-## 6. Clasificación por asignatura
+## Clasificación por asignatura
+{: id="6-clasificación-por-asignatura" }
 
 | Asignatura | Herramientas recomendadas | Aplicación didáctica |
 |:-----------|:--------------------------|:---------------------|
@@ -431,7 +437,8 @@ Presentarlo como tecnología emergente, no como herramienta estable de aula.
 
 ---
 
-## 7. Clasificación por módulo del curso de IA
+## Clasificación por módulo del curso de IA
+{: id="7-clasificación-por-módulo-del-curso-de-ia" }
 
 | Módulo | Herramientas | Actividad propuesta |
 |:-------|:-------------|:--------------------|
@@ -446,18 +453,19 @@ Presentarlo como tecnología emergente, no como herramienta estable de aula.
 
 ---
 
-## 8. Actividad práctica para el profesorado
+## Actividad práctica para el profesorado
+{: id="8-actividad-práctica-para-el-profesorado" }
 
 ### Evalúa un experimento de Google Labs para tu aula
 
 <div class="callout callout--practica" role="note">
 <div class="callout__titulo">✅ Actividad</div>
-<ol>
+<ul>
   <li>Entra en <a href="https://labs.google/" target="_blank" rel="noopener">labs.google</a>.</li>
   <li>Elige un experimento de IA que te resulte interesante.</li>
   <li>Analiza su posible uso educativo con tu grupo y materia.</li>
   <li>Completa la ficha de evaluación que tienes a continuación.</li>
-</ol>
+</ul>
 </div>
 
 | Pregunta | Respuesta |
@@ -474,7 +482,8 @@ Presentarlo como tecnología emergente, no como herramienta estable de aula.
 
 ---
 
-## 9. Precauciones antes de usar Google Labs en clase
+## Precauciones antes de usar Google Labs en clase
+{: id="9-precauciones-antes-de-usar-google-labs-en-clase" }
 
 Antes de usar cualquier experimento, el profesorado debe comprobar:
 
@@ -496,7 +505,8 @@ Google Labs debe entenderse como un espacio de experimentación. Su valor princi
 
 ---
 
-## 10. Recursos y enlaces
+## Recursos y enlaces
+{: id="10-recursos-y-enlaces" }
 
 | Recurso | Enlace |
 |:--------|:-------|

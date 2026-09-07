@@ -51,11 +51,11 @@ Diseña un cómic para practicar funciones comunicativas, situaciones reales y p
 
 ## ⚙️ Qué vas a hacer (paso a paso)
 
-1. Pido un prompt exhaustivo adaptando el que tengo listo para usar usando Copilot, ChatGPT o Gemini.
+- Pido un prompt exhaustivo adaptando el que tengo listo para usar usando Copilot, ChatGPT o Gemini.
 
-2. Con el prompt que me devuelve voy a generar el guion completo del cómic, revisando la adecuación al nivel, la función comunicativa, el vocabulario, la interacción y la corrección lingüística.
+- Con el prompt que me devuelve voy a generar el guion completo del cómic, revisando la adecuación al nivel, la función comunicativa, el vocabulario, la interacción y la corrección lingüística.
 
-3. Uso el cómic como recurso de aula para practicar conversación, mediación, escritura guiada, dramatización o revisión de expresiones útiles.
+- Uso el cómic como recurso de aula para practicar conversación, mediación, escritura guiada, dramatización o revisión de expresiones útiles.
 
 ## 💬 AJUSTA ESTE PROMPT listo para usar:
 

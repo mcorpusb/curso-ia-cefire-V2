@@ -34,14 +34,14 @@ Preparar tres versiones de la misma ficha te llevaría toda la tarde. Con Copilo
 
 ## ⚙️ Qué vas a hacer
 
-1. Accede a **Microsoft Copilot** con tu cuenta `@edu.gva.es` y comprueba que aparece la insignia **"Protegido"**.
-2. Elige un tema de trabajo real de tu programación actual (un texto narrativo, expositivo o informativo que tengas previsto trabajar esta semana).
-3. Decide los tres niveles de dificultad que necesitas para tu grupo concreto.
-4. Completa el prompt con los datos de tu asignatura, nivel y tema.
-5. Lanza el prompt en Copilot y revisa la ficha generada.
-6. Comprueba que las preguntas de cada nivel son realmente diferentes en exigencia cognitiva (no solo en extensión).
-7. Usa las instrucciones de iteración para ajustar lo que necesites.
-8. Copia el resultado en un documento Word, dale formato para imprimir y guárdalo en tu OneDrive.
+- Accede a **Microsoft Copilot** con tu cuenta `@edu.gva.es` y comprueba que aparece la insignia **"Protegido"**.
+- Elige un tema de trabajo real de tu programación actual (un texto narrativo, expositivo o informativo que tengas previsto trabajar esta semana).
+- Decide los tres niveles de dificultad que necesitas para tu grupo concreto.
+- Completa el prompt con los datos de tu asignatura, nivel y tema.
+- Lanza el prompt en Copilot y revisa la ficha generada.
+- Comprueba que las preguntas de cada nivel son realmente diferentes en exigencia cognitiva (no solo en extensión).
+- Usa las instrucciones de iteración para ajustar lo que necesites.
+- Copia el resultado en un documento Word, dale formato para imprimir y guárdalo en tu OneDrive.
 
 ---
 
@@ -117,10 +117,10 @@ Durante el paseo, observamos plantas acuáticas, escuchamos el canto de los páj
 
 #### Nivel 1 — Apoyo
 
-1. ¿A dónde fue la clase de 4.º de Primaria?
-2. ¿Cómo llegaron hasta la marjal?
-3. ¿Qué animales viven en la marjal?
-4. ¿Qué actividad hicieron al final de la visita?
+- ¿A dónde fue la clase de 4.º de Primaria?
+- ¿Cómo llegaron hasta la marjal?
+- ¿Qué animales viven en la marjal?
+- ¿Qué actividad hicieron al final de la visita?
 
 **Ejemplo resuelto:**
 
@@ -131,20 +131,20 @@ Respuesta: Plantas acuáticas.
 
 #### Nivel 2 — Estándar
 
-1. ¿Por qué crees que es importante cuidar la marjal?
-2. ¿Qué aprendiste sobre los agricultores que trabajan en los arrozales?
-3. ¿Cómo se sintieron los alumnos/as durante la visita? Explica tu respuesta.
-4. ¿Qué relación hay entre las aves y el agua de la marjal?
-5. ¿Qué te ha parecido la experiencia de visitar un espacio natural?
+- ¿Por qué crees que es importante cuidar la marjal?
+- ¿Qué aprendiste sobre los agricultores que trabajan en los arrozales?
+- ¿Cómo se sintieron los alumnos/as durante la visita? Explica tu respuesta.
+- ¿Qué relación hay entre las aves y el agua de la marjal?
+- ¿Qué te ha parecido la experiencia de visitar un espacio natural?
 
 ---
 
 #### Nivel 3 — Ampliación
 
-1. Compara la marjal con otro espacio natural que conozcas. ¿En qué se parecen y en qué se diferencian?
-2. ¿Qué pasaría si no cuidáramos los humedales como la marjal?
-3. ¿Cómo podrías explicar a un compañero/a más pequeño por qué es importante proteger estos lugares?
-4. Inventa un final alternativo para la visita y descríbelo brevemente.
+- Compara la marjal con otro espacio natural que conozcas. ¿En qué se parecen y en qué se diferencian?
+- ¿Qué pasaría si no cuidáramos los humedales como la marjal?
+- ¿Cómo podrías explicar a un compañero/a más pequeño por qué es importante proteger estos lugares?
+- Inventa un final alternativo para la visita y descríbelo brevemente.
 
 ---
 

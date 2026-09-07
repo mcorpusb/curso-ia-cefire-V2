@@ -51,9 +51,9 @@ Diseña un cómic formativo sobre una situación profesional real de tu módulo 
 
 ## ⚙️ Qué vas a hacer ( paso a paso)
 
-1. Pido un prompt exhaustivo adaptando el que tengo listo para usar usando Copilot, ChatGPT o Gemini.
-2. Con el prompt que me devuelve voy a generar el **guion completo** del cómic, por lo que revisa el **vocabulario técnico**, la precisión de los procedimientos y la adecuación al perfil profesional.
-3. Usa el cómic como material de seguridad, ficha de aula o recurso de repaso de buenas prácticas profesionales.
+- Pido un prompt exhaustivo adaptando el que tengo listo para usar usando Copilot, ChatGPT o Gemini.
+- Con el prompt que me devuelve voy a generar el **guion completo** del cómic, por lo que revisa el **vocabulario técnico**, la precisión de los procedimientos y la adecuación al perfil profesional.
+- Usa el cómic como material de seguridad, ficha de aula o recurso de repaso de buenas prácticas profesionales.
 
 ## 💬 AJUSTA ESTE PROMPT  listo para usar
 
