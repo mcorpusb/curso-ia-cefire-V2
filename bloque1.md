@@ -297,7 +297,7 @@ Microsoft ofrece distintas experiencias bajo la denominación **Copilot**, y sus
 
 La disponibilidad puede variar entre cuentas educativas. **Compruébala antes de realizar la actividad.**
 
-Si Copilot no está disponible o no resulta adecuado, utiliza otra opción del [Radar de herramientas]({{ '/herramientas-ia-actualizadas.html' | relative_url }}).
+Si Copilot no está disponible o no resulta adecuado, utiliza otra opción del [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}).
 
 {: .callout .callout--recuerda }
 **Lo importante en este bloque no es aprender una interfaz concreta, sino un proceso que puedas trasladar a distintas herramientas.**

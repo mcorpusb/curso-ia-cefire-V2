@@ -29,7 +29,7 @@ Lo haremos de forma práctica, con herramientas gratuitas, educativas o disponib
 
 **No necesitas experiencia previa.**
 
-Trabajaremos con distintas herramientas según la tarea. Priorizaremos opciones gratuitas, educativas o disponibles mediante cuentas institucionales y conoceremos alternativas para no depender de una única plataforma. Consulta el [Radar de herramientas](herramientas-ia-actualizadas.md): las funciones, los planes y los límites cambian con frecuencia, por lo que esta información se mantiene en una referencia actualizable separada del contenido pedagógico estable.
+Trabajaremos con distintas herramientas según la tarea. Priorizaremos opciones gratuitas, educativas o disponibles mediante cuentas institucionales y conoceremos alternativas para no depender de una única plataforma. Consulta el [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}): las funciones, los planes y los límites cambian con frecuencia, por lo que esta información se mantiene en una referencia actualizable separada del contenido pedagógico estable.
 
 ![Ruta de aprendizaje del curso](assets/img/ruta-ia-docentes.png)
 
@@ -107,7 +107,7 @@ Copilot Chat y Microsoft 365 Copilot son productos distintos. Microsoft 365 Copi
 
 1. Ve a [copilot.microsoft.com](https://copilot.microsoft.com) e inicia sesión con tu cuenta `@edu.gva.es`.
 2. Si funciona, escribe una pregunta de prueba, por ejemplo: *«Explica qué es la inteligencia artificial en dos líneas»*.
-3. Si no funciona o ves un mensaje de error, utiliza una de las alternativas gratuitas indicadas en el [Radar de herramientas](herramientas-ia-actualizadas.md) del curso.
+3. Si no funciona o ves un mensaje de error, utiliza una de las alternativas gratuitas indicadas en el [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}) del curso.
 
 {: .callout .callout--privacidad }
 **Privacidad desde el primer día**
@@ -160,7 +160,7 @@ Compara ambas respuestas. Una petición más contextualizada suele producir una 
 🔧 <strong>RADAR DE HERRAMIENTAS</strong><br>
 Referencia actualizable sobre para qué sirve cada herramienta, opciones gratuitas o educativas, requisitos de cuenta, privacidad, enlaces oficiales y fecha de revisión.
 <br><br>
-<a href="{{ '/herramientas-ia-actualizadas' | relative_url }}" style="font-weight:700; color:#7b1fa2;">→ Consultar el Radar de herramientas</a>
+<a href="{{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}" style="font-weight:700; color:#7b1fa2;">→ Consultar el Radar de herramientas</a>
 </div>
 
 <div style="background-color:#f0f7f0; border-left:4px solid #388e3c; padding:12px 14px; margin:18px 0; border-radius:6px;">

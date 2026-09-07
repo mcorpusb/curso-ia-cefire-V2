@@ -62,8 +62,12 @@
     width: 20rem;
   }
 
-  .main {
-    margin-left: 20rem;
+  // Igualar la especificidad del tema y respetar la barra lateral de 20rem.
+  .side-bar + .main {
+    margin-left: Max(
+      20rem,
+      calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width})
+    );
   }
 }
 
@@ -800,11 +804,11 @@
   border-radius: 8px;
 }
 
-/* Primera tabla del radar: el tema ya aporta .table-wrapper y su scroll. */
+/* Comparativas del radar: el tema aporta .table-wrapper y su scroll. */
 .radar-table {
   width: 100%;
   min-width: 736px;
-  table-layout: fixed;
+  table-layout: auto;
 
   th,
   td {
@@ -828,11 +832,10 @@
     outline-offset: -2px;
   }
 
-  th:nth-child(1) { width: 17%; }
-  th:nth-child(2) { width: 18%; }
-  th:nth-child(3) { width: 21%; }
-  th:nth-child(4) { width: 17%; }
-  th:nth-child(5) { width: 27%; }
+  th:nth-child(1) { width: 18%; }
+  th:nth-child(2) { width: 23%; }
+  th:nth-child(3) { width: 27%; }
+  th:nth-child(4) { width: 32%; }
 }
 
 /* ── Botón CTA grande ── */

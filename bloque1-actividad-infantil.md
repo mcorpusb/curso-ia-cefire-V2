@@ -29,7 +29,7 @@ Crear y revisar un cuento breve para una situación real de Educación Infantil,
 
 Piensa en un tema o situación que estés trabajando o vayas a trabajar próximamente: emociones, convivencia, animales, estaciones, hábitos, alimentación, autonomía, naturaleza, llegada al colegio, cuerpo u otro contenido adecuado.
 
-Utiliza el asistente de IA que tengas disponible y cuya utilización sea adecuada para la tarea. Puede ser Copilot Chat, ChatGPT, Gemini, Kimi u otra alternativa del [Radar de herramientas](herramientas-ia-actualizadas.md). No necesitas utilizar una cuenta personal.
+Utiliza el asistente de IA que tengas disponible y cuya utilización sea adecuada para la tarea. Puede ser Copilot Chat, ChatGPT, Gemini, Kimi u otra alternativa del [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}). No necesitas utilizar una cuenta personal.
 
 Seguirás este recorrido:
 
@@ -160,7 +160,7 @@ Mantén al personaje principal reconocible entre escenas.
 
 Para mantener la continuidad visual entre escenas, describe al personaje principal de forma similar en todas las imágenes.
 
-Utiliza la herramienta de generación de imágenes que tengas disponible. Por ejemplo, puedes usar el generador incluido en alguno de los asistentes compatibles o una herramienta específica. Consulta el [Radar de herramientas](herramientas-ia-actualizadas.md) si necesitas una alternativa.
+Utiliza la herramienta de generación de imágenes que tengas disponible. Por ejemplo, puedes usar el generador incluido en alguno de los asistentes compatibles o una herramienta específica. Consulta el [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}) si necesitas una alternativa.
 
 > **Antes de utilizar el cómic, comprueba:**
 >

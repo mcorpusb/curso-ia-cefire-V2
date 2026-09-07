@@ -34,7 +34,7 @@ El itinerario avanza desde una presentación inicial y cuatro bloques de aplicac
 - Del primer contacto con la IA y las necesidades de planificación, comunicación y gestión...
 - ...al trabajo con contexto y fuentes, la creación multimodal, la evaluación, la verificación y el uso crítico de la IA.
 
-A lo largo del curso utilizaremos distintas herramientas según la tarea. Priorizaremos soluciones gratuitas, educativas o disponibles mediante cuentas institucionales, y aprenderemos a elegirlas en función de la necesidad, la privacidad, la fiabilidad y el valor pedagógico. El [Radar de herramientas](herramientas-ia-actualizadas.md) mantiene actualizadas las opciones, condiciones de acceso y limitaciones que pueden cambiar con el tiempo.
+A lo largo del curso utilizaremos distintas herramientas según la tarea. Priorizaremos soluciones gratuitas, educativas o disponibles mediante cuentas institucionales, y aprenderemos a elegirlas en función de la necesidad, la privacidad, la fiabilidad y el valor pedagógico. El [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}) mantiene actualizadas las opciones, condiciones de acceso y limitaciones que pueden cambiar con el tiempo.
 
 {: .callout .callout--privacidad }
 **Nota sobre Copilot y cuentas institucionales**
@@ -252,7 +252,7 @@ En este curso entendemos el **prompting avanzado** no como memorizar fórmulas, 
 - Personalización y revisión de materiales para atender a la diversidad del aula bajo criterio docente.
 - Integración multimodal en situaciones de aprendizaje LOMLOE: planificación de recursos según principios DUA.
 
-Las herramientas concretas, sus condiciones de acceso y sus límites se mantienen actualizados en el [Radar de herramientas](herramientas-ia-actualizadas.md).
+Las herramientas concretas, sus condiciones de acceso y sus límites se mantienen actualizados en el [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}).
 
 **Ejemplos de aplicación:** Crear un cómic sobre el reciclaje para Primaria; generar una narración sobre la Edad Media como alternativa accesible; preparar un vídeo introductorio para Biología; adaptar la explicación de un tema en versiones de refuerzo, estándar y ampliación.
 
@@ -297,7 +297,7 @@ La disponibilidad de **Copilot Chat** ([copilot.microsoft.com](https://copilot.m
 | Investigación asistida | Búsqueda, selección, síntesis, contraste y citación |
 | Creación multimodal | Imagen, presentaciones, diagramas, audio, vídeo y subtítulos |
 
-Las marcas, funciones, planes, requisitos y límites cambian con frecuencia. Consulta el [Radar de herramientas](herramientas-ia-actualizadas.md) como referencia viva antes de cada actividad.
+Las marcas, funciones, planes, requisitos y límites cambian con frecuencia. Consulta el [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}) como referencia viva antes de cada actividad.
 
 ### Plataforma de seguimiento
 

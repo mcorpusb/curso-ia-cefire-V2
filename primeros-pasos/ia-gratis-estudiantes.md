@@ -204,7 +204,7 @@ ChatGPT Free sigue siendo un plan distinto y ChatGPT Edu es una solución contra
 
 </div>
 
-[Volver al Radar de herramientas]({{ '/herramientas-ia-actualizadas' | relative_url }}){: .btn .btn-purple }
+[Volver al Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}){: .btn .btn-purple }
 
 ---
 

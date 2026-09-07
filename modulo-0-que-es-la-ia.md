@@ -302,7 +302,7 @@ Trabajaremos, entre otras, con:
 
 Las funciones, modelos y condiciones de acceso cambian con frecuencia.
 
-Consulta el [Radar de herramientas](herramientas-ia-actualizadas.md) para revisar opciones, condiciones de acceso y límites actualizados.
+Consulta el [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}) para revisar opciones, condiciones de acceso y límites actualizados.
 
 ### Prepara tu entorno de trabajo
 
