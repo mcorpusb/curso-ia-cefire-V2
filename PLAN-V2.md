@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PLAN V2 · Curso IA para Docentes
 
 > **Nota de denominación · septiembre de 2026:** este documento histórico conserva el nombre empleado durante la planificación. La herramienta se denomina actualmente **Gemini Notebook (anteriormente NotebookLM)** y forma parte del ecosistema Gemini. Consulta la [guía docente actualizada]({{ '/bloque2-notebooklm.html' | relative_url }}).

@@ -5,229 +5,153 @@ parent: Inicio
 nav_order: 0
 ---
 
-# Identidad digital
+# Identidad digital y acceso
+{: .no_toc }
 
-Todo lo que necesitas saber sobre tu identidad digital como docente antes de comenzar el curso.
+Antes de trabajar con IA, prepara tus accesos y comprueba qué cuenta y qué datos vas a utilizar.
 
-## ¿Qué es la identidad digital?
+## 🎯 Qué necesitas saber antes de empezar
 
-![Esquema de identidad digital docente: usuario, contraseña, correo, perfil profesional, acceso seguro]({{ '/assets/img/identidad-digital-1.png' | relative_url }})
+- Reconocer tu identidad digital docente.
+- Localizar tu correo y tus servicios institucionales.
+- Distinguir las cuentas profesionales, personales y académicas.
+- Proteger las credenciales y comprobar la cuenta activa.
+- Revisar los datos antes de compartirlos con una IA.
 
-Tu identidad digital es el conjunto de datos que te identifican en los sistemas y plataformas en línea. En el ámbito educativo, esta identidad te permite acceder de forma segura a las herramientas que utilizas en tu labor docente. Igual que en el mundo físico necesitas un DNI para identificarte, en el entorno digital utilizas un usuario y una contraseña para demostrar que eres tú.
+![Identidad digital docente: el usuario identifica la cuenta y la contraseña protege su acceso.]({{ '/assets/img/identidad-digital-1.png' | relative_url }})
 
-## ¿Para qué sirve tu identidad digital?
+## En esta página
+{: .no_toc }
 
-Te permite:
+1. Contenidos
+{:toc}
 
-- Acceder a plataformas educativas como Aules, ITACA 3 o Web Familia.
-- Utilizar herramientas corporativas como el correo @edu.gva.es y Microsoft 365.
-- Proteger tu información y la del alumnado frente a accesos no autorizados.
-- Firmar y gestionar documentos oficiales.
-- Participar en formación en línea como este curso.
+## 🪪 Qué es tu identidad digital docente
 
-## Componentes principales
+Es la información que te identifica en los servicios educativos: **usuario, correo institucional y perfil profesional**. Las credenciales, como la contraseña, permiten autenticarte; los permisos determinan qué puedes consultar o modificar según tu función y centro.
 
-Tu identidad digital se compone de varios elementos clave:
+Te sirve para comunicarte, gestionar tu trabajo y participar en formación. Tener una cuenta no concede acceso a todos los servicios ni autoriza cualquier uso de los datos.
 
-| Componente | Descripción |
-|---|---|
-| Usuario | Tu identificador personal (asociado a tu cuenta corporativa). |
-| Contraseña | Clave secreta que protege tu acceso. |
-| Correo electrónico | Dirección @edu.gva.es como canal oficial. |
-| Perfil profesional | Información asociada a tu puesto y centro. |
+## 🏫 Tu identidad digital en el entorno GVA
 
-## Cómo funciona el acceso digital
+- **Correo y Microsoft 365:** utiliza tu cuenta `@edu.gva.es` para el [correo institucional en Outlook](https://outlook.office.com/) y las aplicaciones habilitadas. La disponibilidad de Copilot depende del servicio y de la configuración institucional.
+- **[ITACA 3](https://itaca3.edu.gva.es/):** gestión académica y administrativa, con los permisos correspondientes a tu puesto.
+- **[Aules](https://aules.edu.gva.es/):** selecciona el entorno de enseñanza correspondiente; el profesorado utiliza las credenciales de ITACA, según la [guía oficial de plataformas docentes GVA](https://ceice.gva.es/webitaca/docs/Bienvenida_Plataformas_val_cas_210209.pdf).
 
-![Flujo de acceso digital: usuario, verificación, MFA, acceso, protección de datos]({{ '/assets/img/flujo-identidad.svg' | relative_url }})
+**Web Familia** está destinado a familias y alumnado mayor de edad, con su propio procedimiento de acceso. No debe confundirse con el acceso corporativo docente. Consulta las [instrucciones oficiales de alta](https://familia.edu.gva.es/wf-front/myitaca/info_registro_wf?idioma=C) si necesitas orientar a una familia.
 
-El proceso habitual es sencillo:
+## 🔎 Dónde consultar tus datos
 
-1. Introduces tu usuario y contraseña.
-2. El sistema verifica tu identidad.
-3. (Opcional pero recomendable) Se aplica un segundo factor (MFA).
-4. Accedes a la plataforma.
-5. Tus datos quedan protegidos según tus permisos.
+La [guía oficial GVA](https://ceice.gva.es/webitaca/docs/Bienvenida_Plataformas_val_cas_210209.pdf) indica estas ubicaciones para consultar tu identidad digital:
 
-## Advertencia de seguridad: caso real (2026)
+1. **ITACA 3:** «Datos del usuario», en el escritorio.
+2. **[OVIDOC](https://ovidoc.edu.gva.es/):** «Datos personales» → «Identidad Digital»; la guía describe esta consulta mediante certificado digital.
+3. **Comprueba tu correo:** anota la dirección institucional y verifica que puedes abrir Outlook.
 
-Recientemente se detectó una vulnerabilidad relacionada con la gestión de permisos y control de acceso en Lilli, una herramienta interna de IA utilizada en entornos corporativos. No se ha confirmado una filtración masiva de datos, pero el incidente es relevante como ejemplo real de por qué la identidad digital importa. El problema estuvo en la definición y control de los permisos entre usuarios, no en un ataque externo clásico. La organización corrigió la vulnerabilidad de forma rápida y responsable.
+OVIDOC es la oficina virtual docente para consultar información y realizar trámites. Sus opciones de acceso incluyen las credenciales de ITACA y los mecanismos de identificación electrónica disponibles. Los nombres de pantalla pueden cambiar: utiliza la [ayuda oficial de OVIDOC](https://portal.edu.gva.es/ovidoc/es/inicio/) si no encuentras la opción.
 
-### Qué nos enseña este caso
+**Si no puedes entrar:** identifica primero el servicio afectado y utiliza su recuperación oficial. Si persiste el problema, acude al [SAI](https://gvasai.edu.gva.es/) o a la coordinación TIC. No envíes contraseñas ni claves de recuperación por correo.
 
-- La seguridad depende en gran parte de cómo se gestionan las identidades y los accesos.
-- Incluso sistemas avanzados pueden fallar si los permisos no están bien definidos.
-- La protección no es solo tecnológica: también depende del uso que hacemos.
+## 🏫👤 ¿Qué cuenta estoy utilizando?
 
-**Tu identidad digital es una pieza clave de la seguridad.**
+<div class="tool-grid">
+  <div class="tool-card">
+    <h3 class="tool-card__header">🏫 Institucional</h3>
+    <p class="tool-card__desc">Cuenta @edu.gva.es y servicios corporativos: trabajo profesional en los entornos autorizados por la institución.</p>
+  </div>
+  <div class="tool-card">
+    <h3 class="tool-card__header">👤 Personal</h3>
+    <p class="tool-card__desc">Tu cuenta particular de Google, ChatGPT, Canva o Kimi. Sus condiciones y permisos pueden diferir de los institucionales.</p>
+  </div>
+  <div class="tool-card">
+    <h3 class="tool-card__header">🎓 Estudiante o académica</h3>
+    <p class="tool-card__desc">Cuenta universitaria o acceso educativo vinculado a tus estudios. Una promoción académica no autoriza a tratar datos de tu alumnado.</p>
+  </div>
+</div>
 
-## Cómo acceder y gestionar tu identidad
+> **Comprueba la cuenta activa antes de introducir información:** revisa el correo del perfil y el tratamiento de datos del servicio. Usar un correo institucional para registrarse no convierte automáticamente una herramienta externa en un servicio autorizado.
 
-### Cuenta @edu.gva.es
+## 🔑 Protege tus credenciales
 
-Es tu cuenta principal para acceder a Microsoft 365 (Copilot, Teams, Outlook, etc.).
+Prioriza contraseñas **largas y únicas**, gestionadas con un gestor de contraseñas. Cámbialas si sospechas que se han comprometido y sigue los requisitos del servicio; no hace falta sustituirlas por calendario como recomendación general.
 
-- [https://www.office.com/](https://www.office.com/)
-- [https://login.microsoftonline.com/](https://login.microsoftonline.com/)
+La **autenticación multifactor (MFA)** añade otra comprobación, como una aplicación autenticadora o una llave de seguridad. Actívala cuando esté disponible o sea obligatoria; nunca apruebes una solicitud inesperada.
 
-### ITACA 3
+## 🛡️ Seis reglas básicas de seguridad
 
-[https://itaca3.edu.gva.es/](https://itaca3.edu.gva.es/)
+1. Utiliza contraseñas largas, únicas y un gestor.
+2. Activa MFA y protege sus mecanismos de recuperación.
+3. No compartas ni reutilices la contraseña institucional en servicios externos.
+4. Bloquea la pantalla cuando te ausentes.
+5. Mantén actualizados el sistema y el navegador.
+6. Desconfía de enlaces y solicitudes de acceso inesperados.
 
-Permite gestionar datos académicos y administrativos del centro.
+## 💻 Protege también tu dispositivo
 
-### Web Familia
+<div class="tool-card">
+  <p><strong>Antes de trabajar:</strong> instala actualizaciones, utiliza bloqueo de pantalla y cierra sesión en equipos compartidos. Activa el cifrado del dispositivo si está disponible; en equipos del centro, sigue las indicaciones del soporte TIC.</p>
+</div>
 
-Canal de comunicación con las familias:
+## 🤖 Seguridad básica al utilizar IA
 
-- Mensajes
-- Calificaciones
-- Informes
+Los documentos, webs o correos que procesa una IA pueden contener instrucciones maliciosas u ocultas. **Revisa las fuentes, las respuestas y las acciones propuestas**, especialmente si la herramienta puede actuar sobre archivos, correo o cuentas.
 
-💡 Utiliza la misma identidad corporativa.
+Estos riesgos se desarrollarán con mayor profundidad en [agentes de IA para docentes]({{ '/bloque4-agentes-ia.html' | relative_url }}). Para empezar, concede solo los accesos necesarios y revisa cualquier acción antes de autorizarla.
 
-## Recuperación de acceso
+## 🔐 Antes de introducir datos en una IA
 
-Si tienes problemas:
+No introduzcas indiscriminadamente nombres, expedientes, calificaciones, informes de salud u otros datos personales del alumnado. Evita documentos sensibles; utiliza ejemplos ficticios o anonimiza cuando corresponda, comprobando que nadie sea identificable por el contexto.
 
-- Restablece la contraseña en [https://portal.edu.gva.es/](https://portal.edu.gva.es/)
-- Revisa credenciales
-- Contacta con el SAI o coordinador TIC
+Usa los entornos institucionales autorizados cuando proceda y revisa si el servicio almacena, procesa o reutiliza la información. Continúa en [protección de datos y seguridad]({{ '/bloque1-seguridad.html' | relative_url }}) y [uso responsable de IA con el alumnado]({{ '/bloque4-alfabetizacion-alumnado.html' | relative_url }}).
 
-> ⚠️ Nunca compartas tu contraseña.
+## ✅ Antes de continuar
 
-## Buenas prácticas de seguridad digital
+- Sé cuál es mi cuenta institucional.
+- Puedo acceder a mi correo corporativo.
+- Sé dónde consultar mi identidad digital.
+- Distingo las cuentas institucionales y personales.
+- Tengo protegida mi cuenta con los mecanismos disponibles.
+- No reutilizo mi contraseña institucional en otros servicios.
+- Sé qué datos no debo introducir indiscriminadamente en una IA.
+- Compruebo siempre con qué cuenta estoy trabajando.
+{: .checklist-visual }
 
-### Protección de credenciales
+## ➡️ Siguiente paso
 
-- Usa contraseñas robustas (mínimo 12 caracteres) y únicas para cada servicio.
-- No reutilices contraseñas entre plataformas.
-- Cambia tus contraseñas periódicamente.
-- No compartas tus credenciales con nadie.
-- Cierra siempre la sesión en equipos compartidos.
+Ya tienes preparados tus accesos y las precauciones básicas. Ahora revisa las herramientas que utilizaremos durante el curso.
 
-### Doble factor (MFA)
+[🧰 Herramientas que utilizaremos]({{ '/primeros-pasos/herramientas-que-utilizaremos.html' | relative_url }}){: .btn .btn-purple }
 
-- Actívalo siempre que esté disponible.
-- Es la medida más efectiva contra accesos no autorizados.
+## 📚 Para saber más
 
-### Uso seguro de herramientas de IA
+<details markdown="1">
+<summary>Ampliar: riesgos de IA, cifrado y fuentes de consulta</summary>
 
-- No introduzcas datos personales, sensibles o confidenciales en herramientas no autorizadas.
-- Minimiza y anonimiza los datos siempre que sea posible.
-- Recuerda: la IA no distingue siempre entre datos e instrucciones.
+### Inyección de instrucciones y agentes
+{: .no_toc }
 
-### Higiene de prompts
+La *prompt injection* intenta que una IA trate contenido no fiable como instrucciones. Es indirecta cuando llega a través de documentos, webs o correos. Puede manipular respuestas y, cuando hay herramientas conectadas, provocar acciones indebidas. La revisión humana ayuda, pero los sistemas también necesitan controles técnicos y permisos limitados.
 
-- Evita incluir nombres completos, DNI, expedientes o información sensible en tus consultas a IA.
-- Antes de enviar información, revisa y elimina datos innecesarios.
+![Inyección de instrucciones: contenido externo con órdenes ocultas puede alterar la respuesta de la IA; revisar su origen y el resultado ayuda a detectar riesgos.]({{ '/assets/img/prompt-injection.svg' | relative_url }})
 
-### Verificación humana
+Consulta la [guía de prevención de OWASP](https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html) y la [privacidad y seguridad de Microsoft 365 Copilot](https://learn.microsoft.com/es-es/copilot/microsoft-365/microsoft-365-copilot-privacy). La aplicación de **Zero Trust** exige verificar los accesos y limitar los permisos; no es un requisito conceptual para comenzar este curso.
 
-- Revisa siempre los resultados antes de usarlos, especialmente en documentos oficiales o educativos.
-- No confíes ciegamente en la respuesta de una IA.
-- Si no controlas el origen del contenido, **no des la respuesta por buena automáticamente** (enfoque Zero Trust).
+### Cifrado y protección del equipo
+{: .no_toc }
 
-### Seguridad del dispositivo
+El cifrado del disco protege los datos almacenados ante pérdida o robo, especialmente con el equipo apagado o bloqueado según su configuración. FileVault y BitLocker son opciones en macOS y Windows; Linux también dispone de mecanismos de cifrado. La disponibilidad depende del equipo y la edición del sistema. Consulta al soporte antes de cambiar equipos gestionados y guarda las claves de recuperación de forma segura. El cifrado no sustituye las copias de seguridad ni evita los accesos a una sesión abierta.
 
-- Mantén tus dispositivos actualizados.
-- Activa el cifrado de disco (FileVault en Mac, BitLocker en Windows, cifrado en Linux).
-- Protege el acceso físico a tus equipos.
-- La seguridad no depende solo de la tecnología, sino también del criterio profesional.
+### Caso real: Lilli, de McKinsey
+{: .no_toc }
 
-## Casos reales recientes: seguridad en IA
+Según [CodeWall, en su investigación publicada el 9 de marzo de 2026](https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform), una inyección SQL sin autenticación permitió acceder a datos de la plataforma. Los investigadores comunicaron que McKinsey corrigió los puntos de acceso afectados antes de la publicación. El aprendizaje: proteger identidades, permisos y accesos del sistema requiere controles del proveedor; activar MFA en una cuenta no corrige una vulnerabilidad del servidor.
 
-### Caso 1: Lilli (McKinsey)
+### Fuentes para continuar
+{: .no_toc }
 
-**Qué ocurrió**: se detectó una vulnerabilidad en la gestión de permisos entre usuarios en una herramienta de IA interna.  
-**Qué problema de seguridad hay detrás**: el control de identidad y los permisos no estaban correctamente definidos, lo que podría haber permitido accesos indebidos.  
-**Qué significa para ti como docente**: tu cuenta es una puerta de acceso a información sensible. Si los permisos no están bien gestionados, los datos pueden quedar expuestos.
+- [INCIBE: seguridad para la ciudadanía](https://www.incibe.es/ciudadania).
+- [AEPD: guías sobre protección de datos](https://www.aepd.es/guias).
+- [NIST: recomendaciones de autenticación y contraseñas](https://pages.nist.gov/800-63-4/sp800-63b/authenticators/).
+- [NIST: marco de gestión de riesgos de IA](https://www.nist.gov/itl/ai-risk-management-framework).
 
-**Qué debes hacer tú**
-
-- Activa siempre el doble factor (MFA).
-- No reutilices contraseñas.
-- Cierra sesión en equipos compartidos.
-- Revisa periódicamente tus accesos y actividad.
-
-### Caso 2: Prompt injection en Copilot
-
-![Esquema de prompt injection: entrada externa, instrucciones ocultas, IA, manipulación, revisión humana]({{ '/assets/img/prompt-injection.svg' | relative_url }})
-
-**Qué es**: una técnica en la que se introducen instrucciones ocultas en textos, documentos o contenidos que la IA interpreta como órdenes válidas.  
-**Qué es la inyección indirecta**: ocurre cuando la IA recibe instrucciones camufladas en documentos, páginas web, correos, nombres de archivo o cualquier contenido externo.
-
-**Cómo puede producirse**
-
-- Analizando documentos con texto oculto.
-- Abriendo enlaces o archivos con instrucciones embebidas.
-- Procesando correos o mensajes con contenido manipulado.
-
-**Por qué ocurre**: la IA puede confundir datos con instrucciones, generando respuestas manipuladas o exponiendo información.
-
-**Qué debes hacer tú**
-
-- No confíes en contenido externo sin revisar.
-- Verifica siempre la respuesta antes de reutilizarla.
-- No introduzcas datos sensibles en herramientas de IA.
-- Revisa documentos antes de analizarlos con IA.
-
-## Tabla comparativa de riesgos
-
-| Riesgo | Ejemplo real | Qué puede pasar | Qué hacer |
-|---|---|---|---|
-| Gestión de identidad | Lilli (McKinsey) | Acceso indebido | MFA + contraseñas seguras + revisar accesos |
-| Prompt injection | Copilot | Respuestas manipuladas | Verificar resultados + no confiar ciegamente |
-
-## Seguridad del dispositivo y cifrado
-
-![Esquema de cifrado: dispositivo, disco cifrado, datos protegidos, acceso bloqueado, FileVault, BitLocker, Linux]({{ '/assets/img/cifrado-datos-1.png' | relative_url }})
-
-El cifrado protege tus datos frente a accesos físicos no autorizados. Es fundamental para salvaguardar información sensible como datos del alumnado, informes o comunicaciones.
-
-### ¿Por qué es importante?
-
-Porque manejas información confidencial y eres responsable de su protección.
-
-### Configuración básica por sistema
-
-- **🍎 Mac:** activa FileVault.
-- **🪟 Windows:** utiliza BitLocker.
-- **🐧 Linux:** habilita el cifrado durante la instalación.
-
-💡 Mantén siempre el sistema actualizado y bloquea la pantalla cuando te ausentes.
-
-## La seguridad evoluciona contigo
-
-Las herramientas y amenazas cambian constantemente. La tecnología ayuda, pero tu criterio profesional es esencial. La seguridad no depende solo de la tecnología, sino también del criterio profesional.
-
-## Qué puedes hacer tú
-
-- Mantener dispositivos actualizados.
-- Activar cifrado.
-- Aplicar buenas prácticas.
-- Usar la IA con criterio.
-
-![Checklist de uso seguro de IA: no datos sensibles, anonimizar, verificar, criterio profesional]({{ '/assets/img/uso-seguro-ia.svg' | relative_url }})
-
-🔑 **No necesitas ser experto/a para estar protegido/a. Tu identidad digital es tu primera línea de defensa.**
-
-## Referencias y lecturas recomendadas
-
-### Seguridad e identidad digital
-
-- [INCIBE – Ciudadanía](https://www.incibe.es/ciudadania)
-- [Agencia Española de Protección de Datos (AEPD) – Guías](https://www.aepd.es/guias)
-- [NIST – AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
-
-### Copilot y seguridad en IA
-
-- [Microsoft Learn – Datos, privacidad y seguridad para Microsoft 365 Copilot](https://learn.microsoft.com/es-es/microsoft-365/copilot/microsoft-365-copilot-privacy)
-- [Microsoft Learn – Protección y privacidad de Copilot](https://learn.microsoft.com/es-es/copilot/privacy-and-protections)
-- [Microsoft Learn – Protección de datos empresariales](https://learn.microsoft.com/es-es/microsoft-365/copilot/enterprise-data-protection)
-
-### Prompt injection y riesgos en IA
-
-- [OWASP – Prompt Injection](https://owasp.org/www-community/attacks/PromptInjection)
-- [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
-- [OWASP Cheat Sheet – Prompt Injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html)
-- [NIST – Generative AI Profile](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence)
+</details>

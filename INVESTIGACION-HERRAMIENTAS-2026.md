@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # INVESTIGACIÓN DE HERRAMIENTAS DE IA PARA DOCENTES · 2026
 
 **Rama:** `curso-ia-cefire-v2`  
