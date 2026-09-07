@@ -23,7 +23,7 @@ No dependeremos de una única plataforma. Elegiremos cada herramienta según la 
 {:toc}
 
 ## 🔐 Antes de empezar: cuentas y acceso
-{: #cuentas-y-acceso }
+{: id="cuentas-y-acceso" }
 
 ### 🏫 Cuenta institucional
 {: .no_toc }
@@ -40,9 +40,9 @@ Algunas actividades pueden utilizar cuentas propias de OpenAI, Google, Canva, Ki
 **Desde la primera actividad:** trabaja con ejemplos ficticios o documentos anonimizados; no introduzcas datos personales ni información sensible del alumnado en servicios no autorizados.
 
 ## ⭐ Herramientas principales del curso
-{: #herramientas-principales }
+{: id="herramientas-principales" }
 
-Estas seis herramientas son nuestras referencias de trabajo. Elige por la tarea; no necesitas dominarlas todas. Sus condiciones de acceso se detallan en el radar.
+Estas son las cinco referencias de trabajo del curso. Elige por la tarea; no necesitas dominarlas todas. Sus condiciones de acceso se detallan en el radar.
 
 <div class="tool-grid" role="list" aria-label="Herramientas principales y usos en el curso">
   <div class="tool-card" role="listitem">
@@ -54,12 +54,8 @@ Estas seis herramientas son nuestras referencias de trabajo. Elige por la tarea;
     <div class="tool-card__desc">Conversación, contenidos, documentos, imágenes y tareas multimodales.</div>
   </div>
   <div class="tool-card" role="listitem">
-    <div class="tool-card__header">Gemini</div>
-    <div class="tool-card__desc">IA multimodal, análisis de archivos y trabajo con herramientas de Google.</div>
-  </div>
-  <div class="tool-card" role="listitem">
-    <div class="tool-card__header">NotebookLM</div>
-    <div class="tool-card__desc">Consultar fuentes, sintetizar documentos y generar materiales basados en ellos.</div>
+    <div class="tool-card__header">Gemini + Gemini Notebook</div>
+    <div class="tool-card__desc">Ecosistema de IA de Google: Gemini para conversación, creación, investigación y trabajo multimodal; Gemini Notebook para trabajar de forma fundamentada con fuentes, documentos y cuadernos de conocimiento.</div>
   </div>
   <div class="tool-card" role="listitem">
     <div class="tool-card__header">Kimi</div>
@@ -71,15 +67,17 @@ Estas seis herramientas son nuestras referencias de trabajo. Elige por la tarea;
   </div>
 </div>
 
-## 🔎 Radar actualizado de herramientas de IA
-{: #radar }
+**Gemini Notebook (anteriormente NotebookLM)** es la experiencia especializada de ese ecosistema. Los cuadernos pueden utilizarse y sincronizarse con Gemini; Gemini Notebook mantiene su experiencia propia y funciones específicas para trabajar con fuentes. La disponibilidad depende de la cuenta y del despliegue. Amplía en [Gemini Notebook para docentes]({{ '/bloque2-notebooklm.html' | relative_url }}).
 
-Los nombres enlazan a las webs oficiales. **Principales** son las seis herramientas anteriores; **complementarias**, las alternativas para necesidades concretas; **experimentales**, las propuestas para explorar. Ninguna lista implica que debas contratar un plan.
+## 🔎 Radar actualizado de herramientas de IA
+{: id="radar" }
+
+Los nombres enlazan a las webs oficiales. **Principales** son las cinco referencias anteriores; **complementarias**, las alternativas para necesidades concretas; **experimentales**, las propuestas para explorar. Ninguna lista implica que debas contratar un plan.
 
 En pantallas pequeñas puedes desplazar las tablas horizontalmente. Con teclado, enfoca la tabla con Tab y utiliza las flechas.
 
 ### 💬 Chat y asistencia docente
-{: #herramientas-de-chat-y-asistencia-docente }
+{: id="herramientas-de-chat-y-asistencia-docente" }
 
 **Herramientas principales.** Para conversar, preparar borradores y trabajar con archivos. Verifica siempre las respuestas antes de utilizarlas en el aula.
 
@@ -87,25 +85,25 @@ En pantallas pequeñas puedes desplazar las tablas horizontalmente. Con teclado,
 |---|---|---|---|
 | **[Copilot Chat](https://copilot.microsoft.com)** · Microsoft | Chat, búsqueda, documentos e imágenes. | Gratuito con límites. Microsoft personal o institucional. | Con @edu.gva.es, depende de la configuración institucional. En personal, revisar uso de datos. |
 | **[ChatGPT](https://chatgpt.com)** · OpenAI | Chat multimodal, imágenes y análisis de documentos. | Gratuito con límites; pago con mayor capacidad. Cuenta OpenAI. | Funciones según plan. Uso para entrenamiento desactivable en Controles de datos. |
-| **[Gemini](https://gemini.google.com)** · Google | Chat multimodal, archivos y búsqueda. | Gratuito con límites; planes Google AI. Cuenta Google. | En personal, revisar actividad. La promoción estudiantil requiere cuenta personal y elegibilidad. |
+| **[Gemini + Gemini Notebook](https://gemini.google.com)** · Google | Asistente general y cuadernos fundamentados en fuentes. | Gratuito con límites; planes Google AI. Cuenta Google. | En personal, revisar actividad. La promoción estudiantil requiere cuenta personal y elegibilidad. |
 | **[Kimi](https://www.kimi.com)** · Moonshot AI | Chat, documentos, presentaciones, agentes e investigación. | Gratuito con límites. Cuenta Kimi; métodos de acceso según disponibilidad. | Funciones avanzadas según plan. Revisar privacidad antes de subir documentos. |
 {: .radar-table tabindex="0" aria-labelledby="herramientas-de-chat-y-asistencia-docente" }
 
 ### 📚 Documentos, investigación y fuentes
-{: #herramientas-de-gestión-documental }
+{: id="herramientas-de-gestión-documental" }
 
-**Principal: NotebookLM.** Para trabajar a partir de materiales seleccionados. Las funciones de documentos e investigación de Kimi están recogidas en la tabla anterior.
+**Experiencia especializada del ecosistema Gemini: Gemini Notebook.** Para trabajar a partir de materiales seleccionados. Las funciones de documentos e investigación de Kimi están recogidas en la tabla anterior.
 
 | Herramienta | Uso recomendado | Acceso y cuenta | A tener en cuenta |
 |---|---|---|---|
-| **[NotebookLM](https://notebooklm.google.com)** · Google | Consultar fuentes, sintetizar y crear materiales. | Gratuito con límites de fuentes y consultas. Google personal o Workspace habilitado. | Condiciones de datos distintas según cuenta; consulta la nota siguiente. |
+| **[Gemini Notebook](https://notebooklm.google.com)** · Google | Consultar fuentes, sintetizar y crear materiales. | Gratuito con límites de fuentes y consultas. Google personal o Workspace habilitado. | Condiciones de datos distintas según cuenta; consulta la nota siguiente. |
 | **[Copilot Pages](https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-with-microsoft-365-copilot-pages)** · Complementaria | Convertir respuestas en páginas editables y colaborativas. | Cuenta Microsoft; disponibilidad e integración según cuenta y licencia. | Revisar permisos al compartir. Protección según entorno personal o institucional. |
 {: .radar-table tabindex="0" aria-labelledby="herramientas-de-gestión-documental" }
 
-**Privacidad de NotebookLM:** Google indica que los datos no se usan para entrenar NotebookLM salvo que se envíen comentarios para mejorar el servicio; estos pueden permitir revisar el contexto, incluidos los archivos. En cuentas Workspace y Education se aplican protecciones específicas. Consulta la [documentación oficial sobre cuentas y datos](https://support.google.com/notebooklm/answer/16164461?hl=es) antes de cargar fuentes.
+**Privacidad de Gemini Notebook:** Google indica que los datos no se usan para entrenar Gemini Notebook salvo que se envíen comentarios para mejorar el servicio; estos pueden permitir revisar el contexto, incluidos los archivos. En cuentas Workspace y Education se aplican protecciones específicas. Consulta la [documentación oficial sobre cuentas y datos](https://support.google.com/gemininotebook/answer/16164461?hl=es) antes de cargar fuentes.
 
 ### 🎨 Imagen y diseño
-{: #herramientas-de-creación-visual-y-presentaciones }
+{: id="herramientas-de-creación-visual-y-presentaciones" }
 
 **Principal: Canva.** Firefly es una alternativa especializada. Para presentaciones con Kimi, utiliza sus funciones de Slides desde el acceso del radar de chat.
 
@@ -118,7 +116,7 @@ En pantallas pequeñas puedes desplazar las tablas horizontalmente. Con teclado,
 Canva Education está dirigido a educación escolar —primaria y secundaria, según sus criterios de elegibilidad— e incluye compromisos específicos sobre datos del alumnado. En Firefly, no atribuyas las mismas condiciones de entrenamiento a todos los modelos: comprueba si utilizas un modelo de Adobe o de otro proveedor.
 
 ### 🔊 Audio y voz
-{: #herramientas-de-audio-y-voz }
+{: id="herramientas-de-audio-y-voz" }
 
 **Opciones complementarias.** Empieza por la lectura de respuestas o por tu propia narración si cubren la actividad.
 
@@ -129,7 +127,7 @@ Canva Education está dirigido a educación escolar —primaria y secundaria, se
 {: .radar-table tabindex="0" aria-labelledby="herramientas-de-audio-y-voz" }
 
 ### 🎬 Vídeo
-{: #herramientas-de-vídeo-con-avatar-ia }
+{: id="herramientas-de-vídeo-con-avatar-ia" }
 
 **Opciones complementarias.** Útiles para demostraciones de avatares o traducción de vídeos, sin necesidad de contratarlas para seguir el curso.
 
@@ -142,7 +140,7 @@ Canva Education está dirigido a educación escolar —primaria y secundaria, se
 Antes de elegir un plan de vídeo, considera si una presentación de Canva narrada por ti o un audio de ElevenLabs permite alcanzar el mismo objetivo pedagógico.
 
 ### 🧪 Herramientas experimentales o emergentes
-{: #herramientas-experimentales-y-de-laboratorio }
+{: id="herramientas-experimentales-y-de-laboratorio" }
 
 **Exploración opcional.** Estas propuestas pueden cambiar de nombre, disponibilidad o condiciones; no son un requisito del curso.
 
@@ -152,10 +150,10 @@ Antes de elegir un plan de vídeo, considera si una presentación de Canva narra
 | **[Gemini en Classroom](https://edu.google.com/ai/gemini-for-education/)** | IA integrada en tareas educativas. | Google Workspace for Education; funciones según edición y habilitación. | Servicio educativo en evolución. No equivale a Gemini con cuenta personal. |
 {: .radar-table tabindex="0" aria-labelledby="herramientas-experimentales-y-de-laboratorio" }
 
-Las ampliaciones de pago de NotebookLM, antes agrupadas aquí como «NotebookLM Plus», se consultan con NotebookLM en la sección de documentos: no son un experimento de Google Labs.
+Las ampliaciones de capacidad de Gemini Notebook se consultan en la sección de documentos: no son un experimento de Google Labs.
 
 ## 🏫 Copilot y herramientas institucionales
-{: #copilot-gva-información-actualizada }
+{: id="copilot-gva-información-actualizada" }
 
 **En el curso trabajamos con Copilot Chat cuando esté disponible.** La cuenta `@edu.gva.es` permite identificarte en el entorno corporativo, pero no garantiza por sí sola que todas las funciones de IA estén habilitadas.
 
@@ -166,7 +164,7 @@ Las ampliaciones de pago de NotebookLM, antes agrupadas aquí como «NotebookLM 
 No confundas los dos productos por compartir el nombre Copilot. Si el servicio institucional no está disponible, elige una alternativa de la actividad con materiales ficticios o anonimizados. La [comparación oficial de Microsoft](https://support.microsoft.com/en-us/microsoft-365-copilot/what-s-the-difference-between-microsoft-copilot-free-and-copilot-in-microsoft-365) ayuda a distinguir los tipos de acceso.
 
 ## 🔐 Privacidad y uso responsable
-{: #privacidad-y-uso-responsable }
+{: id="privacidad-y-uso-responsable" }
 
 La cuenta importa tanto como la herramienta. Antes de subir contenido:
 
@@ -179,7 +177,7 @@ La cuenta importa tanto como la herramienta. Antes de subir contenido:
 Para ampliar: [protección de datos y uso seguro]({{ '/bloque1-seguridad.html' | relative_url }}) y [uso responsable y alfabetización en IA]({{ '/bloque4-alfabetizacion-alumnado.html' | relative_url }}). La configuración de cuentas se desarrolla en la guía de identidad digital enlazada al comienzo.
 
 ## 🎓 ¿También eres estudiante?
-{: #estudiantes }
+{: id="estudiantes" }
 
 Algunas plataformas ofrecen planes educativos, descuentos o acceso temporal a funciones premium. Google mantiene una promoción para estudiantes elegibles; comprueba la cuenta requerida, la verificación, la vigencia y las condiciones de renovación antes de solicitarla.
 

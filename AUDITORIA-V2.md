@@ -1,5 +1,7 @@
 # AUDITORÍA COMPLETA · Versión 2 del curso
 
+> **Nota de denominación · septiembre de 2026:** este documento histórico conserva el nombre empleado durante la planificación. La herramienta se denomina actualmente **Gemini Notebook (anteriormente NotebookLM)** y forma parte del ecosistema Gemini. Consulta la [guía docente actualizada]({{ '/bloque2-notebooklm.html' | relative_url }}).
+
 **Curso:** Herramientas de Inteligencia Artificial para Docentes  
 **Código V1:** 26IA92IN017  
 **Rama de trabajo:** `curso-ia-cefire-v2`  

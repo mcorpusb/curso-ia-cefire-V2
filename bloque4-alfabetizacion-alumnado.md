@@ -176,7 +176,7 @@ Nunca introduzcas en una IA datos personales del alumnado: nombres completos, ca
 
 **Herramientas recomendadas para el aula (menor riesgo):**
 - **Copilot con cuenta @edu.gva.es** (si está habilitado en el tenant): ofrece mayor protección de datos que las versiones de consumo.
-- **NotebookLM:** los documentos se procesan en la cuenta de Google del usuario, no se usan para entrenamiento (según política actual de Google para Workspace for Education).
+- **Gemini Notebook (anteriormente NotebookLM):** los documentos se procesan en la cuenta de Google del usuario, no se usan para entrenamiento (según política actual de Google para Workspace for Education).
 - Evita pedir al alumnado que creen cuentas en plataformas de IA sin verificar antes la política de edad mínima (la mayoría requieren 13-18 años).
 
 ---

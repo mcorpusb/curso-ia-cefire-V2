@@ -70,7 +70,7 @@ La IA puede facilitar muchas tareas docentes, pero no siempre es la mejor herram
 |--------|:-----:|-----------|
 | **Módulo/Bloque inicial** | 2 h | Fundamentos de la IA generativa, posibilidades, límites, sesgos, privacidad y marco de uso responsable. |
 | **Bloque 1** · IA Colaborativa y Gestión GVA | 8 h | Trabajo conversacional e iterativo con IA aplicado a necesidades docentes, con especial atención a Copilot Chat, la privacidad y el contexto institucional. |
-| **Bloque 2** · Prompting avanzado y gestión documental | 8 h | Conversación con contexto, trabajo con documentos y fuentes, investigación, contraste, citas y verificación; uso educativo de NotebookLM. |
+| **Bloque 2** · Prompting avanzado y gestión documental | 8 h | Conversación con contexto, trabajo con documentos y fuentes, investigación, contraste, citas y verificación; uso educativo de Gemini Notebook (anteriormente NotebookLM). |
 | **Bloque 3** · Generación Multimodal | 7 h | Creación y adaptación crítica de materiales educativos en distintos formatos: texto, imagen, audio y vídeo. |
 | **Bloque 4** · Evaluación y Personalización | 7 h | Evaluación, retroalimentación, personalización, DUA y alfabetización del alumnado para un uso crítico y responsable de la IA. |
 

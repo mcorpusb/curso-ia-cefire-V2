@@ -169,10 +169,9 @@ Los cómics son una herramienta pedagógica potente: combinan narrativa visual y
 
 | Herramienta | Tipo | Acceso | Ideal para |
 |---|---|---|---|
-| 🔷 Gemini | 🖼️ Multimodal + imágenes | Cuenta Google (⚠️ sin datos del alumnado) | Ilustraciones complejas, escenas ricas y generación visual avanzada *(funciones recientes; verificar disponibilidad)* |
+| 🔷 Gemini + Gemini Notebook | Imágenes y trabajo con fuentes | Cuenta Google; sin datos sensibles | Gemini para ilustración multimodal; Gemini Notebook para guiones fundamentados en documentos |
 | 💬 ChatGPT | 🎨 Imágenes + guion | Cuenta OpenAI externa (⚠️ sin datos personales) | Cómics, viñetas, ilustraciones educativas y mejora de prompts |
 | 🟦 Copilot | 🎨 Imágenes (DALL·E) | ✅ `@edu.gva.es` (🔒 entorno GVA) | Ilustraciones, portadas, infografías con mayor seguridad |
-| 📚 NotebookLM | 🧠 Análisis + guion | Cuenta Google (⚠️ solo contenido no sensible) | Guiones de cómic y transformación de apuntes en narrativa visual |
 | 🧍 Pixton | 🗨️ Cómics con avatares | Freemium / cuenta externa | Cómics con personajes, diálogos y escenas guiadas |
 | 🎨 Canva + IA | 🖌️ Diseño + IA | Freemium / Educación (cuenta externa) | Cómics, pósteres, infografías y maquetación final |
 | 🧩 Kimi | ✍️ Texto + apoyo visual | Cuenta externa | Descripción de viñetas y estructuración de escenas |
@@ -254,14 +253,16 @@ Para facilitar la navegación, las actividades de cómic educativo se han separa
 - [Escuela Oficial de Idiomas](bloque3-actividad-eoi.md)
 
 ---
-## 3.2b · Cómic con NotebookLM
-NotebookLM también puede utilizarse como herramienta de apoyo para generar guiones de cómic a partir de fuentes propias (apuntes, documentos, normativa, etc.), lo que permite crear materiales totalmente contextualizados.
+## 3.2b · Cómic con Gemini Notebook
+{: id="32b--cómic-con-notebooklm" }
+**Gemini Notebook (anteriormente NotebookLM)** es la experiencia especializada en fuentes del ecosistema Gemini. Sus cuadernos pueden sincronizarse con Gemini, manteniendo funciones propias. También puede utilizarse como herramienta de apoyo para generar guiones de cómic a partir de fuentes propias (apuntes, documentos, normativa, etc.), lo que permite crear materiales totalmente contextualizados.
 
 Flujo de trabajo
-- Sube a NotebookLM las fuentes que quieres utilizar para crear el cómic (apuntes, documentos, textos, etc.).
+- Sube a Gemini Notebook las fuentes que quieres utilizar para crear el cómic (apuntes, documentos, textos, etc.).
 - Genera un prompt maestro como nota dentro del entorno. 
 
-### 🏆 Prompt maestro: Guion de cómic con NotebookLM
+### 🏆 Prompt maestro: Guion de cómic con Gemini Notebook
+{: id="-prompt-maestro-guion-de-cómic-con-notebooklm" }
 
 ```text
 Eres un Guionista y Director Visual especializado en cómic profesional. Tu trabajo es convertir una idea en un guion listo para ilustrarse con IA o por un dibujante real. Antes de escribir, pregunta de forma breve y una a una por: concepto central, público, extensión aproximada, estilo artístico, tono e idioma, y descripción física detallada de cada personaje (rasgos, vestimenta, edad, accesorios). No empieces el guion hasta tener todo definido. Cuando lo desarrolles, estructura por páginas y viñetas, especifica tipo de plano y ángulo (primer plano, contrapicado, panorámica…), iluminación y atmósfera, y redacta descripciones visuales completas repitiendo siempre los rasgos físicos del personaje para mantener coherencia visual. Entrega el resultado en Markdown, con portada opcional y cada viñeta claramente separada.
@@ -324,7 +325,8 @@ palabras totales en la infografía (es visual, no textual).
 
 
 ### Podemos generar infografías con Chat GPT con dos líneas
-### o con NotebookLM presionando un botón sobre nuestro material
+### o con Gemini Notebook presionando un botón sobre nuestro material
+{: id="o-con-notebooklm-presionando-un-botón-sobre-nuestro-material" }
 
 
  Chat GPT: Crea una infografía muy detallada sobre una ballena
@@ -463,7 +465,7 @@ La generación de audio con IA tiene un enorme potencial educativo: desde hacer 
 | Herramienta | Calidad de voz | Español | Valenciano | Gratuito | Mejor para |
 |:------------|:--------------:|:-------:|:----------:|:--------:|:-----------|
 | **ElevenLabs** | ⭐⭐⭐⭐⭐ (muy realista) | ✅ | Limitado | Freemium (10 min/mes) | Narraciones, audiolibros, personajes |
-| **NotebookLM Audio Overviews** | ⭐⭐⭐⭐ (formato podcast) | ✅ | ❌ | ✅ Gratuito | Resúmenes de documentos, divulgación |
+| **Gemini Notebook Audio Overviews** | ⭐⭐⭐⭐ (formato podcast) | ✅ | ❌ | ✅ Gratuito | Resúmenes de documentos, divulgación |
 | **Microsoft Edge (Leer en voz alta)** | ⭐⭐⭐ | ✅ | ✅ | ✅ Gratuito | Lectura accesible de textos en el navegador |
 | **Natural Reader** | ⭐⭐⭐⭐ | ✅ | Limitado | Freemium | Convertir PDF y documentos a audio |
 | **Copilot (lectura de respuestas)** | ⭐⭐⭐ | ✅ | Parcial | ✅ Con licencia GVA | Escuchar respuestas generadas directamente |
@@ -508,7 +510,8 @@ términos históricos esenciales (que debes definir brevemente).
 
 > **Otro ejemplo:** Crea un audio por cada tema del trimestre. Súbelos a Aules como "Apuntes sonoros" dentro de la sección de recursos. El alumnado con dificultades lectoras podrá escucharlos como alternativa al texto escrito — esto es **DUA en acción** (principio de múltiples medios de representación).
 
-### Ejemplo de prompt: Podcast educativo con NotebookLM
+### Ejemplo de prompt: Podcast educativo con Gemini Notebook
+{: id="ejemplo-de-prompt-podcast-educativo-con-notebooklm" }
 
 Si ya tienes un notebook configurado (Bloque 2), puedes generar un Audio Overview:
 
@@ -805,7 +808,7 @@ El entregable debe incluir:
 |:-------------------|:---------------------------|:------------------------------------------|:-------------------|
 | **Presentaciones** | Copilot en PowerPoint | Gamma, Gemini en Slides | Gamma gana en diseño; Copilot gana en integración |
 | **Imágenes/Cómics** | Copilot Image Creator | Gemini (Imagen 3), Canva IA | Copilot es más seguro; Gemini más versátil |
-| **Audio/Narración** | Edge "Leer en voz alta" | ElevenLabs, NotebookLM | ElevenLabs mejor calidad; Edge más accesible |
+| **Audio/Narración** | Edge "Leer en voz alta" | ElevenLabs, Gemini Notebook | ElevenLabs mejor calidad; Edge más accesible |
 | **Vídeo** | Clipchamp | Synthesia, HeyGen, CapCut | Clipchamp más seguro; Synthesia más impactante |
 | **Cómic (guion)** | Copilot (texto) | Kimi, Grok (texto) | Similar calidad; Copilot mejor en español |
 | **Apps interactivas** | Copilot para diseñar el prompt y revisar contenido | Gemini Canvas, Canva Code | Canvas y Canva permiten prototipos rápidos; Copilot ayuda a controlar calidad pedagógica y seguridad |
@@ -830,7 +833,7 @@ El verdadero valor de estas herramientas aparece cuando las combinas dentro de u
 | Cómic "Un día en la Albufera" | Copilot Image Creator + Canva | Sesión 2: comprensión lectora + ciencias | Representación (narrativa visual) |
 | Audio "Los ecosistemas explicados" | ElevenLabs | Sesiones 1-4: material alternativo al texto para alumnado NEAE | Representación (auditiva) |
 | Vídeo resumen con subtítulos | Clipchamp | Sesión 5: repaso antes de la evaluación | Representación (multimedia) |
-| Podcast de ampliación | NotebookLM Audio Overview | Extensión: para alumnado con interés especial | Compromiso (opcionalidad) |
+| Podcast de ampliación | Gemini Notebook Audio Overview | Extensión: para alumnado con interés especial | Compromiso (opcionalidad) |
 | App interactiva de repaso | Gemini Canvas o Canva Code | Sesión 5: juego de repaso o clasificación antes de la evaluación | Acción y expresión / Compromiso |
 
 > **💡 Ejemplo Primaria:** No necesitas generar todos los recursos para una misma SA. Elige **2-3 formatos** que aporten diversidad a tu secuencia de actividades. El DUA no exige "todo", sino **opciones**.
@@ -1042,7 +1045,7 @@ Al finalizar la actividad, cada docente tendrá un recurso multimodal revisado, 
 
 - [Gamma — Crear presentaciones con IA](https://gamma.app)
 - [ElevenLabs — Text to Speech](https://elevenlabs.io)
-- [NotebookLM — Audio Overviews](https://notebooklm.google.com)
+- [Gemini Notebook — Audio Overviews](https://notebooklm.google.com)
 - [Microsoft Clipchamp](https://clipchamp.com) *(accede con tu cuenta `@edu.gva.es`)*
 - [Canva para Educación](https://www.canva.com/education/) *(plan gratuito para docentes)*
 - [Synthesia — Vídeos con avatares IA](https://www.synthesia.io)
@@ -1058,7 +1061,7 @@ Antes de pasar al Bloque 4, asegúrate de poder responder **sí** a todas estas 
 
 - [ ] Sé crear una presentación educativa completa con Gamma y exportarla a `.pptx`.
 - [ ] Puedo generar ilustraciones, guiones de cómic e infografías con herramientas de IA.
-- [ ] He creado al menos un audio educativo con ElevenLabs o NotebookLM Audio Overview.
+- [ ] He creado al menos un audio educativo con ElevenLabs o Gemini Notebook Audio Overview.
 - [ ] Conozco Clipchamp como herramienta de vídeo del entorno GVA y sé añadir subtítulos automáticos.
 - [ ] He practicado la personalización de materiales en 3 niveles (refuerzo, estándar, ampliación) aplicando el DUA.
 - [ ] Sé transformar un texto de apuntes en un recurso visual (infografía) de forma rápida.

@@ -74,7 +74,7 @@ Restricciones:
 - Cada celda: máximo 25 palabras.
 ```
 
-> **💡 Ejemplo Primaria:** Después de generar la rúbrica, **verifica los criterios de evaluación en NotebookLM** (Bloque 2) para asegurarte de que coinciden con los del decreto. Copilot puede inventar criterios que suenen convincentes pero no existan.
+> **💡 Ejemplo Primaria:** Después de generar la rúbrica, **verifica los criterios de evaluación en Gemini Notebook** (Bloque 2) para asegurarte de que coinciden con los del decreto. Copilot puede inventar criterios que suenen convincentes pero no existan.
 
 ### Ejemplo de prompt: Rúbrica holística rápida
 
@@ -395,7 +395,7 @@ creación — taxonomía de Bloom).
 | Generar un borrador de rúbrica con Copilot | Usar la rúbrica sin revisarla y firmarla como propia |
 | Crear material de refuerzo adaptado con datos ficticios en Gemini | Pegar nombres reales de alumnos NEAE en cualquier IA externa |
 | Pedir a Copilot que redacte un correo a familias | Dejar que la IA decida la calificación de un alumno/a |
-| Subir el currículo oficial (público) a NotebookLM | Subir el expediente académico de un alumno/a a NotebookLM |
+| Subir el currículo oficial (público) a Gemini Notebook | Subir el expediente académico de un alumno/a a Gemini Notebook |
 | Generar imágenes educativas con Copilot Image Creator | Generar imágenes que representen a alumnado real o identificable |
 | Usar IA para preparar una adaptación curricular | Incluir el informe del SPE como prompt en una IA externa |
 | Crear un podcast con voces IA y avisar de que es sintético | Usar voces IA para suplantar a personas reales sin consentimiento |
@@ -488,24 +488,23 @@ Fomenta el uso responsable, no la prohibición total.
 
 ---
 
-## 4.6 · Comparativa final: las 5 herramientas para evaluación y personalización
+## 4.6 · Comparativa final: herramientas y ecosistemas para evaluación
+{: id="46--comparativa-final-las-5-herramientas-para-evaluación-y-personalización" }
 
-| Tarea de evaluación/personalización | Copilot (GVA) | Gemini | NotebookLM | Kimi | Grok |
-|:------------------------------------|:-------------:|:------:|:----------:|:----:|:----:|
-| **Generar rúbricas** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ (si tiene fuentes) | ⭐⭐⭐ | ⭐⭐⭐ |
-| **Verificar criterios con el currículo** | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐ |
-| **Adaptaciones curriculares** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
-| **Auditoría de sesgos** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| **Listas de cotejo** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| **Material de refuerzo/ampliación** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
-| **Política de centro sobre IA** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| **Protección datos (entorno GVA)** | ✅ | ❌ | ❌ | ❌ | ❌ |
+**Gemini Notebook (anteriormente NotebookLM)** conserva su experiencia especializada en fuentes dentro del ecosistema Gemini. Los cuadernos pueden sincronizarse con Gemini; elige la experiencia según la tarea y verifica sus resultados.
+
+| Herramienta / ecosistema | Uso en evaluación y personalización | Precaución |
+|---|---|---|
+| Copilot Chat institucional | Borradores de rúbricas, listas de cotejo, adaptaciones y documentos de centro. | Uso de datos según autorización institucional. |
+| Gemini + Gemini Notebook | Gemini: creación, adaptaciones y análisis crítico; Gemini Notebook: contrastar criterios y preparar refuerzo a partir de fuentes. | Selecciona fuentes pertinentes, revisa citas y no presupongas autorización para datos del alumnado. |
+| Kimi | Síntesis de documentos y propuestas de materiales de refuerzo. | Contrasta las propuestas con el currículo. |
+| Grok | Explorar ideas y revisar borradores, según disponibilidad. | Verifica fuentes y evita datos personales. |
 
 ### Flujo de trabajo recomendado para evaluación
 
 ```
 1. Diseña la rúbrica o instrumento → COPILOT (rapidez + entorno seguro)
-2. Verifica los criterios curriculares → NOTEBOOKLM (precisión + fuentes)
+2. Verifica los criterios curriculares → Gemini Notebook (precisión + fuentes)
 3. Genera adaptaciones NEAE → COPILOT o GEMINI (con datos ficticios)
 4. Audita sesgos del material → GEMINI (mejor análisis crítico)
 5. Implementa y evalúa → TÚ (la decisión final siempre es humana)
@@ -519,7 +518,7 @@ Fomenta el uso responsable, no la prohibición total.
 
 1. Elige un **criterio de evaluación real** de tu área y curso (cópialo del decreto).
 2. Usa el ejemplo de la sección 4.1 para generar una **rúbrica analítica con 4 niveles**.
-3. Verifica los criterios en **NotebookLM** (con el decreto cargado del Bloque 2).
+3. Verifica los criterios en **Gemini Notebook** (con el decreto cargado del Bloque 2).
 4. Corrige y ajusta la rúbrica.
 5. **Entregable:** rúbrica final en formato tabla + informe breve de las correcciones realizadas tras la verificación.
 

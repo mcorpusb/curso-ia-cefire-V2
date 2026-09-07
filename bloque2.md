@@ -19,14 +19,14 @@ Aprende a trabajar con documentos, normativa y currículo real como base de las 
 Al finalizar este bloque serás capaz de:
 
 - **Aplicar el flujo de trabajo V2**: partir de un objetivo claro, aportar contexto y fuentes, obtener una primera respuesta, evaluarla, refinarla, verificarla y llevarla al aula.
-- Utilizar **NotebookLM** para cargar documentos curriculares oficiales y generar respuestas fundamentadas en el currículo real, con referencia exacta al documento fuente.
+- Utilizar **Gemini Notebook** para cargar documentos curriculares oficiales y generar respuestas fundamentadas en el currículo real, con referencia exacta al documento fuente.
 - Aplicar **Deep Research** de forma crítica: comprender el proceso Busca → Selecciona → Sintetiza → Cita, y evaluar la calidad, autoridad y actualidad de las fuentes seleccionadas.
 - **Contrastar y verificar** que las afirmaciones de la IA se corresponden con los documentos originales antes de usar el material en el aula.
 - Transformar **fuentes documentales** (decretos, PDFs, normativa) en materiales educativos accesibles para el alumnado.
 - Formular instrucciones eficaces para obtener respuestas útiles cuando se trabaja con contexto y fuentes específicas.
-- Comparar la fiabilidad curricular entre **Copilot Chat**, **Gemini**, **NotebookLM** y **Kimi**.
+- Comparar la fiabilidad curricular entre **Copilot Chat**, **Gemini + Gemini Notebook** y **Kimi**.
 
-> **⚠️ Seguridad GVA:** En este bloque trabajaremos con documentos curriculares **públicos** (DOGV, BOE). Aun así, recuerda: si subes documentos internos del centro (PEC, PGA, actas) a NotebookLM u otras herramientas externas, **anonimiza previamente** cualquier dato personal.
+> **⚠️ Seguridad GVA:** En este bloque trabajaremos con documentos curriculares **públicos** (DOGV, BOE). Aun así, recuerda: si subes documentos internos del centro (PEC, PGA, actas) a Gemini Notebook u otras herramientas externas, **anonimiza previamente** cualquier dato personal.
 
 ---
 
@@ -653,7 +653,7 @@ No te quedes con una.
 | Diseñar algo complejo | Razonamiento guiado | Situación de aprendizaje |
 | Mejorar respuesta | Refinamiento iterativo | Añadir evaluación |
 | Adaptar a diversidad | Refinamiento iterativo | Adaptaciones |
-| Verificar currículo | NotebookLM | Revisión normativa |
+| Verificar currículo | Gemini Notebook | Revisión normativa |
 
 ---
 
@@ -738,25 +738,32 @@ No existe un prompt único válido para todo.
 - y tu objetivo didáctico.
 
 
-## 2.3 · NotebookLM: "entrena" a la IA con el currículo oficial
+## 2.3 · Gemini Notebook: trabaja con el currículo oficial como fuente
+{: id="23--notebooklm-entrena-a-la-ia-con-el-currículo-oficial" }
 
-### ¿Qué es NotebookLM?
+### ¿Qué es Gemini Notebook?
+{: id="qué-es-notebooklm" }
 
-**NotebookLM** (de Google) es una herramienta de IA que permite **cargar documentos propios** como fuente de conocimiento. A diferencia de Copilot o Gemini genéricos, NotebookLM **solo responde basándose en los documentos que tú le proporcionas**, lo que reduce drásticamente las alucinaciones.
+**Gemini Notebook (anteriormente NotebookLM)** es la experiencia del ecosistema Gemini especializada en fuentes, documentos y cuadernos de conocimiento. **Gemini** es el asistente general de Google para conversar, crear, investigar y trabajar con distintos formatos; **Gemini Notebook** mantiene una experiencia propia para consultar fuentes con citas y producir materiales a partir de ellas.
+
+Los cuadernos pueden utilizarse y sincronizarse con Gemini. Esto permite continuar un trabajo en ambas experiencias, sin que sus funciones sean idénticas: comprueba qué fuentes y herramientas usa cada respuesta. **Cargar fuentes no entrena el modelo** ni garantiza que todas sus interpretaciones sean correctas.
+
+Consulta la [guía de Gemini Notebook para docentes]({{ '/bloque2-notebooklm.html' | relative_url }}) para conocer la integración y el flujo de trabajo.
 
 ### ¿Por qué es clave para docentes?
 
-| Problema habitual con IA genérica | Solución con NotebookLM |
+| Problema habitual con IA genérica | Solución con Gemini Notebook |
 |:----------------------------------|:-----------------------|
-| La IA inventa criterios de evaluación que no existen en el currículo. | NotebookLM cita textualmente del PDF del currículo que tú has subido. |
-| La IA confunde normativas de diferentes CCAA. | Solo dispone de los documentos que tú seleccionas (ej: currículo de la CV). |
-| No puedes verificar fácilmente la fuente. | Cada respuesta incluye **referencias clicables** al párrafo exacto del documento fuente. |
+| La IA inventa criterios de evaluación que no existen en el currículo. | Permite localizar pasajes y citas del currículo aportado; verifica su interpretación. |
+| La IA confunde normativas de diferentes CCAA. | Puedes centrar la consulta en el currículo de tu comunidad y contrastar las citas. |
+| No puedes verificar fácilmente la fuente. | Solicita **citas verificables** y abre el pasaje original antes de aceptar la respuesta. |
 
-### Paso a paso: configurar NotebookLM con el currículo de la CV
+### Paso a paso: configurar Gemini Notebook con el currículo de la CV
+{: id="paso-a-paso-configurar-notebooklm-con-el-currículo-de-la-cv" }
 
-- Accede a [notebooklm.google.com](https://notebooklm.google.com) con una cuenta de Google.
+- Accede a [Gemini Notebook — acceso oficial](https://notebooklm.google.com) con una cuenta de Google.
 - Crea un **nuevo notebook** y ponle un nombre descriptivo: *"Currículo LOMLOE – Primaria CV"*.
-- Sube las **fuentes**. Puedes añadir hasta 50 documentos. Fuentes recomendadas:
+- Sube las **fuentes**. El límite de fuentes depende del plan. Fuentes recomendadas:
 
 | Documento | Dónde encontrarlo |
 |:----------|:-------------------|
@@ -770,14 +777,15 @@ No existe un prompt único válido para todo.
 | Instrucciones de inicio de curso para FP | [Instrucciones de inicio de curso para FP](https://ceice.gva.es/va/web/formacion-profesional/normativa-sobre-ordenacion-y-organizacion-academica-de-los-ciclos-formativos) |
 
 
-- Espera a que NotebookLM **procese** los documentos (puede tardar 1-2 minutos).
-- Ahora ya puedes hacer preguntas y la IA responderá **exclusivamente** a partir de tus fuentes.
+- Espera a que Gemini Notebook **procese** los documentos; el tiempo depende de las fuentes.
+- Ahora ya puedes hacer preguntas y podrás pedir respuestas **fundamentadas en las fuentes seleccionadas**, comprobando sus citas.
 
-> **⚠️ Seguridad GVA:** NotebookLM es un producto de Google y **no forma parte del entorno corporativo de la GVA**. Úsalo **solo con documentos públicos** (legislación, currículos publicados en el DOGV). **Nunca subas documentos internos del centro con datos del alumnado.**
+> **⚠️ Seguridad GVA:** Gemini Notebook es un producto de Google y **no forma parte del entorno corporativo de la GVA**. Úsalo **solo con documentos públicos** (legislación, currículos publicados en el DOGV). **Nunca subas documentos internos del centro con datos del alumnado.**
 
-### Ejemplo de consulta curricular en NotebookLM
+### Ejemplo de consulta curricular en Gemini Notebook
+{: id="ejemplo-de-consulta-curricular-en-notebooklm" }
 
-Una vez cargados los documentos, prueba esta consulta en el chat de NotebookLM:
+Una vez cargados los documentos, prueba esta consulta en el chat de Gemini Notebook:
 
 ```text
 A partir del Decreto 106/2022 del currículo de Educación Primaria de la 
@@ -795,7 +803,7 @@ del decreto.
 
 ### Funcionalidad estrella: los "Audio Overviews"
 
-NotebookLM puede generar un **resumen en formato podcast** de tus documentos con dos voces sintéticas que dialogan sobre el contenido. Esto es útil para:
+Gemini Notebook puede generar un **resumen en formato podcast** de tus documentos con dos voces sintéticas que dialogan sobre el contenido. Esto es útil para:
 
 - **Repasar legislación** mientras conduces al centro.
 - **Crear material auditivo** para tu alumnado (pídelo en lenguaje adaptado a su nivel).
@@ -812,32 +820,33 @@ accesible.
 
 ---
 
-## 2.4 · Copilot vs. NotebookLM: ¿cuál uso para qué?
+## 2.4 · Copilot vs. Gemini Notebook: ¿cuál uso para qué?
+{: id="24--copilot-vs-notebooklm-cuál-uso-para-qué" }
 
-| Escenario | Copilot (GVA) | NotebookLM | Recomendación |
+| Escenario | Copilot (GVA) | Gemini Notebook | Recomendación |
 |:----------|:-------------:|:----------:|:--------------|
-| Redactar una programación didáctica basada en el currículo | ⭐⭐⭐ (puede alucinar datos) | ⭐⭐⭐⭐⭐ (cita del documento) | **NotebookLM** con el decreto subido |
+| Redactar una programación didáctica basada en el currículo | ⭐⭐⭐ (puede alucinar datos) | ⭐⭐⭐⭐⭐ (cita del documento) | **Gemini Notebook** con el decreto subido |
 | Escribir un correo formal a las familias | ⭐⭐⭐⭐⭐ | ⭐⭐ (no es su propósito) | **Copilot** |
-| Verificar si un criterio de evaluación existe en el currículo | ⭐⭐ (riesgo de invención) | ⭐⭐⭐⭐⭐ (referencia exacta) | **NotebookLM** |
+| Verificar si un criterio de evaluación existe en el currículo | ⭐⭐ (riesgo de invención) | ⭐⭐⭐⭐⭐ (referencia exacta) | **Gemini Notebook** |
 | Generar una actividad creativa a partir de una idea | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | **Copilot** (o Gemini) |
-| Resumir un documento extenso (PEC, memoria anual) | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ (con fuentes) | **NotebookLM** (con documentos anonimizados) |
-| Crear un podcast/resumen de audio de normativa | ❌ | ⭐⭐⭐⭐⭐ (Audio Overview) | **NotebookLM** |
+| Resumir un documento extenso (PEC, memoria anual) | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ (con fuentes) | **Gemini Notebook** (con documentos anonimizados) |
+| Crear un podcast/resumen de audio de normativa | ❌ | ⭐⭐⭐⭐⭐ (Audio Overview) | **Gemini Notebook** |
 
 ---
 
-## 2.5 · Comparativa ampliada: respuestas curriculares en cinco herramientas
+## 2.5 · Comparativa ampliada: asistentes y trabajo con fuentes
+{: id="25--comparativa-ampliada-respuestas-curriculares-en-cinco-herramientas" }
 
-Para evaluar la fiabilidad curricular de cada herramienta, hemos probado el mismo prompt ("Lista las competencias específicas de Matemáticas de 4.º de Primaria según la LOMLOE en la Comunitat Valenciana"):
+Compara ecosistemas con una misma pregunta curricular y verifica cada respuesta en el decreto. No confundas una redacción convincente con precisión normativa.
 
-| Criterio | Copilot | Gemini | NotebookLM | Kimi | Grok |
-|:---------|:-------:|:------:|:----------:|:----:|:----:|
-| **Precisión curricular** | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
-| **Cita de fuentes** | No | Parcial | ✅ Exacta | No | No |
-| **Diferencia CCAA correctamente** | A veces | Generalmente | ✅ (depende de lo cargado) | Rara vez | Rara vez |
-| **Alucinaciones detectadas** | Medio | Bajo | Muy bajo | Medio-alto | Alto |
-| **Idioma valenciano** | Aceptable | Bueno | Depende de fuentes | Limitado | Limitado |
+| Herramienta / ecosistema | Qué comparar | Cómo verificar |
+|---|---|---|
+| Copilot Chat | Borradores y consultas, con los archivos disponibles. | Contrasta las referencias con el documento original. |
+| Gemini + Gemini Notebook | Gemini: conversación e investigación; Gemini Notebook: consulta del cuaderno con fuentes seleccionadas. | Compara ambas experiencias del mismo ecosistema y abre las citas. |
+| Kimi | Análisis de documentos y síntesis. | Comprueba que cada criterio aparece en el currículo. |
+| Grok | Respuestas generales y búsqueda, según disponibilidad. | Localiza la fuente oficial y registra errores u omisiones. |
 
-> **🚀 Reto:** Haz la prueba tú mismo/a. Lanza el mismo prompt curricular en las tres herramientas a las que tengas acceso y comprueba cuál es más precisa para tu área. Documenta los errores que encuentres.
+> **Reto:** prueba las opciones a las que tengas acceso. Anota cuenta, fecha, fuentes aportadas y errores detectados; no presupongas una clasificación fija de fiabilidad.
 
 ---
 ## 2.6 · Construye tu biblioteca de prompts reutilizables
@@ -857,7 +866,7 @@ Es como tener tus **“frases mágicas”** guardadas.
 
 ### ¿Qué es un baúl de prompts?
 
-Un baúl de prompts es una colección personal de instrucciones útiles para usar con herramientas de IA como **Copilot**, ChatGPT, Gemini o NotebookLM.
+Un baúl de prompts es una colección personal de instrucciones útiles para usar con herramientas de IA como **Copilot**, ChatGPT o el ecosistema Gemini + Gemini Notebook.
 
 Sirve para:
 
@@ -932,7 +941,7 @@ Cada apartado tiene una función:
 - **Para qué sirve:** qué problema resuelve o en qué te ayuda.
 - **Prompt:** la instrucción que copiarás y pegarás en la IA.
 - **Cuándo usarlo:** en qué situación docente te puede servir.
-- **Herramienta recomendada:** Copilot Chat, NotebookLM, ChatGPT, Gemini u otra.
+- **Herramienta recomendada:** Copilot Chat, Gemini Notebook, ChatGPT, Gemini u otra.
 - **Estado:** Borrador (por mejorar), Probado (funciona) o Verificado (revisado con fuentes originales).
 - **Notas o mejoras:** ajustes que harías la próxima vez.
 
@@ -965,7 +974,7 @@ Para qué sirve: Extraer las ideas principales de un texto.
 Prompt:
 Resume el siguiente texto en 5 ideas clave. Después, propón 3 preguntas para comprobar si el alumnado lo ha entendido: {texto}
 Cuándo usarlo: Para preparar lecturas, apuntes o materiales de estudio.
-Herramienta recomendada: Copilot Chat, ChatGPT o NotebookLM.
+Herramienta recomendada: Copilot Chat, ChatGPT o Gemini Notebook.
 Estado: [Borrador / Probado / Verificado]
 Notas o mejoras: Indicar el nivel del alumnado.
 ```
@@ -1133,7 +1142,7 @@ Te proponemos esta estructura para organizar tu biblioteca:
 📌 NOMBRE: [Nombre descriptivo]
 📂 CATEGORÍA: [Programación | Evaluación | Comunicación | Gestión | Actividades]
 🎯 ETAPA: [Infantil | Primaria | ESO | Bachillerato | FP]
-🔧 HERRAMIENTA RECOMENDADA: [Copilot | NotebookLM | Gemini | Cualquiera]
+🔧 HERRAMIENTA RECOMENDADA: [Copilot | Gemini Notebook | Gemini | Cualquiera]
 ═══════════════════════════════════════════════
 
 ROL:
@@ -1164,7 +1173,7 @@ RESTRICCIONES:
 📌 NOMBRE: Generador de Situaciones de Aprendizaje LOMLOE
 📂 CATEGORÍA: Programación
 🎯 ETAPA: Primaria
-🔧 HERRAMIENTA RECOMENDADA: Copilot + NotebookLM (verificación)
+🔧 HERRAMIENTA RECOMENDADA: Copilot + Gemini Notebook (verificación)
 ═══════════════════════════════════════════════
 
 ROL:
@@ -1197,7 +1206,7 @@ RESTRICCIONES:
 - Máximo 6 sesiones de 45 minutos.
 
 ═══════════════════════════════════════════════
-📝 NOTAS: Funciona mejor si después verifico los criterios en NotebookLM.
+📝 NOTAS: Funciona mejor si después verifico los criterios en Gemini Notebook.
 📅 ÚLTIMA REVISIÓN: abril 2026
 ═══════════════════════════════════════════════
 ```
@@ -1206,11 +1215,12 @@ RESTRICCIONES:
 
 ---
 
-### Actividad 2.2 — NotebookLM como verificador curricular *(individual)*
+### Actividad 2.2 — Gemini Notebook como verificador curricular *(individual)*
+{: id="actividad-22--notebooklm-como-verificador-curricular-individual" }
 
-1. Crea un notebook en NotebookLM y sube el decreto curricular de tu etapa (Decreto 106, 107 o 108/2022).
+1. Crea un notebook en Gemini Notebook y sube el decreto curricular de tu etapa (Decreto 106, 107 o 108/2022).
 2. Copia la Situación de Aprendizaje generada en la Actividad 2.1.
-3. Pega en NotebookLM el siguiente prompt:
+3. Pega en Gemini Notebook el siguiente prompt:
 
 ```text
 Revisa la siguiente Situación de Aprendizaje y verifica:
@@ -1222,8 +1232,8 @@ Indica con [✅ CORRECTO] o [❌ ERROR + corrección] cada elemento.
 [PEGAR AQUÍ LA SA GENERADA]
 ```
 
-4. Corrige la SA con la información de NotebookLM.
-5. **Entregable:** documento con tres partes: versión inicial de la situación de aprendizaje, comprobaciones y correcciones señaladas por NotebookLM, y versión final revisada.
+4. Corrige la SA con la información de Gemini Notebook.
+5. **Entregable:** documento con tres partes: versión inicial de la situación de aprendizaje, comprobaciones y correcciones señaladas por Gemini Notebook, y versión final revisada.
 
 
 * * *
@@ -1231,13 +1241,14 @@ Indica con [✅ CORRECTO] o [❌ ERROR + corrección] cada elemento.
 
 ## Antes de la actividad final: del análisis documental al diseño didáctico
 
-Hasta este punto del bloque hemos trabajado cómo formular buenos prompts, cómo refinar respuestas, cómo verificar información curricular y cómo utilizar herramientas como NotebookLM para consultar y sintetizar fuentes. El siguiente paso consiste en dar un uso más pedagógico y aplicado a ese trabajo: pasar del análisis documental al diseño de una propuesta real de aula.
+Hasta este punto del bloque hemos trabajado cómo formular buenos prompts, cómo refinar respuestas, cómo verificar información curricular y cómo utilizar herramientas como Gemini Notebook para consultar y sintetizar fuentes. El siguiente paso consiste en dar un uso más pedagógico y aplicado a ese trabajo: pasar del análisis documental al diseño de una propuesta real de aula.
 
 La actividad final de este bloque no consiste solo en “usar una herramienta de IA”, sino en emplearla con criterio docente para construir una **situación de aprendizaje** fundamentada, coherente y aplicable.
 
-### Qué es un cuaderno docente en NotebookLM
+### Qué es un cuaderno docente en Gemini Notebook
+{: id="qué-es-un-cuaderno-docente-en-notebooklm" }
 
-Un cuaderno docente en NotebookLM no es simplemente un espacio donde acumular documentos. Debe funcionar como una **base de trabajo estructurada**, creada con una intención pedagógica clara.
+Un cuaderno docente en Gemini Notebook no es simplemente un espacio donde acumular documentos. Debe funcionar como una **base de trabajo estructurada**, creada con una intención pedagógica clara.
 
 Su valor no está en la cantidad de archivos que contiene, sino en su capacidad para ayudar al profesorado a:
 
@@ -1250,7 +1261,7 @@ Por eso, antes de crear un cuaderno, conviene definir con claridad **para qué s
 
 ### Cómo seleccionar buenas fuentes
 
-NotebookLM trabaja únicamente con las fuentes que se incorporan al cuaderno. Esto significa que la calidad del resultado dependerá directamente de la calidad de esas fuentes.
+El chat de Gemini Notebook se fundamenta en las fuentes seleccionadas del cuaderno. Si descubres nuevas fuentes o continúas en Gemini con búsqueda web, revisa qué información se ha incorporado. La calidad del resultado depende de las fuentes y de la verificación docente.
 
 Para esta actividad conviene priorizar materiales:
 
@@ -1272,9 +1283,10 @@ También conviene recordar que algunas páginas web pueden no cargarse bien y qu
 
 ### Ejemplo de selección básica de fuentes
 
-Un cuaderno inicial en NotebookLM puede construirse con una combinación mínima de documentos clave. Por ejemplo, puedes incluir el decreto curricular de tu etapa educativa, una guía breve sobre evaluación competencial, un recurso sobre DUA o atención a la diversidad y algún material metodológico relacionado con el tipo de situación de aprendizaje que quieras diseñar. Esta selección te permitirá disponer de una base sólida y variada para fundamentar tus propuestas didácticas y adaptar la actividad a las necesidades reales del aula.
+Un cuaderno inicial en Gemini Notebook puede construirse con una combinación mínima de documentos clave. Por ejemplo, puedes incluir el decreto curricular de tu etapa educativa, una guía breve sobre evaluación competencial, un recurso sobre DUA o atención a la diversidad y algún material metodológico relacionado con el tipo de situación de aprendizaje que quieras diseñar. Esta selección te permitirá disponer de una base sólida y variada para fundamentar tus propuestas didácticas y adaptar la actividad a las necesidades reales del aula.
 
-### Utilizar NotebookLM para analizar, no para copiar
+### Utilizar Gemini Notebook para analizar, no para copiar
+{: id="utilizar-notebooklm-para-analizar-no-para-copiar" }
 
 El objetivo de esta herramienta no es copiar respuestas ni delegar en la IA las decisiones docentes. Su función en este bloque es ayudar a:
 
@@ -1287,9 +1299,10 @@ El objetivo de esta herramienta no es copiar respuestas ni delegar en la IA las 
 
 Por eso, cualquier respuesta obtenida debe revisarse críticamente. La IA puede ayudar a organizar, sintetizar y sugerir, pero el juicio pedagógico sigue correspondiendo al profesorado.
 
-### Ejemplos de consultas útiles en NotebookLM
+### Ejemplos de consultas útiles en Gemini Notebook
+{: id="ejemplos-de-consultas-útiles-en-notebooklm" }
 
-Algunas preguntas prácticas que puedes plantear en NotebookLM para diseñar tu situación de aprendizaje:
+Algunas preguntas prácticas que puedes plantear en Gemini Notebook para diseñar tu situación de aprendizaje:
 
 - Resume las ideas clave de estas fuentes para diseñar una situación de aprendizaje.
 - Relaciona estas orientaciones metodológicas con el currículo de tu nivel.
@@ -1300,7 +1313,7 @@ Algunas preguntas prácticas que puedes plantear en NotebookLM para diseñar tu 
 
 ### Del cuaderno a la situación de aprendizaje
 
-El cuaderno es el punto de partida, no el producto final. A partir de las fuentes seleccionadas y del análisis realizado con NotebookLM, el profesorado debe transformar esa información en una propuesta didáctica coherente.
+El cuaderno es el punto de partida, no el producto final. A partir de las fuentes seleccionadas y del análisis realizado con Gemini Notebook, el profesorado debe transformar esa información en una propuesta didáctica coherente.
 
 Eso implica tomar decisiones sobre:
 
@@ -1320,7 +1333,7 @@ Para esta actividad final, la situación de aprendizaje debe incluir al menos:
 - reto o producto final,
 - objetivos didácticos,
 - desarrollo de la actividad,
-- uso de NotebookLM en el proceso,
+- uso de Gemini Notebook en el proceso,
 - instrumentos de evaluación, con al menos uno desarrollado,
 - medidas de atención a la diversidad,
 - propuesta de uso de la IA en el aula.
@@ -1370,15 +1383,17 @@ Antes de realizar la actividad final, asegúrate de haber definido el propósito
 
 * * *
 
-## Actividad final del bloque — Crea un cuaderno docente con NotebookLM y diseña una situación de aprendizaje con IA
+## Actividad final del bloque — Crea un cuaderno docente con Gemini Notebook y diseña una situación de aprendizaje con IA
+{: id="actividad-final-del-bloque--crea-un-cuaderno-docente-con-notebooklm-y-diseña-una-situación-de-aprendizaje-con-ia" }
 
 ### 🎯 Objetivo global
 
-Diseñar un cuaderno docente en NotebookLM que funcione como apoyo para la creación de situaciones de aprendizaje y, a partir de este, elaborar una situación de aprendizaje real, significativa y aplicable al aula, incorporando la IA de manera ética, crítica y pedagógica.
+Diseñar un cuaderno docente en Gemini Notebook que funcione como apoyo para la creación de situaciones de aprendizaje y, a partir de este, elaborar una situación de aprendizaje real, significativa y aplicable al aula, incorporando la IA de manera ética, crítica y pedagógica.
 
-### 🪜 FASE 1 – Creación del cuaderno en NotebookLM (producto 1)
+### 🪜 FASE 1 – Creación del cuaderno en Gemini Notebook (producto 1)
+{: id="-fase-1--creación-del-cuaderno-en-notebooklm-producto-1" }
 
-Debes crear un cuaderno en NotebookLM con la función de:
+Debes crear un cuaderno en Gemini Notebook con la función de:
 
 👉 Ayudar al profesorado a diseñar situaciones de aprendizaje a partir de fuentes documentales.
 
@@ -1398,7 +1413,7 @@ Debes crear un cuaderno en NotebookLM con la función de:
 - artículos o recursos educativos.
 
 > ⚠️ **Importante**  
-> NotebookLM solo trabaja con las fuentes que incorporas. No genera información externa como otras herramientas de chat. Por tanto, la calidad del cuaderno dependerá directamente de las fuentes seleccionadas.
+> Fundamenta el trabajo en las fuentes seleccionadas del cuaderno. Si usas descubrimiento de fuentes o continúas en Gemini, distingue los documentos aportados de la información nueva. Las citas ayudan a verificar; no garantizan una interpretación correcta.
 
 ### Ten en cuenta que:
 
@@ -1408,7 +1423,7 @@ Debes crear un cuaderno en NotebookLM con la función de:
 
 ### 🧩 Uso del cuaderno
 
-Utiliza NotebookLM para:
+Utiliza Gemini Notebook para:
 
 - generar resúmenes,
 - formular preguntas,
@@ -1433,7 +1448,7 @@ A partir del trabajo realizado con el cuaderno, diseña una situación de aprend
 - reto o producto final,
 - objetivos didácticos,
 - desarrollo de la actividad,
-- uso de NotebookLM en el proceso,
+- uso de Gemini Notebook en el proceso,
 - instrumentos de evaluación, con al menos uno desarrollado,
 - medidas de atención a la diversidad,
 - propuesta de uso de la IA en el aula.
@@ -1442,7 +1457,7 @@ A partir del trabajo realizado con el cuaderno, diseña una situación de aprend
 
 Incluye una breve reflexión docente sobre:
 
-- cómo has utilizado NotebookLM,
+- cómo has utilizado Gemini Notebook,
 - limitaciones encontradas,
 - valor educativo de la herramienta.
 
@@ -1479,7 +1494,7 @@ El enlace al cuaderno es opcional.
 |---------|-----------------|
 | Coherencia global | Relación entre el objetivo del cuaderno, las fuentes seleccionadas y la situación de aprendizaje diseñada |
 | Calidad de las fuentes | Selección de fuentes relevantes, actualizadas y adecuadas al contexto educativo |
-| Uso de NotebookLM | Empleo crítico y pedagógico de la herramienta para fundamentar el diseño |
+| Uso de Gemini Notebook | Empleo crítico y pedagógico de la herramienta para fundamentar el diseño |
 | Claridad y viabilidad | Presentación clara y aplicable de la situación de aprendizaje propuesta |
 | Instrumento de evaluación | Inclusión y desarrollo realista de un instrumento de evaluación adecuado |
 | Atención a la diversidad | Presencia de medidas concretas para atender a la diversidad del alumnado |
@@ -1494,7 +1509,7 @@ El enlace al cuaderno es opcional.
 ## 📚 Recursos complementarios
 
 
-- [NotebookLM — Acceso directo](https://notebooklm.google.com)
+- [Gemini Notebook — Acceso directo](https://notebooklm.google.com)
 - [Guía de Prompt Engineering de OpenAI](https://platform.openai.com/docs/guides/prompt-engineering) *(aplicable a cualquier herramienta)*
 - [DOGV — Buscador de normativa educativa](https://dogv.gva.es/)
 - [Decreto 106/2022 — Currículo de Primaria CV](https://dogv.gva.es/)
@@ -1511,10 +1526,10 @@ Antes de pasar al Bloque 3, asegúrate de poder responder **sí** a todas estas 
 - [ ] Sé escribir un prompt completo con los 5 campos (Rol, Contexto, Tarea, Formato, Restricciones).
 - [ ] He experimentado la evolución desde un prompt simple hasta uno avanzado y he comprobado la diferencia de resultados.
 - [ ] Conozco y he practicado las técnicas de few-shot y razonamiento guiado paso a paso.
-- [ ] He configurado NotebookLM con al menos un decreto curricular de mi etapa.
-- [ ] Sé diferenciar cuándo usar Copilot (creatividad, gestión) y cuándo NotebookLM (verificación curricular).
+- [ ] He configurado Gemini Notebook con al menos un decreto curricular de mi etapa.
+- [ ] Sé diferenciar cuándo usar Copilot (creatividad, gestión) y cuándo Gemini Notebook (verificación curricular).
 - [ ] He creado al menos 3 fichas para mi biblioteca personal de prompts.
-- [ ] Comprendo las diferencias de fiabilidad curricular entre Copilot, Gemini, NotebookLM, Kimi y Grok.
+- [ ] Comprendo las diferencias de fiabilidad curricular entre Copilot, el ecosistema Gemini + Gemini Notebook, Kimi y Grok.
 
 ---
 

@@ -176,7 +176,7 @@ No es un producto comercial ni una plataforma de pago. Es un espacio de conocimi
     <div class="tres-columnas__titulo">🛠️ Recursos y herramientas</div>
     <ul class="tres-columnas__lista">
       <li>Repositorio de más de 300 aplicaciones</li>
-      <li>Agente NotebookLM con conocimiento comunitario</li>
+      <li>Cuaderno de Gemini Notebook con conocimiento comunitario</li>
       <li>Publicación gratuita en GitHub Pages</li>
       <li>Licencias abiertas CC BY-SA 4.0</li>
     </ul>
@@ -211,12 +211,12 @@ La comunidad se adhiere a los principios del Conocimiento Abierto. Las aplicacio
     <a class="resource-card__btn" href="https://vibe-coding-educativo.github.io/app_edu/" target="_blank" rel="noopener" aria-label="Abrir repositorio de aplicaciones educativas (se abre en nueva pestaña)">Abrir recurso →</a>
   </div>
 
-  <!-- NotebookLM -->
+  <!-- Gemini Notebook -->
   <div class="resource-card" role="listitem">
     <div class="resource-card__icon" aria-hidden="true">🤖</div>
-    <div class="resource-card__titulo">Agente NotebookLM</div>
-    <div class="resource-card__desc">Asistente entrenado con el conocimiento comunitario para resolver dudas sobre vibe coding educativo.</div>
-    <a class="resource-card__btn" href="https://notebooklm.google.com/notebook/8604babb-0861-43f0-8c96-152a49a509b3" target="_blank" rel="noopener" aria-label="Abrir agente NotebookLM de Vibe Coding Educativo (se abre en nueva pestaña)">Abrir recurso →</a>
+    <div class="resource-card__titulo">Cuaderno de Gemini Notebook</div>
+    <div class="resource-card__desc">Cuaderno basado en fuentes de la comunidad para consultar dudas sobre vibe coding educativo.</div>
+    <a class="resource-card__btn" href="https://notebooklm.google.com/notebook/8604babb-0861-43f0-8c96-152a49a509b3" target="_blank" rel="noopener" aria-label="Abrir cuaderno de Gemini Notebook de Vibe Coding Educativo (se abre en nueva pestaña)">Abrir recurso →</a>
   </div>
 
   <!-- Comunidad Telegram -->
@@ -265,7 +265,7 @@ El repositorio cuenta con más de 300 aplicaciones. Aquí encontrarás una selec
 | **FP / Secundaria** | [IAGuar](https://elprofedelabata.es/iaguar/) | Automatizar la gestión de guardias y coberturas en el centro | Registrar ausencias y asignar coberturas en tiempo real | Para el equipo directivo y el profesorado; reduce carga administrativa |
 | **Universidad** | [ResearchCloud](https://ja.cat/research-cloud) | Explorar y visualizar literatura científica con IA usando datos de OpenAlex | Analizar redes conceptuales de investigadores de referencia en una disciplina | Muy útil para TFG, TFM y seminarios de investigación |
 | **Universidad / Formación del profesorado** | [ScholarDeck](https://ja.cat/scholar-deck) | Gamificar la búsqueda bibliográfica con perfiles de investigadores como cartas coleccionables | Explorar redes de coautoría en Didáctica para organizar el marco teórico | Combina bibliometría y gamificación; datos reales de OpenAlex |
-| **Formación del profesorado** | [Metac](https://metact.github.io/) | Catálogo de más de 100 técnicas de aprendizaje activo con asistente IA integrado | Buscar técnicas cooperativas para aplicar en ESO, con filtro por ámbito | Incluye agente NotebookLM integrado; disponible en español, catalán e inglés |
+| **Formación del profesorado** | [Metac](https://metact.github.io/) | Catálogo de más de 100 técnicas de aprendizaje activo con asistente IA integrado | Buscar técnicas cooperativas para aplicar en ESO, con filtro por ámbito | Incluye cuaderno de Gemini Notebook integrado; disponible en español, catalán e inglés |
 | **Adultos / Autoaprendizaje** | [Kompass](https://aaronfortuno.github.io/Kompass/) | Aprendizaje progresivo del alemán con gramática, vocabulario y ejercicios | Aprender alemán a ritmo propio con el principio "una página = un concepto" | Ritmo pausado y sin grandes bloques de texto; ideal para EOI y autoaprendizaje |
 
 💡 ¿Buscas más aplicaciones? Explora el [repositorio completo](https://vibe-coding-educativo.github.io/app_edu/) con más de 300 aplicaciones filtrables por etapa, área, idioma y etiquetas.
@@ -437,9 +437,10 @@ Si la aplicación va a ser usada con alumnado menor de 14 años, asegúrate de q
 
 ---
 
-## 10. Resolver dudas con NotebookLM
+## 10. Resolver dudas con Gemini Notebook
+{: id="10-resolver-dudas-con-notebooklm" }
 
-La comunidad Vibe Coding Educativo ha creado un **agente NotebookLM** entrenado con el conocimiento compartido en el grupo de Telegram. Este agente puede ayudarte a:
+La comunidad Vibe Coding Educativo comparte un **cuaderno de Gemini Notebook (anteriormente NotebookLM)** basado en materiales de su grupo de Telegram. Es una experiencia especializada en fuentes del ecosistema Gemini, cuyos cuadernos pueden sincronizarse con Gemini. Cargar estos materiales no equivale a entrenar un agente. El cuaderno puede ayudarte a:
 
 - **Generar ideas** para tu primera aplicación educativa.
 - **Resolver dudas técnicas** sobre vibe coding sin necesidad de programar.
@@ -448,7 +449,7 @@ La comunidad Vibe Coding Educativo ha creado un **agente NotebookLM** entrenado 
 - **Encontrar ejemplos** del repositorio adaptados a tu etapa y materia.
 - **Aprender vibe coding** paso a paso con respuestas contextualizadas.
 
-El agente responde basándose en la experiencia colectiva de la comunidad, lo que lo hace mucho más preciso y pedagógico que un modelo genérico.
+El cuaderno consulta las fuentes compartidas por la comunidad. Comprueba sus citas y contrasta las recomendaciones antes de aplicarlas.
 
 <div class="btn-cta-wrapper">
   <a class="btn-cta" href="https://vibe-coding-educativo.github.io" target="_blank" rel="noopener" aria-label="Abrir Vibe Coding Educativo (se abre en nueva pestaña)">
@@ -456,10 +457,10 @@ El agente responde basándose en la experiencia colectiva de la comunidad, lo qu
   </a>
 </div>
 
-<div class="callout callout--idea" role="note" aria-label="Acceso al agente NotebookLM">
-<div class="callout__titulo">🤖 Acceder directamente al Agente NotebookLM</div>
-Puedes acceder al agente directamente en: <a href="https://notebooklm.google.com/notebook/8604babb-0861-43f0-8c96-152a49a509b3" target="_blank" rel="noopener">Agente NotebookLM de Vibe Coding Educativo</a>.<br><br>
-Necesitarás una cuenta de Google para acceder. No introduzcas datos personales del alumnado en el agente.
+<div class="callout callout--idea" role="note" aria-label="Acceso al cuaderno de Gemini Notebook">
+<div class="callout__titulo">🤖 Acceder directamente al Cuaderno de Gemini Notebook</div>
+Puedes acceder al cuaderno directamente en: <a href="https://notebooklm.google.com/notebook/8604babb-0861-43f0-8c96-152a49a509b3" target="_blank" rel="noopener">Cuaderno de Gemini Notebook de Vibe Coding Educativo</a>.<br><br>
+Necesitarás una cuenta de Google para acceder. No introduzcas datos personales del alumnado en el cuaderno.
 </div>
 
 ---

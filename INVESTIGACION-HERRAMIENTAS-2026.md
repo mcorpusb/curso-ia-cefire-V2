@@ -12,7 +12,7 @@
 
 1. [Microsoft Copilot — Entorno GVA](#1-microsoft-copilot--entorno-gva)
 2. [Google Gemini y Gemini for Education](#2-google-gemini-y-gemini-for-education)
-3. [NotebookLM (Gemini Notebook)](#3-notebooklm-gemini-notebook)
+3. [Gemini Notebook (anteriormente NotebookLM)](#3-notebooklm-gemini-notebook)
 4. [ChatGPT (OpenAI)](#4-chatgpt-openai)
 5. [Kimi (Moonshot AI)](#5-kimi-moonshot-ai)
 6. [Canva for Education](#6-canva-for-education)
@@ -158,20 +158,22 @@ Deep Research realiza investigación autónoma en múltiples fuentes web, sintet
 - Generar informe inicial para una unidad didáctica
 - Comparar información de múltiples fuentes antes de preparar materiales
 
-**Limitación importante:** Deep Research en Gemini busca en la web; no trabaja sobre documentos que el docente proporciona (para eso: NotebookLM).
+**Relación con los cuadernos:** Gemini puede combinar archivos y búsqueda web. Gemini Notebook es la experiencia especializada para trabajar con fuentes seleccionadas; ambas permiten continuar el trabajo con cuadernos sincronizados.
 
 ---
 
-## 3. NOTEBOOKLM (GEMINI NOTEBOOK)
+## 3. Gemini Notebook
+{: id="3-notebooklm-gemini-notebook" }
 
-**Fuente:** [notebooklm.google](https://notebooklm.google/) (agosto 2026)  
-**Nombre actual:** NotebookLM / Gemini Notebook (Google ha comenzado a llamarlo también «Gemini Notebook»)
+**Fuente:** [Gemini Notebook — web oficial](https://notebooklm.google/) (agosto 2026)
+
+**Actualización de denominación · septiembre de 2026:** **Gemini Notebook (anteriormente NotebookLM)** es el nombre oficial. Mantiene su experiencia propia dentro del ecosistema Gemini; los cuadernos pueden utilizarse y sincronizarse con Gemini. [Anuncio oficial de Google](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/).
 
 ### 3.1 Qué es
 
-NotebookLM es una herramienta de IA **fundamentada en las fuentes que el usuario proporciona**. No responde desde conocimiento general: responde desde los documentos, webs, vídeos y audios que el docente sube. **Todas las respuestas incluyen citas exactas** del material original.
+Gemini Notebook es una herramienta de IA **fundamentada en las fuentes que el usuario proporciona**. Su chat se fundamenta en las fuentes seleccionadas y ofrece citas para comprobarlas. La búsqueda de nuevas fuentes y el uso del cuaderno en Gemini requieren distinguir qué información se incorpora; las citas no garantizan una interpretación correcta.
 
-Esta característica lo convierte en la herramienta más adecuada del mercado para:
+Esta orientación permite utilizarlo para:
 - Trabajar con el currículo oficial (DOGV, BOE, decretos de la GVA)
 - Analizar programaciones didácticas y proyectos educativos del centro
 - Investigar a partir de bibliografía académica
@@ -200,17 +202,18 @@ Esta característica lo convierte en la herramienta más adecuada del mercado pa
 | **Infografía** | Genera una infografía visual del contenido | ✅ Gratuito (verificar disponibilidad geográfica) |
 | **Presentación** | Genera una presentación a partir del contenido | ✅ Gratuito (verificar disponibilidad geográfica) |
 | **Video Overview** | Vídeo generado con resumen visual animado | 🔄 En despliegue progresivo |
-| **Deep Research** (en NotebookLM) | Investigación que combina las fuentes con búsqueda web | 🔄 En despliegue (verificar) |
+| **Deep Research** (en Gemini Notebook) | Investigación que combina las fuentes con búsqueda web | 🔄 En despliegue (verificar) |
 
 ### 3.4 Privacidad
 
 - **Para organizaciones y centros educativos**: los datos **NO se usan para entrenar a Gemini**.
 - Para usuarios individuales: tampoco se usan para entrenamiento salvo que el usuario envíe feedback voluntariamente.
-- Fuente oficial: política de privacidad de Google NotebookLM.
+- Fuente oficial: política de privacidad de Google Gemini Notebook.
 
-> **Para el curso:** NotebookLM es uno de los pocos entornos donde un docente puede subir documentos del centro (programaciones didácticas, proyectos educativos no confidenciales, normativa) con razonable seguridad de privacidad. Sin embargo, **no subir datos personales del alumnado, informes psicopedagógicos ni actas nominales**.
+> **Para el curso:** Gemini Notebook es uno de los pocos entornos donde un docente puede subir documentos del centro (programaciones didácticas, proyectos educativos no confidenciales, normativa) con razonable seguridad de privacidad. Sin embargo, **no subir datos personales del alumnado, informes psicopedagógicos ni actas nominales**.
 
-### 3.5 Flujo educativo con NotebookLM
+### 3.5 Flujo educativo con Gemini Notebook
+{: id="35-flujo-educativo-con-notebooklm" }
 
 ```
 FUENTES (PDFs, webs, vídeos, normativa, currículo)
@@ -617,8 +620,8 @@ El vibe coding educativo no requiere que el docente sepa programar. El flujo pr�
 | Tarea docente | Herramienta recomendada | Alternativa | Gratuita | Entorno GVA | Advertencia privacidad |
 |:--------------|:------------------------|:------------|:--------:|:-----------:|:----------------------|
 | Redactar actas, correos, documentos | Copilot Chat | Gemini, ChatGPT | ✅ | ✅ (Copilot) | Solo en Copilot @edu.gva.es para datos sensibles |
-| Analizar el currículo oficial (DOGV) | NotebookLM | Copilot Chat | ✅ | ⚠️ | No subir datos del alumnado |
-| Investigar un tema con fuentes verificadas | NotebookLM | Gemini Deep Research | ✅ | ⚠️ | Solo contenido no sensible |
+| Analizar el currículo oficial (DOGV) | Gemini Notebook | Copilot Chat | ✅ | ⚠️ | No subir datos del alumnado |
+| Investigar un tema con fuentes verificadas | Gemini Notebook | Gemini Deep Research | ✅ | ⚠️ | Solo contenido no sensible |
 | Crear presentación visual | Gamma | Canva, Kimi Slides | ✅ (con límites) | ❌ | No subir datos sensibles |
 | Crear presentación en entorno GVA | Copilot en PowerPoint | Copilot Chat + PPT manual | ⚠️ licencia | ✅ | Entorno protegido |
 | Diseñar infografía | Canva | Napkin AI | ✅ Canva Edu | ❌ | No datos del alumnado |
@@ -633,7 +636,7 @@ El vibe coding educativo no requiere que el docente sepa programar. El flujo pr�
 | Crear asistente/agente educativo reutilizable | Gemini Gems | GPTs ChatGPT, Copilot Studio | ✅ (Gems) | ⚠️ Copilot Studio | Sin datos del alumnado |
 | Crear app educativa interactiva | ChatGPT + Canvas | Kimi Websites, Bolt | ✅ (con límites) | ❌ | No datos del alumnado |
 | Investigar con múltiples agentes en paralelo | Kimi Swarm | — | ✅ (con créditos) | ❌ | Solo contenido no sensible |
-| Audio overview de documentos curriculares | NotebookLM | — | ✅ | ⚠️ | Solo documentos no sensibles |
+| Audio overview de documentos curriculares | Gemini Notebook | — | ✅ | ⚠️ | Solo documentos no sensibles |
 | Resumen de reunión de Teams | Copilot en Teams | — | ⚠️ licencia M365 Copilot | ✅ | Entorno protegido |
 
 ---
@@ -684,16 +687,15 @@ El vibe coding educativo no requiere que el docente sepa programar. El flujo pr�
 | # | Herramienta | Por qué es prioritaria | Condición |
 |:-:|:-----------|:-----------------------|:----------|
 | 1 | **Copilot Chat** (`@edu.gva.es`) | Entorno protegido, integrado en Microsoft 365, gratuito con cuenta GVA | Verificar que el tenant GVA lo tiene habilitado |
-| 2 | **NotebookLM** | Única herramienta que trabaja fundamentada en fuentes del docente, con citas verificables | Cuenta personal de Google; no subir datos sensibles |
+| 2 | **Gemini + Gemini Notebook** | Asistente general y experiencia especializada en fuentes y cuadernos sincronizados | Cuenta personal de Google; no subir datos sensibles |
 | 3 | **Canva for Education** | 100% gratuito para docentes verificados, funciones de IA incluidas, integración con Google Classroom y Teams | Verificación educativa (pocos días) |
 
-### Las tres herramientas de comparativa y ampliación
+### Otras herramientas de comparativa y ampliación
 
 | # | Herramienta | Para qué añade valor | Condición |
 |:-:|:-----------|:---------------------|:----------|
-| 4 | **Gemini** | Deep Research autónomo, multimodalidad, Canvas, Gems | Cuenta personal; no datos sensibles |
-| 5 | **ChatGPT** | Plataforma generalista de referencia, generación de imágenes, GPTs educativos, vibe coding básico | Cuenta personal; plan gratuito con límites |
-| 6 | **Kimi** | Creación de presentaciones/webs/documentos desde IA, Agent Swarm como demostración | Cuenta personal; no datos sensibles; empresa china |
+| 4 | **ChatGPT** | Plataforma generalista de referencia, generación de imágenes, GPTs educativos, vibe coding básico | Cuenta personal; plan gratuito con límites |
+| 5 | **Kimi** | Creación de presentaciones/webs/documentos desde IA, Agent Swarm como demostración | Cuenta personal; no datos sensibles; empresa china |
 
 ---
 

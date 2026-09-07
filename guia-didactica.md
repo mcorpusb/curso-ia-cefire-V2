@@ -226,9 +226,9 @@ En este curso entendemos el **prompting avanzado** no como memorizar fórmulas, 
 **Contenidos principales:**
 
 - El flujo transversal en su versión detallada: Necesidad → Contexto/Fuentes → Primera respuesta → Revisión → Verificación → Aplicación.
-- **NotebookLM**: trabajar con decretos curriculares (DOGV/BOE), PDF y documentación autorizada. Prioriza y fundamenta sus respuestas en las fuentes proporcionadas y permite rastrear afirmaciones mediante citas.
+- **Gemini Notebook (anteriormente NotebookLM)**: trabajar con decretos curriculares (DOGV/BOE), PDF y documentación autorizada. Prioriza y fundamenta sus respuestas en las fuentes proporcionadas y permite rastrear afirmaciones mediante citas.
 - Lectura crítica de citas: una cita puede interpretarse incorrectamente; cuando la información sea importante debe comprobarse la fuente original y la correspondencia entre afirmación y evidencia.
-- Audio Overviews de NotebookLM: síntesis en formato podcast de documentos curriculares extensos.
+- Audio Overviews de Gemini Notebook: síntesis en formato podcast de documentos curriculares extensos.
 - Investigación asistida y Deep Research: **BUSCA → SELECCIONA → SINTETIZA → CITA**. El docente evalúa la calidad, actualidad, autoridad y diversidad de las fuentes, sus posibles sesgos y la correspondencia entre cada cita y afirmación.
 - Contraste y verificación: comprobar que las citas son correctas, que la interpretación es fiel al original y que los datos curriculares proceden del decreto vigente.
 - Búsqueda asistida con IA: localizar normativa, artículos de investigación educativa y recursos de referencia con criterio.
@@ -236,7 +236,7 @@ En este curso entendemos el **prompting avanzado** no como memorizar fórmulas, 
 - Transformación de fuentes en materiales educativos: pasar de un decreto o un PDF a una situación de aprendizaje, una guía o una explicación para el alumnado.
 - Comparación puntual entre búsqueda asistida, conversación general y trabajo documental cuando ayude a elegir el enfoque adecuado.
 
-**Ejemplos de aplicación:** Cargar en NotebookLM el decreto de Primaria de la Comunitat Valenciana y generar una tabla de criterios de evaluación para un área concreta; usar Deep Research para localizar investigación reciente sobre el método ABP y evaluar la calidad de las fuentes encontradas; transformar un PDF de apuntes propios en una guía de estudio con NotebookLM; contrastar si los criterios de evaluación que ha generado Copilot Chat existen realmente en el decreto oficial.
+**Ejemplos de aplicación:** Cargar en Gemini Notebook el decreto de Primaria de la Comunitat Valenciana y generar una tabla de criterios de evaluación para un área concreta; usar Deep Research para localizar investigación reciente sobre el método ABP y evaluar la calidad de las fuentes encontradas; transformar un PDF de apuntes propios en una guía de estudio con Gemini Notebook; contrastar si los criterios de evaluación que ha generado Copilot Chat existen realmente en el decreto oficial.
 
 ### Bloque 3 · Generación Multimodal
 
@@ -400,7 +400,7 @@ El curso forma en el cumplimiento del RGPD, la LOPDGDD y las instrucciones de la
 
 ### Verificación de resultados
 
-La IA puede inventar datos, citar normativa inexistente o generar contenidos con apariencia verosímil pero sin base real. El curso enseña a **contrastar siempre** con fuentes oficiales (DOGV, BOE) y a usar herramientas como NotebookLM para verificar la precisión curricular.
+La IA puede inventar datos, citar normativa inexistente o generar contenidos con apariencia verosímil pero sin base real. El curso enseña a **contrastar siempre** con fuentes oficiales (DOGV, BOE) y a usar herramientas como Gemini Notebook para verificar la precisión curricular.
 
 ### Sesgos y fiabilidad limitada
 
