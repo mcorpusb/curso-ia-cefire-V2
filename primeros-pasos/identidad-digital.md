@@ -10,6 +10,23 @@ nav_order: 0
 
 Antes de trabajar con IA, prepara tus accesos y comprueba qué cuenta y qué datos vas a utilizar.
 
+## 🧭 En esta página
+{: .no_toc }
+
+- [🎯 Qué necesitas saber antes de empezar](#-qué-necesitas-saber-antes-de-empezar)
+- [🪪 Qué es tu identidad digital docente](#-qué-es-tu-identidad-digital-docente)
+- [🏫 Tu identidad digital en el entorno GVA](#-tu-identidad-digital-en-el-entorno-gva)
+- [🔎 Dónde consultar tus datos](#-dónde-consultar-tus-datos)
+- [🏫👤 ¿Qué cuenta estoy utilizando?](#-qué-cuenta-estoy-utilizando)
+- [🔑 Protege tus credenciales](#-protege-tus-credenciales)
+- [🛡️ Seis reglas básicas de seguridad](#️-seis-reglas-básicas-de-seguridad)
+- [💻 Protege también tu dispositivo](#-protege-también-tu-dispositivo)
+- [🤖 Seguridad básica al utilizar IA](#-seguridad-básica-al-utilizar-ia)
+- [🔐 Antes de introducir datos en una IA](#-antes-de-introducir-datos-en-una-ia)
+- [✅ Antes de continuar](#-antes-de-continuar)
+- [➡️ Siguiente paso](#️-siguiente-paso)
+- [📚 Para saber más](#-para-saber-más)
+
 ## 🎯 Qué necesitas saber antes de empezar
 
 - Reconocer tu identidad digital docente.
@@ -19,12 +36,6 @@ Antes de trabajar con IA, prepara tus accesos y comprueba qué cuenta y qué dat
 - Revisar los datos antes de compartirlos con una IA.
 
 ![Identidad digital docente: el usuario identifica la cuenta y la contraseña protege su acceso.]({{ '/assets/img/identidad-digital-1.png' | relative_url }})
-
-## En esta página
-{: .no_toc }
-
-1. Contenidos
-{:toc}
 
 ## 🪪 Qué es tu identidad digital docente
 
@@ -44,9 +55,9 @@ Te sirve para comunicarte, gestionar tu trabajo y participar en formación. Tene
 
 La [guía oficial GVA](https://ceice.gva.es/webitaca/docs/Bienvenida_Plataformas_val_cas_210209.pdf) indica estas ubicaciones para consultar tu identidad digital:
 
-1. **ITACA 3:** «Datos del usuario», en el escritorio.
-2. **[OVIDOC](https://ovidoc.edu.gva.es/):** «Datos personales» → «Identidad Digital»; la guía describe esta consulta mediante certificado digital.
-3. **Comprueba tu correo:** anota la dirección institucional y verifica que puedes abrir Outlook.
+- **ITACA 3:** «Datos del usuario», en el escritorio.
+- **[OVIDOC](https://ovidoc.edu.gva.es/):** «Datos personales» → «Identidad Digital»; la guía describe esta consulta mediante certificado digital.
+- **Comprueba tu correo:** anota la dirección institucional y verifica que puedes abrir Outlook.
 
 OVIDOC es la oficina virtual docente para consultar información y realizar trámites. Sus opciones de acceso incluyen las credenciales de ITACA y los mecanismos de identificación electrónica disponibles. Los nombres de pantalla pueden cambiar: utiliza la [ayuda oficial de OVIDOC](https://portal.edu.gva.es/ovidoc/es/inicio/) si no encuentras la opción.
 
@@ -79,12 +90,12 @@ La **autenticación multifactor (MFA)** añade otra comprobación, como una apli
 
 ## 🛡️ Seis reglas básicas de seguridad
 
-1. Utiliza contraseñas largas, únicas y un gestor.
-2. Activa MFA y protege sus mecanismos de recuperación.
-3. No compartas ni reutilices la contraseña institucional en servicios externos.
-4. Bloquea la pantalla cuando te ausentes.
-5. Mantén actualizados el sistema y el navegador.
-6. Desconfía de enlaces y solicitudes de acceso inesperados.
+- Utiliza contraseñas largas, únicas y un gestor.
+- Activa MFA y protege sus mecanismos de recuperación.
+- No compartas ni reutilices la contraseña institucional en servicios externos.
+- Bloquea la pantalla cuando te ausentes.
+- Mantén actualizados el sistema y el navegador.
+- Desconfía de enlaces y solicitudes de acceso inesperados.
 
 ## 💻 Protege también tu dispositivo
 
