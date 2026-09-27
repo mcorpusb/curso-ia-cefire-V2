@@ -11,33 +11,62 @@ translation_key: modulo-0-que-es-la-ia
 # Bloque 0: ¿Qué es la IA?
 {: .fs-8 }
 
-Lo esencial para empezar con criterio… y empezar a probar.
+Lo esencial para comenzar con criterio y pasar a la práctica
 {: .fs-5 .fw-300 }
 
 ---
 
 {: .callout .callout--idea }
 **Para qué sirve este bloque**  
-En este primer bloque descubrirás qué entendemos por inteligencia artificial, conocerás algunas de sus principales formas de uso y empezarás a experimentar con ella.
+En este bloque descubrirás qué entendemos por **inteligencia artificial**, conocerás sus principales formas de uso y comenzarás a experimentar con ella de manera práctica.
 
-También veremos algo fundamental: la IA puede ser muy útil, pero puede equivocarse, reproducir sesgos y no todas las tareas deberían delegarse.
+También veremos algo fundamental: la IA puede ser muy útil, pero puede **equivocarse**, reproducir **sesgos** y no todas las tareas deberían delegarse.
 
 **Y, sobre todo, vamos a probarla.**
+
+---
+
+## 🧭 En este bloque
+{: .no_toc .text-delta }
+
+<nav class="indice-bloque" aria-label="Índice del bloque" markdown="1">
+
+- [🤖 La IA no es una sola cosa](#1-la-ia-no-es-una-sola-cosa)
+  - [🧩 Principales tipos de IA](#tipos-ia)
+- [✨ Nos centraremos en la IA generativa](#2-nos-centraremos-en-la-ia-generativa)
+- [🛠️ Cuatro formas de trabajar con ella](#3-cuatro-formas-de-trabajar-con-ella)
+- [⚠️ Cuando la IA parece segura… pero no lo está](#4-cuando-la-ia-parece-segura-pero-no-lo-está)
+- [🎯 Qué puede aportar y qué no garantiza](#5-qué-puede-aportar-y-qué-no-garantiza)
+  - [🧠 Criterio profesional](#criterio-profesional)
+- [🔐 Privacidad, responsabilidad y marco legal](#6-privacidad-responsabilidad-y-marco-legal)
+- [🛠️ ¿Con qué herramientas vamos a experimentar?](#7-con-qué-herramientas-vamos-a-experimentar)
+- [🗺️ Mapa conceptual del bloque](#bloc0-seccio-8)
+- [🚀 Actividad de inicio](#8-actividad-de-inicio)
+- [🧪 Ahora sí: vamos a tocar la IA](#9-ahora-sí-vamos-a-tocar-la-ia)
+- [📝 Reto · Una misma necesidad, dos resultados](#bloc0-seccio-11)
+- [✅ Ideas clave del bloque](#bloc0-seccio-12)
+
+</nav>
 
 ---
 
 ## La IA no es una sola cosa
 {: id="1-la-ia-no-es-una-sola-cosa" }
 
-La **inteligencia artificial (IA)** es un campo amplio. Incluye sistemas capaces de reconocer patrones, realizar predicciones, generar contenidos o ejecutar procesos.
+La **inteligencia artificial (IA)** es un campo amplio. Incluye sistemas capaces de **reconocer patrones**, **realizar predicciones**, **generar contenidos** o **ejecutar procesos**.
 
-No toda la IA es generativa y no toda la IA funciona como un chatbot.
+**No toda la IA es generativa** ni toda la IA se utiliza a través de un **chatbot**.
+
+{: .text-small }
+**IA generativa:** inteligencia artificial capaz de crear contenido nuevo, como texto, imágenes, audio o código.<br>
+**Chatbot:** herramienta diseñada para mantener una conversación con una persona mediante texto o voz.
 
 Para situarnos, podemos distinguir de forma simplificada tres grandes formas de IA:
 
 <img src="{{ '/assets/img/bloque0-tipos-ia.png' | relative_url }}" alt="Tres formas de inteligencia artificial: IA predictiva, IA generativa y agentes de IA, con una breve explicación y ejemplos de cada una." style="width: 100%; height: auto;">
 
 ### IA predictiva
+{: id="tipos-ia" }
 
 Analiza patrones para **clasificar, recomendar o anticipar resultados**.
 
@@ -63,6 +92,10 @@ Y hay una idea que nos acompañará durante todo el curso:
 {: .callout .callout--recuerda }
 **A mayor autonomía, mayor supervisión.**
 
+Cuantas más decisiones o acciones realiza una IA por sí sola, más importante es **revisar sus resultados**, **establecer límites** y detectar posibles **errores o sesgos**.
+
+Esto ayuda a detectar posibles **errores**, **sesgos** o **consecuencias no deseadas** antes de que tengan un impacto real.
+
 ---
 
 ## Nos centraremos en la IA generativa
@@ -82,9 +115,9 @@ Puede ayudarnos, entre otras cosas, a:
 - generar código;
 - proponer alternativas.
 
-Pero no se trata de utilizar IA para todo.
-
-Se trata de aprender **cuándo puede aportar valor y cuándo no**.
+{: .callout .callout--reflexion }
+**La clave no es usar IA para todo,**<br>
+sino aprender **cuándo aporta valor y cuándo no**.
 
 {: .callout .callout--recuerda }
 **La IA genera respuestas. Tú decides si son útiles, correctas y adecuadas.**
@@ -124,17 +157,6 @@ Algunos agentes pueden encadenar distintos pasos y utilizar herramientas para av
 
 ---
 
-### Mapa conceptual del bloque
-
-<!-- IMAGEN YA EXISTENTE. NO MODIFICAR EL NOMBRE. -->
-
-<img src="{{ '/assets/img/bloque0-mapa-conceptual.svg' | relative_url }}" alt="Mapa conceptual del Bloque 0: la IA generativa permite conversar, trabajar con documentos, investigar y ejecutar procesos; sus resultados requieren revisar errores, fuentes, sesgos y adecuación al contexto, y el trabajo docente sigue un ciclo de necesidad, contexto y fuentes, primera respuesta, revisión, verificación y aplicación." style="width: 100%; height: auto;">
-
-El criterio que utilizaremos durante todo el curso será el mismo:
-
-**NECESIDAD → CONTEXTO/FUENTES → 1.ª RESPUESTA → REVISIÓN → VERIFICACIÓN → APLICACIÓN**
-
----
 
 ## Cuando la IA parece segura… pero no lo está
 {: id="4-cuando-la-ia-parece-segura-pero-no-lo-está" }
@@ -199,6 +221,7 @@ Pedir a una herramienta que «sea neutral» no elimina automáticamente estos pr
 
 No dejamos de utilizarla.
 
+{: .callout .callout--recuerda }
 **Aprendemos a revisarla.**
 
 Antes de utilizar información importante:
@@ -216,21 +239,24 @@ Antes de utilizar información importante:
 
 | Puede ayudar a… | No garantiza… |
 |:----------------|:--------------|
-| Generar ideas | Calidad |
-| Crear y transformar borradores | Verdad |
-| Trabajar con información | Fuentes correctas |
-| Proponer alternativas | Criterio pedagógico |
+| Generar ideas | **Calidad** |
+| Crear y transformar borradores | **Verdad** |
+| Trabajar con información | **Fuentes correctas** |
+| Proponer alternativas | **Criterio pedagógico** |
 | Ahorrar tiempo en algunos procesos | Que el resultado sea adecuado |
 | Apoyar nuestro trabajo | Que debamos delegarlo |
+{: .tabla-aportaciones }
+
+### Antes de utilizar IA, hazte dos preguntas
+{: id="criterio-profesional" }
+
+{: .callout .callout--compara }
+**1. ¿Puedo hacerlo con IA?**<br>
+La primera pregunta se refiere a la **capacidad técnica**.
 
 {: .callout .callout--reflexion }
-La pregunta no es únicamente:
-
-**«¿Puedo hacerlo con IA?»**
-
-También debemos preguntarnos:
-
-**«¿Tiene sentido utilizar IA para hacerlo?»**
+**2. ¿Tiene sentido utilizar IA para hacerlo?**<br>
+La segunda pone en el centro el **criterio profesional**.
 
 ---
 
@@ -244,7 +270,7 @@ Pero necesitamos establecer algunas reglas que nos acompañarán **durante todo 
 ### Una regla sencilla para nuestras prácticas
 
 {: .callout .callout--privacidad }
-**En las prácticas del curso no introduzcas datos personales ni sensibles del alumnado.**
+**NO INTRODUZCAS DATOS PERSONALES NI SENSIBLES DEL ALUMNADO.**
 
 Trabajaremos con información:
 
@@ -258,20 +284,23 @@ En situaciones reales, sigue además las instrucciones institucionales y comprue
 
 ---
 
-### Hay decisiones que no delegamos
+### Hay decisiones que NO DELEGAMOS
 
 Especialmente aquellas que afectan directamente a personas:
 
+{: .callout .callout--reflexion }
 **Calificaciones · Diagnósticos · Orientación · Disciplina · Adaptaciones · Decisiones profesionales relevantes**
 
 La IA puede ayudarnos a **preparar, analizar o contrastar información**.
 
-La responsabilidad profesional continúa siendo nuestra.
+{: .responsabilidad-profesional }
+La **responsabilidad profesional** continúa siendo nuestra.
 
 {: .callout .callout--reflexion }
 **Pregunta antes de empezar:**  
 ¿Esta tarea se beneficia realmente de la IA o hacerla sin IA tiene un valor profesional o formativo que conviene preservar?
 
+{: .callout .callout--reflexion }
 **Saber cuándo no utilizar IA también es una competencia profesional.**
 
 ---
@@ -299,14 +328,6 @@ Queremos comprobar qué ocurre cuando hacemos peticiones similares a sistemas di
 
 <img src="{{ '/assets/img/bloque0-herramientas-ia.png' | relative_url }}" alt="Herramientas de inteligencia artificial utilizadas durante el curso: ChatGPT, Microsoft Copilot, Gemini, Claude y Kimi." style="width: 100%; height: auto;">
 
-Trabajaremos, entre otras, con:
-
-- **ChatGPT**
-- **Microsoft Copilot**
-- **Gemini**
-- **Claude**
-- **Kimi**
-
 Las funciones, modelos y condiciones de acceso cambian con frecuencia.
 
 Consulta el [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}) para revisar opciones, condiciones de acceso y límites actualizados.
@@ -321,6 +342,21 @@ No es necesario que utilices una cuenta personal o institucional si no quieres h
 **Si prefieres separar las prácticas del curso de tus cuentas habituales, puedes crear una cuenta específica para el curso y utilizarla para registrarte en las diferentes herramientas.**
 
 Utiliza únicamente las herramientas con las que te sientas cómodo y revisa sus condiciones de acceso y privacidad antes de registrarte.
+
+---
+
+## 🗺️ Mapa conceptual del bloque
+{: id="bloc0-seccio-8" }
+
+<!-- IMAGEN YA EXISTENTE. NO MODIFICAR EL NOMBRE. -->
+
+<img src="{{ '/assets/img/bloque0-mapa-conceptual.svg' | relative_url }}" alt="Mapa conceptual del Bloque 0: la IA generativa permite conversar, trabajar con documentos, investigar y ejecutar procesos; sus resultados requieren revisar errores, fuentes, sesgos y adecuación al contexto, y el trabajo docente sigue un ciclo de necesidad, contexto y fuentes, primera respuesta, revisión, verificación y aplicación." style="width: 100%; height: auto;">
+
+### Un criterio que nos acompañará durante todo el curso
+
+Este mapa resume una forma de trabajar que repetiremos a lo largo del curso: **partir de una necesidad, aportar contexto, revisar la respuesta, verificarla y decidir cómo aplicarla**.
+
+La IA puede ayudarnos en el proceso, pero el **criterio y la decisión final siguen siendo nuestros**.
 
 ---
 
@@ -353,7 +389,7 @@ Al finalizar el curso volveremos a esta misma pizarra y comprobaremos si nuestra
 
 ---
 
-# Ahora sí: vamos a tocar la IA
+## Ahora sí: vamos a tocar la IA
 {: id="9-ahora-sí-vamos-a-tocar-la-ia" }
 
 Hasta ahora hemos hablado de ella.
@@ -367,6 +403,7 @@ Precisamente queremos comprobar qué ocurre.
 ---
 
 ## Reto · Una misma necesidad, dos resultados
+{: id="bloc0-seccio-11" }
 
 Imagina que eres docente de **1.º de ASIR** y quieres preparar una actividad introductoria sobre redes.
 
@@ -454,6 +491,7 @@ Observa cómo una misma conversación puede ir evolucionando y generar productos
 ---
 
 ## Ideas clave del bloque
+{: id="bloc0-seccio-12" }
 
 - La IA no es una única tecnología ni se limita a los chatbots.
 - Podemos distinguir, de forma simplificada, IA predictiva, IA generativa y agentes.

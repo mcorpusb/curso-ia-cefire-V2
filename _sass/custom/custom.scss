@@ -159,8 +159,8 @@
 }
 
 .callout--reflexion {
-  background-color: #f5f0fa;
-  border-color: #7b1fa2;
+  background-color: #fef5ec;
+  border-color: #d35400;
 }
 
 .callout__titulo {
@@ -974,4 +974,17 @@
   .semaforo-privacidad {
     flex-direction: column;
   }
+}
+
+/* Índices y contraste del Bloque 0: colores acompañados de texto explícito. */
+.indice-bloque a { overflow-wrap: anywhere; }
+.indice-bloque a:focus-visible { outline: 2px solid #854000; outline-offset: 3px; }
+.main-content [id] { scroll-margin-top: 1rem; }
+.responsabilidad-profesional { color: #9b3028; font-size: 1.1rem; }
+.tabla-aportaciones {
+  width: 100%;
+  table-layout: fixed;
+  th, td { width: 50%; white-space: normal; overflow-wrap: anywhere; font-size: 1rem !important; }
+  th:first-child, td:first-child { background: #eef4fb; color: #243d55; }
+  th:last-child, td:last-child { background: #fef5ec; color: #663b19; }
 }

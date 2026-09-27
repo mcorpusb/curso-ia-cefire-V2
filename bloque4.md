@@ -14,7 +14,29 @@ Diseña rúbricas LOMLOE, genera adaptaciones curriculares rápidas y reflexiona
 
 ---
 
+## 🧭 En este bloque
+{: .no_toc .text-delta }
+
+<nav class="indice-bloque" aria-label="Índice del bloque" markdown="1">
+
+- [🎯 Objetivos del bloque](#objetivos-del-bloque)
+- [📖 4.1 · Rúbricas LOMLOE con IA: del criterio de evaluación al indicador de logro](#41--rúbricas-lomloe-con-ia-del-criterio-de-evaluación-al-indicador-de-logro)
+- [📖 4.1b · Correcciones motivadoras automatizadas con IA](#41b--correcciones-motivadoras-automatizadas-con-ia)
+- [📖 4.2 · Más instrumentos de evaluación con IA](#42--más-instrumentos-de-evaluación-con-ia)
+- [📖 4.3 · Adaptaciones curriculares con IA y DUA](#43--adaptaciones-curriculares-con-ia-y-dua)
+- [📖 4.4 · Ética, privacidad y uso responsable de la IA en educación](#44--ética-privacidad-y-uso-responsable-de-la-ia-en-educación)
+- [📖 4.5 · Diseña tu política de uso de IA en el aula](#45--diseña-tu-política-de-uso-de-ia-en-el-aula)
+- [📖 4.6 · Comparativa final: herramientas y ecosistemas para evaluación](#46--comparativa-final-las-5-herramientas-para-evaluación-y-personalización)
+- [📝 Actividades prácticas de ayuda del Bloque 4](#-actividades-prácticas-de-ayuda-del-bloque-4)
+- [📚 Recursos complementarios](#-recursos-complementarios)
+- [✅ Checklist de autoevaluación final](#-checklist-de-autoevaluación-final)
+
+</nav>
+
+---
+
 ## Objetivos del bloque
+{: id="objetivos-del-bloque" }
 
 Al finalizar este bloque serás capaz de:
 
@@ -30,6 +52,7 @@ Al finalizar este bloque serás capaz de:
 ---
 
 ## 4.1 · Rúbricas LOMLOE con IA: del criterio de evaluación al indicador de logro
+{: id="41--rúbricas-lomloe-con-ia-del-criterio-de-evaluación-al-indicador-de-logro" }
 
 ### El modelo de evaluación LOMLOE
 
@@ -103,6 +126,7 @@ y uso de soporte visual.
 ---
 
 ## 4.1b · Correcciones motivadoras automatizadas con IA
+{: id="41b--correcciones-motivadoras-automatizadas-con-ia" }
 
 Uno de los mayores consumidores de tiempo docente es la **corrección y retroalimentación individualizada**. La IA puede generar comentarios motivadores y constructivos que orienten al alumnado, liberando tiempo para la docencia esencial.
 
@@ -186,6 +210,7 @@ Cambiar el foco hacia el proceso permite que la herramienta siga siendo útil si
 ---
 
 ## 4.2 · Más instrumentos de evaluación con IA
+{: id="42--más-instrumentos-de-evaluación-con-ia" }
 
 Las rúbricas no son el único instrumento. La LOMLOE promueve la **diversidad de instrumentos**. Veamos cómo la IA puede ayudar con otros:
 
@@ -271,6 +296,7 @@ del portfolio.
 ---
 
 ## 4.3 · Adaptaciones curriculares con IA y DUA
+{: id="43--adaptaciones-curriculares-con-ia-y-dua" }
 
 Una de las aplicaciones más valiosas de la IA generativa es la **personalización rápida** de materiales para alumnado con necesidades específicas de apoyo educativo (NEAE).
 
@@ -367,6 +393,7 @@ creación — taxonomía de Bloom).
 ---
 
 ## 4.4 · Ética, privacidad y uso responsable de la IA en educación
+{: id="44--ética-privacidad-y-uso-responsable-de-la-ia-en-educación" }
 
 ### 4.4.1 · Marco legal aplicable
 
@@ -452,6 +479,7 @@ Material a analizar:
 ---
 
 ## 4.5 · Diseña tu política de uso de IA en el aula
+{: id="45--diseña-tu-política-de-uso-de-ia-en-el-aula" }
 
 Cada centro y cada docente debería tener una **política clara** sobre cómo y cuándo se usa la IA. Aquí tienes un prompt para generarla:
 
@@ -513,6 +541,7 @@ Fomenta el uso responsable, no la prohibición total.
 ---
 
 ## 📝 Actividades prácticas de ayuda del Bloque 4
+{: id="-actividades-prácticas-de-ayuda-del-bloque-4" }
 
 ### Actividad 4.1 — Rúbrica LOMLOE completa *(individual)*
 
@@ -596,6 +625,7 @@ Documenta las siguientes fases con tus propias palabras:
 ---
 
 ## 📚 Recursos complementarios
+{: id="-recursos-complementarios" }
 
 - [EU AI Act — Texto completo y resumen](https://artificialintelligenceact.eu/)
 - [RGPD — Guía práctica de la AEPD](https://www.aepd.es/guias)
@@ -609,6 +639,7 @@ Documenta las siguientes fases con tus propias palabras:
 ---
 
 ## ✅ Checklist de autoevaluación final
+{: id="-checklist-de-autoevaluación-final" }
 
 Asegúrate de poder responder **sí** a todas estas preguntas antes de completar el curso:
 

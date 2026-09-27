@@ -3,7 +3,7 @@ layout: default
 title: "🧰 Herramientas que utilizaremos"
 parent: Inicio
 nav_order: 1
-description: "Herramientas de IA del curso: cuentas, usos docentes, radar por tareas, acceso institucional y privacidad."
+description: "Herramientas de IA del curso: cuentas, usos docentes, radar por tareas, acceso institucional, ventajas educativas para profesorado y privacidad."
 ---
 
 # 🧰 Herramientas que utilizaremos
@@ -175,6 +175,242 @@ La cuenta importa tanto como la herramienta. Antes de subir contenido:
 - Verifica respuestas, fuentes y derechos de imágenes o voces antes de reutilizar los resultados.
 
 Para ampliar: [protección de datos y uso seguro]({{ '/bloque1-seguridad.html' | relative_url }}) y [uso responsable y alfabetización en IA]({{ '/bloque4-alfabetizacion-alumnado.html' | relative_url }}). La configuración de cuentas se desarrolla en la guía de identidad digital enlazada al comienzo.
+
+## 👩‍🏫 Herramientas y ventajas gratuitas para profesorado
+{: id="ventajas-docentes" }
+
+Ser docente puede darnos acceso a **planes educativos gratuitos, funciones premium o herramientas específicamente diseñadas para el profesorado**. Pero no todas funcionan igual:
+
+- 🎓 Algunas requieren **verificar nuestra condición de docente**: Canva Educación o GitHub Education.
+- 🏫 Otras dependen de una **licencia educativa institucional**: Copilot Chat, según la licencia de Microsoft 365.
+- 🏛️ Algunas se conceden gratuitamente a **instituciones elegibles**: Google Workspace for Education Fundamentals.
+- 🆓 Otras ofrecen un **plan gratuito orientado a docentes**, con límites: Brisk, MagicSchool o Diffit Basic.
+
+Antes de registrarnos, conviene comprobar los requisitos y condiciones vigentes. **Gratuito no significa ilimitado ni autorizado automáticamente por nuestro centro.**
+
+<details markdown="1">
+<summary>🧭 Ir a una herramienta: índice para profesorado</summary>
+
+- [🎓 Gemini for Education](#gemini-education)
+- [🎨 Canva Educación](#canva-educacion)
+- [💻 GitHub Education + Copilot Pro](#github-education)
+- [🤖 Microsoft Copilot Chat](#copilot-chat-docentes)
+- [🖼️ Adobe Express for Education](#adobe-education)
+- [🧠 Miro Education](#miro-education)
+- [✨ Brisk](#brisk-docentes)
+- [🪄 MagicSchool](#magicschool-docentes)
+- [📚 Diffit](#diffit-docentes)
+
+</details>
+
+### 🎓 Gemini for Education gratis para profesorado
+{: #gemini-education .no_toc }
+
+**¿Qué obtienes?** Google Workspace for Education Fundamentals es gratuito para instituciones educativas que cumplen los requisitos. Incluye Gmail, Drive, Documentos, Hojas de cálculo, Presentaciones, Formularios, Meet, Classroom y herramientas administrativas y de seguridad. Da acceso a Gemini for Education, Gemini Notebook y Gemini en Classroom, según habilitación, edad y disponibilidad. Las ampliaciones de IA y algunas integraciones requieren otras licencias: consulta la [edición Fundamentals](https://edu.google.com/workspace-for-education/editions/education-fundamentals/).
+
+**¿Quién puede solicitarlo?** La institución educativa elegible, mediante una persona autorizada para administrarlo.
+
+**¿Qué necesitas?** Acreditación institucional, un dominio que controle la institución y una persona responsable de administrar cuentas y servicios. Para usarlo como docente necesitas la cuenta educativa que te proporcione ese entorno.
+
+{: .callout .callout--recuerda }
+**⚠️ Importante: no se solicita de forma individual.** Google Workspace for Education se concede a la **institución educativa**, no al docente individual. Tener una dirección `nombre@centroeducativo.es`, `nombre@edu.gva.es` o `nombre@universidad.es` no permite solicitarlo personalmente en nombre de ese dominio.
+
+#### Cómo acceder si eres profesor o profesora
+{: .no_toc }
+
+1. Comprueba si tu centro ya utiliza Google Workspace for Education.
+2. Consulta con coordinación TIC y con el equipo directivo.
+3. Localiza al administrador de Workspace del centro o de la organización.
+4. Comprueba con él si Gemini está habilitado para tu cuenta.
+5. Accede a [Gemini](https://gemini.google.com) con la cuenta educativa correspondiente.
+
+#### Si tu centro no dispone de Workspace for Education
+{: .no_toc }
+
+Estos pasos corresponden a la persona autorizada por la institución:
+
+1. Revisar los [requisitos oficiales de elegibilidad](https://knowledge.workspace.google.com/admin/getting-started/editions/qualifications-for-google-workspace-for-education?hl=es).
+2. Disponer de un dominio controlado por la institución y de acceso a su configuración DNS.
+3. Solicitar Education Fundamentals desde la página oficial.
+4. Verificar el dominio: Google proporciona un **registro TXT** que el administrador añade al DNS. Es una prueba de control del dominio; por sí sola no valida la condición educativa. Consulta la [guía de verificación TXT](https://knowledge.workspace.google.com/admin/domains/verify-your-domain-with-a-txt-record?hl=es).
+5. Completar la validación institucional solicitada por Google.
+6. Crear las cuentas y configurar sus permisos.
+7. Habilitar Gemini y los servicios autorizados para los usuarios correspondientes.
+
+La [guía oficial de preparación](https://support.google.com/edu/setup/answer/6265879?hl=en) permite planificar el alta con el equipo técnico.
+
+#### 🏛️ ¿Y si utilizo una cuenta educativa de una Administración?
+{: .no_toc }
+
+Si el dominio está administrado centralmente, el docente no lo controla ni puede verificarlo personalmente. Debe consultar los servicios habilitados por la Administración.
+
+Por ejemplo, una cuenta **`@edu.gva.es`** acredita una relación con la Administración, pero no convierte al docente en administrador de `edu.gva.es`. **No intentes registrar `edu.gva.es` como dominio de tu centro.** Consulta al responsable institucional; esta guía no establece un procedimiento específico de GVA.
+
+#### 💡 ¿Tenemos que cambiar todo el centro a Google?
+{: .no_toc }
+
+Un centro que utiliza Microsoft 365, Teams u Outlook puede estudiar Workspace for Education para determinados servicios sin abandonar necesariamente su infraestructura actual. La institución debe valorar compatibilidad, gestión de cuentas, protección de datos y mantenimiento con su equipo técnico. No es una recomendación de migración ni una decisión que deba tomar un docente por su cuenta.
+
+**Enlace oficial:** [Información de Gemini for Education](https://edu.google.com/ai/gemini-for-education/).
+
+**Importante:** el acceso depende de la elegibilidad de la institución y de la configuración de sus servicios. No equivale a obtener un plan Google AI de pago con una cuenta personal por ser docente.
+
+### 🎨 Canva Educación
+{: #canva-educacion .no_toc }
+
+**¿Qué obtienes?** Un plan educativo gratuito con recursos de diseño y funciones premium para docentes elegibles. Sirve para preparar presentaciones, infografías y materiales de aula; la IA tiene sus propias condiciones y límites.
+
+**¿Quién puede solicitarlo?** Docentes individuales y centros elegibles de enseñanza escolar, según los [requisitos de Canva](https://www.canva.com/education/eligibility-guidelines/).
+
+**¿Qué necesitas?** Cuenta Canva y correo educativo reconocido o documentación que acredite tu actividad docente actual.
+
+**Cómo acceder:**
+
+1. **Opción 1 · Correo educativo reconocido.** Regístrate en Canva Educación con ese correo; si el dominio está verificado, el acceso puede ser directo.
+2. **Opción 2 · Verificación individual.** Si no se reconoce el dominio, solicita la verificación y aporta la documentación docente que pida Canva.
+3. **Opción 3 · A través del centro.** Si el centro gestiona Canva Educación, utiliza su invitación o su acceso institucional; los centros elegibles también pueden solicitarlo.
+
+**Enlace oficial:** [Solicitar Canva Educación](https://www.canva.com/education/).
+
+{: .callout .callout--recuerda }
+**Importante:** no es obligatorio que el centro esté previamente registrado para que un docente elegible inicie una solicitud individual. Comprueba tu situación concreta en **FP y otros niveles**; la oferta escolar no se extiende automáticamente a universidad, que dispone de una oferta diferente.
+
+### 💻 GitHub Education + Copilot Pro
+{: #github-education .no_toc }
+
+**¿Qué obtienes?** Un docente verificado mediante GitHub Education puede obtener **GitHub Copilot Pro gratis** mientras cumpla los requisitos. Especialmente útil en Informática, programación, DAM, DAW, ASIR, SMR, ciberseguridad, desarrollo web y administración de sistemas.
+
+**¿Quién puede solicitarlo?** El docente individual que acredite su vinculación con una institución elegible.
+
+**¿Qué necesitas?** Cuenta personal de GitHub, correo institucional y/o documentación acreditativa actual.
+
+**Cómo acceder:**
+
+1. Crea o utiliza tu cuenta GitHub.
+2. Entra en GitHub Education y solicita la verificación como docente.
+3. Aporta el correo institucional y los justificantes requeridos.
+4. Completa la verificación y espera su resolución.
+5. Activa Copilot Pro siguiendo las indicaciones de tu cuenta y comprueba que reconoce el beneficio gratuito.
+
+**Enlaces oficiales:** [Verificar GitHub Education](https://github.com/education/teachers) y [activar Copilot para profesorado verificado](https://docs.github.com/es/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers).
+
+**Importante:** la verificación y la activación son pasos distintos. El beneficio está sujeto a elegibilidad y límites de uso; no implica solicitudes avanzadas ilimitadas. Revisa el código antes de ejecutarlo.
+
+### 🤖 Microsoft Copilot Chat
+{: #copilot-chat-docentes .no_toc }
+
+**¿Qué obtienes?** Copilot Chat puede estar disponible **sin coste adicional con determinadas licencias Microsoft 365 Education**, cuando la institución lo habilita. Ayuda a consultar, preparar borradores y trabajar con información autorizada.
+
+**¿Quién puede solicitarlo?** La institución gestiona las licencias; el docente accede como usuario del entorno educativo compatible.
+
+**¿Qué necesitas?** Cuenta educativa o profesional, licencia compatible y servicio habilitado por la organización.
+
+**Cómo acceder:**
+
+1. Comprueba con el administrador qué licencia tiene asignada tu cuenta.
+2. Confirma que Copilot Chat está habilitado.
+3. Inicia sesión con la cuenta educativa o profesional y revisa qué funciones están disponibles.
+
+**Enlaces oficiales:** [Acceder a Copilot](https://m365.cloud.microsoft/chat) y [Copilot en educación: servicios y licencias](https://www.microsoft.com/en-us/education/products/copilot-in-education).
+
+**Importante:** **Copilot Chat** es el servicio de chat mediante cuentas compatibles. **Microsoft 365 Copilot** ofrece integración más profunda con las aplicaciones y los datos de Microsoft 365 y puede requerir una licencia adicional. No se trata de «Copilot Pro gratuito para profesores». Consulta también el [apartado de herramientas institucionales](#copilot-gva-información-actualizada).
+
+### 🖼️ Adobe Express for Education
+{: #adobe-education .no_toc }
+
+**¿Qué obtienes?** Acceso educativo gratuito para docentes y alumnado elegible de enseñanza escolar K–12, con funciones premium de Express y herramientas creativas de IA sujetas a condiciones. Permite crear carteles, imágenes, vídeos, presentaciones y materiales visuales.
+
+**¿Quién puede solicitarlo?** Centros e instituciones escolares elegibles; los docentes pueden acceder por las vías de verificación o incorporación disponibles en su país y centro.
+
+**¿Qué necesitas?** Correo escolar y, según la vía, verificación docente o cuenta administrada por el centro.
+
+**Cómo acceder:**
+
+1. Consulta si tu centro ya ofrece Adobe Express for Education.
+2. Utiliza el acceso institucional o la vía para docentes que muestre la página educativa oficial.
+3. Completa la verificación o inicia sesión con la cuenta escolar administrada.
+4. Comprueba que estás en el entorno educativo antes de crear o compartir materiales.
+
+**Enlace oficial:** [Acceder a Adobe Express for Education](https://www.adobe.com/education/express/).
+
+**Importante:** comprueba los niveles y países admitidos, especialmente en FP y universidad. No equivale a Creative Cloud completo gratis. Las funciones de IA dependen de la edad, la cuenta y las condiciones educativas de Adobe.
+
+### 🧠 Miro Education
+{: #miro-education .no_toc }
+
+**¿Qué obtienes?** Un plan Education gratuito para uso educativo elegible, con tableros, colaboración y plantillas para organizar ideas y actividades docentes.
+
+**¿Quién puede solicitarlo?** Personal docente vinculado a instituciones acreditadas que cumplan los requisitos. La solicitud debe respaldarse con esa vinculación institucional.
+
+**¿Qué necesitas?** Correo educativo y documentación o evidencia de tu relación con la institución; si no dispones de correo educativo, consulta las pruebas alternativas admitidas.
+
+**Cómo acceder:**
+
+1. Revisa los requisitos de la institución en la documentación oficial.
+2. Completa la solicitud educativa con tus datos y la acreditación requerida.
+3. Espera la validación y accede al equipo Education concedido.
+4. Comprueba que trabajas en ese equipo, especialmente si ya tenías uno Free.
+
+**Enlaces oficiales:** [Solicitar Miro Education](https://miro.com/education-whiteboard/) y [requisitos y límites de Education](https://help.miro.com/hc/en-us/articles/360017730473-Education-plan).
+
+**Importante:** las funciones de IA incluidas pueden ser más limitadas que en planes superiores. No se incluye Miro AI completo sin restricciones. En FP conviene verificar la categoría concreta del centro: Miro distingue instituciones técnicas acreditadas de programas de formación que excluye.
+
+### ✨ Brisk
+{: #brisk-docentes .no_toc }
+
+**¿Qué obtienes?** Un plan gratuito para docentes con herramientas para cuestionarios, actividades, rúbricas, feedback, adaptación de textos, materiales y planificación, dentro de los límites del plan.
+
+**¿Quién puede solicitarlo?** El docente individual. Los centros pueden contratar planes institucionales.
+
+**¿Qué necesitas?** Cuenta compatible y, para las funciones integradas en el navegador, la extensión y los permisos correspondientes. En dispositivos del centro puede requerirse autorización de instalación.
+
+**Cómo acceder:**
+
+1. Entra en la web oficial y selecciona el plan gratuito para educadores.
+2. Regístrate e instala la extensión si la función que vas a utilizar la requiere.
+3. Revisa los permisos y prueba una actividad con contenido ficticio o público.
+
+**Enlace oficial:** [Consultar el plan gratuito de Brisk](https://www.briskteaching.com/plans).
+
+**Importante:** existen planes superiores e institucionales de pago. Es un plan gratuito docente, no una concesión de todas las funciones premium por verificación.
+
+### 🪄 MagicSchool
+{: #magicschool-docentes .no_toc }
+
+**¿Qué obtienes?** Un plan Free para docentes individuales con herramientas de planificación, rúbricas, actividades, adaptación, comunicación, generación de materiales y apoyo docente.
+
+**¿Quién puede solicitarlo?** El docente individual; la institución puede contratar otras modalidades.
+
+**¿Qué necesitas?** Una cuenta en MagicSchool. Revisa las condiciones de uso y las instrucciones de tu centro.
+
+**Cómo acceder:**
+
+1. Accede a la web oficial y crea una cuenta docente.
+2. Selecciona o conserva el plan Free.
+3. Elige una herramienta docente y comprueba los límites que aparecen en tu cuenta.
+
+**Enlace oficial:** [Consultar MagicSchool Free y otros planes](https://www.magicschool.ai/pricing).
+
+**Importante:** hay planes superiores de pago. No todas las funciones premium ni toda la capacidad de uso están incluidas gratis; revisa el material generado antes de aplicarlo.
+
+### 📚 Diffit
+{: #diffit-docentes .no_toc }
+
+**¿Qué obtienes?** Un plan **Basic gratuito** para docentes, útil para adaptar textos, modificar el nivel de lectura y preparar materiales, actividades y recursos dentro de los límites disponibles.
+
+**¿Quién puede solicitarlo?** El docente individual. Los centros pueden adquirir acceso institucional.
+
+**¿Qué necesitas?** Una cuenta docente y textos o fuentes que puedas utilizar legítimamente.
+
+**Cómo acceder:**
+
+1. Regístrate desde la web oficial de Diffit.
+2. Comprueba el plan de tu cuenta y las funciones disponibles en Basic.
+3. Aporta un tema o texto autorizado y revisa el nivel y la calidad del recurso generado.
+
+**Enlace oficial:** [Consultar Diffit Basic y los planes educativos](https://web.diffit.me/plans).
+
+**Importante:** las funciones premium o institucionales pueden requerir pago. Una prueba temporal de funciones superiores no convierte esas funciones en parte permanente del plan Basic.
 
 ## 🎓 ¿También eres estudiante?
 {: id="estudiantes" }

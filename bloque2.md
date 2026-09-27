@@ -14,7 +14,28 @@ Aprende a trabajar con documentos, normativa y currículo real como base de las 
 
 ---
 
+## 🧭 En este bloque
+{: .no_toc .text-delta }
+
+<nav class="indice-bloque" aria-label="Índice del bloque" markdown="1">
+
+- [🎯 Objetivos del bloque](#objetivos-del-bloque)
+- [📖 2.1 · El "Prompt Pedagógico": anatomía en profundidad](#21--el-prompt-pedagógico-anatomía-en-profundidad)
+- [📖 2.2 · Técnicas avanzadas de prompting](#22--técnicas-avanzadas-de-prompting)
+- [📖 2.3 · Gemini Notebook: trabaja con el currículo oficial como fuente](#23--notebooklm-entrena-a-la-ia-con-el-currículo-oficial)
+- [📖 2.4 · Copilot vs. Gemini Notebook: ¿cuál uso para qué?](#24--copilot-vs-notebooklm-cuál-uso-para-qué)
+- [📖 2.5 · Comparativa ampliada: asistentes y trabajo con fuentes](#25--comparativa-ampliada-respuestas-curriculares-en-cinco-herramientas)
+- [📖 2.6 · Construye tu biblioteca de prompts reutilizables](#26--construye-tu-biblioteca-de-prompts-reutilizables)
+- [🚀 Actividad final del bloque — Crea un cuaderno docente con Gemini Notebook y diseña una situación de aprendizaje con IA](#actividad-final-del-bloque--crea-un-cuaderno-docente-con-notebooklm-y-diseña-una-situación-de-aprendizaje-con-ia)
+- [📚 Recursos complementarios](#-recursos-complementarios)
+- [✅ Checklist de autoevaluación](#-checklist-de-autoevaluación)
+
+</nav>
+
+---
+
 ## Objetivos del bloque
+{: id="objetivos-del-bloque" }
 
 Al finalizar este bloque serás capaz de:
 
@@ -31,6 +52,7 @@ Al finalizar este bloque serás capaz de:
 ---
 
 ## 2.1 · El "Prompt Pedagógico": anatomía en profundidad
+{: id="21--el-prompt-pedagógico-anatomía-en-profundidad" }
 
 En el Bloque 0 (Inicio) presentamos la fórmula básica. Ahora la profundizamos con **subcampos** que mejoran drásticamente la calidad de las respuestas:
 
@@ -399,6 +421,7 @@ En muchos casos, no basta con dar instrucciones: es necesario **guiar el razonam
 
 ---
 ## 2.2 · Técnicas avanzadas de prompting
+{: id="22--técnicas-avanzadas-de-prompting" }
 
 Ahora que ya has construido y analizado tu primer **prompt pedagógico avanzado** en la Actividad 2.1, es momento de ir un paso más allá.
 
@@ -850,6 +873,7 @@ Compara ecosistemas con una misma pregunta curricular y verifica cada respuesta 
 
 ---
 ## 2.6 · Construye tu biblioteca de prompts reutilizables
+{: id="26--construye-tu-biblioteca-de-prompts-reutilizables" }
 
 > En los apartados anteriores has visto cómo formular instrucciones más eficaces.
 > Ahora vamos a dar un paso más práctico: guardar y reutilizar lo que te funciona.
@@ -1513,6 +1537,7 @@ El enlace al cuaderno es opcional.
 ---
 
 ## 📚 Recursos complementarios
+{: id="-recursos-complementarios" }
 
 
 - [Gemini Notebook — Acceso directo](https://notebooklm.google.com)
@@ -1526,6 +1551,7 @@ El enlace al cuaderno es opcional.
 ---
 
 ## ✅ Checklist de autoevaluación
+{: id="-checklist-de-autoevaluación" }
 
 Antes de pasar al Bloque 3, asegúrate de poder responder **sí** a todas estas preguntas:
 

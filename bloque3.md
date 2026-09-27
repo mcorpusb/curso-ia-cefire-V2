@@ -13,7 +13,31 @@ Crea presentaciones, cómics, infografías, podcasts, audios realistas y vídeos
 {: .fs-5 .fw-300 }
 
 
+## 🧭 En este bloque
+{: .no_toc .text-delta }
+
+<nav class="indice-bloque" aria-label="Índice del bloque" markdown="1">
+
+- [🎯 Objetivos del bloque](#objetivos-del-bloque)
+- [📖 3.1 · Presentaciones educativas con IA: Gamma y Copilot en PowerPoint](#31--presentaciones-educativas-con-ia-gamma-y-copilot-en-powerpoint)
+- [📖 3.2 · Cómics e ilustraciones educativas con IA](#32--cómics-e-ilustraciones-educativas-con-ia)
+- [📖 3.2b · Cómic con Gemini Notebook](#32b--cómic-con-notebooklm)
+- [📖 3.2c · Infografías educativas con IA](#32c--infografías-educativas-con-ia)
+- [📖 3.3 · Audios realistas: narración, podcasts y accesibilidad](#33--audios-realistas-narración-podcasts-y-accesibilidad)
+- [📖 3.4 · Vídeos educativos con IA](#34--vídeos-educativos-con-ia)
+- [📖 3.5 · Apps educativas sencillas con IA: Gemini Canvas y Canva Code](#35--apps-educativas-sencillas-con-ia-gemini-canvas-y-canva-code)
+- [📖 3.6 · Comparativa multimodal: todas las herramientas de un vistazo](#36--comparativa-multimodal-todas-las-herramientas-de-un-vistazo)
+- [📖 3.7 · Integración multimodal en Situaciones de Aprendizaje](#37--integración-multimodal-en-situaciones-de-aprendizaje)
+- [📝  Actividad · Creación de recursos multimodales con IA para el aula](#--actividad--creación-de-recursos-multimodales-con-ia-para-el-aula)
+- [📚 Recursos complementarios](#-recursos-complementarios)
+- [✅ Checklist de autoevaluación](#-checklist-de-autoevaluación)
+
+</nav>
+
+---
+
 ## Objetivos del bloque
+{: id="objetivos-del-bloque" }
 
 Al finalizar este bloque serás capaz de:
 
@@ -30,6 +54,7 @@ Al finalizar este bloque serás capaz de:
 ---
 
 ## 3.1 · Presentaciones educativas con IA: Gamma y Copilot en PowerPoint
+{: id="31--presentaciones-educativas-con-ia-gamma-y-copilot-en-powerpoint" }
 
 ### 3.1.1 · Gamma: presentaciones desde un prompt
 
@@ -162,6 +187,7 @@ Para facilitar la navegación, las actividades de creación de presentaciones ed
 ---
 
 ## 3.2 · Cómics e ilustraciones educativas con IA
+{: id="32--cómics-e-ilustraciones-educativas-con-ia" }
 
 Los cómics son una herramienta pedagógica potente: combinan narrativa visual y textual, favorecen la comprensión lectora y conectan con el alumnado de todas las edades. Con IA generativa puedes crearlos sin saber dibujar.
 
@@ -281,6 +307,7 @@ Eres un Guionista y Director Visual especializado en cómic profesional. Tu trab
 
 ---
 ## 3.2c · Infografías educativas con IA
+{: id="32c--infografías-educativas-con-ia" }
 
 Las infografías son uno de los recursos más eficaces para sintetizar información compleja de forma visual. Con IA puedes generarlas rápidamente a partir de cualquier contenido textual.
 
@@ -457,6 +484,7 @@ Anima este póster infográfico 9:16 de [NOMBRE DEL SUJETO] como un reel profesi
 ---
 
 ## 3.3 · Audios realistas: narración, podcasts y accesibilidad
+{: id="33--audios-realistas-narración-podcasts-y-accesibilidad" }
 
 La generación de audio con IA tiene un enorme potencial educativo: desde hacer accesibles los apuntes para alumnado con dificultades de lectura hasta crear podcasts de repaso.
 
@@ -577,6 +605,7 @@ Formato:
 ---
 
 ## 3.4 · Vídeos educativos con IA
+{: id="34--vídeos-educativos-con-ia" }
 
 La generación de vídeo con IA ha avanzado enormemente. Aunque aún no sustituye a una grabación profesional, sí permite crear **vídeos explicativos cortos** de forma rápida y sin equipo de producción.
 
@@ -661,6 +690,7 @@ Tono: motivador, cercano, sin infantilizar. Máximo 200 palabras.
 ---
 
 ## 3.5 · Apps educativas sencillas con IA: Gemini Canvas y Canva Code
+{: id="35--apps-educativas-sencillas-con-ia-gemini-canvas-y-canva-code" }
 
 La creación de pequeñas apps educativas ya no requiere saber programar. Con herramientas como **Gemini Canvas** y **Canva Code** podemos generar prototipos interactivos a partir de un prompt: cuestionarios, juegos de repaso, simuladores sencillos, tarjetas autocorregibles, ruletas, actividades de clasificación o mini escape rooms.
 
@@ -803,6 +833,7 @@ El entregable debe incluir:
 ---
 
 ## 3.6 · Comparativa multimodal: todas las herramientas de un vistazo
+{: id="36--comparativa-multimodal-todas-las-herramientas-de-un-vistazo" }
 
 | Tipo de contenido | Herramienta GVA (prioridad) | Alternativa externa (sin datos personales) | Comparativa rápida |
 |:-------------------|:---------------------------|:------------------------------------------|:-------------------|
@@ -822,6 +853,7 @@ El entregable debe incluir:
 ---
 
 ## 3.7 · Integración multimodal en Situaciones de Aprendizaje
+{: id="37--integración-multimodal-en-situaciones-de-aprendizaje" }
 
 El verdadero valor de estas herramientas aparece cuando las combinas dentro de una **Situación de Aprendizaje LOMLOE** completa. Veamos un ejemplo integrador:
 
@@ -879,6 +911,7 @@ La generación de audio y vídeo con IA abre muchas posibilidades educativas, pe
 ---
 
 ## 📝  Actividad · Creación de recursos multimodales con IA para el aula
+{: id="--actividad--creación-de-recursos-multimodales-con-ia-para-el-aula" }
 
 ### Objetivo
 
@@ -1042,6 +1075,7 @@ Al finalizar la actividad, cada docente tendrá un recurso multimodal revisado, 
 ---
 
 ## 📚 Recursos complementarios
+{: id="-recursos-complementarios" }
 
 - [Gamma — Crear presentaciones con IA](https://gamma.app)
 - [ElevenLabs — Text to Speech](https://elevenlabs.io)
@@ -1056,6 +1090,7 @@ Al finalizar la actividad, cada docente tendrá un recurso multimodal revisado, 
 ---
 
 ## ✅ Checklist de autoevaluación
+{: id="-checklist-de-autoevaluación" }
 
 Antes de pasar al Bloque 4, asegúrate de poder responder **sí** a todas estas preguntas:
 

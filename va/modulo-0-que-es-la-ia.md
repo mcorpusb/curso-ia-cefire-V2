@@ -12,33 +12,62 @@ nav_exclude: true
 # Bloc 0: Què és la IA?
 {: .fs-8 }
 
-L'essencial per a començar amb criteri… i començar a provar.
+L'essencial per a començar amb criteri i passar a la pràctica
 {: .fs-5 .fw-300 }
 
 ---
 
 {: .callout .callout--idea }
 **Per a què serveix este bloc**  
-En este primer bloc descobriràs què entenem per intel·ligència artificial, coneixeràs algunes de les seues principals formes d'ús i començaràs a experimentar-hi.
+En este bloc descobriràs què entenem per **intel·ligència artificial**, coneixeràs les seues principals formes d'ús i començaràs a experimentar-hi de manera pràctica.
 
-També veurem una cosa fonamental: la IA pot ser molt útil, però pot equivocar-se, reproduir biaixos i no totes les tasques s'haurien de delegar.
+També veurem una cosa fonamental: la IA pot ser molt útil, però pot **equivocar-se**, reproduir **biaixos** i no totes les tasques s'haurien de delegar.
 
 **I, sobretot, la provarem.**
+
+---
+
+## 🧭 En este bloc
+{: .no_toc .text-delta }
+
+<nav class="indice-bloque" aria-label="Índex del bloc" markdown="1">
+
+- [🤖 La IA no és una sola cosa](#1-la-ia-no-és-una-sola-cosa)
+  - [🧩 Principals tipus d’IA](#tipus-ia)
+- [✨ Ens centrarem en la IA generativa](#2-ens-centrarem-en-la-ia-generativa)
+- [🛠️ Quatre formes de treballar-hi](#3-quatre-formes-de-treballar-hi)
+- [⚠️ Quan la IA sembla segura… però no ho és](#4-quan-la-ia-sembla-segura-però-no-ho-és)
+- [🎯 Què pot aportar i què no garantix](#5-què-pot-aportar-i-què-no-garantix)
+  - [🧠 Criteri professional](#criteri-professional)
+- [🔐 Privacitat, responsabilitat i marc legal](#6-privacitat-responsabilitat-i-marc-legal)
+- [🛠️ Amb quines eines experimentarem?](#7-amb-quines-eines-experimentarem)
+- [🗺️ Mapa conceptual del bloc](#bloc0-seccio-8)
+- [🚀 Activitat d'inici](#8-activitat-dinici)
+- [🧪 Ara sí: provarem la IA](#9-ara-sí-provarem-la-ia)
+- [📝 Repte · Una mateixa necessitat, dos resultats](#bloc0-seccio-11)
+- [✅ Idees clau del bloc](#bloc0-seccio-12)
+
+</nav>
 
 ---
 
 ## La IA no és una sola cosa
 {: id="1-la-ia-no-és-una-sola-cosa" }
 
-La **intel·ligència artificial (IA)** és un camp ampli. Inclou sistemes capaços de reconéixer patrons, fer prediccions, generar continguts o executar processos.
+La **intel·ligència artificial (IA)** és un camp ampli. Inclou sistemes capaços de **reconéixer patrons**, **fer prediccions**, **generar continguts** o **executar processos**.
 
-No tota la IA és generativa i no tota la IA funciona com un chatbot.
+**No tota la IA és generativa** ni tota la IA s’utilitza a través d’un **chatbot**.
+
+{: .text-small }
+**IA generativa:** intel·ligència artificial capaç de crear contingut nou, com ara text, imatges, àudio o codi.<br>
+**Chatbot:** eina dissenyada per a conversar amb una persona mitjançant text o veu.
 
 Per a situar-nos, podem distingir de manera simplificada tres grans formes d'IA:
 
 <img src="{{ '/assets/img/bloque0-tipos-ia-va.png' | relative_url }}" alt="Tres formes d'intel·ligència artificial: IA predictiva, IA generativa i agents d'IA, amb una breu explicació i exemples de cadascuna." style="width: 100%; height: auto;">
 
 ### IA predictiva
+{: id="tipus-ia" }
 
 Analitza patrons per a **classificar, recomanar o anticipar resultats**.
 
@@ -64,6 +93,10 @@ I hi ha una idea que ens acompanyarà durant tot el curs:
 {: .callout .callout--recuerda }
 **Com més autonomia, més supervisió.**
 
+Com més decisions o accions realitza una IA per si mateixa, més important és **revisar-ne els resultats**, **establir límits** i detectar possibles **errors o biaixos**.
+
+Això ajuda a detectar possibles **errors**, **biaixos** o **conseqüències no desitjades** abans que tinguen un impacte real.
+
 ---
 
 ## Ens centrarem en la IA generativa
@@ -83,9 +116,9 @@ Pot ajudar-nos, entre altres coses, a:
 - generar codi;
 - proposar alternatives.
 
-Però no es tracta d'utilitzar IA per a tot.
-
-Es tracta d'aprendre **quan pot aportar valor i quan no**.
+{: .callout .callout--reflexion }
+**La clau no és utilitzar IA per a tot,**<br>
+sinó aprendre **quan aporta valor i quan no**.
 
 {: .callout .callout--recuerda }
 **La IA genera respostes. Tu decidixes si són útils, correctes i adequades.**
@@ -125,17 +158,6 @@ Alguns agents poden encadenar diferents passos i utilitzar eines per a avançar 
 
 ---
 
-### Mapa conceptual del bloc
-
-<!-- IMAGEN YA EXISTENTE. NO MODIFICAR EL NOMBRE. -->
-
-<img src="{{ '/assets/img/bloque0-mapa-conceptual-va.svg' | relative_url }}" alt="Mapa conceptual del Bloc 0: la IA generativa permet conversar, treballar amb documents, investigar i executar processos; els seus resultats requerixen revisar errors, fonts, biaixos i adequació al context, i el treball docent seguix un cicle de necessitat, context i fonts, primera resposta, revisió, verificació i aplicació." style="width: 100%; height: auto;">
-
-El criteri que utilitzarem durant tot el curs serà el mateix:
-
-**NECESSITAT → CONTEXT/FONTS → 1a RESPOSTA → REVISIÓ → VERIFICACIÓ → APLICACIÓ**
-
----
 
 ## Quan la IA sembla segura… però no ho és
 {: id="4-quan-la-ia-sembla-segura-però-no-ho-és" }
@@ -200,6 +222,7 @@ Demanar a una eina que «siga neutral» no elimina automàticament estos problem
 
 No deixem d'utilitzar-la.
 
+{: .callout .callout--recuerda }
 **Aprenem a revisar-la.**
 
 Abans d'utilitzar informació important:
@@ -217,21 +240,24 @@ Abans d'utilitzar informació important:
 
 | Pot ajudar a… | No garantix… |
 |:----------------|:--------------|
-| Generar idees | Qualitat |
-| Crear i transformar esborranys | Veritat |
-| Treballar amb informació | Fonts correctes |
-| Proposar alternatives | Criteri pedagògic |
+| Generar idees | **Qualitat** |
+| Crear i transformar esborranys | **Veritat** |
+| Treballar amb informació | **Fonts correctes** |
+| Proposar alternatives | **Criteri pedagògic** |
 | Estalviar temps en alguns processos | Que el resultat siga adequat |
 | Donar suport al nostre treball | Que hàgem de delegar-lo |
+{: .tabla-aportaciones }
+
+### Abans d’utilitzar IA, fes-te dos preguntes
+{: id="criteri-professional" }
+
+{: .callout .callout--compara }
+**1. Puc fer-ho amb IA?**<br>
+La primera pregunta es referix a la **capacitat tècnica**.
 
 {: .callout .callout--reflexion }
-La pregunta no és únicament:
-
-**«Puc fer-ho amb IA?»**
-
-També hem de preguntar-nos:
-
-**«Té sentit utilitzar IA per a fer-ho?»**
+**2. Té sentit utilitzar IA per a fer-ho?**<br>
+La segona posa al centre el **criteri professional**.
 
 ---
 
@@ -245,7 +271,7 @@ Però necessitem establir algunes regles que ens acompanyaran **durant tot el cu
 ### Una regla senzilla per a les nostres pràctiques
 
 {: .callout .callout--privacidad }
-**En les pràctiques del curs no introduïsques dades personals ni sensibles de l'alumnat.**
+**NO INTRODUÏSQUES DADES PERSONALS NI SENSIBLES DE L'ALUMNAT.**
 
 Treballarem amb informació:
 
@@ -259,20 +285,23 @@ En situacions reals, seguix també les instruccions institucionals i comprova le
 
 ---
 
-### Hi ha decisions que no deleguem
+### Hi ha decisions que NO DELEGUEM
 
 Especialment aquelles que afecten directament les persones:
 
+{: .callout .callout--reflexion }
 **Qualificacions · Diagnòstics · Orientació · Disciplina · Adaptacions · Decisions professionals rellevants**
 
 La IA pot ajudar-nos a **preparar, analitzar o contrastar informació**.
 
-La responsabilitat professional continua sent nostra.
+{: .responsabilidad-profesional }
+La **responsabilitat professional** continua sent nostra.
 
 {: .callout .callout--reflexion }
 **Pregunta abans de començar:**  
 Esta tasca es beneficia realment de la IA o fer-la sense IA té un valor professional o formatiu que convé preservar?
 
+{: .callout .callout--reflexion }
 **Saber quan no s'ha d'utilitzar IA també és una competència professional.**
 
 ---
@@ -300,14 +329,6 @@ Volem comprovar què ocorre quan fem peticions semblants a sistemes diferents i 
 
 <img src="{{ '/assets/img/bloque0-herramientas-ia-va.png' | relative_url }}" alt="Eines d'intel·ligència artificial utilitzades durant el curs: ChatGPT, Microsoft Copilot, Gemini, Claude i Kimi." style="width: 100%; height: auto;">
 
-Treballarem, entre altres, amb:
-
-- **ChatGPT**
-- **Microsoft Copilot**
-- **Gemini**
-- **Claude**
-- **Kimi**
-
 Les funcions, els models i les condicions d'accés canvien amb freqüència.
 
 Consulta el [Radar d'eines]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}) per a revisar opcions, condicions d'accés i límits actualitzats.
@@ -322,6 +343,21 @@ No és necessari que utilitzes un compte personal o institucional si no vols fer
 **Si preferixes separar les pràctiques del curs dels teus comptes habituals, pots crear un compte específic per al curs i utilitzar-lo per a registrar-te en les diferents eines.**
 
 Utilitza únicament les eines amb què et sentes còmode i revisa les seues condicions d'accés i privacitat abans de registrar-t'hi.
+
+---
+
+## 🗺️ Mapa conceptual del bloc
+{: id="bloc0-seccio-8" }
+
+<!-- IMAGEN YA EXISTENTE. NO MODIFICAR EL NOMBRE. -->
+
+<img src="{{ '/assets/img/bloque0-mapa-conceptual-va.svg' | relative_url }}" alt="Mapa conceptual del Bloc 0: la IA generativa permet conversar, treballar amb documents, investigar i executar processos; els seus resultats requerixen revisar errors, fonts, biaixos i adequació al context, i el treball docent seguix un cicle de necessitat, context i fonts, primera resposta, revisió, verificació i aplicació." style="width: 100%; height: auto;">
+
+### Un criteri que ens acompanyarà durant tot el curs
+
+Este mapa resumix una manera de treballar que repetirem al llarg del curs: **partir d’una necessitat, aportar context, revisar la resposta, verificar-la i decidir com aplicar-la**.
+
+La IA pot ajudar-nos en el procés, però el **criteri i la decisió final continuen sent nostres**.
 
 ---
 
@@ -354,7 +390,7 @@ En finalitzar el curs tornarem a esta mateixa pissarra i comprovarem si la nostr
 
 ---
 
-# Ara sí: provarem la IA
+## Ara sí: provarem la IA
 {: id="9-ara-sí-provarem-la-ia" }
 
 Fins ara n'hem parlat.
@@ -368,6 +404,7 @@ Precisament volem comprovar què ocorre.
 ---
 
 ## Repte · Una mateixa necessitat, dos resultats
+{: id="bloc0-seccio-11" }
 
 Imagina que eres docent de **1r d'ASIR** i vols preparar una activitat introductòria sobre xarxes.
 
@@ -455,6 +492,7 @@ Observa com una mateixa conversa pot anar evolucionant i generar productes difer
 ---
 
 ## Idees clau del bloc
+{: id="bloc0-seccio-12" }
 
 - La IA no és una única tecnologia ni es limita als chatbots.
 - Podem distingir, de manera simplificada, IA predictiva, IA generativa i agents.

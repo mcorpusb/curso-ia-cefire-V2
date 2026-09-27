@@ -23,7 +23,29 @@ Duración aproximada: **8 horas**.
 
 ---
 
+## 🧭 En este bloque
+{: .no_toc .text-delta }
+
+<nav class="indice-bloque" aria-label="Índice del bloque" markdown="1">
+
+- [🎯 Objetivos del bloque](#objetivos-del-bloque)
+- [📖 Cómo trabajar este bloque](#cómo-trabajar-este-bloque)
+- [📖 Del Bloque 0 al Bloque 1: pedir mejor](#1-del-bloque-0-al-bloque-1-pedir-mejor)
+- [📖 Una receta sencilla para construir peticiones útiles](#2-una-receta-sencilla-para-construir-peticiones-útiles)
+- [📖 El contexto cambia el resultado](#3-el-contexto-cambia-el-resultado)
+- [📖 Iterar es parte del proceso](#4-iterar-es-parte-del-proceso)
+- [📖 No todas las peticiones persiguen lo mismo](#5-no-todas-las-peticiones-persiguen-lo-mismo)
+- [📖 Tu herramienta](#6-tu-herramienta)
+- [📖 Aplicación · Tareas colaborativas](#7-aplicación--tareas-colaborativas)
+- [🚀 Prácticas del bloque](#prácticas-del-bloque)
+- [📖 Cierre del bloque](#cierre-del-bloque)
+
+</nav>
+
+---
+
 ## Objetivos del bloque
+{: id="objetivos-del-bloque" }
 
 Al finalizar serás capaz de:
 
@@ -38,6 +60,7 @@ Al finalizar serás capaz de:
 ---
 
 ## Cómo trabajar este bloque
+{: id="cómo-trabajar-este-bloque" }
 
 Encontrarás tres tipos de contenido:
 
@@ -445,6 +468,7 @@ No utilices este tipo de actividad para delegar decisiones sobre distribución d
 ---
 
 ## Prácticas del bloque
+{: id="prácticas-del-bloque" }
 
 Estas propuestas sirven para experimentar.
 
@@ -509,6 +533,7 @@ El objetivo es **diseñar, probar y evaluar una estructura**, no entregar acceso
 ---
 
 ## Cierre del bloque
+{: id="cierre-del-bloque" }
 
 En este bloque has trabajado con una idea sencilla:
 
