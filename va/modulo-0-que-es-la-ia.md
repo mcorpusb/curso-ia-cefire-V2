@@ -44,7 +44,7 @@ També veurem una cosa fonamental: la IA pot ser molt útil, però pot **equivoc
 - [🗺️ Mapa conceptual del bloc](#mapa-conceptual-del-bloc)
 - [🚀 Activitat d'inici](#8-activitat-dinici)
 - [🧪 Ara sí: provarem la IA](#9-ara-sí-provarem-la-ia)
-- [📝 Repte · Una mateixa necessitat, dos resultats](#repte--una-mateixa-necessitat-dos-resultats)
+- [🎯 Repte · Una mateixa necessitat, dos resultats](#repte--una-mateixa-necessitat-dos-resultats)
 - [✅ Idees clau del bloc](#idees-clau-del-bloc)
 
 </nav>
@@ -403,14 +403,48 @@ Precisament volem comprovar què ocorre.
 
 ---
 
-## Repte · Una mateixa necessitat, dos resultats
+## 🎯 Repte · Una mateixa necessitat, dos resultats
 {: id="repte--una-mateixa-necessitat-dos-resultats" }
 
-Imagina que eres docent de **1r d'ASIR** i vols preparar una activitat introductòria sobre xarxes.
+Comprovarem què ocorre quan demanem alguna cosa a una IA **sense a penes context** i quan li proporcionem prou informació per a entendre realment què necessitem.
+
+### 👩‍🏫 Tria l’exemple més pròxim a la teua realitat
+
+<div class="resource-grid">
+  <div class="resource-card">
+    <div class="resource-card__icon" aria-hidden="true">🧸</div>
+    <h4 class="resource-card__titulo">Infantil</h4>
+    <p class="resource-card__desc">Dissenya una activitat per a treballar <strong>les emocions</strong> amb alumnat de 5 anys.</p>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card__icon" aria-hidden="true">📚</div>
+    <h4 class="resource-card__titulo">Primària</h4>
+    <p class="resource-card__desc">Dissenya una activitat per a treballar <strong>el cicle de l’aigua</strong> amb alumnat de 4t de Primària.</p>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card__icon" aria-hidden="true">🧪</div>
+    <h4 class="resource-card__titulo">Secundària / Batxillerat</h4>
+    <p class="resource-card__desc">Dissenya una activitat per a treballar <strong>el canvi climàtic</strong> amb alumnat de 3r d’ESO.</p>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card__icon" aria-hidden="true">💻</div>
+    <h4 class="resource-card__titulo">Formació Professional</h4>
+    <p class="resource-card__desc">Dissenya una activitat sobre <strong>introducció a les xarxes</strong> per a alumnat de 1r d’ASIR.</p>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card__icon" aria-hidden="true">🌍</div>
+    <h4 class="resource-card__titulo">EOI</h4>
+    <p class="resource-card__desc">Dissenya una activitat per a practicar <strong>l’expressió oral en una situació quotidiana</strong> amb alumnat de nivell B1.</p>
+  </div>
+</div>
+
+> Pots utilitzar un d’estos exemples o substituir-lo per un contingut de la teua pròpia matèria.
 
 ### Fase 1 · Demana-li-ho directament
 
-Obri una de les eines d'IA i escriu:
+Obri una de les eines d'IA i escriu únicament la petició que hages triat.
+
+Per exemple, si has triat FP:
 
 > **Dissenya una activitat sobre introducció a les xarxes per a alumnat de 1r d'ASIR.**
 
@@ -421,9 +455,9 @@ Encara no cal corregir-lo.
 Pregunta't:
 
 - És prou concret?
-- S'adapta realment a l'alumnat?
+- S'adapta realment al meu alumnat?
 - Quanta informació ha hagut d'imaginar la IA?
-- L'utilitzaries directament a classe?
+- L'utilitzaria directament a classe?
 
 ---
 
@@ -433,9 +467,9 @@ Ara no li demanarem directament l'activitat.
 
 Demanarem a la mateixa IA que ens ajude a construir una petició molt més completa.
 
-Escriu:
+Adapta este model a l’exemple que hages triat:
 
-> Vull dissenyar una activitat sobre introducció a les xarxes per a alumnat de 1r d'ASIR.
+> Vull dissenyar una activitat sobre **[tema]** per a alumnat de **[etapa, curs o nivell]**.
 >
 > Ajuda'm a crear un prompt molt detallat per a demanar-t'ho correctament.
 >
@@ -449,7 +483,7 @@ Quan obtingues el nou prompt:
 
 ---
 
-### Què ha canviat?
+### 🔎 Què ha canviat?
 
 Compara els dos resultats.
 

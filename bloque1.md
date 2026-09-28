@@ -29,16 +29,17 @@ Duración aproximada: **8 horas**.
 <nav class="indice-bloque" aria-label="Índice del bloque" markdown="1">
 
 - [🎯 Objetivos del bloque](#objetivos-del-bloque)
-- [📖 Cómo trabajar este bloque](#cómo-trabajar-este-bloque)
-- [📖 Del Bloque 0 al Bloque 1: pedir mejor](#1-del-bloque-0-al-bloque-1-pedir-mejor)
-- [📖 Una receta sencilla para construir peticiones útiles](#2-una-receta-sencilla-para-construir-peticiones-útiles)
-- [📖 El contexto cambia el resultado](#3-el-contexto-cambia-el-resultado)
-- [📖 Iterar es parte del proceso](#4-iterar-es-parte-del-proceso)
-- [📖 No todas las peticiones persiguen lo mismo](#5-no-todas-las-peticiones-persiguen-lo-mismo)
-- [📖 Tu herramienta](#6-tu-herramienta)
-- [📖 Aplicación · Tareas colaborativas](#7-aplicación--tareas-colaborativas)
+- [🧭 Cómo trabajar este bloque](#cómo-trabajar-este-bloque)
+- [🔄 Del Bloque 0 al Bloque 1: pedir mejor](#1-del-bloque-0-al-bloque-1-pedir-mejor)
+- [🧩 Una receta sencilla para construir peticiones útiles](#2-una-receta-sencilla-para-construir-peticiones-útiles)
+- [🎛️ El contexto cambia el resultado](#3-el-contexto-cambia-el-resultado)
+- [🔁 Iterar es parte del proceso](#4-iterar-es-parte-del-proceso)
+- [🗂️ No todas las peticiones persiguen lo mismo](#5-no-todas-las-peticiones-persiguen-lo-mismo)
+- [🛠️ Tu herramienta](#6-tu-herramienta)
+- [🤝 Aplicación · Tareas colaborativas](#7-aplicación--tareas-colaborativas)
 - [🚀 Prácticas del bloque](#prácticas-del-bloque)
-- [📖 Cierre del bloque](#cierre-del-bloque)
+- [✅ Cierre del bloque](#cierre-del-bloque)
+- [📤 Entrega del bloque](#entrega-del-bloque)
 
 </nav>
 
@@ -49,13 +50,13 @@ Duración aproximada: **8 horas**.
 
 Al finalizar serás capaz de:
 
-- explicar qué es un prompt y qué información necesita una petición útil;
-- aportar contexto sin exponer datos innecesarios;
-- mejorar una petición de forma progresiva;
-- revisar y refinar una primera respuesta;
-- diferenciar peticiones de documentación, comunicación y organización;
-- comprobar qué herramientas tienes disponibles y en qué condiciones;
-- crear y revisar borradores manteniendo siempre el criterio profesional.
+- **Explicar** qué es un prompt y qué información necesita una petición útil.
+- **Aportar** contexto sin exponer datos innecesarios.
+- **Mejorar** una petición de forma progresiva.
+- **Revisar** y refinar una primera respuesta.
+- **Diferenciar** peticiones de documentación, comunicación y organización.
+- **Comprobar** qué herramientas tienes disponibles y en qué condiciones.
+- **Crear** y revisar borradores manteniendo siempre el criterio profesional.
 
 ---
 
@@ -67,30 +68,6 @@ Encontrarás tres tipos de contenido:
 - **Esencial:** ideas y procesos que necesitas comprender.
 - **Prácticas:** propuestas breves para experimentar.
 - **Ampliación:** posibilidades que puedes explorar si resultan útiles en tu contexto.
-
-### Entrega del bloque
-
-Debes entregar **una única actividad individual**.
-
-La opción recomendada es realizar la actividad adaptada a tu etapa:
-
-- [Educación Infantil]({{ '/bloque1-actividad-infantil.html' | relative_url }})
-- [Educación Primaria]({{ '/bloque1-actividad-primaria.html' | relative_url }})
-- [Educación Secundaria]({{ '/bloque1-actividad-secundaria.html' | relative_url }})
-- [EOI]({{ '/bloque1-actividad-eoi.html' | relative_url }})
-- [Formación Profesional]({{ '/bloque1-actividad-fp.html' | relative_url }})
-
-Si ninguna encaja con tu situación profesional, puedes utilizar como alternativa la **Práctica B** o la **Práctica C** de esta página.
-
-Todas las rutas tienen el mismo valor formativo.
-
-La entrega incluirá:
-
-- el producto final revisado;
-- el contexto utilizado, sin datos personales;
-- un ejemplo breve de las instrucciones o interacción con la IA;
-- los cambios realizados por ti;
-- una reflexión breve sobre qué funcionó, qué corregiste y qué decidiste no delegar.
 
 {: .callout .callout--privacidad }
 **Uso seguro durante todo el bloque**  
@@ -550,6 +527,33 @@ Es el proceso:
 **NECESIDAD → CONTEXTO → PETICIÓN → PRIMERA RESPUESTA → REVISIÓN → AJUSTE → VERIFICACIÓN → DECISIÓN**
 
 En el **Bloque 2 · Prompting avanzado y gestión documental** profundizaremos en el trabajo con documentos y fuentes, la investigación asistida y estrategias de mejora para tareas más complejas.
+
+---
+
+## Entrega del bloque
+{: id="entrega-del-bloque" }
+
+Debes entregar **una única actividad individual**.
+
+La opción recomendada es realizar la actividad adaptada a tu etapa:
+
+- [Educación Infantil]({{ '/bloque1-actividad-infantil.html' | relative_url }})
+- [Educación Primaria]({{ '/bloque1-actividad-primaria.html' | relative_url }})
+- [Educación Secundaria]({{ '/bloque1-actividad-secundaria.html' | relative_url }})
+- [EOI]({{ '/bloque1-actividad-eoi.html' | relative_url }})
+- [Formación Profesional]({{ '/bloque1-actividad-fp.html' | relative_url }})
+
+Si ninguna encaja con tu situación profesional, puedes utilizar como alternativa la **Práctica B** o la **Práctica C** de esta página.
+
+Todas las rutas tienen el mismo valor formativo.
+
+La entrega incluirá:
+
+- el producto final revisado;
+- el contexto utilizado, sin datos personales;
+- un ejemplo breve de las instrucciones o interacción con la IA;
+- los cambios realizados por ti;
+- una reflexión breve sobre qué funcionó, qué corregiste y qué decidiste no delegar.
 
 ---
 

@@ -43,7 +43,7 @@ También veremos algo fundamental: la IA puede ser muy útil, pero puede **equiv
 - [🗺️ Mapa conceptual del bloque](#mapa-conceptual-del-bloque)
 - [🚀 Actividad de inicio](#8-actividad-de-inicio)
 - [🧪 Ahora sí: vamos a tocar la IA](#9-ahora-sí-vamos-a-tocar-la-ia)
-- [📝 Reto · Una misma necesidad, dos resultados](#reto--una-misma-necesidad-dos-resultados)
+- [🎯 Reto · Una misma necesidad, dos resultados](#reto--una-misma-necesidad-dos-resultados)
 - [✅ Ideas clave del bloque](#ideas-clave-del-bloque)
 
 </nav>
@@ -402,14 +402,48 @@ Precisamente queremos comprobar qué ocurre.
 
 ---
 
-## Reto · Una misma necesidad, dos resultados
+## 🎯 Reto · Una misma necesidad, dos resultados
 {: id="reto--una-misma-necesidad-dos-resultados" }
 
-Imagina que eres docente de **1.º de ASIR** y quieres preparar una actividad introductoria sobre redes.
+Vamos a comprobar qué ocurre cuando pedimos algo a una IA **sin apenas contexto** y cuando le proporcionamos información suficiente para entender realmente lo que necesitamos.
+
+### 👩‍🏫 Elige el ejemplo más cercano a tu realidad
+
+<div class="resource-grid">
+  <div class="resource-card">
+    <div class="resource-card__icon" aria-hidden="true">🧸</div>
+    <h4 class="resource-card__titulo">Infantil</h4>
+    <p class="resource-card__desc">Diseña una actividad para trabajar <strong>las emociones</strong> con alumnado de 5 años.</p>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card__icon" aria-hidden="true">📚</div>
+    <h4 class="resource-card__titulo">Primaria</h4>
+    <p class="resource-card__desc">Diseña una actividad para trabajar <strong>el ciclo del agua</strong> con alumnado de 4.º de Primaria.</p>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card__icon" aria-hidden="true">🧪</div>
+    <h4 class="resource-card__titulo">Secundaria / Bachillerato</h4>
+    <p class="resource-card__desc">Diseña una actividad para trabajar <strong>el cambio climático</strong> con alumnado de 3.º de ESO.</p>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card__icon" aria-hidden="true">💻</div>
+    <h4 class="resource-card__titulo">Formación Profesional</h4>
+    <p class="resource-card__desc">Diseña una actividad sobre <strong>introducción a las redes</strong> para alumnado de 1.º de ASIR.</p>
+  </div>
+  <div class="resource-card">
+    <div class="resource-card__icon" aria-hidden="true">🌍</div>
+    <h4 class="resource-card__titulo">EOI</h4>
+    <p class="resource-card__desc">Diseña una actividad para practicar <strong>la expresión oral en una situación cotidiana</strong> con alumnado de nivel B1.</p>
+  </div>
+</div>
+
+> Puedes utilizar uno de estos ejemplos o sustituirlo por un contenido de tu propia materia.
 
 ### Fase 1 · Pídeselo directamente
 
-Abre una de las herramientas de IA y escribe:
+Abre una de las herramientas de IA y escribe únicamente la petición que hayas elegido.
+
+Por ejemplo, si has elegido FP:
 
 > **Diseña una actividad sobre introducción a las redes para alumnado de 1.º de ASIR.**
 
@@ -420,21 +454,21 @@ Todavía no hace falta corregirlo.
 Pregúntate:
 
 - ¿Es suficientemente concreto?
-- ¿Se adapta realmente al alumnado?
+- ¿Se adapta realmente a mi alumnado?
 - ¿Cuánta información ha tenido que imaginar la IA?
-- ¿Lo utilizarías directamente en clase?
+- ¿Lo utilizaría directamente en clase?
 
 ---
 
 ### Fase 2 · Pide ayuda para pedir mejor
 
-Ahora no le vamos a pedir directamente la actividad.
+Ahora no vamos a pedir directamente la actividad.
 
-Vamos a pedirle a la propia IA que nos ayude a construir una petición mucho más completa.
+Vamos a pedir a la propia IA que nos ayude a construir una petición mucho más completa.
 
-Escribe:
+Adapta este modelo al ejemplo que hayas elegido:
 
-> Quiero diseñar una actividad sobre introducción a las redes para alumnado de 1.º de ASIR.
+> Quiero diseñar una actividad sobre **[tema]** para alumnado de **[etapa, curso o nivel]**.
 >
 > Ayúdame a crear un prompt muy detallado para pedírtelo correctamente.
 >
@@ -448,7 +482,7 @@ Cuando obtengas el nuevo prompt:
 
 ---
 
-### ¿Qué ha cambiado?
+### 🔎 ¿Qué ha cambiado?
 
 Compara ambos resultados.
 
