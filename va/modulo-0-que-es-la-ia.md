@@ -41,11 +41,11 @@ També veurem una cosa fonamental: la IA pot ser molt útil, però pot **equivoc
   - [🧠 Criteri professional](#criteri-professional)
 - [🔐 Privacitat, responsabilitat i marc legal](#6-privacitat-responsabilitat-i-marc-legal)
 - [🛠️ Amb quines eines experimentarem?](#7-amb-quines-eines-experimentarem)
-- [🗺️ Mapa conceptual del bloc](#bloc0-seccio-8)
+- [🗺️ Mapa conceptual del bloc](#mapa-conceptual-del-bloc)
 - [🚀 Activitat d'inici](#8-activitat-dinici)
 - [🧪 Ara sí: provarem la IA](#9-ara-sí-provarem-la-ia)
-- [📝 Repte · Una mateixa necessitat, dos resultats](#bloc0-seccio-11)
-- [✅ Idees clau del bloc](#bloc0-seccio-12)
+- [📝 Repte · Una mateixa necessitat, dos resultats](#repte--una-mateixa-necessitat-dos-resultats)
+- [✅ Idees clau del bloc](#idees-clau-del-bloc)
 
 </nav>
 
@@ -62,12 +62,12 @@ La **intel·ligència artificial (IA)** és un camp ampli. Inclou sistemes capa�
 **IA generativa:** intel·ligència artificial capaç de crear contingut nou, com ara text, imatges, àudio o codi.<br>
 **Chatbot:** eina dissenyada per a conversar amb una persona mitjançant text o veu.
 
+{: id="tipus-ia" }
 Per a situar-nos, podem distingir de manera simplificada tres grans formes d'IA:
 
 <img src="{{ '/assets/img/bloque0-tipos-ia-va.png' | relative_url }}" alt="Tres formes d'intel·ligència artificial: IA predictiva, IA generativa i agents d'IA, amb una breu explicació i exemples de cadascuna." style="width: 100%; height: auto;">
 
 ### IA predictiva
-{: id="tipus-ia" }
 
 Analitza patrons per a **classificar, recomanar o anticipar resultats**.
 
@@ -347,7 +347,7 @@ Utilitza únicament les eines amb què et sentes còmode i revisa les seues cond
 ---
 
 ## 🗺️ Mapa conceptual del bloc
-{: id="bloc0-seccio-8" }
+{: id="mapa-conceptual-del-bloc" }
 
 <!-- IMAGEN YA EXISTENTE. NO MODIFICAR EL NOMBRE. -->
 
@@ -404,7 +404,7 @@ Precisament volem comprovar què ocorre.
 ---
 
 ## Repte · Una mateixa necessitat, dos resultats
-{: id="bloc0-seccio-11" }
+{: id="repte--una-mateixa-necessitat-dos-resultats" }
 
 Imagina que eres docent de **1r d'ASIR** i vols preparar una activitat introductòria sobre xarxes.
 
@@ -492,7 +492,7 @@ Observa com una mateixa conversa pot anar evolucionant i generar productes difer
 ---
 
 ## Idees clau del bloc
-{: id="bloc0-seccio-12" }
+{: id="idees-clau-del-bloc" }
 
 - La IA no és una única tecnologia ni es limita als chatbots.
 - Podem distingir, de manera simplificada, IA predictiva, IA generativa i agents.

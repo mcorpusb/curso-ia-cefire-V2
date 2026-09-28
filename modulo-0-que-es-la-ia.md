@@ -40,11 +40,11 @@ También veremos algo fundamental: la IA puede ser muy útil, pero puede **equiv
   - [🧠 Criterio profesional](#criterio-profesional)
 - [🔐 Privacidad, responsabilidad y marco legal](#6-privacidad-responsabilidad-y-marco-legal)
 - [🛠️ ¿Con qué herramientas vamos a experimentar?](#7-con-qué-herramientas-vamos-a-experimentar)
-- [🗺️ Mapa conceptual del bloque](#bloc0-seccio-8)
+- [🗺️ Mapa conceptual del bloque](#mapa-conceptual-del-bloque)
 - [🚀 Actividad de inicio](#8-actividad-de-inicio)
 - [🧪 Ahora sí: vamos a tocar la IA](#9-ahora-sí-vamos-a-tocar-la-ia)
-- [📝 Reto · Una misma necesidad, dos resultados](#bloc0-seccio-11)
-- [✅ Ideas clave del bloque](#bloc0-seccio-12)
+- [📝 Reto · Una misma necesidad, dos resultados](#reto--una-misma-necesidad-dos-resultados)
+- [✅ Ideas clave del bloque](#ideas-clave-del-bloque)
 
 </nav>
 
@@ -61,12 +61,12 @@ La **inteligencia artificial (IA)** es un campo amplio. Incluye sistemas capaces
 **IA generativa:** inteligencia artificial capaz de crear contenido nuevo, como texto, imágenes, audio o código.<br>
 **Chatbot:** herramienta diseñada para mantener una conversación con una persona mediante texto o voz.
 
+{: id="tipos-ia" }
 Para situarnos, podemos distinguir de forma simplificada tres grandes formas de IA:
 
 <img src="{{ '/assets/img/bloque0-tipos-ia.png' | relative_url }}" alt="Tres formas de inteligencia artificial: IA predictiva, IA generativa y agentes de IA, con una breve explicación y ejemplos de cada una." style="width: 100%; height: auto;">
 
 ### IA predictiva
-{: id="tipos-ia" }
 
 Analiza patrones para **clasificar, recomendar o anticipar resultados**.
 
@@ -346,7 +346,7 @@ Utiliza únicamente las herramientas con las que te sientas cómodo y revisa sus
 ---
 
 ## 🗺️ Mapa conceptual del bloque
-{: id="bloc0-seccio-8" }
+{: id="mapa-conceptual-del-bloque" }
 
 <!-- IMAGEN YA EXISTENTE. NO MODIFICAR EL NOMBRE. -->
 
@@ -403,7 +403,7 @@ Precisamente queremos comprobar qué ocurre.
 ---
 
 ## Reto · Una misma necesidad, dos resultados
-{: id="bloc0-seccio-11" }
+{: id="reto--una-misma-necesidad-dos-resultados" }
 
 Imagina que eres docente de **1.º de ASIR** y quieres preparar una actividad introductoria sobre redes.
 
@@ -491,7 +491,7 @@ Observa cómo una misma conversación puede ir evolucionando y generar productos
 ---
 
 ## Ideas clave del bloque
-{: id="bloc0-seccio-12" }
+{: id="ideas-clave-del-bloque" }
 
 - La IA no es una única tecnología ni se limita a los chatbots.
 - Podemos distinguir, de forma simplificada, IA predictiva, IA generativa y agentes.
