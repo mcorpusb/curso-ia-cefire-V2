@@ -27,6 +27,8 @@ Google explica el [cambio de nombre y la integración](https://blog.google/innov
 
 - Abre [Gemini Notebook](https://notebooklm.google.com) con tu cuenta de Google. El acceso en cuentas educativas depende de la habilitación institucional.
 - Crea un cuaderno con un objetivo concreto, por ejemplo, contrastar los criterios de evaluación de una propuesta de aula.
+- Incorpora preferentemente estas fuentes: documentos propios, normativa oficial, fuentes públicas, recursos de dominio público, recursos con licencias abiertas compatibles y materiales cuyo uso esté autorizado.
+- Si utilizas material de terceros, identifica autor, fuente, licencia y condiciones de reutilización.
 - Incorpora fuentes públicas y pertinentes: el currículo oficial de tu etapa, orientaciones metodológicas y materiales propios sin datos personales. Revisa los límites vigentes de tu plan.
 - Pregunta por una relación concreta entre competencias, criterios y actividades. Pide citas y que se señale lo que no puede justificarse con las fuentes.
 - Abre las citas y comprueba el pasaje original. Una cita no garantiza que la interpretación sea correcta.
@@ -49,6 +51,8 @@ Si utilizas descubrimiento de fuentes, revisa los nuevos documentos antes de inc
 ## Privacidad y acceso
 
 Para las prácticas utiliza documentos públicos o materiales suficientemente anonimizados. La integración con Gemini no convierte una cuenta personal de Google en un entorno institucional autorizado para datos del alumnado.
+
+Que un documento no contenga datos personales no significa que pueda reutilizarse sin más. Si el material es de terceros, comprueba también la licencia, la autoría y las condiciones de uso antes de subirlo.
 
 Google distingue las condiciones de cuentas personales y de Workspace o Education. Revisa también los permisos al compartir cuadernos y las condiciones de los comentarios enviados para mejorar el servicio. Consulta la [documentación oficial sobre cuentas y privacidad](https://support.google.com/gemininotebook/answer/16164461?hl=es).
 

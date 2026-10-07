@@ -307,13 +307,15 @@ La **responsabilidad profesional** continúa siendo nuestra.
 
 ### Marco legal
 
-El [Reglamento (UE) 2024/1689](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689) establece un marco europeo para la inteligencia artificial basado, entre otros aspectos, en el nivel de riesgo de sus usos.
+En este curso tomamos como referencias principales el **RGPD**, la **LOPDGDD**, el **Reglamento (UE) 2024/1689 de Inteligencia Artificial (AI Act)**, la normativa de **propiedad intelectual** y la normativa educativa e instrucciones institucionales vigentes.
 
-En educación existen usos que requieren especial atención, especialmente cuando pueden influir en el acceso, la evaluación o decisiones relevantes sobre personas.
+El AI Act recuerda que la alfabetización en IA también es una competencia profesional: saber usar una herramienta implica comprender sus capacidades, sus límites, los riesgos y el nivel de supervisión humana que necesita.
+
+En educación no todo uso de IA es de alto riesgo. Sí pueden serlo determinados sistemas cuando influyen de forma significativa en el acceso, la admisión, la evaluación, la determinación del nivel educativo o ciertas decisiones relevantes sobre personas. Preparar una actividad, generar una explicación o crear un borrador de rúbrica no convierte automáticamente ese uso en alto riesgo.
 
 En la práctica, deben seguirse además las instrucciones vigentes de la **Generalitat Valenciana** y del propio centro.
 
-Durante el curso iremos incorporando cuestiones relacionadas con **privacidad, ética, verificación y uso responsable de forma transversal**, cuando sean relevantes para cada actividad.
+Durante el curso iremos incorporando cuestiones relacionadas con **privacidad, ética, verificación, autoría y uso responsable de forma transversal**, cuando sean relevantes para cada actividad.
 
 ---
 

@@ -32,20 +32,44 @@ També veurem una cosa fonamental: la IA pot ser molt útil, però pot **equivoc
 
 <nav class="indice-bloque" aria-label="Índex del bloc" markdown="1">
 
-- [🤖 La IA no és una sola cosa](#1-la-ia-no-és-una-sola-cosa)
-  - [🧩 Principals tipus d’IA](#tipus-ia)
-- [✨ Ens centrarem en la IA generativa](#2-ens-centrarem-en-la-ia-generativa)
-- [🛠️ Quatre formes de treballar-hi](#3-quatre-formes-de-treballar-hi)
-- [⚠️ Quan la IA sembla segura… però no ho és](#4-quan-la-ia-sembla-segura-però-no-ho-és)
-- [🎯 Què pot aportar i què no garantix](#5-què-pot-aportar-i-què-no-garantix)
-  - [🧠 Criteri professional](#criteri-professional)
-- [🔐 Privacitat, responsabilitat i marc legal](#6-privacitat-responsabilitat-i-marc-legal)
-- [🛠️ Amb quines eines experimentarem?](#7-amb-quines-eines-experimentarem)
-- [🗺️ Mapa conceptual del bloc](#mapa-conceptual-del-bloc)
-- [🚀 Activitat d'inici](#8-activitat-dinici)
-- [🧪 Ara sí: provarem la IA](#9-ara-sí-provarem-la-ia)
-- [🎯 Repte · Una mateixa necessitat, dos resultats](#repte--una-mateixa-necessitat-dos-resultats)
-- [✅ Idees clau del bloc](#idees-clau-del-bloc)
+- [Bloc 0: Què és la IA?](#bloc-0-què-és-la-ia)
+  - [🧭 En este bloc](#-en-este-bloc)
+  - [La IA no és una sola cosa](#la-ia-no-és-una-sola-cosa)
+    - [IA predictiva](#ia-predictiva)
+    - [IA generativa](#ia-generativa)
+    - [Agents d'IA](#agents-dia)
+  - [Ens centrarem en la IA generativa](#ens-centrarem-en-la-ia-generativa)
+  - [Quatre formes de treballar-hi](#quatre-formes-de-treballar-hi)
+    - [💬 Conversar i generar](#-conversar-i-generar)
+    - [📄 Treballar amb documents i fonts](#-treballar-amb-documents-i-fonts)
+    - [🔎 Buscar i investigar](#-buscar-i-investigar)
+    - [⚙️ Executar accions o processos](#️-executar-accions-o-processos)
+  - [Quan la IA sembla segura… però no ho és](#quan-la-ia-sembla-segura-però-no-ho-és)
+    - [Al·lucinacions](#allucinacions)
+    - [Biaixos i absències](#biaixos-i-absències)
+    - [Què fem, doncs?](#què-fem-doncs)
+  - [Què pot aportar i què no garantix](#què-pot-aportar-i-què-no-garantix)
+    - [Abans d’utilitzar IA, fes-te dos preguntes](#abans-dutilitzar-ia-fes-te-dos-preguntes)
+  - [Privacitat, responsabilitat i marc legal](#privacitat-responsabilitat-i-marc-legal)
+    - [Una regla senzilla per a les nostres pràctiques](#una-regla-senzilla-per-a-les-nostres-pràctiques)
+    - [Hi ha decisions que NO DELEGUEM](#hi-ha-decisions-que-no-deleguem)
+    - [Marc legal](#marc-legal)
+  - [Amb quines eines experimentarem?](#amb-quines-eines-experimentarem)
+    - [Prepara el teu entorn de treball](#prepara-el-teu-entorn-de-treball)
+  - [🗺️ Mapa conceptual del bloc](#️-mapa-conceptual-del-bloc)
+    - [Un criteri que ens acompanyarà durant tot el curs](#un-criteri-que-ens-acompanyarà-durant-tot-el-curs)
+  - [Activitat d'inici](#activitat-dinici)
+    - [🤖 On podria ajudar-me?](#-on-podria-ajudar-me)
+    - [🧑‍🏫 Què no delegaria?](#-què-no-delegaria)
+    - [🔍 Què comprovaria?](#-què-comprovaria)
+  - [Ara sí: provarem la IA](#ara-sí-provarem-la-ia)
+  - [🎯 Repte · Una mateixa necessitat, dos resultats](#-repte--una-mateixa-necessitat-dos-resultats)
+    - [👩‍🏫 Tria l’exemple més pròxim a la teua realitat](#-tria-lexemple-més-pròxim-a-la-teua-realitat)
+    - [Fase 1 · Demana-li-ho directament](#fase-1--demana-li-ho-directament)
+    - [Fase 2 · Demana ajuda per a demanar millor](#fase-2--demana-ajuda-per-a-demanar-millor)
+    - [🔎 Què ha canviat?](#-què-ha-canviat)
+    - [⭐ Si et sobra temps…](#-si-et-sobra-temps)
+  - [Idees clau del bloc](#idees-clau-del-bloc)
 
 </nav>
 
@@ -308,13 +332,15 @@ Esta tasca es beneficia realment de la IA o fer-la sense IA té un valor profess
 
 ### Marc legal
 
-El [Reglament (UE) 2024/1689](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1689) establix un marc europeu per a la intel·ligència artificial basat, entre altres aspectes, en el nivell de risc dels seus usos.
+En este curs prenem com a referències principals el **RGPD**, la **LOPDGDD**, el **Reglament (UE) 2024/1689 d'Intel·ligència Artificial (AI Act)**, la normativa de **propietat intel·lectual** i la normativa educativa i instruccions institucionals vigents.
 
-En educació hi ha usos que requerixen una atenció especial, especialment quan poden influir en l'accés, l'avaluació o decisions rellevants sobre persones.
+L'AI Act recorda que l'alfabetització en IA també és una competència professional: saber utilitzar una eina implica comprendre les seues capacitats, els seus límits, els riscos i el nivell de supervisió humana que necessita.
+
+En educació no tot ús d'IA és d'alt risc. Sí que ho poden ser determinats sistemes quan influeixen de manera significativa en l'accés, l'admissió, l'avaluació, la determinació del nivell educatiu o certes decisions rellevants sobre persones. Preparar una activitat, generar una explicació o crear un esborrany de rúbrica no convertix automàticament eixe ús en un ús d'alt risc.
 
 En la pràctica, s'han de seguir també les instruccions vigents de la **Generalitat Valenciana** i del mateix centre.
 
-Durant el curs anirem incorporant qüestions relacionades amb **privacitat, ètica, verificació i ús responsable de manera transversal**, quan siguen rellevants per a cada activitat.
+Durant el curs anirem incorporant qüestions relacionades amb **privacitat, ètica, verificació, autoria i ús responsable de manera transversal**, quan siguen rellevants per a cada activitat.
 
 ---
 

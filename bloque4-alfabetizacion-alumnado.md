@@ -94,13 +94,15 @@ Esta declaración cumple una función pedagógica doble: obliga al alumnado a re
 ## Autoría y citación
 {: id="4-autoría-y-citación" }
 
-Cuando un trabajo ha contado con asistencia de IA, existen dos prácticas emergentes aceptadas académicamente:
+No existe un único sistema universal de declaración o citación del uso de IA aplicable a todos los contextos educativos. Cada centro, universidad o actividad puede establecer sus propias normas.
 
-| Situación | Cómo citar |
-|---|---|
-| Texto generado y revisado | "Texto elaborado con asistencia de [nombre IA] (fecha). Revisado y modificado por el autor." |
-| Imagen generada | "Imagen generada con [herramienta] mediante el prompt: '…'" |
-| Resumen de documento | "Resumen obtenido con [herramienta] a partir de: [fuente original]." |
+Como buena práctica, cuando se use IA en un trabajo, conviene indicar:
+
+1. La herramienta utilizada.
+2. La finalidad de uso.
+3. Qué partes del trabajo fueron asistidas.
+4. Qué se revisó, modificó o descartó.
+5. Que el análisis, el razonamiento y las conclusiones finales son propios.
 
 {: .callout .callout--verifica }
 **Regla de oro de la autoría:** Si no puedes explicar el razonamiento detrás de cada párrafo de tu trabajo, ese párrafo no es tuyo, aunque lo hayas revisado superficialmente.

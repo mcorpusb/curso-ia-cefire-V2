@@ -401,19 +401,29 @@ creación — taxonomía de Bloom).
 |:----------|:-----------|:--------------------|
 | **RGPD** (Reglamento General de Protección de Datos) | Tratamiento de datos personales en la UE | No puedes introducir datos del alumnado en herramientas IA externas sin base legal |
 | **LOPDGDD** (Ley Orgánica 3/2018) | Adaptación española del RGPD | El centro es responsable del tratamiento de datos del alumnado |
-| **Directiva IA de la UE** (EU AI Act, 2024) | Clasifica sistemas de IA por nivel de riesgo | La educación se considera ámbito de **alto riesgo**: exige transparencia y supervisión humana |
-| **Instrucciones GVA sobre IA** | Política corporativa de la Generalitat | Copilot con cuenta `@edu.gva.es` es la herramienta autorizada para datos internos |
+| **Reglamento (UE) 2024/1689 de Inteligencia Artificial (AI Act)** | Clasifica sistemas de IA por nivel de riesgo | Determinados usos educativos pueden ser de alto riesgo; no todo uso docente lo es |
+| **Instrucciones GVA sobre IA** | Política corporativa de la Generalitat | Sigue siempre las instrucciones institucionales vigentes sobre herramientas y datos autorizados |
 | **LOMLOE** (Disposiciones sobre evaluación) | Evaluación continua, formativa y objetiva | **La IA no puede ser el evaluador final**: el docente firma y es responsable |
+
+En educación, un uso ordinario como generar un borrador de rúbrica, una actividad o ejemplos no convierte automáticamente el sistema en un uso de alto riesgo. Sí pueden ser especialmente sensibles los usos que influyen en admisiones, evaluación automatizada relevante, asignación de nivel educativo, decisiones que afecten sustancialmente a la trayectoria o determinados sistemas de supervisión de exámenes.
+
+### Semáforo legal rápido
+
+| 🟢 Verde | 🟠 Revisa | 🔴 No sigas |
+|:---------|:----------|:------------|
+| Datos ficticios o públicos. Material propio. Fuentes oficiales. Licencia adecuada. IA como apoyo. Resultado revisado por el docente. | Material de terceros. Imágenes o voz de personas. Información potencialmente identificable. Herramientas externas. Decisiones que afectan al alumnado. Contenido sintético que puede parecer real. | Informes psicopedagógicos o expedientes en servicios no autorizados. Datos especialmente sensibles sin garantías adecuadas. Delegar una calificación o decisión disciplinaria en la IA. Usar la IA como sustituto del juicio profesional. Reconocimiento emocional del alumnado cuando encaje en la prohibición del AI Act. |
 
 ### 4.4.2 · Los 7 principios de uso ético de la IA en tu aula
 
 - **Transparencia:** Informa a alumnado y familias de que utilizas IA como herramienta de apoyo. No lo ocultes.
 - **Supervisión humana:** Nunca delegues una decisión evaluativa o disciplinar en la IA. Revisa siempre.
-- **Privacidad por defecto:** Usa Copilot `@edu.gva.es` para datos del centro. Para herramientas externas: solo datos ficticios o públicos.
+- **Privacidad por defecto:** Usa solo herramientas institucionales habilitadas y, aun en ellas, revisa qué datos están autorizados antes de compartirlos. Para herramientas externas: solo datos ficticios o públicos.
 - **Equidad:** Verifica que los materiales generados por IA no contienen sesgos (de género, culturales, socioeconómicos).
 - **Verificación:** La IA puede alucinar. Contrasta siempre con fuentes oficiales (DOGV, BOE, libros de texto).
 - **Alfabetización IA del alumnado:** Enseña a tu alumnado qué es la IA, cómo funciona y cómo usarla críticamente.
 - **Proporcionalidad:** Usa la IA cuando aporte valor real. No la uses por usarla.
+
+> **Ejemplo de práctica no permitida en este curso:** no utilices IA para inferir emociones del alumnado en el centro educativo mediante reconocimiento facial, voz u otros datos biométricos, salvo las excepciones legalmente previstas relacionadas con motivos médicos o de seguridad.
 
 ### 4.4.3 · Qué PUEDO y qué NO PUEDO hacer: guía práctica
 

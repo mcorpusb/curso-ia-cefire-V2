@@ -388,23 +388,35 @@ El profesorado participante tiene distintos niveles de competencia digital y dif
 
 ## Enfoque ético, legal y pedagógico
 
-Las dimensiones ética, legal y pedagógica no son un tema aparte: atraviesan todo el curso. Se concretan en estos principios:
+Las dimensiones ética, legal y pedagógica no son un tema aparte: atraviesan todo el curso. La legalidad no se trabaja como un bloque jurídico aislado, sino cuando hace falta tomar una decisión docente sobre datos, fuentes, autoría, evaluación o transparencia.
+
+Distinguimos tres planos: **obligación legal**, **instrucción institucional** y **buena práctica**. No todas las recomendaciones tienen el mismo peso, y el curso evita presentar una buena práctica como si fuera una prohibición legal.
+
+Se concretan en estos principios:
 
 ### La IA no sustituye el juicio docente
 
 La IA genera borradores, propuestas y materiales de apoyo. Pero la decisión final —evaluativa, pedagógica, disciplinar— recae siempre en el docente. La responsabilidad profesional y legal no se delega en una máquina.
 
-### Protección de datos y privacidad
+### Protección de datos, autoría y propiedad intelectual
 
-El curso forma en el cumplimiento del RGPD, la LOPDGDD y las instrucciones de la GVA. Se distingue entre servicios disponibles mediante la cuenta institucional y herramientas externas, cuyas condiciones de tratamiento de datos deben comprobarse antes de su uso. Se practica de forma concreta qué información puede compartirse en cada servicio.
+El curso forma en el cumplimiento del RGPD, la LOPDGDD, la normativa de propiedad intelectual y las instrucciones de la GVA. Se distingue entre servicios disponibles mediante la cuenta institucional y herramientas externas, cuyas condiciones de tratamiento de datos, autoría y reutilización deben comprobarse antes de su uso. Se practica de forma concreta qué información puede compartirse en cada servicio y qué material puede subirse o transformarse.
+
+### Alfabetización en IA
+
+Se trabaja la alfabetización en IA como parte del aprendizaje profesional: comprender capacidades, límites, sesgos, niveles de supervisión humana y efectos reales en la práctica docente. Este enfoque conecta con el artículo 4 del AI Act y con la necesidad de usar la herramienta con criterio.
 
 ### Verificación de resultados
 
-La IA puede inventar datos, citar normativa inexistente o generar contenidos con apariencia verosímil pero sin base real. El curso enseña a **contrastar siempre** con fuentes oficiales (DOGV, BOE) y a usar herramientas como Gemini Notebook para verificar la precisión curricular.
+La IA puede inventar datos, citar normativa inexistente o generar contenidos con apariencia verosímil pero sin base real. El curso enseña a **contrastar siempre** con fuentes oficiales (DOGV, BOE) y a usar herramientas como Gemini Notebook para verificar la precisión curricular. Cuando exista contenido sintético que pueda parecer real, el curso favorece la transparencia explícita.
 
 ### Sesgos y fiabilidad limitada
 
 Los modelos de IA pueden reproducir sesgos de género, culturales o capacitistas. El curso incluye actividades de auditoría para detectar y corregir estos problemas antes de llevar los materiales al aula.
+
+### Supervisión humana y proporcionalidad
+
+La IA se utiliza como apoyo cuando aporta valor pedagógico real. Se evita delegar decisiones que deben tomar las personas y se analiza siempre si la tarea gana o pierde cuando pasa por una herramienta generativa.
 
 ### Uso proporcionado
 

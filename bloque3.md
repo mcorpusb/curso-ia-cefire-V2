@@ -49,7 +49,22 @@ Al finalizar este bloque serás capaz de:
 - **Personalizar el aprendizaje mediante IA**, ajustando materiales multimodales a la diversidad de niveles y realidades del aula de forma rápida y escalable.
 - Integrar todos estos recursos en **situaciones de aprendizaje LOMLOE** respetando los principios del **DUA** (múltiples medios de representación).
 
-> **⚠️ Seguridad GVA:** Las herramientas de generación multimodal que veremos en este bloque son **externas al ecosistema GVA**. Nunca subas fotografías del alumnado, datos personales ni documentos internos. Usa solo contenido ficticio o con licencia abierta como material de partida.
+> **⚠️ Seguridad GVA:** Las herramientas de generación multimodal que veremos en este bloque son **externas al ecosistema GVA**. En las prácticas de este bloque no subas fotografías del alumnado, datos personales ni documentos internos. Usa solo contenido ficticio o con licencia abierta como material de partida.
+
+### Antes de generar una imagen profesional con IA
+
+Antes de generar o transformar una imagen, pregúntate:
+
+- ¿aparece una persona real?
+- ¿es alumnado o un menor?
+- ¿estoy utilizando una fotografía ajena?
+- ¿la imagen permite identificar a alguien?
+- ¿estoy simulando o manipulando la identidad de una persona?
+- ¿el resultado puede confundirse con una fotografía o vídeo real?
+
+En las prácticas de este curso no utilizaremos imágenes, vídeos o voces identificables del alumnado en servicios generativos. Trabajaremos con contenido sintético, propio o expresamente autorizado.
+
+Como buena práctica educativa, cuando un resultado pueda parecer real conviene añadir una indicación clara como: **"Imagen creada con IA y revisada por el autor/a del material"**.
 
 ---
 
@@ -224,7 +239,7 @@ No incluyas texto ni letras en la imagen.
 ```
 >💡 Este mismo prompt puede usarse en ChatGPT para generar la imagen directamente.
 
-> **⚠️ Seguridad GVA:** Copilot Chat con tu cuenta `@edu.gva.es` incluye generación de imágenes con IA (sujeto a disponibilidad y configuración del tenant) con filtros de contenido corporativo. Es la opción más segura para generar imágenes. **Nunca pidas que genere imágenes que se parezcan a personas reales, alumnado concreto o menores identificables.**
+> **⚠️ Seguridad GVA:** Copilot Chat con tu cuenta `@edu.gva.es` incluye generación de imágenes con IA (sujeto a disponibilidad y configuración del tenant) con filtros de contenido corporativo. Es una opción adecuada para generar imágenes educativas. En este curso no pediremos imágenes que se parezcan a personas reales, alumnado concreto o menores identificables; trabajaremos con avatares genéricos, ilustraciones ficticias o material expresamente autorizado.
 
 ### Ejemplo de prompt: Guion de cómic educativo (para cualquier herramienta)
 
@@ -881,12 +896,12 @@ La generación de audio y vídeo con IA abre muchas posibilidades educativas, pe
 | Situación | ¿Está permitido? | Condiciones / buenas prácticas |
 |---|---|---|
 | Voz IA genérica (no basada en nadie real) | ✅ Sí | Opción recomendada para narraciones educativas. |
-| Uso de voz del docente | ⚠️ Depende | Requiere consentimiento informado y uso limitado. |
-| Clonación de voz (replicar voz real) | ❌ No | Riesgo de suplantación y uso indebido. |
+| Uso de voz del docente | ⚠️ Revísalo | Requiere consentimiento informado y una finalidad educativa clara. |
+| Clonación de voz (replicar voz real) | ⚠️ Evitar como práctica del curso | Solo tendría sentido en contextos legítimos, autorizados y con garantías adecuadas. |
 | Uso de avatares IA genéricos | ✅ Sí | No deben representar a personas reales. |
-| Uso de imagen del docente | ⚠️ Depende | Solo con consentimiento y finalidad educativa clara. |
-| Uso de imagen del alumnado | ❌ No | Protección de menores y datos personales. |
-| Vídeos realistas tipo deepfake | ❌ No | Pueden generar desinformación o suplantación. |
+| Uso de imagen del docente | ⚠️ Revísalo | Solo con consentimiento y finalidad educativa clara. |
+| Uso de imagen del alumnado | 🚫 No la usamos en este curso | Trabajaremos con imágenes ficticias o expresamente autorizadas. |
+| Vídeos realistas tipo deepfake | ⚠️ Extremar revisión | Si el resultado puede confundirse con un vídeo real, debe tratarse con máxima transparencia. |
 
 **Riesgos a tener en cuenta:**
 
@@ -896,15 +911,17 @@ La generación de audio y vídeo con IA abre muchas posibilidades educativas, pe
 - Uso indebido fuera del contexto educativo.
 - Exposición involuntaria de datos personales.
 
+Si el contenido sintético puede parecer real, añade siempre una señal clara de contexto y evita cualquier uso que pueda confundir a la comunidad educativa sobre la identidad de una persona.
+
 **Buenas prácticas en el aula:**
 
 - Informa siempre al alumnado cuando uses voz o vídeo generado con IA.
-- Evita simular personas reales (docentes, alumnado o terceros).
+- Evita simular personas reales (docentes, alumnado o terceros) salvo finalidad legítima, autorización adecuada y condiciones de uso seguras.
 - Solicita consentimiento informado si usas tu propia voz o imagen.
 - Prioriza herramientas con avatares y voces genéricas.
 - Usa la IA cuando aporte valor pedagógico, no solo estético.
 
-✅ **Ejemplo correcto:** crear un vídeo explicativo con un avatar genérico y voz IA para introducir un tema en Aules.
+✅ **Ejemplo correcto:** crear un vídeo explicativo con un avatar genérico y voz IA para introducir un tema en Aules, indicando que el contenido es sintético.
 
 ⚠️ **Ejemplo incorrecto:** clonar la voz de un docente o usar la imagen de alumnado para generar un vídeo sin consentimiento.
 

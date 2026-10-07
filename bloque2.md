@@ -771,6 +771,12 @@ No existe un prompt único válido para todo.
 
 Los cuadernos pueden utilizarse y sincronizarse con Gemini. Esto permite continuar un trabajo en ambas experiencias, sin que sus funciones sean idénticas: comprueba qué fuentes y herramientas usa cada respuesta. **Cargar fuentes no entrena el modelo** ni garantiza que todas sus interpretaciones sean correctas.
 
+Hay dos preguntas distintas que conviene separar: **protección de datos** y **propiedad intelectual**. Que un documento no contenga datos personales no significa que podamos subirlo libremente a una herramienta de IA.
+
+Antes de cargar una fuente, pregúntate: **¿es mía, es pública, tiene una licencia que lo permite o tengo autorización para utilizarla?**
+
+Cuando utilices material de terceros, identifica siempre autor, fuente, licencia y condiciones de reutilización.
+
 Consulta la [guía de Gemini Notebook para docentes]({{ '/bloque2-notebooklm.html' | relative_url }}) para conocer la integración y el flujo de trabajo.
 
 ### ¿Por qué es clave para docentes?
