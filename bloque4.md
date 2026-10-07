@@ -195,7 +195,7 @@ paso. Varía la redacción para que no sean comentarios idénticos.
 Formato: Tabla con columnas [Alumno/a | Nivel | Comentario motivador].
 ```
 
-> **⚠️ Seguridad GVA:** En el prompt anterior se usan **datos ficticios** (Alumno/a A, B, C...). **Nunca introduzcas nombres reales** en herramientas externas. Si usas Copilot `@edu.gva.es`, los datos están protegidos, pero aún así es buena práctica anonimizar.
+> **⚠️ Seguridad GVA:** En el prompt anterior se usan **datos ficticios** (Alumno/a A, B, C...). **Nunca introduzcas nombres reales** en herramientas externas. Incluso en un entorno institucional, comprueba qué datos están autorizados para ese servicio y anonimiza siempre que sea posible.
 
 > **💡 Consejo:** Revisa siempre el feedback generado antes de entregarlo. La IA produce borradores útiles, pero tú conoces a cada alumno/a y puedes añadir el toque personal que marca la diferencia.
 
@@ -400,10 +400,10 @@ creación — taxonomía de Bloom).
 | Normativa | Qué regula | Implicación docente |
 |:----------|:-----------|:--------------------|
 | **RGPD** (Reglamento General de Protección de Datos) | Tratamiento de datos personales en la UE | No puedes introducir datos del alumnado en herramientas IA externas sin base legal |
-| **LOPDGDD** (Ley Orgánica 3/2018) | Adaptación española del RGPD | El centro es responsable del tratamiento de datos del alumnado |
+| **LOPDGDD** (Ley Orgánica 3/2018) | Adaptación española del RGPD | La Administración educativa o entidad titular que corresponda actúa como responsable del tratamiento según el servicio y el contexto |
 | **Reglamento (UE) 2024/1689 de Inteligencia Artificial (AI Act)** | Clasifica sistemas de IA por nivel de riesgo | Determinados usos educativos pueden ser de alto riesgo; no todo uso docente lo es |
 | **Instrucciones GVA sobre IA** | Política corporativa de la Generalitat | Sigue siempre las instrucciones institucionales vigentes sobre herramientas y datos autorizados |
-| **LOMLOE** (Disposiciones sobre evaluación) | Evaluación continua, formativa y objetiva | **La IA no puede ser el evaluador final**: el docente firma y es responsable |
+| **Normativa educativa y evaluación** | Regula la evaluación y las decisiones educativas | La IA puede utilizarse como apoyo para diseñar instrumentos, analizar información o proponer retroalimentación, pero las decisiones evaluativas requieren supervisión y responsabilidad profesional |
 
 En educación, un uso ordinario como generar un borrador de rúbrica, una actividad o ejemplos no convierte automáticamente el sistema en un uso de alto riesgo. Sí pueden ser especialmente sensibles los usos que influyen en admisiones, evaluación automatizada relevante, asignación de nivel educativo, decisiones que afecten sustancialmente a la trayectoria o determinados sistemas de supervisión de exámenes.
 
@@ -437,7 +437,7 @@ En educación, un uso ordinario como generar un borrador de rúbrica, una activi
 | Usar IA para preparar una adaptación curricular | Incluir el informe del SPE como prompt en una IA externa |
 | Crear un podcast con voces IA y avisar de que es sintético | Usar voces IA para suplantar a personas reales sin consentimiento |
 
-> **⚠️ Seguridad GVA:** Ante la duda sobre si puedes introducir un dato en una herramienta IA externa, aplica la **regla de la fotocopia pública**: *"¿Dejaría este documento en la fotocopiadora del pasillo del centro?"*. Si la respuesta es no, **no lo subas a ninguna IA que no sea Copilot `@edu.gva.es`**.
+> **⚠️ Seguridad GVA:** Ante la duda sobre si puedes introducir un dato en una herramienta IA externa, aplica la **regla de la fotocopia pública**: *"¿Dejaría este documento en la fotocopiadora del pasillo del centro?"*. Si un documento contiene información personal, confidencial o sensible, no lo subas a ninguna herramienta de IA salvo que exista una autorización institucional clara para ese tratamiento y para esa categoría de datos. En las prácticas del curso utilizaremos datos ficticios, públicos o suficientemente anonimizados.
 
 ### 4.4.4 · Reflexión sobre el impacto real de la IA en la educación secundaria
 

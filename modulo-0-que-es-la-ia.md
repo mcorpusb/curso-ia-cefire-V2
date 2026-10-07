@@ -309,7 +309,9 @@ La **responsabilidad profesional** continúa siendo nuestra.
 
 En este curso tomamos como referencias principales el **RGPD**, la **LOPDGDD**, el **Reglamento (UE) 2024/1689 de Inteligencia Artificial (AI Act)**, la normativa de **propiedad intelectual** y la normativa educativa e instrucciones institucionales vigentes.
 
-El AI Act recuerda que la alfabetización en IA también es una competencia profesional: saber usar una herramienta implica comprender sus capacidades, sus límites, los riesgos y el nivel de supervisión humana que necesita.
+El artículo 4 del AI Act establece que los proveedores y responsables del despliegue deben adoptar medidas para procurar un nivel suficiente de alfabetización en IA de las personas que utilizan estos sistemas en su nombre, teniendo en cuenta su formación, experiencia y contexto de uso.
+
+En nuestro contexto, alfabetizarse en IA significa comprender sus capacidades, límites, riesgos y el nivel de supervisión humana que necesita.
 
 En educación no todo uso de IA es de alto riesgo. Sí pueden serlo determinados sistemas cuando influyen de forma significativa en el acceso, la admisión, la evaluación, la determinación del nivel educativo o ciertas decisiones relevantes sobre personas. Preparar una actividad, generar una explicación o crear un borrador de rúbrica no convierte automáticamente ese uso en alto riesgo.
 

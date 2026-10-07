@@ -64,7 +64,9 @@ Antes de generar o transformar una imagen, pregúntate:
 
 En las prácticas de este curso no utilizaremos imágenes, vídeos o voces identificables del alumnado en servicios generativos. Trabajaremos con contenido sintético, propio o expresamente autorizado.
 
-Como buena práctica educativa, cuando un resultado pueda parecer real conviene añadir una indicación clara como: **"Imagen creada con IA y revisada por el autor/a del material"**.
+Como buena práctica educativa, cuando resulte útil para la transparencia conviene añadir una indicación clara como: **"Imagen creada con IA y revisada por el autor/a del material"**.
+
+Eso es una buena práctica, no una obligación general para toda imagen generada.
 
 ---
 
@@ -901,7 +903,7 @@ La generación de audio y vídeo con IA abre muchas posibilidades educativas, pe
 | Uso de avatares IA genéricos | ✅ Sí | No deben representar a personas reales. |
 | Uso de imagen del docente | ⚠️ Revísalo | Solo con consentimiento y finalidad educativa clara. |
 | Uso de imagen del alumnado | 🚫 No la usamos en este curso | Trabajaremos con imágenes ficticias o expresamente autorizadas. |
-| Vídeos realistas tipo deepfake | ⚠️ Extremar revisión | Si el resultado puede confundirse con un vídeo real, debe tratarse con máxima transparencia. |
+| Vídeos realistas tipo deepfake | ⚠️ Extremar revisión | Determinados contenidos manipulados o generados que constituyen deepfakes están sujetos a obligaciones específicas de transparencia del artículo 50 del AI Act. |
 
 **Riesgos a tener en cuenta:**
 

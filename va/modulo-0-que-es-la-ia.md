@@ -334,7 +334,9 @@ Esta tasca es beneficia realment de la IA o fer-la sense IA té un valor profess
 
 En este curs prenem com a referències principals el **RGPD**, la **LOPDGDD**, el **Reglament (UE) 2024/1689 d'Intel·ligència Artificial (AI Act)**, la normativa de **propietat intel·lectual** i la normativa educativa i instruccions institucionals vigents.
 
-L'AI Act recorda que l'alfabetització en IA també és una competència professional: saber utilitzar una eina implica comprendre les seues capacitats, els seus límits, els riscos i el nivell de supervisió humana que necessita.
+L'article 4 de l'AI Act establix que els proveïdors i els responsables del desplegament han d'adoptar mesures per a procurar un nivell suficient d'alfabetització en IA de les persones que utilitzen estos sistemes en nom seu, tenint en compte la seua formació, experiència i context d'ús.
+
+En el nostre context, alfabetitzar-se en IA significa comprendre les seues capacitats, límits, riscos i el nivell de supervisió humana que necessita.
 
 En educació no tot ús d'IA és d'alt risc. Sí que ho poden ser determinats sistemes quan influeixen de manera significativa en l'accés, l'admissió, l'avaluació, la determinació del nivell educatiu o certes decisions rellevants sobre persones. Preparar una activitat, generar una explicació o crear un esborrany de rúbrica no convertix automàticament eixe ús en un ús d'alt risc.
 
