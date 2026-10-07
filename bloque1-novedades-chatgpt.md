@@ -24,6 +24,8 @@ La regla del curso sigue siendo la misma: evita datos personales, documentos int
 
 Study Mode es una experiencia de aprendizaje que intenta guiar al usuario con preguntas, explicaciones progresivas y comprobaciones de comprensión, en lugar de dar inmediatamente una respuesta cerrada.
 
+Study Mode sí puede utilizarse como práctica del curso porque está disponible en los planes de ChatGPT, aunque la interfaz concreta puede variar.
+
 ### ¿Cuándo puede ser útil?
 
 - Para aprender un concepto nuevo.
@@ -68,6 +70,8 @@ En ChatGPT, un **Plugin** puede reunir capacidades reutilizables para realizar u
 - otras capacidades asociadas al flujo de trabajo.
 
 Una **Skill** es un flujo de trabajo reutilizable que puede contener instrucciones, ejemplos, recursos y pasos para ayudar a ChatGPT a realizar una tarea de forma más consistente.
+
+Importante para este curso: no necesitas disponer de Skills para realizar las actividades. Trabajaremos primero el diseño del flujo: objetivo, instrucciones, pasos, ejemplos, límites y criterios de calidad. Si tu cuenta permite convertir ese flujo en una Skill o Plugin, podrás hacerlo de forma opcional.
 
 Ejemplos docentes:
 

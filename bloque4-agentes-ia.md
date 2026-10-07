@@ -22,6 +22,8 @@ En ChatGPT, la secuencia práctica que trabajaremos es esta:
 
 **Prompt reutilizable** → **instrucciones estructuradas** → **Skill** → **Plugin** con Skills y, si procede, apps conectadas.
 
+Esta secuencia representa una evolución conceptual del flujo reutilizable, no una ruta obligatoria que todos los participantes tengan que completar.
+
 ### Qué significa cada paso
 
 - **Prompt reutilizable**: una instrucción bien redactada que puedes copiar y volver a usar.
