@@ -11,6 +11,8 @@ nav_order: 5
 Recursos de IA especializados organizados por etapas, listos para probar, adaptar y usar en el aula.
 {: .fs-5 .fw-300 }
 
+> **Aviso:** Los GPTs personalizados están en proceso de retirada. Algunos recursos de este banco pueden dejar de estar disponibles o migrar a Plugins. Comprueba siempre su disponibilidad antes de utilizarlos.
+
 ---
 
 <div class="callout callout--idea" role="note" aria-label="Qué encontrarás en esta página">
@@ -25,7 +27,7 @@ Un banco curado de Gems (Google Gemini) y GPTs (ChatGPT) educativos organizados 
 
 ### ¿Qué es una Gem o un GPT educativo?
 
-Una **Gem** (Google Gemini) o un **GPT personalizado** (ChatGPT) es un asistente de IA especializado que ha sido configurado previamente con instrucciones, contexto y un rol concreto. En lugar de arrancar desde cero con cada conversación, una Gem/GPT ya sabe qué debe hacer, cómo responder y en qué registro.
+Una **Gem** (Google Gemini) o un **GPT personalizado** (ChatGPT) es un asistente de IA especializado que ha sido configurado previamente con instrucciones, contexto y un rol concreto. En lugar de arrancar desde cero con cada conversación, una Gem/GPT ya sabe qué debe hacer, cómo responder y en qué registro. En el caso de ChatGPT, los GPTs forman parte de una etapa de transición hacia flujos reutilizables más modulares.
 
 Desde el punto de vista docente, son **asistentes temáticos reutilizables**: un tutor de matemáticas, un corrector de escritura, un generador de rúbricas, un simulador de entrevistas de trabajo...
 

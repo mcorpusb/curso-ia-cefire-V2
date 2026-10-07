@@ -19,11 +19,13 @@ En esta página vamos a trabajar con la idea de "agente de IA" desde dos niveles
 <strong>Como concepto:</strong> un asistente especializado que sigue unas instrucciones y ayuda en una tarea concreta.
 <br><strong>Como práctica docente:</strong> un conjunto de instrucciones reutilizables que podemos configurar en Copilot, Gemini o ChatGPT para que la herramienta actúe de una forma determinada.
 <br><br>
+<strong>Contenido de referencia:</strong> la parte de ChatGPT refleja una etapa anterior. OpenAI está migrando estos flujos hacia Plugins y Skills; por eso, en las páginas actualizadas del curso, el foco está en aprender a diseñar instrucciones reutilizables.
+<br><br>
 En este curso se puede trabajar de varias formas, según lo que permita tu cuenta:
 <ul>
   <li>Con <strong>agentes reales de Copilot</strong> (Agent Builder o Copilot Studio), si la licencia lo permite.</li>
   <li>Con <strong>Gemini Gems</strong>, si la función está disponible en tu cuenta de Google.</li>
-  <li>Con <strong>GPTs personalizados de ChatGPT</strong>, si tu cuenta lo permite.</li>
+  <li>Con <strong>GPTs personalizados de ChatGPT</strong>, si tu cuenta lo permite y mientras duren las cuentas que aún los conserven.</li>
   <li>O usando un <strong>prompt estructurado en modo agente</strong>, sin necesidad de guardar nada. Esta es la opción más universal y no depende de permisos especiales.</li>
 </ul>
 Lo importante no es la herramienta, sino aprender a <strong>diseñar buenas instrucciones</strong>. Si tu cuenta permite guardarlas como agente, las guardaremos. Si no, funcionan igualmente como <strong>prompt reutilizable</strong>.
@@ -86,7 +88,7 @@ Cuando hablamos de "usar un agente de IA", no siempre nos referimos a lo mismo. 
 |:-----|:-------|:------------|:------------------------------|
 | **Agente real de Copilot** | Un asistente configurado en Microsoft 365 Copilot mediante Agent Builder o en Copilot Studio. | Sí, si la cuenta y la organización permiten crear y guardar agentes. | Solo si la opción está disponible con la cuenta @edu.gva.es. |
 | **Gem de Gemini** | Un asistente personalizado de Gemini con instrucciones guardadas. | Sí, si la función Gems está disponible en la cuenta. | Sí, como alternativa para practicar, siempre sin introducir datos personales ni información sensible. |
-| **GPT personalizado de ChatGPT** | Un asistente personalizado creado en ChatGPT con instrucciones guardadas, nombre, descripción y, según el plan, conocimiento o archivos de apoyo. | Sí, si la cuenta permite crear GPTs. | Sí, como alternativa para crear asistentes educativos, siempre sin datos personales ni información sensible. |
+| **GPT personalizado de ChatGPT (en transición)** | Un asistente personalizado creado en ChatGPT con instrucciones guardadas, nombre, descripción y, según el plan, conocimiento o archivos de apoyo. | Sí, si la cuenta permite crear GPTs. | Sí, como referencia de una etapa anterior y para aprender a diseñar instrucciones transferibles a Plugins o Skills. |
 | **Modo agente mediante prompt** | Un prompt largo y estructurado que hace que Copilot, Gemini o ChatGPT se comporten como un asistente especializado durante una conversación. | No necesariamente. Hay que pegarlo o reutilizarlo cuando se necesite. | Sí. Es la opción más universal y la que no depende de permisos especiales. |
 
 En este curso, cuando hablemos de "diseñar un agente", nos referiremos sobre todo a diseñar bien sus instrucciones. Si la herramienta permite guardarlas como agente, las guardaremos. Si no, las usaremos como **prompt reutilizable**.
@@ -493,10 +495,10 @@ Una vez hayas pegado este prompt en Copilot o Gemini:
 
 ---
 
-## Crear un GPT en ChatGPT: asistente personalizado para docentes
+## Crear un GPT en ChatGPT: asistente personalizado para docentes (en transición)
 {: id="7-crear-un-gpt-en-chatgpt-asistente-personalizado-para-docentes" }
 
-ChatGPT permite crear GPTs personalizados: asistentes con nombre, descripción, instrucciones guardadas y, según la configuración y el plan, posibilidad de añadir conocimiento de apoyo o archivos de referencia. La disponibilidad de esta función puede depender del plan y de la configuración de la cuenta.
+ChatGPT permite crear GPTs personalizados: asistentes con nombre, descripción, instrucciones guardadas y, según la configuración y el plan, posibilidad de añadir conocimiento de apoyo o archivos de referencia. En esta etapa del producto siguen disponibles en algunas cuentas, pero OpenAI ha anunciado su retirada progresiva y recomienda migrar los flujos reutilizables hacia Plugins y Skills. La disponibilidad concreta depende del plan, la cuenta y el espacio de trabajo.
 
 **¿Para qué puede servir un GPT en educación?**
 
@@ -514,6 +516,19 @@ ChatGPT permite crear GPTs personalizados: asistentes con nombre, descripción, 
 
 > **Diferencia clave**: cuando usas ChatGPT normalmente, tienes que explicar el contexto en cada conversación. Un GPT personalizado ya tiene ese contexto guardado y lo aplica desde el primer mensaje.
 
+### De GPT a Plugin y Skill
+
+Cuando diseñes un GPT o un prompt reutilizable, piensa en la estructura que podría convertirse después en una Skill o en un Plugin:
+
+- tarea concreta;
+- pasos reutilizables;
+- ejemplos;
+- límites claros;
+- criterios de calidad;
+- advertencias de privacidad.
+
+Ese diseño es la parte más valiosa para el profesorado, porque se puede trasladar entre herramientas sin depender del nombre comercial.
+
 **Precauciones importantes:**
 
 - No incluyas datos personales del alumnado ni documentos internos del centro.
@@ -530,6 +545,8 @@ ChatGPT permite crear GPTs personalizados: asistentes con nombre, descripción, 
 - **Pruébalo con un caso docente real** (sin datos personales).
 - **Ajusta las instrucciones** a partir de lo que observes en la prueba.
 - **Guarda el GPT** y, si procede, compártelo según los permisos disponibles en tu cuenta.
+
+> Si tu cuenta no permite guardar GPTs, conserva las mismas instrucciones como prompt reutilizable o como base para una Skill/Plugin cuando la herramienta lo permita.
 
 ### Ejemplo completo: Generador de feedback competencial
 

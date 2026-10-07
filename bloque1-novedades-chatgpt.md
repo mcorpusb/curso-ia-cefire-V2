@@ -6,123 +6,88 @@ nav_exclude: true
 
 # Novedades de ChatGPT para docentes
 
-## Nueva generación de imágenes y usos educativos
+ChatGPT en 2026 combina conversación, archivos, aprendizaje guiado, investigación con fuentes, generación de imágenes y una nueva capa de asistentes reutilizables. Para docencia, la clave no es seguir cada función nueva, sino saber para qué sirve en una tarea real.
 
-### Introducción
+## 1. Chat conversacional y trabajo con archivos
 
-ChatGPT sigue evolucionando y, entre sus novedades más útiles para la educación, destaca la mejora en la generación de imágenes. Ahora es más fácil crear recursos visuales adaptados a las necesidades del aula.
+ChatGPT sigue siendo útil para conversar, resumir textos, transformar borradores y trabajar con archivos de apoyo. En educación, esto sirve para:
 
-### ¿Qué hay de nuevo en ChatGPT?
+- preparar ideas iniciales;
+- reformular textos;
+- extraer puntos clave de documentos;
+- generar borradores de actividades;
+- revisar lenguaje, tono o estructura.
 
-La nueva versión de ChatGPT permite crear imágenes a partir de descripciones de forma más precisa y creativa. Ahora entiende mejor las instrucciones visuales y puede generar materiales personalizados para presentaciones, actividades, fichas o recursos de apoyo. Esto facilita que los docentes preparen materiales visuales atractivos y adaptados a su alumnado, ahorrando tiempo y ganando flexibilidad.
+La regla del curso sigue siendo la misma: evita datos personales, documentos internos o información sensible.
 
-### ¿Qué aporta la nueva generación de imágenes?
+## 2. Study Mode o modo de estudio
 
-Con ChatGPT puedes pedir imágenes simplemente describiendo lo que necesitas. Esto ayuda a:
+Study Mode es una experiencia de aprendizaje que intenta guiar al usuario con preguntas, explicaciones progresivas y comprobaciones de comprensión, en lugar de dar inmediatamente una respuesta cerrada.
 
-- Adaptar materiales al nivel y edad del alumnado.
-- Ilustrar conceptos, escenas, cuentos o portadas.
-- Crear carteles, fichas y actividades visuales.
-- Ahorrar tiempo en la preparación de recursos.
-- Pedir cambios o ajustes fácilmente hasta que el resultado encaje.
+### ¿Cuándo puede ser útil?
 
-**Ejemplos cotidianos:**
-- Ilustrar el ciclo del agua para Ciencias.
-- Crear una escena de la Edad Media para Historia.
-- Diseñar una portada para un proyecto de clase.
-- Generar imágenes para vocabulario en inglés o para normas del aula.
+- Para aprender un concepto nuevo.
+- Para practicar problemas paso a paso.
+- Para revisar apuntes.
+- Para preparar un examen.
+- Para detectar lagunas de comprensión.
+- Para trabajar razonamiento sin recibir la solución de inmediato.
 
-### Ejemplos útiles para docentes
+### Prueba rápida: respuesta directa frente a Study Mode
 
-- Crear una ilustración para explicar el ciclo del agua.
-- Generar una escena histórica para trabajar en clase.
-- Diseñar una portada para un proyecto escolar.
-- Crear una imagen tipo póster con normas del aula.
-- Generar una secuencia visual para un cuento.
-- Hacer una imagen para vocabulario en inglés.
-- Crear recursos para infantil o primaria.
-- Preparar materiales visuales para alumnado con apoyo extra.
+1. Elige un concepto de tu materia.
+2. Pregunta a ChatGPT directamente: “Explícame [concepto]”.
+3. Después trabaja el mismo concepto con Study Mode.
+4. Compara si hace preguntas, detecta lo que ya sabes y comprueba tu comprensión.
+5. Reflexiona: ¿en qué situaciones interesa obtener una respuesta y en cuáles interesa que la IA no la dé inmediatamente?
 
-### Prompts listos para usar por docentes
+Study Mode puede ayudar a aprender mejor, pero no convierte a ChatGPT en un profesor fiable ni sustituye la supervisión docente.
 
-**Ciencias**
+## 3. Investigación con fuentes
 
-- "Dibuja el ciclo del agua con nubes, lluvia, ríos y sol, para niños de primaria."
-  (Para explicar procesos naturales de forma visual)
-- "Ilustra una célula vegetal con sus partes principales, estilo sencillo y colores vivos."
-  (Para identificar partes en Ciencias Naturales)
+ChatGPT también puede apoyar la investigación con fuentes y la búsqueda asistida. Cuando uses funciones de investigación profunda, recuerda el principio del Bloque 2: la herramienta no garantiza por sí sola que la investigación sea correcta. Revisa siempre fuentes, autoridad, actualidad y correspondencia entre cita y afirmación.
 
-**Historia**
+- [Investigación y verificación con IA]({{ '/bloque2-investigacion-verificacion.html' | relative_url }})
 
-- "Crea una escena de un castillo medieval con caballeros y aldeanos, para una clase de historia."
-  (Para ambientar temas históricos)
-- "Dibuja una línea del tiempo con inventos importantes del siglo XX, formato horizontal."
-  (Para visualizar avances históricos)
+## 4. Generación y edición de imágenes
 
-**Lengua**
+ChatGPT puede generar y editar imágenes, pero este bloque solo resume su utilidad docente. Para ver usos, ejemplos y precauciones más amplios, consulta el Bloque 3.
 
-- "Genera una imagen de un cuento infantil con un bosque y animales simpáticos."
-  (Para ilustrar relatos o actividades de lectura)
-- "Haz una portada colorida para un cuaderno de redacciones de 5º de primaria."
-  (Para personalizar materiales escritos)
+- Ilustrar conceptos.
+- Crear portadas, carteles o escenas sencillas.
+- Adaptar materiales visuales al nivel del alumnado.
 
-**Idiomas**
+- [Generación multimodal y recursos visuales]({{ '/bloque3.html' | relative_url }})
 
-- "Crea una imagen con objetos de una cocina y sus nombres en inglés, estilo claro y educativo."
-  (Para trabajar vocabulario visual)
-- "Dibuja una escena de una familia desayunando, con etiquetas en francés para cada elemento."
-  (Para practicar idiomas de forma visual)
+## 5. Plugins y Skills
 
-**Infantil / Primaria**
+En ChatGPT, un **Plugin** puede reunir capacidades reutilizables para realizar una tarea o un flujo de trabajo. Puede incorporar:
 
-- "Ilustra una ficha con formas geométricas básicas y colores llamativos para niños de 4 años."
-  (Para actividades de reconocimiento visual)
-- "Dibuja una secuencia de tres imágenes que cuenten una pequeña historia sencilla."
-  (Para trabajar comprensión y narración)
+- **Skills**, que aportan instrucciones y procedimientos reutilizables;
+- **apps conectadas**, que permiten trabajar con servicios o datos externos;
+- otras capacidades asociadas al flujo de trabajo.
 
-**Carteles y materiales de aula**
+Una **Skill** es un flujo de trabajo reutilizable que puede contener instrucciones, ejemplos, recursos y pasos para ayudar a ChatGPT a realizar una tarea de forma más consistente.
 
-- "Crea un póster con las normas del aula, fondo alegre y dibujos de niños colaborando."
-  (Para reforzar convivencia y normas)
-- "Diseña una imagen motivadora con la frase 'Hoy es un buen día para aprender', colores vivos y estilo infantil."
-  (Para decorar el aula y motivar)
+Ejemplos docentes:
 
-### Cómo pedir mejor una imagen
+- adaptar un material a varios niveles;
+- revisar una actividad con una lista de criterios;
+- transformar apuntes en material didáctico siguiendo una estructura;
+- generar una rúbrica con un formato concreto;
+- comprobar una actividad antes de publicarla en Aules.
 
-Para obtener mejores resultados, conviene indicar en el prompt:
+La disponibilidad de creación, instalación y compartición de Skills depende del plan, del producto y de la configuración del espacio de trabajo.
 
-- El tema o concepto que quieres ilustrar.
-- El estilo (realista, dibujo, infantil, sencillo, etc.).
-- La edad o nivel del alumnado.
-- Colores preferidos o ambiente (alegre, serio, etc.).
-- Formato (horizontal, vertical, póster, ficha, etc.).
-- Si quieres que aparezca texto o no.
-- Elementos concretos que deben salir.
-- El tono visual (divertido, educativo, formal, etc.).
+## 6. GPTs personalizados: tecnología en transición
 
-Cuanta más claridad y detalle, más fácil que la imagen se ajuste a lo que necesitas.
+Los GPTs personalizados siguen disponibles en algunas cuentas durante el periodo de transición, pero OpenAI ha anunciado su retirada y recomienda migrar los flujos reutilizables hacia Plugins. Por ello, en este curso los tratamos como referencia de una etapa anterior y centramos el aprendizaje en conceptos transferibles: buenas instrucciones, recursos, herramientas y flujos reutilizables.
 
-### Límites y precauciones
+Lo importante no es el nombre comercial, sino saber diseñar instrucciones reutilizables y estructuradas que puedan convertirse en una Skill, un Plugin o un asistente similar según la herramienta disponible.
 
-- No siempre la imagen será exactamente como la imaginas.
-- Es importante revisar cada imagen antes de usarla en clase.
-- Puede haber errores, sesgos o estereotipos visuales.
-- No uses imágenes delicadas o sensibles sin revisarlas bien.
-- Adapta siempre el resultado a la edad y contexto del alumnado.
-- Si la imagen incluye texto, comprueba que esté bien escrito y sea adecuado.
-
-### Uso responsable en educación
-
-- Utiliza la generación de imágenes como apoyo, no como sustituto de tu criterio docente.
-- Revisa siempre los recursos antes de mostrarlos al alumnado.
-- No dependas por completo de la IA para preparar materiales.
-- Mantén el foco en el objetivo pedagógico, no solo en lo visual.
-
-### Resumen final
-
-La nueva generación de imágenes en ChatGPT puede ahorrar tiempo y aportar creatividad a tu aula, pero lo más importante sigue siendo tu criterio como docente.
+> Si tu cuenta aún permite usar GPTs personalizados, pueden seguir siendo útiles como referencia práctica.
+> Si no, la misma lógica de diseño sirve para crear instrucciones reutilizables en otras herramientas.
 
 ---
 
-> **Nota práctica:**
-> Si trabajas este contenido desde un agente de VS Code, el agente puede ayudarte a redactar prompts, organizarlos y dejarlos listos en Markdown. Solo podrá generar imágenes automáticamente si el entorno está conectado a una herramienta real de generación de imágenes. Si no existe esa conexión, al menos tendrás los prompts preparados para copiarlos y usarlos en ChatGPT u otra herramienta compatible.
+> **Nota práctica:** cuando trabajes esta página desde un agente o un documento reutilizable, redacta primero el flujo de trabajo en lenguaje claro y luego adáptalo a la herramienta que tengas disponible. La herramienta cambia; el criterio pedagógico permanece.
