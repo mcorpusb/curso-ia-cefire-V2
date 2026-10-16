@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Guía didáctica"
-nav_order: 2
+nav_order: 1
 lang: es
 translation_key: guia-didactica
 ---
