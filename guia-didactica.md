@@ -17,7 +17,6 @@ Herramientas de Inteligencia Artificial Generativa para docentes · 26IA92IN041
 
 <nav class="indice-bloque" aria-label="Índice de la guía" markdown="1">
 
-- [Datos oficiales](#datos-oficiales)
 - [Presentación](#presentacion)
 - [Objetivos](#objetivos)
 - [Competencias docentes](#competencias)
@@ -34,7 +33,6 @@ Herramientas de Inteligencia Artificial Generativa para docentes · 26IA92IN041
 
 ---
 
-## Datos oficiales de la convocatoria
 {: id="datos-oficiales" }
 
 | Campo | Detalle |
@@ -79,31 +77,33 @@ No formamos especialistas en IA. Formamos docentes con criterio para decidir si,
 
 Al finalizar el curso, el profesorado será capaz de:
 
-- Integrar IA generativa en tareas docentes reales con criterio pedagógico.
-- Formular peticiones de calidad con contexto, finalidad y restricciones claras.
-- Trabajar con documentos y fuentes para obtener respuestas verificables.
-- Crear y adaptar recursos multimodales útiles para el aula.
-- Diseñar instrumentos de evaluación apoyados en IA con supervisión docente.
-- Aplicar principios de privacidad, verificación y uso ético en todas las actividades.
+- **Usar la IA como aliada diaria** en la planificación, evaluación y creación de materiales, trabajando en el entorno seguro de la GVA.
+- **Perder el miedo inicial** conectando desde la primera sesión con Copilot (@edu.gva.es), Gemini, NotebookLM, Kimi y Grok para tareas reales.
+- **Diseñar prompts avanzados** con la estructura Rol + Contexto + Tarea + Formato + Restricciones, para que la IA actúe como experta pedagógica.
+- **Crear agentes personalizados** que automaticen correcciones y planificación conforme al estilo docente propio y los criterios LOMLOE.
+- **Transformar contenidos en recursos multimodales** —infografías, cómics, audios, vídeos con avatares— que atiendan a la diversidad del alumnado.
+- **Personalizar el aprendizaje** ajustando materiales a distintos niveles y realidades del aula de forma rápida y escalable.
+- **Automatizar tareas administrativas **como rúbricas LOMLOE y correcciones motivadoras, liberando tiempo para lo que importa: enseñar.
+- **Desarrollar un uso ético y crítico de la IA**, priorizando la privacidad del alumnado y reflexionando sobre su impacto real en educación.
 
 ---
 
 ## Competencias docentes que se trabajan
 {: id="competencias" }
 
-- **Competencia digital docente.** Uso seguro, crítico y creativo de herramientas de IA.
-- **Diseño de situaciones de aprendizaje.** Alineación con LOMLOE y contexto real de aula.
-- **Atención a la diversidad e inclusión.** Adaptación de materiales según principios DUA.
+- **Competencia digital docente.** Uso seguro, crítico y creativo de herramientas de IA.Incluye evaluar la fiabilidad de los resultados y elegir la herramienta adecuada para cada tarea.
+- **Diseño de situaciones de aprendizaje.** Emplear la IA como asistente para elaborar secuencias didácticas alineadas con la LOMLOE: competencias específicas, saberes básicos y criterios de evaluación.
+- **Atención a la diversidad e inclusión.** Aplicar los principios DUA generando materiales en múltiples formatos y adaptando contenidos a distintos perfiles (NEAE, incorporación tardía, altas capacidades).
 - **Evaluación competencial.** Rúbricas, listas de cotejo y retroalimentación formativa.
-- **Análisis crítico de herramientas de IA.** Comparar, verificar y detectar limitaciones.
-- **Toma de decisiones pedagógicas fundamentadas.** Criterio profesional y responsabilidad docente.
+- **Análisis crítico de herramientas de IA.** Comparar resultados entre modelos, detectar sesgos, verificar la precisión curricular y auditar éticamente los materiales producidos.
+- **Toma de decisiones pedagógicas fundamentadas.** Determinar cuándo, cómo y por qué integrar la IA, anteponiendo siempre el valor pedagógico, la privacidad y la responsabilidad profesional.
 
 ---
 
 ## Metodología
 {: id="metodologia" }
 
-El curso combina sesiones síncronas de acompañamiento con trabajo autónomo en línea.
+El curso combina sesiones síncronas de acompañamiento con trabajo autónomo en línea. Se apoya en cuatro pilares:
 
 ### Demostración y modelado
 
@@ -145,12 +145,12 @@ Cada bloque sigue el mismo ciclo: necesidad docente -> trabajo con IA -> revisi�
 
 | Módulo | Periodo | Entrega de actividades | Contenidos | Tareas | Videoconferencia |
 |:-------|:--------|:-----------------------|-----------:|-------:|:-----------------|
-| Bloque 0 · Presentación | Antes de la primera sesión | Según calendario de Aules | - | 2 h | - |
-| Módulo 1 · IA Colaborativa y Gestión GVA | 20/10/2026 al 26/10/2026 | Según calendario de Aules | 2 h | 6 h | Martes 20/10/2026 · 17:30-19:30 |
-| Módulo 2 · Investigar, comprender y trabajar con fuentes | 27/10/2026 al 02/11/2026 | Según calendario de Aules | 2 h | 6 h | Martes 27/10/2026 · 17:30-19:30 |
-| Módulo 3 · Generación Multimodal | 03/11/2026 al 09/11/2026 | Según calendario de Aules | 2 h | 5 h | Martes 03/11/2026 · 17:30-19:30 |
-| Módulo 4 · Evaluación y Personalización | 10/11/2026 al 16/11/2026 | Según calendario de Aules | 2 h | 5 h | Martes 10/11/2026 · 17:30-19:30 |
-| Cierre del curso | 17/11/2026 al 22/11/2026 | Según calendario de Aules | - | - | - |
+| Bloque 0 · Presentación | Antes de la primera sesión | Según calendario de Aules | - | 30 min h | - |
+| Módulo 1 · IA Colaborativa y Gestión GVA | 20/10/2026 al 26/10/2026 | 26/10/202 | 2 h | 2 h | Martes 20/10/2026 · 17:30-19:30 |
+| Módulo 2 · Investigar, comprender y trabajar con fuentes | 27/10/2026 al 02/11/2026 | 02/11/2026 | 3 h | 4 h | Martes 27/10/2026 · 17:30-19:30 |
+| Módulo 3 · Generación Multimodal | 03/11/2026 al 09/11/2026 | S09/11/2026 | 3 h | 4 h | Martes 03/11/2026 · 17:30-19:30 |
+| Módulo 4 · Evaluación y Personalización | 10/11/2026 al 16/11/2026 | 16/11/2026 | 2 h | 2 h | Martes 10/11/2026 · 17:30-19:30 |
+| Cierre del curso | 17/11/2026 al 22/11/2026 | 22/11/202 | 30 min | 30 min | - |
 
 ### Resumen global
 
@@ -196,17 +196,6 @@ Cada bloque sigue el mismo ciclo: necesidad docente -> trabajo con IA -> revisi�
 **Contenidos clave:** instrumentos de evaluación, feedback, adaptación, alfabetización en IA del alumnado y uso ético.
 
 ---
-
-## Actividades y entregas
-{: id="actividades" }
-
-| Bloque | Actividades principales | ¿Entrega? |
-|:------|:------------------------|:----------|
-| **Bloque 0** | Actividad de inicio y reto de comparación entre petición simple y contextualizada | No obligatoria de certificación |
-| **Bloque 1** | Rutas por etapa (Infantil, Primaria, Secundaria, EOI, FP) o alternativa mediante prácticas B/C del bloque | Sí, una actividad individual |
-| **Bloque 2** | Actividad 2.1 (prompt pedagógico), Actividad 2.2 (verificación curricular) y actividad final del bloque | Sí |
-| **Bloque 3** | Actividades por formato y actividad de creación de recurso multimodal | Sí |
-| **Bloque 4** | Actividades de evaluación/personalización y proyecto final «Mi flujo docente con IA» | Sí |
 
 ## Recursos y herramientas
 {: id="recursos" }
