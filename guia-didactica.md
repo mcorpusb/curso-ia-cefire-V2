@@ -11,7 +11,7 @@ Herramientas de Inteligencia Artificial Generativa para docentes · 26IA92IN041
 {: .fs-5 .fw-300 }
 
 ---
----
+
 ## Datos identificativos del curso
 
 | Campo | Detalle |
@@ -22,10 +22,11 @@ Herramientas de Inteligencia Artificial Generativa para docentes · 26IA92IN041
 | **Inicio** | 20 de octubre de 2026 |
 | **Finalización** | 22 de noviembre de 2026 |
 | **Duración** | 32 horas |
-| **Modalidad** | Semipresencial |
+| **Modalidad** | A distancia |
 | **Organiza** | CEFIRE de Inteligencia Artificial y Pensamiento Computacional |
 | **Plataforma de seguimiento** | Aules (Generalitat Valenciana) |
 | **Destinatarios** | Profesorado en activo de todas las etapas educativas |
+
 ---
 
 ## En esta guía
