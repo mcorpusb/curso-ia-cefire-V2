@@ -7,29 +7,8 @@ nav_order: 2
 # Guía didáctica del curso
 {: .fs-8 }
 
-Herramientas de Inteligencia Artificial Generativa para docentes
+Herramientas de Inteligencia Artificial Generativa para docentes · 26IA92IN041
 {: .fs-5 .fw-300 }
-
----
-
-## Datos oficiales de la convocatoria
-{: id="datos-oficiales" }
-
-> **Código:** 26IA92IN041  
-> **Denominación:** Herramientas de Inteligencia Artificial Generativa para docentes  
-> **Edición:** 2.ª edición de 2026  
-> **Fechas:** del 20 de octubre al 22 de noviembre de 2026  
-> **Duración:** 32 horas  
-> **Modalidad:** A distancia  
-> **Organiza:** CEFIRE de Inteligencia Artificial y Pensamiento Computacional
-
----
-
-## Presentación
-
-Esta guía orienta el desarrollo del curso sin duplicar los materiales de cada bloque. El objetivo es que puedas identificar rápidamente qué aprenderás, qué actividades debes entregar y qué criterios de uso responsable de la IA debes aplicar en todo momento.
-
-El enfoque del curso es práctico: necesidad docente real, trabajo guiado con IA, revisión crítica, verificación y aplicación en el aula.
 
 ---
 
@@ -38,123 +17,246 @@ El enfoque del curso es práctico: necesidad docente real, trabajo guiado con IA
 
 <nav class="indice-bloque" aria-label="Índice de la guía" markdown="1">
 
-- [Datos oficiales de la convocatoria](#datos-oficiales)
-- [Objetivos generales](#objetivos-generales)
-- [Metodología y organización](#metodologia-organizacion)
-- [Temporalización](#temporalizacion)
-- [Estructura de bloques](#estructura-bloques)
-- [Actividades, evaluación y certificación](#evaluacion-certificacion)
-- [Participación y acompañamiento](#participacion)
-- [Privacidad, uso responsable y supervisión docente](#privacidad)
+- [Datos oficiales](#datos-oficiales)
+- [Presentación](#presentacion)
+- [Objetivos](#objetivos)
+- [Competencias docentes](#competencias)
+- [Metodología](#metodologia)
+- [Distribución temporal](#distribucion-temporal)
+- [Contenidos por bloques](#contenidos)
+- [Actividades y entregas](#actividades)
+- [Recursos y herramientas](#recursos)
+- [Evaluación y certificación](#evaluacion)
+- [Atención a la diversidad](#diversidad)
+- [Enfoque ético, legal y pedagógico](#enfoque-etico)
 
 </nav>
 
 ---
 
-## Objetivos generales
-{: id="objetivos-generales" }
+## Datos oficiales de la convocatoria
+{: id="datos-oficiales" }
+
+| Campo | Detalle |
+|:------|:--------|
+| **Denominación** | Herramientas de Inteligencia Artificial Generativa para docentes |
+| **Código oficial** | 26IA92IN041 |
+| **Edición** | 2.ª edición de 2026 |
+| **Inicio** | 20 de octubre de 2026 |
+| **Finalización** | 22 de noviembre de 2026 |
+| **Duración** | 32 horas |
+| **Modalidad** | A distancia |
+| **Organiza** | CEFIRE de Inteligencia Artificial y Pensamiento Computacional |
+| **Plataforma de seguimiento** | Aules (Generalitat Valenciana) |
+
+---
+
+## Presentación
+{: id="presentacion" }
+
+La inteligencia artificial generativa ya está aquí, y el profesorado necesita comprender qué puede hacer con ella y cómo integrarla en su trabajo de forma segura, ética y útil.
+
+Este curso parte de una idea sencilla: la **IA generativa no es un fin, sino un medio al servicio de la mejora educativa**. Se trata de que cada docente tenga criterio y recursos para decidir cuándo, cómo y por qué usar estas herramientas.
+
+<p style="text-align: center; margin: 25px 0;">
+  <img src="{{ '/assets/img/estructura-curso-ia.png' | relative_url }}" alt="Estructura del curso de IA para docentes" width="520">
+</p>
+
+- Del primer contacto con la IA y su uso responsable...
+- ...al trabajo con fuentes, la creación multimodal, la evaluación y la reflexión crítica.
+
+<div style="background-color:#f5f7fa; border-left:4px solid #6c8ebf; padding:12px 14px; margin:18px 0; border-radius:6px;">
+
+<strong>Idea clave</strong><br>
+No formamos especialistas en IA. Formamos docentes con criterio para decidir si, cuándo y cómo usarla.
+
+</div>
+
+---
+
+## Objetivos
+{: id="objetivos" }
 
 Al finalizar el curso, el profesorado será capaz de:
 
 - Integrar IA generativa en tareas docentes reales con criterio pedagógico.
-- Trabajar con contexto y fuentes para mejorar la calidad de las respuestas.
-- Diseñar recursos multimodales útiles y revisados.
-- Evaluar procesos y productos con apoyo de IA sin delegar el juicio profesional.
-- Aplicar buenas prácticas de privacidad, verificación y uso ético.
+- Formular peticiones de calidad con contexto, finalidad y restricciones claras.
+- Trabajar con documentos y fuentes para obtener respuestas verificables.
+- Crear y adaptar recursos multimodales útiles para el aula.
+- Diseñar instrumentos de evaluación apoyados en IA con supervisión docente.
+- Aplicar principios de privacidad, verificación y uso ético en todas las actividades.
 
 ---
 
-## Metodología y organización
-{: id="metodologia-organizacion" }
+## Competencias docentes que se trabajan
+{: id="competencias" }
 
-- Modalidad a distancia con sesiones síncronas y trabajo autónomo en Aules.
-- Aprendizaje aplicado mediante actividades por bloques.
-- Revisión docente y reflexión crítica sobre resultados generados con IA.
-- Uso de herramientas según finalidad didáctica, no por novedad técnica.
-
-Ciclo de trabajo transversal del curso:
-
-**NECESIDAD -> CONTEXTO/FUENTES -> PRIMERA RESPUESTA -> REVISIÓN -> VERIFICACIÓN -> APLICACIÓN**
+- **Competencia digital docente.** Uso seguro, crítico y creativo de herramientas de IA.
+- **Diseño de situaciones de aprendizaje.** Alineación con LOMLOE y contexto real de aula.
+- **Atención a la diversidad e inclusión.** Adaptación de materiales según principios DUA.
+- **Evaluación competencial.** Rúbricas, listas de cotejo y retroalimentación formativa.
+- **Análisis crítico de herramientas de IA.** Comparar, verificar y detectar limitaciones.
+- **Toma de decisiones pedagógicas fundamentadas.** Criterio profesional y responsabilidad docente.
 
 ---
 
-## Temporalización
-{: id="temporalizacion" }
+## Metodología
+{: id="metodologia" }
+
+El curso combina sesiones síncronas de acompañamiento con trabajo autónomo en línea.
+
+### Demostración y modelado
+
+Cada sesión abre con demostraciones prácticas de flujo completo: necesidad, petición, revisión y verificación.
+
+### Práctica guiada y experimentación
+
+Cada participante aplica lo aprendido en tareas docentes reales, adaptadas a su etapa.
+
+### Comparación crítica
+
+Se comparan respuestas y procesos cuando aporta valor pedagógico y mejora la toma de decisiones.
+
+### Reflexión y transferencia
+
+Se revisan sesgos, errores, privacidad y aplicabilidad real antes de trasladar cualquier resultado al aula.
+
+### Comunicación y colaboración
+
+Aules funciona como entorno de intercambio, seguimiento y entrega.
+
+<div style="background-color:#f5f7fa; border-left:4px solid #6c8ebf; padding:12px 14px; margin:18px 0; border-radius:6px;">
+
+<strong>En la práctica</strong><br>
+Cada bloque sigue el mismo ciclo: necesidad docente -> trabajo con IA -> revisión -> verificación -> aplicación.
+
+</div>
+
+<p style="text-align: center; margin: 25px 0;">
+  <img src="{{ '/assets/img/ciclo-aprendizaje-ia.png' | relative_url }}" alt="Ciclo de aprendizaje con IA" width="500">
+</p>
+
+---
+
+## Distribución temporal
+{: id="distribucion-temporal" }
+
+### Distribución semanal
 
 | Unidad | Inicio | Trabajo en línea | Sesión síncrona | Total |
-|:------|:-------|-----------------:|----------------:|------:|
-| Bloque 0 · ¿Qué es la IA? | Antes de la primera sesión | 2 h | - | 2 h |
+|:-------|:-------|-----------------:|----------------:|------:|
+| Bloque 0 · Presentación | Antes de la primera sesión | 2 h | - | 2 h |
 | Bloque 1 · IA Colaborativa y Gestión GVA | 20/10/2026 | 6 h | 2 h | 8 h |
 | Bloque 2 · Investigar, comprender y trabajar con fuentes | 27/10/2026 | 6 h | 2 h | 8 h |
 | Bloque 3 · Generación Multimodal | 03/11/2026 | 5 h | 2 h | 7 h |
 | Bloque 4 · Evaluación y Personalización | 10/11/2026 | 5 h | 2 h | 7 h |
-| **Total** |  | **24 h** | **8 h** | **32 h** |
+
+### Resumen global
+
+| Componente | Horas |
+|:-----------|------:|
+| Trabajo autónomo en línea (asíncrono) | 24 h |
+| Sesiones síncronas (Aules) | 8 h |
+| **Total** | **32 h** |
 
 ---
 
-## Estructura de bloques
-{: id="estructura-bloques" }
+## Contenidos por bloques
+{: id="contenidos" }
 
-### Bloque 0. ¿Qué es la IA?
+### Bloque 0 · ¿Qué es la IA?
 
-- **Objetivo:** Comprender qué es la IA generativa, sus límites y su uso responsable antes de aplicarla en tareas docentes.
-- **Contenidos principales:** tipos de IA, alucinaciones y sesgos, privacidad y marco legal, criterio profesional docente.
-- **Actividades:** actividad de inicio y reto de comparación entre petición simple y petición contextualizada.
-- **Herramientas:** asistentes de IA para primeras pruebas guiadas.
-- **Evaluación:** participación y evidencia de comprensión crítica inicial.
+**Objetivo:** Comprender tipos de IA, límites, riesgos y uso responsable antes de su aplicación didáctica.
 
-### Bloque 1. IA Colaborativa y Gestión GVA
+**Contenidos clave:** IA predictiva, IA generativa y agentes; alucinaciones y sesgos; privacidad, marco legal y criterio docente.
 
-- **Objetivo:** Mejorar la calidad de las peticiones y de la revisión de resultados para tareas docentes habituales.
-- **Contenidos principales:** construcción de peticiones útiles, contexto seguro, iteración, borradores de actas, comunicaciones y organización documental.
-- **Actividades:** práctica guiada y entrega de una actividad individual (ruta por etapa o alternativa equivalente del bloque).
-- **Herramientas:** Copilot Chat u otra alternativa válida según disponibilidad institucional.
-- **Evaluación:** producto final revisado, contexto utilizado sin datos personales, evidencia de iteración y reflexión breve.
+### Bloque 1 · IA Colaborativa y Gestión GVA
 
-### Bloque 2. Investigar, comprender y trabajar con fuentes
+**Objetivo:** Mejorar peticiones y revisión de resultados para tareas docentes habituales.
 
-- **Objetivo:** Trabajar con documentos y fuentes para obtener respuestas verificables y didácticamente fundamentadas.
-- **Contenidos principales:** prompt pedagógico, técnicas de mejora, trabajo con normativa y currículo, contraste de citas, verificación de resultados.
-- **Actividades:** actividades del bloque y actividad final con cuaderno de fuentes y diseño didáctico aplicable.
-- **Herramientas:** Gemini, Gemini Notebook, Copilot Chat y otras herramientas de apoyo documental cuando proceda.
-- **Evaluación:** calidad del proceso de verificación, coherencia didáctica y justificación de decisiones.
+**Contenidos clave:** contexto y calidad de peticiones, iteración, documentación, comunicación y organización.
 
-### Bloque 3. Generación Multimodal
+### Bloque 2 · Investigar, comprender y trabajar con fuentes
 
-- **Objetivo:** Diseñar recursos didácticos en varios formatos con utilidad real para el aula.
-- **Contenidos principales:** presentaciones, infografías, cómics, audio, vídeo, adaptación multinivel y accesibilidad.
-- **Actividades:** creación de un recurso multimodal contextualizado y reflexión sobre su uso.
-- **Herramientas:** herramientas de creación multimodal seleccionadas según tarea y condiciones de uso.
-- **Evaluación:** adecuación pedagógica, calidad de adaptación al nivel y revisión crítica del material generado.
+**Objetivo:** Trabajar con documentos y fuentes para obtener respuestas verificables y fundamentadas.
 
-### Bloque 4. Evaluación y Personalización
+**Contenidos clave:** prompt pedagógico, técnicas de interacción, verificación con fuentes, contraste de respuestas y diseño didáctico apoyado en documentación.
 
-- **Objetivo:** Aplicar IA para apoyar evaluación, retroalimentación y personalización con supervisión docente.
-- **Contenidos principales:** rúbricas, instrumentos de evaluación, feedback formativo, DUA, alfabetización en IA del alumnado y criterios éticos.
-- **Actividades:** actividades del bloque y proyecto final de documentación del flujo docente con IA.
-- **Herramientas:** asistentes de IA para diseño y revisión de instrumentos, siempre con validación humana.
-- **Evaluación:** trazabilidad del proceso, calidad pedagógica y reflexión crítica final.
+### Bloque 3 · Generación Multimodal
+
+**Objetivo:** Crear recursos didácticos en formatos diversos con utilidad real para el aula.
+
+**Contenidos clave:** presentaciones, infografías, cómics, audio, vídeo y adaptación multinivel.
+
+### Bloque 4 · Evaluación y Personalización
+
+**Objetivo:** Aplicar IA para evaluación, retroalimentación y personalización manteniendo la supervisión docente.
+
+**Contenidos clave:** instrumentos de evaluación, feedback, adaptación, alfabetización en IA del alumnado y uso ético.
 
 ---
 
-## Actividades, evaluación y certificación
-{: id="evaluacion-certificacion" }
+## Actividades y entregas
+{: id="actividades" }
 
-### Actividades
+| Bloque | Actividades principales | ¿Entrega? |
+|:------|:------------------------|:----------|
+| **Bloque 0** | Actividad de inicio y reto de comparación entre petición simple y contextualizada | No obligatoria de certificación |
+| **Bloque 1** | Rutas por etapa (Infantil, Primaria, Secundaria, EOI, FP) o alternativa mediante prácticas B/C del bloque | Sí, una actividad individual |
+| **Bloque 2** | Actividad 2.1 (prompt pedagógico), Actividad 2.2 (verificación curricular) y actividad final del bloque | Sí |
+| **Bloque 3** | Actividades por formato y actividad de creación de recurso multimodal | Sí |
+| **Bloque 4** | Actividades de evaluación/personalización y proyecto final «Mi flujo docente con IA» | Sí |
 
-- Las actividades se entregan en Aules según calendario.
-- Cada bloque incluye tareas aplicadas a la práctica docente real.
-- Se prioriza la utilidad didáctica y la revisión consciente del proceso.
+Enlaces a bloques:
+
+- [Bloque 0]({{ '/modulo-0-que-es-la-ia.html' | relative_url }})
+- [Bloque 1]({{ '/bloque1.html' | relative_url }})
+- [Bloque 2]({{ '/bloque2.html' | relative_url }})
+- [Bloque 3]({{ '/bloque3.html' | relative_url }})
+- [Bloque 4]({{ '/bloque4.html' | relative_url }})
+
+---
+
+## Recursos y herramientas
+{: id="recursos" }
+
+Se utilizan herramientas distintas según la tarea y la disponibilidad institucional.
+
+### Referencias de trabajo
+
+- Copilot Chat (según disponibilidad de cuenta institucional).
+- Gemini y Gemini Notebook para trabajo con fuentes y verificación documental.
+- Herramientas multimodales para creación de recursos (presentación, imagen, audio, vídeo) cuando proceda.
+
+### Advertencia de protección de datos
+
+<div style="background-color:#f5f7fa; border-left:4px solid #6c8ebf; padding:12px 14px; margin:18px 0; border-radius:6px;">
+
+<strong>NO INTRODUZCAS DATOS PERSONALES NI SENSIBLES DEL ALUMNADO.</strong><br>
+Usa datos ficticios, anonimizados o de dominio público y verifica siempre las condiciones del servicio utilizado.
+
+</div>
+
+---
+
+## Evaluación y certificación
+{: id="evaluacion" }
 
 ### Evaluación
 
-La evaluación es continua y formativa. Se valoran:
+La evaluación es continua, formativa y orientada a evidencias.
 
-- Definición de la necesidad docente y del contexto.
-- Calidad del proceso de trabajo con IA (revisión y verificación).
-- Adecuación pedagógica de los productos entregados.
+<p style="text-align: center; margin: 25px 0;">
+  <img src="{{ '/assets/img/evaluacion-proceso-vs-producto.png' | relative_url }}" alt="Evaluación de procesos frente a evaluación de productos" width="520">
+</p>
+
+Se valora especialmente:
+
+- Definición de necesidad y contexto.
+- Calidad del proceso de revisión y verificación.
+- Adecuación pedagógica de los productos.
 - Uso responsable de herramientas y fuentes.
-- Reflexión crítica sobre límites, sesgos y decisiones tomadas.
+- Reflexión crítica sobre decisiones y límites.
 
 ### Requisitos de certificación
 
@@ -162,31 +264,28 @@ Para obtener la certificación:
 
 - Asistir a las sesiones síncronas según normativa CEFIRE.
 - Entregar las actividades requeridas de los bloques.
-- Completar el proyecto final documentando el proceso de trabajo con IA.
+- Completar el proyecto final «Mi flujo docente con IA».
+- Demostrar aprovechamiento adecuado del itinerario.
 
 ---
 
-## Participación y acompañamiento
-{: id="participacion" }
+## Atención a la diversidad e inclusión
+{: id="diversidad" }
 
-- Aules es el entorno de referencia para materiales, foros y entregas.
-- Las sesiones síncronas se usan para modelado, dudas y puesta en común.
-- El intercambio entre docentes forma parte del aprendizaje del curso.
+- Progresión guiada desde tareas básicas a tareas complejas.
+- Materiales en varios formatos para distintos perfiles docentes.
+- Aplicación de principios DUA en diseño y adaptación de recursos.
+- Revisión humana obligatoria de todo material generado con IA.
 
 ---
 
-## Privacidad, uso responsable y supervisión docente
-{: id="privacidad" }
+## Enfoque ético, legal y pedagógico
+{: id="enfoque-etico" }
 
-{: .callout .callout--privacidad }
-**NO INTRODUZCAS DATOS PERSONALES NI SENSIBLES DEL ALUMNADO.**
-
-Además:
-
-- Usa datos ficticios, anonimizados o de dominio público cuando proceda.
-- Verifica siempre normativa, citas y afirmaciones relevantes en la fuente original.
-- No delegues decisiones pedagógicas críticas en la IA.
-- Mantén transparencia sobre cómo se ha utilizado la IA en cada entrega.
+- La IA no sustituye el juicio docente.
+- La verificación con fuentes oficiales es obligatoria cuando hay información crítica.
+- El uso debe ser proporcionado al objetivo pedagógico.
+- La privacidad, la autoría y la transparencia son parte del proceso de aprendizaje.
 
 ---
 

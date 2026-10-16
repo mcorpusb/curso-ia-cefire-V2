@@ -619,6 +619,39 @@
   color: #333;
 }
 
+/* ── Ajustes de impresión para PDF ── */
+
+@media print {
+  .main-content h2,
+  .main-content h3 {
+    page-break-after: avoid;
+    break-after: avoid-page;
+  }
+
+  .main-content img,
+  .main-content table,
+  .main-content .callout,
+  .main-content .tool-card,
+  .main-content .comparacion__panel,
+  .main-content .reflexion-card,
+  .main-content .tres-columnas__col,
+  .main-content .que-si-no__col,
+  .main-content .resumen-pasos__item {
+    page-break-inside: avoid;
+    break-inside: avoid-page;
+  }
+
+  .main-content img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .main-content table {
+    width: 100%;
+    font-size: 0.92em;
+  }
+}
+
 /* ── Texto solo para lectores de pantalla ── */
 
 .sr-only {
