@@ -8,144 +8,143 @@ nav_exclude: true
 
 {% include language-switcher.html %}
 
-# Guía didáctica del curso
+# Guia didàctica del curs
 {: .fs-8 }
 
-Herramientas de Inteligencia Artificial Generativa para docentes · 26IA92IN041
+Eines d'Intel·ligència Artificial Generativa per a docents · 26IA92IN041
 {: .fs-5 .fw-300 }
 
 ---
 
-## Datos identificativos del curso
+## Dades identificatives del curs
 
-| Campo | Detalle |
-|:------|:--------|
-| **Denominación** | Herramientas de Inteligencia Artificial Generativa para docentes |
-| **Código oficial** | 26IA92IN041 |
-| **Edición** | 2.ª edición de 2026 |
-| **Inicio** | 20 de octubre de 2026 |
-| **Finalización** | 22 de noviembre de 2026 |
-| **Duración** | 32 horas |
-| **Modalidad** | A distancia |
-| **Organiza** | CEFIRE de Inteligencia Artificial y Pensamiento Computacional |
-| **Plataforma de seguimiento** | Aules (Generalitat Valenciana) |
-| **Destinatarios** | Profesorado en activo de todas las etapas educativas |
+| Camp | Detall |
+|:-----|:-------|
+| **Denominació** | Eines d'Intel·ligència Artificial Generativa per a docents |
+| **Codi oficial** | 26IA92IN041 |
+| **Edició** | 2a edició de 2026 |
+| **Inici** | 20 d'octubre de 2026 |
+| **Finalització** | 22 de novembre de 2026 |
+| **Duració** | 32 hores |
+| **Modalitat** | A distància |
+| **Organitza** | CEFIRE d'Intel·ligència Artificial i Pensament Computacional |
+| **Plataforma de seguiment** | Aules (Generalitat Valenciana) |
+| **Destinataris** | Professorat en actiu de totes les etapes educatives |
 
 ---
 
-## En esta guía
+## En esta guia
 {: .no_toc .text-delta }
 
-<nav class="indice-bloque" aria-label="Índice de la guía" markdown="1">
+<nav class="indice-bloque" aria-label="Índex de la guia" markdown="1">
 
-- [Presentación](#presentacion)
-- [🎯 Objetivos](#objetivos)
-- [🧩 Competencias docentes](#competencias)
-- [🛠️ Metodología](#metodologia)
-- [🗓️ Distribución temporal](#distribucion-temporal)
-- [📚 Contenidos por bloques](#contenidos)
-- [✅ Actividades y entregas](#actividades)
-- [🧰 Recursos y herramientas](#recursos)
-- [📊 Evaluación y certificación](#evaluacion)
-- [♿ Atención a la diversidad](#diversidad)
-- [⚖️ Enfoque ético, legal y pedagógico](#enfoque-etico)
+- [Presentació](#presentacion)
+- [🎯 Objectius](#objetivos)
+- [🧩 Competències docents](#competencias)
+- [🛠️ Metodologia](#metodologia)
+- [🗓️ Distribució temporal](#distribucion-temporal)
+- [📚 Continguts per blocs](#contenidos)
+- [✅ Activitats i lliuraments](#actividades)
+- [🧰 Recursos i ferramentes](#recursos)
+- [📊 Avaluació i certificació](#evaluacion)
+- [♿ Atenció a la diversitat](#diversidad)
+- [⚖️ Enfocament ètic, legal i pedagògic](#enfoque-etico)
 
 </nav>
 
-
-## Presentación
+## Presentació
 {: id="presentacion" }
 
-La inteligencia artificial generativa ya está aquí, y el profesorado necesita comprender qué puede hacer con ella y cómo integrarla en su trabajo de forma segura, ética y útil.
+La intel·ligència artificial generativa ja és ací, i el professorat necessita comprendre què pot fer amb ella i com integrar-la en el seu treball de manera segura, ètica i útil.
 
-Este curso parte de una idea sencilla: la **IA generativa no es un fin, sino un medio al servicio de la mejora educativa**. Se trata de que cada docente tenga criterio y recursos para decidir cuándo, cómo y por qué usar estas herramientas.
+Este curs partix d'una idea senzilla: la **IA generativa no és una finalitat, sinó un mitjà al servici de la millora educativa**. Es tracta que cada docent tinga criteri i recursos per a decidir quan, com i per què utilitzar estes ferramentes.
 
 <p style="text-align: center; margin: 25px 0;">
-  <img src="{{ '/assets/img/estructura-curso-ia-va.svg' | relative_url }}" alt="Estructura del curs d'IA per a docents" width="520">
+  <img src="{{ '/assets/img/estructura-curso-ia-va.png' | relative_url }}" alt="Estructura del curs d'IA per a docents" width="520">
 </p>
 
-- Del primer contacto con la IA y su uso responsable...
-- ...al trabajo con fuentes, la creación multimodal, la evaluación y la reflexión crítica.
+- Des del primer contacte amb la IA i el seu ús responsable...
+- ...fins al treball amb fonts, la creació multimodal, l'avaluació i la reflexió crítica.
 
 <div style="background-color:#f5f7fa; border-left:4px solid #6c8ebf; padding:12px 14px; margin:18px 0; border-radius:6px;">
 
-<strong>Idea clave</strong><br>
-No formamos especialistas en IA. Formamos docentes con criterio para decidir si, cuándo y cómo usarla.
+<strong>Idea clau</strong><br>
+No formem especialistes en IA. Formem docents amb criteri per a decidir si, quan i com utilitzar-la.
 
 </div>
 
 ---
 
-## Objetivos
+## Objectius
 {: id="objetivos" }
 
-Al finalizar el curso, el profesorado será capaz de:
+En finalitzar el curs, el professorat participant serà capaç de:
 
-- **Usar la IA como aliada diaria** en la planificación, evaluación y creación de materiales, trabajando en el entorno seguro de la GVA.
-- **Perder el miedo inicial** conectando desde la primera sesión con Copilot (@edu.gva.es), Gemini, NotebookLM, Kimi y Grok para tareas reales.
-- **Diseñar prompts avanzados** con la estructura Rol + Contexto + Tarea + Formato + Restricciones, para que la IA actúe como experta pedagógica.
-- **Crear agentes personalizados** que automaticen correcciones y planificación conforme al estilo docente propio y los criterios LOMLOE.
-- **Transformar contenidos en recursos multimodales** —infografías, cómics, audios, vídeos con avatares— que atiendan a la diversidad del alumnado.
-- **Personalizar el aprendizaje** ajustando materiales a distintos niveles y realidades del aula de forma rápida y escalable.
-- **Automatizar tareas administrativas **como rúbricas LOMLOE y correcciones motivadoras, liberando tiempo para lo que importa: enseñar.
-- **Desarrollar un uso ético y crítico de la IA**, priorizando la privacidad del alumnado y reflexionando sobre su impacto real en educación.
+- **Utilitzar la IA com a aliada diària** en la planificació, l'avaluació i la creació de materials, treballant en l'entorn segur de la GVA.
+- **Perdre la por inicial** connectant des de la primera sessió amb Copilot (@edu.gva.es), Gemini, NotebookLM, Kimi i Grok per a tasques reals.
+- **Dissenyar prompts avançats** amb l'estructura Rol + Context + Tasca + Format + Restriccions, perquè la IA actue com a experta pedagògica.
+- **Crear agents personalitzats** que automatitzen correccions i planificació d'acord amb l'estil docent propi i els criteris LOMLOE.
+- **Transformar continguts en recursos multimodals** —infografies, còmics, àudios, vídeos amb avatars— que atenguen la diversitat de l'alumnat.
+- **Personalitzar l'aprenentatge** ajustant materials a diferents nivells i realitats de l'aula de manera ràpida i escalable.
+- **Automatitzar tasques administratives** com rúbriques LOMLOE i correccions motivadores, alliberant temps per al que importa: ensenyar.
+- **Desenvolupar un ús ètic i crític de la IA**, prioritzant la privacitat de l'alumnat i reflexionant sobre el seu impacte real en educació.
 
 ---
 
-## Competencias docentes que se trabajan
+## Competències docents que es treballen
 {: id="competencias" }
 
-- **Competencia digital docente.** Uso seguro, crítico y creativo de herramientas de IA.Incluye evaluar la fiabilidad de los resultados y elegir la herramienta adecuada para cada tarea.
-- **Diseño de situaciones de aprendizaje.** Emplear la IA como asistente para elaborar secuencias didácticas alineadas con la LOMLOE: competencias específicas, saberes básicos y criterios de evaluación.
-- **Atención a la diversidad e inclusión.** Aplicar los principios DUA generando materiales en múltiples formatos y adaptando contenidos a distintos perfiles (NEAE, incorporación tardía, altas capacidades).
-- **Evaluación competencial.** Rúbricas, listas de cotejo y retroalimentación formativa.
-- **Análisis crítico de herramientas de IA.** Comparar resultados entre modelos, detectar sesgos, verificar la precisión curricular y auditar éticamente los materiales producidos.
-- **Toma de decisiones pedagógicas fundamentadas.** Determinar cuándo, cómo y por qué integrar la IA, anteponiendo siempre el valor pedagógico, la privacidad y la responsabilidad profesional.
+- **Competència digital docent.** Ús segur, crític i creatiu de ferramentes d'IA. Inclou avaluar la fiabilitat dels resultats i triar la ferramenta adequada per a cada tasca.
+- **Disseny de situacions d'aprenentatge.** Utilitzar la IA com a assistent per a elaborar seqüències didàctiques alineades amb la LOMLOE: competències específiques, sabers bàsics i criteris d'avaluació.
+- **Atenció a la diversitat i inclusió.** Aplicar els principis DUA generant materials en múltiples formats i adaptant continguts a diferents perfils (NEAE, incorporació tardana, altes capacitats).
+- **Avaluació competencial.** Rúbriques, llistes de comprovació i retroalimentació formativa.
+- **Anàlisi crítica de ferramentes d'IA.** Comparar resultats entre models, detectar biaixos, verificar la precisió curricular i auditar èticament els materials produïts.
+- **Presa de decisions pedagògiques fonamentades.** Determinar quan, com i per què integrar la IA, anteposant sempre el valor pedagògic, la privacitat i la responsabilitat professional.
 
 ---
 
-## Metodología
+## Metodologia
 {: id="metodologia" }
 
-El curso combina sesiones síncronas de acompañamiento con trabajo autónomo en línea. Se apoya en cuatro pilares:
+El curs combina sessions síncrones d'acompanyament amb treball autònom en línia. Es recolza en quatre pilars:
 
-### Demostración y modelado
+### Demostració i modelatge
 
-Cada sesión abre con demostraciones prácticas de flujo completo: necesidad, petición, revisión y verificación.
+Cada sessió s'obri amb demostracions pràctiques de flux complet: necessitat, petició, revisió i verificació.
 
-### Práctica guiada y experimentación
+### Pràctica guiada i experimentació
 
-Cada participante aplica lo aprendido en tareas docentes reales, adaptadas a su etapa.
+Cada participant aplica allò que ha aprés en tasques docents reals, adaptades a la seua etapa.
 
-### Comparación crítica
+### Comparació crítica
 
-Se comparan respuestas y procesos cuando aporta valor pedagógico y mejora la toma de decisiones.
+Es comparen respostes i processos quan aporta valor pedagògic i millora la presa de decisions.
 
-### Reflexión y transferencia
+### Reflexió i transferència
 
-Se revisan sesgos, errores, privacidad y aplicabilidad real antes de trasladar cualquier resultado al aula.
+Es revisen biaixos, errors, privacitat i aplicabilitat real abans de traslladar qualsevol resultat a l'aula.
 
-### Comunicación y colaboración
+### Comunicació i col·laboració
 
-Aules funciona como entorno de intercambio, seguimiento y entrega.
+Aules funciona com a entorn d'intercanvi, seguiment i lliurament.
 
 <div style="background-color:#f5f7fa; border-left:4px solid #6c8ebf; padding:12px 14px; margin:18px 0; border-radius:6px;">
 
-<strong>En la práctica</strong><br>
-Cada bloque sigue el mismo ciclo: necesidad docente -> trabajo con IA -> revisión -> verificación -> aplicación.
+<strong>En la pràctica</strong><br>
+Cada bloc seguix el mateix cicle: necessitat docent -> treball amb IA -> revisió -> verificació -> aplicació.
 
 </div>
 
 <p style="text-align: center; margin: 25px 0;">
-  <img src="{{ '/assets/img/ciclo-aprendizaje-ia-va.svg' | relative_url }}" alt="Cicle d'aprenentatge amb IA" width="500">
+  <img src="{{ '/assets/img/ciclo-aprendizaje-ia-va.png' | relative_url }}" alt="Cicle d'aprenentatge amb IA" width="500">
 </p>
 
 ---
 
-## Distribución temporal
+## Distribució temporal
 {: id="distribucion-temporal" }
 
-### Distribución semanal
+### Distribució setmanal
 
 <table>
   <colgroup>
@@ -158,59 +157,59 @@ Cada bloque sigue el mismo ciclo: necesidad docente -> trabajo con IA -> revisi�
   </colgroup>
   <thead>
     <tr>
-      <th>Módulo</th>
-      <th>Periodo</th>
-      <th>Entrega de actividades</th>
-      <th style="text-align:right;">Contenidos</th>
-      <th style="text-align:right;">Tareas</th>
-      <th>Videoconferencia</th>
+      <th>Mòdul</th>
+      <th>Període</th>
+      <th>Lliurament d'activitats</th>
+      <th style="text-align:right;">Continguts</th>
+      <th style="text-align:right;">Tasques</th>
+      <th>Videoconferència</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Bloque 0 · Presentación</td>
-      <td>Antes de la primera sesión</td>
-      <td>Según calendario de Aules</td>
+      <td>Bloc 0 · Presentació</td>
+      <td>Abans de la primera sessió</td>
+      <td>Segons calendari d'Aules</td>
       <td style="text-align:right;">-</td>
       <td style="text-align:right;">30 min</td>
       <td>-</td>
     </tr>
     <tr>
-      <td>Módulo 1 · IA Colaborativa y Gestión GVA</td>
+      <td>Mòdul 1 · IA Col·laborativa i Gestió GVA</td>
       <td>20/10/2026 al 26/10/2026</td>
-      <td>26/10/202</td>
+      <td>26/10/2026</td>
       <td style="text-align:right;">2 h</td>
       <td style="text-align:right;">2 h</td>
-      <td>Martes 20/10/2026 · 17:30-19:30</td>
+      <td>Dimarts 20/10/2026 · 17:30-19:30</td>
     </tr>
     <tr>
-      <td>Módulo 2 · Investigar, comprender y trabajar con fuentes</td>
+      <td>Mòdul 2 · Investigar, comprendre i treballar amb fonts</td>
       <td>27/10/2026 al 02/11/2026</td>
       <td>02/11/2026</td>
       <td style="text-align:right;">3 h</td>
       <td style="text-align:right;">4 h</td>
-      <td>Martes 27/10/2026 · 17:30-19:30</td>
+      <td>Dimarts 27/10/2026 · 17:30-19:30</td>
     </tr>
     <tr>
-      <td>Módulo 3 · Generación Multimodal</td>
+      <td>Mòdul 3 · Generació Multimodal</td>
       <td>03/11/2026 al 09/11/2026</td>
-      <td>S09/11/2026</td>
+      <td>09/11/2026</td>
       <td style="text-align:right;">3 h</td>
       <td style="text-align:right;">4 h</td>
-      <td>Martes 03/11/2026 · 17:30-19:30</td>
+      <td>Dimarts 03/11/2026 · 17:30-19:30</td>
     </tr>
     <tr>
-      <td>Módulo 4 · Evaluación y Personalización</td>
+      <td>Mòdul 4 · Avaluació i Personalització</td>
       <td>10/11/2026 al 16/11/2026</td>
       <td>16/11/2026</td>
       <td style="text-align:right;">2 h</td>
       <td style="text-align:right;">2 h</td>
-      <td>Martes 10/11/2026 · 17:30-19:30</td>
+      <td>Dimarts 10/11/2026 · 17:30-19:30</td>
     </tr>
     <tr>
-      <td>Cierre del curso</td>
+      <td>Tancament del curs</td>
       <td>17/11/2026 al 22/11/2026</td>
-      <td>22/11/202</td>
+      <td>22/11/2026</td>
       <td style="text-align:right;">30 min</td>
       <td style="text-align:right;">30 min</td>
       <td>-</td>
@@ -218,144 +217,144 @@ Cada bloque sigue el mismo ciclo: necesidad docente -> trabajo con IA -> revisi�
   </tbody>
 </table>
 
-### Resumen global
+### Resum global
 
-| Componente | Horas |
-|:-----------|------:|
-| Trabajo autónomo en línea (asíncrono) | 24 h |
-| Sesiones síncronas (a través de Aules) | 8 h |
+| Component | Hores |
+|:----------|------:|
+| Treball autònom en línia (asíncron) | 24 h |
+| Sessions síncrones (a través d'Aules) | 8 h |
 | **Total** | **32 h** |
 
-### Calendario de sesiones síncronas
+### Calendari de sessions síncrones
 
-| Bloque | Título | Sesión síncrona | Fecha | Horario | Horas síncronas | Horas en línea | Total bloque |
-|:------:|:-------|:---------------:|:-----:|:-------:|:---------------:|:--------------:|:------------:|
-| 1 | IA Colaborativa y Gestión GVA | 1 | 20/10/2026 | 17:30-19:30 | 2 h | 6 h | 8 h |
-| 2 | Prompting Avanzado y Gestión Documental | 2 | 27/10/2026 | 17:30-19:30 | 2 h | 6 h | 8 h |
-| 3 | Generación Multimodal | 3 | 03/11/2026 | 17:30-19:30 | 2 h | 6 h | 8 h |
-| 4 | Evaluación y Personalización | 4 | 10/11/2026 | 17:30-19:30 | 2 h | 6 h | 8 h |
-|  |  |  |  | **Totales** | **8 h** | **24 h** | **32 h** |
+| Bloc | Títol | Sessió síncrona | Data | Horari | Hores síncrones | Hores en línia | Total bloc |
+|:----:|:------|:---------------:|:----:|:------:|:---------------:|:--------------:|:----------:|
+| 1 | IA Col·laborativa i Gestió GVA | 1 | 20/10/2026 | 17:30-19:30 | 2 h | 6 h | 8 h |
+| 2 | Prompting avançat i gestió documental | 2 | 27/10/2026 | 17:30-19:30 | 2 h | 6 h | 8 h |
+| 3 | Generació Multimodal | 3 | 03/11/2026 | 17:30-19:30 | 2 h | 6 h | 8 h |
+| 4 | Avaluació i Personalització | 4 | 10/11/2026 | 17:30-19:30 | 2 h | 6 h | 8 h |
+|  |  |  |  | **Totals** | **8 h** | **24 h** | **32 h** |
 
-Cada bloque se desarrolla a lo largo de una semana. La sesión síncrona abre el bloque con demostración, modelado y actividades grupales. El trabajo en línea se realiza en los días posteriores, con entrega antes de la sesión siguiente.
+Cada bloc es desenvolupa al llarg d'una setmana. La sessió síncrona obri el bloc amb demostració, modelatge i activitats grupals. El treball en línia es realitza en els dies posteriors, amb lliurament abans de la sessió següent.
 
 <div style="background-color:#f5f7fa; border-left:4px solid #6c8ebf; padding:12px 14px; margin:18px 0; border-radius:6px;">
 
-<strong>🎯 En la práctica</strong><br>
-Cada semana funciona igual: sesión síncrona el martes -> trabajo autónomo durante la semana -> entrega antes de la siguiente sesión.
+<strong>🎯 En la pràctica</strong><br>
+Cada setmana funciona igual: sessió síncrona el dimarts -> treball autònom durant la setmana -> lliurament abans de la sessió següent.
 
 </div>
 
 ---
 
-## Contenidos por bloques
+## Continguts per blocs
 {: id="contenidos" }
 
-### Bloque 0 · ¿Qué es la IA?
+### Bloc 0 · Què és la IA?
 
-**Objetivo:** Comprender tipos de IA, límites, riesgos y uso responsable antes de su aplicación didáctica.
+**Objectiu:** Comprendre tipus d'IA, límits, riscos i ús responsable abans de la seua aplicació didàctica.
 
-**Contenidos clave:** IA predictiva, IA generativa y agentes; alucinaciones y sesgos; privacidad, marco legal y criterio docente.
+**Continguts clau:** IA predictiva, IA generativa i agents; al·lucinacions i biaixos; privacitat, marc legal i criteri docent.
 
-### Bloque 1 · IA Colaborativa y Gestión GVA
+### Bloc 1 · IA Col·laborativa i Gestió GVA
 
-**Objetivo:** Mejorar peticiones y revisión de resultados para tareas docentes habituales.
+**Objectiu:** Millorar peticions i revisió de resultats per a tasques docents habituals.
 
-**Contenidos clave:** contexto y calidad de peticiones, iteración, documentación, comunicación y organización.
+**Continguts clau:** context i qualitat de peticions, iteració, documentació, comunicació i organització.
 
-### Bloque 2 · Investigar, comprender y trabajar con fuentes
+### Bloc 2 · Investigar, comprendre i treballar amb fonts
 
-**Objetivo:** Trabajar con documentos y fuentes para obtener respuestas verificables y fundamentadas.
+**Objectiu:** Treballar amb documents i fonts per a obtindre respostes verificables i fonamentades.
 
-**Contenidos clave:** prompt pedagógico, técnicas de interacción, verificación con fuentes, contraste de respuestas y diseño didáctico apoyado en documentación.
+**Continguts clau:** prompt pedagògic, tècniques d'interacció, verificació amb fonts, contrast de respostes i disseny didàctic basat en documentació.
 
-### Bloque 3 · Generación Multimodal
+### Bloc 3 · Generació Multimodal
 
-**Objetivo:** Crear recursos didácticos en formatos diversos con utilidad real para el aula.
+**Objectiu:** Crear recursos didàctics en formats diversos amb utilitat real per a l'aula.
 
-**Contenidos clave:** presentaciones, infografías, cómics, audio, vídeo y adaptación multinivel.
+**Continguts clau:** presentacions, infografies, còmics, àudio, vídeo i adaptació multinivell.
 
-### Bloque 4 · Evaluación y Personalización
+### Bloc 4 · Avaluació i Personalització
 
-**Objetivo:** Aplicar IA para evaluación, retroalimentación y personalización manteniendo la supervisión docente.
+**Objectiu:** Aplicar IA per a l'avaluació, la retroalimentació i la personalització mantenint la supervisió docent.
 
-**Contenidos clave:** instrumentos de evaluación, feedback, adaptación, alfabetización en IA del alumnado y uso ético.
+**Continguts clau:** instruments d'avaluació, feedback, adaptació, alfabetització en IA de l'alumnat i ús ètic.
 
 ---
 
-## Recursos y herramientas
+## Recursos i ferramentes
 {: id="recursos" }
 
-Se utilizan herramientas distintas según la tarea y la disponibilidad institucional.
+S'utilitzen ferramentes diferents segons la tasca i la disponibilitat institucional.
 
-### Referencias de trabajo
+### Referències de treball
 
-- Copilot Chat (según disponibilidad de cuenta institucional).
-- Gemini y Gemini Notebook para trabajo con fuentes y verificación documental.
-- Herramientas multimodales para creación de recursos (presentación, imagen, audio, vídeo) cuando proceda.
+- Copilot Chat (segons disponibilitat de compte institucional).
+- Gemini i Gemini Notebook per a treball amb fonts i verificació documental.
+- Ferramentes multimodals per a creació de recursos (presentació, imatge, àudio, vídeo) quan siga necessari.
 
-### Advertencia de protección de datos
+### Advertència de protecció de dades
 
 <div style="background-color:#f5f7fa; border-left:4px solid #6c8ebf; padding:12px 14px; margin:18px 0; border-radius:6px;">
 
-<strong>NO INTRODUZCAS DATOS PERSONALES NI SENSIBLES DEL ALUMNADO.</strong><br>
-Usa datos ficticios, anonimizados o de dominio público y verifica siempre las condiciones del servicio utilizado.
+<strong>NO INTRODUÏXES DADES PERSONALS NI SENSIBLES DE L'ALUMNAT.</strong><br>
+Utilitza dades fictícies, anonimitzades o de domini públic i verifica sempre les condicions del servici utilitzat.
 
 </div>
 
 ---
 
-## Evaluación y certificación
+## Avaluació i certificació
 {: id="evaluacion" }
 
-### Evaluación
+### Avaluació
 
-La evaluación es continua, formativa y orientada a evidencias.
+L'avaluació és contínua, formativa i orientada a evidències.
 
 <p style="text-align: center; margin: 25px 0;">
-  <img src="{{ '/assets/img/evaluacion-proceso-vs-producto-va.svg' | relative_url }}" alt="Avaluació del procés davant del producte" width="520">
+  <img src="{{ '/assets/img/evaluacion-proceso-vs-producto-va.png' | relative_url }}" alt="Avaluació del procés davant del producte" width="520">
 </p>
 
-Se valora especialmente:
+Es valora especialment:
 
-- Definición de necesidad y contexto.
-- Calidad del proceso de revisión y verificación.
-- Adecuación pedagógica de los productos.
-- Uso responsable de herramientas y fuentes.
-- Reflexión crítica sobre decisiones y límites.
+- Definició de necessitat i context.
+- Qualitat del procés de revisió i verificació.
+- Adequació pedagògica dels productes.
+- Ús responsable de ferramentes i fonts.
+- Reflexió crítica sobre decisions i límits.
 
-### Requisitos de certificación
+### Requisits de certificació
 
-Para obtener la certificación:
+Per a obtindre la certificació:
 
-- Asistir a las sesiones síncronas según normativa CEFIRE.
-- Entregar las actividades requeridas de los bloques.
-- Completar el proyecto final «Mi flujo docente con IA».
-- Demostrar aprovechamiento adecuado del itinerario.
+- Assistir a les sessions síncrones segons normativa CEFIRE.
+- Lliurar les activitats requerides dels blocs.
+- Completar el projecte final «El meu flux docent amb IA».
+- Demostrar aprofitament adequat de l'itinerari.
 
 ---
 
-## Atención a la diversidad e inclusión
+## Atenció a la diversitat i inclusió
 {: id="diversidad" }
 
-- Progresión guiada desde tareas básicas a tareas complejas.
-- Materiales en varios formatos para distintos perfiles docentes.
-- Aplicación de principios DUA en diseño y adaptación de recursos.
-- Revisión humana obligatoria de todo material generado con IA.
+- Progressió guiada des de tasques bàsiques fins a tasques complexes.
+- Materials en diversos formats per a diferents perfils docents.
+- Aplicació dels principis DUA en disseny i adaptació de recursos.
+- Revisió humana obligatòria de tot material generat amb IA.
 
 ---
 
-## Enfoque ético, legal y pedagógico
+## Enfocament ètic, legal i pedagògic
 {: id="enfoque-etico" }
 
-- La IA no sustituye el juicio docente.
-- La verificación con fuentes oficiales es obligatoria cuando hay información crítica.
-- El uso debe ser proporcionado al objetivo pedagógico.
-- La privacidad, la autoría y la transparencia son parte del proceso de aprendizaje.
+- La IA no substituïx el judici docent.
+- La verificació amb fonts oficials és obligatòria quan hi ha informació crítica.
+- L'ús ha de ser proporcionat a l'objectiu pedagògic.
+- La privacitat, l'autoria i la transparència formen part del procés d'aprenentatge.
 
 ---
 
 <p style="text-align:center; color:gray; font-size:0.85em;">
-Curso 26IA92IN041 · 2.ª edición de 2026 · CEFIRE de Inteligencia Artificial y Pensamiento Computacional<br>
-Herramientas de Inteligencia Artificial Generativa para docentes<br>
-Contenido bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+Curs 26IA92IN041 · 2a edició de 2026 · CEFIRE d'Intel·ligència Artificial i Pensament Computacional<br>
+Eines d'Intel·ligència Artificial Generativa per a docents<br>
+Contingut sota llicència <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
 </p>
