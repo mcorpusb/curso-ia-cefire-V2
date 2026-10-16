@@ -281,5 +281,5 @@ Incluye 5 filas de ejemplo. Formato tabla Markdown para pegar en Word.
 ---
 
 <p style="text-align:center; color:gray; font-size:0.85em;">
-Curso 26IA92IN041 · CEFIRE de Inteligencia Artificial y Pensamiento Computacional · Curso académico 2026-2027
+Curso 26IA92IN041 · 2.ª edición de 2026 · CEFIRE de Inteligencia Artificial y Pensamiento Computacional
 </p>

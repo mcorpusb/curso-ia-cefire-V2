@@ -7,7 +7,7 @@ has_children: true
 <br>
 
 <div class="page-illustration">
-  <img src="{{ '/assets/img/curso/portada-curso-ia-cas.png' | relative_url }}" alt="Herramientas de Inteligencia Artificial Generativa para Docentes. Curso 2026-2027, 32 horas, a distancia." style="width:100%; max-width:1400px; height:auto; display:block; margin:0 auto 1.5rem auto;">
+  <img src="{{ '/assets/img/curso/portada-curso-ia-cas.png' | relative_url }}" alt="Herramientas de Inteligencia Artificial Generativa para docentes. 2.ª edición de 2026, 32 horas, a distancia." style="width:100%; max-width:1400px; height:auto; display:block; margin:0 auto 1.5rem auto;">
 </div>
 
 <!-- FICHA DEL CURSO — actualizar solo aquí cuando cambie la edición -->
@@ -17,7 +17,7 @@ has_children: true
   <strong>Inicio:</strong> 20/10/2026 &nbsp;·&nbsp;
   <strong>Finalización:</strong> 22/11/2026 &nbsp;·&nbsp;
   <strong>Duración:</strong> 32 horas &nbsp;·&nbsp;
-  <strong>Curso académico:</strong> 2026-2027
+  <strong>Edición:</strong> 2.ª edición de 2026
 </p>
 
 ---
