@@ -35,16 +35,16 @@ Herramientas de Inteligencia Artificial Generativa para docentes · 26IA92IN041
 <nav class="indice-bloque" aria-label="Índice de la guía" markdown="1">
 
 - [Presentación](#presentacion)
-- [Objetivos](#objetivos)
-- [Competencias docentes](#competencias)
-- [Metodología](#metodologia)
-- [Distribución temporal](#distribucion-temporal)
-- [Contenidos por bloques](#contenidos)
-- [Actividades y entregas](#actividades)
-- [Recursos y herramientas](#recursos)
-- [Evaluación y certificación](#evaluacion)
-- [Atención a la diversidad](#diversidad)
-- [Enfoque ético, legal y pedagógico](#enfoque-etico)
+- [🎯 Objetivos](#objetivos)
+- [🧩 Competencias docentes](#competencias)
+- [🛠️ Metodología](#metodologia)
+- [🗓️ Distribución temporal](#distribucion-temporal)
+- [📚 Contenidos por bloques](#contenidos)
+- [✅ Actividades y entregas](#actividades)
+- [🧰 Recursos y herramientas](#recursos)
+- [📊 Evaluación y certificación](#evaluacion)
+- [♿ Atención a la diversidad](#diversidad)
+- [⚖️ Enfoque ético, legal y pedagógico](#enfoque-etico)
 
 </nav>
 
