@@ -143,14 +143,76 @@ Cada bloque sigue el mismo ciclo: necesidad docente -> trabajo con IA -> revisi�
 
 ### Distribución semanal
 
-| Módulo | Periodo | Entrega de actividades | Contenidos | Tareas | Videoconferencia |
-|:-------|:--------|:-----------------------|-----------:|-------:|:-----------------|
-| Bloque 0 · Presentación | Antes de la primera sesión | Según calendario de Aules | - | 30 min h | - |
-| Módulo 1 · IA Colaborativa y Gestión GVA | 20/10/2026 al 26/10/2026 | 26/10/202 | 2 h | 2 h | Martes 20/10/2026 · 17:30-19:30 |
-| Módulo 2 · Investigar, comprender y trabajar con fuentes | 27/10/2026 al 02/11/2026 | 02/11/2026 | 3 h | 4 h | Martes 27/10/2026 · 17:30-19:30 |
-| Módulo 3 · Generación Multimodal | 03/11/2026 al 09/11/2026 | S09/11/2026 | 3 h | 4 h | Martes 03/11/2026 · 17:30-19:30 |
-| Módulo 4 · Evaluación y Personalización | 10/11/2026 al 16/11/2026 | 16/11/2026 | 2 h | 2 h | Martes 10/11/2026 · 17:30-19:30 |
-| Cierre del curso | 17/11/2026 al 22/11/2026 | 22/11/202 | 30 min | 30 min | - |
+<table>
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 18%;">
+    <col style="width: 15%;">
+    <col style="width: 10%;">
+    <col style="width: 7%;">
+    <col style="width: 30%;">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Módulo</th>
+      <th>Periodo</th>
+      <th>Entrega de actividades</th>
+      <th style="text-align:right;">Contenidos</th>
+      <th style="text-align:right;">Tareas</th>
+      <th>Videoconferencia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bloque 0 · Presentación</td>
+      <td>Antes de la primera sesión</td>
+      <td>Según calendario de Aules</td>
+      <td style="text-align:right;">-</td>
+      <td style="text-align:right;">30 min</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Módulo 1 · IA Colaborativa y Gestión GVA</td>
+      <td>20/10/2026 al 26/10/2026</td>
+      <td>26/10/202</td>
+      <td style="text-align:right;">2 h</td>
+      <td style="text-align:right;">2 h</td>
+      <td>Martes 20/10/2026 · 17:30-19:30</td>
+    </tr>
+    <tr>
+      <td>Módulo 2 · Investigar, comprender y trabajar con fuentes</td>
+      <td>27/10/2026 al 02/11/2026</td>
+      <td>02/11/2026</td>
+      <td style="text-align:right;">3 h</td>
+      <td style="text-align:right;">4 h</td>
+      <td>Martes 27/10/2026 · 17:30-19:30</td>
+    </tr>
+    <tr>
+      <td>Módulo 3 · Generación Multimodal</td>
+      <td>03/11/2026 al 09/11/2026</td>
+      <td>S09/11/2026</td>
+      <td style="text-align:right;">3 h</td>
+      <td style="text-align:right;">4 h</td>
+      <td>Martes 03/11/2026 · 17:30-19:30</td>
+    </tr>
+    <tr>
+      <td>Módulo 4 · Evaluación y Personalización</td>
+      <td>10/11/2026 al 16/11/2026</td>
+      <td>16/11/2026</td>
+      <td style="text-align:right;">2 h</td>
+      <td style="text-align:right;">2 h</td>
+      <td>Martes 10/11/2026 · 17:30-19:30</td>
+    </tr>
+    <tr>
+      <td>Cierre del curso</td>
+      <td>17/11/2026 al 22/11/2026</td>
+      <td>22/11/202</td>
+      <td style="text-align:right;">30 min</td>
+      <td style="text-align:right;">30 min</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Resumen global
 
@@ -159,6 +221,25 @@ Cada bloque sigue el mismo ciclo: necesidad docente -> trabajo con IA -> revisi�
 | Trabajo autónomo en línea (asíncrono) | 24 h |
 | Sesiones síncronas (a través de Aules) | 8 h |
 | **Total** | **32 h** |
+
+### Calendario de sesiones síncronas
+
+| Bloque | Título | Sesión síncrona | Fecha | Horario | Horas síncronas | Horas en línea | Total bloque |
+|:------:|:-------|:---------------:|:-----:|:-------:|:---------------:|:--------------:|:------------:|
+| 1 | IA Colaborativa y Gestión GVA | 1 | 20/10/2026 | 17:30-19:30 | 2 h | 6 h | 8 h |
+| 2 | Prompting Avanzado y Gestión Documental | 2 | 27/10/2026 | 17:30-19:30 | 2 h | 6 h | 8 h |
+| 3 | Generación Multimodal | 3 | 03/11/2026 | 17:30-19:30 | 2 h | 6 h | 8 h |
+| 4 | Evaluación y Personalización | 4 | 10/11/2026 | 17:30-19:30 | 2 h | 6 h | 8 h |
+|  |  |  |  | **Totales** | **8 h** | **24 h** | **32 h** |
+
+Cada bloque se desarrolla a lo largo de una semana. La sesión síncrona abre el bloque con demostración, modelado y actividades grupales. El trabajo en línea se realiza en los días posteriores, con entrega antes de la sesión siguiente.
+
+<div style="background-color:#f5f7fa; border-left:4px solid #6c8ebf; padding:12px 14px; margin:18px 0; border-radius:6px;">
+
+<strong>🎯 En la práctica</strong><br>
+Cada semana funciona igual: sesión síncrona el martes -> trabajo autónomo durante la semana -> entrega antes de la siguiente sesión.
+
+</div>
 
 ---
 
