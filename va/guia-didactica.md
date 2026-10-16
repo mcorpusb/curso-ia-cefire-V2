@@ -4,7 +4,6 @@ title: "Guia didàctica"
 nav_order: 2
 lang: va
 translation_key: guia-didactica
-nav_exclude: true
 
 ---
 

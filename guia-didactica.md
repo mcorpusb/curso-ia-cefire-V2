@@ -4,7 +4,6 @@ title: "Guía didáctica"
 nav_order: 2
 lang: es
 translation_key: guia-didactica
-nav_exclude: true
 ---
 
 {% include language-switcher.html %}
