@@ -143,20 +143,21 @@ Cada bloque sigue el mismo ciclo: necesidad docente -> trabajo con IA -> revisi�
 
 ### Distribución semanal
 
-| Unidad | Inicio | Trabajo en línea | Sesión síncrona | Total |
-|:-------|:-------|-----------------:|----------------:|------:|
-| Bloque 0 · Presentación | Antes de la primera sesión | 2 h | - | 2 h |
-| Bloque 1 · IA Colaborativa y Gestión GVA | 20/10/2026 | 6 h | 2 h | 8 h |
-| Bloque 2 · Investigar, comprender y trabajar con fuentes | 27/10/2026 | 6 h | 2 h | 8 h |
-| Bloque 3 · Generación Multimodal | 03/11/2026 | 5 h | 2 h | 7 h |
-| Bloque 4 · Evaluación y Personalización | 10/11/2026 | 5 h | 2 h | 7 h |
+| Módulo | Periodo | Entrega de actividades | Contenidos | Tareas | Videoconferencia |
+|:-------|:--------|:-----------------------|-----------:|-------:|:-----------------|
+| Bloque 0 · Presentación | Antes de la primera sesión | Según calendario de Aules | - | 2 h | - |
+| Módulo 1 · IA Colaborativa y Gestión GVA | 20/10/2026 al 26/10/2026 | Según calendario de Aules | 2 h | 6 h | Martes 20/10/2026 · 17:30-19:30 |
+| Módulo 2 · Investigar, comprender y trabajar con fuentes | 27/10/2026 al 02/11/2026 | Según calendario de Aules | 2 h | 6 h | Martes 27/10/2026 · 17:30-19:30 |
+| Módulo 3 · Generación Multimodal | 03/11/2026 al 09/11/2026 | Según calendario de Aules | 2 h | 5 h | Martes 03/11/2026 · 17:30-19:30 |
+| Módulo 4 · Evaluación y Personalización | 10/11/2026 al 16/11/2026 | Según calendario de Aules | 2 h | 5 h | Martes 10/11/2026 · 17:30-19:30 |
+| Cierre del curso | 17/11/2026 al 22/11/2026 | Según calendario de Aules | - | - | - |
 
 ### Resumen global
 
 | Componente | Horas |
 |:-----------|------:|
 | Trabajo autónomo en línea (asíncrono) | 24 h |
-| Sesiones síncronas (Aules) | 8 h |
+| Sesiones síncronas (a través de Aules) | 8 h |
 | **Total** | **32 h** |
 
 ---
@@ -206,16 +207,6 @@ Cada bloque sigue el mismo ciclo: necesidad docente -> trabajo con IA -> revisi�
 | **Bloque 2** | Actividad 2.1 (prompt pedagógico), Actividad 2.2 (verificación curricular) y actividad final del bloque | Sí |
 | **Bloque 3** | Actividades por formato y actividad de creación de recurso multimodal | Sí |
 | **Bloque 4** | Actividades de evaluación/personalización y proyecto final «Mi flujo docente con IA» | Sí |
-
-Enlaces a bloques:
-
-- [Bloque 0]({{ '/modulo-0-que-es-la-ia.html' | relative_url }})
-- [Bloque 1]({{ '/bloque1.html' | relative_url }})
-- [Bloque 2]({{ '/bloque2.html' | relative_url }})
-- [Bloque 3]({{ '/bloque3.html' | relative_url }})
-- [Bloque 4]({{ '/bloque4.html' | relative_url }})
-
----
 
 ## Recursos y herramientas
 {: id="recursos" }
