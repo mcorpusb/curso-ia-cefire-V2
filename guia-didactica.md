@@ -46,7 +46,6 @@ El enfoque del curso es práctico: necesidad docente real, trabajo guiado con IA
 - [Actividades, evaluación y certificación](#evaluacion-certificacion)
 - [Participación y acompañamiento](#participacion)
 - [Privacidad, uso responsable y supervisión docente](#privacidad)
-- [Control de versiones](#control-versiones)
 
 </nav>
 
@@ -188,20 +187,6 @@ Además:
 - Verifica siempre normativa, citas y afirmaciones relevantes en la fuente original.
 - No delegues decisiones pedagógicas críticas en la IA.
 - Mantén transparencia sobre cómo se ha utilizado la IA en cada entrega.
-
----
-
-## Control de versiones
-{: id="control-versiones" }
-
-| Versión | Fecha | Autoría | Modificación |
-|:-------:|:-----:|:--------|:-------------|
-| 1.0 | 01/04/2026 | Equipo docente del curso | Redacción inicial de la guía didáctica |
-| 1.1 | 14/04/2026 | Equipo docente del curso | Reescritura para mejorar claridad, escaneabilidad y tono |
-| 2.0 | 2026-08 | Equipo docente del curso | Actualización de herramientas y separación de datos de edición |
-| 2.1 | 2026-08-13 | Equipo docente del curso | Coherencia pedagógica y ajuste del flujo de trabajo |
-| 2.2 | 2026-08-19 | Equipo docente del curso | Revisión integral de calendario, privacidad, evaluación y enfoque por procesos |
-| 2.3 | 2026-10-16 | Equipo docente del curso | Simplificación de la guía, alineación con bloques reales, actualización de edición a 2.ª edición de 2026 y limpieza de referencias de anexos |
 
 ---
 
