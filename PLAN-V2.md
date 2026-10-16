@@ -598,7 +598,7 @@ nav_order: 9   # primeros-pasos/identidad-digital.md (bajo Inicio)
 
 ### Problema en V1
 
-La tabla de sesiones con fechas (22/04/2026, etc.) está dentro de `index.md` mezclada con el contenido pedagógico permanente. En cada nueva edición habría que buscar y cambiar las fechas en varios archivos.
+La tabla de sesiones con fechas (20/10/2026, 27/10/2026, 03/11/2026 y 10/11/2026) está dentro de `index.md` mezclada con el contenido pedagógico permanente. En cada nueva edición habría que buscar y cambiar las fechas en varios archivos.
 
 ### Solución en V2
 

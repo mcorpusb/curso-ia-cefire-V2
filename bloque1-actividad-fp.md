@@ -185,5 +185,5 @@ en Word.
 ---
 
 <p style="text-align:center; color:gray; font-size:0.85em;">
-Curso 26IA92IN017 · CEFIRE · Generalitat Valenciana · 2026
+Curso 26IA92IN041 · CEFIRE de Inteligencia Artificial y Pensamiento Computacional · Curso académico 2026-2027
 </p>

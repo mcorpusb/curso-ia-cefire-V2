@@ -560,6 +560,6 @@ La entrega incluirá:
 [Continuar con el Bloque 2 →]({{ '/bloque2.html' | relative_url }})
 
 <p style="text-align:center; color:gray; font-size:0.85em;">
-Curso · código pendiente de convocatoria · CEFIRE · Generalitat Valenciana · Edición 2026-2027<br>
+Curso 26IA92IN041 · CEFIRE de Inteligencia Artificial y Pensamiento Computacional · Curso académico 2026-2027<br>
 Contenido bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
 </p>

@@ -13,8 +13,8 @@ Herramientas de Inteligencia Artificial Generativa para Docentes · CEFIRE
 <!-- ═══════════════════════════════════════════════════════════════════
      DATOS DE EDICIÓN — actualizar solo aquí cuando cambie la edición
      ═══════════════════════════════════════════════════════════════════ -->
-> **Código:** pendiente de convocatoria · **Edición:** 2026-2027 · **Modalidad:** Semipresencial · **Duración:** 32 h
-<!-- PENDIENTE: sustituir por el código oficial de la edición 2026-2027 cuando esté publicado. -->
+> **Código:** 26IA92IN041 · **Curso académico:** 2026-2027 · **Modalidad:** A distancia · **Duración:** 32 h
+> **Inicio:** 20 de octubre de 2026 · **Finalización:** 22 de noviembre de 2026
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 ---
@@ -56,13 +56,15 @@ No formamos especialistas en IA. Formamos docentes con criterio para decidir si,
 | Campo | Detalle |
 |:------|:--------|
 | **Título** | Herramientas de Inteligencia Artificial Generativa para Docentes |
-| **Código** | Pendiente de convocatoria |
-| **Edición** | 2026-2027 |
-| **Modalidad** | Semipresencial |
+| **Código** | 26IA92IN041 |
+| **Curso académico** | 2026-2027 |
+| **Modalidad** | A distancia |
+| **Inicio** | 20 de octubre de 2026 |
+| **Finalización** | 22 de noviembre de 2026 |
 | **Duración total** | 32 horas |
 | **Distribución horaria** | 24 horas de trabajo en línea + 8 horas de sesiones síncronas |
 | **Plataforma de seguimiento** | Aules (Generalitat Valenciana) |
-| **Entidad organizadora** | CEFIRE · Generalitat Valenciana |
+| **Entidad organizadora** | CEFIRE de Inteligencia Artificial y Pensamiento Computacional |
 | **Destinatarios** | Profesorado en activo de todas las etapas educativas |
 
 ---
@@ -471,7 +473,7 @@ La IA puede cambiar parte del trabajo docente: menos producción mecánica en al
 ---
 
 <p style="text-align:center; color:gray; font-size:0.85em;">
-Curso · código pendiente de convocatoria · CEFIRE · Generalitat Valenciana · Edición 2026-2027<br>
+Curso 26IA92IN041 · CEFIRE de Inteligencia Artificial y Pensamiento Computacional · Curso académico 2026-2027<br>
 Herramientas de Inteligencia Artificial Generativa para Docentes<br>
 Contenido bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
 </p>

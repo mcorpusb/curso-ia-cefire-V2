@@ -15,6 +15,10 @@ nav_exclude: true
 L'essencial per a començar amb criteri i passar a la pràctica
 {: .fs-5 .fw-300 }
 
+<div class="page-illustration">
+  <img src="{{ '/assets/img/curso/portada-curso-ia-val.png' | relative_url }}" alt="Eines d'Intel·ligència Artificial Generativa per a Docents. Curs 2026-2027, 32 hores, a distància." style="width:100%; max-width:1400px; height:auto; display:block; margin:0 auto 1.5rem auto;">
+</div>
+
 ---
 
 {: .callout .callout--idea }

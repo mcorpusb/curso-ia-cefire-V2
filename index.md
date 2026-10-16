@@ -6,16 +6,19 @@ has_children: true
 ---
 <br>
 
-<img src="{{ '/assets/img/banner-curso-ia.png' | relative_url }}" alt="Banner del curso Herramientas de Inteligencia Artificial Generativa para Docentes · CEFIRE" style="width:100%; max-width:100%; display:block; margin:0 0 1.5rem 0;">
+<div class="page-illustration">
+  <img src="{{ '/assets/img/curso/portada-curso-ia-cas.png' | relative_url }}" alt="Herramientas de Inteligencia Artificial Generativa para Docentes. Curso 2026-2027, 32 horas, a distancia." style="width:100%; max-width:1400px; height:auto; display:block; margin:0 auto 1.5rem auto;">
+</div>
 
 <!-- FICHA DEL CURSO — actualizar solo aquí cuando cambie la edición -->
 <p style="font-size:0.92em; color:#555; margin-bottom:1.5rem;">
-  <strong>Código:</strong> pendiente de convocatoria &nbsp;·&nbsp;
-  <strong>Modalidad:</strong> Semipresencial &nbsp;·&nbsp;
+  <strong>Código:</strong> 26IA92IN041 &nbsp;·&nbsp;
+  <strong>Modalidad:</strong> A distancia &nbsp;·&nbsp;
+  <strong>Inicio:</strong> 20/10/2026 &nbsp;·&nbsp;
+  <strong>Finalización:</strong> 22/11/2026 &nbsp;·&nbsp;
   <strong>Duración:</strong> 32 horas &nbsp;·&nbsp;
-  <strong>Edición:</strong> 2026-2027
+  <strong>Curso académico:</strong> 2026-2027
 </p>
-<!-- PENDIENTE: sustituir por el código oficial de la edición 2026-2027 cuando esté disponible. -->
 
 ---
 

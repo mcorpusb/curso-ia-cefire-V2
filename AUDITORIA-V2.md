@@ -55,7 +55,7 @@ search_exclude: true
 4. **Catálogo de herramientas vs. flujo docente**: algunas páginas listan muchas herramientas sin guiar al docente sobre cuándo elegir cada una.
 5. **Duplicación de actividades**: cinco páginas de actividades por etapa en Bloque 3 con estructuras casi idénticas. V2 debe usar el patrón RETO COMÚN → VARIANTE POR ETAPA.
 6. **Navegación confusa**: algunos archivos tienen `nav_order` sin `parent` coherente, y la sección "Novedades" mezcla contenidos de diferente naturaleza.
-7. **Datos frágiles incrustados**: fechas de sesiones (abril-mayo 2026), nombres de ediciones, límites exactos de herramientas escritos en el cuerpo del texto.
+7. **Datos frágiles incrustados**: fechas de sesiones (octubre-noviembre 2026), nombres de ediciones, límites exactos de herramientas escritos en el cuerpo del texto.
 8. **Imágenes que envejecen**: capturas de pantalla de interfaces que ya han cambiado.
 9. **Módulo 0 incompleto**: falta la perspectiva de 2026: modelos de razonamiento, agentes autónomos, Deep Research, EU AI Act.
 10. **Grok**: herramienta marginal que en V1 aparece en comparativas. Evaluar si merece espacio en V2.
@@ -124,7 +124,7 @@ Lógica robusta: oculta páginas bloqueadas del sidebar, protege URLs directas, 
 - Sección de primeros pasos.
 
 **Actualizar / Eliminar:**
-- **Tabla de sesiones con fechas específicas** (22/04/2026, 29/04/2026…): estas fechas son de una edición concreta. Deben moverse a un archivo separado o a una sección claramente delimitada como "Esta edición".
+- **Tabla de sesiones con fechas específicas** (20/10/2026, 27/10/2026, 03/11/2026, 10/11/2026): estas fechas son de una edición concreta. Deben moverse a un archivo separado o a una sección claramente delimitada como "Esta edición".
 - La imagen `banner-curso-ia.png` probablemente esté bien, verificar que no contiene texto con fechas.
 - `ruta-ia-docentes.png`: revisar si el diagrama sigue reflejando la estructura de V2.
 
