@@ -2,7 +2,11 @@
 layout: default
 title: "Guía didáctica"
 nav_order: 2
+lang: es
+translation_key: guia-didactica
 ---
+
+{% include language-switcher.html %}
 
 # Guía didáctica del curso
 {: .fs-8 }
