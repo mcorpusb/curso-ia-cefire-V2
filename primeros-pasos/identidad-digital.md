@@ -3,7 +3,11 @@ layout: default
 title: "Identidad digital y acceso"
 parent: Inicio
 nav_order: 0
+lang: es
+translation_key: identidad-digital
 ---
+
+{% include language-switcher.html %}
 
 # Identidad digital y acceso
 {: .no_toc }
