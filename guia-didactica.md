@@ -78,15 +78,15 @@ No formamos especialistas en IA. Formamos docentes con criterio para decidir si,
 ## Objetivos
 {: id="objetivos" }
 
-Al finalizar el curso, el profesorado será capaz de:
+Al finalizar el curso, el profesorado participante será capaz de:
 
 - **Usar la IA como aliada diaria** en la planificación, evaluación y creación de materiales, trabajando en el entorno seguro de la GVA.
-- **Perder el miedo inicial** conectando desde la primera sesión con Copilot (@edu.gva.es), Gemini, NotebookLM, Kimi y Grok para tareas reales.
+- **Perder el miedo inicial** conectando desde la primera sesión con Copilot (`@edu.gva.es`), Gemini, NotebookLM, Kimi y Grok para tareas reales.
 - **Diseñar prompts avanzados** con la estructura Rol + Contexto + Tarea + Formato + Restricciones, para que la IA actúe como experta pedagógica.
 - **Crear agentes personalizados** que automaticen correcciones y planificación conforme al estilo docente propio y los criterios LOMLOE.
 - **Transformar contenidos en recursos multimodales** —infografías, cómics, audios, vídeos con avatares— que atiendan a la diversidad del alumnado.
 - **Personalizar el aprendizaje** ajustando materiales a distintos niveles y realidades del aula de forma rápida y escalable.
-- **Automatizar tareas administrativas **como rúbricas LOMLOE y correcciones motivadoras, liberando tiempo para lo que importa: enseñar.
+- **Automatizar tareas administrativas** como rúbricas LOMLOE y correcciones motivadoras, liberando tiempo para lo que importa: enseñar.
 - **Desarrollar un uso ético y crítico de la IA**, priorizando la privacidad del alumnado y reflexionando sobre su impacto real en educación.
 
 ---
@@ -94,10 +94,12 @@ Al finalizar el curso, el profesorado será capaz de:
 ## Competencias docentes que se trabajan
 {: id="competencias" }
 
-- **Competencia digital docente.** Uso seguro, crítico y creativo de herramientas de IA.Incluye evaluar la fiabilidad de los resultados y elegir la herramienta adecuada para cada tarea.
+El curso desarrolla seis competencias profesionales clave:
+
+- **Competencia digital docente.** Uso seguro, crítico y creativo de herramientas de IA. Incluye evaluar la fiabilidad de los resultados y elegir la herramienta adecuada para cada tarea.
 - **Diseño de situaciones de aprendizaje.** Emplear la IA como asistente para elaborar secuencias didácticas alineadas con la LOMLOE: competencias específicas, saberes básicos y criterios de evaluación.
 - **Atención a la diversidad e inclusión.** Aplicar los principios DUA generando materiales en múltiples formatos y adaptando contenidos a distintos perfiles (NEAE, incorporación tardía, altas capacidades).
-- **Evaluación competencial.** Rúbricas, listas de cotejo y retroalimentación formativa.
+- **Evaluación competencial.** Diseñar rúbricas, listas de cotejo y dianas de autoevaluación alineadas con el currículo, y generar retroalimentación formativa y motivadora.
 - **Análisis crítico de herramientas de IA.** Comparar resultados entre modelos, detectar sesgos, verificar la precisión curricular y auditar éticamente los materiales producidos.
 - **Toma de decisiones pedagógicas fundamentadas.** Determinar cuándo, cómo y por qué integrar la IA, anteponiendo siempre el valor pedagógico, la privacidad y la responsabilidad profesional.
 
@@ -110,28 +112,28 @@ El curso combina sesiones síncronas de acompañamiento con trabajo autónomo en
 
 ### Demostración y modelado
 
-Cada sesión abre con demostraciones prácticas de flujo completo: necesidad, petición, revisión y verificación.
+Cada sesión síncrona arranca con una **demostración práctica en directo**: desde formular el prompt hasta evaluar críticamente el resultado. El profesorado ve un flujo de trabajo real, no solo teoría.
 
 ### Práctica guiada y experimentación
 
-Cada participante aplica lo aprendido en tareas docentes reales, adaptadas a su etapa.
+Entre sesiones, cada participante trabaja con las herramientas a su ritmo, siguiendo las guías y los “Prompts de Oro” de cada bloque. La progresión es gradual: empezar con un correo o un acta, avanzar hacia situaciones de aprendizaje, y culminar con un portfolio integrador.
 
 ### Comparación crítica
 
-Se comparan respuestas y procesos cuando aporta valor pedagógico y mejora la toma de decisiones.
+Un rasgo distintivo de este curso: no se usa una sola IA. El profesorado lanza el mismo prompt en Copilot, Gemini, NotebookLM, Kimi o Grok, analiza diferencias de calidad y fiabilidad, y saca sus propias conclusiones sobre cuándo usar cada herramienta.
 
 ### Reflexión y transferencia
 
-Se revisan sesgos, errores, privacidad y aplicabilidad real antes de trasladar cualquier resultado al aula.
+Cada bloque incluye momentos de reflexión sobre seguridad, privacidad, ética y fiabilidad. El objetivo: que la IA no sea un ejercicio técnico aislado, sino que se traduzca en decisiones pedagógicas concretas y en cambios reales en la práctica docente.
 
 ### Comunicación y colaboración
 
-Aules funciona como entorno de intercambio, seguimiento y entrega.
+Los foros de **Aules** funcionan como espacio de intercambio: compartir prompts, comentar materiales de compañeros/as y debatir conclusiones. Las sesiones síncronas incluyen actividades grupales que refuerzan la dimensión colaborativa.
 
 <div style="background-color:#f5f7fa; border-left:4px solid #6c8ebf; padding:12px 14px; margin:18px 0; border-radius:6px;">
 
-<strong>En la práctica</strong><br>
-Cada bloque sigue el mismo ciclo: necesidad docente -> trabajo con IA -> revisión -> verificación -> aplicación.
+<strong>🎯 En la práctica</strong><br>
+Cada bloque sigue el mismo ciclo: ver cómo se hace → hacerlo tú → comparar resultados → reflexionar sobre lo aprendido.
 
 </div>
 

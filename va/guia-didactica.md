@@ -83,23 +83,25 @@ No formem especialistes en IA. Formem docents amb criteri per a decidir si, quan
 En finalitzar el curs, el professorat participant serà capaç de:
 
 - **Utilitzar la IA com a aliada diària** en la planificació, l'avaluació i la creació de materials, treballant en l'entorn segur de la GVA.
-- **Perdre la por inicial** connectant des de la primera sessió amb Copilot (@edu.gva.es), Gemini, NotebookLM, Kimi i Grok per a tasques reals.
+- **Perdre la por inicial** connectant des de la primera sessió amb Copilot (`@edu.gva.es`), Gemini, NotebookLM, Kimi i Grok per a tasques reals.
 - **Dissenyar prompts avançats** amb l'estructura Rol + Context + Tasca + Format + Restriccions, perquè la IA actue com a experta pedagògica.
 - **Crear agents personalitzats** que automatitzen correccions i planificació d'acord amb l'estil docent propi i els criteris LOMLOE.
 - **Transformar continguts en recursos multimodals** —infografies, còmics, àudios, vídeos amb avatars— que atenguen la diversitat de l'alumnat.
 - **Personalitzar l'aprenentatge** ajustant materials a diferents nivells i realitats de l'aula de manera ràpida i escalable.
-- **Automatitzar tasques administratives** com rúbriques LOMLOE i correccions motivadores, alliberant temps per al que importa: ensenyar.
-- **Desenvolupar un ús ètic i crític de la IA**, prioritzant la privacitat de l'alumnat i reflexionant sobre el seu impacte real en educació.
+- **Automatitzar tasques administratives** com a rúbriques LOMLOE i correccions motivadores, alliberant temps per al que importa: ensenyar.
+- **Desenvolupar un ús ètic i crític de la IA**, prioritzant la privacitat de l'alumnat i reflexionant sobre el seu impacte real en l'educació.
 
 ---
 
 ## Competències docents que es treballen
 {: id="competencias" }
 
+El curs desenvolupa sis competències professionals clau:
+
 - **Competència digital docent.** Ús segur, crític i creatiu de ferramentes d'IA. Inclou avaluar la fiabilitat dels resultats i triar la ferramenta adequada per a cada tasca.
-- **Disseny de situacions d'aprenentatge.** Utilitzar la IA com a assistent per a elaborar seqüències didàctiques alineades amb la LOMLOE: competències específiques, sabers bàsics i criteris d'avaluació.
+- **Disseny de situacions d'aprenentatge.** Emprar la IA com a assistent per a elaborar seqüències didàctiques alineades amb la LOMLOE: competències específiques, sabers bàsics i criteris d'avaluació.
 - **Atenció a la diversitat i inclusió.** Aplicar els principis DUA generant materials en múltiples formats i adaptant continguts a diferents perfils (NEAE, incorporació tardana, altes capacitats).
-- **Avaluació competencial.** Rúbriques, llistes de comprovació i retroalimentació formativa.
+- **Avaluació competencial.** Dissenyar rúbriques, llistes de comprovació i dianes d'autoavaluació alineades amb el currículum, i generar retroalimentació formativa i motivadora.
 - **Anàlisi crítica de ferramentes d'IA.** Comparar resultats entre models, detectar biaixos, verificar la precisió curricular i auditar èticament els materials produïts.
 - **Presa de decisions pedagògiques fonamentades.** Determinar quan, com i per què integrar la IA, anteposant sempre el valor pedagògic, la privacitat i la responsabilitat professional.
 
@@ -112,28 +114,28 @@ El curs combina sessions síncrones d'acompanyament amb treball autònom en lín
 
 ### Demostració i modelatge
 
-Cada sessió s'obri amb demostracions pràctiques de flux complet: necessitat, petició, revisió i verificació.
+Cada sessió síncrona comença amb una **demostració pràctica en directe**: des de formular el prompt fins a avaluar críticament el resultat. El professorat veu un flux de treball real, no només teoria.
 
 ### Pràctica guiada i experimentació
 
-Cada participant aplica allò que ha aprés en tasques docents reals, adaptades a la seua etapa.
+Entre sessions, cada participant treballa amb les ferramentes al seu ritme, seguint les guies i els “Prompts d'Or” de cada bloc. La progressió és gradual: començar amb un correu o un acta, avançar cap a situacions d'aprenentatge i culminar amb un portafoli integrador.
 
 ### Comparació crítica
 
-Es comparen respostes i processos quan aporta valor pedagògic i millora la presa de decisions.
+Un tret distintiu d'aquest curs: no es fa servir una sola IA. El professorat llança el mateix prompt en Copilot, Gemini, NotebookLM, Kimi o Grok, analitza diferències de qualitat i fiabilitat i extreu les seues pròpies conclusions sobre quan usar cada ferramenta.
 
 ### Reflexió i transferència
 
-Es revisen biaixos, errors, privacitat i aplicabilitat real abans de traslladar qualsevol resultat a l'aula.
+Cada bloc inclou moments de reflexió sobre seguretat, privacitat, ètica i fiabilitat. L'objectiu és que la IA no siga un exercici tècnic aïllat, sinó que es traduisca en decisions pedagògiques concretes i en canvis reals en la pràctica docent.
 
 ### Comunicació i col·laboració
 
-Aules funciona com a entorn d'intercanvi, seguiment i lliurament.
+Els fòrums de **Aules** funcionen com a espai d'intercanvi: compartir prompts, comentar materials de companys/es i debatre conclusions. Les sessions síncrones inclouen activitats grupals que reforcen la dimensió col·laborativa.
 
 <div style="background-color:#f5f7fa; border-left:4px solid #6c8ebf; padding:12px 14px; margin:18px 0; border-radius:6px;">
 
-<strong>En la pràctica</strong><br>
-Cada bloc seguix el mateix cicle: necessitat docent -> treball amb IA -> revisió -> verificació -> aplicació.
+<strong>🎯 A la pràctica</strong><br>
+Cada bloc segueix el mateix cicle: veure com es fa → fer-ho tu → comparar resultats → reflexionar sobre el que has après.
 
 </div>
 
