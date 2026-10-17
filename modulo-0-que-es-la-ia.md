@@ -26,7 +26,7 @@ También veremos algo fundamental: la IA puede ser muy útil, pero puede **equiv
 
 ---
 
-## 🧭 En este bloque
+## 🧭 En esta página
 {: .no_toc .text-delta }
 
 <nav class="indice-bloque" aria-label="Índice del bloque" markdown="1">

@@ -20,7 +20,7 @@ No dependeremos de una única plataforma. Elegiremos cada herramienta según la 
 {: .callout .callout--recuerda }
 **Una referencia que evoluciona.** Las funciones, límites, precios y condiciones pueden cambiar. Revisamos esta página periódicamente: consulta los enlaces oficiales antes de preparar una actividad. **Última revisión: septiembre de 2026.**
 
-## En esta página
+## 🧭 En esta página
 {: .no_toc .text-delta }
 
 - Contenidos

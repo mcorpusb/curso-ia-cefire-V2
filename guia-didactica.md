@@ -33,7 +33,7 @@ Herramientas de Inteligencia Artificial Generativa para docentes · 26IA92IN041
 
 ---
 
-## En esta guía
+## 🧭 En esta página
 {: .no_toc .text-delta }
 
 <nav class="indice-bloque" aria-label="Índice de la guía" markdown="1">
@@ -51,7 +51,6 @@ Herramientas de Inteligencia Artificial Generativa para docentes · 26IA92IN041
 - [⚖️ Enfoque ético, legal y pedagógico](#enfoque-etico)
 
 </nav>
-
 
 ## Presentación
 {: id="presentacion" }

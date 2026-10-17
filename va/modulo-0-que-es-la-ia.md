@@ -31,7 +31,7 @@ També veurem una cosa fonamental: la IA pot ser molt útil, però pot **equivoc
 
 ---
 
-## 🧭 En este bloc
+## 🧭 En esta pàgina
 {: .no_toc .text-delta }
 
 <nav class="indice-bloque" aria-label="Índex del bloc" markdown="1">

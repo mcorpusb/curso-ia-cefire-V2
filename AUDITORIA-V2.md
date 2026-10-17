@@ -15,6 +15,11 @@ search_exclude: true
 
 ---
 
+## 🧭 En esta página
+{: .no_toc .text-delta }
+
+---
+
 ## ÍNDICE
 
 1. [Resumen ejecutivo](#1-resumen-ejecutivo)

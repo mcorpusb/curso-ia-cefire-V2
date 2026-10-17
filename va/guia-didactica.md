@@ -35,7 +35,7 @@ Eines d'Intel·ligència Artificial Generativa per a docents · 26IA92IN041
 
 ---
 
-## En esta guia
+## 🧭 En esta pàgina
 {: .no_toc .text-delta }
 
 <nav class="indice-bloque" aria-label="Índex de la guia" markdown="1">

@@ -14,7 +14,7 @@ Diseña rúbricas LOMLOE, genera adaptaciones curriculares rápidas y reflexiona
 
 ---
 
-## 🧭 En este bloque
+## 🧭 En esta página
 {: .no_toc .text-delta }
 
 <nav class="indice-bloque" aria-label="Índice del bloque" markdown="1">

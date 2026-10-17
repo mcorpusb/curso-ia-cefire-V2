@@ -13,7 +13,7 @@ Crea presentaciones, cómics, infografías, podcasts, audios realistas y vídeos
 {: .fs-5 .fw-300 }
 
 
-## 🧭 En este bloque
+## 🧭 En esta página
 {: .no_toc .text-delta }
 
 <nav class="indice-bloque" aria-label="Índice del bloque" markdown="1">
@@ -809,7 +809,7 @@ Además, incluye al final:
 - Crea el prototipo en Gemini Canvas o Canva Code.
 - Prueba la app como si fueras el alumnado.
 - Revisa errores, claridad, accesibilidad y adecuación curricular.
-- Comprueba que no solicita datos personales ni incluye enlaces externos innecesarios.
+- Comprueba que no solicita datos personales ni incluya enlaces externos innecesarios.
 - Comparte el enlace, exporta el resultado o captura evidencias para integrarlo en Aules.
 
 ### Ejemplo rápido

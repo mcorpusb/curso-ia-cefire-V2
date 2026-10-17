@@ -14,7 +14,7 @@ Aprende a trabajar con documentos, normativa y currículo real como base de las 
 
 ---
 
-## 🧭 En este bloque
+## 🧭 En esta página
 {: .no_toc .text-delta }
 
 <nav class="indice-bloque" aria-label="Índice del bloque" markdown="1">
@@ -1330,7 +1330,7 @@ El objetivo de esta herramienta no es copiar respuestas ni delegar en la IA las 
 - formular preguntas útiles,
 - detectar ideas clave,
 - relacionar varias fuentes,
-- extraer propuestas o criterios,
+- proponer ideas para el aula,
 - y apoyar el diseño de una situación de aprendizaje mejor fundamentada.
 
 Por eso, cualquier respuesta obtenida debe revisarse críticamente. La IA puede ayudar a organizar, sintetizar y sugerir, pero el juicio pedagógico sigue correspondiendo al profesorado.

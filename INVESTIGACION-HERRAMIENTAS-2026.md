@@ -13,6 +13,11 @@ search_exclude: true
 
 ---
 
+## 🧭 En esta página
+{: .no_toc .text-delta }
+
+---
+
 ## ÍNDICE
 
 1. [Microsoft Copilot — Entorno GVA](#1-microsoft-copilot--entorno-gva)

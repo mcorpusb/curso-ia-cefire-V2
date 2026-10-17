@@ -19,7 +19,7 @@ No depenguem d'una única plataforma. Triem cada eina segons la tasca, la privac
 {: .callout .callout--recuerda }
 **Una referència que evoluciona.** Les funcions, límits, preus i condicions poden canviar. Revisem esta pàgina periòdicament: consulta els enllaços oficials abans de preparar una activitat. **Última revisió: setembre de 2026.**
 
-## En esta pàgina
+## 🧭 En esta pàgina
 {: .no_toc .text-delta }
 
 - Continguts

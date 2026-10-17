@@ -16,6 +16,11 @@ search_exclude: true
 
 ---
 
+## 🧭 En esta página
+{: .no_toc .text-delta }
+
+---
+
 ## ÍNDICE
 
 1. [Hilo conductor de la V2](#1-hilo-conductor-de-la-v2)
@@ -240,7 +245,7 @@ Bloque 4  · Diseñar, personalizar, evaluar y crear (rúbricas, DUA, agentes, v
 
 ---
 
-### Bloque 4 · Diseñar, personalizar, evaluar y crear
+### Bloque 4 · Diseñar, evaluar y crear
 
 **Propósito:** IA integrada en el núcleo de la práctica docente: diseño curricular, evaluación, personalización y creación.
 
