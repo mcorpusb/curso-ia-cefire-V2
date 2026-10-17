@@ -1,10 +1,14 @@
 ---
 layout: page
 title: "Actividad · Secundaria"
-parent: "Bloque 1: IA Colaborativa y Gestión GVA"
+parent: "Bloque 1 · IA Colaborativa y Gestión GVA"
 nav_order: 12
 nav_exclude: true
+lang: es
+translation_key: bloque1-actividad-secundaria
 ---
+
+{% include language-switcher.html %}
 
 
 # Actividad · Educación Secundaria

@@ -1,10 +1,14 @@
 ---
 layout: page
 title: "Actividad · Primaria"
-parent: "Bloque 1: IA Colaborativa y Gestión GVA"
+parent: "Bloque 1 · IA Colaborativa y Gestión GVA"
 nav_order: 11
 nav_exclude: true
+lang: es
+translation_key: bloque1-actividad-primaria
 ---
+
+{% include language-switcher.html %}
 
 # Actividad · Educación Primaria
 {: .fs-7 }

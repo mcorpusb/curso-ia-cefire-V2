@@ -3,7 +3,12 @@ layout: page
 title: "Bloque 1 · IA Colaborativa y Gestión GVA"
 nav_order: 4
 has_children: true
+lang: es
+translation_key: bloque1
+nav_exclude: false
 ---
+
+{% include language-switcher.html %}
 
 # Bloque 1 · IA Colaborativa y Gestión GVA
 {: .fs-8 }

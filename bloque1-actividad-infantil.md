@@ -1,10 +1,14 @@
 ---
 layout: page
 title: "Actividad · Infantil"
-parent: "Bloque 1: IA Colaborativa y Gestión GVA"
+parent: "Bloque 1 · IA Colaborativa y Gestión GVA"
 nav_order: 10
 nav_exclude: true
+lang: es
+translation_key: bloque1-actividad-infantil
 ---
+
+{% include language-switcher.html %}
 
 # Actividad · Educación Infantil
 {: .fs-7 }

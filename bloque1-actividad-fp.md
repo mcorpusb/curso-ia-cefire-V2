@@ -1,10 +1,14 @@
 ---
 layout: page
 title: "Actividad · F.P."
-parent: "Bloque 1: IA Colaborativa y Gestión GVA"
+parent: "Bloque 1 · IA Colaborativa y Gestión GVA"
 nav_order: 13
 nav_exclude: true
+lang: es
+translation_key: bloque1-actividad-fp
 ---
+
+{% include language-switcher.html %}
 
 # Actividad · Formación Profesional
 {: .fs-7 }
