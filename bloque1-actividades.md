@@ -3,6 +3,7 @@ layout: page
 title: "Actividades · Bloque 1"
 parent: "Bloque 1: IA Colaborativa y Gestión GVA"
 nav_order: 1
+nav_exclude: true
 ---
 
 # Actividades · Bloque 1

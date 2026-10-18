@@ -2,8 +2,8 @@
 layout: page
 title: "Actividad · EOI"
 parent: "Bloque 1 · IA Colaborativa y Gestión GVA"
-nav_order: 12
-nav_exclude: true
+nav_order: 5
+nav_exclude: false
 lang: es
 translation_key: bloque1-actividad-eoi
 ---
