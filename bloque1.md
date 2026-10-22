@@ -535,6 +535,16 @@ En el **Bloque 2 · Prompting avanzado y gestión documental** profundizaremos e
 
 ---
 
+## Laboratorio de prompts educativos
+
+Elige una etapa y practica durante 15–20 minutos con un reto cercano a tu especialidad. Compararás una petición simple con un prompt pedagógico formado por **Contexto + Alumnado + Objetivo + Restricciones + Formato**, harás una iteración y decidirás si el resultado sirve para tu aula.
+
+[Explorar las actividades prácticas por etapa →]({{ '/bloque1-actividades.html' | relative_url }})
+
+Estas propuestas son voluntarias y no modifican la actividad individual ni sus condiciones de entrega.
+
+---
+
 ## Entrega del bloque
 {: id="entrega-del-bloque" }
 

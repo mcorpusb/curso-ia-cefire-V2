@@ -1,0 +1,236 @@
+- id: SEC-01
+  title: "Matemáticas — ¿Qué oferta conviene realmente?"
+  area: "Matemáticas"
+  goal: "Analizar tres ofertas ficticias y comprobar descuentos sucesivos con pensamiento crítico."
+  simple: "Prepara ejercicios de porcentajes."
+  context: "Comparación de ofertas ficticias para comprar el mismo producto."
+  students: "3.º de ESO; conocen porcentajes sencillos."
+  objective: "Calcular precios finales y justificar la mejor oferta, sin sumar indebidamente descuentos sucesivos."
+  restrictions: "Tres ofertas comparables, euros, criterio de redondeo a céntimos, errores frecuentes, soluciones razonadas y dos preguntas críticas. Comprueba todos los cálculos."
+  format: "Ficha de 30 minutos con tabla, tareas graduadas y soluciones separadas."
+  iteration: "Recalcula las tres ofertas mostrando operaciones y redondeo, corrige incoherencias y ajusta una pregunta para aumentar la dificultad sin cambiar los datos."
+  result: "Una ficha de porcentajes cuyos cálculos habrá verificado el docente."
+- id: SEC-02
+  title: "Tecnología — El invernadero inteligente"
+  area: "Tecnología"
+  goal: "Diseñar y revisar un sistema sencillo de riego automatizado para un huerto escolar ficticio."
+  simple: "Diseña un invernadero inteligente."
+  context: "Proyecto escolar simulado de control de riego."
+  students: "3.º–4.º de ESO; conocen circuitos y diagramas básicos."
+  objective: "Relacionar sensores, actuadores y reglas de control en un sistema funcional."
+  restrictions: "Incluye sensor de humedad, actuador, controlador, diagrama funcional, materiales, presupuesto ficticio y secuencia. Máximo 120 euros; alternativa en simulador; no afirmes que el diseño está probado."
+  format: "Diagrama textual, tabla de componentes y costes, pseudocódigo y plan de verificación."
+  iteration: "Reduce el presupuesto a 80 euros y limita los componentes a los disponibles en [lista]. Revisa compatibilidades y señala qué debe probarse en simulación."
+  result: "Un diseño justificable con presupuesto y pruebas pendientes claramente identificadas."
+- id: SEC-03
+  title: "Geografía e Historia — ¿Podemos fiarnos de esta explicación?"
+  area: "Geografía e Historia"
+  goal: "Convertir una explicación histórica en una actividad de verificación de afirmaciones."
+  simple: "Explícame [acontecimiento histórico]."
+  context: "Análisis crítico de una explicación sobre [acontecimiento] con fuentes seleccionadas por el docente."
+  students: "4.º de ESO o Bachillerato; iniciación al contraste historiográfico."
+  objective: "Distinguir hechos contrastables, interpretaciones y afirmaciones dudosas."
+  restrictions: "No inventes citas ni bibliografía; marca lo no sustentado, separa hechos e interpretaciones y propone fuentes primarias o institucionales que el docente pueda localizar."
+  format: "Explicación de 250 palabras y tabla afirmación–tipo–evidencia necesaria–estado de verificación."
+  iteration: "Revisa una a una las afirmaciones, retira las que no puedas sostener y reformula con grados de certeza. No inventes fuentes para rellenar huecos."
+  result: "Una explicación anotada y un protocolo de contraste, no una verdad aceptada sin revisión."
+- id: SEC-04
+  title: "Economía — ¿Es viable nuestro negocio?"
+  area: "Economía"
+  goal: "Analizar la viabilidad de una cafetería escolar simulada mediante costes, ingresos y umbral de rentabilidad."
+  simple: "Diseña un proyecto de cafetería rentable."
+  context: "Proyecto emprendedor ficticio para Economía de ESO o Bachillerato."
+  students: "4.º de ESO o 1.º de Bachillerato; conocen costes e ingresos."
+  objective: "Calcular el punto muerto, justificar supuestos y valorar riesgos."
+  restrictions: "Inversión, costes fijos y variables, precio, demanda estimada y riesgos; datos ficticios coherentes, tabla económica, fórmulas visibles y comprobación de cálculos. No simules permisos reales."
+  format: "Caso, tabla mensual, umbral de rentabilidad, cuatro preguntas y solución razonada."
+  iteration: "Incrementa todos los costes variables un 15 %, recalcula el punto muerto paso a paso y explica qué decisiones podrían mejorar la viabilidad sin falsear la demanda."
+  result: "Un caso económico recalculable con supuestos y riesgos explícitos."
+- id: SEC-05
+  title: "Lengua — De una noticia a un debate"
+  area: "Lengua Castellana y Literatura"
+  goal: "Preparar un debate argumentativo sobre móviles o IA a partir de una noticia ficticia."
+  simple: "Prepara un debate sobre el uso de móviles en clase."
+  context: "Secuencia de comprensión y argumentación sobre una controversia educativa ficticia."
+  students: "3.º–4.º de ESO, con niveles diversos de expresión oral."
+  objective: "Construir argumentos, responder a contraargumentos y detectar falacias."
+  restrictions: "Noticia claramente marcada como ficticia, perspectivas equilibradas, cuatro falacias identificables, apoyos lingüísticos y normas de participación respetuosa. No atribuyas citas a personas reales."
+  format: "Noticia, dossier de argumentos, tarjetas de rol, preguntas y lista de cotejo formativa."
+  iteration: "Revisa el material para eliminar falsos equilibrios y generalizaciones; añade evidencia que debería buscarse y una pregunta abierta sin respuesta predeterminada."
+  result: "Un debate estructurado cuyo contenido ficticio está claramente señalado."
+- id: SEC-06
+  title: "Música — Diseñamos un paisaje sonoro"
+  area: "Música"
+  goal: "Componer colectivamente una escena sonora con sonidos del entorno y objetos cotidianos."
+  simple: "Crea una actividad de paisaje sonoro."
+  context: "Composición de una escena —mercado, tormenta o estación— sin instrumental específico."
+  students: "2.º–4.º de ESO, experiencia musical diversa."
+  objective: "Organizar timbre, intensidad, textura y silencio con intención expresiva."
+  restrictions: "30 minutos, objetos seguros, volumen controlado, roles diversos, partitura gráfica y opción de participación no sonora. Respeta derechos si se graba y no uses voces identificables sin permiso."
+  format: "Guion temporal, banco de sonidos, partitura gráfica textual y preguntas de escucha."
+  iteration: "Reduce el paisaje a 90 segundos, crea dos contrastes claros y añade una revisión para comprobar equilibrio, seguridad y participación."
+  result: "Un plan de composición colectiva con criterios musicales y de inclusión."
+  adaptation: "En Infantil se centra en emoción y movimiento; en Primaria, en patrones rítmicos; en EOI, en descripción y mediación oral."
+- id: SEC-07
+  title: "Educación Física — Una sesión para todos"
+  area: "Educación Física"
+  goal: "Diseñar juegos cooperativos con alternativas reales de intensidad y participación."
+  simple: "Prepara una sesión de juegos cooperativos."
+  context: "Sesión en pista o gimnasio con material escolar habitual."
+  students: "Grupo heterogéneo de 2.º de ESO; no se aportan datos de salud individuales."
+  objective: "Cooperar, tomar decisiones y participar de forma segura con diferentes niveles de intensidad."
+  restrictions: "50 minutos, calentamiento, tres juegos y vuelta a la calma; variantes de desplazamiento, rol y esfuerzo; sin eliminación ni contacto obligatorio. El docente valida seguridad y contraindicaciones."
+  format: "Tabla tiempo–organización–consigna–variante–riesgo y señal de parada."
+  iteration: "Adapta la sesión a un espacio de media pista y a material limitado a diez conos y seis balones, manteniendo el objetivo y varias formas de participación."
+  result: "Una sesión cooperativa adaptable cuya seguridad debe comprobar el docente."
+- id: SEC-08
+  title: "Informática — ¿Dónde está el error?"
+  area: "Informática y programación"
+  goal: "Depurar un programa Python breve con errores deliberados y contrastar la explicación de la IA con su ejecución."
+  simple: "Ponme un ejercicio de Python con errores."
+  context: "Práctica segura de depuración de un programa que calcula la media de varias notas ficticias."
+  students: "4.º de ESO; conocen variables, listas, bucles y condicionales."
+  objective: "Identificar dos errores, explicar su causa, corregirlos y proponer una mejora."
+  restrictions: "Código de máximo 25 líneas, sin archivos, red, credenciales ni funciones peligrosas; no reveles la solución al principio. Incluye casos de prueba, pistas graduadas y solución ejecutable."
+  format: "Enunciado, código, tabla de pruebas, tres pistas y solución comentada separada."
+  iteration: "Comprueba el código corregido con casos límite, explica cualquier diferencia entre el resultado esperado y el real y adapta las pistas para alumnado principiante."
+  result: "Un ejercicio seguro de depuración con pruebas reproducibles."
+  adaptation: "En Primaria puede ser una secuencia desenchufada; en FP, una aplicación Java con pruebas."
+- id: SEC-09
+  title: "Orientación y PT — Una actividad, diferentes formas de aprender"
+  area: "Orientación educativa y PT"
+  goal: "Rediseñar una actividad común con apoyos diversos y objetivos esenciales compartidos."
+  simple: "Adapta esta actividad a la diversidad."
+  context: "Actividad curricular aportada por el docente, analizada con perfiles funcionales ficticios."
+  students: "Grupo heterogéneo de ESO; no se incluyen diagnósticos ni datos identificables."
+  objective: "Detectar barreras y ofrecer medios variados de acceso, participación y expresión."
+  restrictions: "Mantén el objetivo esencial, aplica DUA, usa lenguaje respetuoso, evita estereotipos y ofrece apoyos graduados sin separar ni etiquetar al alumnado."
+  format: "Tabla objetivo–barrera–ajuste–evidencia y versiones de instrucciones accesibles."
+  iteration: "Audita las adaptaciones: identifica cuál reduce indebidamente el reto cognitivo y sustitúyela por un apoyo que mantenga el objetivo."
+  result: "Una actividad común con barreras y apoyos explícitos."
+- id: SEC-10
+  title: "Religión y valores — ¿Puede decidir la IA por nosotros?"
+  area: "Valores, Religión y tutoría"
+  goal: "Analizar un dilema sobre el uso de IA en trabajos escolares desde perspectivas distintas."
+  simple: "Crea un dilema ético sobre la inteligencia artificial."
+  context: "Diálogo de aula sobre un trabajo escolar parcialmente elaborado con IA."
+  students: "3.º–4.º de ESO; se busca deliberación, no una respuesta única."
+  objective: "Identificar valores en conflicto, anticipar consecuencias y justificar una decisión."
+  restrictions: "Caso ficticio, cuatro perspectivas plausibles, preguntas abiertas, lenguaje no moralizante y distinción entre ayuda, autoría, transparencia y responsabilidad."
+  format: "Caso de 180 palabras, tarjetas de perspectiva, seis preguntas y cierre metacognitivo."
+  iteration: "Revisa el dilema para que ninguna perspectiva sea caricaturesca y añade una nueva información que obligue a reconsiderar la decisión inicial."
+  result: "Un dilema equilibrado que favorece argumentación y revisión de postura."
+- id: SEC-11
+  title: "Inglés — Mission: Plan a Sustainable Trip"
+  area: "Inglés"
+  goal: "Organizar un viaje sostenible mientras se practica la comunicación en inglés y se observa cómo influyen el nivel, las destrezas y el formato."
+  simple: "Create an English activity about travelling."
+  context: "Communicative English lesson built around planning a fictional sustainable trip to London."
+  students: "Students aged 14–16 in 3rd or 4th year of ESO, at an approximate A2–B1 level."
+  objective: "Use spoken interaction and short written production to compare travel options, make suggestions and agree on a plan."
+  restrictions: "40 minutes, realistic fictional data, two levels of linguistic support and no personal data or real bookings."
+  format: "Budget and options table, vocabulary, pair-work tasks, short writing task, useful expressions and assessment checklist."
+  full_prompt: |-
+    Act as an English teacher working with students aged 14–16 at A2–B1 level.
+
+    Design a 40-minute communicative activity in which students plan a sustainable three-day trip to London.
+
+    Include:
+    - A realistic fictional budget.
+    - Transport and accommodation options.
+    - Useful vocabulary.
+    - Pair-work speaking tasks.
+    - A short writing activity.
+    - Five useful expressions for making suggestions.
+    - Two levels of linguistic support.
+    - An assessment checklist.
+
+    Use clear English and encourage authentic communication. Use fictional information only and do not require students to make real bookings or share personal data.
+  iteration: "Adapt the activity for A2 learners. Simplify the linguistic structures, add sentence starters and a small word bank for speaking, but keep the same communicative goal and 40-minute duration."
+  result: "Una secuencia comunicativa en inglés con presupuesto ficticio, apoyos graduados y criterios de observación."
+  adaptation: "En Primaria puede convertirse en diálogos guiados y juegos lingüísticos; en EOI, en mediación para comparar opciones y recomendar un itinerario."
+- id: SEC-12
+  title: "Francés — Organiser un séjour à Paris"
+  area: "Francés"
+  goal: "Preparar una situación comunicativa en francés ajustada a A1–A2 y comprobar el efecto del vocabulario, el registro y el nivel MCER."
+  simple: "Prépare une activité de français sur les voyages."
+  context: "Cours communicatif de français langue étrangère autour d’un séjour fictif à Paris."
+  students: "Élèves de 3e ou 4e année de l’ESO, niveau A1–A2."
+  objective: "Demander des informations, comprendre des options simples et organiser un séjour en binômes."
+  restrictions: "40 minutes, données fictives, aides linguistiques graduées, français adapté au niveau et aucune réservation réelle."
+  format: "Vocabulaire, dialogue modèle, activité en binômes, courte production écrite et critères simples d’évaluation."
+  full_prompt: |-
+    Tu es professeur de français langue étrangère dans un établissement secondaire.
+
+    Prépare une activité communicative de 40 minutes pour des élèves de niveau A1–A2.
+
+    Situation : les élèves organisent un séjour fictif à Paris.
+
+    Inclure :
+    - Le vocabulaire des transports et des lieux.
+    - Un dialogue modèle.
+    - Des expressions pour demander des informations.
+    - Une activité en binômes.
+    - Des aides linguistiques.
+    - Une courte production écrite.
+    - Des critères simples d'évaluation.
+
+    Utilise un français adapté au niveau des élèves. Utilise uniquement des informations fictives et ne demande ni réservation réelle ni données personnelles.
+  iteration: "Transforme l’activité en jeu de rôles avec trois situations communicatives différentes. Ajoute une carte de rôle et un objectif clair pour chaque élève, tout en conservant le niveau A1–A2."
+  result: "Un juego de roles en francés con diálogo modelo, apoyos y producción breve."
+  adaptation: "En Primaria puede simplificarse como juego de vocabulario y diálogo; en EOI puede incorporar mediación y negociación más compleja."
+- id: SEC-13
+  title: "Valenciano — Del text informatiu al debat"
+  area: "Valencià: Llengua i Literatura"
+  goal: "Desarrollar la argumentación oral en valenciano a partir de información ficticia y apoyos lingüísticos."
+  simple: "Prepara una activitat per a treballar l'expressió oral en valencià."
+  context: "Activitat de Valencià de 4t d’ESO a partir d’una notícia fictícia sobre l’ús responsable de les xarxes socials."
+  students: "Alumnat de 4t d’ESO amb nivells diversos d’expressió oral."
+  objective: "Construir i defensar arguments, respondre a contraarguments i usar connectors amb precisió."
+  restrictions: "45 minuts, text fictici, valencià normatiu i natural, perspectives equilibrades, suports graduats i sense dades personals."
+  format: "Text inicial, vocabulari, connectors, preguntes, arguments i contraarguments, suports i criteris d’observació."
+  full_prompt: |-
+    Actua com a docent de Valencià: Llengua i Literatura de 4t d'ESO.
+
+    Dissenya una activitat de 45 minuts per a treballar l'argumentació oral a partir d'una notícia fictícia sobre l'ús responsable de les xarxes socials.
+
+    Inclou:
+    - Un text inicial breu, marcat clarament com a fictici.
+    - Vocabulari específic.
+    - Connectors argumentatius.
+    - Preguntes per al debat.
+    - Arguments i contraarguments.
+    - Suports per a l'alumnat amb dificultats d'expressió oral.
+    - Criteris d'observació.
+
+    Utilitza un valencià normatiu, natural i adequat al nivell educatiu. No inventes dades ni citacions atribuïdes a persones reals.
+  iteration: "Adapta l’activitat amb tres nivells de suport lingüístic: banc de paraules i iniciadors de frase, guió parcial i participació autònoma. Mantín el mateix objectiu argumentatiu per a tot el grup."
+  result: "Un debate en valenciano con texto ficticio, recursos argumentativos y apoyos graduados."
+  adaptation: "En Primaria puede centrarse en diálogos y opinión justificada; en EOI, en debate, reformulación y mediación avanzada."
+- id: SEC-14
+  title: "Idiomas — Detectamos y mejoramos errores"
+  area: "Inglés, Francés o Valenciano"
+  goal: "Regular la ayuda de la IA para que el alumnado detecte y corrija errores sin recibir directamente todo el trabajo resuelto."
+  simple: "Corrige este texto."
+  context: "Revisión formativa de una producción escrita ficticia en [IDIOMA]."
+  students: "Alumnado de [CURSO] con nivel lingüístico [NIVEL]."
+  objective: "Identificar, clasificar y comprender errores antes de elaborar una versión corregida."
+  restrictions: "No reescribas directamente; conserva la voz y la complejidad del texto, ofrece pistas antes de la solución y evita cambios estilísticos innecesarios. Usa exclusivamente textos ficticios o anonimizados."
+  format: "Tabla fragmento–tipo de error–explicación–pista y versión corregida solo al final."
+  full_prompt: |-
+    Actúa como docente de [IDIOMA] de [CURSO].
+
+    Revisa el siguiente texto ficticio de nivel [NIVEL]. No lo reescribas directamente.
+
+    Primero:
+    1. Identifica los errores.
+    2. Clasifícalos por tipo.
+    3. Explica brevemente por qué son errores.
+    4. Proporciona pistas para que el estudiante pueda corregirlos.
+    5. Ofrece una versión corregida únicamente al final.
+
+    Mantén la complejidad adecuada al nivel y evita sustituir innecesariamente las expresiones originales. No infieras información personal sobre quien lo escribió.
+  iteration: "Reformula la retroalimentación para que sea más breve y favorezca la autocorrección. No muestres todavía la versión correcta: ofrece una pista por error y una pregunta final para que el estudiante revise su texto."
+  result: "Una retroalimentación graduada que diferencia pista, explicación y solución."
+  adaptation: "En Primaria puede trabajar errores frecuentes con pistas visuales; en EOI puede comparar adecuación, cohesión, registro y cambios de significado."
+
