@@ -44,5 +44,39 @@
 
   <p><strong>{% if page.lang == 'va' %}Resultat esperat:{% else %}Resultado esperado:{% endif %}</strong> {{ include.a.result }}</p>
   {% if include.a.adaptation %}<p class="prompt-lab-adaptation"><strong>{% if page.lang == 'va' %}Adaptació a altres etapes:{% else %}Adaptación a otras etapas:{% endif %}</strong> {{ include.a.adaptation }}</p>{% endif %}
+
+  {% if include.a.example_title %}
+  <section class="prompt-lab-example" aria-labelledby="{{ include.a.id | downcase }}-example-title">
+    <h3 id="{{ include.a.id | downcase }}-example-title">{{ include.a.example_title }}</h3>
+    <p>{{ include.a.example_intro }}</p>
+    <blockquote>
+      <p>{{ include.a.example_story }}</p>
+      <p><strong>{{ include.a.example_question_label }}:</strong> {{ include.a.example_question }}</p>
+    </blockquote>
+    <p>{{ include.a.example_note }}</p>
+    <figure class="prompt-lab-example__figure">
+      <img class="prompt-lab-example__image" src="{{ include.a.example_image | relative_url }}" alt="{{ include.a.example_image_alt }}" loading="lazy">
+    </figure>
+
+    <h4>{{ include.a.documented_prompt_title }}</h4>
+    <p>{{ include.a.documented_prompt_note }}</p>
+    {% capture documented_prompt %}{{ include.a.documented_prompt }}{% endcapture %}
+    {% capture documented_prompt_id %}{{ include.a.id }}-documented-story{% endcapture %}
+    {% include prompt-lab-copy.html text=documented_prompt id=documented_prompt_id %}
+
+    <h4>{{ include.a.image_practice_title }}</h4>
+    <p>{{ include.a.image_practice_intro }}</p>
+    {% capture image_prompt %}{{ include.a.image_prompt }}{% endcapture %}
+    {% capture image_prompt_id %}{{ include.a.id }}-image{% endcapture %}
+    {% include prompt-lab-copy.html text=image_prompt id=image_prompt_id %}
+
+    <h5>{{ include.a.image_iteration_title }}</h5>
+    {% capture image_iteration %}{{ include.a.image_iteration }}{% endcapture %}
+    {% capture image_iteration_id %}{{ include.a.id }}-image-iteration{% endcapture %}
+    {% include prompt-lab-copy.html text=image_iteration id=image_iteration_id %}
+    <p><strong>{% if page.lang == 'va' %}Reflexió sobre text i imatge:{% else %}Reflexión sobre texto e imagen:{% endif %}</strong> {{ include.a.image_reflection }}</p>
+    <p class="prompt-lab-example__link"><a href="{{ include.a.original_example_url | relative_url }}">{{ include.a.original_example_label }} →</a></p>
+  </section>
+  {% endif %}
   <p class="prompt-lab-back"><a href="#catalogo">↑ {% if page.lang == 'va' %}Torna al catàleg{% else %}Volver al catálogo{% endif %}</a></p>
 </article>

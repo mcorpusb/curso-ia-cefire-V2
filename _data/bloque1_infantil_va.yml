@@ -11,6 +11,44 @@
   iteration: "Reduïx el conte a 180 paraules, substituïx qualsevol concepte abstracte per una acció observable i afig una frase repetitiva en què puga participar el grup. Comprova que no presenta cap emoció com a roïna."
   result: "Un conte breu, preguntes de conversa i un guió visual revisats per a l’assemblea."
   adaptation: "En Primària pot convertir-se en una història de resolució de conflictes; en Secundària, en anàlisi narrativa i convivència."
+  example_title: "Exemple visual · La por del xicotet Dino"
+  example_intro: "Este exemple mostra com podem utilitzar la intel·ligència artificial per a crear un conte adaptat a Educació Infantil, treballar les emocions i generar un recurs visual que acompanye la narració. El resultat sempre s'ha de revisar i ajustar a les necessitats del grup."
+  example_story: "Dino veu a classe un dinosaure de joguet molt gran. Nota que el seu cor va de pressa i fa un pas arrere. La seua mestra s'acosta amb calma, posa paraules a allò que sent i li proposa respirar junts. Després, Dino observa el joguet i decidix acostar-s'hi a poc a poc. Continua notant una miqueta de por, però ara sap què pot fer i se sent acompanyat."
+  example_question_label: "Pregunta per a l'assemblea"
+  example_question: "Què t'ajuda quan sents por?"
+  example_note: "La finalitat no és fer desaparéixer l'emoció, sinó reconéixer-la, expressar-la i explorar estratègies adequades."
+  example_image: "/assets/img/Gemini_cuento infantil.png"
+  example_image_alt: "Conte il·lustrat sobre el xicotet dinosaure Dino, que reconeix la por i aprén a afrontar-la acompanyat per la seua mestra"
+  documented_prompt_title: "Prompt de partida documentat en l'activitat original"
+  documented_prompt_note: "L'activitat original proposa este prompt per a crear un primer esborrany; no consta que fora la instrucció exacta utilitzada per a generar la imatge mostrada."
+  documented_prompt: |-
+    Vull crear un conte breu per a una assemblea d'Educació Infantil.
+
+    Edat: [3/4/5 anys]
+    Tema: [completa]
+    Objectiu: [completa]
+    Interés general del grup: [completa]
+
+    Escriu un conte d'unes 200-300 paraules, pensat per a llegir en veu alta.
+
+    Criteris:
+    - vocabulari senzill;
+    - frases curtes;
+    - un personatge pròxim;
+    - una situació fàcil de comprendre;
+    - una estructura clara;
+    - repeticions quan ajuden;
+    - una pregunta final per a conversar en assemblea.
+
+    No inclogues dades reals de l'alumnat ni inventes informació sobre el meu grup.
+  image_practice_title: "Del conte a la il·lustració"
+  image_practice_intro: "Com a pràctica opcional, transforma una escena del teu conte en una il·lustració. Descriu amb precisió el personatge, l'emoció, l'escenari, l'acció, l'estil i l'edat de l'alumnat."
+  image_prompt: "Crea una il·lustració per a un conte educatiu adreçat a xiquets i xiquetes de 4–5 anys. El protagonista és un xicotet dinosaure que sent por el primer dia d'escola. Representa una escena acollidora en què la seua mestra l'acompanya i l'ajuda a sentir-se segur. Utilitza un estil de conte infantil, colors suaus, expressions clares i un ambient tranquil. No inclogues noms ni imatges de menors reals."
+  image_iteration_title: "Iteració per a una segona escena"
+  image_iteration: "Crea una segona escena amb el mateix xicotet dinosaure. Mantín exactament els seus trets, colors, proporcions, roba i estil d'il·lustració. Ara apareix a l'aula respirant a poc a poc al costat de la seua mestra i començant a sentir-se segur. Conserva la mateixa paleta suau, il·luminació i punt de vista. No inclogues noms ni imatges de menors reals."
+  image_reflection: "Compara el text i la imatge: la il·lustració ajuda a reconéixer l'emoció i comprendre l'acció sense afegir missatges contradictoris, estereotips o elements que no apareixen en el conte?"
+  original_example_url: "/va/bloque1-actividad-infantil.html"
+  original_example_label: "Veure l'exemple complet del conte de Dino"
 - id: INF-02
   title: "Què ocorre primer?"
   area: "Seqüències i autonomia"
