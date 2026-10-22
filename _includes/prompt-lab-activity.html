@@ -1,0 +1,48 @@
+<article class="prompt-lab-activity" id="{{ include.a.id | downcase }}">
+  <p class="prompt-lab-activity__meta"><strong>{{ include.a.id }}</strong> · {{ include.a.area }}</p>
+  <h2 id="{{ include.a.id | downcase }}-title">{{ include.a.title }}</h2>
+
+  <h3 id="{{ include.a.id | downcase }}-goal">{% if page.lang == 'va' %}Què aconseguirem?{% else %}¿Qué vamos a conseguir?{% endif %}</h3>
+  <p>{{ include.a.goal }}</p>
+
+  <h3 id="{{ include.a.id | downcase }}-simple">1. {% if page.lang == 'va' %}Comencem amb una petició senzilla{% else %}Empezamos con una petición sencilla{% endif %}</h3>
+  {% capture simple_prompt %}{{ include.a.simple }}{% endcapture %}
+  {% capture simple_id %}{{ include.a.id }}-simple{% endcapture %}
+  {% include prompt-lab-copy.html text=simple_prompt id=simple_id %}
+
+  <h3 id="{{ include.a.id | downcase }}-full">2. {% if page.lang == 'va' %}Construïm un prompt pedagògic{% else %}Construimos un prompt pedagógico{% endif %}</h3>
+  {% if include.a.full_prompt %}
+  {% capture full_prompt %}{{ include.a.full_prompt }}{% endcapture %}
+  {% else %}
+  {% capture full_prompt %}{% if page.lang == 'va' %}Context educatiu: {% else %}Contexto educativo: {% endif %}{{ include.a.context }}
+{% if page.lang == 'va' %}Alumnat destinatari: {% else %}Alumnado destinatario: {% endif %}{{ include.a.students }}
+{% if page.lang == 'va' %}Objectiu d'aprenentatge: {% else %}Objetivo de aprendizaje: {% endif %}{{ include.a.objective }}
+{% if page.lang == 'va' %}Restriccions i condicions: {% else %}Restricciones y condiciones: {% endif %}{{ include.a.restrictions }}
+{% if page.lang == 'va' %}Format d'eixida: {% else %}Formato de salida: {% endif %}{{ include.a.format }}{% endcapture %}
+  {% endif %}
+  {% capture full_id %}{{ include.a.id }}-full{% endcapture %}
+  {% include prompt-lab-copy.html text=full_prompt id=full_id %}
+
+  <h3 id="{{ include.a.id | downcase }}-compare">3. {% if page.lang == 'va' %}Comparem els resultats{% else %}Comparamos los resultados{% endif %}</h3>
+  <ul>
+    <li>{% if page.lang == 'va' %}Quina resposta s’ajusta millor al nivell, l’objectiu i el context? Assenyala una diferència concreta.{% else %}¿Qué respuesta se ajusta mejor al nivel, el objetivo y el contexto? Señala una diferencia concreta.{% endif %}</li>
+    <li>{% if page.lang == 'va' %}Quins errors, omissions, biaixos o afirmacions sense verificar detectes?{% else %}¿Qué errores, omisiones, sesgos o afirmaciones sin verificar detectas?{% endif %}</li>
+    <li>{% if page.lang == 'va' %}Quina proposta és realment viable amb el temps, els recursos i la diversitat del grup?{% else %}¿Qué propuesta es realmente viable con el tiempo, los recursos y la diversidad del grupo?{% endif %}</li>
+  </ul>
+
+  <h3 id="{{ include.a.id | downcase }}-iteration">4. {% if page.lang == 'va' %}Millorem mitjançant la iteració{% else %}Mejoramos mediante iteración{% endif %}</h3>
+  {% capture iteration_prompt %}{{ include.a.iteration }}{% endcapture %}
+  {% capture iteration_id %}{{ include.a.id }}-iteration{% endcapture %}
+  {% include prompt-lab-copy.html text=iteration_prompt id=iteration_id %}
+
+  <h3 id="{{ include.a.id | downcase }}-reflection">5. {% if page.lang == 'va' %}Reflexionem com a docents{% else %}Reflexionamos como docentes{% endif %}</h3>
+  <ul>
+    <li>{% if page.lang == 'va' %}Què verificaries o canviaries abans de portar el recurs a l’aula?{% else %}¿Qué verificarías o cambiarías antes de llevar el recurso al aula?{% endif %}</li>
+    <li>{% if page.lang == 'va' %}Quina decisió professional no delegaries en la IA?{% else %}¿Qué decisión profesional no delegarías en la IA?{% endif %}</li>
+    <li>{% if page.lang == 'va' %}Com sabràs si el resultat ajuda realment l’alumnat?{% else %}¿Cómo sabrás si el resultado ayuda realmente al alumnado?{% endif %}</li>
+  </ul>
+
+  <p><strong>{% if page.lang == 'va' %}Resultat esperat:{% else %}Resultado esperado:{% endif %}</strong> {{ include.a.result }}</p>
+  {% if include.a.adaptation %}<p class="prompt-lab-adaptation"><strong>{% if page.lang == 'va' %}Adaptació a altres etapes:{% else %}Adaptación a otras etapas:{% endif %}</strong> {{ include.a.adaptation }}</p>{% endif %}
+  <p class="prompt-lab-back"><a href="#catalogo">↑ {% if page.lang == 'va' %}Torna al catàleg{% else %}Volver al catálogo{% endif %}</a></p>
+</article>

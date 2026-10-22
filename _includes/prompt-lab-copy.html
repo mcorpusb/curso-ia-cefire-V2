@@ -1,0 +1,5 @@
+<div class="prompt-lab-copy">
+  <button type="button" class="btn prompt-lab-copy__button" data-copy-prompt="prompt-{{ include.id }}" hidden>{% if page.lang == 'va' %}Copia el prompt{% else %}Copiar prompt{% endif %}</button>
+  <span class="prompt-lab-copy__status" role="status" aria-live="polite"></span>
+  <pre id="prompt-{{ include.id }}" class="prompt-bloque" tabindex="0">{{ include.text | strip | escape }}</pre>
+</div>

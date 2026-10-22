@@ -535,6 +535,16 @@ En el **Bloc 2 · Prompting avançat i gestió documental** aprofundirem en el t
 
 ---
 
+## Laboratori de prompts educatius
+
+Tria una etapa i practica durant 15–20 minuts amb un repte pròxim a la teua especialitat. Compararàs una petició simple amb un prompt pedagògic format per **Context + Alumnat + Objectiu + Restriccions + Format**, faràs una iteració i decidiràs si el resultat servix per a la teua aula.
+
+[Explora les activitats pràctiques per etapa →]({{ '/va/bloque1-actividades.html' | relative_url }})
+
+Estes propostes són voluntàries i no modifiquen l’activitat individual ni les seues condicions de lliurament.
+
+---
+
 ## Lliurament del bloc
 {: id="lliurament-del-bloc" }
 
