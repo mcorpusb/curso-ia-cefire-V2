@@ -3,7 +3,12 @@ layout: home
 title: Inicio
 nav_order: 2
 has_children: true
+lang: es
+translation_key: inicio
 ---
+
+{% include language-switcher.html %}
+
 <br>
 
 <div class="page-illustration">
@@ -110,13 +115,14 @@ Copilot Chat y Microsoft 365 Copilot son productos distintos. Microsoft 365 Copi
 
 **Pasos para verificar:**
 
-- Ve a [copilot.microsoft.com](https://copilot.microsoft.com) e inicia sesión con tu cuenta `@edu.gva.es`.
+- Accede a Copilot Chat desde el entorno Microsoft 365 indicado por tu centro con `@edu.gva.es`, si está habilitado. Comprueba el perfil y el servicio activos; poder iniciar sesión no autoriza cualquier tratamiento.
 - Si funciona, escribe una pregunta de prueba, por ejemplo: *«Explica qué es la inteligencia artificial en dos líneas»*.
 - Si no funciona o ves un mensaje de error, utiliza una de las alternativas gratuitas indicadas en el [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}) del curso.
 
 {: .callout .callout--privacidad }
-**Privacidad desde el primer día**
-No introduzcas datos personales del alumnado ni subas documentación interna o sensible a servicios no autorizados. Una cuenta personal no equivale a un entorno institucional: revisa siempre qué información compartes y bajo qué condiciones.
+**IMPORTANTE: No introduzcas datos personales ni información sensible del alumnado, profesorado, familias u otras personas en las herramientas de inteligencia artificial utilizadas en este curso.** Utiliza ejemplos ficticios, información pública o materiales debidamente anonimizados. Comprueba siempre las condiciones del servicio y las instrucciones de tu centro y de la administración educativa.
+
+**GVA y NO GVA:** la cuenta `@edu.gva.es` identifica al profesorado en los servicios corporativos habilitados, según permisos y licencias; no garantiza acceso a toda la IA ni autoriza cualquier tratamiento de datos. Las cuentas personales son externas a GVA y sirven aquí para crear recursos sin datos personales reales. Registrarse con correo GVA, tener una cuenta universitaria o un plan Education, gratuito o de pago no equivale a autorización institucional.
 
 ### Tu primera interacción con la IA
 {: id="3--tu-primera-interacción-con-la-ia" }
@@ -142,13 +148,15 @@ Observa la respuesta:
 **2. Vuelve a pedir la actividad añadiendo contexto:**
 
 ```text
+Utiliza únicamente información ficticia, pública sin datos personales o debidamente anonimizada. No incluyas datos personales del alumnado ni de otras personas.
+
 Rediseña la actividad teniendo en cuenta estos datos:
 - Contenido o concepto: [completa]
 - Etapa o nivel: [completa]
 - Materia o ámbito: [completa]
 - Duración: [completa]
 - Objetivo de aprendizaje: [completa]
-- Características relevantes del grupo: [completa]
+- Características didácticas generales de un grupo ficticio: [completa sin identificar personas]
 - Necesidad concreta: [completa]
 ```
 

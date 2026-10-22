@@ -80,10 +80,10 @@ No formamos especialistas en IA. Formamos docentes con criterio para decidir si,
 
 Al finalizar el curso, el profesorado participante será capaz de:
 
-- **Usar la IA como aliada diaria** en la planificación, evaluación y creación de materiales, trabajando en el entorno seguro de la GVA.
-- **Perder el miedo inicial** conectando desde la primera sesión con Copilot (`@edu.gva.es`), Gemini, NotebookLM, Kimi y Grok para tareas reales.
+- **Usar la IA como aliada diaria** en la planificación, evaluación y creación de materiales, distinguiendo servicios institucionales GVA habilitados y herramientas externas NO GVA, sin datos personales reales en las prácticas.
+- **Perder el miedo inicial** probando Copilot Chat institucional si está habilitado, o herramientas externas como Gemini, NotebookLM, Kimi y Grok, con casos ficticios y materiales sin datos personales.
 - **Diseñar prompts avanzados** con la estructura Rol + Contexto + Tarea + Formato + Restricciones, para que la IA actúe como experta pedagógica.
-- **Crear agentes personalizados** que automaticen correcciones y planificación conforme al estilo docente propio y los criterios LOMLOE.
+- **Crear agentes personalizados** que preparen borradores de retroalimentación sobre trabajos ficticios y propuestas de planificación bajo revisión docente conforme al estilo docente propio y los criterios LOMLOE.
 - **Transformar contenidos en recursos multimodales** —infografías, cómics, audios, vídeos con avatares— que atiendan a la diversidad del alumnado.
 - **Personalizar el aprendizaje** ajustando materiales a distintos niveles y realidades del aula de forma rápida y escalable.
 - **Automatizar tareas administrativas** como rúbricas LOMLOE y correcciones motivadoras, liberando tiempo para lo que importa: enseñar.
@@ -116,7 +116,7 @@ Cada sesión síncrona arranca con una **demostración práctica en directo**: d
 
 ### Práctica guiada y experimentación
 
-Entre sesiones, cada participante trabaja con las herramientas a su ritmo, siguiendo las guías y los “Prompts de Oro” de cada bloque. La progresión es gradual: empezar con un correo o un acta, avanzar hacia situaciones de aprendizaje, y culminar con un portfolio integrador.
+Entre sesiones, cada participante trabaja con las herramientas a su ritmo, siguiendo las guías y los “Prompts de Oro” de cada bloque. La progresión es gradual: empezar con un correo o un acta completamente ficticios, avanzar hacia situaciones de aprendizaje, y culminar con un portfolio integrador.
 
 ### Comparación crítica
 
@@ -286,22 +286,26 @@ Cada semana funciona igual: sesión síncrona el martes -> trabajo autónomo dur
 ## Recursos y herramientas
 {: id="recursos" }
 
-Se utilizan herramientas distintas según la tarea y la disponibilidad institucional.
+Se utilizan herramientas distintas según la tarea, la cuenta y las autorizaciones disponibles.
 
-### Referencias de trabajo
+### Herramientas institucionales GVA
 
-- Copilot Chat (según disponibilidad de cuenta institucional).
-- Gemini y Gemini Notebook para trabajo con fuentes y verificación documental.
-- Herramientas multimodales para creación de recursos (presentación, imagen, audio, vídeo) cuando proceda.
+La cuenta GVA es nuestra cuenta institucional docente. Nos permite acceder a los servicios corporativos habilitados por la Generalitat Valenciana, según los permisos y las licencias disponibles. Antes de utilizar herramientas de inteligencia artificial, debemos comprobar que el servicio y el tratamiento de la información estén autorizados.
+
+Microsoft 365 y Copilot Chat pueden estar disponibles según la licencia y la configuración; no todas las funciones de Copilot están necesariamente habilitadas. Microsoft 365 Copilot puede requerir una licencia adicional. La cuenta institucional no autoriza por sí sola a introducir datos personales.
+
+### Herramientas externas NO GVA
+
+Las cuentas personales (NO GVA) pueden utilizarse para explorar herramientas de inteligencia artificial y crear recursos educativos con contenidos ficticios, públicos o debidamente anonimizados. No forman parte automáticamente del entorno institucional autorizado por la Conselleria de Educación y no deben utilizarse para introducir datos personales reales.
+
+ChatGPT, Gemini, Gemini Notebook, Kimi, Canva y las herramientas de imagen, audio y vídeo se emplean aquí para crear recursos, revisar fuentes sin datos personales y experimentar conforme a las normas del centro. Un correo GVA usado para registrarse o una licencia educativa no convierten una plataforma externa en un servicio autorizado.
 
 ### Advertencia de protección de datos
 
-<div style="background-color:#f5f7fa; border-left:4px solid #6c8ebf; padding:12px 14px; margin:18px 0; border-radius:6px;">
+{: .callout .callout--privacidad }
+**IMPORTANTE: No introduzcas datos personales ni información sensible del alumnado, profesorado, familias u otras personas en las herramientas de inteligencia artificial utilizadas en este curso.** Utiliza ejemplos ficticios, información pública o materiales debidamente anonimizados. Comprueba siempre las condiciones del servicio y las instrucciones de tu centro y de la administración educativa.
 
-<strong>NO INTRODUZCAS DATOS PERSONALES NI SENSIBLES DEL ALUMNADO.</strong><br>
-Usa datos ficticios, anonimizados o de dominio público y verifica siempre las condiciones del servicio utilizado.
-
-</div>
+**Anonimizar no es cambiar el nombre.** Iniciales, números de alumno o seudónimos siguen siendo datos personales si permiten reconocer a alguien. Revisa identificadores indirectos (centro, grupo pequeño, edad, fechas o situaciones singulares), metadatos, comentarios, imágenes y enlaces. Si no puedes impedir la reidentificación, sustituye el material por un caso completamente ficticio. Que una información sea pública no autoriza a introducir datos personales en las prácticas.
 
 ---
 
@@ -348,7 +352,10 @@ Para obtener la certificación:
 ## Enfoque ético, legal y pedagógico
 {: id="enfoque-etico" }
 
-- La IA no sustituye el juicio docente.
+- La IA no sustituye el juicio docente: revisa exactitud, sesgos, adecuación al grupo y fuentes antes de utilizar los resultados. Las calificaciones y decisiones educativas siguen bajo responsabilidad docente.
+- Practica con actas inventadas, trabajos simulados y rúbricas vacías. No subas expedientes, notas identificables, informes psicopedagógicos ni diagnósticos. Para personalizar, describe necesidades didácticas generales sin identificar a personas.
+- No cargues fotografías, vídeos o voces identificables para crear materiales multimodales. Usa personajes ficticios, avatares de catálogo y voces sintéticas.
+- Los agentes del curso trabajan con archivos de prueba; no los conectes a correo, expedientes ni carpetas reales del centro. Revisa sus permisos y cada acción propuesta.
 - La verificación con fuentes oficiales es obligatoria cuando hay información crítica.
 - El uso debe ser proporcionado al objetivo pedagógico.
 - La privacidad, la autoría y la transparencia son parte del proceso de aprendizaje.

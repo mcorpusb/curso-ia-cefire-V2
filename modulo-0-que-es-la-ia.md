@@ -139,7 +139,7 @@ Preguntar, crear borradores, transformar notas, pedir explicaciones o proponer a
 
 ### 📄 Trabajar con documentos y fuentes
 
-Aportar documentos autorizados para resumirlos, analizarlos, compararlos o localizar información.
+Aportar documentos ficticios, públicos sin datos personales o debidamente anonimizados para resumirlos, analizarlos, compararlos o localizar información. Revisa también metadatos y comentarios antes de adjuntarlos; no subas el original para pedir a la IA que lo anonimice.
 
 La herramienta puede facilitar el trabajo, pero **la fuente y su interpretación siguen necesitando revisión**.
 
@@ -153,7 +153,7 @@ El proceso no termina al recibir una respuesta:
 
 ### ⚙️ Ejecutar acciones o procesos
 
-Algunos agentes pueden encadenar distintos pasos y utilizar herramientas para avanzar hacia un objetivo.
+Algunos agentes pueden encadenar distintos pasos y utilizar herramientas para avanzar hacia un objetivo. En el curso, usa archivos ficticios y permisos mínimos; no conectes correo o carpetas reales del centro. Si no puedes limitar los accesos, simula los pasos sin ejecutar acciones.
 
 ---
 
@@ -270,17 +270,9 @@ Pero necesitamos establecer algunas reglas que nos acompañarán **durante todo 
 ### Una regla sencilla para nuestras prácticas
 
 {: .callout .callout--privacidad }
-**NO INTRODUZCAS DATOS PERSONALES NI SENSIBLES DEL ALUMNADO.**
+**IMPORTANTE: No introduzcas datos personales ni información sensible del alumnado, profesorado, familias u otras personas en las herramientas de inteligencia artificial utilizadas en este curso.** Utiliza ejemplos ficticios, información pública o materiales debidamente anonimizados. Comprueba siempre las condiciones del servicio y las instrucciones de tu centro y de la administración educativa.
 
-Trabajaremos con información:
-
-- ficticia;
-- anonimizada;
-- o que pueda compartirse de forma segura.
-
-Evita introducir nombres, calificaciones, diagnósticos, datos de salud, situaciones familiares, documentación confidencial, imágenes o trabajos que permitan identificar al alumnado.
-
-En situaciones reales, sigue además las instrucciones institucionales y comprueba las condiciones del servicio antes de utilizar información del centro.
+**Anonimizar no es cambiar el nombre.** Iniciales, números de alumno o seudónimos siguen siendo datos personales si permiten reconocer a alguien. Revisa identificadores indirectos (centro, grupo pequeño, edad, fechas o situaciones singulares), metadatos, comentarios, imágenes y enlaces. Si no puedes impedir la reidentificación, sustituye el material por un caso completamente ficticio. Que una información sea pública no autoriza a introducir datos personales en las prácticas.
 
 ---
 
@@ -340,10 +332,12 @@ Consulta el [Radar de herramientas]({{ '/primeros-pasos/herramientas-que-utiliza
 
 En algunas actividades probaremos **la misma petición en varias herramientas** para comparar los resultados.
 
-No es necesario que utilices una cuenta personal o institucional si no quieres hacerlo.
+No necesitas abrir una cuenta personal: si no dispones de un servicio institucional habilitado y adecuado, analiza un ejemplo facilitado por el tutor o realiza la práctica sin conectarte a una IA.
+
+**GVA y NO GVA:** la cuenta `@edu.gva.es` identifica al profesorado en los servicios corporativos habilitados, según permisos y licencias; no garantiza acceso a toda la IA ni autoriza cualquier tratamiento de datos. Las cuentas personales son externas a GVA y sirven aquí para crear recursos sin datos personales reales. Registrarse con correo GVA, tener una cuenta universitaria o un plan Education, gratuito o de pago no equivale a autorización institucional.
 
 {: .callout .callout--idea }
-**Si prefieres separar las prácticas del curso de tus cuentas habituales, puedes crear una cuenta específica para el curso y utilizarla para registrarte en las diferentes herramientas.**
+**Si optas por crear una cuenta personal específica para practicar, seguirá siendo NO GVA.** No uses la contraseña institucional; comprueba las normas del centro y las condiciones de cada plataforma antes de registrarte.
 
 Utiliza únicamente las herramientas con las que te sientas cómodo y revisa sus condiciones de acceso y privacidad antes de registrarte.
 
@@ -476,9 +470,11 @@ Adapta este modelo al ejemplo que hayas elegido:
 >
 > Ayúdame a crear un prompt muy detallado para pedírtelo correctamente.
 >
-> Ten en cuenta el rol que debe asumir la IA, el contexto educativo, las características del alumnado, los objetivos, la duración, la metodología, los recursos, el producto esperado, la evaluación y el formato de respuesta.
+> Ten en cuenta el rol que debe asumir la IA, el contexto educativo, las características didácticas generales de un grupo ficticio, los objetivos, la duración, la metodología, los recursos, el producto esperado, la evaluación y el formato de respuesta.
 >
-> Si necesitas información para mejorar el prompt, pregúntamela antes de generarlo.
+> Utiliza únicamente información ficticia, pública sin datos personales o debidamente anonimizada. No incluyas datos personales del alumnado ni de otras personas. No solicites diagnósticos, nombres ni perfiles individuales.
+>
+> Si necesitas información didáctica general para mejorar el prompt, pregúntamela antes de generarlo.
 
 Cuando obtengas el nuevo prompt:
 

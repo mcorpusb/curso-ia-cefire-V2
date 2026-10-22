@@ -168,7 +168,7 @@ Preguntar, crear esborranys, transformar notes, demanar explicacions o proposar 
 
 ### 📄 Treballar amb documents i fonts
 
-Aportar documents autoritzats per a resumir-los, analitzar-los, comparar-los o localitzar informació.
+Aportar documents ficticis, públics sense dades personals o degudament anonimitzats per a resumir-los, analitzar-los, comparar-los o localitzar informació. Revisa també metadades i comentaris abans d'adjuntar-los; no puges l'original per a demanar a la IA que l'anonimitze.
 
 L'eina pot facilitar el treball, però **la font i la seua interpretació continuen necessitant revisió**.
 
@@ -182,7 +182,7 @@ El procés no acaba quan rebem una resposta:
 
 ### ⚙️ Executar accions o processos
 
-Alguns agents poden encadenar diferents passos i utilitzar eines per a avançar cap a un objectiu.
+Alguns agents poden encadenar diferents passos i utilitzar eines per a avançar cap a un objectiu. En el curs, utilitza fitxers ficticis i permisos mínims; no connectes correu o carpetes reals del centre. Si no pots limitar els accessos, simula els passos sense executar accions.
 
 ---
 
@@ -299,17 +299,9 @@ Però necessitem establir algunes regles que ens acompanyaran **durant tot el cu
 ### Una regla senzilla per a les nostres pràctiques
 
 {: .callout .callout--privacidad }
-**NO INTRODUÏSQUES DADES PERSONALS NI SENSIBLES DE L'ALUMNAT.**
+**IMPORTANT: No introduïsques dades personals ni informació sensible de l'alumnat, del professorat, de les famílies o d'altres persones en les ferramentes d'intel·ligència artificial utilitzades en este curs.** Utilitza exemples ficticis, informació pública o materials degudament anonimitzats. Comprova sempre les condicions del servici i les instruccions del teu centre i de l'administració educativa.
 
-Treballarem amb informació:
-
-- fictícia;
-- anonimitzada;
-- o que es puga compartir de manera segura.
-
-Evita introduir noms, qualificacions, diagnòstics, dades de salut, situacions familiars, documentació confidencial, imatges o treballs que permeten identificar l'alumnat.
-
-En situacions reals, seguix també les instruccions institucionals i comprova les condicions del servei abans d'utilitzar informació del centre.
+**Anonimitzar no és canviar el nom.** Inicials, números d'alumne o pseudònims continuen sent dades personals si permeten reconéixer algú. Revisa identificadors indirectes (centre, grup reduït, edat, dates o situacions singulars), metadades, comentaris, imatges i enllaços. Si no pots impedir la reidentificació, substituïx el material per un cas completament fictici. Que una informació siga pública no autoritza a introduir dades personals en les pràctiques.
 
 ---
 
@@ -369,10 +361,12 @@ Consulta el [Radar d'eines]({{ '/primeros-pasos/herramientas-que-utilizaremos.ht
 
 En algunes activitats provarem **la mateixa petició en diverses eines** per a comparar els resultats.
 
-No és necessari que utilitzes un compte personal o institucional si no vols fer-ho.
+No necessites obrir un compte personal: si no disposes d'un servici institucional habilitat i adequat, analitza un exemple facilitat pel tutor o fes la pràctica sense connectar-te a una IA.
+
+**GVA i NO GVA:** el compte `@edu.gva.es` identifica el professorat en els servicis corporatius habilitats, segons permisos i llicències; no garantix accés a tota la IA ni autoritza qualsevol tractament de dades. Els comptes personals són externs a GVA i servixen ací per a crear recursos sense dades personals reals. Registrar-se amb correu GVA, tindre un compte universitari o un pla Education, gratuït o de pagament no equival a autorització institucional.
 
 {: .callout .callout--idea }
-**Si preferixes separar les pràctiques del curs dels teus comptes habituals, pots crear un compte específic per al curs i utilitzar-lo per a registrar-te en les diferents eines.**
+**Si optes per crear un compte personal específic per a practicar, continuarà sent NO GVA.** No utilitzes la contrasenya institucional; comprova les normes del centre i les condicions de cada plataforma abans de registrar-te.
 
 Utilitza únicament les eines amb què et sentes còmode i revisa les seues condicions d'accés i privacitat abans de registrar-t'hi.
 
@@ -505,9 +499,11 @@ Adapta este model a l’exemple que hages triat:
 >
 > Ajuda'm a crear un prompt molt detallat per a demanar-t'ho correctament.
 >
-> Tingues en compte el rol que ha d'assumir la IA, el context educatiu, les característiques de l'alumnat, els objectius, la duració, la metodologia, els recursos, el producte esperat, l'avaluació i el format de resposta.
+> Tingues en compte el rol que ha d'assumir la IA, el context educatiu, les característiques didàctiques generals d'un grup fictici, els objectius, la duració, la metodologia, els recursos, el producte esperat, l'avaluació i el format de resposta.
 >
-> Si necessites informació per a millorar el prompt, pregunta-me-la abans de generar-lo.
+> Utilitza únicament informació fictícia, pública sense dades personals o degudament anonimitzada. No inclogues dades personals de l'alumnat ni d'altres persones. No sol·licites diagnòstics, noms ni perfils individuals.
+>
+> Si necessites informació didàctica general per a millorar el prompt, pregunta-me-la abans de generar-lo.
 
 Quan obtingues el nou prompt:
 

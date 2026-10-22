@@ -82,10 +82,10 @@ No formem especialistes en IA. Formem docents amb criteri per a decidir si, quan
 
 En finalitzar el curs, el professorat participant serà capaç de:
 
-- **Utilitzar la IA com a aliada diària** en la planificació, l'avaluació i la creació de materials, treballant en l'entorn segur de la GVA.
-- **Perdre la por inicial** connectant des de la primera sessió amb Copilot (`@edu.gva.es`), Gemini, NotebookLM, Kimi i Grok per a tasques reals.
+- **Utilitzar la IA com a aliada diària** en la planificació, l'avaluació i la creació de materials, distingint servicis institucionals GVA habilitats i ferramentes externes NO GVA, sense dades personals reals en les pràctiques.
+- **Perdre la por inicial** provant Copilot Chat institucional si està habilitat, o ferramentes externes com Gemini, NotebookLM, Kimi i Grok, amb casos ficticis i materials sense dades personals.
 - **Dissenyar prompts avançats** amb l'estructura Rol + Context + Tasca + Format + Restriccions, perquè la IA actue com a experta pedagògica.
-- **Crear agents personalitzats** que automatitzen correccions i planificació d'acord amb l'estil docent propi i els criteris LOMLOE.
+- **Crear agents personalitzats** que preparen esborranys de retroalimentació sobre treballs ficticis i propostes de planificació sota revisió docent d'acord amb l'estil docent propi i els criteris LOMLOE.
 - **Transformar continguts en recursos multimodals** —infografies, còmics, àudios, vídeos amb avatars— que atenguen la diversitat de l'alumnat.
 - **Personalitzar l'aprenentatge** ajustant materials a diferents nivells i realitats de l'aula de manera ràpida i escalable.
 - **Automatitzar tasques administratives** com a rúbriques LOMLOE i correccions motivadores, alliberant temps per al que importa: ensenyar.
@@ -118,7 +118,7 @@ Cada sessió síncrona comença amb una **demostració pràctica en directe**: d
 
 ### Pràctica guiada i experimentació
 
-Entre sessions, cada participant treballa amb les ferramentes al seu ritme, seguint les guies i els “Prompts d'Or” de cada bloc. La progressió és gradual: començar amb un correu o un acta, avançar cap a situacions d'aprenentatge i culminar amb un portafoli integrador.
+Entre sessions, cada participant treballa amb les ferramentes al seu ritme, seguint les guies i els “Prompts d'Or” de cada bloc. La progressió és gradual: començar amb un correu o una acta completament ficticis, avançar cap a situacions d'aprenentatge i culminar amb un portafoli integrador.
 
 ### Comparació crítica
 
@@ -288,22 +288,26 @@ Cada setmana funciona igual: sessió síncrona el dimarts -> treball autònom du
 ## Recursos i ferramentes
 {: id="recursos" }
 
-S'utilitzen ferramentes diferents segons la tasca i la disponibilitat institucional.
+S'utilitzen ferramentes diferents segons la tasca, el compte i les autoritzacions disponibles.
 
-### Referències de treball
+### Ferramentes institucionals GVA
 
-- Copilot Chat (segons disponibilitat de compte institucional).
-- Gemini i Gemini Notebook per a treball amb fonts i verificació documental.
-- Ferramentes multimodals per a creació de recursos (presentació, imatge, àudio, vídeo) quan siga necessari.
+El compte GVA és el nostre compte institucional docent. Ens permet accedir als servicis corporatius habilitats per la Generalitat Valenciana, segons els permisos i les llicències disponibles. Abans d'utilitzar ferramentes d'intel·ligència artificial, hem de comprovar que el servici i el tractament de la informació estiguen autoritzats.
+
+Microsoft 365 i Copilot Chat poden estar disponibles segons la llicència i la configuració; no totes les funcions de Copilot estan necessàriament habilitades. Microsoft 365 Copilot pot requerir una llicència addicional. El compte institucional no autoritza per si sol a introduir dades personals.
+
+### Ferramentes externes NO GVA
+
+Els comptes personals (NO GVA) es poden utilitzar per a explorar ferramentes d'intel·ligència artificial i crear recursos educatius amb continguts ficticis, públics o degudament anonimitzats. No formen part automàticament de l'entorn institucional autoritzat per la Conselleria d'Educació i no s'han d'utilitzar per a introduir dades personals reals.
+
+ChatGPT, Gemini, Gemini Notebook, Kimi, Canva i les ferramentes d'imatge, àudio i vídeo s'empren ací per a crear recursos, revisar fonts sense dades personals i experimentar d'acord amb les normes del centre. Un correu GVA utilitzat per a registrar-se o una llicència educativa no convertixen una plataforma externa en un servici autoritzat.
 
 ### Advertència de protecció de dades
 
-<div style="background-color:#f5f7fa; border-left:4px solid #6c8ebf; padding:12px 14px; margin:18px 0; border-radius:6px;">
+{: .callout .callout--privacidad }
+**IMPORTANT: No introduïsques dades personals ni informació sensible de l'alumnat, del professorat, de les famílies o d'altres persones en les ferramentes d'intel·ligència artificial utilitzades en este curs.** Utilitza exemples ficticis, informació pública o materials degudament anonimitzats. Comprova sempre les condicions del servici i les instruccions del teu centre i de l'administració educativa.
 
-<strong>NO INTRODUÏXES DADES PERSONALS NI SENSIBLES DE L'ALUMNAT.</strong><br>
-Utilitza dades fictícies, anonimitzades o de domini públic i verifica sempre les condicions del servici utilitzat.
-
-</div>
+**Anonimitzar no és canviar el nom.** Inicials, números d'alumne o pseudònims continuen sent dades personals si permeten reconéixer algú. Revisa identificadors indirectes (centre, grup reduït, edat, dates o situacions singulars), metadades, comentaris, imatges i enllaços. Si no pots impedir la reidentificació, substituïx el material per un cas completament fictici. Que una informació siga pública no autoritza a introduir dades personals en les pràctiques.
 
 ---
 
@@ -350,7 +354,10 @@ Per a obtindre la certificació:
 ## Enfocament ètic, legal i pedagògic
 {: id="enfoque-etico" }
 
-- La IA no substituïx el judici docent.
+- La IA no substituïx el judici docent: revisa exactitud, biaixos, adequació al grup i fonts abans d'utilitzar els resultats. Les qualificacions i decisions educatives continuen sota responsabilitat docent.
+- Practica amb actes inventades, treballs simulats i rúbriques buides. No puges expedients, notes identificables, informes psicopedagògics ni diagnòstics. Per a personalitzar, descriu necessitats didàctiques generals sense identificar persones.
+- No carregues fotografies, vídeos o veus identificables per a crear materials multimodals. Utilitza personatges ficticis, avatars de catàleg i veus sintètiques.
+- Els agents del curs treballen amb fitxers de prova; no els connectes a correu, expedients ni carpetes reals del centre. Revisa els permisos i cada acció proposada.
 - La verificació amb fonts oficials és obligatòria quan hi ha informació crítica.
 - L'ús ha de ser proporcionat a l'objectiu pedagògic.
 - La privacitat, l'autoria i la transparència formen part del procés d'aprenentatge.
