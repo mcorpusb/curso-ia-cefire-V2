@@ -11,6 +11,44 @@
   iteration: "Reduce el cuento a 180 palabras, sustituye cualquier concepto abstracto por una acción observable y añade una frase repetitiva en la que pueda participar el grupo. Comprueba que no presenta ninguna emoción como mala."
   result: "Un cuento breve, preguntas de conversación y un guion visual revisados para la asamblea."
   adaptation: "En Primaria puede convertirse en una historia de resolución de conflictos; en Secundaria, en análisis narrativo y convivencia."
+  example_title: "Ejemplo visual · El miedo del pequeño Dino"
+  example_intro: "Este ejemplo muestra cómo podemos utilizar la inteligencia artificial para crear un cuento adaptado a Educación Infantil, trabajar las emociones y generar un recurso visual que acompañe la narración. El resultado siempre debe revisarse y ajustarse a las necesidades del grupo."
+  example_story: "Dino ve en clase un dinosaurio de juguete muy grande. Nota que su corazón va deprisa y da un paso atrás. Su maestra se acerca con calma, pone palabras a lo que siente y le propone respirar juntos. Después, Dino observa el juguete y decide acercarse poco a poco. Sigue notando un poquito de miedo, pero ahora sabe qué puede hacer y se siente acompañado."
+  example_question_label: "Pregunta para la asamblea"
+  example_question: "¿Qué te ayuda cuando sientes miedo?"
+  example_note: "La finalidad no es hacer desaparecer la emoción, sino reconocerla, expresarla y explorar estrategias adecuadas."
+  example_image: "/assets/img/Gemini_cuento infantil.png"
+  example_image_alt: "Cuento ilustrado sobre el pequeño dinosaurio Dino, que reconoce el miedo y aprende a afrontarlo acompañado por su maestra"
+  documented_prompt_title: "Prompt de partida documentado en la actividad original"
+  documented_prompt_note: "La actividad original propone este prompt para crear un primer borrador; no consta que fuese la instrucción exacta utilizada para generar la imagen mostrada."
+  documented_prompt: |-
+    Quiero crear un cuento breve para una asamblea de Educación Infantil.
+
+    Edad: [3/4/5 años]
+    Tema: [completa]
+    Objetivo: [completa]
+    Interés general del grupo: [completa]
+
+    Escribe un cuento de unas 200-300 palabras, pensado para leer en voz alta.
+
+    Criterios:
+    - vocabulario sencillo;
+    - frases cortas;
+    - un personaje cercano;
+    - una situación fácil de comprender;
+    - una estructura clara;
+    - repeticiones cuando ayuden;
+    - una pregunta final para conversar en asamblea.
+
+    No incluyas datos reales del alumnado ni inventes información sobre mi grupo.
+  image_practice_title: "Del cuento a la ilustración"
+  image_practice_intro: "Como práctica opcional, transforma una escena de tu propio cuento en una ilustración. Describe con precisión el personaje, la emoción, el escenario, la acción, el estilo y la edad del alumnado."
+  image_prompt: "Crea una ilustración para un cuento educativo dirigido a niños y niñas de 4–5 años. El protagonista es un pequeño dinosaurio que siente miedo el primer día de colegio. Representa una escena acogedora en la que su maestra le acompaña y le ayuda a sentirse seguro. Utiliza un estilo de cuento infantil, colores suaves, expresiones claras y un ambiente tranquilo. No incluyas nombres ni imágenes de menores reales."
+  image_iteration_title: "Iteración para una segunda escena"
+  image_iteration: "Crea una segunda escena con el mismo pequeño dinosaurio. Mantén exactamente sus rasgos, colores, proporciones, ropa y estilo de ilustración. Ahora aparece en el aula respirando despacio junto a su maestra y empezando a sentirse seguro. Conserva la misma paleta suave, iluminación y punto de vista. No incluyas nombres ni imágenes de menores reales."
+  image_reflection: "Compara el texto y la imagen: ¿la ilustración ayuda a reconocer la emoción y comprender la acción sin añadir mensajes contradictorios, estereotipos o elementos que no aparecen en el cuento?"
+  original_example_url: "/bloque1-actividad-infantil.html"
+  original_example_label: "Ver el ejemplo completo del cuento de Dino"
 - id: INF-02
   title: "¿Qué ocurre primero?"
   area: "Secuencias y autonomía"

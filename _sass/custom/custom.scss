@@ -147,6 +147,27 @@
   padding-top: 1.25rem;
 }
 .prompt-lab-activity__meta { color: #5f477e; font-size: .9rem; letter-spacing: .02em; }
+
+.prompt-lab-example {
+  margin-top: 2rem;
+  padding: clamp(1rem, 3vw, 1.75rem);
+  border: 1px solid #e5dfed;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 .3rem 1.1rem rgba(52, 38, 70, .06);
+}
+
+.prompt-lab-example__figure { margin: 1.25rem 0; text-align: center; }
+.prompt-lab-example__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 52rem;
+  margin-inline: auto;
+  object-fit: contain;
+  border-radius: .75rem;
+}
+.prompt-lab-example__link { margin-bottom: 0; }
 .prompt-lab-copy { margin: .75rem 0 1.25rem; }
 .prompt-lab-copy .prompt-bloque {
   max-height: 28rem;
