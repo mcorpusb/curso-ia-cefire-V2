@@ -809,7 +809,7 @@ Consulta la [guía de Gemini Notebook para docentes]({{ '/bloque2-notebooklm.htm
 - Espera a que Gemini Notebook **procese** los documentos; el tiempo depende de las fuentes.
 - Ahora ya puedes hacer preguntas y podrás pedir respuestas **fundamentadas en las fuentes seleccionadas**, comprobando sus citas.
 
-> **⚠️ Seguridad GVA:** Gemini Notebook es un producto de Google y **no forma parte del entorno corporativo de la GVA**. Úsalo **solo con documentos públicos** (legislación, currículos publicados en el DOGV). **Nunca subas documentos internos del centro con datos del alumnado.**
+> **⚠️ Seguridad GVA:** Gemini Notebook es un producto de Google y una cuenta personal **no equivale a un entorno institucional autorizado por la GVA**. Utiliza fuentes públicas, materiales propios aptos para compartir o recursos anonimizados y autorizados. No subas expedientes, calificaciones identificables, informes psicopedagógicos, actas confidenciales, fotografías de menores, grabaciones con voces identificables sin autorización ni documentos internos no autorizados.
 
 ### Ejemplo de consulta curricular en Gemini Notebook
 {: id="ejemplo-de-consulta-curricular-en-notebooklm" }
@@ -830,22 +830,78 @@ Criterio de evaluación]. Incluye la referencia exacta (artículo/anexo)
 del decreto.
 ```
 
-### Funcionalidad estrella: los "Audio Overviews"
+### Del análisis de fuentes a los materiales de aprendizaje
 
-Gemini Notebook puede generar un **resumen en formato podcast** de tus documentos con dos voces sintéticas que dialogan sobre el contenido. Esto es útil para:
+Gemini Notebook puede transformar las fuentes en diferentes recursos. **No todas las funciones están disponibles en todas las cuentas**: dependen del plan, la edad, el idioma, la plataforma, la habilitación institucional y el despliegue. La cocreación de presentaciones y vídeos comenzó a desplegarse en octubre de 2026.
 
-- **Repasar legislación** mientras conduces al centro.
-- **Crear material auditivo** para tu alumnado (pídelo en lenguaje adaptado a su nivel).
-- **Compartir** una síntesis con tu departamento para ahorrar tiempo de lectura.
+| Función | Utilidad docente | Ejemplo educativo | Qué debe comprobar el docente |
+|---|---|---|---|
+| Presentaciones | Organizar una explicación visual fundamentada en las fuentes. | Secuencia sobre causas y consecuencias de la Revolución Industrial. | Esquema, fidelidad, imágenes, accesibilidad y adecuación al nivel. |
+| Vídeos y **Short Video Overviews** | Explicar visualmente un concepto; la versión breve dura aproximadamente 60 segundos. | Introducción al ciclo del agua antes de una actividad experimental. | Simplificaciones, omisiones, pronunciación, ritmo y correspondencia con las fuentes. |
+| **Interactive Learning Overviews** | Crear un recorrido de estudio que combina resúmenes y recursos del cuaderno. | Repaso progresivo de un tema con infografía, tarjetas y cuestionario. | Orden pedagógico, prerrequisitos, equilibrio entre comprensión y recuerdo. |
+| Cuestionarios | Practicar con respuesta corta, selección múltiple y completar espacios. | Autoevaluación sobre conceptos de un procedimiento técnico. | Soluciones, distractores, nivel cognitivo y retroalimentación. |
+| Tarjetas de estudio | Recuperar vocabulario, ideas o relaciones clave. | Expresiones para una tarea de mediación lingüística en EOI. | Precisión, contexto y que no se reduzca el tema a datos aislados. |
+| Audio Overview | Escuchar una síntesis dialogada de las fuentes. | Repaso de una norma pública o de un texto científico. | Fidelidad, matices omitidos y accesibilidad del audio. |
+| Conversación por voz y notas de audio | Preguntar al cuaderno o incorporar una nota propia desde el móvil. | Registrar una reflexión docente y contrastarla después con las fuentes. | Disponibilidad, privacidad, exactitud y ausencia de voces o datos no autorizados. |
 
-```text
-Genera un Audio Overview de los cambios principales entre el currículo 
-anterior (LOMCE) y el actual (LOMLOE) para el área de Matemáticas de 
-Primaria en la Comunitat Valenciana. Usa un tono divulgativo y 
-accesible.
-```
+#### Presentaciones y vídeos con cocreación
 
-> **💡 Ejemplo Primaria:** Pide un Audio Overview del Bloque de Saberes Básicos de tu área y nivel. Escúchalo y valora si la síntesis es fiel al documento original.
+Si la opción está disponible, el flujo permite revisar antes de generar:
+
+1. Pide desde el chat una presentación o un vídeo e indica destinatario, propósito y duración.
+2. Examina la propuesta de temas y estructura basada en las fuentes.
+3. Activa la revisión y abre las **notas del esquema** para presentaciones o las **notas de producción** para vídeos.
+4. Modifica contenidos, orden, formato y estilo visual.
+5. Confirma la propuesta y genera el recurso final.
+6. Realiza una revisión docente de citas, conceptos, accesibilidad y adecuación al grupo.
+
+Si no aparece la revisión previa, pide primero un esquema en el chat, corrígelo y úsalo como guion. El despliegue comenzó en octubre de 2026 y puede no haber llegado a todas las cuentas.
+
+#### Vídeos breves: un concepto en aproximadamente 60 segundos
+
+Los **Short Video Overviews** combinan una narración breve con animaciones educativas basadas en las fuentes. Sirven para activar conocimientos previos, aclarar diagramas o introducir una fórmula. Para utilizarlos:
+
+1. Selecciona únicamente las fuentes pertinentes.
+2. Define un concepto, un destinatario y un objetivo concreto.
+3. Genera el vídeo breve y revisa cada afirmación con la fuente.
+4. Comprueba legibilidad, ritmo, representación visual y accesibilidad antes de compartirlo.
+
+> **💡 Ejemplo Primaria:** crea un vídeo breve sobre el ciclo del agua a partir de una fuente científica pública. Pide al alumnado que identifique qué fase necesita más explicación. No uses el vídeo como única evidencia de aprendizaje.
+
+#### Guías interactivas, cuestionarios y tarjetas
+
+Los **Interactive Learning Overviews**, disponibles desde **Informes** cuando están habilitados, organizan un recorrido paso a paso y pueden combinar resúmenes con presentaciones, infografías, cuestionarios y tarjetas del cuaderno.
+
+Los cuestionarios admiten formatos como **respuesta corta, selección múltiple y completar espacios**. Después de responder o repasar tarjetas, puede solicitarse retroalimentación al chat para localizar errores y decidir qué revisar. El docente debe comprobar las soluciones, editar preguntas cuando sea posible y no utilizar la retroalimentación automática para calificar sin revisión.
+
+#### Conversación por voz y notas de audio
+
+La aplicación móvil puede permitir conversar por voz en tiempo real con el cuaderno y grabar notas de audio para incorporarlas junto a las fuentes. La disponibilidad depende de la cuenta, la edad, el idioma, la plataforma y el despliegue. **No grabes alumnado, clases, reuniones ni conversaciones privadas sin la información y autorización correspondientes.** Para experimentar, utiliza solo una nota propia sin datos personales ni voces identificables de terceros.
+
+#### Actividad opcional · Una fuente, cinco recursos: transforma un documento en materiales educativos
+
+**Objetivo:** aprender a obtener y comparar diferentes recursos educativos a partir de documentos públicos o materiales autorizados.
+
+1. Crea un cuaderno con fuentes seleccionadas.
+2. Formula preguntas y comprueba las citas.
+3. Identifica las funciones de generación disponibles.
+4. Elige dos recursos entre presentación, vídeo, cuestionario, tarjetas o guía interactiva.
+5. Genera los recursos.
+6. Compara su adecuación al objetivo didáctico.
+7. Introduce mejoras.
+8. Reflexiona sobre su utilidad educativa.
+
+| Etapa | Ejemplo de fuente y enfoque |
+|---|---|
+| Infantil | Cuento propio o autorizado para trabajar emociones. |
+| Primaria | Texto público sobre ecosistemas. |
+| Secundaria | Fuentes públicas sobre la Revolución Industrial. |
+| FP | Procedimiento técnico público o autorizado. |
+| EOI | Texto público para una tarea de mediación lingüística. |
+
+Si una función no aparece, elige otra disponible o diseña su esquema en el chat. **No es obligatorio utilizar herramientas ni funciones de pago.** Esta actividad es opcional y no modifica la actividad oficial de entrega ni los criterios de evaluación.
+
+Amplía los pasos, comprobaciones y fuentes oficiales en la [guía práctica de Gemini Notebook]({{ '/bloque2-notebooklm.html' | relative_url }}).
 
 ---
 

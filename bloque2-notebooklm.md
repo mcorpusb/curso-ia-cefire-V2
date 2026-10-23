@@ -3,61 +3,168 @@ layout: page
 title: "Gemini Notebook para docentes"
 parent: "Bloque 2: Investigar, comprender y trabajar con fuentes"
 nav_order: 1
-description: "Gemini Notebook, anteriormente NotebookLM: fuentes, cuadernos sincronizados con Gemini y verificación docente."
+description: "Guía práctica de Gemini Notebook: fuentes, citas, materiales de estudio y verificación docente."
 ---
 
 # Gemini Notebook para docentes
 {: id="notebooklm-para-docentes" .fs-8 }
 
-Trabaja con fuentes y transforma tus documentos en materiales educativos fundamentados.
+Guía práctica para trabajar con fuentes y transformarlas en materiales educativos fundamentados.
 {: .fs-5 .fw-300 }
 
-**Gemini Notebook (anteriormente NotebookLM)** es la experiencia de Google especializada en fuentes, documentos y cuadernos de conocimiento. Forma parte del ecosistema Gemini y **mantiene una experiencia propia y funcionalidades específicas**. Por eso seguimos dedicándole una página y actividades del Bloque 2.
+> **Disponibilidad:** esta guía recoge funciones anunciadas oficialmente por Google hasta el **23 de octubre de 2026**. Algunas se encuentran en despliegue y pueden variar según la cuenta, la edad, el idioma, la plataforma, el país, el plan o la habilitación del centro. Si una opción no aparece, continúa con el chat y los recursos disponibles; no necesitas contratar un plan para realizar las propuestas del curso.
 
-## Gemini y Gemini Notebook: dos experiencias conectadas
+## Índice
 
-- **Gemini** es el asistente general para conversación, creación, investigación y trabajo multimodal. Puede utilizar archivos, búsqueda web y otras herramientas según la cuenta.
-- **Gemini Notebook** se centra en consultar fuentes seleccionadas, rastrear afirmaciones mediante citas y generar materiales a partir del cuaderno: resúmenes, guías de estudio, mapas conceptuales o resúmenes de audio, según disponibilidad.
+- [1. Qué es Gemini Notebook](#1-qué-es-gemini-notebook)
+- [2. Gemini y Gemini Notebook](#2-gemini-y-gemini-notebook)
+- [3. Cómo crear un cuaderno](#3-cómo-crear-un-cuaderno)
+- [4. Cómo seleccionar y añadir fuentes](#4-cómo-seleccionar-y-añadir-fuentes)
+- [5. Cómo conversar y verificar citas](#5-cómo-conversar-y-verificar-citas)
+- [6. Generación de presentaciones](#6-generación-de-presentaciones)
+- [7. Generación de vídeos](#7-generación-de-vídeos)
+- [8. Guías interactivas](#8-guías-interactivas)
+- [9. Cuestionarios y tarjetas](#9-cuestionarios-y-tarjetas)
+- [10. Aplicaciones docentes por etapas](#10-aplicaciones-docentes-por-etapas)
+- [11. Seguridad y privacidad](#11-seguridad-y-privacidad)
+- [12. Actividad de experimentación](#12-actividad-de-experimentación)
 
-Los notebooks pueden **crearse, utilizarse y sincronizarse con Gemini**. Puedes empezar con documentos en una experiencia y continuar en la otra con el mismo cuaderno. Esto no significa que todas sus funciones sean idénticas: comprueba qué herramientas, fuentes y opciones están disponibles en tu cuenta.
+## 1. Qué es Gemini Notebook
 
-Google explica el [cambio de nombre y la integración](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/) y el [funcionamiento de los cuadernos en Gemini](https://support.google.com/gemininotebook/answer/17003757?hl=en).
+**Gemini Notebook (anteriormente NotebookLM)** es la experiencia de Google especializada en fuentes, documentos y cuadernos de conocimiento. Permite preguntar sobre materiales seleccionados, localizar citas y crear recursos derivados de ellos. Cargar una fuente **no entrena el modelo**: aporta contexto para ese cuaderno.
 
-## Un flujo práctico con el currículo
+La herramienta ayuda a analizar y transformar información, pero no sustituye la lectura profesional. Una cita puede existir y, aun así, estar interpretada de forma incompleta o fuera de contexto.
 
-- Abre [Gemini Notebook](https://notebooklm.google.com) con tu cuenta de Google. El acceso en cuentas educativas depende de la habilitación institucional.
-- Crea un cuaderno con un objetivo concreto, por ejemplo, contrastar los criterios de evaluación de una propuesta de aula.
-- Incorpora preferentemente estas fuentes: documentos propios, normativa oficial, fuentes públicas, recursos de dominio público, recursos con licencias abiertas compatibles y materiales cuyo uso esté autorizado.
-- Si utilizas material de terceros, identifica autor, fuente, licencia y condiciones de reutilización.
-- Incorpora fuentes públicas y pertinentes: el currículo oficial de tu etapa, orientaciones metodológicas y materiales propios sin datos personales. Revisa los límites vigentes de tu plan.
-- Pregunta por una relación concreta entre competencias, criterios y actividades. Pide citas y que se señale lo que no puede justificarse con las fuentes.
-- Abre las citas y comprueba el pasaje original. Una cita no garantiza que la interpretación sea correcta.
-- Si continúas en Gemini, comprueba la sincronización del cuaderno y distingue las fuentes aportadas de la información procedente de búsquedas u otras herramientas.
-- Revisa el material final antes de compartirlo o usarlo con el alumnado.
+## 2. Gemini y Gemini Notebook
+
+| Experiencia | Uso principal | Precaución |
+|---|---|---|
+| **Gemini** | Conversación, creación, investigación y trabajo multimodal general. | Comprueba qué archivos, búsqueda web y herramientas intervienen en cada respuesta. |
+| **Gemini Notebook** | Consulta de fuentes seleccionadas, respuestas con citas y creación de materiales desde el cuaderno. | Revisa siempre el pasaje citado y la fidelidad del recurso generado. |
+
+Los cuadernos pueden utilizarse y sincronizarse con Gemini, pero las dos experiencias no tienen necesariamente las mismas funciones ni el mismo contexto. Consulta la [ayuda oficial de Gemini Notebook](https://support.google.com/gemininotebook?hl=es).
+
+## 3. Cómo crear un cuaderno
+
+1. Abre [Gemini Notebook](https://notebook.google.com) con una cuenta de Google.
+2. Crea un cuaderno y ponle un nombre que indique su propósito, por ejemplo, *Ecosistemas · 5.º de Primaria*.
+3. Define una pregunta de trabajo antes de añadir documentos.
+4. Incorpora pocas fuentes, pertinentes y comprensibles; después amplía si es necesario.
+5. Comprueba las opciones que aparecen en **Studio** o **Informes**. No todas las cuentas muestran las mismas.
+
+## 4. Cómo seleccionar y añadir fuentes
+
+Utiliza normativa pública, páginas institucionales, materiales propios aptos para compartir, recursos con licencia compatible o documentos debidamente anonimizados y autorizados. Registra autoría, procedencia, fecha y licencia cuando corresponda.
+
+Antes de añadir una fuente, comprueba:
+
+- que responde al objetivo didáctico y está actualizada;
+- que puedes reutilizarla y subirla;
+- que no contiene datos personales, confidenciales o innecesarios;
+- que puedes identificar sus límites, sesgos y contexto.
+
+> **Regla sencilla:** que un documento esté en tu poder o no contenga nombres no significa que tengas autorización para subirlo.
+
+## 5. Cómo conversar y verificar citas
+
+Selecciona las fuentes pertinentes, formula una pregunta concreta y pide que se indiquen los aspectos que no pueden justificarse. Abre cada cita para leer el fragmento original y contrasta las conclusiones importantes en el documento completo.
 
 ```text
-Con las fuentes seleccionadas del cuaderno, revisa esta propuesta de actividad.
-Relaciona cada criterio de evaluación con el pasaje del currículo que lo respalda.
-Incluye las citas y señala qué afirmaciones no puedes justificar.
-No completes los huecos inventando criterios.
+Responde solo a partir de las fuentes seleccionadas.
+Relaciona cada afirmación con su cita y señala cualquier dato que no puedas justificar.
+Después, enumera dos posibles límites o interpretaciones alternativas.
 ```
 
-## Qué significa trabajar con fuentes
+Flujo recomendado: **preguntar → abrir citas → leer el contexto → corregir → guardar la conclusión revisada**.
 
-Cargar documentos **no entrena el modelo**. Proporciona materiales de referencia para la tarea. La calidad de la selección, la formulación de la pregunta y la comprobación de las citas siguen siendo responsabilidad docente.
+## 6. Generación de presentaciones
 
-Si utilizas descubrimiento de fuentes, revisa los nuevos documentos antes de incorporarlos. Si trabajas desde Gemini, comprueba si la respuesta combina el cuaderno con búsqueda web. Las dos experiencias están conectadas, pero no debes asumir que utilizan exactamente el mismo contexto en cada respuesta.
+Gemini Notebook puede preparar una presentación basada en las fuentes. En el flujo de cocreación anunciado por Google en octubre de 2026 puedes, si está disponible:
 
-## Privacidad y acceso
+1. Pedir la presentación desde el chat e indicar audiencia, propósito y duración.
+2. Revisar los temas y la estructura sugerida.
+3. Activar la opción de revisión y abrir las **notas del esquema**.
+4. Solicitar cambios de orden, contenido, formato o estilo visual.
+5. Confirmar y generar el recurso final.
+6. Revisar citas, conceptos, imágenes, accesibilidad, lenguaje y adecuación a la edad.
 
-Para las prácticas utiliza documentos públicos o materiales suficientemente anonimizados. La integración con Gemini no convierte una cuenta personal de Google en un entorno institucional autorizado para datos del alumnado.
+Si no aparece la revisión previa, genera un esquema en el chat, corrígelo y utilízalo como guion. El despliegue de la cocreación comenzó en octubre de 2026 y puede no estar disponible todavía en todas las cuentas.
 
-Que un documento no contenga datos personales no significa que pueda reutilizarse sin más. Si el material es de terceros, comprueba también la licencia, la autoría y las condiciones de uso antes de subirlo.
+## 7. Generación de vídeos
 
-Google distingue las condiciones de cuentas personales y de Workspace o Education. Revisa también los permisos al compartir cuadernos y las condiciones de los comentarios enviados para mejorar el servicio. Consulta la [documentación oficial sobre cuentas y privacidad](https://support.google.com/gemininotebook/answer/16164461?hl=es).
+Los **Video Overviews** crean explicaciones visuales a partir del cuaderno. Las opciones breves o **Short Video Overviews** condensan un concepto en aproximadamente 60 segundos y combinan narración con animaciones educativas. Pueden servir para activar conocimientos previos, aclarar un diagrama o introducir una fórmula.
 
-## Continúa en el Bloque 2
+Pasos prácticos:
 
+1. Selecciona solo las fuentes relevantes.
+2. Define un concepto, destinatario y objetivo observables.
+3. Pide el vídeo y, si aparece la revisión, abre las **notas de producción**.
+4. Modifica escenas, orden, énfasis, estilo y formato.
+5. Genera el vídeo y compáralo con las fuentes.
+6. Comprueba precisión, legibilidad, ritmo, pronunciación y accesibilidad antes de compartirlo.
+
+> **Ejemplo docente:** crear un vídeo breve sobre el ciclo del agua desde un texto científico público y pedir al alumnado que detecte qué fase necesita una explicación adicional.
+
+Un vídeo atractivo puede simplificar en exceso, omitir excepciones o representar mal una relación. No lo uses como evidencia única de aprendizaje. Las opciones, idiomas y límites dependen de la cuenta y del despliegue.
+
+## 8. Guías interactivas
+
+Los **Interactive Learning Overviews**, disponibles desde **Informes** cuando la cuenta los tiene habilitados, organizan un recorrido de estudio paso a paso. Pueden combinar resúmenes con recursos del cuaderno, como presentaciones, infografías, cuestionarios y tarjetas, todos vinculados a las fuentes seleccionadas.
+
+Son útiles para secuenciar una unidad, alternar explicación y práctica, o preparar un repaso autónomo. El docente debe comprobar que el orden tiene sentido pedagógico, que no faltan prerrequisitos y que las actividades no reducen el aprendizaje a recordar datos.
+
+## 9. Cuestionarios y tarjetas
+
+Gemini Notebook puede generar **tarjetas de estudio** y cuestionarios con formatos como respuesta corta, selección múltiple y completar espacios. Tras responder o repasar, el usuario puede pedir retroalimentación en el chat para localizar errores y decidir qué estudiar después. También puede editar preguntas y tarjetas cuando la interfaz lo permita.
+
+Comprueba las respuestas correctas, la claridad de los distractores, el nivel cognitivo y la correspondencia con las fuentes. La retroalimentación es orientativa: no sustituye la evaluación docente ni debe utilizarse para calificar automáticamente.
+
+## Conversación por voz y notas de audio en el móvil
+
+La aplicación móvil puede permitir conversar por voz en tiempo real con el cuaderno, interrumpir para pedir aclaraciones y grabar notas de audio que se incorporan junto a las fuentes. La disponibilidad depende de la cuenta, edad, idioma, plataforma y despliegue; algunas funciones móviles tienen restricciones adicionales.
+
+No grabes alumnado, clases, reuniones ni conversaciones privadas sin la información y autorización correspondientes. Para practicar, graba únicamente una nota propia sin datos personales ni voces identificables de terceros.
+
+## 10. Aplicaciones docentes por etapas
+
+| Etapa | Fuente segura de ejemplo | Posible transformación |
+|---|---|---|
+| Infantil | Cuento propio o con licencia adecuada | Secuencia visual sobre emociones y preguntas para diálogo. |
+| Primaria | Texto público sobre ecosistemas | Vídeo breve y tarjetas de vocabulario. |
+| Secundaria | Fuentes públicas sobre la Revolución Industrial | Presentación contrastada y cuestionario de causas y consecuencias. |
+| FP | Procedimiento técnico público o autorizado | Guía paso a paso y comprobación de seguridad. |
+| EOI | Texto público adecuado al nivel | Actividad de mediación y tarjetas de expresiones útiles. |
+
+## 11. Seguridad y privacidad
+
+Una cuenta personal de Google **no equivale** a un entorno institucional autorizado por la GVA. Las condiciones pueden cambiar entre cuentas personales, Workspace y Education; consulta la [documentación oficial sobre privacidad y cuentas](https://support.google.com/gemininotebook/answer/17004255?hl=es).
+
+No subas expedientes, calificaciones identificables, informes psicopedagógicos, actas confidenciales, fotografías de menores, grabaciones con voces identificables sin autorización ni documentos internos no autorizados. Utiliza fuentes públicas, materiales propios aptos para compartir o recursos anonimizados y autorizados.
+
+Revisa además los permisos al compartir cuadernos, la propiedad intelectual de las fuentes y las condiciones aplicables al enviar comentarios al servicio. Las citas generadas también deben verificarse.
+
+## 12. Actividad de experimentación
+
+### Una fuente, cinco recursos: transforma un documento en materiales educativos *(opcional)*
+
+**Objetivo:** aprender a obtener y comparar diferentes recursos educativos a partir de documentos públicos o materiales autorizados.
+
+1. Crea un cuaderno con fuentes seleccionadas.
+2. Formula preguntas y comprueba las citas.
+3. Identifica las funciones de generación disponibles en tu cuenta.
+4. Elige dos recursos entre presentación, vídeo, cuestionario, tarjetas o guía interactiva.
+5. Genera los dos recursos.
+6. Compara su adecuación al objetivo didáctico.
+7. Introduce mejoras y vuelve a revisar el resultado.
+8. Reflexiona sobre su utilidad educativa y sus límites.
+
+Puedes aplicar uno de los ejemplos de la tabla anterior. Si una función no aparece, sustitúyela por otra disponible o diseña su esquema en el chat. **No es obligatorio utilizar funciones ni planes de pago.** Esta práctica es opcional y no modifica la actividad oficial de entrega ni sus criterios de evaluación.
+
+## Fuentes oficiales y continuación
+
+- [Nuevas herramientas de estudio · 15 de septiembre de 2026](https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/).
+- [Tres funciones para estudiar · 16 de octubre de 2026](https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/).
+- [Cocreación de presentaciones y vídeos · 19 de octubre de 2026](https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/).
+- [Centro de ayuda de Gemini Notebook](https://support.google.com/gemininotebook?hl=es).
 - [Configurar un cuaderno con el currículo]({{ '/bloque2.html#23--notebooklm-entrena-a-la-ia-con-el-currículo-oficial' | relative_url }}).
-- [Actividades y cuaderno docente del Bloque 2]({{ '/bloque2.html' | relative_url }}).
-- [Gemini + Gemini Notebook en el radar del curso]({{ '/primeros-pasos/herramientas-que-utilizaremos.html#radar' | relative_url }}).
+- [Actividad oficial del Bloque 2]({{ '/bloque2.html#actividad-final-del-bloque--crea-un-cuaderno-docente-con-notebooklm-y-diseña-una-situación-de-aprendizaje-con-ia' | relative_url }}).
