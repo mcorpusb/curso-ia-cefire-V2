@@ -37,10 +37,21 @@ La herramienta ayuda a analizar y transformar información, pero no sustituye la
 
 ## 2. Gemini y Gemini Notebook
 
-| Experiencia | Uso principal | Precaución |
-|---|---|---|
-| **Gemini** | Conversación, creación, investigación y trabajo multimodal general. | Comprueba qué archivos, búsqueda web y herramientas intervienen en cada respuesta. |
-| **Gemini Notebook** | Consulta de fuentes seleccionadas, respuestas con citas y creación de materiales desde el cuaderno. | Revisa siempre el pasaje citado y la fidelidad del recurso generado. |
+<div class="notebook-visual" role="group" aria-labelledby="comparativa-gemini-titulo">
+  <h3 id="comparativa-gemini-titulo" class="notebook-visual__title">Gemini y Gemini Notebook: qué hace cada uno</h3>
+  <div class="notebook-visual__grid notebook-visual__grid--two">
+    <section class="notebook-visual__card" aria-labelledby="gemini-card-titulo">
+      <h4 id="gemini-card-titulo">Gemini</h4>
+      <p>Para <strong>conversar, crear, investigar, buscar</strong> y trabajar de forma general.</p>
+      <p class="notebook-visual__note">Comprueba qué archivos, búsqueda web y herramientas intervienen en cada respuesta.</p>
+    </section>
+    <section class="notebook-visual__card" aria-labelledby="notebook-card-titulo">
+      <h4 id="notebook-card-titulo">Gemini Notebook</h4>
+      <p>Para <strong>trabajar con fuentes, citar documentos, generar materiales</strong> desde el cuaderno, organizar el estudio y verificar con citas.</p>
+      <p class="notebook-visual__note">Revisa siempre el pasaje citado y la fidelidad del recurso generado.</p>
+    </section>
+  </div>
+</div>
 
 Los cuadernos pueden utilizarse y sincronizarse con Gemini, pero las dos experiencias no tienen necesariamente las mismas funciones ni el mismo contexto. Consulta la [ayuda oficial de Gemini Notebook](https://support.google.com/gemininotebook?hl=es).
 
@@ -76,6 +87,18 @@ Después, enumera dos posibles límites o interpretaciones alternativas.
 ```
 
 Flujo recomendado: **preguntar → abrir citas → leer el contexto → corregir → guardar la conclusión revisada**.
+
+<div class="notebook-visual" role="group" aria-labelledby="flujo-docente-titulo">
+  <h3 id="flujo-docente-titulo" class="notebook-visual__title">Flujo docente con Gemini Notebook</h3>
+  <ol class="notebook-flow">
+    <li><span>1</span>Selecciona fuentes</li>
+    <li><span>2</span>Crea el cuaderno</li>
+    <li><span>3</span>Formula preguntas</li>
+    <li><span>4</span>Revisa las citas</li>
+    <li><span>5</span>Genera recursos</li>
+    <li><span>6</span>Verifica antes de usar</li>
+  </ol>
+</div>
 
 ## 6. Generación de presentaciones
 
@@ -134,6 +157,31 @@ No grabes alumnado, clases, reuniones ni conversaciones privadas sin la informac
 | Secundaria | Fuentes públicas sobre la Revolución Industrial | Presentación contrastada y cuestionario de causas y consecuencias. |
 | FP | Procedimiento técnico público o autorizado | Guía paso a paso y comprobación de seguridad. |
 | EOI | Texto público adecuado al nivel | Actividad de mediación y tarjetas de expresiones útiles. |
+
+<div class="notebook-visual" role="group" aria-labelledby="fuentes-si-no-titulo">
+  <h3 id="fuentes-si-no-titulo" class="notebook-visual__title">Antes de subir una fuente: sí / no</h3>
+  <div class="notebook-visual__grid notebook-visual__grid--two">
+    <section class="notebook-visual__card notebook-visual__card--yes" aria-labelledby="fuentes-si-titulo">
+      <h4 id="fuentes-si-titulo"><span aria-hidden="true">✓</span> Sí puedo subir</h4>
+      <ul>
+        <li>Currículo oficial.</li>
+        <li>Normativa pública.</li>
+        <li>Materiales propios sin datos personales.</li>
+        <li>Recursos con licencia o autorización.</li>
+      </ul>
+    </section>
+    <section class="notebook-visual__card notebook-visual__card--no" aria-labelledby="fuentes-no-titulo">
+      <h4 id="fuentes-no-titulo"><span aria-hidden="true">×</span> No debo subir</h4>
+      <ul>
+        <li>Expedientes.</li>
+        <li>Actas.</li>
+        <li>Informes con datos personales.</li>
+        <li>Fotografías o audios identificables.</li>
+        <li>Documentos internos sensibles sin autorización.</li>
+      </ul>
+    </section>
+  </div>
+</div>
 
 ## 11. Seguridad y privacidad
 

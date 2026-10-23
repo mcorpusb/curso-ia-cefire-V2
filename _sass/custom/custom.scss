@@ -1086,3 +1086,107 @@
   th:first-child, td:first-child { background: #eef4fb; color: #243d55; }
   th:last-child, td:last-child { background: #fef5ec; color: #663b19; }
 }
+
+/* ── Esquemas ligeros de Gemini Notebook ── */
+
+.notebook-visual {
+  margin: 1.75rem 0;
+  padding: 1.25rem;
+  background: #fff;
+  border: 1px solid #d8dee4;
+  border-radius: 10px;
+}
+
+.notebook-visual__title {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.notebook-visual__grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.notebook-visual__grid--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.notebook-visual__card {
+  min-width: 0;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #d8dee4;
+  border-top: 3px solid #5c6bc0;
+  border-radius: 8px;
+}
+
+.notebook-visual__card h4 {
+  margin: 0 0 0.55rem;
+  font-size: 1rem;
+}
+
+.notebook-visual__card p,
+.notebook-visual__card ul {
+  margin-bottom: 0;
+}
+
+.notebook-visual__card--yes { border-top-color: #2e7d32; }
+.notebook-visual__card--no { border-top-color: #b3261e; }
+
+.notebook-visual__note {
+  padding-top: 0.65rem;
+  color: #4b5563;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.main-content .notebook-flow {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0 !important;
+  list-style: none;
+  counter-reset: none;
+}
+
+.main-content .notebook-flow li {
+  display: block !important;
+  position: relative;
+  min-width: 0;
+  padding: 0.8rem 0.55rem;
+  background: #fff;
+  border: 1px solid #d8dee4;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 0.84rem;
+  line-height: 1.35;
+  margin-bottom: 0;
+}
+
+.main-content .notebook-flow li span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.65rem;
+  height: 1.65rem;
+  margin: 0 auto 0.5rem;
+  color: #fff;
+  background: #4a67a1;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .notebook-visual { padding: 1rem; }
+  .notebook-visual__grid--two,
+  .main-content .notebook-flow { grid-template-columns: 1fr; }
+  .main-content .notebook-flow li {
+    display: flex !important;
+    align-items: center;
+    gap: 0.75rem;
+    text-align: left;
+  }
+  .main-content .notebook-flow li span { margin: 0; flex: 0 0 auto; }
+}
