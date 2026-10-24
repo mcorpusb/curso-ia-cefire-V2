@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 650" role="img" aria-labelledby="title desc">
+  <title id="title">Gemini Notebook: del documento al aprendizaje</title>
+  <desc id="desc">Mapa conceptual con Gemini Notebook en el centro y seis ramas: fuentes documentales, conversación con citas, investigación y contraste, mapas conceptuales, recursos multimedia y evaluación y estudio.</desc>
+  <defs><style>.t{font:700 20px system-ui,sans-serif;fill:#243b53}.s{font:600 17px system-ui,sans-serif;fill:#243b53}.c{fill:#fff;stroke:#9bb7d4;stroke-width:2}.l{stroke:#7298bd;stroke-width:3;fill:none}.m{fill:#eaf3fb;stroke:#477da8;stroke-width:3}</style></defs>
+  <rect width="720" height="650" rx="22" fill="#fff"/>
+  <path class="l" d="M360 325 170 105M360 325 550 105M360 325 120 325M360 325 600 325M360 325 170 545M360 325 550 545"/>
+  <g class="c"><rect x="50" y="55" width="240" height="88" rx="16"/><rect x="430" y="55" width="240" height="88" rx="16"/><rect x="20" y="281" width="235" height="88" rx="16"/><rect x="465" y="281" width="235" height="88" rx="16"/><rect x="50" y="501" width="240" height="88" rx="16"/><rect x="430" y="501" width="240" height="88" rx="16"/></g>
+  <rect class="m" x="260" y="270" width="200" height="110" rx="24"/>
+  <text class="t" x="360" y="316" text-anchor="middle">Gemini</text><text class="t" x="360" y="343" text-anchor="middle">Notebook</text>
+  <text class="s" x="170" y="91" text-anchor="middle">Fuentes</text><text class="s" x="170" y="116" text-anchor="middle">documentales</text>
+  <text class="s" x="550" y="91" text-anchor="middle">Conversación</text><text class="s" x="550" y="116" text-anchor="middle">con citas</text>
+  <text class="s" x="137" y="316" text-anchor="middle">Investigación</text><text class="s" x="137" y="341" text-anchor="middle">y contraste</text>
+  <text class="s" x="582" y="316" text-anchor="middle">Mapas</text><text class="s" x="582" y="341" text-anchor="middle">conceptuales</text>
+  <text class="s" x="170" y="536" text-anchor="middle">Recursos</text><text class="s" x="170" y="561" text-anchor="middle">multimedia</text>
+  <text class="s" x="550" y="536" text-anchor="middle">Evaluación</text><text class="s" x="550" y="561" text-anchor="middle">y estudio</text>
+</svg>

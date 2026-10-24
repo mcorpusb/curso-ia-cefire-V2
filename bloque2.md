@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Bloque 2: Investigar, comprender y trabajar con fuentes"
+title: "Módulo 2 · Prompting avanzado y gestión documental"
 nav_order: 5
 has_children: true
 release_at: 2026-04-29T17:30:00+02:00
 ---
 
-# Bloque 2 · Investigar, comprender y trabajar con fuentes
+# Módulo 2 · Prompting avanzado y gestión documental
 {: .fs-8 }
 
 Aprende a trabajar con documentos, normativa y currículo real como base de las respuestas de la IA: carga fuentes, contrasta, verifica y transforma en materiales educativos fundamentados.
@@ -23,6 +23,7 @@ Aprende a trabajar con documentos, normativa y currículo real como base de las 
 - [📖 2.1 · El "Prompt Pedagógico": anatomía en profundidad](#21--el-prompt-pedagógico-anatomía-en-profundidad)
 - [📖 2.2 · Técnicas avanzadas de prompting](#22--técnicas-avanzadas-de-prompting)
 - [📖 2.3 · Gemini Notebook: trabaja con el currículo oficial como fuente](#23--notebooklm-entrena-a-la-ia-con-el-currículo-oficial)
+- [📚 Biblioteca normativa docente de la Comunitat Valenciana](#biblioteca-normativa-docente)
 - [📖 2.4 · Copilot vs. Gemini Notebook: ¿cuál uso para qué?](#24--copilot-vs-notebooklm-cuál-uso-para-qué)
 - [📖 2.5 · Comparativa ampliada: asistentes y trabajo con fuentes](#25--comparativa-ampliada-respuestas-curriculares-en-cinco-herramientas)
 - [📖 2.6 · Construye tu biblioteca de prompts reutilizables](#26--construye-tu-biblioteca-de-prompts-reutilizables)
@@ -779,6 +780,8 @@ Cuando utilices material de terceros, identifica siempre autor, fuente, licencia
 
 Consulta la [guía de Gemini Notebook para docentes]({{ '/bloque2-notebooklm.html' | relative_url }}) para conocer la integración y el flujo de trabajo.
 
+Sigue también el [manual visual paso a paso con el caso de Seguridad Informática de 2.º de SMR]({{ '/bloque2-notebooklm.html#manual-visual' | relative_url }}): creación del cuaderno, incorporación de normativa, consultas con citas, verificación y recursos de Studio.
+
 ### ¿Por qué es clave para docentes?
 
 | Problema habitual con IA genérica | Solución con Gemini Notebook |
@@ -792,19 +795,15 @@ Consulta la [guía de Gemini Notebook para docentes]({{ '/bloque2-notebooklm.htm
 
 - Accede a [Gemini Notebook — acceso oficial](https://notebooklm.google.com) con una cuenta de Google.
 - Crea un **nuevo notebook** y ponle un nombre descriptivo: *"Currículo LOMLOE – Primaria CV"*.
-- Sube las **fuentes**. El límite de fuentes depende del plan. Fuentes recomendadas:
+- Sube las **fuentes**. El límite de fuentes depende del plan. Selecciónalas por etapa y descarga los documentos oficiales desde la biblioteca:
 
-| Documento | Dónde encontrarlo |
-|:----------|:-------------------|
-| Decreto 106/2022 (currículo Primaria CV) | [DOGV](https://dogv.gva.es/) |
-| Decreto 107/2022 (currículo ESO-Bachillerato CV) | [DOGV](https://dogv.gva.es/) |
-| Decreto 108/2022 (currículo FP CV) | [DOGV](https://dogv.gva.es/) |
-| LOMLOE (Ley Orgánica 3/2020) | [BOE](https://www.boe.es/) |
-| Marco DUA (guía CAST) | [cast.org](https://www.cast.org/) |
-| Instrucciones de inicio de curso para Infantil y Primaria | [Instrucciones de inicio de curso para Infantil y Primaria](https://ceice.gva.es/es/web/ordenacion-academica/primaria/instrucciones-de-funcionamiento?utm_source=chatgpt.com) |
-| Instrucciones de inicio de curso para Secundaria y Bachillerato | [Instrucciones de inicio de curso para Secundaria y Bachillerato](https://ceice.gva.es/es/web/ordenacion-academica/secundaria/normativa/instrucciones-de-inicio-de-curso) |
-| Instrucciones de inicio de curso para FP | [Instrucciones de inicio de curso para FP](https://ceice.gva.es/va/web/formacion-profesional/normativa-sobre-ordenacion-y-organizacion-academica-de-los-ciclos-formativos) |
+<div class="normativa-cta" id="biblioteca-normativa-docente" markdown="1">
 
+### [Abrir la Biblioteca normativa docente de la Comunitat Valenciana · Curso 2026-2027 →]({{ '/bloque2-biblioteca-normativa.html' | relative_url }})
+
+Seis itinerarios: **Infantil, Primaria, ESO, Bachillerato, Formación Profesional y Escuelas Oficiales de Idiomas**, con tablas oficiales, consultas de ejemplo y un proceso de verificación en seis pasos.
+
+</div>
 
 - Espera a que Gemini Notebook **procese** los documentos; el tiempo depende de las fuentes.
 - Ahora ya puedes hacer preguntas y podrás pedir respuestas **fundamentadas en las fuentes seleccionadas**, comprobando sus citas.

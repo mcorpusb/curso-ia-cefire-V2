@@ -185,7 +185,7 @@ Cada bloque sigue el mismo ciclo: ver cómo se hace → hacerlo tú → comparar
       <td>Martes 20/10/2026 · 17:30-19:30</td>
     </tr>
     <tr>
-      <td>Módulo 2 · Investigar, comprender y trabajar con fuentes</td>
+      <td>Módulo 2 · Prompting avanzado y gestión documental</td>
       <td>27/10/2026 al 02/11/2026</td>
       <td>02/11/2026</td>
       <td style="text-align:right;">3 h</td>
@@ -263,7 +263,7 @@ Cada semana funciona igual: sesión síncrona el martes -> trabajo autónomo dur
 
 **Contenidos clave:** contexto y calidad de peticiones, iteración, documentación, comunicación y organización.
 
-### Bloque 2 · Investigar, comprender y trabajar con fuentes
+### Módulo 2 · Prompting avanzado y gestión documental
 
 **Objetivo:** Trabajar con documentos y fuentes para obtener respuestas verificables y fundamentadas.
 
