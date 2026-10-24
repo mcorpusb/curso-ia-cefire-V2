@@ -214,12 +214,12 @@ Nombre sugerido del cuaderno: **EOI · Currículo y evaluación B1 de inglés**.
   <span class="notebook-figure__caption"><strong>Del boletín oficial al cuaderno verificado.</strong> Abre la imagen completa para ampliarla.</span>
 </a>
 
-1. **Selecciona tu etapa** y concreta ciclo, nivel, materia, módulo o idioma.
-2. **Localiza la legislación aplicable**: marco estatal, currículo autonómico, modificaciones e instrucciones anuales.
-3. **Descarga los PDF oficiales.** Guarda también la referencia, fecha y URL de procedencia.
-4. **Crea un cuaderno** con un nombre que identifique etapa, especialidad, territorio y curso.
-5. **Formula preguntas con citas** y limita la respuesta a las fuentes seleccionadas.
-6. **Comprueba las respuestas** abriendo cada cita y leyendo su contexto en el documento original.
+- **Selección:** elige tu etapa y concreta ciclo, nivel, materia, módulo o idioma.
+- **Localización:** identifica la legislación aplicable: marco estatal, currículo autonómico, modificaciones e instrucciones anuales.
+- **Descarga:** obtén los PDF oficiales y guarda también la referencia, fecha y URL de procedencia.
+- **Configuración:** crea un cuaderno con un nombre que identifique etapa, especialidad, territorio y curso.
+- **Consulta:** formula preguntas con citas y limita la respuesta a las fuentes seleccionadas.
+- **Comprobación:** abre cada cita y lee su contexto en el documento original.
 
 Descargar los documentos oficiales permite identificar qué texto se ha incorporado, conservar su paginación y verificarlo aunque cambie una página índice. Pegar una URL que contiene enlaces **no garantiza** que Gemini Notebook importe automáticamente los PDF enlazados.
 

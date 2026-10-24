@@ -69,18 +69,18 @@ Google explica el [cambio de nombre y la integración](https://blog.google/innov
 
 ### Índice del tutorial
 
-1. [Antes de empezar](#antes-de-empezar-navegador-cuenta-y-fuentes)
-2. [Crear el cuaderno](#crear-el-cuaderno)
-3. [Conocer la interfaz](#conocer-la-interfaz)
-4. [Añadir fuentes](#añadir-fuentes)
-5. [Buscar legislación fiable](#buscar-legislación-fiable)
-6. [Caso práctico: Seguridad Informática](#caso-practico-seguridad-informatica-smr)
-7. [Consultar y verificar](#consultar-y-verificar-las-fuentes)
-8. [Crear un mapa mental](#crear-un-mapa-mental)
-9. [Crear una infografía](#crear-una-infografía)
-10. [Crear un resumen de audio](#crear-un-resumen-de-audio)
-11. [Otras posibilidades de Studio](#otras-posibilidades-de-gemini-notebook)
-12. [Buenas prácticas y privacidad](#buenas-prácticas-y-privacidad)
+- [Antes de empezar](#antes-de-empezar-navegador-cuenta-y-fuentes)
+- [Crear el cuaderno](#crear-el-cuaderno)
+- [Conocer la interfaz](#conocer-la-interfaz)
+- [Añadir fuentes](#añadir-fuentes)
+- [Buscar legislación fiable](#buscar-legislación-fiable)
+- [Caso práctico: Seguridad Informática](#caso-practico-seguridad-informatica-smr)
+- [Consultar y verificar](#consultar-y-verificar-las-fuentes)
+- [Crear un mapa mental](#crear-un-mapa-mental)
+- [Crear una infografía](#crear-una-infografía)
+- [Crear un resumen de audio](#crear-un-resumen-de-audio)
+- [Otras posibilidades de Studio](#otras-posibilidades-de-gemini-notebook)
+- [Buenas prácticas y privacidad](#buenas-prácticas-y-privacidad)
 
 ### Antes de empezar: navegador, cuenta y fuentes
 
@@ -102,21 +102,21 @@ Para seguir las capturas recomendamos un **Google Chrome actualizado**, aunque n
   <section>
     <span class="tutorial-label">Opción A</span>
     <h4>Desde Gemini Notebook</h4>
-    <ol>
+    <ul>
       <li>Abre <a href="https://notebooklm.google.com/">Gemini Notebook</a> e inicia sesión.</li>
       <li>Pulsa <strong>Nuevo cuaderno</strong>.</li>
       <li>Abre el espacio de trabajo y asigna un título descriptivo.</li>
-    </ol>
+    </ul>
     <p class="tutorial-note">La captura preparada para este paso no se publica porque contiene un avatar identificable.</p>
   </section>
   <section>
     <span class="tutorial-label">Opción B</span>
     <h4>Desde Google Gemini</h4>
-    <ol>
+    <ul>
       <li>Abre <a href="https://gemini.google.com/">Google Gemini</a>.</li>
       <li>Localiza <strong>Cuadernos</strong> y selecciona <strong>Nuevo cuaderno</strong>.</li>
       <li>Si aparece la pantalla de conexión, revisa el aviso y pulsa <strong>Aceptar y conectar cuadernos</strong>.</li>
-    </ol>
+    </ul>
   </section>
 </div>
 
@@ -159,9 +159,9 @@ Pulsa **Añadir fuentes**. Según la cuenta, podrás subir archivos, incorporar 
   <figcaption><strong>Índice de descubrimiento.</strong> Localiza la norma aquí y abre después la publicación oficial.</figcaption>
 </figure>
 
-<ol class="tutorial-flow" aria-label="Flujo para incorporar legislación">
+<ul class="tutorial-flow" aria-label="Flujo para incorporar legislación">
   <li><span>1</span>Localizar</li><li><span>2</span>Comprobar vigencia</li><li><span>3</span>Abrir fuente oficial</li><li><span>4</span>Descargar o enlazar</li><li><span>5</span>Añadir al cuaderno</li><li><span>6</span>Verificar</li>
-</ol>
+</ul>
 
 ### Caso práctico: un cuaderno normativo para Seguridad Informática de 2.º de SMR
 {: id="caso-practico-seguridad-informatica-smr" }
@@ -313,11 +313,11 @@ No se muestra un reproductor porque `15-resumen-audio-generado.png` no está dis
 
 ## 3. Cómo crear un cuaderno
 
-1. Abre [Gemini Notebook](https://notebook.google.com) con una cuenta de Google.
-2. Crea un cuaderno y ponle un nombre que indique su propósito, por ejemplo, *Ecosistemas · 5.º de Primaria*.
-3. Define una pregunta de trabajo antes de añadir documentos.
-4. Incorpora pocas fuentes, pertinentes y comprensibles; después amplía si es necesario.
-5. Comprueba las opciones que aparecen en **Studio** o **Informes**. No todas las cuentas muestran las mismas.
+- **Acceso:** abre [Gemini Notebook](https://notebook.google.com) con una cuenta de Google.
+- **Nombre:** crea un cuaderno e indica su propósito, por ejemplo, *Ecosistemas · 5.º de Primaria*.
+- **Pregunta:** define una pregunta de trabajo antes de añadir documentos.
+- **Fuentes:** incorpora pocas fuentes, pertinentes y comprensibles; después amplía si es necesario.
+- **Herramientas:** comprueba las opciones que aparecen en **Studio** o **Informes**. No todas las cuentas muestran las mismas.
 
 <figure class="notebook-figure">
   <img src="{{ '/assets/img/notebooklm/interfaz-ilustrativa.svg' | relative_url }}" alt="Esquema ilustrativo con las áreas de fuentes, conversación y herramientas de generación de Gemini Notebook." loading="lazy">
@@ -356,14 +356,14 @@ Si utilizas descubrimiento de fuentes, revisa los nuevos documentos antes de inc
 
 <div class="notebook-visual" role="group" aria-labelledby="flujo-docente-titulo">
   <h3 id="flujo-docente-titulo" class="notebook-visual__title">Flujo docente con Gemini Notebook</h3>
-  <ol class="notebook-flow">
+  <ul class="notebook-flow">
     <li><span>1</span>Selecciona fuentes</li>
     <li><span>2</span>Crea el cuaderno</li>
     <li><span>3</span>Formula preguntas</li>
     <li><span>4</span>Revisa las citas</li>
     <li><span>5</span>Genera recursos</li>
     <li><span>6</span>Verifica antes de usar</li>
-  </ol>
+  </ul>
 </div>
 
 <figure class="notebook-figure">
@@ -375,12 +375,12 @@ Si utilizas descubrimiento de fuentes, revisa los nuevos documentos antes de inc
 
 Gemini Notebook puede preparar una presentación basada en las fuentes. En el flujo de cocreación anunciado por Google en octubre de 2026 puedes, si está disponible:
 
-1. Pedir la presentación desde el chat e indicar audiencia, propósito y duración.
-2. Revisar los temas y la estructura sugerida.
-3. Activar la opción de revisión y abrir las **notas del esquema**.
-4. Solicitar cambios de orden, contenido, formato o estilo visual.
-5. Confirmar y generar el recurso final.
-6. Revisar citas, conceptos, imágenes, accesibilidad, lenguaje y adecuación a la edad.
+- **Petición:** solicita la presentación desde el chat e indica audiencia, propósito y duración.
+- **Estructura:** revisa los temas y la organización sugerida.
+- **Revisión previa:** activa esta opción, si aparece, y abre las **notas del esquema**.
+- **Ajustes:** solicita cambios de orden, contenido, formato o estilo visual.
+- **Generación:** confirma y crea el recurso final.
+- **Comprobación:** revisa citas, conceptos, imágenes, accesibilidad, lenguaje y adecuación a la edad.
 
 Si no aparece la revisión previa, genera un esquema en el chat, corrígelo y utilízalo como guion. El despliegue de la cocreación comenzó en octubre de 2026 y puede no estar disponible todavía en todas las cuentas.
 
@@ -395,12 +395,12 @@ Los **Video Overviews** crean explicaciones visuales a partir del cuaderno. Las 
 
 Pasos prácticos:
 
-1. Selecciona solo las fuentes relevantes.
-2. Define un concepto, destinatario y objetivo observables.
-3. Pide el vídeo y, si aparece la revisión, abre las **notas de producción**.
-4. Modifica escenas, orden, énfasis, estilo y formato.
-5. Genera el vídeo y compáralo con las fuentes.
-6. Comprueba precisión, legibilidad, ritmo, pronunciación y accesibilidad antes de compartirlo.
+- **Fuentes:** selecciona solo las relevantes.
+- **Propósito:** define un concepto, destinatario y objetivo observables.
+- **Petición:** solicita el vídeo y, si aparece la revisión, abre las **notas de producción**.
+- **Ajustes:** modifica escenas, orden, énfasis, estilo y formato.
+- **Contraste:** genera el vídeo y compáralo con las fuentes.
+- **Comprobación:** revisa precisión, legibilidad, ritmo, pronunciación y accesibilidad antes de compartirlo.
 
 > **Ejemplo docente:** crear un vídeo breve sobre el ciclo del agua desde un texto científico público y pedir al alumnado que detecte qué fase necesita una explicación adicional.
 
@@ -485,14 +485,14 @@ Google distingue las condiciones de las cuentas personales y las de Workspace o 
 
 **Objetivo:** aprender a obtener y comparar diferentes recursos educativos a partir de documentos públicos o materiales autorizados.
 
-1. Crea un cuaderno con fuentes seleccionadas.
-2. Formula preguntas y comprueba las citas.
-3. Identifica las funciones de generación disponibles en tu cuenta.
-4. Elige dos recursos entre presentación, vídeo, cuestionario, tarjetas o guía interactiva.
-5. Genera los dos recursos.
-6. Compara su adecuación al objetivo didáctico.
-7. Introduce mejoras y vuelve a revisar el resultado.
-8. Reflexiona sobre su utilidad educativa y sus límites.
+- **Cuaderno:** créalo con fuentes seleccionadas.
+- **Consulta:** formula preguntas y comprueba las citas.
+- **Disponibilidad:** identifica las funciones de generación de tu cuenta.
+- **Selección:** elige dos recursos entre presentación, vídeo, cuestionario, tarjetas o guía interactiva.
+- **Generación:** crea los dos recursos.
+- **Comparación:** valora su adecuación al objetivo didáctico.
+- **Mejora:** introduce cambios y vuelve a revisar el resultado.
+- **Reflexión:** analiza su utilidad educativa y sus límites.
 
 Puedes aplicar uno de los ejemplos de la tabla anterior. Si una función no aparece, sustitúyela por otra disponible o diseña su esquema en el chat. **No es obligatorio utilizar funciones ni planes de pago.** Esta práctica es opcional y no modifica la actividad oficial de entrega ni sus criterios de evaluación.
 

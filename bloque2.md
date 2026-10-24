@@ -851,14 +851,16 @@ accesible.
 ## 2.4 · Copilot vs. Gemini Notebook: ¿cuál uso para qué?
 {: id="24--copilot-vs-notebooklm-cuál-uso-para-qué" }
 
-| Escenario | Copilot (GVA) | Gemini Notebook | Recomendación |
-|:----------|:-------------:|:----------:|:--------------|
-| Redactar una programación didáctica basada en el currículo | ⭐⭐⭐ (puede alucinar datos) | ⭐⭐⭐⭐⭐ (cita del documento) | **Gemini Notebook** con el decreto subido |
-| Escribir un correo formal a las familias | ⭐⭐⭐⭐⭐ | ⭐⭐ (no es su propósito) | **Copilot** |
-| Verificar si un criterio de evaluación existe en el currículo | ⭐⭐ (riesgo de invención) | ⭐⭐⭐⭐⭐ (referencia exacta) | **Gemini Notebook** |
-| Generar una actividad creativa a partir de una idea | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | **Copilot** (o Gemini) |
-| Resumir un documento extenso (PEC, memoria anual) | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ (con fuentes) | **Gemini Notebook** (con documentos anonimizados) |
-| Crear un podcast/resumen de audio de normativa | ❌ | ⭐⭐⭐⭐⭐ (Audio Overview) | **Gemini Notebook** |
+| Necesidad docente | Copilot | Gemini Notebook | Criterio de elección |
+|---|---|---|---|
+| Redactar una programación o propuesta basada en normativa | Ayuda a redactar y reorganizar; las fuentes disponibles dependen de la modalidad y la cuenta. | Permite trabajar con un cuaderno de fuentes seleccionadas y consultar citas. | Usa el entorno autorizado que permita contrastar cada afirmación con el texto oficial. |
+| Preparar un correo o comunicación formal | Adecuado para redactar y revisar el tono, especialmente en el Copilot habilitado por la GVA. | Puede apoyarse en fuentes, aunque no es necesario crear un cuaderno para una comunicación ordinaria. | Prioriza el entorno institucional autorizado y no incluyas datos personales innecesarios. |
+| Verificar criterios curriculares | Puede ayudar si dispone del documento, pero exige contrastar la respuesta con la norma. | Facilita limitar la consulta a fuentes seleccionadas y abrir citas; las citas también deben comprobarse. | Elige la opción que permita acceder al fragmento oficial y verificarlo manualmente. |
+| Generar ideas creativas para actividades | Útil para explorar alternativas, formatos y redacciones. | Puede generar propuestas condicionadas por las fuentes del cuaderno. | Decide si necesitas creatividad abierta o ideas delimitadas por documentación concreta. |
+| Resumir documentación extensa | Puede resumir archivos cuando la modalidad, la cuenta y los permisos lo permitan. | Organiza consultas y resúmenes a partir de las fuentes incorporadas. | Comprueba autorización, privacidad, límites de carga y fidelidad del resumen. |
+| Crear un resumen de audio a partir de fuentes | La disponibilidad de funciones de audio depende de la modalidad y del despliegue. | Puede ofrecer resúmenes de audio cuando la función esté disponible en la cuenta. | Comprueba disponibilidad, permisos, calidad del audio y correspondencia con las fuentes. |
+
+> **Criterio general:** la herramienta más adecuada depende del objetivo, de las fuentes disponibles y del entorno autorizado. Ninguna respuesta generada por IA sustituye la comprobación docente de la información.
 
 ---
 
@@ -1250,25 +1252,65 @@ RESTRICCIONES:
 
 ---
 
-### Actividad 2.2 — Gemini Notebook como verificador curricular *(individual)*
+### Actividad 2.2 — Verifica una propuesta docente con Gemini Notebook *(individual)*
 {: id="actividad-22--notebooklm-como-verificador-curricular-individual" }
 
-- Crea un notebook en Gemini Notebook y sube el decreto curricular de tu etapa (Decreto 106, 107 o 108/2022).
-- Copia la Situación de Aprendizaje generada en la Actividad 2.1.
-- Pega en Gemini Notebook el siguiente prompt:
+**Objetivo:** utilizar Gemini Notebook para contrastar una propuesta educativa con la normativa curricular correspondiente a tu etapa, materia, módulo o especialidad.
+
+- **Define el contexto:** indica etapa; curso, nivel o ciclo; materia, área, ámbito, módulo profesional o especialidad; comunidad autónoma y objetivo de la propuesta. No incluyas datos personales reales.
+- **Selecciona la normativa:** localiza en la [Biblioteca normativa docente de la Comunitat Valenciana]({{ '/bloque2-biblioteca-normativa.html' | relative_url }}) el marco estatal, el currículo autonómico y, cuando corresponda, sus modificaciones, disposiciones transitorias e instrucciones anuales. Confirma siempre las referencias en el texto oficial.
+- **Elige la propuesta:** puedes revisar una actividad, una situación de aprendizaje, una secuencia didáctica, una práctica de Formación Profesional, una propuesta de evaluación u otra actuación adecuada a tu enseñanza. Puedes reutilizar la propuesta de la Actividad 2.1 sin convertirla obligatoriamente en una situación de aprendizaje.
+
+| Enseñanza | Elementos que puedes comprobar, según la normativa aplicable |
+|---|---|
+| Infantil | Objetivos, competencias, criterios de evaluación y saberes. |
+| Primaria, ESO y Bachillerato | Competencias específicas, criterios de evaluación, saberes básicos y otros elementos aplicables. |
+| Formación Profesional | Resultados de aprendizaje, criterios de evaluación, competencias y contenidos del módulo profesional. |
+| Escuelas Oficiales de Idiomas | Objetivos, competencias, actividades de lengua y criterios de evaluación del currículo y nivel. |
+
+Estas categorías no son equivalencias exactas entre enseñanzas: utiliza únicamente los elementos y la terminología que figuren en las fuentes aplicables a tu caso.
+
+- **Prepara el cuaderno:** incorpora las fuentes oficiales pertinentes y selecciona solo las necesarias para la consulta.
+- **Realiza la comprobación:** copia y adapta este único prompt:
 
 ```text
-Revisa la siguiente Situación de Aprendizaje y verifica:
-1. ¿Las competencias específicas mencionadas existen en el decreto?
-2. ¿Los saberes básicos son correctos y del curso indicado?
-3. ¿Los criterios de evaluación están formulados fielmente?
-Indica con [✅ CORRECTO] o [❌ ERROR + corrección] cada elemento.
+Actúa como asistente de revisión curricular.
 
-[PEGAR AQUÍ LA SA GENERADA]
+Voy a proporcionarte una propuesta educativa y las fuentes oficiales
+correspondientes a mi enseñanza.
+
+Contexto:
+- Etapa: [INDICAR].
+- Curso o nivel: [INDICAR].
+- Materia, área, ámbito, módulo profesional o especialidad: [INDICAR].
+- Comunidad autónoma: [INDICAR].
+
+Utiliza exclusivamente las fuentes normativas seleccionadas.
+
+Analiza los elementos curriculares que correspondan a esta enseñanza.
+Comprueba si los objetivos, resultados de aprendizaje, competencias,
+criterios de evaluación o saberes utilizados en la propuesta se ajustan
+a las fuentes oficiales, cuando dichos elementos sean aplicables.
+
+Para cada comprobación:
+- Identifica la afirmación analizada.
+- Indica si está respaldada, es incorrecta o no puede verificarse.
+- Señala la fuente y el fragmento pertinente.
+- Propón una corrección cuando sea necesaria.
+- Distingue entre contenido normativo y propuesta didáctica.
+
+No inventes referencias legales.
+No inventes criterios de evaluación.
+No atribuyas a una norma información que no contiene.
+Si falta documentación, indícalo claramente.
+
+Propuesta educativa:
+
+[PEGAR AQUÍ UNA PROPUESTA SIN DATOS PERSONALES]
 ```
 
-- Corrige la SA con la información de Gemini Notebook.
-- **Entregable:** documento con tres partes: versión inicial de la situación de aprendizaje, comprobaciones y correcciones señaladas por Gemini Notebook, y versión final revisada.
+- **Revisa críticamente:** abre las citas, lee el contexto original y corrige solo aquello que puedas justificar. Una respuesta generada por IA no constituye un veredicto definitivo.
+- **Entregable:** un documento breve con la propuesta inicial, las fuentes normativas utilizadas, las comprobaciones realizadas, las correcciones justificadas y la propuesta final revisada.
 
 
 * * *
