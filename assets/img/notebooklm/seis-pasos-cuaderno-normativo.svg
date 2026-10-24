@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Cómo construir un cuaderno normativo en seis pasos</title>
+  <desc id="desc">Seis pasos conectados: seleccionar etapa, localizar legislación, descargar documentos oficiales, crear cuaderno, formular preguntas con citas y comprobar las respuestas.</desc>
+  <rect width="1200" height="650" fill="#f7f9fc"/>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#213547}.h{font-size:30px;font-weight:700}.n{font-size:24px;font-weight:700;fill:#fff}.t{font-size:20px;font-weight:700}.s{font-size:16px}.card{fill:#fff;stroke:#a8b9d3;stroke-width:2}.circle{fill:#4a67a1}.arrow{stroke:#6f86ad;stroke-width:4;fill:none;marker-end:url(#m)}
+  </style>
+  <defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#6f86ad"/></marker></defs>
+  <text x="600" y="55" text-anchor="middle" class="h">Cómo construir tu cuaderno normativo</text>
+  <path class="arrow" d="M360 175H430M770 175H840M990 250V365M840 440H770M430 440H360"/>
+  <g>
+    <rect class="card" x="40" y="105" width="320" height="140" rx="18"/><circle class="circle" cx="90" cy="150" r="27"/><text x="90" y="159" text-anchor="middle" class="n">1</text><text x="130" y="145" class="t">Selecciona tu etapa</text><text x="130" y="178" class="s">Nivel, materia, módulo</text><text x="130" y="202" class="s">o idioma.</text>
+    <rect class="card" x="440" y="105" width="320" height="140" rx="18"/><circle class="circle" cx="490" cy="150" r="27"/><text x="490" y="159" text-anchor="middle" class="n">2</text><text x="530" y="145" class="t">Localiza las normas</text><text x="530" y="178" class="s">Estado, Comunitat</text><text x="530" y="202" class="s">e instrucciones anuales.</text>
+    <rect class="card" x="840" y="105" width="320" height="140" rx="18"/><circle class="circle" cx="890" cy="150" r="27"/><text x="890" y="159" text-anchor="middle" class="n">3</text><text x="930" y="145" class="t">Descarga los PDF</text><text x="930" y="178" class="s">Conserva referencia, fecha</text><text x="930" y="202" class="s">y URL oficial.</text>
+    <rect class="card" x="840" y="370" width="320" height="140" rx="18"/><circle class="circle" cx="890" cy="415" r="27"/><text x="890" y="424" text-anchor="middle" class="n">4</text><text x="930" y="410" class="t">Crea el cuaderno</text><text x="930" y="443" class="s">Nómbralo por etapa,</text><text x="930" y="467" class="s">especialidad y curso.</text>
+    <rect class="card" x="440" y="370" width="320" height="140" rx="18"/><circle class="circle" cx="490" cy="415" r="27"/><text x="490" y="424" text-anchor="middle" class="n">5</text><text x="530" y="410" class="t">Pregunta con citas</text><text x="530" y="443" class="s">Limita la respuesta a</text><text x="530" y="467" class="s">las fuentes seleccionadas.</text>
+    <rect class="card" x="40" y="370" width="320" height="140" rx="18"/><circle class="circle" cx="90" cy="415" r="27"/><text x="90" y="424" text-anchor="middle" class="n">6</text><text x="130" y="410" class="t">Comprueba</text><text x="130" y="443" class="s">Abre cada cita y lee</text><text x="130" y="467" class="s">el documento original.</text>
+  </g>
+  <rect x="190" y="555" width="820" height="54" rx="12" fill="#eaf5ed" stroke="#4b8b5b" stroke-width="2"/>
+  <text x="600" y="588" text-anchor="middle" class="s">Resultado: una consulta fundamentada, trazable y pendiente de revisión profesional docente.</text>
+</svg>

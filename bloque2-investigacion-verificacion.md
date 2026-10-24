@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Investigación y verificación con IA"
-parent: "Bloque 2: Investigar, comprender y trabajar con fuentes"
+parent: "Módulo 2 · Prompting avanzado y gestión documental"
 nav_order: 2
 ---
 
