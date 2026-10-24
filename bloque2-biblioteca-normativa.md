@@ -48,7 +48,7 @@ El **primer ciclo (0-3 años)** y el **segundo ciclo (3-6 años)** comparten el 
 
 <details class="normativa-desplegable" open>
 <summary>Fuentes de Educación Infantil</summary>
-<div class="table-wrapper normativa-tabla" markdown="1">
+<div class="table-wrapper normativa-tabla" markdown="1" tabindex="0" role="region" aria-label="Fuentes normativas de Educación Infantil">
 
 | Documento normativo | Ámbito | Utilidad docente | Fuente oficial | Incorporar al cuaderno |
 |---|---|---|---|---|
@@ -73,7 +73,7 @@ Nombre sugerido del cuaderno: **Currículo de Educación Primaria CV 2026-2027**
 
 <details class="normativa-desplegable">
 <summary>Fuentes de Educación Primaria</summary>
-<div class="table-wrapper normativa-tabla" markdown="1">
+<div class="table-wrapper normativa-tabla" markdown="1" tabindex="0" role="region" aria-label="Fuentes normativas de Educación Primaria">
 
 | Documento normativo | Ámbito | Utilidad docente | Fuente oficial | Incorporar al cuaderno |
 |---|---|---|---|---|
@@ -98,7 +98,7 @@ Nombre sugerido del cuaderno: **ESO · Currículo y programación de Geografía 
 
 <details class="normativa-desplegable">
 <summary>Fuentes de Educación Secundaria Obligatoria</summary>
-<div class="table-wrapper normativa-tabla" markdown="1">
+<div class="table-wrapper normativa-tabla" markdown="1" tabindex="0" role="region" aria-label="Fuentes normativas de Educación Secundaria Obligatoria">
 
 | Documento normativo | Ámbito | Utilidad docente | Fuente oficial | Incorporar al cuaderno |
 |---|---|---|---|---|
@@ -123,7 +123,7 @@ El **Decreto 108/2022 corresponde a Bachillerato**, no a la normativa general de
 
 <details class="normativa-desplegable">
 <summary>Fuentes de Bachillerato</summary>
-<div class="table-wrapper normativa-tabla" markdown="1">
+<div class="table-wrapper normativa-tabla" markdown="1" tabindex="0" role="region" aria-label="Fuentes normativas de Bachillerato">
 
 | Documento normativo | Ámbito | Utilidad docente | Fuente oficial | Incorporar al cuaderno |
 |---|---|---|---|---|
@@ -148,7 +148,7 @@ En FP no existe un PDF curricular universal. La selección cambia según **Grado
 
 <details class="normativa-desplegable">
 <summary>Marco común y documentos específicos de Formación Profesional</summary>
-<div class="table-wrapper normativa-tabla" markdown="1">
+<div class="table-wrapper normativa-tabla" markdown="1" tabindex="0" role="region" aria-label="Fuentes normativas de Formación Profesional">
 
 | Documento normativo | Ámbito | Utilidad docente | Fuente oficial | Incorporar al cuaderno |
 |---|---|---|---|---|
@@ -189,7 +189,7 @@ Nombre sugerido del cuaderno: **EOI · Currículo y evaluación B1 de inglés**.
 
 <details class="normativa-desplegable">
 <summary>Fuentes de Escuelas Oficiales de Idiomas</summary>
-<div class="table-wrapper normativa-tabla" markdown="1">
+<div class="table-wrapper normativa-tabla" markdown="1" tabindex="0" role="region" aria-label="Fuentes normativas de Escuelas Oficiales de Idiomas">
 
 | Documento normativo | Ámbito | Utilidad docente | Fuente oficial | Incorporar al cuaderno |
 |---|---|---|---|---|

@@ -1259,6 +1259,13 @@
   border-color: #718db8;
 }
 
+.normativa-etapas a:focus-visible,
+.normativa-cta a:focus-visible,
+.normativa-desplegable summary:focus-visible {
+  outline: 3px solid #4a306a;
+  outline-offset: 3px;
+}
+
 .normativa-etapas a > span { grid-row: 1 / 3; font-size: 1.55rem; }
 .normativa-etapas strong { line-height: 1.25; }
 .normativa-etapas small { color: #58677a; line-height: 1.3; }
@@ -1294,6 +1301,15 @@
 
 .normativa-desplegable[open] summary { border-bottom: 1px solid #ccd7e5; }
 .normativa-desplegable .normativa-tabla { margin: 0; padding: 0.75rem; }
+.normativa-tabla {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.normativa-tabla:focus-visible {
+  outline: 3px solid #4a306a;
+  outline-offset: 2px;
+}
 .normativa-tabla table { min-width: 820px; font-size: 0.88rem; }
 .normativa-tabla th { background: #eaf2ff; color: #243d55; }
 
@@ -1301,6 +1317,14 @@
   display: block;
   color: inherit;
   text-decoration: none;
+  cursor: zoom-in;
+}
+
+.notebook-figure--link:focus-visible,
+.tutorial-shot a:focus-visible {
+  outline: 3px solid #4a306a;
+  outline-offset: 4px;
+  border-radius: 7px;
 }
 
 .notebook-figure__caption {
@@ -1354,7 +1378,7 @@
 }
 
 .tutorial-options h4 { margin: 0.4rem 0 0.7rem; }
-.tutorial-options ol { margin-bottom: 0.6rem; }
+.tutorial-options ul { margin-bottom: 0.6rem; }
 
 .tutorial-label {
   display: inline-block;
@@ -1381,7 +1405,10 @@
   border-radius: 10px;
 }
 
-.tutorial-shot a { display: block; }
+.tutorial-shot a {
+  display: block;
+  cursor: zoom-in;
+}
 
 .tutorial-shot img {
   display: block;
@@ -1444,6 +1471,10 @@
 @media (max-width: 800px) {
   .tutorial-catalog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .main-content .tutorial-flow { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 900px) {
+  .tutorial-pair { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {

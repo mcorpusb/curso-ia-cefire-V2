@@ -804,7 +804,7 @@ Localiza en la biblioteca el currículo aplicable a tu etapa, crea un cuaderno c
 
 > Identifica los elementos curriculares que fundamentan esta propuesta. Utiliza exclusivamente las fuentes seleccionadas, incorpora citas verificables y separa el contenido normativo de las decisiones didácticas.
 
-El [manual visual]({{ '/bloque2-notebooklm.html#manual-visual' | relative_url }}) muestra cómo realizar el proceso completo. La Actividad 2.2 permite aplicarlo a cualquier enseñanza.
+La Actividad 2.2 permite aplicar este proceso a cualquier enseñanza.
 
 ---
 

@@ -23,9 +23,9 @@ Trabaja con fuentes y transforma tus documentos en materiales educativos fundame
 
 ## Índice
 
-- [Manual visual paso a paso](#manual-visual)
 - [Qué es Gemini Notebook](#1-qué-es-gemini-notebook)
 - [Gemini y Gemini Notebook](#2-gemini-y-gemini-notebook)
+- [Manual visual paso a paso](#manual-visual)
 - [Ampliación: funciones de Studio y aplicaciones](#ampliación-funciones-de-studio-y-aplicaciones-docentes)
 - [Seguridad y privacidad](#11-seguridad-y-privacidad)
 - [Actividad de experimentación](#12-actividad-de-experimentación)
@@ -174,7 +174,7 @@ Las fuentes del ejemplo se incorporaron mediante una combinación de **archivos 
 
 #### Fuentes del cuaderno
 
-<div class="table-wrapper normativa-tabla" markdown="1">
+<div class="table-wrapper normativa-tabla" markdown="1" tabindex="0" role="region" aria-label="Fuentes normativas del caso de Seguridad Informática de segundo de SMR">
 
 | Fuente | Para qué sirve | Enlace oficial | Incorporación |
 |---|---|---|---|
