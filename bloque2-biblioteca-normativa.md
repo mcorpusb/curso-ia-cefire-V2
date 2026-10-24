@@ -264,14 +264,9 @@ Presenta el resultado en una tabla y añade las comprobaciones que debe
 realizar el docente antes de utilizarlo.
 ```
 
-## Interfaz y comprobación de citas
+## Del documento oficial a la consulta verificada
 
-<figure class="notebook-figure">
-  <img src="{{ '/assets/img/notebooklm/interfaz-ilustrativa.svg' | relative_url }}" alt="Esquema ilustrativo que diferencia las áreas de fuentes, conversación y herramientas de generación de Gemini Notebook." loading="lazy">
-  <figcaption><strong>Esquema de orientación; no es una captura real.</strong> Sirve para localizar fuentes, chat y herramientas. La interfaz puede variar según la cuenta y el despliegue.</figcaption>
-</figure>
-
-No se incorpora una captura externa: no se ha verificado una licencia que autorice guardarla y redistribuirla en el repositorio. Para completar una demostración en directo, puede añadirse manualmente una captura propia de un cuaderno creado solo con normativa pública, sin datos personales, respetando la [guía de marca de Google](https://about.google/brand-resource-center/guidance/) y la [ayuda oficial de Gemini Notebook](https://support.google.com/gemininotebook?hl=es).
+Esta biblioteca ayuda a elegir las fuentes; el [manual visual de Gemini Notebook]({{ '/bloque2-notebooklm.html#manual-visual' | relative_url }}) explica cómo incorporarlas, formular consultas y abrir las citas. Para ver el proceso aplicado a FP, consulta el [caso práctico de Seguridad Informática de 2.º SMR]({{ '/bloque2-notebooklm.html#caso-practico-seguridad-informatica-smr' | relative_url }}).
 
 ## Privacidad, seguridad y propiedad intelectual
 

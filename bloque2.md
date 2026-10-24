@@ -768,83 +768,43 @@ No existe un prompt único válido para todo.
 ### ¿Qué es Gemini Notebook?
 {: id="qué-es-notebooklm" }
 
-**Gemini Notebook (anteriormente NotebookLM)** es la experiencia del ecosistema Gemini especializada en fuentes, documentos y cuadernos de conocimiento. **Gemini** es el asistente general de Google para conversar, crear, investigar y trabajar con distintos formatos; **Gemini Notebook** mantiene una experiencia propia para consultar fuentes con citas y producir materiales a partir de ellas.
+**Gemini Notebook (anteriormente NotebookLM)** es la experiencia del ecosistema Gemini especializada en trabajar con fuentes seleccionadas. A diferencia del asistente general Gemini, organiza documentos en cuadernos, permite consultarlos mediante citas y genera recursos basados en ellos.
 
-Los cuadernos pueden utilizarse y sincronizarse con Gemini. Esto permite continuar un trabajo en ambas experiencias, sin que sus funciones sean idénticas: comprueba qué fuentes y herramientas usa cada respuesta. **Cargar fuentes no entrena el modelo** ni garantiza que todas sus interpretaciones sean correctas.
+Los cuadernos pueden utilizarse y sincronizarse con Gemini, aunque ambas experiencias no tienen las mismas funciones ni emplean necesariamente el mismo contexto. **Cargar fuentes no entrena el modelo** y una cita no garantiza que su interpretación sea correcta: abre siempre el fragmento original.
 
-Hay dos preguntas distintas que conviene separar: **protección de datos** y **propiedad intelectual**. Que un documento no contenga datos personales no significa que podamos subirlo libremente a una herramienta de IA.
+### Para qué sirve al profesorado
 
-Antes de cargar una fuente, pregúntate: **¿es mía, es pública, tiene una licencia que lo permite o tengo autorización para utilizarla?**
+- Consultar normativa y documentación educativa.
+- Contrastar elementos curriculares con sus fuentes oficiales.
+- Analizar documentos extensos y localizar pasajes relevantes.
+- Verificar citas antes de aceptar una respuesta.
+- Preparar recursos didácticos derivados de fuentes revisadas.
 
-Cuando utilices material de terceros, identifica siempre autor, fuente, licencia y condiciones de reutilización.
+Antes de cargar documentos, comprueba por separado la protección de datos, la propiedad intelectual y la autorización de uso. No utilices información personal ni documentación interna no autorizada.
 
-Consulta la [guía de Gemini Notebook para docentes]({{ '/bloque2-notebooklm.html' | relative_url }}) para conocer la integración y el flujo de trabajo.
-
-Sigue también el [manual visual paso a paso con el caso de Seguridad Informática de 2.º de SMR]({{ '/bloque2-notebooklm.html#manual-visual' | relative_url }}): creación del cuaderno, incorporación de normativa, consultas con citas, verificación y recursos de Studio.
-
-### ¿Por qué es clave para docentes?
-
-| Problema habitual con IA genérica | Solución con Gemini Notebook |
-|:----------------------------------|:-----------------------|
-| La IA inventa criterios de evaluación que no existen en el currículo. | Permite localizar pasajes y citas del currículo aportado; verifica su interpretación. |
-| La IA confunde normativas de diferentes CCAA. | Puedes centrar la consulta en el currículo de tu comunidad y contrastar las citas. |
-| No puedes verificar fácilmente la fuente. | Solicita **citas verificables** y abre el pasaje original antes de aceptar la respuesta. |
-
-### Paso a paso: configurar Gemini Notebook con el currículo de la CV
+### Por dónde empezar
 {: id="paso-a-paso-configurar-notebooklm-con-el-currículo-de-la-cv" }
-
-- Accede a [Gemini Notebook — acceso oficial](https://notebooklm.google.com) con una cuenta de Google.
-- Crea un **nuevo notebook** y ponle un nombre descriptivo: *"Currículo LOMLOE – Primaria CV"*.
-- Sube las **fuentes**. El límite de fuentes depende del plan. Selecciónalas por etapa y descarga los documentos oficiales desde la biblioteca:
 
 <div class="normativa-cta" id="biblioteca-normativa-docente" markdown="1">
 
-### [Abrir la Biblioteca normativa docente de la Comunitat Valenciana · Curso 2026-2027 →]({{ '/bloque2-biblioteca-normativa.html' | relative_url }})
+**[Abrir el tutorial visual de Gemini Notebook →]({{ '/bloque2-notebooklm.html#manual-visual' | relative_url }})**
 
-Seis itinerarios: **Infantil, Primaria, ESO, Bachillerato, Formación Profesional y Escuelas Oficiales de Idiomas**, con tablas oficiales, consultas de ejemplo y un proceso de verificación en seis pasos.
+Creación del cuaderno, incorporación de fuentes, consultas, verificación y recursos de Studio mediante un caso real de Seguridad Informática de 2.º de SMR.
+
+**[Consultar la Biblioteca normativa docente →]({{ '/bloque2-biblioteca-normativa.html' | relative_url }})**
+
+Fuentes estatales y autonómicas organizadas para Infantil, Primaria, ESO, Bachillerato, Formación Profesional y Escuelas Oficiales de Idiomas.
 
 </div>
 
-- Espera a que Gemini Notebook **procese** los documentos; el tiempo depende de las fuentes.
-- Ahora ya puedes hacer preguntas y podrás pedir respuestas **fundamentadas en las fuentes seleccionadas**, comprobando sus citas.
-
-> **⚠️ Seguridad GVA:** Gemini Notebook es un producto de Google y **no forma parte del entorno corporativo de la GVA**. Úsalo **solo con documentos públicos** (legislación, currículos publicados en el DOGV). **Nunca subas documentos internos del centro con datos del alumnado.**
-
-### Ejemplo de consulta curricular en Gemini Notebook
+### Aplicación docente
 {: id="ejemplo-de-consulta-curricular-en-notebooklm" }
 
-Una vez cargados los documentos, prueba esta consulta en el chat de Gemini Notebook:
+Localiza en la biblioteca el currículo aplicable a tu etapa, crea un cuaderno con las fuentes oficiales pertinentes y formula una consulta concreta, por ejemplo:
 
-```text
-A partir del Decreto 106/2022 del currículo de Educación Primaria de la 
-Comunitat Valenciana, necesito lo siguiente para el área de "Conocimiento 
-del Medio Natural, Social y Cultural" en 4.º de Primaria:
+> Identifica los elementos curriculares que fundamentan esta propuesta. Utiliza exclusivamente las fuentes seleccionadas, incorpora citas verificables y separa el contenido normativo de las decisiones didácticas.
 
-1. Lista de competencias específicas del área.
-2. Saberes básicos del Bloque A ("Cultura científica").
-3. Criterios de evaluación vinculados a esos saberes.
-
-Formato: tabla con columnas [Competencia específica · Saberes básicos · 
-Criterio de evaluación]. Incluye la referencia exacta (artículo/anexo) 
-del decreto.
-```
-
-### Funcionalidad estrella: los "Audio Overviews"
-
-Gemini Notebook puede generar un **resumen en formato podcast** de tus documentos con dos voces sintéticas que dialogan sobre el contenido. Esto es útil para:
-
-- **Repasar legislación** mientras conduces al centro.
-- **Crear material auditivo** para tu alumnado (pídelo en lenguaje adaptado a su nivel).
-- **Compartir** una síntesis con tu departamento para ahorrar tiempo de lectura.
-
-```text
-Genera un Audio Overview de los cambios principales entre el currículo 
-anterior (LOMCE) y el actual (LOMLOE) para el área de Matemáticas de 
-Primaria en la Comunitat Valenciana. Usa un tono divulgativo y 
-accesible.
-```
-
-> **💡 Ejemplo Primaria:** Pide un Audio Overview del Bloque de Saberes Básicos de tu área y nivel. Escúchalo y valora si la síntesis es fiel al documento original.
+El [manual visual]({{ '/bloque2-notebooklm.html#manual-visual' | relative_url }}) muestra cómo realizar el proceso completo. La Actividad 2.2 permite aplicarlo a cualquier enseñanza.
 
 ---
 
