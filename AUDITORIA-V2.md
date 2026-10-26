@@ -628,7 +628,6 @@ Según las especificaciones de V2, añadir al SCSS centralizado:
 | `herramientas-ia-actualizadas.md` | Referencia centralizada de herramientas con fecha de revisión | Transversal |
 | `modulo-0-que-es-la-ia.md` | Reescritura completa para 2026 | Módulo 0 |
 | `bloque2-notebooklm.md` | NotebookLM como eje de Bloque 2: todas sus funciones + flujo educativo | Bloque 2 |
-| `bloque2-investigacion-verificacion.md` | Investigación web con IA, Deep Research, verificación de fuentes | Bloque 2 |
 | `bloque4-evaluacion-con-ia.md` | Diseñar evaluaciones que no puedan ser trivialmente resueltas por IA | Bloque 4 |
 | `bloque4-alfabetizacion-alumnado.md` | Enseñar al alumnado a usar la IA con criterio | Bloque 4 |
 | `_data/edicion.yml` (opcional) | Datos variables de la edición: código, fechas, sesiones | Infraestructura |
@@ -674,7 +673,6 @@ Según las especificaciones de V2, añadir al SCSS centralizado:
 | `primeros-pasos/identidad-digital.md` | CONSERVAR + ACTUALIZAR | Baja |
 | `herramientas-ia-actualizadas.md` | CREAR NUEVO | Alta |
 | `bloque2-notebooklm.md` | CREAR NUEVO | Alta |
-| `bloque2-investigacion-verificacion.md` | CREAR NUEVO | Alta |
 | `bloque4-evaluacion-con-ia.md` | CREAR NUEVO | Media |
 | `bloque4-alfabetizacion-alumnado.md` | CREAR NUEVO | Media |
 

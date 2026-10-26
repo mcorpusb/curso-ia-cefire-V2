@@ -112,7 +112,6 @@ Las siguientes páginas del curso no tienen equivalente valenciano. No se han tr
 - `bloque1-novedades-ia.md`
 - `bloque1-seguridad.md`
 - `bloque1.md`
-- `bloque2-investigacion-verificacion.md`
 - `bloque2-notebooklm.md`
 - `bloque2.md`
 - `bloque3-actividad-eoi.md`

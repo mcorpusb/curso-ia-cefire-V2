@@ -189,7 +189,6 @@ Bloque 4  · Diseñar, personalizar, evaluar y crear (rúbricas, DUA, agentes, v
 **Archivos en V2:**
 - `bloque2.md` (reescritura con NotebookLM como eje)
 - `bloque2-notebooklm.md` (nuevo: dedicado a NotebookLM en profundidad)
-- `bloque2-investigacion-verificacion.md` (nuevo: Deep Research, verificación)
 
 ---
 
@@ -414,7 +413,6 @@ Bloque 4  · Diseñar, personalizar, evaluar y crear (rúbricas, DUA, agentes, v
 |:--------|:----------|
 | `herramientas-ia-actualizadas.md` | Referencia centralizada de herramientas con fecha de revisión y advertencias de límites cambiantes |
 | `bloque2-notebooklm.md` | NotebookLM en profundidad: todas las funciones, flujo educativo, actividades |
-| `bloque2-investigacion-verificacion.md` | Deep Research, investigación web, verificación de fuentes |
 | `bloque1-actividades.md` | Actividades de Bloque 1 con patrón RETO COMÚN → VARIANTE POR ETAPA |
 | `bloque3-actividades.md` | Actividades de Bloque 3 con patrón RETO COMÚN → VARIANTE POR ETAPA |
 | `bloque4-evaluacion-con-ia.md` | Cómo diseñar tareas que no puedan resolverse trivialmente con IA |
@@ -576,7 +574,6 @@ nav_order: 4   # bloque1.md (Bloque 1) — has_children: true
   nav_order: 3   # bloque1-agentes-ia.md — mover a Bloque 4
 nav_order: 5   # bloque2.md (Bloque 2) — has_children: true
   nav_order: 1   # bloque2-notebooklm.md — parent: Bloque 2
-  nav_order: 2   # bloque2-investigacion-verificacion.md — parent: Bloque 2
 nav_order: 6   # bloque3.md (Bloque 3) — has_children: true
   nav_order: 1   # bloque3-actividades.md — parent: Bloque 3
   nav_order: 2   # google-labs-experimentos-ia-aula.md — parent: Bloque 3
@@ -677,7 +674,6 @@ Una vez aprobado este plan, la construcción seguirá este orden:
 
 8. Reescribir `bloque2.md` con NotebookLM como eje
 9. Crear `bloque2-notebooklm.md`
-10. Crear `bloque2-investigacion-verificacion.md`
 
 ### Fase D · Bloque 3
 
