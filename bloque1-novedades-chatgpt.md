@@ -49,7 +49,7 @@ Study Mode puede ayudar a aprender mejor, pero no convierte a ChatGPT en un prof
 
 ChatGPT también puede apoyar la investigación con fuentes y la búsqueda asistida. Cuando uses funciones de investigación profunda, recuerda el principio del Bloque 2: la herramienta no garantiza por sí sola que la investigación sea correcta. Revisa siempre fuentes, autoridad, actualidad y correspondencia entre cita y afirmación.
 
-- [Investigación y verificación con IA]({{ '/bloque2-investigacion-verificacion.html' | relative_url }})
+- [Investigación y verificación con IA]({{ '/bloque2.html#25--comparativa-ampliada-respuestas-curriculares-en-cinco-herramientas' | relative_url }})
 
 ## 4. Generación y edición de imágenes
 
