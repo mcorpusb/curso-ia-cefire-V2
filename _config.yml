@@ -1,6 +1,9 @@
 remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
 title: "IA para Docentes · CEFIRE"
 description: "Curso práctico del CEFIRE sobre IA, LOMLOE y productividad en el entorno GVA."
+lang: es-ES
 
 url: "https://mcorpusb.github.io"
 baseurl: "/curso-ia-cefire-V2"
