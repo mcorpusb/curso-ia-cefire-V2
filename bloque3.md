@@ -26,6 +26,7 @@ Crea presentaciones, cómics, infografías, podcasts, audios realistas y vídeos
 - [📖 3.3 · Audios realistas: narración, podcasts y accesibilidad](#33--audios-realistas-narración-podcasts-y-accesibilidad)
 - [📖 3.4 · Vídeos educativos con IA](#34--vídeos-educativos-con-ia)
 - [📖 3.5 · Apps educativas sencillas con IA: Gemini Canvas y Canva Code](#35--apps-educativas-sencillas-con-ia-gemini-canvas-y-canva-code)
+- [🧪 Laboratorio · Artifacts y aplicaciones interactivas con IA]({{ '/bloque3-artifacts.html' | relative_url }})
 - [📖 3.6 · Comparativa multimodal: todas las herramientas de un vistazo](#36--comparativa-multimodal-todas-las-herramientas-de-un-vistazo)
 - [📖 3.7 · Integración multimodal en Situaciones de Aprendizaje](#37--integración-multimodal-en-situaciones-de-aprendizaje)
 - [📝  Actividad · Creación de recursos multimodales con IA para el aula](#--actividad--creación-de-recursos-multimodales-con-ia-para-el-aula)
@@ -710,6 +711,8 @@ Tono: motivador, cercano, sin infantilizar. Máximo 200 palabras.
 {: id="35--apps-educativas-sencillas-con-ia-gemini-canvas-y-canva-code" }
 
 La creación de pequeñas apps educativas ya no requiere saber programar. Con herramientas como **Gemini Canvas** y **Canva Code** podemos generar prototipos interactivos a partir de un prompt: cuestionarios, juegos de repaso, simuladores sencillos, tarjetas autocorregibles, ruletas, actividades de clasificación o mini escape rooms.
+
+> 🧪 **Nuevo laboratorio avanzado:** [Artifacts y aplicaciones interactivas con IA]({{ '/bloque3-artifacts.html' | relative_url }}) reúne seis demostraciones reales, tutoriales de Claude Artifacts, Gemini Canvas y Google AI Studio, código descargable, comparativas y un reto evaluable para crear tu propio laboratorio virtual.
 
 Estas apps no sustituyen a plataformas educativas como Aules, pero pueden enriquecer una situación de aprendizaje con recursos interactivos rápidos, visuales y adaptados al nivel del alumnado.
 

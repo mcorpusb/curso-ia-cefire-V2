@@ -1,0 +1,117 @@
+- id: rocket-claude
+  title: "ROCKET LAB 3D — Centro de Simulación Aeroespacial"
+  platform: "Claude Artifacts"
+  platform_key: claude
+  category: "Física · Tecnología · Ingeniería · Matemáticas"
+  description: "Simulador educativo de un motor de cohete líquido: permite explorar sus componentes y experimentar con un modelo didáctico de propulsión y lanzamiento."
+  features:
+    - "Explorador 3D y vista explosionada"
+    - "Parámetros de propulsión y telemetría simulada"
+    - "Lanzamiento, experimentos y modo docente"
+  demo_url: "https://claude.ai/artifact/JDLsRMZwKE2nh85mSD2aAU"
+  image: "/assets/img/artifacts/rocket-claude.png"
+  image_alt: "Interfaz de ROCKET LAB 3D en Claude, con el motor, controles y paneles de telemetría"
+  creation_anchor: "caso-rocket"
+  prompt_anchor: "prompt-rocket"
+  source_files:
+    - label: "Código React/TypeScript (.tsx)"
+      url: "/assets/downloads/artifacts/rocketlab3d.tsx"
+    - label: "HTML original"
+      url: "/assets/downloads/artifacts/rocket-lab-3d-original.html"
+    - label: "Descripción extraída (.md)"
+      url: "/assets/downloads/artifacts/rocket-lab-3d-original.md"
+
+- id: rocket-gemini
+  title: "ROCKET LAB 3D"
+  platform: "Gemini Canvas"
+  platform_key: gemini
+  category: "Física · Tecnología · Ingeniería"
+  description: "Versión del laboratorio aeroespacial generada desde el mismo planteamiento. El primer intento produjo un error y exigió iterar, probar y corregir."
+  features:
+    - "Explorador 3D y simulación de propulsión"
+    - "Lanzamiento, laboratorio y telemetría"
+    - "Modo docente y demostración automática"
+  demo_url: "https://share.gemini.google/cl1f2qZrDxsj"
+  image: "/assets/img/artifacts/rocket-gemini.png"
+  image_alt: "Interfaz de ROCKET LAB 3D generada en Gemini Canvas, con cohete 3D y controles"
+  creation_anchor: "caso-rocket"
+  prompt_anchor: "prompt-rocket"
+  technologies: "React, TypeScript, Three.js, Recharts y Lucide React"
+  source_files: []
+
+- id: aerovectra-ai-studio
+  title: "AeroVectra 3D"
+  platform: "Google AI Studio · Build"
+  platform_key: ai-studio
+  category: "Física · Tecnología · Ingeniería"
+  description: "Interpretación del laboratorio aeroespacial creada en el modo Build de Google AI Studio, con vista previa y proyecto editable."
+  features:
+    - "Generación de una aplicación desde instrucciones"
+    - "Vista previa y edición del proyecto"
+    - "Enlace compartido al proyecto de AI Studio"
+  demo_url: "https://ai.studio/apps/db2dd6b7-765b-40b0-8ec6-4f67765dab8b"
+  image: "/assets/img/artifacts/aerovectra-ai-studio.png"
+  image_alt: "Aplicación AeroVectra 3D abierta en Google AI Studio"
+  creation_anchor: "tutorial-ai-studio"
+  prompt_anchor: "prompt-rocket"
+  source_files: []
+
+- id: pc-claude
+  title: "PC LAB 3D — Laboratorio Virtual de Hardware y Diagnóstico"
+  platform: "Claude Artifacts"
+  platform_key: claude
+  category: "FP · ASIR · Hardware"
+  description: "Laboratorio para explorar un ordenador, seleccionar componentes y practicar montaje, compatibilidad, arranque y diagnóstico de averías."
+  features:
+    - "Exploración 3D, chasis y vista explosionada"
+    - "Montaje y verificación de compatibilidad"
+    - "Averías, puntuación y modo docente"
+  demo_url: "https://claude.ai/artifact/EgUy8Ao5QECxH1LNH1arVn"
+  image: "/assets/img/artifacts/pc-claude.png"
+  image_alt: "Interfaz de PC LAB 3D en Claude, con ordenador 3D y panel de componentes"
+  creation_anchor: "caso-pc"
+  prompt_anchor: "prompt-pc"
+  source_files:
+    - label: "Código React/TypeScript (.tsx)"
+      url: "/assets/downloads/artifacts/pclab3d.tsx"
+    - label: "HTML original"
+      url: "/assets/downloads/artifacts/pc-lab-3d-original.html"
+    - label: "Descripción extraída (.md)"
+      url: "/assets/downloads/artifacts/pc-lab-3d-original.md"
+
+- id: pc-gemini
+  title: "PC LAB 3D"
+  platform: "Gemini Canvas"
+  platform_key: gemini
+  category: "FP · Hardware · Arquitectura de computadores"
+  description: "Laboratorio que permite visualizar componentes, seleccionar configuraciones, observar el arranque y resolver averías simuladas."
+  features:
+    - "Explorador 3D y montaje de ordenadores"
+    - "Secuencia de arranque y flujo de datos"
+    - "Taller de averías, modo docente y demo automática"
+  demo_url: "https://share.gemini.google/EcTl1pRKMAH0"
+  image: "/assets/img/artifacts/pc-gemini.png"
+  image_alt: "Interfaz de PC LAB 3D generada en Gemini Canvas, con componentes y paneles de diagnóstico"
+  creation_anchor: "caso-pc"
+  prompt_anchor: "prompt-pc"
+  technologies: "React, TypeScript, Three.js y Recharts"
+  source_files: []
+
+- id: web-gemini
+  title: "WEB LAB 3D — HTTP JOURNEY"
+  platform: "Gemini Canvas"
+  platform_key: gemini
+  category: "FP · DAW · Redes y desarrollo web"
+  description: "Simulación educativa del recorrido de una petición HTTP entre navegador, DNS, servidor, API y base de datos; no captura tráfico real de Internet."
+  features:
+    - "Métodos GET, POST, PUT, PATCH y DELETE"
+    - "Cliente REST, base de datos e inspector simulados"
+    - "Errores, retos, modo docente y demo automática"
+  demo_url: "https://share.gemini.google/sxoegsfsIkYu"
+  image: null
+  image_alt: null
+  creation_anchor: "caso-web"
+  prompt_anchor: "prompt-web"
+  source_files:
+    - label: "Versión HTML local revisable"
+      url: "/assets/downloads/artifacts/web-lab-3d.html"

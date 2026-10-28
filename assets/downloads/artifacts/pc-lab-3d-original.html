@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PC LAB 3D — Laboratorio Virtual de Hardware</title>
+<style>
+:root{--bg:#030914;--fg:#dff3ff;--mut:#8fb3c9;--cy:#22d3ee;--or:#ff8a3d;--pn:rgba(6,16,36,.7);--ln:rgba(34,211,238,.3);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}*{box-sizing:border-box}html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow:hidden}
+#c{position:fixed;inset:0;width:100%;height:100%;display:block}
+header{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding:8px 16px;background:rgba(3,10,24,.75);backdrop-filter:blur(8px);border-bottom:1px solid var(--ln);z-index:5}
+.logo{font-weight:800;letter-spacing:3px;font-size:17px}.logo small{display:block;font-weight:400;letter-spacing:1px;color:var(--mut);font-size:11px}
+button,select{font:inherit;color:var(--fg)}
+.b,#tabs button{background:rgba(34,211,238,.08);border:1px solid var(--ln);border-radius:8px;padding:8px 14px;min-height:44px;cursor:pointer;letter-spacing:1px}
+.b:hover,#tabs button:hover{background:rgba(34,211,238,.22)}.b.on{background:rgba(34,211,238,.38)}
+#tabs{display:flex;gap:6px;flex-wrap:wrap}#tabs button.on{background:var(--cy);color:#02101c;font-weight:700}
+.act{margin-left:auto;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+#demo{border-color:var(--or);color:var(--or);font-weight:700}
+.sw{display:flex;gap:8px;align-items:center;cursor:pointer;min-height:44px}.sw input{width:20px;height:20px;accent-color:var(--cy)}
+.p{position:absolute;top:84px;bottom:16px;width:330px;max-width:46vw;background:var(--pn);backdrop-filter:blur(10px);border:1px solid var(--ln);border-radius:12px;padding:14px;overflow:auto;z-index:3}
+.L{left:16px}.R{right:16px}.p h3{margin:0 0 10px;font-size:12px;letter-spacing:3px;color:var(--cy)}
+label{display:block;margin:8px 0;color:var(--mut)}select{width:100%;background:#0a1830;border:1px solid var(--ln);border-radius:8px;padding:8px;min-height:44px;margin-top:2px}
+input[type=range]{width:100%;accent-color:var(--cy)}output{float:right;color:var(--fg)}
+.row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}.row .b{flex:1 1 120px}
+.kv{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(255,255,255,.07);padding:5px 0}.kv span{color:var(--mut)}.kv b{font-size:24px;font-variant-numeric:tabular-nums;color:var(--cy)}.kv b.o{color:var(--or)}
+.note{font-size:12px;color:var(--mut);margin:8px 0}.doc{display:none;border-left:3px solid var(--or);padding:6px 10px;margin:10px 0;background:rgba(255,138,61,.08);font-size:13px}body.d .doc{display:block}
+body[data-t=e] .t-m,body[data-t=e] .t-b,body[data-t=e] .t-a,body[data-t=m] .t-e,body[data-t=m] .t-b,body[data-t=m] .t-a,body[data-t=b] .t-e,body[data-t=b] .t-m,body[data-t=b] .t-a,body[data-t=a] .t-e,body[data-t=a] .t-m,body[data-t=a] .t-b{display:none}
+.ck{padding:5px 0;border-bottom:1px solid rgba(255,255,255,.06);font-size:13px}.ck.ok::before{content:"✔ ";color:#4ade80}.ck.w::before{content:"⚠ ";color:#facc15}.ck.e::before{content:"✖ ";color:#f87171}
+.bar{height:10px;background:#0a1830;border-radius:6px;overflow:hidden}.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--cy),var(--or));transition:.4s}
+#pw{width:100%;min-height:76px;font-size:20px;font-weight:800;letter-spacing:3px;background:linear-gradient(180deg,#ff9d57,#e0561a);color:#1b0a00;border:0;border-radius:12px;cursor:pointer;box-shadow:0 0 28px rgba(255,138,61,.45)}
+#mon{background:#010508;border:2px solid #1b3a52;border-radius:8px;padding:10px;height:210px;overflow:auto;font:12px/1.5 ui-monospace,Menlo,Consolas,monospace;color:#7dffb0}#mon .x{color:#ff7b7b}#mon .y{color:#ffd37a}
+canvas.ch{width:100%;height:120px;display:block;margin-top:6px}
+.q button{display:block;width:100%;margin:6px 0;text-align:left}.lds{display:flex;gap:10px;margin:8px 0}.lds span{font-size:11px;color:var(--mut);text-align:center}.lds i{display:block;width:16px;height:16px;border-radius:50%;background:#334;margin:0 auto 2px}.lds i.g{background:#4ade80}.lds i.r{background:#f43f5e;box-shadow:0 0 10px #f43f5e}
+#cap{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);padding:12px 24px;background:rgba(3,10,24,.85);border:1px solid var(--or);border-radius:99px;z-index:6;opacity:0;transition:.4s;pointer-events:none;text-align:center}
+#tip{position:fixed;pointer-events:none;z-index:4;font-size:12px;padding:3px 9px;border:1px solid var(--ln);background:rgba(3,10,24,.85);border-radius:4px;display:none}
+#dc{display:none;gap:6px}#dc.on{display:flex}
+#err{display:none;position:fixed;inset:0;place-items:center;text-align:center;background:var(--bg);z-index:20;padding:24px}
+</style>
+</head>
+<body data-t="e">
+<canvas id="c"></canvas><div id="tip"></div>
+<div id="err"><div><h2>No se pudo iniciar el motor 3D</h2><p>Comprueba que el navegador admite WebGL.</p><button class="b" onclick="location.reload()">Reintentar</button></div></div>
+<header>
+<div class="logo">PC LAB 3D<small>Laboratorio Virtual de Hardware y Diagnóstico</small></div>
+<nav id="tabs"><button data-t="e" class="on">EXPLORAR</button><button data-t="m">MONTAJE</button><button data-t="b">ARRANQUE</button><button data-t="a">AVERÍAS</button></nav>
+<div class="act"><span id="dc"><button class="b" id="dp">Pausar</button><button class="b" id="ds">Detener</button><button class="b" id="dr">Reiniciar</button></span><button class="b" id="demo">▶ DEMOSTRACIÓN AUTOMÁTICA</button><label class="sw"><input type="checkbox" id="doc"><span>MODO DOCENTE <b id="sc"></b></span></label></div>
+</header>
+
+<aside class="p L t-e"><h3>EXPLORADOR 3D</h3>
+<div class="row"><button class="b" id="eo">Abrir panel lateral</button><button class="b" id="ex">Vista explosionada</button><button class="b" id="er">Montar de nuevo</button><button class="b" id="ef">Flujos de datos</button></div>
+<div id="lg" class="note" style="display:none"><span style="color:#4d9bff">■</span> CPU↔RAM · <span style="color:#4ade80">■</span> almacenamiento→CPU · <span style="color:#ff8a3d">■</span> CPU→GPU · <span style="color:#22d3ee">■</span> aire.<br>Representación conceptual, no son medidas reales.</div>
+<p class="note">Arrastra para girar, rueda para acercar. Pulsa una pieza para ver su información.</p>
+<div class="doc q" id="q1"></div><div class="doc q" id="q2"></div></aside>
+<aside class="p R t-e"><h3>COMPONENTE</h3><div id="info"><p class="note">Selecciona una pieza del ordenador.</p></div></aside>
+
+<aside class="p L t-m"><h3>BANCO DE TRABAJO</h3>
+<div class="row"><button class="b pre" data-p="0">Oficina</button><button class="b pre" data-p="1">Gaming</button><button class="b pre" data-p="2">Estación</button><button class="b pre" data-p="3">Con errores</button></div>
+<label>Placa base<select id="s_b"></select></label><label>Procesador<select id="s_c"></select></label>
+<label>Memoria RAM<select id="s_r"></select></label><label>Número de módulos<select id="s_n"><option value="1">1</option><option value="2">2</option><option value="4">4</option></select></label>
+<label>Almacenamiento 1<select id="s_s1"></select></label><label>Almacenamiento 2<select id="s_s2"></select></label>
+<label>Tarjeta gráfica<select id="s_g"></select></label><label>Fuente de alimentación<select id="s_p"></select></label>
+<div class="doc" id="reto"></div></aside>
+<aside class="p R t-m"><h3>COMPROBACIÓN AUTOMÁTICA</h3><div class="bar"><i id="pb"></i></div><p class="note" id="pt"></p><div id="chk"></div>
+<div class="kv"><span>Consumo estimado</span><b class="o" id="est">0 W</b></div>
+<button class="b" id="fin" style="width:100%;margin-top:10px">FINALIZAR MONTAJE</button><p class="note" id="finm"></p>
+<div class="doc q" id="q3"></div></aside>
+
+<aside class="p L t-b"><h3>ENCENDIDO</h3><button id="pw">ENCENDER EQUIPO</button>
+<div class="row" style="margin-top:10px"><button class="b" id="off">Apagar</button></div>
+<label>Carga de CPU <output id="ol">20 %</output><input type="range" id="load" min="0" max="100" value="20"></label>
+<div class="note"><b>Modelo conceptual:</b> consumo = 40 W + TDP·carga + parte de la GPU; temperatura = 32 °C + 0,22·(consumo − 40 W). No son medidas reales.</div>
+<div class="doc q" id="q4"></div></aside>
+<aside class="p R t-b"><h3>MONITOR VIRTUAL (SIMULADO)</h3><div id="mon"></div>
+<div class="kv"><span>Temperatura CPU</span><b id="mT">—</b></div><div class="kv"><span>Consumo</span><b class="o" id="mW">—</b></div><div class="kv"><span>CPU</span><b id="mC">—</b></div><div class="kv"><span>Memoria</span><b class="o" id="mR">—</b></div>
+<canvas class="ch" id="mch"></canvas></aside>
+
+<aside class="p L t-a"><h3>TALLER DE AVERÍAS</h3><div id="sl"></div><p class="note" id="sym"></p>
+<div class="lds" id="lds"></div><div id="tst"></div></aside>
+<aside class="p R t-a"><h3>DIAGNÓSTICO</h3><div id="log" class="note">Elige un escenario.</div><div class="q" id="cau"></div><div class="kv"><span>Puntuación</span><b id="scr">—</b></div><p class="note" id="why"></p>
+<div class="doc">Diagnóstico guiado: lee primero el POST, descarta con las pruebas más baratas y solo entonces decide. Cada prueba resta 10 puntos y cada error de diagnóstico, 25.</div></aside>
+
+<div id="cap"></div>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+try{(function(){
+const T=THREE;
+/* ---- datos ---- */
+const BO=[{n:'Placa A · socket AM5 · DDR5 · 4 DIMM · 2 M.2',s:'AM5',m:'DDR5',sl:4,m2:2},{n:'Placa B · socket AM4 · DDR4 · 2 DIMM · 1 M.2',s:'AM4',m:'DDR4',sl:2,m2:1}];
+const CP=[{n:'CPU oficina 4 núcleos · AM4 · 65 W',s:'AM4',w:65},{n:'CPU mainstream 8 núcleos · AM5 · 105 W',s:'AM5',w:105},{n:'CPU alto rendimiento 12 núcleos · AM5 · 170 W',s:'AM5',w:170}];
+const RA=[{n:'DDR4 · 8 GB por módulo',t:'DDR4',gb:8},{n:'DDR5 · 16 GB por módulo',t:'DDR5',gb:16}];
+const ST=[{n:'SSD NVMe M.2 · 1 TB',k:'m2'},{n:'SSD SATA · 500 GB',k:'sata'},{n:'HDD SATA · 2 TB',k:'sata'}];
+const GP=[{n:'GPU media · 240 mm · 150 W · 1 conector 8 pines',len:240,w:150,pins:1},{n:'GPU alta · 330 mm · 320 W · 2 conectores 8 pines',len:330,w:320,pins:2}];
+const PS=[{n:'Fuente 450 W · 1 conector PCIe',w:450,pins:1},{n:'Fuente 650 W · 2 conectores PCIe',w:650,pins:2},{n:'Fuente 850 W · 3 conectores PCIe',w:850,pins:3}];
+const GMAX=320,PRE=[{b:1,c:0,r:0,n:2,s1:1,s2:-1,g:-1,p:0},{b:0,c:1,r:1,n:2,s1:0,s2:2,g:0,p:1},{b:0,c:2,r:1,n:4,s1:0,s2:2,g:-1,p:2},{b:0,c:0,r:0,n:4,s1:0,s2:0,g:1,p:0}];
+const CFG={...PRE[1]};
+const fill=(id,a,e)=>{$(id).innerHTML=(e?'<option value="-1">— Sin instalar —</option>':'')+a.map((x,i)=>'<option value="'+i+'">'+x.n+'</option>').join('')};
+fill('#s_b',BO);fill('#s_c',CP,1);fill('#s_r',RA,1);fill('#s_s1',ST,1);fill('#s_s2',ST,1);fill('#s_g',GP,1);fill('#s_p',PS,1);
+const KEY={b:'#s_b',c:'#s_c',r:'#s_r',n:'#s_n',s1:'#s_s1',s2:'#s_s2',g:'#s_g',p:'#s_p'};
+const INFO={chasis:['Chasis ATX (torre)','Aloja y protege los componentes y canaliza el flujo de aire.','Formato ATX, bahías de 3,5″/2,5″, soporte de GPU hasta 320 mm.','Tornillería a la placa base, frontal con USB y botón de encendido.'],
+placa:['Placa base ATX','Interconecta todos los componentes y reparte la alimentación.','Socket de CPU, ranuras DIMM, ranura PCIe x16, ranuras M.2, puertos SATA y chipset.','Conector ATX de 24 pines, EPS de CPU, cabeceras de ventilador y de panel frontal.'],
+cpu:['Procesador (CPU) y zócalo','Ejecuta las instrucciones de los programas.','Núcleos, frecuencia, TDP y caché. Debe coincidir con el socket.','Socket de la placa; alimentación EPS por la placa.'],
+disipador:['Disipador y ventilador de CPU','Extrae el calor del procesador y lo cede al aire.','Base de contacto con pasta térmica, aletas y ventilador de 120 mm.','Cabecera CPU_FAN de 4 pines (PWM).'],
+ram:['Módulos de memoria RAM','Almacenamiento temporal y rápido de datos y programas en uso.','Tipo (DDR4 o DDR5), capacidad y frecuencia. Dual channel con 2 módulos.','Ranuras DIMM, con muesca específica para cada tecnología.'],
+gpu:['Tarjeta gráfica (GPU)','Procesa imágenes y cálculo en paralelo; genera la señal de vídeo.','Longitud, consumo (TDP) y memoria de vídeo.','Ranura PCIe x16, conectores PCIe de 8 pines, salidas de vídeo.'],
+nvme:['SSD M.2 NVMe','Almacenamiento de estado sólido muy rápido sobre PCIe.','Capacidad y velocidades de lectura/escritura elevadas.','Ranura M.2 de la placa; sin cables.'],
+sata:['Unidad de almacenamiento SATA','Almacenamiento de gran capacidad (HDD) o SSD de menor velocidad.','Capacidad e interfaz SATA III.','Cable de datos SATA a la placa y alimentación SATA de la fuente.'],
+psu:['Fuente de alimentación (PSU)','Convierte la corriente alterna en tensiones continuas (+12 V, +5 V, +3,3 V).','Potencia (W), eficiencia y conectores disponibles.','ATX 24 pines, EPS, PCIe de 8 pines y SATA.'],
+vent:['Ventiladores de chasis','Crean flujo de aire: entra aire frío por delante y sale caliente por detrás.','Tamaño (120 mm), caudal y ruido.','Cabeceras de ventilador de la placa o hub.'],
+cables:['Cables de alimentación','Llevan energía desde la fuente a la placa y a la GPU.','Cable ATX de 24 pines y PCIe de 8 pines.','De la fuente a la placa y a la tarjeta gráfica.']};
+
+/* ---- escena ---- */
+const R=new T.WebGLRenderer({canvas:$('#c'),antialias:true});R.setPixelRatio(Math.min(devicePixelRatio,2));
+const sc=new T.Scene(),cam=new T.PerspectiveCamera(42,1,.1,200),ctl=new T.OrbitControls(cam,$('#c'));ctl.enableDamping=true;ctl.minDistance=3;ctl.maxDistance=30;
+sc.background=new T.Color(0x040b18);sc.add(new T.HemisphereLight(0x8fb8ff,0x201208,.7));
+const l1=new T.PointLight(0x22d3ee,1.2,50);l1.position.set(-8,8,8);const l2=new T.PointLight(0xff8a3d,1,50);l2.position.set(9,3,6);sc.add(l1,l2);
+const gr=new T.GridHelper(40,40,0x0e3a55,0x0a2236);gr.position.y=-.2;sc.add(gr);
+function resize(){R.setSize(innerWidth,innerHeight);cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}addEventListener('resize',resize);resize();
+const MT=(c,m=.8,r=.4,o)=>new T.MeshStandardMaterial({color:c,metalness:m,roughness:r,transparent:!!o,opacity:o||1});
+const bx=(w,h,d,x,y,z,m)=>{const e=new T.Mesh(new T.BoxGeometry(w,h,d),m);e.position.set(x,y,z);return e};
+const root=new T.Group();sc.add(root);const parts={},spin=[],rgb=[];
+function mk(key,dir,ms,base){const g=new T.Group();g.userData={key,dir:new T.Vector3(...dir),base:new T.Vector3(...(base||[0,0,0]))};ms.forEach(m=>g.add(m));root.add(g);parts[key]=g;return g}
+function fan(r,x,y,z,rx,ry){const g=new T.Group(),rot=new T.Group();g.position.set(x,y,z);g.rotation.set(rx||0,ry||0,0);g.add(new T.Mesh(new T.TorusGeometry(r,.05,8,32),MT(0x1a2230)));rot.add(new T.Mesh(new T.CylinderGeometry(r*.25,r*.25,.1,16),MT(0x0e141c)));rot.children[0].rotation.x=Math.PI/2;for(let i=0;i<5;i++){const b=bx(r*.8,.14,.03,0,0,0,MT(0x2b3544));b.position.set(Math.cos(i*1.2566)*r*.5,Math.sin(i*1.2566)*r*.5,0);b.rotation.z=i*1.2566;rot.add(b)}const ring=new T.Mesh(new T.TorusGeometry(r*.92,.025,6,32),new T.MeshBasicMaterial({color:0x22d3ee}));rgb.push(ring);g.add(rot,ring);spin.push(rot);return g}
+const dk=MT(0x151a22,.6,.5),sil=MT(0xc9ced6,.95,.25),alu=MT(0x9aa6b5,.9,.3);
+mk('chasis',[0,0,0],[bx(7,.2,4.4,0,0,0,dk),bx(7,.2,4.4,0,8,0,dk),bx(7,8,.15,0,4,-2.2,dk),bx(.2,8,4.4,-3.5,4,0,MT(0x10151c,.5,.6,.9)),bx(.2,8,4.4,3.5,4,0,dk)]);
+const panel=mk('panel',[0,0,0],[bx(7,8,.08,0,4,2.25,MT(0x6fb8d8,.1,.1,.16))]);panel.traverse(m=>m.raycast=()=>{});
+mk('placa',[0,0,-2.4],[bx(5.6,6.4,.12,.2,4.4,-2.0,MT(0x0f3a3a,.3,.6)),bx(4.5,.16,.18,.2,3.55,-1.85,dk),...[0,1,2,3].map(i=>bx(.16,2.3,.18,2.0+i*.28,5.5,-1.85,MT(0x30363f))),bx(1.6,.5,.4,-1.6,6.4,-1.75,MT(0x2d3a4d,.9,.3)),bx(.9,.9,.06,.5,5.6,-1.9,dk)]);
+mk('cpu',[0,.4,3.2],[bx(.8,.8,.1,.5,5.6,-1.82,sil)]);
+const cl=[bx(1.3,1.3,.2,.5,5.6,-1.65,alu)];for(let i=0;i<6;i++)cl.push(bx(1.6,1.6,.04,.5,5.6,-1.4+i*.14,alu));const cf=fan(.7,.5,5.6,-.55);cl.push(cf);
+mk('disipador',[0,1,4.4],cl);
+const ramM=[0,1,2,3].map(i=>{const s=bx(.12,2.1,.55,2.0+i*.28,5.5,-1.55,MT(0x1c2230,.7,.4)),t=bx(.13,.18,.56,2.0+i*.28,6.5,-1.55,new T.MeshBasicMaterial({color:0xff8a3d}));rgb.push(t);return[s,t]});
+mk('ram',[1.3,1.2,3.6],ramM.flat());
+const gm=[bx(5,.4,1.7,0,0,0,MT(0x1d2430,.8,.35)),bx(4.7,.08,1.5,0,.24,0,MT(0x28313f,.8,.3)),bx(.08,.8,1.5,2.55,-.1,0,sil)];const gs=new T.Mesh(new T.BoxGeometry(4.8,.04,.06),new T.MeshBasicMaterial({color:0x22d3ee}));gs.position.set(0,.28,.82);rgb.push(gs);gm.push(gs,fan(.65,-1.1,-.28,0,Math.PI/2),fan(.65,1.1,-.28,0,Math.PI/2));
+mk('gpu',[0,-1.2,4.2],gm,[.2,3.9,-.95]);
+const nv=mk('nvme',[0,.2,3],[bx(1.7,.45,.08,-.2,4.6,-1.85,MT(0x151a22)),bx(1.7,.5,.12,-.2,4.6,-1.75,MT(0x2f3b50,.9,.3))]);
+mk('sata',[-2.6,0,1.6],[bx(1.5,1,.45,-2.3,2.4,.5,MT(0x8c96a5,.9,.3)),bx(1.2,.5,.02,-2.3,2.4,.74,MT(0x22d3ee))]);
+mk('psu',[0,-2.4,1.4],[bx(3.2,1.5,2.4,.3,.95,.2,MT(0x1b212b,.7,.4)),bx(3.2,.1,.5,.3,1.72,.2,MT(0xff8a3d,.5,.4))]);
+mk('vent',[-3,0,0],[fan(.9,-3.35,6,.2,0,Math.PI/2),fan(.9,-3.35,3.5,.2,0,Math.PI/2),fan(.9,3.35,6.2,.2,0,Math.PI/2)]);
+const tube=(p,c)=>new T.Mesh(new T.TubeGeometry(new T.CatmullRomCurve3(p.map(v=>new T.Vector3(...v))),24,.07,8),MT(c,.3,.6));
+const cab=mk('cables',[0,0,2],[tube([[1.2,1.7,.2],[1.9,2.6,.5],[2.6,4.5,-.5],[2.9,5.3,-1.8]],0x303846),tube([[.8,1.7,.2],[.9,2.9,.3],[1.5,3.6,-.4],[2.2,3.9,-.9]],0xff8a3d)]);
+const spawn=ramM,nv0=nv;
+/* flujos */
+const FL=[[[.5,5.7,-1.3],[2.2,5.7,-1.3],0x4d9bff,1],[[-.2,4.6,-1.3],[.5,5.2,-1.3],0x4ade80,0],[[.5,5.3,-1.2],[.3,4.1,-.9],0xff8a3d,0],[[-3.2,5,.4],[3.2,6,.4],0x22d3ee,0]];
+const flows=new T.Group();flows.visible=false;sc.add(flows);
+const fp=FL.map(f=>{const n=40,a=new Float32Array(n*3),p=new T.Points(new T.BufferGeometry().setAttribute('position',new T.BufferAttribute(a,3)),new T.PointsMaterial({color:f[2],size:.14,transparent:true,blending:T.AdditiveBlending,depthWrite:false}));p.frustumCulled=false;flows.add(p);return{p,a,n,f}});
+
+/* ---- interacción ---- */
+const ray=new T.Raycaster(),mp=new T.Vector2();let hov=null,sel=null,flag=null,pd=null,ex=0,exT=0,op=0,opT=0,tw=null,tab='e',pwr=0,fs=.15;
+const pk=Object.values(parts).filter(g=>g.userData.key!=='panel');
+function pick(e){const r=$('#c').getBoundingClientRect();mp.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);ray.setFromCamera(mp,cam);const h=ray.intersectObjects(pk,true).find(x=>x.object.visible&&x.object.parent.visible!==false&&vis(x.object));if(!h)return null;let o=h.object;while(o&&!o.userData.key)o=o.parent;return o}
+function vis(o){while(o){if(!o.visible)return false;o=o.parent}return true}
+$('#c').addEventListener('pointermove',e=>{hov=pick(e);const t=$('#tip');t.style.display=hov?'block':'none';if(hov){t.textContent=INFO[hov.userData.key][0];t.style.left=e.clientX+14+'px';t.style.top=e.clientY+14+'px'}});
+$('#c').addEventListener('pointerdown',e=>{pd=[e.clientX,e.clientY];tw=null});
+$('#c').addEventListener('pointerup',e=>{if(!pd||Math.hypot(e.clientX-pd[0],e.clientY-pd[1])>5)return;sel=pick(e);const i=sel&&INFO[sel.userData.key];$('#info').innerHTML=i?'<h3 style="margin:0 0 6px;font-size:18px;color:var(--fg);letter-spacing:0">'+i[0]+'</h3><p><b>Función.</b> '+i[1]+'</p><p><b>Características.</b> '+i[2]+'</p><p><b>Conexiones.</b> '+i[3]+'</p>':'<p class="note">Selecciona una pieza del ordenador.</p>'});
+const goCam=(p,t)=>{tw={p:new T.Vector3(...p),t:new T.Vector3(...t)}};
+function home(){goCam([9,6.5,14],[0,4,0])}cam.position.set(9,6.5,14);ctl.target.set(0,4,0);
+const tg=(id,on)=>$(id).classList.toggle('on',on);
+function setOpen(v){opT=v?1:0;$('#eo').textContent=v?'Cerrar panel lateral':'Abrir panel lateral'}
+function setExp(v){exT=v?1:0;tg('#ex',v)}
+function setFlows(v){flows.visible=v;tg('#ef',v);$('#lg').style.display=v?'block':'none'}
+$('#eo').onclick=()=>setOpen(!opT);$('#ex').onclick=()=>{if(!opT)setOpen(1);setExp(!exT)};$('#er').onclick=()=>{setExp(0);setOpen(0);sel=null;home()};$('#ef').onclick=()=>{setOpen(1);setFlows(!flows.visible)};
+
+/* ---- montaje ---- */
+const g_=(a,i)=>i>=0?a[i]:null;
+function est(){const c=g_(CP,CFG.c),g=g_(GP,CFG.g);return(c?c.w:0)+(g?g.w:0)+40+(CFG.r>=0?CFG.n*4:0)+(CFG.s1>=0?5:0)+(CFG.s2>=0?5:0)}
+function checks(){const o=[],b=BO[CFG.b],c=g_(CP,CFG.c),r=g_(RA,CFG.r),g=g_(GP,CFG.g),p=g_(PS,CFG.p),a=(l,t)=>o.push({l,t});
+if(!c)a('w','Falta instalar el procesador.');else c.s===b.s?a('ok','Socket compatible: '+c.s+'.'):a('e','La CPU es de socket '+c.s+' y la placa tiene socket '+b.s+': no encaja físicamente.');
+if(!r)a('w','Falta instalar memoria RAM.');else{r.t===b.m?a('ok','Memoria '+r.t+' compatible con la placa.'):a('e','Los módulos son '+r.t+' y la placa usa '+b.m+': las muescas no coinciden.');CFG.n>b.sl?a('e','Se pidieron '+CFG.n+' módulos pero la placa solo tiene '+b.sl+' ranuras.'):a('ok',CFG.n+' de '+b.sl+' ranuras DIMM ocupadas.')}
+const ss=[g_(ST,CFG.s1),g_(ST,CFG.s2)].filter(Boolean),m2=ss.filter(s=>s.k==='m2').length;
+if(!ss.length)a('w','No hay almacenamiento instalado.');else m2>b.m2?a('e','Hay '+m2+' SSD M.2 y la placa solo tiene '+b.m2+' ranura(s) M.2.'):a('ok','Almacenamiento conectable: '+m2+' M.2 y '+(ss.length-m2)+' SATA.');
+if(g){g.len>GMAX?a('e','La GPU mide '+g.len+' mm y el chasis admite hasta '+GMAX+' mm.'):a('ok','La GPU ('+g.len+' mm) cabe en el chasis.')}else a('ok','Sin GPU dedicada: se usan los gráficos integrados básicos (supuesto del simulador).');
+if(!p)a('w','Falta instalar la fuente de alimentación.');else{const e=est();e>p.w?a('e','Consumo estimado '+e+' W: supera la fuente de '+p.w+' W.'):e>p.w*.8?a('w','Consumo estimado '+e+' W: más del 80 % de la fuente de '+p.w+' W.'):a('ok','Potencia suficiente: '+e+' W de '+p.w+' W.');if(g)g.pins>p.pins&&a('e','La GPU necesita '+g.pins+' conector(es) PCIe y la fuente solo ofrece '+p.pins+'.')}
+return o}
+let accept=0;
+function apply(){Object.keys(KEY).forEach(k=>$(KEY[k]).value=CFG[k]);const c=checks(),n=[CFG.c,CFG.r,CFG.s1,CFG.g,CFG.p].filter(x=>x>=0).length,er=c.filter(x=>x.l==='e').length;
+$('#chk').innerHTML=c.map(x=>'<div class="ck '+x.l+'">'+x.t+'</div>').join('');$('#pb').style.width=n*20+'%';$('#pt').textContent='Progreso del montaje: '+n+' de 5 piezas principales.';$('#est').textContent=est()+' W';
+$('#reto').innerHTML='<b>Reto de montaje:</b> el equipo debe pasar todas las comprobaciones. Errores pendientes: <b>'+er+'</b>'+(er?'':' ✔ ¡Reto superado!');
+parts.cpu.visible=parts.disipador.visible=CFG.c>=0;ramM.forEach((m,i)=>m.forEach(x=>x.visible=CFG.r>=0&&i<CFG.n));const gp=g_(GP,CFG.g);parts.gpu.visible=!!gp;if(gp)parts.gpu.scale.x=gp.len/330;
+const ss=[CFG.s1,CFG.s2].map(i=>g_(ST,i)).filter(Boolean);parts.nvme.visible=ss.some(s=>s.k==='m2');parts.sata.visible=ss.some(s=>s.k==='sata');parts.psu.visible=parts.cables.visible=CFG.p>=0;
+ramM.forEach(m=>m[0].material.color.setHex(g_(RA,CFG.r)&&RA[CFG.r].t==='DDR5'?0x2a2038:0x1c2230));accept=0;$('#fin').textContent='FINALIZAR MONTAJE';$('#finm').textContent=''}
+$$('select[id^=s_]').forEach(s=>s.onchange=()=>{CFG[Object.keys(KEY).find(k=>KEY[k]==='#'+s.id)]=+s.value;apply()});
+$$('.pre').forEach(b=>b.onclick=()=>{Object.assign(CFG,PRE[b.dataset.p]);apply();setOpen(1)});
+$('#fin').onclick=()=>{const er=checks().filter(x=>x.l==='e').length;if(er&&!accept){accept=1;$('#fin').textContent='FINALIZAR DE TODAS FORMAS';$('#finm').textContent='⚠ El montaje tiene '+er+' error(es). Si continúas, el equipo fallará al arrancar.';return}$('#finm').textContent=er?'Montaje finalizado con errores. Ve a ARRANQUE para ver las consecuencias.':'✔ Montaje correcto. Ve a ARRANQUE para encenderlo.'};
+
+/* ---- arranque ---- */
+let bt=0,run=0,hist=[],tgt={t:32,w:0,c:0,m:0},cur={t:32,w:0,c:0,m:0};const mon=(t,c)=>{const d=document.createElement('div');d.textContent=t;if(c)d.className=c;$('#mon').appendChild(d);$('#mon').scrollTop=1e5};
+const sl=ms=>new Promise(r=>setTimeout(r,ms));
+async function boot(){const tk=++bt,ok=()=>tk===bt;run=0;pwr=0;fs=.15;$('#mon').innerHTML='';hist=[];const b=BO[CFG.b],c=g_(CP,CFG.c),r=g_(RA,CFG.r),p=g_(PS,CFG.p),g=g_(GP,CFG.g),ss=[g_(ST,CFG.s1),g_(ST,CFG.s2)].filter(Boolean);
+const f=async m=>{mon('✖ '+m,'x');mon('Arranque detenido (simulado).','y');pwr=0;fs=.1;tgt={t:32,w:0,c:0,m:0}};mon('[SIMULACIÓN DIDÁCTICA]','y');
+await sl(500);if(!ok())return;if(!p)return f('Sin fuente de alimentación: el equipo no recibe energía.');mon('1. Fuente de alimentación: activada ('+p.w+' W)');pwr=1;tgt.w=15;
+await sl(800);if(!ok())return;fs=1;mon('2. Ventiladores: en funcionamiento');
+if(est()>p.w){await sl(700);if(!ok())return;fs=0;return f('La fuente se apaga por sobrecarga: consumo estimado '+est()+' W > '+p.w+' W.')}
+await sl(800);if(!ok())return;if(!c)return f('Sin procesador: no hay nada que ejecutar el firmware.');if(c.s!==b.s)return f('CPU de socket '+c.s+' no compatible con la placa ('+b.s+').');mon('3. CPU: inicializada ('+c.n.split(' · ')[0]+')');tgt.w=40;tgt.c=8;
+await sl(800);if(!ok())return;mon('4. POST: comprobación de hardware…');
+await sl(900);if(!ok())return;if(!r||r.t!==b.m)return f('POST: memoria no detectada o incompatible ('+(r?r.t+' en placa '+b.m:'sin módulos')+').');mon('5. Memoria RAM: '+CFG.n*r.gb+' GB '+r.t+' detectados');tgt.m=15;
+await sl(800);if(!ok())return;mon('6. Almacenamiento: '+(ss.length?ss.map(s=>s.n).join(' + '):'ninguno detectado'),ss.length?'':'y');
+if(g&&g.pins>p.pins){mon('   Aviso: GPU sin alimentación PCIe suficiente; se usa vídeo integrado.','y')}
+await sl(800);if(!ok())return;mon('7. Firmware UEFI: inicializado');
+await sl(700);if(!ok())return;if(!ss.length)return f('No se encontró dispositivo de arranque.');mon('8. Cargando sistema operativo (simulado)…');for(let i=1;i<=5;i++){await sl(350);if(!ok())return;mon('   '+'█'.repeat(i*2)+'░'.repeat(10-i*2)+' '+i*20+' %')}
+mon('✔ Sistema operativo simulado listo.');run=1;$('#load').oninput()}
+$('#pw').onclick=boot;$('#off').onclick=()=>{bt++;run=0;pwr=0;fs=.15;tgt={t:32,w:0,c:0,m:0};mon('Equipo apagado.','y')};
+$('#load').oninput=()=>{const l=+$('#load').value,c=g_(CP,CFG.c),g=g_(GP,CFG.g);$('#ol').textContent=l+' %';if(!run)return;const w=40+(c?c.w:0)*l/100+(g?g.w*.6:0)*l/100;tgt={w,t:32+(w-40)*.22*(slow?2.2:1),c:l,m:15+l*.4}};let slow=0;
+function chartM(){const cv=$('#mch'),d=2,w=cv.width=cv.clientWidth*d,h=cv.height=cv.clientHeight*d,c=cv.getContext('2d');c.clearRect(0,0,w,h);[['t','#ff8a3d',110],['w','#22d3ee',500]].forEach(([k,col,mx])=>{c.strokeStyle=col;c.lineWidth=2*d;c.beginPath();hist.forEach((q,i)=>{const x=w*i/Math.max(hist.length-1,1),y=h-h*Math.min(q[k]/mx,1);i?c.lineTo(x,y):c.moveTo(x,y)});c.stroke()});c.fillStyle='#ff8a3d';c.font=11*d+'px system-ui';c.fillText('Temp.',4,12*d);c.fillStyle='#22d3ee';c.fillText('Consumo',50*d,12*d)}
+
+/* ---- averías ---- */
+const TS={post:'Leer mensajes POST',ram:'Inspeccionar módulos de RAM',psu:'Medir tensiones de la fuente',temp:'Revisar temperatura de la CPU',ssd:'Comprobar detección de almacenamiento',gpu:'Revisar conectores de la GPU'};
+const NO={ram:'Módulos bien asentados, clips cerrados.',psu:'Tensiones de +12 V, +5 V y +3,3 V dentro de rango.',temp:'CPU a 41 °C en reposo: normal.',ssd:'El SSD aparece en la lista de dispositivos del firmware.',gpu:'Conectores de la GPU bien insertados y con alimentación.'};
+const SC=[{n:'1 · Enciende pero no da imagen',s:'Los ventiladores giran y los LED se encienden, pero el monitor no recibe señal.',post:'POST: memoria no detectada. Inicialización detenida.',bad:{ram:'El módulo del primer zócalo no está insertado del todo: los clips están abiertos.'},led:'ram',flag:'ram',why:'Un módulo de RAM sin asentar impide que el controlador de memoria complete la inicialización, así que no hay POST ni imagen. Solución: reinsertar el módulo hasta oír el clic de los clips.'},
+{n:'2 · Se apaga al abrir un juego',s:'El equipo arranca y va bien, pero se apaga de golpe cuando la carga sube.',post:'POST correcto. Sistema operativo cargado.',bad:{psu:'La tensión de +12 V cae por debajo del rango cuando aumenta la carga.'},led:'pwr',flag:'psu',why:'Una fuente justa no sostiene el pico de consumo de CPU y GPU: la protección la apaga. Solución: calcular el consumo y elegir una fuente con margen.'},
+{n:'3 · Va lento y se apaga por calor',s:'Al cabo de unos minutos el equipo se ralentiza y se apaga.',post:'POST correcto. Aviso: temperatura de CPU elevada.',bad:{temp:'CPU a 96 °C en reposo: el ventilador del disipador no gira y la pasta térmica está seca.'},led:'cpu',flag:'disipador',why:'Sin refrigeración eficaz, la CPU reduce frecuencia (throttling) y acaba apagando el equipo para protegerse. Solución: reparar ventilador y renovar la pasta térmica.'},
+{n:'4 · No encuentra sistema operativo',s:'El equipo arranca, pasa el POST y pide insertar un dispositivo de arranque.',post:'POST correcto. No se encontró dispositivo de arranque.',bad:{ssd:'El SSD NVMe no aparece: no está bien asentado en la ranura M.2.'},led:'ssd',flag:'nvme',why:'Si el SSD no se detecta, el firmware no tiene dónde buscar el cargador de arranque. Solución: reasentar el SSD y fijarlo con su tornillo.'},
+{n:'5 · Sin imagen con la GPU instalada',s:'Los ventiladores de la GPU no giran y no hay imagen por la tarjeta.',post:'POST correcto. GPU: sin alimentación PCIe adicional.',bad:{gpu:'El cable de alimentación de 8 pines de la GPU está desconectado.'},led:'gpu',flag:'gpu',why:'La ranura PCIe solo da unos 75 W; la GPU necesita sus conectores de 8 pines. Solución: conectar el cable PCIe de la fuente a la tarjeta.'}];
+const CAU=['RAM mal instalada','Fuente de alimentación insuficiente','Refrigeración de CPU deficiente','SSD no detectado','Tarjeta gráfica mal conectada'],LED=['pwr','cpu','ram','gpu','ssd'],LN={pwr:'ALIM',cpu:'CPU',ram:'RAM',gpu:'GPU',ssd:'SSD'};
+let sc_=-1,used=0,wrong=0,done=0,seen=0,total=0,solved={};
+$('#sl').innerHTML=SC.map((s,i)=>'<button class="b" style="width:100%;margin:3px 0;text-align:left" data-i="'+i+'">'+s.n+'</button>').join('');
+function pickSc(i){sc_=i;used=wrong=0;done=solved[i]||0;seen=0;flag=null;slow=i===2;const s=SC[i];$('#sym').innerHTML='<b>Síntomas:</b> '+s.s;$('#log').textContent='Elige pruebas para localizar el origen.';$('#why').textContent='';$('#scr').textContent='—';
+$('#tst').innerHTML='<h3 style="margin-top:10px">PRUEBAS</h3>'+Object.keys(TS).map(k=>'<button class="b" style="width:100%;margin:3px 0;text-align:left" data-k="'+k+'">'+TS[k]+'</button>').join('');
+$('#cau').innerHTML='<h3 style="margin-top:10px">¿CUÁL ES EL ORIGEN?</h3>'+CAU.map((c,k)=>'<button class="b" data-c="'+k+'">'+c+'</button>').join('');leds();
+$$('#tst button').forEach(b=>b.onclick=()=>test(b.dataset.k));$$('#cau button').forEach(b=>b.onclick=()=>diag(+b.dataset.c));setOpen(1)}
+function leds(){$('#lds').innerHTML=LED.map(l=>'<span><i class="'+(!seen?'':(sc_>=0&&SC[sc_].led===l?'r':'g'))+'"></i>'+LN[l]+'</span>').join('')}
+function test(k){if(sc_<0)return;const s=SC[sc_];used++;let r=k==='post'?s.post:(s.bad[k]||NO[k]);if(k==='post'){seen=1;leds()}if(s.bad[k])flag=s.flag;$('#log').innerHTML='<b>'+TS[k]+':</b> '+r+'<br><span style="color:var(--mut)">Pruebas realizadas: '+used+'</span>'}
+function diag(c){if(sc_<0)return;const s=SC[sc_];if(c===sc_){const pts=Math.max(0,100-10*used-25*wrong);if(!solved[sc_]){total+=pts;solved[sc_]=pts}flag=s.flag;$('#scr').textContent=pts+' pts';$('#why').innerHTML='✔ <b>Diagnóstico correcto.</b> '+s.why+'<br>Total acumulado: '+total+' pts.';docPts(pts>=50?1:0)}else{wrong++;$('#log').innerHTML='✖ <b>No es '+CAU[c].toLowerCase()+'.</b> Revisa los síntomas y haz más pruebas. (−25 pts)'}}
+$$('#sl button').forEach(b=>b.onclick=()=>pickSc(+b.dataset.i));
+
+/* ---- docente ---- */
+let pts=0;const docPts=n=>{pts+=n;$('#sc').textContent=document.body.classList.contains('d')?'· '+pts+' pts':''};
+function quiz(el,q,o,ok,ex){el.innerHTML='<b>'+q+'</b>';const fb=document.createElement('p');fb.className='note';o.forEach((t,i)=>{const b=document.createElement('button');b.className='b';b.textContent=t;b.onclick=()=>{b.disabled=true;fb.textContent=(i===ok?'✔ Correcto. ':'✖ Casi. ')+ex;if(i===ok)docPts(1)};el.appendChild(b)});el.appendChild(fb)}
+quiz($('#q1'),'¿Qué componente guarda temporalmente los datos de los programas en ejecución?',['SSD NVMe','Memoria RAM','Fuente de alimentación'],1,'La RAM es volátil y mucho más rápida que el almacenamiento. Selecciónala en 3D para ver sus conexiones.');
+quiz($('#q2'),'Predicción: si quitas el ventilador del disipador, ¿qué ocurrirá con la CPU bajo carga?',['Se calentará y reducirá frecuencia','Irá más rápida','No cambia nada'],0,'Sin extracción de calor la CPU alcanza su límite térmico y aplica throttling.');
+quiz($('#q3'),'Para una placa con socket AM5, ¿qué memoria necesitas?',['DDR4','DDR5','Cualquiera'],1,'Las muescas de DDR4 y DDR5 están en posiciones distintas; no se pueden mezclar.');
+quiz($('#q4'),'Predicción: al subir la carga de CPU de 10 % a 100 %, ¿qué pasa?',['Suben consumo y temperatura','Solo baja la frecuencia','No cambia nada'],0,'Más trabajo implica más potencia disipada y, por tanto, más temperatura (modelo conceptual).');
+$('#doc').onchange=e=>{document.body.classList.toggle('d',e.target.checked);docPts(0)};
+
+/* ---- pestañas y demostración ---- */
+function setTab(t){tab=t;document.body.dataset.t=t;$$('#tabs button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));if(t==='b')setOpen(0)}
+$$('#tabs button').forEach(b=>b.onclick=()=>{stopDemo();setTab(b.dataset.t)});
+let D=0,DP=0,DT=0;const wait=ms=>new Promise((ok,no)=>{let el=0,tk=DT;(function f(){if(!D||tk!==DT)return no('x');if(!DP)el+=50;el>=ms?ok():setTimeout(f,50)})()});const cap=t=>{$('#cap').textContent=t;$('#cap').style.opacity=1};
+function stopDemo(){D=0;DT++;DP=0;$('#dc').classList.remove('on');$('#demo').style.display='';$('#cap').style.opacity=0;$('#dp').textContent='Pausar'}
+async function demo(){stopDemo();D=1;const tk=++DT;$('#dc').classList.add('on');$('#demo').style.display='none';
+try{Object.assign(CFG,PRE[1]);apply();setOpen(0);setExp(0);setFlows(false);sel=null;flag=null;bt++;pwr=0;run=0;setTab('e');cap('1 · El ordenador completo');cam.position.set(14,8,22);goCam([9,6.5,14],[0,4,0]);await wait(3500);
+cap('2 · Se abre el panel lateral');setOpen(1);await wait(2500);cap('3 · Vista explosionada');setExp(1);await wait(3500);
+cap('4 · Acercamos al procesador y a la placa base');goCam([4,6.5,3],[.5,5.4,-2.5]);await wait(3500);
+cap('5 · Flujos de datos (conceptual)');setFlows(true);await wait(4500);
+cap('6 · Los componentes vuelven a montarse');setFlows(false);setExp(0);home();await wait(3500);
+cap('7 · Encendemos el ordenador');setOpen(1);setTab('b');await wait(1200);boot();cap('8 · Secuencia POST (simulada)');await wait(8500);
+cap('9 · Introducimos una avería simulada');setTab('a');pickSc(0);await wait(2500);cap('10 · Reto: ¿cuál es el origen del problema?');await wait(3500)}catch(e){}
+if(tk===DT){stopDemo()}}
+$('#demo').onclick=demo;$('#ds').onclick=stopDemo;$('#dr').onclick=demo;$('#dp').onclick=()=>{DP=!DP;$('#dp').textContent=DP?'Reanudar':'Pausar'};
+addEventListener('keydown',e=>{if(e.key==='Escape')stopDemo()});
+
+/* ---- bucle ---- */
+let last=performance.now(),tt=0,lc=0;
+function loop(now){requestAnimationFrame(loop);const dt=Math.min((now-last)/1000,.1);last=now;tt+=dt;
+ex+=(exT-ex)*Math.min(1,dt*3);op+=(opT-op)*Math.min(1,dt*3);
+const fl=Math.sin(tt*6)*.5+.5;Object.values(parts).forEach(g=>{const u=g.userData;g.position.copy(u.base).addScaledVector(u.dir,ex);const em=g.userData.key===flag?(fl>.5?0xaa1111:0x330000):g===sel?0x1d5d7d:g===hov?0x103848:0;g.traverse(m=>m.material&&m.material.emissive&&m.material.emissive.setHex(em))});
+panel.position.x=op*9;panel.children[0].material.opacity=.16*(1-op*.9);
+const sp=fs*(parts.disipador.visible?1:1)*(tab==='b'||tab==='e'?1:1);spin.forEach((r,i)=>r.rotation.z+=dt*20*sp*(i===0&&sc_===2&&tab==='a'?0:1));
+const hue=(tt*.15)%1,rc=new T.Color().setHSL(.5+Math.sin(tt)*.08,.9,pwr?.55:.1);rgb.forEach(m=>m.material.color.copy(rc).lerp(new T.Color(0xff8a3d),.5*(Math.sin(tt*2)*.5+.5)*pwr));
+if(flows.visible)fp.forEach((q,k)=>{for(let i=0;i<q.n;i++){let t=(tt*(.5+k*.05)+i/q.n)%1;if(q.f[3]&&Math.floor(tt*(.5)+i/q.n)%2)t=1-t;const a=q.f[0],b=q.f[1];q.a[i*3]=a[0]+(b[0]-a[0])*t;q.a[i*3+1]=a[1]+(b[1]-a[1])*t+Math.sin(t*6.28+i)*.05;q.a[i*3+2]=a[2]+(b[2]-a[2])*t}q.p.geometry.attributes.position.needsUpdate=true});
+if(tw){cam.position.lerp(tw.p,Math.min(1,dt*2));ctl.target.lerp(tw.t,Math.min(1,dt*2))}ctl.update();
+if(tab==='b'){['t','w','c','m'].forEach(k=>cur[k]+=(tgt[k]-cur[k])*Math.min(1,dt*1.5));const on=pwr||cur.w>1;$('#mT').textContent=on?cur.t.toFixed(0)+' °C':'—';$('#mW').textContent=on?cur.w.toFixed(0)+' W':'—';$('#mC').textContent=on?cur.c.toFixed(0)+' %':'—';$('#mR').textContent=on?cur.m.toFixed(0)+' %':'—';
+if(now-lc>400){lc=now;if(on){hist.push({t:cur.t,w:cur.w});if(hist.length>60)hist.shift()}chartM()}}
+R.render(sc,cam)}
+apply();setTab('e');requestAnimationFrame(loop);
+})()}catch(e){console.error(e);$('#err').style.display='grid'}
+</script>
+</body>
+</html>

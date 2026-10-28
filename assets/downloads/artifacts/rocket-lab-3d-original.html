@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ROCKET LAB 3D — Centro de Simulación Aeroespacial</title>
+<style>
+:root{--bg:#02060f;--fg:#dff3ff;--mut:#8fb3c9;--cy:#22d3ee;--or:#ff8a3d;--bl:#4d7cff;--pn:rgba(6,16,36,.66);--ln:rgba(34,211,238,.3);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow:hidden}
+#c{position:fixed;inset:0;width:100%;height:100%;display:block}
+header{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;padding:10px 16px;background:rgba(3,10,24,.7);backdrop-filter:blur(8px);border-bottom:1px solid var(--ln);z-index:5}
+.logo{font-weight:800;letter-spacing:3px;font-size:18px}.logo small{display:block;font-weight:400;letter-spacing:1px;color:var(--mut);font-size:11px}
+#tabs{display:flex;gap:6px}
+button,select{font:inherit;color:var(--fg)}
+.b,#tabs button{background:rgba(34,211,238,.08);border:1px solid var(--ln);border-radius:8px;padding:8px 14px;min-height:44px;cursor:pointer;letter-spacing:1px;transition:.2s}
+.b:hover,#tabs button:hover{background:rgba(34,211,238,.2)}
+#tabs button.on{background:var(--cy);color:#02101c;font-weight:700}
+.act{margin-left:auto;display:flex;gap:10px;align-items:center}
+#demo{border-color:var(--or);color:var(--or);font-weight:700}
+.sw{display:flex;gap:8px;align-items:center;cursor:pointer;min-height:44px}.sw input{width:20px;height:20px;accent-color:var(--cy)}
+.p{position:absolute;top:84px;bottom:16px;width:310px;max-width:46vw;background:var(--pn);backdrop-filter:blur(10px);border:1px solid var(--ln);border-radius:12px;padding:14px;overflow:auto;z-index:3;box-shadow:0 0 30px rgba(34,211,238,.08)}
+.L{left:16px}.R{right:16px}
+.X{left:16px;right:16px;width:auto;max-width:none;margin:0 auto;max-width:1000px}
+.p h3{margin:0 0 10px;font-size:12px;letter-spacing:3px;color:var(--cy)}
+label{display:block;margin:10px 0;color:var(--mut)}label output{float:right;color:var(--fg);font-variant-numeric:tabular-nums}
+input[type=range]{width:100%;accent-color:var(--cy)}select{width:100%;background:#0a1830;border:1px solid var(--ln);border-radius:8px;padding:8px;min-height:44px}
+.row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:6px}.row .b{flex:1 1 130px}
+.kv{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(255,255,255,.07);padding:6px 0}
+.kv span{color:var(--mut)}.kv b{font-size:28px;font-variant-numeric:tabular-nums;color:var(--cy)}.kv b.o{color:var(--or)}.kv small{font-size:12px;color:var(--mut);margin-left:4px}
+.st{display:inline-block;padding:2px 10px;border-radius:99px;font-weight:700;font-size:13px}
+.ok{background:#0e6b4f;color:#c8ffe8}.mg{background:#7a4a08;color:#ffe2b8}.bad{background:#8a1c1c;color:#ffd5d5}
+.note{font-size:12px;color:var(--mut);margin-top:10px}.doc{display:none;border-left:3px solid var(--or);padding:6px 10px;margin:10px 0;background:rgba(255,138,61,.08);font-size:13px}
+body.d .doc{display:block}
+body[data-t=m] .t-l,body[data-t=m] .t-x,body[data-t=l] .t-m,body[data-t=l] .t-x,body[data-t=x] .t-m,body[data-t=x] .t-l{display:none}
+canvas.ch{width:100%;height:170px;display:block;margin-top:8px}
+#go{width:100%;min-height:72px;font-size:20px;font-weight:800;letter-spacing:3px;background:linear-gradient(180deg,#ff9d57,#e0561a);color:#1b0a00;border:0;border-radius:12px;cursor:pointer;box-shadow:0 0 28px rgba(255,138,61,.5)}
+#go:disabled{opacity:.4;cursor:default;box-shadow:none}
+#cd{position:fixed;left:50%;top:42%;transform:translate(-50%,-50%);font-size:min(22vw,200px);font-weight:800;color:var(--or);text-shadow:0 0 40px var(--or);pointer-events:none;z-index:4}
+#cap{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);padding:12px 24px;background:rgba(3,10,24,.8);border:1px solid var(--or);border-radius:99px;z-index:6;opacity:0;transition:.4s;letter-spacing:1px;pointer-events:none}
+#fin{position:fixed;inset:0;display:none;place-items:center;background:rgba(2,6,15,.75);z-index:8}#fin>div{background:#06142a;border:1px solid var(--cy);border-radius:16px;padding:24px;min-width:300px;max-width:90vw}
+.lb{position:fixed;pointer-events:none;font-size:11px;letter-spacing:1px;padding:2px 8px;border:1px solid var(--ln);background:rgba(3,10,24,.7);border-radius:4px;z-index:2;white-space:nowrap}
+.q button{display:block;width:100%;margin:6px 0;text-align:left}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:4px 6px;border-bottom:1px solid rgba(255,255,255,.08);text-align:right}td:first-child,th:first-child{text-align:left}
+#err{display:none;position:fixed;inset:0;place-items:center;text-align:center;background:var(--bg);z-index:20;padding:24px}
+</style>
+</head>
+<body data-t="m">
+<canvas id="c"></canvas>
+<div id="err"><div><h2>No se pudo iniciar el motor 3D</h2><p>Comprueba que el navegador admite WebGL.</p><button class="b" onclick="location.reload()">Reintentar</button></div></div>
+<header>
+<div class="logo">ROCKET LAB 3D<small>Centro de Simulación Aeroespacial</small></div>
+<nav id="tabs"><button data-t="m" class="on">MOTOR</button><button data-t="l">LANZAMIENTO</button><button data-t="x">LABORATORIO</button></nav>
+<div class="act"><button class="b" id="demo">▶ DEMOSTRACIÓN AUTOMÁTICA</button><label class="sw"><input type="checkbox" id="doc"><span>MODO DOCENTE</span></label></div>
+</header>
+
+<aside class="p L t-m"><h3>CONTROL DEL MOTOR</h3>
+<div class="row"><button class="b" id="bcut">Corte transversal</button><button class="b" id="bexp">Vista explosionada</button><button class="b" id="brst">Restablecer vista</button></div>
+<label>Aceleración del motor <output id="o_thr">100 %</output><input class="mp" type="range" id="thr" min="0" max="100" value="100"></label>
+<label>Relación de mezcla O/F <output id="o_mr">2.40</output><input class="mp" type="range" id="mr" min="1.5" max="3.5" step=".05" value="2.4"></label>
+<label>Presión de cámara (norm.) <output id="o_pc">1.00</output><input class="mp" type="range" id="pc" min=".5" max="1.2" step=".01" value="1"></label>
+<label>Eficiencia del sistema <output id="o_eff">95 %</output><input class="mp" type="range" id="eff" min="70" max="100" value="95"></label>
+<label>Condiciones atmosféricas<select id="atm"><option value="101.3">Nivel del mar</option><option value="26.5">10 km de altitud</option><option value="0">Vacío</option></select></label>
+<div class="doc"><b>Tercera ley de Newton.</b> El motor expulsa gas hacia abajo (acción) y el cohete recibe una fuerza hacia arriba (reacción). Modelo: F = ṁ·vₑ + (pₑ − pₐ)·Aₑ.</div>
+<p class="note">Pulsa un componente para ver su información. Arrastra para girar y usa la rueda para acercar.</p></aside>
+
+<aside class="p R t-m"><h3>TELEMETRÍA DEL MOTOR (SIMULADA)</h3>
+<div class="kv"><span>Empuje estimado</span><b id="oF">0</b><small>kN</small></div>
+<div class="kv"><span>Temperatura relativa</span><b class="o" id="oT">0</b></div>
+<div class="kv"><span>Consumo de propelente</span><b id="oM">0</b><small>kg/s</small></div>
+<div class="kv"><span>Velocidad de salida</span><b class="o" id="oV">0</b><small>m/s</small></div>
+<div class="kv"><span>Estabilidad operativa</span><span class="st ok" id="oS">ESTABLE</span></div>
+<h3 style="margin-top:16px">COMPONENTE</h3><div id="info"><p class="note">Ningún componente seleccionado.</p></div>
+<p class="note"><b>Hipótesis:</b> ṁ ∝ aceleración × presión; vₑ máx. 2 900 m/s; presión de salida ficticia de 45 kPa; Aₑ = 1,4 m². Son valores didácticos, no mediciones ni especificaciones de ningún motor real.</p></aside>
+
+<aside class="p L t-l"><h3>SECUENCIA DE LANZAMIENTO</h3>
+<button id="go">INICIAR LANZAMIENTO</button>
+<div class="row" style="margin-top:10px"><button class="b" id="bpa">Pausar</button><button class="b" id="bre">Reiniciar</button></div>
+<p class="note">Usa los parámetros del motor de la pestaña MOTOR. La simulación avanza a velocidad ×5.</p>
+<div class="doc"><b>Fuerzas sobre el cohete</b><canvas class="ch" id="fc" style="height:150px"></canvas>Flecha cian: empuje. Roja: peso. Naranja: resistencia del aire. El empuje es la reacción a los gases expulsados.</div>
+<div class="doc q" id="q1"></div>
+<p class="note"><b>Hipótesis:</b> vuelo vertical 1D; masa en seco 12 t, propelente 38 t; gravedad que decrece con la altura; densidad exponencial (H = 8,5 km); Cd = 0,4 y A = 10 m². Es un modelo educativo.</p></aside>
+
+<aside class="p R t-l"><h3>TELEMETRÍA DE MISIÓN</h3>
+<div class="kv"><span>Tiempo de misión</span><b id="lT">T−5.0</b></div>
+<div class="kv"><span>Altitud</span><b id="lH">0.00</b><small>km</small></div>
+<div class="kv"><span>Velocidad</span><b class="o" id="lV">0</b><small>m/s</small></div>
+<div class="kv"><span>Aceleración</span><b id="lA">0.0</b><small>m/s²</small></div>
+<div class="kv"><span>Combustible</span><b class="o" id="lP">100</b><small>%</small></div>
+<div class="kv"><span>Empuje</span><b id="lF">0</b><small>kN</small></div>
+<div class="kv"><span>Estado</span><span class="st ok" id="lS">EN PLATAFORMA</span></div>
+<canvas class="ch" id="lc"></canvas></aside>
+
+<aside class="p X t-x"><h3>LABORATORIO DE EXPERIMENTOS</h3>
+<div class="row" id="exT"><button class="b" data-e="A">A · Efecto del empuje</button><button class="b" data-e="B">B · Gravedad en otros mundos</button><button class="b" data-e="C">C · Masa del vehículo</button></div>
+<div class="q"><b id="exQ"></b><div id="exO"></div><p id="exF" class="note"></p></div>
+<div id="exC"></div>
+<div class="row"><button class="b" id="exR">EJECUTAR EXPERIMENTO</button><button class="b" id="exX">Borrar gráfica</button></div>
+<canvas class="ch" id="exH" style="height:210px"></canvas>
+<table id="exTb"></table><p id="exE" class="note"></p><div class="doc" id="exD"></div>
+<p class="note">Todas las simulaciones usan el modelo vertical simplificado descrito en LANZAMIENTO. Gravedades: Tierra 9,81; Luna 1,62; Marte 3,71 m/s².</p></aside>
+
+<div id="cd"></div><div id="cap"></div>
+<div id="fin"><div><h3 style="color:var(--cy);letter-spacing:3px;margin-top:0">MISIÓN COMPLETADA · ESTADÍSTICAS</h3><div id="finB"></div><button class="b" id="finX" style="margin-top:12px">Cerrar</button></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+try{(function(){
+const T=THREE,P={thr:1,mr:2.4,pc:1,eff:.95,atm:101.3};
+const BODY={Tierra:{g:9.81,R:6371e3,r0:1.225,H:8500,p0:101.3},Luna:{g:1.62,R:1737e3,r0:0,H:1e4,p0:0},Marte:{g:3.71,R:3390e3,r0:.02,H:11100,p0:.6}};
+const DRY=12000,PROP=38000;
+function eng(p,pa){const x=(p.mr-2.4)/2.4,mix=1-.5*x*x,mdot=320*p.thr*p.pc,ve=2900*p.eff*mix*Math.sqrt(p.pc),pe=45*p.pc*p.thr,F=mdot*ve/1000+(p.thr>0?(pe-pa)*1.4:0),Tm=(.55+.45*p.thr)*(1-.4*x*x)*(.8+.2*p.pc),risk=Math.max(0,p.pc-1)*2+Math.abs(x)*.8+Math.max(0,p.thr-.95)*.5+(p.thr>0&&p.thr<.2?.4:0);return{F:Math.max(F,0),ve,mdot,T:Tm,risk}}
+function newS(pay){return{t:0,h:0,v:0,a:0,F:0,m:DRY+(pay||0)+PROP,prop:PROP,amax:0,vmax:0,hmax:0,count:0,lh:0,hist:[[0,0,0]]}}
+function step(S,dt,G,p){const pa=G.p0*Math.exp(-S.h/G.H),rho=G.r0*Math.exp(-S.h/G.H),e=eng(p,pa),F=S.prop>0?e.F:0,md=S.prop>0?e.mdot:0,g=G.g*Math.pow(G.R/(G.R+S.h),2),dr=.5*rho*S.v*Math.abs(S.v)*.4*10;let a=(F*1000-dr)/S.m-g;if(S.h<=0&&a<0&&S.v<=0){a=0;S.v=0}S.v+=a*dt;S.h=Math.max(S.h+S.v*dt,0);const u=Math.min(md*dt,S.prop);S.prop-=u;S.m-=u;S.t+=dt;S.a=a;S.F=F;S.amax=Math.max(S.amax,a);S.vmax=Math.max(S.vmax,S.v);S.hmax=Math.max(S.hmax,S.h)}
+
+/* ---------- escena ---------- */
+const cv=$('#c'),R=new T.WebGLRenderer({canvas:cv,antialias:true});R.setPixelRatio(Math.min(devicePixelRatio,2));R.localClippingEnabled=true;
+const sc=new T.Scene(),cam=new T.PerspectiveCamera(45,1,.1,20000),ctl=new T.OrbitControls(cam,cv);ctl.enableDamping=true;ctl.minDistance=4;ctl.maxDistance=30;
+const C1=new T.Color(0x0a1a33),C0=new T.Color(0x02040a);sc.background=C1.clone();
+sc.add(new T.HemisphereLight(0x9ec8ff,0x1a2233,.9));const dl=new T.DirectionalLight(0xffffff,1.3);dl.position.set(6,10,8);sc.add(dl);
+{const n=900,a=new Float32Array(n*3);for(let i=0;i<n;i++){const u=Math.random()*6.283,v=Math.acos(2*Math.random()-1);a.set([3000*Math.sin(v)*Math.cos(u),3000*Math.cos(v),3000*Math.sin(v)*Math.sin(u)],i*3)}sc.add(new T.Points(new T.BufferGeometry().setAttribute('position',new T.BufferAttribute(a,3)),new T.PointsMaterial({color:0xffffff,size:1.6,sizeAttenuation:false})))}
+function resize(){R.setSize(innerWidth,innerHeight);cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}addEventListener('resize',resize);resize();
+
+/* ---------- motor ---------- */
+const plane=new T.Plane(new T.Vector3(-1,0,0),1e3),motor=new T.Group();sc.add(motor);
+const mt=(c,m,r)=>new T.MeshStandardMaterial({color:c,metalness:m,roughness:r,side:T.DoubleSide,clippingPlanes:[plane]});
+const MT={camara:mt(0xb7c4d4,.9,.35),tobera:mt(0xc7773a,.85,.4),turbo:mt(0x5d8fb8,.9,.35),conductos:mt(0xd9dee6,.95,.25)};
+const parts=[];
+function part(key,name,dir,anc,ms){const g=new T.Group();g.userData={key,name,dir:new T.Vector3(...dir),anc:new T.Vector3(...anc)};ms.forEach(m=>{m.material=MT[key];g.add(m)});motor.add(g);parts.push(g);return g}
+const M=(geo,x=0,y=0,z=0,rx=0)=>{const m=new T.Mesh(geo);m.position.set(x,y,z);m.rotation.x=rx;return m};
+const lathe=pts=>new T.LatheGeometry(pts.map(p=>new T.Vector2(p[0],p[1])),48);
+const cham=part('camara','Cámara de combustión',[0,1.6,0],[1.1,2.1,0],[M(lathe([[0,3.05],[.5,3],[.85,2.85],[1,2.6],[1,1.5],[.9,1.2],[.7,.85],[.55,.6]])),M(new T.TorusGeometry(1.03,.07,12,48),0,2.2,0,Math.PI/2)]);
+const nz=[];for(let i=0;i<=20;i++){const s=i/20;nz.push([.55+1.55*Math.pow(s,.6),.6-3.4*s])}
+const tob=part('tobera','Tobera',[0,-1.8,0],[1.6,-1.6,0],[M(lathe(nz.map(q=>q)))]);
+const turb=part('turbo','Turbobombas',[0,.5,0],[2.7,2.2,0],[-1,1].flatMap(s=>[M(new T.CylinderGeometry(.45,.45,1.3,24),s*2.1,1.9,0),M(new T.TorusGeometry(.5,.12,10,28),s*2.1,1.9,0,Math.PI/2)]));
+const tube=(pts)=>new T.TubeGeometry(new T.CatmullRomCurve3(pts.map(p=>new T.Vector3(...p))),24,.09,8);
+const cond=part('conductos','Conductos de propelente',[0,2.4,0],[0,3.9,0],[-1,1].flatMap(s=>[M(tube([[s*2.1,2.6,0],[s*2,3.5,0],[s*1,3.8,0],[s*.3,3.2,0]])),M(tube([[s*2.1,1.3,0],[s*1.6,1.2,0],[s*1.2,1.7,0],[s*1.04,2.2,0]]))]));
+const INFO={camara:'Aquí se mezclan y queman combustible y oxidante a alta presión. Los gases alcanzan miles de kelvin; las paredes se refrigeran con el propio combustible.',tobera:'Acelera los gases calientes: convierte energía térmica en velocidad. Se estrecha hasta la garganta y se ensancha después, para alcanzar velocidad supersónica.',turbo:'Bombean combustible y oxidante a presión muy alta hacia la cámara. Una turbina accionada por gas mueve las bombas.',conductos:'Transportan los propelentes desde las bombas hasta el colector y el inyector, que los reparte en la cámara.'};
+const glow=M(new T.CylinderGeometry(.8,.6,1.5,24),0,2.0,0);glow.material=new T.MeshBasicMaterial({color:0xff7a1a,transparent:true,opacity:0,blending:T.AdditiveBlending,depthWrite:false});motor.add(glow);
+function flame(){const g=new T.Group(),mk=c=>{const m=new T.Mesh(new T.ConeGeometry(1,1,24,1,true),new T.MeshBasicMaterial({color:c,transparent:true,opacity:.7,blending:T.AdditiveBlending,depthWrite:false,side:T.DoubleSide}));m.geometry.rotateX(Math.PI);m.geometry.translate(0,-.5,0);return m},o=mk(0xff7a1a),i=mk(0x7fe8ff),n=220,pos=new Float32Array(n*3),pts=new T.Points(new T.BufferGeometry().setAttribute('position',new T.BufferAttribute(pos,3)),new T.PointsMaterial({color:0xffc477,size:.1,transparent:true,blending:T.AdditiveBlending,depthWrite:false}));g.add(o,i,pts);g.userData={o,i,pts,pos,ph:Array.from({length:n},()=>Math.random())};g.traverse(m=>m.raycast=()=>{});return g}
+function updF(g,thr,len,rad,t,dt){const u=g.userData;g.visible=thr>.01;if(!g.visible)return;const f=1+.06*Math.sin(t*45),h=len*(1+.08*Math.sin(t*53));u.o.scale.set(rad*f,h,rad*f);u.i.scale.set(rad*.5*f,h*.62,rad*.5*f);u.o.material.opacity=.55*thr;u.i.material.opacity=.8*thr;u.pts.material.opacity=thr;for(let j=0;j<u.ph.length;j++){u.ph[j]=(u.ph[j]+dt*(.7+thr))%1;const p=u.ph[j],a=j*2.4;u.pos[j*3]=Math.cos(a)*rad*(.2+.9*p)*(.5+.5*Math.sin(j*1.7));u.pos[j*3+1]=-p*h*1.15;u.pos[j*3+2]=Math.sin(a)*rad*(.2+.9*p)*(.5+.5*Math.sin(j*1.7))}u.pts.geometry.attributes.position.needsUpdate=true}
+const mf=flame();mf.position.y=-2.8;tob.add(mf);
+const pL=new T.PointLight(0xff8a3d,0,9);pL.position.set(0,2,0);motor.add(pL);
+
+/* ---------- lanzamiento ---------- */
+const lg=new T.Group();lg.visible=false;sc.add(lg);
+const gnd=new T.Mesh(new T.CircleGeometry(1500,48),new T.MeshStandardMaterial({color:0x1b2330,roughness:1}));gnd.rotation.x=-Math.PI/2;gnd.position.y=-.02;lg.add(gnd);
+lg.add(M(new T.BoxGeometry(9,.5,9),0,-.25,0).clone());lg.children[1].material=new T.MeshStandardMaterial({color:0x39414f});
+const tw=M(new T.BoxGeometry(.7,13,.7),-4,6.5,0);tw.material=new T.MeshStandardMaterial({color:0xc9462c,metalness:.4,roughness:.6});lg.add(tw);
+const rk=new T.Group();lg.add(rk);const wm=new T.MeshStandardMaterial({color:0xf0f4fa,metalness:.5,roughness:.35}),om=new T.MeshStandardMaterial({color:0xe0561a,metalness:.4,roughness:.5});
+[M(new T.CylinderGeometry(.7,.7,6,32),0,3.4,0),M(new T.ConeGeometry(.7,1.8,32),0,7.3,0),M(new T.CylinderGeometry(.72,.72,.8,32),0,4.6,0),M(new T.CylinderGeometry(.5,.8,.8,24),0,.1,0)].forEach((m,i)=>{m.material=i==2||i==3?om:wm;rk.add(m)});
+for(let i=0;i<3;i++){const f=M(new T.BoxGeometry(1.4,1.8,.12),0,1.1,0);f.material=om;const a=new T.Group();a.rotation.y=i*2.094;f.position.x=.9;a.add(f);rk.add(a)}
+const rf=flame();rf.position.y=-.2;rk.add(rf);
+
+/* ---------- interacción 3D ---------- */
+const ray=new T.Raycaster(),mp=new T.Vector2();let hov=null,sel=null,ex=0,exT=0,cutOn=false,tab='m',pd=null;
+function pickAt(e){const r=cv.getBoundingClientRect();mp.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);ray.setFromCamera(mp,cam);const h=ray.intersectObjects(parts,true)[0];if(!h)return null;let o=h.object;while(o&&!o.userData.key)o=o.parent;return o}
+cv.addEventListener('pointermove',e=>{if(tab==='l')return;hov=pickAt(e);cv.style.cursor=hov?'pointer':'grab'});
+cv.addEventListener('pointerdown',e=>pd=[e.clientX,e.clientY]);
+cv.addEventListener('pointerup',e=>{if(tab==='l'||!pd||Math.hypot(e.clientX-pd[0],e.clientY-pd[1])>5)return;sel=pickAt(e);$('#info').innerHTML=sel?'<b>'+sel.userData.name+'</b><p>'+INFO[sel.userData.key]+'</p><p class="note">Modelo conceptual y educativo.</p>':'<p class="note">Ningún componente seleccionado.</p>'});
+const labs=parts.map(p=>{const d=document.createElement('div');d.className='lb';d.textContent=p.userData.name;document.body.appendChild(d);return d});
+function setCut(v){cutOn=v;plane.constant=v?0:1e3;$('#bcut').style.background=v?'rgba(34,211,238,.35)':''}
+function setExp(v){exT=v;$('#bexp').style.background=v?'rgba(34,211,238,.35)':''}
+function resetView(){setCut(false);setExp(0);sel=null;$('#info').innerHTML='<p class="note">Ningún componente seleccionado.</p>';cam.position.set(7,3,9);ctl.target.set(0,.6,0);ctl.autoRotate=false}
+resetView();
+$('#bcut').onclick=()=>setCut(!cutOn);$('#bexp').onclick=()=>setExp(exT?0:1);$('#brst').onclick=resetView;
+
+/* ---------- parámetros y lecturas ---------- */
+const K={thr:100,mr:1,pc:1,eff:100};
+function upd(){const e=eng(P,P.atm);$('#oF').textContent=e.F.toFixed(0);$('#oT').textContent=(e.T*100).toFixed(0)+' %';$('#oM').textContent=e.mdot.toFixed(0);$('#oV').textContent=P.thr>0?e.ve.toFixed(0):'0';const s=$('#oS'),k=e.risk<.35?['ESTABLE','ok']:e.risk<.7?['MARGINAL','mg']:['INESTABLE','bad'];s.textContent=k[0];s.className='st '+k[1]}
+function setP(k,v){P[k]=v;$('#'+k).value=v*K[k];$('#o_'+k).textContent=(k==='mr'||k==='pc')?v.toFixed(2):Math.round(v*100)+' %';upd()}
+$$('.mp').forEach(s=>s.oninput=()=>setP(s.id,s.value/K[s.id]));
+$('#atm').onchange=e=>{P.atm=+e.target.value;upd()};upd();
+
+/* ---------- gráficas ---------- */
+function chart(cv,ser,norm){const d=2,w=cv.width=cv.clientWidth*d,h=cv.height=cv.clientHeight*d,c=cv.getContext('2d');c.clearRect(0,0,w,h);c.font=11*d+'px system-ui';let tx=1;const m=ser.map(s=>Math.max(1e-9,...s.p.map(q=>q[1])));ser.forEach(s=>s.p.forEach(q=>tx=Math.max(tx,q[0])));const mx=Math.max(...m,1e-9),L=34*d,B=h-18*d,H=h-30*d;
+c.strokeStyle='rgba(120,200,255,.18)';c.fillStyle='#8fb3c9';for(let i=0;i<=4;i++){const y=B-H*i/4;c.beginPath();c.moveTo(L,y);c.lineTo(w,y);c.stroke();if(!norm)c.fillText((mx*i/4).toFixed(mx<10?1:0),0,y+4*d)}
+c.fillText('t = '+tx.toFixed(0)+' s',w-70*d,h-4*d);ser.forEach((s,k)=>{c.strokeStyle=s.c;c.lineWidth=2*d;c.beginPath();s.p.forEach((q,j)=>{const x=L+(w-L)*q[0]/tx,y=B-H*q[1]/(norm?m[k]:mx);j?c.lineTo(x,y):c.moveTo(x,y)});c.stroke();c.fillStyle=s.c;c.fillText(s.n+(norm?' · máx '+m[k].toFixed(1):''),L+6*d,(14+k*13)*d)})}
+function forces(){const cv=$('#fc');if(!cv.clientWidth)return;const d=2,w=cv.width=cv.clientWidth*d,h=cv.height=cv.clientHeight*d,c=cv.getContext('2d');c.clearRect(0,0,w,h);const cx=w/2,cy=h/2,e=eng(P,BODY.Tierra.p0*Math.exp(-S.h/8500)),F=S.prop>0&&L.run&&!S.count?e.F:0,W=S.m*9.81/1000,Dg=.5*1.225*Math.exp(-S.h/8500)*S.v*Math.abs(S.v)*4/1000,sc2=(h*.42)/Math.max(F,W,1);
+c.fillStyle='#d9dee6';c.fillRect(cx-12*d,cy-30*d,24*d,60*d);const ar=(y,c0,t)=>{c.strokeStyle=c.fillStyle=c0;c.lineWidth=3*d;const l=Math.abs(y);if(l<3)return;const s=Math.sign(y);c.beginPath();c.moveTo(cx,cy);c.lineTo(cx,cy-y);c.stroke();c.beginPath();c.moveTo(cx,cy-y);c.lineTo(cx-6*d,cy-y+s*10*d);c.lineTo(cx+6*d,cy-y+s*10*d);c.fill();c.font=11*d+'px system-ui';c.fillText(t,cx+14*d,cy-y/2)};
+ar(F*sc2,'#22d3ee','Empuje '+F.toFixed(0)+' kN');ar(-W*sc2,'#ff5a5a','Peso '+W.toFixed(0)+' kN');ar(-Math.min(Dg,W)*sc2,'#ff8a3d','Resistencia '+Dg.toFixed(1)+' kN')}
+
+/* ---------- lanzamiento ---------- */
+let S=newS(0),L={run:0,pause:0,over:0,warp:5},lastCh=0;
+function resetL(){S=newS(0);L={run:0,pause:0,over:0,warp:L.warp||5};$('#go').disabled=false;$('#bpa').textContent='Pausar';$('#cd').textContent='';lastCh=0}
+function startL(){if(L.run)return;L.run=1;S.count=5;$('#go').disabled=true}
+$('#go').onclick=startL;$('#bpa').onclick=()=>{if(!L.run)return;L.pause=!L.pause;$('#bpa').textContent=L.pause?'Reanudar':'Pausar'};$('#bre').onclick=resetL;
+const q1=$('#q1');function quiz(el,q,o,ok,ex,fn){el.innerHTML='<b>'+q+'</b>';o.forEach((t,i)=>{const b=document.createElement('button');b.className='b';b.textContent=t;b.onclick=()=>{fb.textContent=(i===ok?'✔ Correcto. ':'✖ No exactamente. ')+ex;fn&&fn(i===ok)};el.appendChild(b)});const fb=document.createElement('p');fb.className='note';el.appendChild(fb)}
+quiz(q1,'Predicción: mientras se gasta el propelente, ¿qué le pasa a la aceleración?',['Aumenta','Disminuye','No cambia'],0,'Aumenta: el empuje es casi constante pero la masa baja, así que a = F/m − g crece. Observa la curva de velocidad.');
+
+/* ---------- laboratorio ---------- */
+const COL=['#22d3ee','#ff8a3d','#7aa2ff','#a3e635','#f472b6','#facc15'];let runs=[],cur='A';
+function runSim(p,G,pay){const s=newS(pay),e0=eng(p,G.p0),a0=e0.F*1000/s.m-G.g,pts=[[0,0]];let nx=2;while(s.t<600){step(s,.25,G,p);if(s.t>=nx){pts.push([s.t,s.h/1000]);nx+=2}if(s.h<=0&&s.t>5&&s.v<=0)break}pts.push([s.t,s.h/1000]);return{pts,a0,vmax:s.vmax,hmax:s.hmax/1000}}
+const EX={A:{q:'Si aumentas la potencia del motor, ¿qué ocurre con la aceleración inicial del cohete?',o:['Disminuye','Aumenta','No cambia'],ok:1,ctl:['Potencia del motor (%)',60,100,10,80],e:'La aceleración inicial es a = (F − m·g)/m. Más potencia da más empuje F, y por tanto más aceleración. Con potencia baja el empuje no supera al peso y el cohete no despega.',d:'Concepto: segunda ley de Newton (F = m·a) y tercera ley (acción-reacción del gas expulsado).',run(v){const r=runSim({...P,thr:v/100},BODY.Tierra,0);runs.push({n:v+' %',...r})}},
+B:{q:'¿Dónde llegaría más alto el mismo cohete con el mismo motor?',o:['Tierra','Luna','Marte'],ok:1,e:'En la Luna la gravedad es unas seis veces menor (1,62 m/s²) y casi no hay aire que frene el cohete, por eso sube mucho más. Marte tiene una gravedad intermedia (3,71 m/s²) y una atmósfera muy fina.',d:'Concepto: el peso depende de la gravedad local; la masa no cambia entre mundos.',run(){runs=[];['Tierra','Luna','Marte'].forEach(k=>runs.push({n:k,...runSim(P,BODY[k],0)}))}},
+C:{q:'Si aumentas la carga útil (masa inicial), ¿qué ocurre con la altitud máxima?',o:['Aumenta','Disminuye','No cambia'],ok:1,ctl:['Carga útil (toneladas)',0,30,5,10],e:'Con más masa, el mismo empuje produce menos aceleración (a = F/m − g) y se consume menos Δv útil. Con 30 t el empuje apenas supera al peso.',d:'Concepto: ecuación del cohete, Δv = vₑ·ln(m₀/m_f). Más masa final, menos Δv.',run(v){const r=runSim(P,BODY.Tierra,v*1000);runs.push({n:v+' t',...r})}}};
+function selEx(k){cur=k;runs=[];const x=EX[k];$$('#exT button').forEach(b=>b.style.background=b.dataset.e===k?'rgba(34,211,238,.35)':'');quiz($('#exO'),'',x.o,x.ok,x.e);$('#exQ').textContent=x.q;$('#exO').firstChild.remove();$('#exF').textContent='';$('#exD').textContent=x.d;$('#exE').textContent='';
+$('#exC').innerHTML=x.ctl?'<label>'+x.ctl[0]+' <output id="exv">'+x.ctl[4]+'</output><input type="range" id="exs" min="'+x.ctl[1]+'" max="'+x.ctl[2]+'" step="'+x.ctl[3]+'" value="'+x.ctl[4]+'"></label>':'<p class="note">Este experimento simula Tierra, Luna y Marte a la vez.</p>';const s=$('#exs');if(s)s.oninput=()=>$('#exv').textContent=s.value;drawEx()}
+function drawEx(){chart($('#exH'),runs.map((r,i)=>({n:r.n,c:COL[i%6],p:r.pts})));$('#exTb').innerHTML=runs.length?'<tr><th>Caso</th><th>a inicial (m/s²)</th><th>v máx (m/s)</th><th>Altitud máx (km)</th></tr>'+runs.map(r=>'<tr><td>'+r.n+'</td><td>'+(r.a0<=0?'no despega':r.a0.toFixed(1))+'</td><td>'+r.vmax.toFixed(0)+'</td><td>'+r.hmax.toFixed(1)+'</td></tr>').join(''):''}
+$$('#exT button').forEach(b=>b.onclick=()=>selEx(b.dataset.e));
+$('#exR').onclick=()=>{const s=$('#exs');EX[cur].run(s?+s.value:0);$('#exE').textContent=EX[cur].e;drawEx()};$('#exX').onclick=()=>{runs=[];drawEx()};
+
+/* ---------- pestañas, docente, demostración ---------- */
+function setTab(t){tab=t;document.body.dataset.t=t;$$('#tabs button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));motor.visible=t!=='l';lg.visible=t==='l';ctl.enabled=t!=='l';labs.forEach(l=>l.style.display='none');if(t==='l'){sc.background=C1.clone()}else{sc.background=C1.clone();cam.position.length()>40&&resetView()}if(t==='x'&&!runs.length)drawEx();if(t==='l'){requestAnimationFrame(()=>chart($('#lc'),[]))}}
+$$('#tabs button').forEach(b=>b.onclick=()=>setTab(b.dataset.t));
+$('#doc').onchange=e=>{document.body.classList.toggle('d',e.target.checked)};
+let D=0;const wait=ms=>new Promise((ok,no)=>{const t0=performance.now();(function f(){if(!D)return no('x');performance.now()-t0>=ms?ok():setTimeout(f,50)})()});
+const cap=t=>{const c=$('#cap');c.textContent=t;c.style.opacity=1};
+function stopDemo(){D=0;ctl.autoRotate=false;L.warp=5;$('#demo').textContent='▶ DEMOSTRACIÓN AUTOMÁTICA';$('#cap').style.opacity=0}
+function showFin(){const rows=[['Altitud máxima',(S.hmax/1000).toFixed(1)+' km'],['Velocidad máxima',S.vmax.toFixed(0)+' m/s'],['Aceleración máxima',S.amax.toFixed(1)+' m/s²'],['Propelente consumido',((PROP-S.prop)/1000).toFixed(1)+' t'],['Tiempo de misión',S.t.toFixed(0)+' s']];$('#finB').innerHTML=rows.map(r=>'<div class="kv"><span>'+r[0]+'</span><b>'+r[1]+'</b></div>').join('')+'<p class="note">Valores de una simulación educativa simplificada.</p>';$('#fin').style.display='grid'}
+$('#finX').onclick=()=>$('#fin').style.display='none';
+async function demo(){if(D){stopDemo();return}D=1;$('#demo').textContent='■ DETENER DEMOSTRACIÓN';
+try{setTab('m');resetView();setP('thr',0);cap('1 · Motor cohete líquido conceptual');ctl.autoRotate=true;ctl.autoRotateSpeed=3;await wait(4500);
+cap('2 · Separación animada de componentes');setExp(1);await wait(3500);
+cap('3 · Vista de combustión: corte transversal');setCut(true);setExp(.4);await wait(3000);
+cap('4 · Encendido y aumento gradual de potencia');for(let i=0;i<=40;i++){setP('thr',.1+.9*i/40);await wait(100)}await wait(1500);
+ctl.autoRotate=false;cap('5 · Plataforma de lanzamiento');setTab('l');L.warp=8;resetL();L.warp=8;await wait(1800);
+cap('6 · Cuenta atrás');startL();await wait(5300);cap('7 · Despegue y telemetría');let n=0;while(S.prop>0&&n++<400)await wait(150);await wait(1200);
+cap('8 · Resultados de la misión');showFin();await wait(3000)}catch(e){}
+stopDemo()}
+$('#demo').onclick=demo;addEventListener('keydown',e=>{if(e.key==='Escape')stopDemo()});
+document.addEventListener('pointerdown',e=>{if(D&&!e.target.closest('#demo'))stopDemo()},true);
+
+/* ---------- bucle ---------- */
+let last=performance.now(),tt=0;
+function loop(now){requestAnimationFrame(loop);const dt=Math.min((now-last)/1000,.1);last=now;tt+=dt;
+ex+=(exT-ex)*Math.min(1,dt*4);parts.forEach((g,i)=>{g.position.copy(g.userData.dir).multiplyScalar(ex);MT[g.userData.key].emissive.setHex(g===sel?0x1d5d7d:g===hov?0x103848:0)});
+if(tab!=='l'){const t=P.thr*P.pc,len=.3+7.5*t*(P.atm<1?1.25:1),rad=1.7*(1+(101.3-P.atm)/101.3*.45);updF(mf,P.thr,len,rad,tt,dt);glow.material.opacity=.55*P.thr;pL.intensity=2*P.thr;
+labs.forEach((l,i)=>{if(tab!=='m'){l.style.display='none';return}const v=parts[i].localToWorld(parts[i].userData.anc.clone()).project(cam);l.style.display=v.z<1?'block':'none';l.style.left=(v.x*.5+.5)*innerWidth+'px';l.style.top=(-v.y*.5+.5)*innerHeight+'px'});ctl.update()}
+else{let fl=0;if(L.run&&!L.pause){if(S.count>0){S.count-=dt;if(S.count<=0)S.count=0}else if(!L.over){const n=Math.min(25,Math.max(1,Math.round(L.warp*dt/.1)));for(let i=0;i<n;i++)step(S,.1,BODY.Tierra,P);if(S.t-S.lh>=1){S.hist.push([S.t,S.h/1000,S.v]);S.lh=S.t}if(S.h<=0&&S.t>10&&S.v<=0){L.over=1;S.hist.push([S.t,0,0]);if(!D)showFin()}}}
+if(L.run)fl=S.count>0?Math.max(0,1-S.count/1.5)*P.thr:(S.prop>0&&!L.over?P.thr:0);
+const y=9.1*Math.log(1+S.h/40);rk.position.set(fl>0&&S.h<300?(Math.random()-.5)*.06*fl:0,y,0);updF(rf,fl,.5+6*fl*P.pc,.7,tt,dt);
+cam.position.set(24,y+10,34);cam.lookAt(0,y+5,0);const k=Math.min(S.h/80000,1);sc.background.copy(C1).lerp(C0,k);
+const cdv=S.count>0?Math.ceil(S.count):(L.run&&S.t<1.2&&!L.over?'DESPEGUE':'');$('#cd').textContent=cdv;$('#cd').style.fontSize=cdv==='DESPEGUE'?'min(10vw,90px)':'';
+$('#lT').textContent=S.count>0?'T−'+S.count.toFixed(1):'T+'+S.t.toFixed(1);$('#lH').textContent=(S.h/1000).toFixed(2);$('#lV').textContent=S.v.toFixed(0);$('#lA').textContent=S.a.toFixed(1);$('#lP').textContent=(S.prop/PROP*100).toFixed(0);$('#lF').textContent=(L.run&&!S.count&&S.prop>0&&!L.over?S.F:0).toFixed(0);
+const st=!L.run?'EN PLATAFORMA':S.count>0?'CUENTA ATRÁS':L.over?'FIN DE MISIÓN':S.prop>0?'ASCENSO MOTORIZADO':S.v>0?'VUELO BALÍSTICO':'DESCENSO',se=$('#lS');se.textContent=L.pause?'EN PAUSA':st;se.className='st '+(st==='FIN DE MISIÓN'?'mg':'ok');
+if(now-lastCh>400){lastCh=now;chart($('#lc'),[{n:'Altitud (km)',c:'#22d3ee',p:S.hist.map(x=>[x[0],x[1]])},{n:'Velocidad (m/s)',c:'#ff8a3d',p:S.hist.map(x=>[x[0],x[2]])}],true);if(document.body.classList.contains('d'))forces()}}
+R.render(sc,cam)}
+setTab('m');selEx('A');requestAnimationFrame(loop);
+})()}catch(e){console.error(e);$('#err').style.display='grid'}
+</script>
+</body>
+</html>
