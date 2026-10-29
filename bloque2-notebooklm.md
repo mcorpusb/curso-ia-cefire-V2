@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Gemini Notebook para docentes"
-parent: "Módulo 2 · Prompting avanzado y gestión documental"
+parent: "Bloque 2 · Prompting avanzado y gestión documental"
 nav_order: 1
 description: "Gemini Notebook, anteriormente NotebookLM: fuentes, cuadernos sincronizados con Gemini y verificación docente."
 ---

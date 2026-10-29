@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Módulo 2 · Prompting avanzado y gestión documental"
+title: "Bloque 2 · Prompting avanzado y gestión documental"
 nav_order: 5
 has_children: true
 release_at: 2026-04-29T17:30:00+02:00
 ---
 
-# Módulo 2 · Prompting avanzado y gestión documental
+# Bloque 2 · Prompting avanzado y gestión documental
 {: .fs-8 }
 
 Aprende a trabajar con documentos, normativa y currículo real como base de las respuestas de la IA: carga fuentes, contrasta, verifica y transforma en materiales educativos fundamentados.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Biblioteca normativa docente · Comunitat Valenciana"
-parent: "Módulo 2 · Prompting avanzado y gestión documental"
+parent: "Bloque 2 · Prompting avanzado y gestión documental"
 nav_order: 3
 description: "Fuentes oficiales por etapa para crear un cuaderno normativo docente del curso 2026-2027."
 ---
@@ -296,4 +296,4 @@ Esta biblioteca ayuda a elegir las fuentes; el [manual visual de Gemini Notebook
 - [Formación Profesional GVA](https://ceice.gva.es/es/web/formacion-profesional)
 - [Índice de legislación educativa de la Comunitat Valenciana de mclibre](https://www.mclibre.org/consultar/legislacion/listados/educativa-es-vc.html) — útil para descubrir disposiciones; confirma siempre el documento en BOE o DOGV.
 
-[Volver al apartado 2.3 del Módulo 2]({{ '/bloque2.html#23--notebooklm-entrena-a-la-ia-con-el-currículo-oficial' | relative_url }}) · [Abrir la guía de Gemini Notebook]({{ '/bloque2-notebooklm.html' | relative_url }})
+[Volver al apartado 2.3 del Bloque 2]({{ '/bloque2.html#23--notebooklm-entrena-a-la-ia-con-el-currículo-oficial' | relative_url }}) · [Abrir la guía de Gemini Notebook]({{ '/bloque2-notebooklm.html' | relative_url }})

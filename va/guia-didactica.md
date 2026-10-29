@@ -187,7 +187,7 @@ Cada bloc segueix el mateix cicle: veure com es fa → fer-ho tu → comparar re
       <td>Dimarts 20/10/2026 · 17:30-19:30</td>
     </tr>
     <tr>
-      <td>Mòdul 2 · Prompting avançat i gestió documental</td>
+      <td>Bloc 2 · Prompting avançat i gestió documental</td>
       <td>27/10/2026 al 02/11/2026</td>
       <td>02/11/2026</td>
       <td style="text-align:right;">3 h</td>
@@ -265,7 +265,7 @@ Cada setmana funciona igual: sessió síncrona el dimarts -> treball autònom du
 
 **Continguts clau:** context i qualitat de peticions, iteració, documentació, comunicació i organització.
 
-### Mòdul 2 · Prompting avançat i gestió documental
+### Bloc 2 · Prompting avançat i gestió documental
 
 **Objectiu:** Treballar amb documents i fonts per a obtindre respostes verificables i fonamentades.
 
