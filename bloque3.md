@@ -631,7 +631,7 @@ La generación de vídeo con IA ha avanzado enormemente. Aunque aún no sustituy
 
 | Herramienta | Tipo | Acceso | Ideal para |
 |:------------|:-----|:-------|:-----------|
-| **Microsoft Clipchamp** | Editor de vídeo + IA | ✅ Incluido en Microsoft 365 GVA | Edición básica, subtítulos automáticos, narración IA |
+| **Microsoft Clipchamp** | Editor de vídeo + IA | ✅ Incluido en Microsoft 365 GVA (funciones según la cuenta) | Edición básica, subtítulos automáticos, narración IA y creación de proyectos de vídeo mediante prompts, si la función está habilitada en la cuenta |
 | **Synthesia** | Vídeos con avatares IA | Freemium (demos limitadas) | Vídeos explicativos con "profesor virtual" |
 | **HeyGen** | Avatares + traducción IA | Freemium | Traducir vídeos a otros idiomas, avatares personalizados |
 | **Canva Vídeos** | Editor + plantillas | Freemium (plan educativo) | Vídeos cortos con animaciones, texto y narración |
@@ -664,6 +664,39 @@ Restricciones:
 - Indicar momentos donde el alumno debe pausar.
 ```
 Vídeo generado con el prompt: https://gvaedu-my.sharepoint.com/:v:/g/personal/mc_baronbautista_edu_gva_es/IQBYM0-wYI7tQI0L-IZOdEccAajSGc4L7dw441T1EJvw2lM
+
+### Crear un vídeo con IA a partir de un prompt en Clipchamp
+
+En algunas cuentas, Clipchamp permite **generar un proyecto de vídeo a partir de una descripción**: la herramienta propone una estructura, selecciona recursos visuales y crea un primer montaje editable. Esta función depende de las opciones habilitadas en cada cuenta institucional, por lo que puede no aparecer en todos los perfiles `@edu.gva.es`.
+
+Para esta práctica se recomienda acceder a [clipchamp.com](https://clipchamp.com) desde **Google Chrome** con la cuenta `@edu.gva.es`. El campo de generación admite un máximo de **300 caracteres**, así que conviene redactar una instrucción breve, concreta y adaptada al nivel educativo.
+
+Puedes pedir a Copilot, ChatGPT o Gemini que prepare esa instrucción mediante este metaprompt:
+
+```text
+Redacta un prompt de un máximo de 300 caracteres para generar en Clipchamp
+un vídeo educativo. Debe indicar el curso, el tema, el objetivo, el tono,
+la duración aproximada y los elementos visuales principales. Devuelve solo
+el prompt final y comprueba que no supera los 300 caracteres.
+```
+
+**Ejemplo práctico para 5.º de Primaria:**
+
+```text
+Crea un vídeo educativo de 1 minuto para 5.º de Primaria que explique cómo
+funciona la respiración. Usa lenguaje claro, tono cercano, imágenes de los
+pulmones y el recorrido del aire, rótulos breves y un resumen final.
+```
+
+**Procedimiento:**
+
+1. En Clipchamp, selecciona la opción de creación de vídeo con IA, si está disponible en tu cuenta.
+2. Pega el prompt en el campo de generación y crea el proyecto.
+3. Revisa la propuesta completa: orden de las escenas, textos, imágenes, música, narración y duración.
+4. Sustituye los recursos que no encajen, corrige los textos y ajusta el ritmo desde el editor.
+5. Previsualiza el resultado, comprueba la exactitud del contenido y exporta el vídeo solo cuando esté listo.
+
+> **⚠️ Revisión docente imprescindible:** La duración solicitada puede no respetarse con exactitud y las imágenes generadas o seleccionadas pueden ser genéricas, repetitivas o poco adecuadas al contenido. Antes de utilizar el vídeo en el aula, revisa siempre su rigor, lenguaje, accesibilidad, derechos de uso y adecuación pedagógica.
 
 ### Paso a paso: vídeo con subtítulos en Clipchamp (entorno GVA)
 
