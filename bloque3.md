@@ -25,16 +25,17 @@ Crea presentaciones, cómics, infografías, podcasts, audios realistas y vídeos
 - [🧪 Laboratorio · Dos cómics: Sarah y Salsa / Tomás y Popi]({{ '/bloque3-comics-ejemplos.html' | relative_url }})
 - [📖 3.2b · Cómic con Gemini Notebook](#32b--cómic-con-notebooklm)
 - [📖 3.2c · Infografías educativas con IA](#32c--infografías-educativas-con-ia)
-- [🧪 Laboratorio · Infografías animadas con Google Flow]({{ '/bloque3-infografias-flow.html' | relative_url }})
 - [📖 3.3 · Audios realistas: narración, podcasts y accesibilidad](#33--audios-realistas-narración-podcasts-y-accesibilidad)
 - [📖 3.4 · Vídeos educativos con IA](#34--vídeos-educativos-con-ia)
 - [📖 3.5 · Apps educativas sencillas con IA: Gemini Canvas y Canva Code](#35--apps-educativas-sencillas-con-ia-gemini-canvas-y-canva-code)
-- [🧪 Laboratorio · Artifacts y aplicaciones interactivas con IA]({{ '/bloque3-artifacts.html' | relative_url }})
 - [📖 3.6 · Comparativa multimodal: todas las herramientas de un vistazo](#36--comparativa-multimodal-todas-las-herramientas-de-un-vistazo)
 - [📖 3.7 · Integración multimodal en Situaciones de Aprendizaje](#37--integración-multimodal-en-situaciones-de-aprendizaje)
 - [📝  Actividad · Creación de recursos multimodales con IA para el aula](#--actividad--creación-de-recursos-multimodales-con-ia-para-el-aula)
 - [📚 Recursos complementarios](#-recursos-complementarios)
 - [✅ Checklist de autoevaluación](#-checklist-de-autoevaluación)
+
+- [🧪 Google Labs / Flow · Laboratorio avanzado]({{ '/bloque3-infografias-flow.html' | relative_url }})
+- [🧪 Artifacts · Laboratorio avanzado]({{ '/bloque3-artifacts.html' | relative_url }})
 
 </nav>
 
@@ -1015,6 +1016,13 @@ Antes de pasar al Bloque 4, asegúrate de poder responder **sí** a todas estas 
 - [ ] Sé distinguir qué herramientas son seguras para datos del centro y cuáles solo para contenido público/ficticio.
 - [ ] Puedo planificar la integración de recursos multimodales IA dentro de una Situación de Aprendizaje LOMLOE.
 - [ ] Sé crear una app educativa sencilla con Gemini Canvas o Canva Code, revisando su accesibilidad, seguridad y utilidad didáctica.
+
+## 🧪 Laboratorios avanzados · Google Labs y Artifacts
+
+Después de trabajar los recursos multimodales y completar la autoevaluación, puedes profundizar con estos laboratorios complementarios:
+
+- **[Google Labs / Flow: infografías animadas]({{ '/bloque3-infografias-flow.html' | relative_url }})**. Anima imágenes educativas y revisa movimientos, rótulos y exactitud.
+- **[Artifacts: aplicaciones interactivas con IA]({{ '/bloque3-artifacts.html' | relative_url }})**. Diseña, prueba y mejora aplicaciones y simuladores educativos con Claude, Gemini Canvas o Google AI Studio.
 
 ---
 
