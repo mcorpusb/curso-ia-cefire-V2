@@ -253,6 +253,63 @@ educativo. Genera cada página por separado para mejorar la legibilidad.
 
 **Preguntas para comparar:** ¿qué versión se comprende mejor a la edad elegida? ¿La IA conserva los personajes? ¿Qué errores aparecen al generar muchas páginas de golpe? ¿Se pueden leer todos los textos?
 
+## Intrusión en la red: un cómic de ciberseguridad creado con NotebookLM
+
+**Público:** personas sin conocimientos técnicos previos. **Formato:** portada y diez páginas. **Estilo:** cómic europeo de línea clara con ambientación tecnológica.
+
+Este tercer ejemplo muestra un proceso distinto: partimos de un tema de ciberseguridad, pedimos a NotebookLM un guion visual y reunimos el resultado en un único documento. El cómic presenta a Tomy, la profesora Corpusiana y su perro, con una intrusión ficticia como hilo conductor.
+
+**[Abrir o descargar el cómic completo en PDF]({{ '/assets/docs/comic-intrusion-red.pdf' | relative_url }})**
+
+> **Publicación del archivo:** el enlace funcionará cuando se añada el PDF `assets/docs/comic-intrusion-red.pdf` al repositorio. Se recomienda utilizar la versión optimizada para web, conservando una copia original de mayor resolución.
+
+### Instrucciones utilizadas en NotebookLM
+
+**Prompt maestro para preparar el guion:**
+
+```text
+Eres un Guionista y Director Visual especializado en cómic profesional.
+Tu trabajo es convertir una idea en un guion listo para ilustrarse con IA
+o por un dibujante real. Antes de escribir, pregunta de forma breve y una
+a una por: concepto central, público, extensión aproximada, estilo
+artístico, tono e idioma, y descripción física detallada de cada
+personaje (rasgos, vestimenta, edad, accesorios). No empieces el guion
+hasta tener todo definido. Cuando lo desarrolles, estructura por páginas
+y viñetas, especifica tipo de plano y ángulo (primer plano, contrapicado,
+panorámica…), iluminación y atmósfera, y redacta descripciones visuales
+completas repitiendo siempre los rasgos físicos del personaje para
+mantener coherencia visual. Entrega el resultado en Markdown, con
+portada opcional y cada viñeta claramente separada.
+```
+
+**Indicaciones de contenido y formato facilitadas después:**
+
+```text
+Un ataque real mediante herramientas de explotación de vulnerabilidades.
+Quiero que me generes un cómic explicando este tema.
+
+Público general sin conocimientos técnicos, 10 páginas,
+un toque más tecnológico, ilustración de cómic europeo de línea clara.
+
+Crea el cómic.
+
+¿Puedes unir todas las páginas en un único documento?
+```
+
+### Cómo reproducir la experiencia
+
+- Selecciona un cuaderno de NotebookLM con fuentes adecuadas al contenido que quieras trabajar.
+- Introduce el prompt maestro y contesta las preguntas sobre tema, destinatarios, páginas, estilo y personajes.
+- Solicita el guion completo y revisa el rigor de sus explicaciones.
+- Pide las ilustraciones o traslada el guion a un generador de imágenes según las funciones disponibles en tu cuenta.
+- Comprueba cada página: continuidad visual, diálogos, legibilidad y precisión técnica.
+- Pide reunir todas las páginas y exporta el cómic a PDF para facilitar su lectura y uso educativo.
+
+### Revisión docente antes de compartirlo
+
+El cómic emplea un lenguaje visual deliberadamente simplificado. Muestra, entre otros contenidos, reconocimiento de sistemas, herramientas de análisis, desbordamiento de búfer y medidas defensivas. Conviene explicar que **Nessus/OpenVAS son analizadores de vulnerabilidades**, que las herramientas de explotación tienen otras finalidades y que **encontrar un fallo no significa obtener acceso automáticamente**. Las ilustraciones de pantallas y ataques son narrativas, no procedimientos técnicos verificables. Utiliza el ejemplo para hablar de prevención, autorizaciones y respuesta a incidentes, no como manual de intrusión.
+
+---
 ## Flujo de trabajo recomendado
 
 - **Definir el objetivo** y la edad: qué aprenderá el alumnado.
