@@ -88,7 +88,6 @@ Después de generar y revisar las ilustraciones, podemos convertir **«Sarah, Sa
 
 [Escuchar o descargar el MP3]({{ '/assets/audio/sarah-salsa-emociones-elevenlabs.mp3' | relative_url }})
 
-> **Audio de ejemplo publicado:** puedes escucharlo directamente o descargar el MP3. El nombre «Sarah» se pronuncia «Sara» en la narración en castellano.
 
 ### Pedir a la IA un guion para narrar
 
@@ -240,7 +239,6 @@ Narración generada en **ElevenLabs, con Martin Osborne – Polished and Intense
 
 [Escuchar o descargar la primera parte en MP3]({{ '/assets/audio/tomas-popi-superheroes-parte1.mp3' | relative_url }})
 
-> **Pendiente de publicación del MP3:** para que el reproductor funcione, incorpora el archivo `assets/audio/tomas-popi-superheroes-parte1.mp3` a la rama `main` mediante GitHub Desktop (commit y push). El reproductor se ha preparado, pero el archivo de audio aún no está en el repositorio remoto.
 
 ### Audiocómic de superhéroes · Guion completo para ElevenLabs
 
@@ -533,8 +531,7 @@ Este tercer ejemplo muestra un proceso distinto: partimos de un tema de ciberseg
 
 **[Abrir o descargar el cómic completo en PDF]({{ '/assets/docs/comic_intrusion_red_optimizado.pdf' | relative_url }})**
 
- > **PDF disponible:** consulta o descarga la versión optimizada desde el enlace anterior.
-
+ 
 ### Instrucciones utilizadas en NotebookLM
 
 **Prompt maestro para preparar el guion:**
