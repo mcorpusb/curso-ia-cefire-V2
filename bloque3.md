@@ -301,31 +301,76 @@ Para facilitar la navegación, las actividades de cómic educativo se han separa
 - [Escuela Oficial de Idiomas](bloque3-actividad-eoi.md)
 
 ---
-## 3.2b · Cómic con Gemini Notebook
+## 3.2b · Crear un cómic a partir de fuentes con NotebookLM
 {: id="32b--cómic-con-notebooklm" }
-**Gemini Notebook (anteriormente NotebookLM)** es la experiencia especializada en fuentes del ecosistema Gemini. Sus cuadernos pueden sincronizarse con Gemini, manteniendo funciones propias. También puede utilizarse como herramienta de apoyo para generar guiones de cómic a partir de fuentes propias (apuntes, documentos, normativa, etc.), lo que permite crear materiales totalmente contextualizados.
 
-Flujo de trabajo
-- Sube a Gemini Notebook las fuentes que quieres utilizar para crear el cómic (apuntes, documentos, textos, etc.).
-- Genera un prompt maestro como nota dentro del entorno. 
+**NotebookLM** permite consultar las fuentes de un cuaderno y apoyarse en ellas para preparar un guion educativo. Podemos redactar el guion en su chat y, después, llevarlo a una herramienta de generación de imágenes para ilustrar las viñetas. **El guion textual y el cómic ilustrado son productos distintos**: convertir una nota en fuente no crea por sí solo las imágenes ni garantiza la coherencia de los personajes.
 
-### 🏆 Prompt maestro: Guion de cómic con Gemini Notebook
-{: id="-prompt-maestro-guion-de-cómic-con-notebooklm" }
+### Prompt maestro para el guion
+
+Copia este prompt en el chat del cuaderno; contesta a las preguntas de la IA antes de solicitar el guion definitivo:
 
 ```text
-Eres un Guionista y Director Visual especializado en cómic profesional. Tu trabajo es convertir una idea en un guion listo para ilustrarse con IA o por un dibujante real. Antes de escribir, pregunta de forma breve y una a una por: concepto central, público, extensión aproximada, estilo artístico, tono e idioma, y descripción física detallada de cada personaje (rasgos, vestimenta, edad, accesorios). No empieces el guion hasta tener todo definido. Cuando lo desarrolles, estructura por páginas y viñetas, especifica tipo de plano y ángulo (primer plano, contrapicado, panorámica…), iluminación y atmósfera, y redacta descripciones visuales completas repitiendo siempre los rasgos físicos del personaje para mantener coherencia visual. Entrega el resultado en Markdown, con portada opcional y cada viñeta claramente separada.
+Eres un guionista y director visual especializado en cómic educativo.
+Convierte un tema en un guion listo para ilustrar con IA.
 
-````
+Antes de escribir, pregunta de forma breve y una a una por:
+- Tema o concepto central.
+- Público al que se dirige y conocimientos previos.
+- Extensión aproximada (páginas y viñetas).
+- Estilo artístico, tono e idioma.
+- Personajes y descripción física (edad aparente, pelo, ropa,
+  accesorios y rasgos que deben permanecer constantes).
 
-- Contestamos a las preguntas que nos haga y nos dará como resultado el guión escrito con los personajes
-- Selecciona el icono de la chincheta → Guardar como nota (aparecerá en la parte derecha).
-- Pulsa los tres puntos → Convertir en fuente.
-- Deja solo esa fuente seleccionada en el panel izquierdo.
-- En el chat escribe: “Con la presentación del cuaderno, crea la versión final del cómic con la maquetación de las viñetas listo para leer”.
+Usa las fuentes del cuaderno para fundamentar los contenidos;
+distingue los hechos documentados de los recursos narrativos.
+No inventes detalles técnicos que no aparezcan en las fuentes.
 
+Cuando esté todo definido, organiza el resultado por portada,
+páginas y viñetas. Para cada viñeta indica plano, ángulo,
+iluminación, atmósfera, acción, personajes, diálogo breve e idea
+educativa. Repite los rasgos visuales esenciales de cada personaje
+para favorecer la continuidad. Entrega el guion en Markdown.
 
-💡 Consejo: Este flujo convierte el prompt en una “regla interna” del modelo, asegurando coherencia en todo el cómic sin tener que repetir instrucciones en cada interacción.
+Al final, revisa la exactitud del contenido y señala qué afirmaciones
+requieren comprobación docente antes de ilustrarlo.
+```
 
+### Cómo trabajarlo en el cuaderno
+
+- Abre NotebookLM y crea o selecciona un cuaderno con fuentes autorizadas y relevantes.
+- Pega el prompt maestro en el chat.
+- Responde a las preguntas que plantea sobre el tema, destinatarios, formato y personajes.
+- Pide **«Genera el cómic»** cuando se haya definido el encargo y revisa el guion.
+- Guarda el resultado como nota; si necesitas reutilizar esa nota como material de consulta, conviértela en fuente y selecciona las fuentes pertinentes.
+- Solicita **«Une todas las páginas en un único documento Markdown, sin omitir viñetas»** para disponer del guion completo.
+- Revisa la precisión y copia el guion a ChatGPT, Gemini u otro ilustrador. Genera primero la portada y después las páginas por separado, corrigiendo textos y continuidad.
+- Comprueba el resultado final: una fuente generada por IA no equivale a una fuente primaria verificada.
+
+### Ejemplo adaptable · Una amenaza de ciberseguridad explicada en viñetas
+
+Este es otro uso del mismo prompt, dirigido al público general. El ejemplo aborda la explotación de una vulnerabilidad **a nivel conceptual y preventivo**, sin instrucciones operativas para atacar sistemas:
+
+```text
+Quiero un cómic educativo sobre cómo un atacante puede aprovechar
+una vulnerabilidad informática y cómo pueden prevenirse los daños.
+Público general sin conocimientos técnicos. Extensión: 10 páginas.
+Estilo: cómic europeo de línea clara, con estética tecnológica.
+Tono: divulgativo, narrativo y comprensible.
+
+Explica qué es una vulnerabilidad, cómo puede detectarse y
+gestionarse, qué riesgos existen y qué medidas ayudan a reducirlos.
+Evita comandos de explotación, objetivos reales e instrucciones de
+intrusión. Incluye personajes ficticios y un final centrado en
+actualizaciones, copias de seguridad y comunicación de incidentes.
+
+Primero redacta el guion por páginas y viñetas; después reúne
+todas las páginas en un único documento Markdown.
+```
+
+**Para el profesorado:** comparar un cuento emocional de Infantil con una historia de ciberseguridad para público general permite mostrar cómo cambia el vocabulario, el estilo gráfico y la profundidad didáctica sin modificar el flujo de trabajo.
+
+**[Ver el laboratorio de cómics con los ejemplos ilustrados de Sarah y Salsa y Tomás y Popi]({{ '/bloque3-comics-ejemplos.html' | relative_url }})**
 
 ---
 ## 3.2c · Infografías educativas con IA
