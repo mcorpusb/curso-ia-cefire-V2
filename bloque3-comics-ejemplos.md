@@ -228,6 +228,16 @@ genera la portada y las páginas por separado. Comprueba continuidad
 de personajes, orden de viñetas, ortografía y precisión científica.
 ```
 
+### Resultados visuales generados
+
+**Primera versión: cómic de superhéroes**
+
+![Versión de superhéroes de Tomás y Popi]({{ '/assets/img/comics/tomas-popi-superheroes.png' | relative_url }})
+
+**Segunda versión: estilo cartoon**
+
+![Versión cartoon de Tomás y Popi]({{ '/assets/img/comics/tomas-popi-cartoon.png' | relative_url }})
+
 ### Audio de Tomás y Popi · Primera parte
 
 Narración generada en **ElevenLabs, con Martin Osborne – Polished and Intense (Eleven v4)**. Es un **fragmento**, no el cuento completo: llega hasta la aparición de las criaturas amarillas, cuando Popi salta hacia atrás.
@@ -498,16 +508,6 @@ Pero nuestros héroes saben que todavía quedan muchísimos misterios por explor
 </details>
 
 **Para generar el audio:** abre [ElevenLabs · De texto a voz](https://elevenlabs.io/app/speech-synthesis), selecciona una voz narrativa y Eleven v4, copia el texto (sin los delimitadores del bloque) y prueba una escena. Si no tienes suficientes créditos, divide el guion en fragmentos en los cambios naturales de escena; no lo recortes sin conservar el resto. **El fragmento ya generado se detiene cuando Popi salta hacia atrás frente a una criatura amarilla**.
-
-### Resultados visuales generados
-
-**Primera versión: cómic de superhéroes**
-
-![Versión de superhéroes de Tomás y Popi]({{ '/assets/img/comics/tomas-popi-superheroes.png' | relative_url }})
-
-**Segunda versión: estilo cartoon**
-
-![Versión cartoon de Tomás y Popi]({{ '/assets/img/comics/tomas-popi-cartoon.png' | relative_url }})
 
 ### Experimentación · Cambiar solo el estilo
 
