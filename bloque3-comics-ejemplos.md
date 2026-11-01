@@ -229,6 +229,265 @@ genera la portada y las páginas por separado. Comprueba continuidad
 de personajes, orden de viñetas, ortografía y precisión científica.
 ```
 
+### Audiocómic de superhéroes · Guion completo para ElevenLabs
+
+El siguiente texto es la **versión narrada completa** de «La invasión de la gelatina amarilla», adaptada al lenguaje oral. Se ha revisado el mensaje científico para que las grasas no aparezcan como enemigas del organismo. Puede usarse con **Eleven v4**, una voz expresiva y, si hace falta, en varios fragmentos. Las etiquetas entre corchetes son indicaciones de interpretación: haz una prueba corta antes de generar todo, ya que algunas voces pueden leerlas literalmente.
+
+<details markdown="1">
+<summary><strong>Mostrar el guion completo para copiar y pegar en ElevenLabs</strong></summary>
+
+```text
+[dramatic] En lo más profundo del cuerpo humano existe un mundo que nadie ha visto jamás.
+
+Un mundo de células, músculos y energía. Un mundo donde cada segundo ocurre algo extraordinario.
+
+Pero hoy... algo está a punto de cambiar.
+
+[whispers] Una extraña invasión se aproxima.
+
+[excited] ¡Y solo dos héroes podrán investigar lo que está sucediendo!
+
+¡Tomás y Popi! ¡Comienza la invasión de la gelatina amarilla!
+
+[energetic] ¡Saludos, reclutas! Bienvenidos al Centro de Mando del Cuerpo Humano.
+
+Soy Tomás, vuestro guía biomecánico. Y este pequeño héroe de cuatro patas es Popi.
+
+[playful] ¡Guau, guau!
+
+[laughs] Aunque Popi es pequeño, está convencido de que es el cerebro de todas nuestras misiones.
+
+[serious] Hoy tenemos un problema. Nuestros sensores han detectado que una persona lleva muchas horas sin moverse.
+
+Sus músculos necesitan actividad para mantenerse fuertes y saludables. Tenemos que investigar qué sucede dentro de su cuerpo.
+
+[excited] ¡Preparado, Popi! ¡Iniciamos la operación microscópica!
+
+[whispers] Popi se acerca lentamente a la consola, levanta una patita... y pulsa un enorme botón rojo.
+
+[shouts] ¡MINIATURIZACIÓN ACTIVADA!
+
+¡Clic! ¡Fuuuuuuush!
+
+[excited] ¡Tomás y Popi se hacen diminutos! Más pequeños que una hormiga. Más pequeños que un granito de arena.
+
+Y comienzan a viajar por el torrente sanguíneo.
+
+[amazed] ¡Guauuuu! ¡A su alrededor pasan cientos de glóbulos rojos! ¡Parecen naves espaciales!
+
+[excited] ¡Agárrate fuerte, Popi! ¡Próxima parada: el tejido muscular!
+
+[amazed] ¡Qué espectáculo! Enormes fibras musculares rojas se extienden hasta donde alcanza la vista.
+
+Unas se contraen. Otras se relajan. Y pequeñas células trabajan sin descanso.
+
+[cheerful] ¡Bienvenidos al mundo de los músculos!
+
+Aquí se hace posible cada movimiento de nuestro cuerpo: caminar, saltar, correr... ¡y hasta mover un dedo!
+
+Pero los músculos necesitan energía, y esa energía se obtiene mediante un trabajo extraordinario de nuestras células.
+
+[worried] ¡Jefe, jefe! Un pequeño trabajador celular se acerca corriendo.
+
+¡Necesitamos combustible para seguir trabajando!
+
+[confident] ¡Tranquilo, compañero! Nuestro cuerpo utiliza nutrientes como los carbohidratos y las grasas para producir energía.
+
+Las mitocondrias ayudan a fabricar el ATP que necesitan las células.
+
+[playful] ¡Guau!
+
+[laughs] ¡Exactamente, Popi! Tú también necesitas energía para mover esa colita.
+
+[whispers] Pero entonces... las luces del tejido muscular comienzan a parpadear.
+
+Los trabajadores se miran sorprendidos. Algo extraño está sucediendo.
+
+[gasps] ¿Qué ha sido eso?
+
+De pronto, una enorme compuerta se abre sobre sus cabezas.
+
+[shouts] ¡PLOP! ¡PLOP! ¡PLOOOOOOP!
+
+Una multitud de criaturas amarillas y gelatinosas aparece ante ellos.
+
+Son redondas, viscosas... ¡y algunas parecen estar medio dormidas!
+
+[surprised] ¡Popi, mira eso!
+
+[playful] ¡Guau, guau, guau!
+
+Una de las criaturas amarillas rebota delante del pequeño perro.
+
+[playful] ¡Un momentoooo! ¡Que no puedo frenar! ¡Ploooooop!
+
+[laughs] Popi salta hacia atrás. ¡Por poco acaba convertido en una croqueta de gelatina!
+
+[serious] ¡Alto, alto! Estas criaturas representan nuestras reservas de grasa.
+
+Y aunque parezcan monstruos... no son realmente nuestros enemigos.
+
+Las grasas cumplen funciones importantes en el organismo y también pueden utilizarse como fuente de energía.
+
+[surprised] ¿Cómo? ¿Entonces no somos los malos?
+
+[cheerful] ¡Exactamente! El verdadero problema no es tener reservas energéticas.
+
+Lo importante es comprender cómo funciona el cuerpo y cómo cuidarlo.
+
+[dramatic] Mientras tanto, en otra zona del tejido muscular, los trabajadores comienzan a aburrirse.
+
+Las fibras llevan mucho tiempo sin participar en actividades intensas.
+
+[complaining] ¡Jefe, necesitamos movimiento! ¡Esto parece una fábrica en vacaciones!
+
+[playful] ¡Guau!
+
+[determined] ¡Tienes razón, Popi! Pasar demasiado tiempo sin actividad no es bueno para nuestros músculos.
+
+¡Tenemos que activar el Protocolo de Vida Sana!
+
+[dramatic] Tomás levanta el brazo. Su traje tecnológico comienza a brillar.
+
+Y aparece ante ellos un enorme holograma azul.
+
+En la pantalla se iluminan tres símbolos: unas zapatillas deportivas, una botella de agua y un plato de comida variada.
+
+[heroic] ¡Atención, reclutas! Para cuidar nuestro cuerpo necesitamos movimiento regular, una alimentación variada y suficiente descanso.
+
+¡No existe una solución mágica! ¡Los buenos hábitos se construyen cada día!
+
+[excited] ¡Guau, guau!
+
+Popi ya se está poniendo unas pequeñas zapatillas deportivas.
+
+[laughs] ¡Ja, ja, ja! ¡Parece que nuestro héroe tiene prisa!
+
+[dramatic] De repente... ¡PI! ¡PI! ¡PI!
+
+¡La alarma del centro de mando comienza a sonar!
+
+[serious] Atención. Movimiento detectado. Actividad física iniciada.
+
+[excited] ¡Lo hemos conseguido, Popi! ¡Nuestro sujeto ha salido a jugar al baloncesto!
+
+[shouts] ¡TODOS A SUS PUESTOS! ¡LOS MÚSCULOS ENTRAN EN ACCIÓN!
+
+[dramatic] Dentro del cuerpo empieza una auténtica revolución.
+
+Los mensajeros nerviosos corren de un lado a otro. Las fibras musculares comienzan a contraerse.
+
+[excited] ¡Atención! ¡Preparados para el salto! ¡Tres, dos, uno...!
+
+[shouts] ¡ARRIBAAAA!
+
+El adolescente salta para lanzar el balón a la canasta.
+
+¡Sus músculos trabajan juntos para conseguirlo!
+
+[amazed] ¡Increíble! Las fibras se contraen y se relajan.
+
+Las células producen energía. ¡Todo un equipo trabajando coordinadamente!
+
+[playful] ¡Guauuuuu!
+
+[urgent] ¡Jefe! ¡Las fábricas celulares necesitan seguir produciendo ATP!
+
+[confident] ¡Activad el suministro energético! ¡Necesitamos nutrientes y oxígeno para continuar!
+
+[dramatic] Las mitocondrias comienzan a brillar como pequeñas centrales eléctricas.
+
+¡Fuuuuuuuuush!
+
+[excited] ¡La energía está llegando! ¡Los músculos pueden seguir trabajando!
+
+Entonces, una de las pequeñas criaturas amarillas se acerca a Tomás.
+
+[softly] Disculpa, señor superhéroe... ¿Nosotros también podemos ayudar?
+
+[happy] ¡Por supuesto! El organismo también puede obtener energía utilizando sus reservas de grasa.
+
+¡Aquí todos tenemos una función!
+
+[playful] ¡Por fin! ¡Yo pensaba que solo servía para hacer de gelatina!
+
+[laughs]
+
+[heroic] ¡Así es, reclutas! El cuerpo utiliza diferentes combustibles según sus necesidades.
+
+Y con la actividad física regular podemos mejorar nuestra resistencia y fortalecer los músculos.
+
+[dramatic] Poco a poco, el paisaje muscular recupera su actividad.
+
+Los trabajadores sonríen. Las fibras se mueven. Las criaturas amarillas continúan cumpliendo su función como reservas de energía.
+
+[relieved] ¡Uffff! ¡Qué alegría volver a trabajar!
+
+[playful] ¡Guau, guau!
+
+[excited] ¡Bien hecho, Popi! ¡Ahora tenemos que regresar al centro de mando!
+
+Tomás pulsa un botón de su traje.
+
+[shouts] ¡REGRESO ACTIVADO!
+
+¡Zaaaaaaaap!
+
+[amazed] En un instante, nuestros héroes recuperan su tamaño normal.
+
+¡Ya están otra vez en el centro de mando!
+
+En la pantalla principal aparece el adolescente jugando al baloncesto con sus amigos.
+
+Corre. Salta. Se divierte. Y disfruta de estar en movimiento.
+
+[proud] ¡Misión cumplida, Popi!
+
+Hoy hemos aprendido cómo trabajan los músculos y por qué es importante mantenernos activos.
+
+[playful] ¡Guau!
+
+Pero Popi todavía tiene una sorpresa.
+
+El pequeño Yorkshire aparece levantando una pesa diminuta.
+
+[excited] ¡Guau, guau, guau!
+
+[laughs] ¡Ja, ja, ja! ¡Pero bueno, Popi! ¡Vaya superhéroe estás hecho!
+
+[warm] Y ahora, reclutas... tenemos una última misión para vosotros.
+
+[heroic] Recordad algo muy importante.
+
+Vuestro cuerpo es extraordinario.
+
+No necesitáis ser superhéroes para cuidarlo.
+
+Podéis caminar, bailar, jugar, montar en bicicleta o practicar cualquier actividad física que disfrutéis.
+
+Lo importante es encontrar momentos para moveros y cuidaros.
+
+[playful] ¡Guau, guau!
+
+[laughs] ¡Sí, Popi! ¡Jugar con tu perro también cuenta!
+
+[dramatic] Y así termina una aventura microscópica llena de descubrimientos.
+
+Pero nuestros héroes saben que todavía quedan muchísimos misterios por explorar dentro del cuerpo humano.
+
+[excited] ¡Preparado para la siguiente misión, Popi!
+
+¡Guauuuuuu!
+
+[heroic] ¡HASTA LA PRÓXIMA AVENTURA MICROSCÓPICA!
+
+¡FIN DEL EPISODIO!
+```
+
+</details>
+
+**Para generar el audio:** abre [ElevenLabs · De texto a voz](https://elevenlabs.io/app/speech-synthesis), selecciona una voz narrativa y Eleven v4, copia el texto (sin los delimitadores del bloque) y prueba una escena. Si no tienes suficientes créditos, divide el guion en fragmentos en los cambios naturales de escena; no lo recortes sin conservar el resto. **El fragmento ya generado se detiene cuando Popi salta hacia atrás frente a una criatura amarilla**.
+
 ### Resultados visuales generados
 
 **Primera versión: cómic de superhéroes**
