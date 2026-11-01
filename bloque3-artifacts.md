@@ -33,21 +33,21 @@ La inteligencia artificial no solo genera textos e imágenes: también permite a
 
 <nav class="artifact-toc" aria-label="Secciones del Laboratorio de Artifacts" markdown="1">
 
-1. [Introducción a Artifacts](#introduccion)
-2. [Plataformas y posibilidades](#plataformas)
-3. [Cómo escribir un prompt](#prompt)
-4. [Galería de demostraciones reales](#galeria)
-5. [Caso práctico 1: ROCKET LAB 3D](#caso-rocket)
-6. [Caso práctico 2: PC LAB 3D](#caso-pc)
-7. [Caso práctico 3: WEB LAB 3D](#caso-web)
-8. [Comparativa de plataformas](#comparativa)
-9. [Cómo compartir, exportar y publicar](#compartir)
-10. [Actividad práctica](#reto)
-11. [Evaluación y reflexión final](#evaluacion)
+- [Introducción a Artifacts](#introduccion)
+- [Plataformas y posibilidades](#plataformas)
+- [Cómo escribir un prompt](#prompt)
+- [Galería de demostraciones reales](#galeria)
+- [Caso práctico 1: ROCKET LAB 3D](#caso-rocket)
+- [Caso práctico 2: PC LAB 3D](#caso-pc)
+- [Caso práctico 3: WEB LAB 3D](#caso-web)
+- [Comparativa de plataformas](#comparativa)
+- [Cómo compartir, exportar y publicar](#compartir)
+- [Actividad práctica](#reto)
+- [Evaluación y reflexión final](#evaluacion)
 
 </nav>
 
-## 1. Introducción a Artifacts
+## Introducción a Artifacts
 {: id="introduccion" }
 
 Un **Artifact** es un resultado editable y ejecutable que la IA presenta junto a la conversación: por ejemplo, una página, un gráfico o una pequeña aplicación. Otras plataformas usan nombres distintos —Canvas o Build—, pero comparten una dinámica parecida:
@@ -70,7 +70,7 @@ No equivale a «pulsar un botón y terminar». El valor educativo aparece cuando
 - iterar sobre un prototipo y decidir cómo compartirlo;
 - diseñar y evaluar un laboratorio virtual relacionado con tu especialidad.
 
-## 2. Plataformas y posibilidades
+## Plataformas y posibilidades
 {: id="plataformas" }
 
 <div class="artifact-platforms">
@@ -81,18 +81,18 @@ No equivale a «pulsar un botón y terminar». El valor educativo aparece cuando
 
 Las interfaces, cuotas y opciones pueden cambiar según la cuenta, región, modelo y versión. Comprueba en tu sesión qué controles están disponibles antes de preparar una actividad.
 
-## 3. Cómo escribir un prompt para crear una aplicación
+## Cómo escribir un prompt para crear una aplicación
 {: id="prompt" }
 
 Un buen encargo combina intención pedagógica y criterios que puedan probarse. Incluye:
 
-1. **Contexto:** etapa, materia, perfil y conocimientos previos.
-2. **Objetivo de aprendizaje:** qué debe comprender o practicar el alumnado.
-3. **Experiencia:** pantallas, flujo, controles y respuestas esperadas.
-4. **Modelo conceptual:** datos, reglas, fórmulas y simplificaciones explícitas.
-5. **Accesibilidad:** teclado, foco visible, contraste, texto alternativo y movimiento reducible.
-6. **Validación:** casos de prueba, mensajes de error y límites que deben mostrarse.
-7. **Tecnología o formato:** solo cuando realmente importe.
+- **Contexto:** etapa, materia, perfil y conocimientos previos.
+- **Objetivo de aprendizaje:** qué debe comprender o practicar el alumnado.
+- **Experiencia:** pantallas, flujo, controles y respuestas esperadas.
+- **Modelo conceptual:** datos, reglas, fórmulas y simplificaciones explícitas.
+- **Accesibilidad:** teclado, foco visible, contraste, texto alternativo y movimiento reducible.
+- **Validación:** casos de prueba, mensajes de error y límites que deben mostrarse.
+- **Tecnología o formato:** solo cuando realmente importe.
 
 <details class="artifact-details" open>
 <summary>Plantilla reutilizable de prompt</summary>
@@ -111,9 +111,9 @@ El alumnado debe ser capaz de [VERBO OBSERVABLE + APRENDIZAJE].
 
 APLICACIÓN
 Crea [SIMULADOR / LABORATORIO / HERRAMIENTA] con:
-1. [PANTALLA O MÓDULO]
-2. [INTERACCIÓN Y RESPUESTA ESPERADA]
-3. [RETROALIMENTACIÓN O EVALUACIÓN]
+- [PANTALLA O MÓDULO]
+- [INTERACCIÓN Y RESPUESTA ESPERADA]
+- [RETROALIMENTACIÓN O EVALUACIÓN]
 
 RIGOR
 - Usa estas reglas o datos: [INDICAR FUENTES/REGLAS].
@@ -130,7 +130,7 @@ Antes de terminar, comprueba [3–5 CASOS] y explica las limitaciones.</code></p
 </div>
 </details>
 
-## 4. Explora aplicaciones reales creadas con IA
+## Explora aplicaciones reales creadas con IA
 {: id="galeria" }
 
 En este laboratorio descubrirás cómo una misma idea puede convertirse en una aplicación interactiva utilizando distintas herramientas de inteligencia artificial. Explora los resultados, compara las plataformas y aprende a crear tus propios recursos educativos.
@@ -166,7 +166,7 @@ En este laboratorio descubrirás cómo una misma idea puede convertirse en una a
 
 <p class="artifact-demo-note">La demostración se abre en la plataforma donde fue creada. Algunas funciones pueden requerir iniciar sesión. No se incrustan por defecto porque estas plataformas pueden bloquear los marcos externos.</p>
 
-## 5. Caso práctico 1: ROCKET LAB 3D
+## Caso práctico 1: ROCKET LAB 3D
 {: id="caso-rocket" }
 
 El mismo planteamiento produjo tres interpretaciones: Claude generó un centro de simulación; Gemini construyó otra versión con React, TypeScript, Three.js, Recharts y Lucide; y AI Studio creó **AeroVectra 3D**. Las capturas muestran diferencias de composición, controles y densidad de información, pero no bastan para declarar una herramienta «ganadora».
@@ -183,7 +183,7 @@ En Gemini se produjo un error durante el primer intento. La aplicación apareci�
 Separa claramente los datos observados de las hipótesis didácticas. Muestra unidades, fórmulas y simplificaciones. Añade instrucciones accesibles, controles por teclado, foco visible y una alternativa textual a la vista 3D. Incluye una demostración guiada y casos de prueba para valores mínimos, nominales y máximos. No presentes el modelo como una simulación de ingeniería certificada.</code></pre></div>
 </details>
 
-## 6. Caso práctico 2: PC LAB 3D
+## Caso práctico 2: PC LAB 3D
 {: id="caso-pc" }
 
 Las versiones de Claude y Gemini comparten el objetivo —comprender hardware y diagnosticar averías—, pero organizan la experiencia de forma distinta. Claude documenta apertura de chasis, compatibilidad, arranque y evaluación; Gemini separa explorador, montaje, arranque, averías y flujo de datos. Es especialmente útil en FP (ASIR), siempre que las reglas de compatibilidad y los diagnósticos se contrasten con documentación técnica.
@@ -196,7 +196,7 @@ Las versiones de Claude y Gemini comparten el objetivo —comprender hardware y 
 Incluye un taller de averías con pistas, pruebas de diagnóstico, retroalimentación y puntuación explicable. Diferencia modelos conceptuales de medidas reales. Añade modo docente, demostración guiada y resumen final. Toda función debe poder usarse con teclado y sin depender solo del color o de la escena 3D.</code></pre></div>
 </details>
 
-## 7. Caso práctico 3: WEB LAB 3D
+## Caso práctico 3: WEB LAB 3D
 {: id="caso-web" }
 
 WEB LAB 3D representa el viaje de una petición desde un navegador virtual hasta DNS, servidor, API y base de datos. Permite experimentar con GET, POST, PUT, PATCH y DELETE, inspeccionar respuestas y provocar errores. Es una **simulación educativa**, no una captura de tráfico real ni un sustituto de las herramientas de desarrollo del navegador.
@@ -214,13 +214,13 @@ Incluye navegador virtual, inspector de red simulado, laboratorio de errores, re
 ### Claude Artifacts
 {: id="tutorial-claude" }
 
-1. Accede a Claude y abre una conversación nueva.
-2. Describe el objetivo educativo, el alumnado, los módulos y los criterios de validación.
-3. Pide una aplicación interactiva o un Artifact y revisa la vista resultante.
-4. Prueba cada control; anota fallos de contenido, interfaz y accesibilidad.
-5. Solicita cambios pequeños y verificables, uno o pocos cada vez.
-6. Revisa el código cuando tu interfaz y tipo de cuenta ofrezcan esa opción.
-7. Usa **Share/Compartir** solo después de la validación y revisa qué verá otra persona.
+- Accede a Claude y abre una conversación nueva.
+- Describe el objetivo educativo, el alumnado, los módulos y los criterios de validación.
+- Pide una aplicación interactiva o un Artifact y revisa la vista resultante.
+- Prueba cada control; anota fallos de contenido, interfaz y accesibilidad.
+- Solicita cambios pequeños y verificables, uno o pocos cada vez.
+- Revisa el código cuando tu interfaz y tipo de cuenta ofrezcan esa opción.
+- Usa **Share/Compartir** solo después de la validación y revisa qué verá otra persona.
 
 La documentación oficial vigente distingue entre publicar un Artifact para que otras personas lo usen y compartirlo dentro de una organización. La disponibilidad depende del plan; los Artifacts con funciones de IA pueden exigir iniciar sesión. [Consulta la guía oficial de Anthropic](https://support.anthropic.com/es/articles/9547008-descubriendo-publicando-personalizando-y-compartiendo-artefactos){: target="_blank" rel="noopener noreferrer" }.
 
@@ -229,13 +229,13 @@ La documentación oficial vigente distingue entre publicar un Artifact para que 
 ### Gemini Canvas
 {: id="tutorial-gemini" }
 
-1. Accede a Gemini y utiliza Canvas cuando esté disponible en tu cuenta.
-2. Introduce el encargo y solicita una aplicación con vista previa.
-3. Comprueba contenido, controles, consola y adaptación a pantalla pequeña.
-4. Si aparece un error —como ocurrió en el primer intento de ROCKET LAB— copia el mensaje útil y pide corregir la causa sin eliminar funciones válidas.
-5. Repite la prueba después de cada modificación.
-6. Examina el código y las opciones de compartir disponibles en tu sesión.
-7. Abre el enlace obtenido en una ventana privada o con otra cuenta para verificar permisos.
+- Accede a Gemini y utiliza Canvas cuando esté disponible en tu cuenta.
+- Introduce el encargo y solicita una aplicación con vista previa.
+- Comprueba contenido, controles, consola y adaptación a pantalla pequeña.
+- Si aparece un error —como ocurrió en el primer intento de ROCKET LAB— copia el mensaje útil y pide corregir la causa sin eliminar funciones válidas.
+- Repite la prueba después de cada modificación.
+- Examina el código y las opciones de compartir disponibles en tu sesión.
+- Abre el enlace obtenido en una ventana privada o con otra cuenta para verificar permisos.
 
 Google indica que las apps de Canvas se comparten mediante enlaces públicos. Si una app multiusuario persiste datos, estos pueden quedar visibles o editables para cualquiera que tenga el enlace: no diseñes la práctica para recoger información sensible. [Consulta la guía oficial de seguridad de Canvas](https://support.google.com/gemini/answer/16419134){: target="_blank" rel="noopener noreferrer" }.
 
@@ -244,14 +244,14 @@ Google indica que las apps de Canvas se comparten mediante enlaces públicos. Si
 ### Google AI Studio · Build
 {: id="tutorial-ai-studio" }
 
-1. Accede a Google AI Studio y abre **Build** si está habilitado para tu cuenta.
-2. Describe la aplicación, sus componentes, datos y comprobaciones.
-3. Revisa los archivos generados y la vista previa.
-4. Modifica el proyecto mediante instrucciones o edición, según las opciones disponibles.
-5. Prueba estados iniciales, errores, navegación y diseño responsive.
-6. Usa **Share** para compartir el proyecto con los permisos elegidos; quienes reciban acceso pueden ver el código y crear una copia.
-7. Para trabajar fuera de AI Studio, la documentación vigente permite descargar un ZIP o sincronizar con GitHub.
-8. **Publish** despliega la aplicación —actualmente mediante Cloud Run— y crea una URL independiente. Revisa elegibilidad, facturación, cuotas, claves, servicios externos y visibilidad antes de publicar.
+- Accede a Google AI Studio y abre **Build** si está habilitado para tu cuenta.
+- Describe la aplicación, sus componentes, datos y comprobaciones.
+- Revisa los archivos generados y la vista previa.
+- Modifica el proyecto mediante instrucciones o edición, según las opciones disponibles.
+- Prueba estados iniciales, errores, navegación y diseño responsive.
+- Usa **Share** para compartir el proyecto con los permisos elegidos; quienes reciban acceso pueden ver el código y crear una copia.
+- Para trabajar fuera de AI Studio, la documentación vigente permite descargar un ZIP o sincronizar con GitHub.
+- **Publish** despliega la aplicación —actualmente mediante Cloud Run— y crea una URL independiente. Revisa elegibilidad, facturación, cuotas, claves, servicios externos y visibilidad antes de publicar.
 
 Estas posibilidades se han contrastado con la [documentación oficial de Build](https://ai.google.dev/gemini-api/docs/aistudio-build-mode){: target="_blank" rel="noopener noreferrer" } y la [guía de despliegue](https://ai.google.dev/gemini-api/docs/aistudio-deploying){: target="_blank" rel="noopener noreferrer" } (consulta realizada el 28 de octubre de 2026). Que la plataforma permita publicar no significa que **AeroVectra 3D** esté publicado: el único enlace aportado para este curso sigue siendo el del proyecto de AI Studio.
 
@@ -270,7 +270,7 @@ Estas posibilidades se han contrastado con la [documentación oficial de Build](
 
 Los guiones anteriores son reproducibles, pero no sustituyen los prompts originales, que no estaban en los materiales localizados. El código disponible se descarga desde cada tarjeta; se conserva sin «embellecerlo» ni presentarlo abierto por defecto. Los HTML son materiales para inspección o ejecución local controlada: no se incrustan automáticamente en el curso.
 
-## 8. Un mismo prompt, diferentes inteligencias artificiales
+## Un mismo prompt, diferentes inteligencias artificiales
 {: id="comparativa" }
 
 La tabla recoge únicamente lo observado en las capturas, archivos y enlaces aportados. «No verificado» significa exactamente eso, no ausencia de la función.
@@ -298,7 +298,7 @@ La tabla recoge únicamente lo observado en las capturas, archivos y enlaces apo
 
 > **Conclusión educativa:** «Un mismo prompt puede generar aplicaciones diferentes. La calidad final depende de la herramienta, de la formulación de las instrucciones y del proceso de prueba y mejora».
 
-## 9. Cómo compartir, exportar y publicar
+## Cómo compartir, exportar y publicar
 {: id="compartir" }
 
 | Acción | Qué significa | Antes de usarla |
@@ -309,21 +309,21 @@ La tabla recoge únicamente lo observado en las capturas, archivos y enlaces apo
 
 El enlace de AeroVectra proporcionado es un **enlace de proyecto de AI Studio**. No se ha facilitado una URL de despliegue web independiente y no se inventa una. En cualquier plataforma, prueba el enlace desde un contexto equivalente al de tu alumnado y prepara una alternativa si exige cuenta o deja de estar disponible.
 
-## 10. Reto: crea tu propio laboratorio virtual con IA
+## Reto: crea tu propio laboratorio virtual con IA
 {: id="reto" }
 
 **Objetivo:** elaborar un recurso interactivo relacionado con tu especialidad y documentar su proceso de validación. Tiempo orientativo: **60–90 minutos**.
 
-1. Identifica un concepto difícil de explicar con materiales estáticos.
-2. Elige una plataforma y justifica la elección.
-3. Redacta un prompt con objetivo y requisitos observables.
-4. Genera una primera versión y conserva el prompt.
-5. Prueba las interacciones con al menos tres casos.
-6. Identifica una mejora concreta.
-7. Solicítala mediante un segundo prompt.
-8. Verifica el resultado y registra lo que cambió.
-9. Comparte el recurso solo si los permisos y condiciones lo permiten.
-10. Reflexiona sobre su uso real en el aula y sus límites.
+- Identifica un concepto difícil de explicar con materiales estáticos.
+- Elige una plataforma y justifica la elección.
+- Redacta un prompt con objetivo y requisitos observables.
+- Genera una primera versión y conserva el prompt.
+- Prueba las interacciones con al menos tres casos.
+- Identifica una mejora concreta.
+- Solicítala mediante un segundo prompt.
+- Verifica el resultado y registra lo que cambió.
+- Comparte el recurso solo si los permisos y condiciones lo permiten.
+- Reflexiona sobre su uso real en el aula y sus límites.
 
 <div class="artifact-levels">
   <article><strong>Inicial</strong><p>Herramienta sencilla con una entrada, una transformación y retroalimentación clara.</p></article>
@@ -333,7 +333,7 @@ El enlace de AeroVectra proporcionado es un **enlace de proyecto de AI Studio**.
 
 **Entrega sugerida:** prompt inicial, enlace o captura del prototipo, segundo prompt, tres pruebas con sus resultados y reflexión breve. No incluyas datos personales.
 
-## 11. Evaluación y reflexión final
+## Evaluación y reflexión final
 {: id="evaluacion" }
 
 ### Rúbrica breve
