@@ -69,6 +69,19 @@ Después de generar y revisar las ilustraciones, podemos convertir **«Sarah, Sa
 
 **Herramientas:** [ElevenLabs](https://elevenlabs.io/) · [De texto a voz](https://elevenlabs.io/app/speech-synthesis) · [Studio](https://elevenlabs.io/app/studio). La interfaz, los modelos disponibles y el consumo de créditos pueden variar según la cuenta.
 
+### Escucha el resultado: Sarah y Salsa con Fiona (Eleven v4)
+
+**Audio de demostración:** narración completa de aproximadamente **5 min 31 s**, realizada con la voz *Fiona – Warm & Engaging* y el modelo *Eleven v4*. Incluye diálogos interpretados con la misma voz, risas, sorpresa y respiración guiada.
+
+<audio controls preload="none" style="width:100%;max-width:740px">
+  <source src="{{ '/assets/audio/sarah-salsa-emociones-elevenlabs.mp3' | relative_url }}" type="audio/mpeg">
+  Tu navegador no admite el reproductor de audio.
+</audio>
+
+[Escuchar o descargar el MP3]({{ '/assets/audio/sarah-salsa-emociones-elevenlabs.mp3' | relative_url }})
+
+> **Archivo necesario para activar el reproductor:** sube `assets/audio/sarah-salsa-emociones-elevenlabs.mp3` al repositorio y publícalo en `main`. Hasta entonces el reproductor todavía no tendrá audio. El resultado refleja el nombre «Sara» pronunciado en castellano, aunque en el guion y las imágenes se escribe «Sarah».
+
 ### Paso 1 · Pedir a la IA un guion para narrar
 
 No pegues directamente el texto de las viñetas: primero solicita un **guion oral** que respete la historia y el vocabulario de Infantil. Puedes usar este prompt con ChatGPT, Gemini o Copilot, junto al cómic o a su guion original:
