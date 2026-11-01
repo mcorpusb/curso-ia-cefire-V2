@@ -13,13 +13,13 @@ nav_exclude: true
 
 ## Índice del laboratorio
 
-1. [Crear una infografía con un prompt reutilizable](#crear-la-infografia)
-2. [Ejemplos reales por especialidad](#ejemplos-reales)
-3. [Animar la infografía: prompt en español](#prompt-de-animacion)
-4. [Versiones breves](#versiones-breves)
-5. [Ejemplo: mariposa](#ejemplo-mariposa)
-6. [Google Flow paso a paso, con capturas](#tutorial-flow)
-7. [Galería de ejemplos y actividad docente](#galeria-y-actividad)
+- [Crear una infografía con un prompt reutilizable](#crear-la-infografia)
+- [Ejemplos reales por especialidad](#ejemplos-reales)
+- [Animar la infografía: prompt en español](#prompt-de-animacion)
+- [Versiones breves](#versiones-breves)
+- [Ejemplo: mariposa](#ejemplo-mariposa)
+- [Google Flow paso a paso, con capturas](#tutorial-flow)
+- [Galería de ejemplos y actividad docente](#galeria-y-actividad)
 
 ## 1. Crear la infografía
 {: id="crear-la-infografia" }
@@ -220,12 +220,12 @@ Recuerda que un vídeo animado **no equivale a una aplicación interactiva**: au
 
 ### Reto docente · Crea, revisa, anima y justifica
 
-1. Elige un tema de tu especialidad y un objetivo curricular concreto.
-2. Copia el **prompt maestro**, sustituyendo los campos entre corchetes.
-3. Revisa la imagen y corrige al menos un aspecto relevante (exactitud, legibilidad, secuencia o accesibilidad).
-4. Adapta el **prompt de animación** al movimiento real que se pretende explicar.
-5. Si tienes créditos disponibles, genera un vídeo de prueba; si no, entrega un guion de animación sin coste.
-6. Comprueba el resultado y explica **qué mejora aporta el movimiento al aprendizaje** y qué limitaciones presenta.
+- Elige un tema de tu especialidad y un objetivo curricular concreto.
+- Copia el **prompt maestro**, sustituyendo los campos entre corchetes.
+- Revisa la imagen y corrige al menos un aspecto relevante (exactitud, legibilidad, secuencia o accesibilidad).
+- Adapta el **prompt de animación** al movimiento real que se pretende explicar.
+- Si tienes créditos disponibles, genera un vídeo de prueba; si no, entrega un guion de animación sin coste.
+- Comprueba el resultado y explica **qué mejora aporta el movimiento al aprendizaje** y qué limitaciones presenta.
 
 **Evidencias:** prompt de imagen, infografía revisada, prompt de animación, vídeo o guion alternativo y reflexión breve. Trabaja solo con materiales propios, públicos o autorizados y sin datos personales del alumnado.
 
