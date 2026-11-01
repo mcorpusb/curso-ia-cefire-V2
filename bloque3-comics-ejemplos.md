@@ -88,7 +88,7 @@ Después de generar y revisar las ilustraciones, podemos convertir **«Sarah, Sa
 
 [Escuchar o descargar el MP3]({{ '/assets/audio/sarah-salsa-emociones-elevenlabs.mp3' | relative_url }})
 
-> **Archivo necesario para activar el reproductor:** sube `assets/audio/sarah-salsa-emociones-elevenlabs.mp3` al repositorio y publícalo en `main`. Hasta entonces el reproductor todavía no tendrá audio. El resultado refleja el nombre «Sara» pronunciado en castellano, aunque en el guion y las imágenes se escribe «Sarah».
+> **Audio de ejemplo publicado:** puedes escucharlo directamente o descargar el MP3. El nombre «Sarah» se pronuncia «Sara» en la narración en castellano.
 
 ### Pedir a la IA un guion para narrar
 
