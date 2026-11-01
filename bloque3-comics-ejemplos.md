@@ -62,6 +62,110 @@ ropa, peinados, colores ni diseño de Sarah y Salsa.
 
 **Para observar en clase:** ¿se distinguen las emociones sin leer? ¿El texto cabe en los bocadillos? ¿La estrategia de respiración aparece visualmente en dos pasos? El globo que explota debe mostrarse sin escenas violentas ni aterradoras.
 
+
+## Dar vida al cuento con ElevenLabs: del cómic al audio
+
+Después de generar y revisar las ilustraciones, podemos convertir **«Sarah, Salsa y las emociones»** en un cuento sonoro con narración expresiva, personajes y pequeños efectos. Es una demostración de cómo combinar **NotebookLM → IA para guion → ElevenLabs → editor de vídeo**.
+
+**Herramientas:** [ElevenLabs](https://elevenlabs.io/) · [De texto a voz](https://elevenlabs.io/app/speech-synthesis) · [Studio](https://elevenlabs.io/app/studio). La interfaz, los modelos disponibles y el consumo de créditos pueden variar según la cuenta.
+
+### Paso 1 · Pedir a la IA un guion para narrar
+
+No pegues directamente el texto de las viñetas: primero solicita un **guion oral** que respete la historia y el vocabulario de Infantil. Puedes usar este prompt con ChatGPT, Gemini o Copilot, junto al cómic o a su guion original:
+
+```text
+Actúa como guionista de cuentos sonoros para Educación Infantil
+(3 años). Transforma el cómic «Sarah, Salsa y las emociones» en un
+guion narrado listo para ElevenLabs, en español de España.
+
+Historia: Sarah y su perrita Salsa juegan con bloques; se sorprenden
+por el estallido de un globo; Salsa tiene miedo y al esconderse tira
+la torre; Sarah siente tristeza y enfado; recupera la calma con la
+respiración «huelo una flor, soplo una vela»; se abrazan, reconstruyen
+la torre y preguntan al oyente cómo se siente.
+
+Conserva los personajes, la secuencia de portada y siete páginas y
+un tono amable y respetuoso. Incluye:
+- Narradora cálida y expresiva, diálogos breves de Sarah y ladridos
+  puntuales de Salsa; sin inventar nuevas escenas importantes.
+- Frases cortas, vocabulario comprensible, preguntas al oyente,
+  onomatopeyas y espacio para respirar en la escena flor-vela.
+- Dos versiones de salida:
+  A) texto limpio para una única voz;
+  B) guion dramatizado separado por HABLANTE 1 (narradora),
+     HABLANTE 2 (Sarah) y efectos de Salsa, listo para pegar por
+     fragmentos en una herramienta de voz.
+- Propón, aparte del texto oral, etiquetas expresivas compatibles
+  con el modelo de ElevenLabs elegido, por ejemplo [laughs],
+  [whispers], [surprised] o [sad]. No incluyas instrucciones como
+  «NARRADORA:» dentro del texto que se leerá.
+- Incluye una lista aparte de efectos opcionales, NO dentro del texto
+  hablado: bloques, pequeño «pum» de globo, ladrido, música suave.
+- Señala las pausas de respiración que habrá que ajustar después
+  en el editor si el modelo no respeta su duración.
+No incluyas mensajes de que sentir enfado o miedo es malo.
+```
+
+### Paso 2 · Generar una primera prueba en «De texto a voz»
+
+1. Abre [De texto a voz de ElevenLabs](https://elevenlabs.io/app/speech-synthesis).
+2. Selecciona una voz femenina española **cálida y comprensible** (en el ejemplo se probó *Fiona – Warm & Engaging*; escucha antes su pronunciación).
+3. Escoge **Eleven v4**, si lo tienes disponible, y revisa que el idioma sea español; en la interfaz puede figurar «Automático».
+4. Ajusta la **estabilidad hacia un punto intermedio o ligeramente creativo**, evitando una entonación excesivamente teatral para tres años. Mantén la similitud media-alta como punto de partida.
+5. Pega **solo la apertura y una escena**. Prueba primero el texto limpio y pulsa **Generar**; escucha desde el principio.
+6. Comprueba pronunciación de «Sarah» y «Salsa», ritmo, naturalidad, claridad y créditos antes de generar todo el cuento.
+
+> **No confundas etiquetas con texto hablado.** Algunos modelos leen literalmente indicaciones como «NARRADORA — alegre» o «[long pause]». Usa solo etiquetas documentadas para el modelo seleccionado, prueba una escena corta y, si se leen en voz alta, elimínalas o gestiona la actuación mediante voces/edición.
+
+### Paso 3 · Añadir emociones con indicaciones de voz
+
+En los modelos compatibles, coloca una indicación justo antes de la frase a interpretar. Por ejemplo:
+
+```text
+[happy] ¡Qué mañana tan bonita!
+[excited] ¡Yujuuuu! ¡Qué contenta estoy!
+[whispers] Pero de repente...
+[surprised] ¡PUM! ¡Qué susto!
+[sad] Oh... Mi torre se ha caído.
+[angry] ¡Estoy enfadada!
+[whispers] Ahora voy a respirar despacito.
+[laughs] ¡Qué cosquillas, Salsa!
+```
+
+Estas etiquetas son **orientativas, no una garantía de actuación**; comienza con [laughs] y [whispers], comprueba el resultado y ajusta lo que no funcione. No incluyas los encabezados de página ni las explicaciones pedagógicas en el campo de voz si no quieres que se pronuncien.
+
+### Paso 4 · Hacer que Sarah tenga otra voz
+
+En «De texto a voz», si aparece **+ Añadir hablante**, crea otro hablante para las intervenciones de Sarah. Selecciona una voz diferente, juvenil y clara; la narradora conservará la suya. Reparte los fragmentos entre hablantes en lugar de escribir literalmente «Sarah:» o «Narradora:».
+
+**Fragmentos de Sarah para separar:** «¡Qué contenta estoy!», «¡Qué susto!», «Mi torre...», «¡Estoy enfadada!», «Voy a parar y respirar», «Ahora estoy tranquila», «¡Nuestra torre!». Para Salsa, es más fiable añadir **ladridos breves como efectos sonoros** que pedir a la narradora que ladre durante toda la escena.
+
+### Paso 5 · Organizar el cuento completo en Studio
+
+Si el audio va a ser largo o necesitas editarlo por partes:
+
+1. Abre [ElevenLabs Studio](https://elevenlabs.io/app/studio) y crea un proyecto de audio, o importa el guion revisado.
+2. Separa **portada y páginas 1–7** como capítulos o escenas.
+3. Asigna la narradora y Sarah a los fragmentos correspondientes; mantén los diálogos cortos.
+4. Genera y escucha **escena por escena**, regenerando solo los párrafos que necesiten mejoras.
+5. Añade música y efectos con moderación. Usa un estallido de globo suave, no estridente.
+6. En «Huelo la flor, soplo la vela», incorpora **silencios reales** para que el alumnado pueda acompañar la respiración; las etiquetas de pausa no garantizan segundos exactos.
+7. Exporta el audio final en **MP3 o WAV**.
+
+Studio permite organizar capítulos, voces y exportaciones de audio; consulta su [documentación oficial](https://elevenlabs.io/docs/es/help-center/product/studio/studio/what-is-studio).
+
+### Paso 6 · Unir el audio y las imágenes
+
+Importa las ilustraciones del cómic y el audio en Clipchamp, Canva u otro editor. Coloca cada imagen durante su escena correspondiente, añade subtítulos legibles si procede y exporta un **vídeo-cuento**. Para Infantil, evita transiciones rápidas, música demasiado alta y efectos que asusten. Si el propósito es autorregulación, deja visible la flor y la vela durante el ejercicio.
+
+### Comprobación docente y mini-reto
+
+Antes de compartirlo, revisa pronunciación, cambios emocionales, ausencia de instrucciones leídas literalmente, coherencia con las viñetas, volumen de efectos, tiempo de respiración y licencias de voces/música. No uses grabaciones ni clones de voz de menores reales.
+
+**Reto:** crea un fragmento de 30–60 segundos en dos versiones: a) una sola voz con entonación; b) narradora y Sarah como hablantes distintos. Compara cuál comunica mejor la emoción y explica qué correcciones has realizado.
+
+---
+
 ## Caso 2 · La invasión de la gelatina amarilla (Primaria / Secundaria)
 
 **Objetivo didáctico:** explicar que los músculos necesitan energía para moverse, que el organismo utiliza distintos combustibles y que la actividad física regular contribuye a la salud.
