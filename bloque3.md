@@ -22,7 +22,6 @@ Crea presentaciones, cómics, infografías, podcasts, audios realistas y vídeos
 - [🧭 Actividades prácticas por etapa]({{ '/bloque3-actividades.html' | relative_url }})
 - [📖 3.1 · Presentaciones educativas con IA: Gamma y Copilot en PowerPoint](#31--presentaciones-educativas-con-ia-gamma-y-copilot-en-powerpoint)
 - [📖 3.2 · Cómics e ilustraciones educativas con IA](#32--cómics-e-ilustraciones-educativas-con-ia)
-- [🧪 Laboratorio · Dos cómics: Sarah y Salsa / Tomás y Popi]({{ '/bloque3-comics-ejemplos.html' | relative_url }})
 - [📖 3.2b · Cómic con Gemini Notebook](#32b--cómic-con-notebooklm)
 - [📖 3.2c · Infografías educativas con IA](#32c--infografías-educativas-con-ia)
 - [📖 3.3 · Audios realistas: narración, podcasts y accesibilidad](#33--audios-realistas-narración-podcasts-y-accesibilidad)
@@ -34,6 +33,7 @@ Crea presentaciones, cómics, infografías, podcasts, audios realistas y vídeos
 - [📚 Recursos complementarios](#-recursos-complementarios)
 - [✅ Checklist de autoevaluación](#-checklist-de-autoevaluación)
 
+- [🧪 Laboratorio · Dos cómics: Sarah y Salsa / Tomás y Popi]({{ '/bloque3-comics-ejemplos.html' | relative_url }})
 - [🧪 Google Labs / Flow · Laboratorio avanzado]({{ '/bloque3-infografias-flow.html' | relative_url }})
 - [🧪 Artifacts · Laboratorio avanzado]({{ '/bloque3-artifacts.html' | relative_url }})
 
@@ -1017,10 +1017,11 @@ Antes de pasar al Bloque 4, asegúrate de poder responder **sí** a todas estas 
 - [ ] Puedo planificar la integración de recursos multimodales IA dentro de una Situación de Aprendizaje LOMLOE.
 - [ ] Sé crear una app educativa sencilla con Gemini Canvas o Canva Code, revisando su accesibilidad, seguridad y utilidad didáctica.
 
-## 🧪 Laboratorios avanzados · Google Labs y Artifacts
+## 🧪 Laboratorios prácticos y avanzados
 
-Después de trabajar los recursos multimodales y completar la autoevaluación, puedes profundizar con estos laboratorios complementarios:
+Después de trabajar los recursos multimodales y completar la autoevaluación, puedes explorar estos laboratorios complementarios:
 
+- **[Cómics educativos: Sarah y Salsa / Tomás y Popi]({{ '/bloque3-comics-ejemplos.html' | relative_url }})**. Del guion al cómic ilustrado y narrado con IA y ElevenLabs.
 - **[Google Labs / Flow: infografías animadas]({{ '/bloque3-infografias-flow.html' | relative_url }})**. Anima imágenes educativas y revisa movimientos, rótulos y exactitud.
 - **[Artifacts: aplicaciones interactivas con IA]({{ '/bloque3-artifacts.html' | relative_url }})**. Diseña, prueba y mejora aplicaciones y simuladores educativos con Claude, Gemini Canvas o Google AI Studio.
 
