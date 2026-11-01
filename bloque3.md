@@ -547,11 +547,11 @@ pulmones y el recorrido del aire, rótulos breves y un resumen final.
 
 **Procedimiento:**
 
-1. En Clipchamp, selecciona la opción de creación de vídeo con IA, si está disponible en tu cuenta.
-2. Pega el prompt en el campo de generación y crea el proyecto.
-3. Revisa la propuesta completa: orden de las escenas, textos, imágenes, música, narración y duración.
-4. Sustituye los recursos que no encajen, corrige los textos y ajusta el ritmo desde el editor.
-5. Previsualiza el resultado, comprueba la exactitud del contenido y exporta el vídeo solo cuando esté listo.
+- En Clipchamp, selecciona la opción de creación de vídeo con IA, si está disponible en tu cuenta.
+- Pega el prompt en el campo de generación y crea el proyecto.
+- Revisa la propuesta completa: orden de las escenas, textos, imágenes, música, narración y duración.
+- Sustituye los recursos que no encajen, corrige los textos y ajusta el ritmo desde el editor.
+- Previsualiza el resultado, comprueba la exactitud del contenido y exporta el vídeo solo cuando esté listo.
 
 > **⚠️ Revisión docente imprescindible:** La duración solicitada puede no respetarse con exactitud y las imágenes generadas o seleccionadas pueden ser genéricas, repetitivas o poco adecuadas al contenido. Antes de utilizar el vídeo en el aula, revisa siempre su rigor, lenguaje, accesibilidad, derechos de uso y adecuación pedagógica.
 
