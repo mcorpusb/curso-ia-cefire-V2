@@ -19,6 +19,7 @@ Crea presentaciones, cómics, infografías, podcasts, audios realistas y vídeos
 <nav class="indice-bloque" aria-label="Índice del bloque" markdown="1">
 
 - [🎯 Objetivos del bloque](#objetivos-del-bloque)
+- [🧭 Actividades prácticas por etapa]({{ '/bloque3-actividades.html' | relative_url }})
 - [📖 3.1 · Presentaciones educativas con IA: Gamma y Copilot en PowerPoint](#31--presentaciones-educativas-con-ia-gamma-y-copilot-en-powerpoint)
 - [📖 3.2 · Cómics e ilustraciones educativas con IA](#32--cómics-e-ilustraciones-educativas-con-ia)
 - [📖 3.2b · Cómic con Gemini Notebook](#32b--cómic-con-notebooklm)
