@@ -20,6 +20,14 @@ Dos ejemplos reales de trabajo con **ChatGPT y generación de imágenes**: un cu
 - **Sarah:** niña ilustrada de seis años, cabello rubio ondulado, ganchos rojos, camiseta amarilla, tutú rosa y deportivas de colores.
 - **Salsa:** perrita Yorkshire regordeta y dormilona, con pequeño moño y lazo rojo.
 
+### Cuaderno de NotebookLM de referencia
+
+El cuento de Sarah y Salsa se trabajó también en un cuaderno de NotebookLM que puedes consultar como ejemplo para diseñar una historia educativa a partir de fuentes propias:
+
+**[Abrir el cuaderno «Sarah, Salsa y las emociones» en NotebookLM](https://notebook.google.com/notebook/d032e7ea-08f2-4791-8096-fb5005c57ca7)**
+
+> **Acceso:** para abrir el cuaderno necesitas una cuenta Google y permisos de lectura concedidos por su propietaria. Si aparece «Solicitar acceso», pide permiso; no se ha comprobado que el enlace sea público.
+
 **Estructura del cómic:** portada y siete páginas: (1) juego y alegría; (2) estallido inesperado de un globo y miedo; (3) torre de bloques caída y tristeza; (4) enfado; (5) respiración flor-vela; (6) calma y abrazo; (7) reconstrucción de la torre y pregunta final: «Y tú, ¿cómo te sientes hoy?».
 
 ### Prompt reutilizable: cuento emocional
