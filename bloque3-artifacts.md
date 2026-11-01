@@ -52,13 +52,13 @@ La inteligencia artificial no solo genera textos e imágenes: también permite a
 
 Un **Artifact** es un resultado editable y ejecutable que la IA presenta junto a la conversación: por ejemplo, una página, un gráfico o una pequeña aplicación. Otras plataformas usan nombres distintos —Canvas o Build—, pero comparten una dinámica parecida:
 
-<ol class="artifact-flow">
-  <li><span>1</span><strong>Describir</strong><small>Objetivo, usuarios y requisitos</small></li>
-  <li><span>2</span><strong>Generar</strong><small>Primer prototipo</small></li>
-  <li><span>3</span><strong>Probar</strong><small>Contenido e interacciones</small></li>
-  <li><span>4</span><strong>Iterar</strong><small>Corregir y mejorar</small></li>
-  <li><span>5</span><strong>Compartir</strong><small>Solo tras validar</small></li>
-</ol>
+<ul class="artifact-flow">
+  <li><span aria-hidden="true">•</span><strong>Describir</strong><small>Objetivo, usuarios y requisitos</small></li>
+  <li><span aria-hidden="true">•</span><strong>Generar</strong><small>Primer prototipo</small></li>
+  <li><span aria-hidden="true">•</span><strong>Probar</strong><small>Contenido e interacciones</small></li>
+  <li><span aria-hidden="true">•</span><strong>Iterar</strong><small>Corregir y mejorar</small></li>
+  <li><span aria-hidden="true">•</span><strong>Compartir</strong><small>Solo tras validar</small></li>
+</ul>
 
 No equivale a «pulsar un botón y terminar». El valor educativo aparece cuando el docente formula bien el problema, contrasta la exactitud del modelo, prueba cada control y decide qué aporta la interacción frente a una explicación estática.
 
