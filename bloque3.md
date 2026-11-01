@@ -22,6 +22,7 @@ Crea presentaciones, cómics, infografías, podcasts, audios realistas y vídeos
 - [🧭 Actividades prácticas por etapa]({{ '/bloque3-actividades.html' | relative_url }})
 - [📖 3.1 · Presentaciones educativas con IA: Gamma y Copilot en PowerPoint](#31--presentaciones-educativas-con-ia-gamma-y-copilot-en-powerpoint)
 - [📖 3.2 · Cómics e ilustraciones educativas con IA](#32--cómics-e-ilustraciones-educativas-con-ia)
+- [🧪 Laboratorio · Dos cómics: Sarah y Salsa / Tomás y Popi]({{ '/bloque3-comics-ejemplos.html' | relative_url }})
 - [📖 3.2b · Cómic con Gemini Notebook](#32b--cómic-con-notebooklm)
 - [📖 3.2c · Infografías educativas con IA](#32c--infografías-educativas-con-ia)
 - [🧪 Laboratorio · Infografías animadas con Google Flow]({{ '/bloque3-infografias-flow.html' | relative_url }})
