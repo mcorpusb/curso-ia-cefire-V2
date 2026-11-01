@@ -48,6 +48,10 @@ Después genera la portada y una página cada vez, sin cambiar
 ropa, peinados, colores ni diseño de Sarah y Salsa.
 ```
 
+### Resultado visual generado
+
+![Cómic de Sarah y Salsa, emociones en estilo cartoon]({{ '/assets/img/comics/sarah-salsa-emociones.png' | relative_url }})
+
 **Para observar en clase:** ¿se distinguen las emociones sin leer? ¿El texto cabe en los bocadillos? ¿La estrategia de respiración aparece visualmente en dos pasos? El globo que explota debe mostrarse sin escenas violentas ni aterradoras.
 
 ## Caso 2 · La invasión de la gelatina amarilla (Primaria / Secundaria)
@@ -91,6 +95,16 @@ Escribe primero el guion revisado con diálogos muy cortos. Después
 genera la portada y las páginas por separado. Comprueba continuidad
 de personajes, orden de viñetas, ortografía y precisión científica.
 ```
+
+### Resultados visuales generados
+
+**Primera versión: cómic de superhéroes**
+
+![Versión de superhéroes de Tomás y Popi]({{ '/assets/img/comics/tomas-popi-superheroes.png' | relative_url }})
+
+**Segunda versión: estilo cartoon**
+
+![Versión cartoon de Tomás y Popi]({{ '/assets/img/comics/tomas-popi-cartoon.png' | relative_url }})
 
 ### Experimentación · Cambiar solo el estilo
 
