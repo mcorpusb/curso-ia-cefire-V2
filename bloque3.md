@@ -35,6 +35,7 @@ Crea presentaciones, cómics, infografías, podcasts, audios realistas y vídeos
 
 - [🧪 Laboratorio · Dos cómics: Sarah y Salsa / Tomás y Popi]({{ '/bloque3-comics-ejemplos.html' | relative_url }})
 - [🧪 Google Labs / Flow · Laboratorio avanzado]({{ '/bloque3-infografias-flow.html' | relative_url }})
+- [🧪 Google Labs · Experimentos de IA para el aula]({{ '/google-labs-experimentos-ia-aula.html' | relative_url }})
 - [🧪 Artifacts · Laboratorio avanzado]({{ '/bloque3-artifacts.html' | relative_url }})
 
 </nav>
@@ -1068,6 +1069,7 @@ Después de trabajar los recursos multimodales y completar la autoevaluación, p
 
 - **[Cómics educativos: Sarah y Salsa / Tomás y Popi]({{ '/bloque3-comics-ejemplos.html' | relative_url }})**. Del guion al cómic ilustrado y narrado con IA y ElevenLabs.
 - **[Google Labs / Flow: infografías animadas]({{ '/bloque3-infografias-flow.html' | relative_url }})**. Anima imágenes educativas y revisa movimientos, rótulos y exactitud.
+- **[Google Labs: experimentos de IA para el aula]({{ '/google-labs-experimentos-ia-aula.html' | relative_url }})**. Catálogo revisado, herramientas que siguen apareciendo y actividades que no conviene mantener como vigentes.
 - **[Artifacts: aplicaciones interactivas con IA]({{ '/bloque3-artifacts.html' | relative_url }})**. Diseña, prueba y mejora aplicaciones y simuladores educativos con Claude, Gemini Canvas o Google AI Studio.
 
 ---
