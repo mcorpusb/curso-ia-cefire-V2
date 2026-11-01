@@ -21,7 +21,7 @@ nav_exclude: true
 - [Google Flow paso a paso, con capturas](#tutorial-flow)
 - [Galería de ejemplos y actividad docente](#galeria-y-actividad)
 
-## 1. Crear la infografía
+## Crear la infografía
 {: id="crear-la-infografia" }
 
 Empieza por definir **qué necesita comprender el alumnado**, antes de elegir la herramienta. Puedes usar ChatGPT, Gemini u otro generador de imágenes. El resultado final se revisa siempre antes de animarlo.
@@ -64,7 +64,7 @@ Crea un póster infográfico educativo vertical 9:16 sobre [NOMBRE DEL SUJETO]. 
 
 > **Revisión necesaria:** la IA puede producir textos correctos en apariencia pero con errores de ortografía, anatomía, fórmulas o datos. No debe darse por válida una infografía únicamente por su calidad gráfica.
 
-## 2. Ejemplos diseñados por etapa y especialidad
+## Ejemplos diseñados por etapa y especialidad
 {: id="ejemplos-reales" }
 
 Estos ejemplos muestran cómo adaptar **un mismo método** a objetivos de aprendizaje diferentes. Las imágenes son ilustrativas; los vídeos resultantes, cuando estén compartidos, se pueden consultar en la galería externa enlazada más abajo.
@@ -90,7 +90,7 @@ Estos ejemplos muestran cómo adaptar **un mismo método** a objetivos de aprend
 
 **Otros temas posibles:** ciclo del agua; tipos de texto; interpretación de planos; hardware del ordenador; energía fotovoltaica; competencias sociales o técnicas de estudio. El objetivo no es repetir una estética, sino **representar con claridad un contenido concreto**.
 
-## 3. Prompt maestro para animar con Google Flow
+## Prompt maestro para animar con Google Flow
 {: id="prompt-de-animacion" }
 
 Sube la infografía a Flow como **imagen PNG o JPG**, no como PDF. Sustituye `[NOMBRE DEL SUJETO]` y adapta el movimiento a aquello que representa. El prompt solicita preservar el diseño, pero ningún generador garantiza que los textos permanezcan intactos.
@@ -111,7 +111,7 @@ Finaliza con la infografía completa visible durante unos instantes. Ritmo pausa
 Evita especialmente: deformaciones de letras, fórmulas o números; cambio de palabras; alteraciones anatómicas; movimiento físicamente incorrecto; flechas invertidas; personajes adicionales; objetos aleatorios; parpadeos; cambios de escena; zoom excesivo; baja calidad y textos ilegibles.
 ```
 
-## 4. Versiones breves
+## Versiones breves
 {: id="versiones-breves" }
 
 ### Prompt breve para crear la infografía
@@ -126,7 +126,7 @@ Crea una infografía educativa vertical 9:16 sobre [TEMA], para [CURSO Y ETAPA] 
 Anima la infografía adjunta sobre [NOMBRE DEL SUJETO] en vídeo vertical 9:16. Mantén diseño, palabras, colores y contenido. Usa cámara lenta, parallax sutil y movimiento correcto de [ELEMENTO O PROCESO]. Revela paneles, líneas y datos rápidos progresivamente; termina con el póster completo. Evita deformaciones, rasgos impropios, efectos bruscos y objetos nuevos.
 ```
 
-## 5. Ejemplo: mariposa
+## Ejemplo: mariposa
 {: id="ejemplo-mariposa" }
 
 En este caso, sustituimos `[NOMBRE DEL SUJETO]` por **mariposa** y concretamos únicamente su movimiento natural, sin repetir el prompt completo:
@@ -149,26 +149,26 @@ Anima esta infografía sobre una campaña de email marketing, vertical 9:16. Mue
 
 > **No confundir:** un vídeo animado es un recurso audiovisual. Una **infografía interactiva** requiere controles reales (clics, preguntas, decisiones); para crearla puedes utilizar Gemini Canvas, Claude Artifacts u otras herramientas del laboratorio de aplicaciones interactivas.
 
-## 6. Google Flow paso a paso
+## Google Flow paso a paso
 {: id="tutorial-flow" }
 
 Abre [Google Flow](https://labs.google/fx/tools/flow). La interfaz, los modelos y las opciones de pago pueden variar según la cuenta.
 
 **Manual descargable con capturas:** [PDF]({{ '/assets/docs/manual-google-flow-infografias.pdf' | relative_url }}) · [Word editable]({{ '/assets/docs/manual-google-flow-infografias.docx' | relative_url }}). El tutorial de esta página reúne la versión organizada para el Bloque 3.
 
-### Paso 1 · Acceder y crear un proyecto
+### Acceder y crear un proyecto
 
 Accede a Google Flow y selecciona **«+ Nuevo proyecto»**.
 
 ![Captura anotada: creación de un proyecto en Google Flow]({{ '/assets/img/infografias-flow/01-crear-proyecto.png' | relative_url }})
 
-### Paso 2 · Subir la infografía e introducir el prompt
+### Subir la infografía e introducir el prompt
 
 Arrastra el **PNG/JPG** al proyecto. Pega el prompt de animación (completo o breve), adaptado al tema. Envía la solicitud cuando hayas revisado la configuración.
 
 ![Captura anotada: imagen cargada y prompt]({{ '/assets/img/infografias-flow/02-subir-prompt.png' | relative_url }})
 
-### Paso 3 · Abrir los ajustes y configurar antes de generar
+### Abrir los ajustes y configurar antes de generar
 
 Abre los ajustes del proyecto, que en las capturas aparecen como **«Configuración del agente»**. Selecciona:
 
@@ -182,7 +182,7 @@ Abre los ajustes del proyecto, que en las capturas aparecen como **«Configuraci
 
 ![Captura anotada: modelos de vídeo]({{ '/assets/img/infografias-flow/04-modelos.png' | relative_url }})
 
-### Paso 4 · Generar, revisar, descargar y compartir
+### Generar, revisar, descargar y compartir
 
 Genera una sola prueba. Al terminar, reproduce el vídeo y revisa los movimientos, los textos y las posibles deformaciones. Usa el menú **Descargar** para escoger la calidad disponible. En la captura de la demostración, **720p — Tamaño original** está disponible sin coste adicional y **270p** figura como GIF animado; 1080p y 4K aparecen asociados a una mejora de plan.
 
@@ -213,7 +213,7 @@ Antes de llevar la infografía o el vídeo al aula, verifica:
 
 Recuerda que un vídeo animado **no equivale a una aplicación interactiva**: aunque simule movimiento o destaque paneles, no incorpora botones funcionales ni permite tomar decisiones.
 
-## 7. Galería de ejemplos: de la infografía al vídeo
+## Galería de ejemplos: de la infografía al vídeo
 {: id="galeria-y-actividad" }
 
 **[Abrir carpeta compartida con infografías y vídeos de ejemplo](https://drive.google.com/drive/folders/1P2TQxmyKvDVaw5g77_0qg911KCRfD3-V?usp=drive_link)**. Accede con los permisos disponibles; comprueba que los archivos están publicados para la audiencia prevista. También puedes consultar las imágenes de ejemplo de esta página.
