@@ -531,9 +531,9 @@ educativo. Genera cada página por separado para mejorar la legibilidad.
 
 Este tercer ejemplo muestra un proceso distinto: partimos de un tema de ciberseguridad, pedimos a NotebookLM un guion visual y reunimos el resultado en un único documento. El cómic presenta a Tomy, la profesora Corpusiana y su perro, con una intrusión ficticia como hilo conductor.
 
-**[Abrir o descargar el cómic completo en PDF]({{ '/assets/docs/comic-intrusion-red.pdf' | relative_url }})**
+**[Abrir o descargar el cómic completo en PDF]({{ '/assets/docs/comic_intrusion_red_optimizado.pdf' | relative_url }})**
 
-> **Publicación del archivo:** el enlace funcionará cuando se añada el PDF `assets/docs/comic-intrusion-red.pdf` al repositorio. Se recomienda utilizar la versión optimizada para web, conservando una copia original de mayor resolución.
+ > **PDF disponible:** consulta o descarga la versión optimizada desde el enlace anterior.
 
 ### Instrucciones utilizadas en NotebookLM
 
