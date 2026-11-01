@@ -229,6 +229,19 @@ genera la portada y las páginas por separado. Comprueba continuidad
 de personajes, orden de viñetas, ortografía y precisión científica.
 ```
 
+### Audio de Tomás y Popi · Primera parte
+
+Narración generada en **ElevenLabs, con Martin Osborne – Polished and Intense (Eleven v4)**. Es un **fragmento**, no el cuento completo: llega hasta la aparición de las criaturas amarillas, cuando Popi salta hacia atrás.
+
+<audio controls preload="none" style="width:100%;max-width:740px">
+  <source src="{{ '/assets/audio/tomas-popi-superheroes-parte1.mp3' | relative_url }}" type="audio/mpeg">
+  Tu navegador no admite el reproductor de audio.
+</audio>
+
+[Escuchar o descargar la primera parte en MP3]({{ '/assets/audio/tomas-popi-superheroes-parte1.mp3' | relative_url }})
+
+> **Pendiente de publicación del MP3:** para que el reproductor funcione, incorpora el archivo `assets/audio/tomas-popi-superheroes-parte1.mp3` a la rama `main` mediante GitHub Desktop (commit y push). El reproductor se ha preparado, pero el archivo de audio aún no está en el repositorio remoto.
+
 ### Audiocómic de superhéroes · Guion completo para ElevenLabs
 
 El siguiente texto es la **versión narrada completa** de «La invasión de la gelatina amarilla», adaptada al lenguaje oral. Se ha revisado el mensaje científico para que las grasas no aparezcan como enemigas del organismo. Puede usarse con **Eleven v4**, una voz expresiva y, si hace falta, en varios fragmentos. Las etiquetas entre corchetes son indicaciones de interpretación: haz una prueba corta antes de generar todo, ya que algunas voces pueden leerlas literalmente.
