@@ -2,7 +2,7 @@
 layout: page
 title: "Artifacts y aplicaciones interactivas con IA"
 parent: "Bloque 3: Generación Multimodal"
-nav_order: 6
+nav_order: 8
 release_at: 2026-05-05T00:00:00+02:00
 artifacts_lab: true
 ---
