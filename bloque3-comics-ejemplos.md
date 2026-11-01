@@ -82,7 +82,7 @@ Después de generar y revisar las ilustraciones, podemos convertir **«Sarah, Sa
 
 > **Archivo necesario para activar el reproductor:** sube `assets/audio/sarah-salsa-emociones-elevenlabs.mp3` al repositorio y publícalo en `main`. Hasta entonces el reproductor todavía no tendrá audio. El resultado refleja el nombre «Sara» pronunciado en castellano, aunque en el guion y las imágenes se escribe «Sarah».
 
-### Paso 1 · Pedir a la IA un guion para narrar
+### Pedir a la IA un guion para narrar
 
 No pegues directamente el texto de las viñetas: primero solicita un **guion oral** que respete la historia y el vocabulario de Infantil. Puedes usar este prompt con ChatGPT, Gemini o Copilot, junto al cómic o a su guion original:
 
@@ -119,18 +119,18 @@ un tono amable y respetuoso. Incluye:
 No incluyas mensajes de que sentir enfado o miedo es malo.
 ```
 
-### Paso 2 · Generar una primera prueba en «De texto a voz»
+### Generar una primera prueba en «De texto a voz»
 
-1. Abre [De texto a voz de ElevenLabs](https://elevenlabs.io/app/speech-synthesis).
-2. Selecciona una voz femenina española **cálida y comprensible** (en el ejemplo se probó *Fiona – Warm & Engaging*; escucha antes su pronunciación).
-3. Escoge **Eleven v4**, si lo tienes disponible, y revisa que el idioma sea español; en la interfaz puede figurar «Automático».
-4. Ajusta la **estabilidad hacia un punto intermedio o ligeramente creativo**, evitando una entonación excesivamente teatral para tres años. Mantén la similitud media-alta como punto de partida.
-5. Pega **solo la apertura y una escena**. Prueba primero el texto limpio y pulsa **Generar**; escucha desde el principio.
-6. Comprueba pronunciación de «Sarah» y «Salsa», ritmo, naturalidad, claridad y créditos antes de generar todo el cuento.
+- Abre [De texto a voz de ElevenLabs](https://elevenlabs.io/app/speech-synthesis).
+- Selecciona una voz femenina española **cálida y comprensible** (en el ejemplo se probó *Fiona – Warm & Engaging*; escucha antes su pronunciación).
+- Escoge **Eleven v4**, si lo tienes disponible, y revisa que el idioma sea español; en la interfaz puede figurar «Automático».
+- Ajusta la **estabilidad hacia un punto intermedio o ligeramente creativo**, evitando una entonación excesivamente teatral para tres años. Mantén la similitud media-alta como punto de partida.
+- Pega **solo la apertura y una escena**. Prueba primero el texto limpio y pulsa **Generar**; escucha desde el principio.
+- Comprueba pronunciación de «Sarah» y «Salsa», ritmo, naturalidad, claridad y créditos antes de generar todo el cuento.
 
 > **No confundas etiquetas con texto hablado.** Algunos modelos leen literalmente indicaciones como «NARRADORA — alegre» o «[long pause]». Usa solo etiquetas documentadas para el modelo seleccionado, prueba una escena corta y, si se leen en voz alta, elimínalas o gestiona la actuación mediante voces/edición.
 
-### Paso 3 · Añadir emociones con indicaciones de voz
+### Añadir emociones con indicaciones de voz
 
 En los modelos compatibles, coloca una indicación justo antes de la frase a interpretar. Por ejemplo:
 
@@ -147,27 +147,27 @@ En los modelos compatibles, coloca una indicación justo antes de la frase a int
 
 Estas etiquetas son **orientativas, no una garantía de actuación**; comienza con [laughs] y [whispers], comprueba el resultado y ajusta lo que no funcione. No incluyas los encabezados de página ni las explicaciones pedagógicas en el campo de voz si no quieres que se pronuncien.
 
-### Paso 4 · Hacer que Sarah tenga otra voz
+### Hacer que Sarah tenga otra voz
 
 En «De texto a voz», si aparece **+ Añadir hablante**, crea otro hablante para las intervenciones de Sarah. Selecciona una voz diferente, juvenil y clara; la narradora conservará la suya. Reparte los fragmentos entre hablantes en lugar de escribir literalmente «Sarah:» o «Narradora:».
 
 **Fragmentos de Sarah para separar:** «¡Qué contenta estoy!», «¡Qué susto!», «Mi torre...», «¡Estoy enfadada!», «Voy a parar y respirar», «Ahora estoy tranquila», «¡Nuestra torre!». Para Salsa, es más fiable añadir **ladridos breves como efectos sonoros** que pedir a la narradora que ladre durante toda la escena.
 
-### Paso 5 · Organizar el cuento completo en Studio
+### Organizar el cuento completo en Studio
 
 Si el audio va a ser largo o necesitas editarlo por partes:
 
-1. Abre [ElevenLabs Studio](https://elevenlabs.io/app/studio) y crea un proyecto de audio, o importa el guion revisado.
-2. Separa **portada y páginas 1–7** como capítulos o escenas.
-3. Asigna la narradora y Sarah a los fragmentos correspondientes; mantén los diálogos cortos.
-4. Genera y escucha **escena por escena**, regenerando solo los párrafos que necesiten mejoras.
-5. Añade música y efectos con moderación. Usa un estallido de globo suave, no estridente.
-6. En «Huelo la flor, soplo la vela», incorpora **silencios reales** para que el alumnado pueda acompañar la respiración; las etiquetas de pausa no garantizan segundos exactos.
-7. Exporta el audio final en **MP3 o WAV**.
+- Abre [ElevenLabs Studio](https://elevenlabs.io/app/studio) y crea un proyecto de audio, o importa el guion revisado.
+- Separa **portada y páginas 1–7** como capítulos o escenas.
+- Asigna la narradora y Sarah a los fragmentos correspondientes; mantén los diálogos cortos.
+- Genera y escucha **escena por escena**, regenerando solo los párrafos que necesiten mejoras.
+- Añade música y efectos con moderación. Usa un estallido de globo suave, no estridente.
+- En «Huelo la flor, soplo la vela», incorpora **silencios reales** para que el alumnado pueda acompañar la respiración; las etiquetas de pausa no garantizan segundos exactos.
+- Exporta el audio final en **MP3 o WAV**.
 
 Studio permite organizar capítulos, voces y exportaciones de audio; consulta su [documentación oficial](https://elevenlabs.io/docs/es/help-center/product/studio/studio/what-is-studio).
 
-### Paso 6 · Unir el audio y las imágenes
+### Unir el audio y las imágenes
 
 Importa las ilustraciones del cómic y el audio en Clipchamp, Canva u otro editor. Coloca cada imagen durante su escena correspondiente, añade subtítulos legibles si procede y exporta un **vídeo-cuento**. Para Infantil, evita transiciones rápidas, música demasiado alta y efectos que asusten. Si el propósito es autorregulación, deja visible la flor y la vela durante el ejercicio.
 
@@ -247,13 +247,13 @@ educativo. Genera cada página por separado para mejorar la legibilidad.
 
 ## Flujo de trabajo recomendado
 
-1. **Definir el objetivo** y la edad: qué aprenderá el alumnado.
-2. **Crear fichas de personajes** (rasgos, ropa, accesorios, paleta).
-3. **Escribir el guion** por páginas, viñetas, planos y diálogos.
-4. **Generar primero una portada de prueba** y ajustar la apariencia.
-5. **Crear página a página** usando la referencia visual aprobada; evitar un único collage con todo el cuento.
-6. **Corregir el texto y maquetar** los bocadillos en Canva, PowerPoint u otra herramienta si la IA introduce letras erróneas.
-7. **Revisar la exactitud didáctica**, accesibilidad y coherencia antes de compartirlo.
+- **Definir el objetivo** y la edad: qué aprenderá el alumnado.
+- **Crear fichas de personajes** (rasgos, ropa, accesorios, paleta).
+- **Escribir el guion** por páginas, viñetas, planos y diálogos.
+- **Generar primero una portada de prueba** y ajustar la apariencia.
+- **Crear página a página** usando la referencia visual aprobada; evitar un único collage con todo el cuento.
+- **Corregir el texto y maquetar** los bocadillos en Canva, PowerPoint u otra herramienta si la IA introduce letras erróneas.
+- **Revisar la exactitud didáctica**, accesibilidad y coherencia antes de compartirlo.
 
 ### Revisión científica importante del segundo ejemplo
 
