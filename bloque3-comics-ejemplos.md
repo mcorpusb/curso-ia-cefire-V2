@@ -12,7 +12,7 @@ Dos ejemplos reales de trabajo con **ChatGPT y generación de imágenes**: un cu
 
 > **Nota:** Los protagonistas de estas actividades se plantean como personajes ilustrados ficticios. No utilices fotos identificables del alumnado ni datos personales en servicios externos.
 
-## Caso 1 · Sarah, Salsa y las emociones (Infantil, 3 años)
+## Sarah, Salsa y las emociones (Infantil, 3 años)
 
 **Objetivo didáctico:** reconocer alegría, sorpresa, miedo, tristeza, enfado y calma; ensayar una respiración sencilla (oler una flor y soplar una vela imaginaria).
 
@@ -28,7 +28,15 @@ El cuento de Sarah y Salsa se trabajó también en un cuaderno de NotebookLM que
 
 > **Acceso:** para abrir el cuaderno necesitas una cuenta Google y permisos de lectura concedidos por su propietaria. Si aparece «Solicitar acceso», pide permiso; no se ha comprobado que el enlace sea público.
 
-**Estructura del cómic:** portada y siete páginas: (1) juego y alegría; (2) estallido inesperado de un globo y miedo; (3) torre de bloques caída y tristeza; (4) enfado; (5) respiración flor-vela; (6) calma y abrazo; (7) reconstrucción de la torre y pregunta final: «Y tú, ¿cómo te sientes hoy?».
+**Estructura del cómic:** portada y siete páginas:
+
+- Juego y alegría.
+- Estallido inesperado de un globo, sorpresa y miedo.
+- Torre de bloques caída y tristeza.
+- Enfado.
+- Respiración de la flor y la vela.
+- Calma y abrazo.
+- Reconstrucción de la torre y pregunta final: «Y tú, ¿cómo te sientes hoy?».
 
 ### Prompt reutilizable: cuento emocional
 
@@ -179,7 +187,7 @@ Antes de compartirlo, revisa pronunciación, cambios emocionales, ausencia de in
 
 ---
 
-## Caso 2 · La invasión de la gelatina amarilla (Primaria / Secundaria)
+## La invasión de la gelatina amarilla (Primaria / Secundaria)
 
 **Objetivo didáctico:** explicar que los músculos necesitan energía para moverse, que el organismo utiliza distintos combustibles y que la actividad física regular contribuye a la salud.
 
