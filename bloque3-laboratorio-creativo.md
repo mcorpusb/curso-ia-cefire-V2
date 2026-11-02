@@ -33,7 +33,7 @@ Cinco retos independientes que empiezan con un material sencillo y terminan en u
 ### Paso a paso: ruta A · Cuento ilustrado
 
 - **Prepara el dibujo.** Usa un dibujo ficticio de un dragón verde con mochila roja, o una ilustración propia sin datos de menores.
-- **Abre Gemini.** Busca la función de creación de cuentos ilustrados/Storybook si aparece en tu interfaz. Si no aparece, pide el guion y las ilustraciones por separado, sin afirmar que Gemini haya creado un libro listo para publicar.
+- **Entra en Gemini con tu cuenta.** También puedes probar con una **cuenta gratuita**: en la prueba de este taller se accedió desde **Gemini → Gemas → Storybook (beta)**. Abre esa gema antes de adjuntar la imagen. La disponibilidad, los límites de generación y la ubicación del menú pueden variar según la cuenta. Si Storybook no aparece o no permite generar, utiliza un chat de Gemini para preparar el guion y las ilustraciones por separado.
 - **Adjunta el dibujo ficticio** si la herramienta admite imagen en esa modalidad.
 - **Pega el prompt** y genera una primera versión.
 - **Revisa página a página:** continuidad del personaje, ortografía, contenido, duración y lectura accesible. Corrige antes de compartir.
