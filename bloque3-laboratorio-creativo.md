@@ -268,6 +268,16 @@ Si falta información en las fuentes, indícalo: no inventes.
 
 > **Acceso:** el enlace se ha formado con el dominio y el nuevo identificador de publicación facilitados por la autora; no ha podido verificarse el acceso público. Si Google Sites solicita acceso o la página no aparece, comprueba la configuración de publicación y los permisos del sitio antes de compartirlo con el profesorado.
 
+### Captura real · Laboratorio 2: Descubre la pendiente
+
+La autora ha compartido una captura del laboratorio de pendientes. Muestra dos puntos móviles, un triángulo de incrementos y la fórmula calculada. En el ejemplo: A = (−2, −1), B = (2, 3); Δx = 4, Δy = 4 y **m = 1**. Estos valores se han revisado y son correctos.
+
+![MathLab: Laboratorio 2, gráfica de la pendiente con puntos A y B]({{ '/assets/img/mathlab-pendiente.png' | relative_url }})
+
+> **Imagen pendiente de subir al repositorio:** guarda la captura original facilitada por la autora con el nombre `assets/img/mathlab-pendiente.png`, haz commit y push. El texto y la referencia de imagen ya están preparados, pero la imagen no aparecerá hasta que exista ese archivo.
+
+**Mini-retos para el aula:** consigue una pendiente de 2; genera una pendiente negativa; coloca dos puntos a la misma altura; explica qué sucede si comparten la misma coordenada x. Comprueba cada respuesta con los cálculos de Δy/Δx.
+
 ### Cómo reproducir la experiencia
 
 - Abre [Gemini](https://gemini.google.com/) y selecciona **Canvas**.
@@ -294,6 +304,38 @@ Añade botones de reinicio y una guía didáctica breve.
 **Adaptaciones:** en **4.º de ESO**, prioriza tipos de funciones, transformaciones y pendiente; en **1.º de Bachillerato**, incorpora rectas secantes, tangentes y derivada; en **FP**, utiliza gráficas de costes, producción o velocidad con interpretación contextualizada.
 
 ---
+
+## Próximas aplicaciones por materias
+{: #nuevas-apps }
+
+Puedes reutilizar el mismo proceso **Gemini → Canvas → prompt → Vista previa → prueba de contenido → publicación → integración en el curso**. Estas propuestas son puntos de partida, no aplicaciones ya publicadas.
+
+| Etapa y materia | Aplicación propuesta | Interacciones clave |
+|:--|:--|:--|
+| Primaria · Ciencias Naturales | **BioLab: el viaje de la sangre** | Corazón y circulación, recorrido, preguntas con pistas |
+| Secundaria · Geografía e Historia | **HistoriaLab: detectives de fuentes** | Ordenar hechos, comparar testimonios, justificar evidencias |
+| Secundaria · Física y Química | **FísicaLab: fuerzas y movimiento** | Ajustar masa y fuerza, observar aceleración, resolver retos |
+| ESO · Lengua Castellana | **LenguaLab: el detective sintáctico** | Identificar funciones sintácticas y recibir pistas |
+| FP · Seguridad Informática | **RedLab: construye una red segura** | Configurar red ficticia, reconocer riesgos, validar soluciones |
+| EOI · Inglés A2 | **CityQuest: encuentra tu camino** | Elegir indicaciones, practicar diálogos, revisar errores |
+
+### Prompt maestro adaptable para Gemini Canvas
+
+```text
+Actúa como docente especialista en [MATERIA] y diseñador de
+aplicaciones educativas. Crea una aplicación web interactiva
+llamada [NOMBRE] para alumnado de [ETAPA Y CURSO].
+Objetivo observable: [QUÉ DEBE COMPRENDER O HACER].
+Incluye 3 laboratorios o escenarios interactivos sobre:
+[CONCEPTO 1], [CONCEPTO 2] y [CONCEPTO 3].
+En cada uno ofrece una explicación breve, controles que realmente
+modifiquen el resultado y un reto con tres intentos como máximo.
+Da una pista útil tras el error y explica la respuesta al finalizar.
+Añade un apartado de guía docente, botón Reiniciar, accesibilidad
+para teclado y móvil y evita recoger datos personales.
+Comprueba que las simulaciones sean correctas y no se limiten
+a una imagen estática. Genera vista previa funcional.
+```
 
 ## Plantilla de entrega · Llévatelo a tu aula
 
