@@ -17,7 +17,7 @@ nav_order: 10
 
 Escucha qué ocurre después del estallido del globo. ¿En qué momento cambia el ritmo de la narración? ¿Qué hace la voz para que puedas seguir el ejercicio de respiración?
 
-<audio controls preload="none" aria-label="Cuento de Sarah y Salsa" src="{{ '/assets/audio/sarah-salsa-emociones-elevenlabs.mp3' | relative_url }}"></audio>
+<audio controls preload="metadata" aria-label="Cuento de Sarah y Salsa" src="{{ '/assets/audio/sarah-salsa-emociones-elevenlabs.mp3' | relative_url }}"></audio>
 
 [Escuchar o descargar Sarah y Salsa]({{ '/assets/audio/sarah-salsa-emociones-elevenlabs.mp3' | relative_url }})
 
@@ -27,7 +27,7 @@ Escucha qué ocurre después del estallido del globo. ¿En qué momento cambia e
 
 Este fragmento termina cuando Popi salta hacia atrás. Escucha los segundos anteriores al salto. ¿Qué te permite anticipar la sorpresa?
 
-<audio controls preload="none" aria-label="Primera parte de Tomás y Popi" src="{{ '/assets/audio/tomas-popi-superheroes-parte1.mp3' | relative_url }}"></audio>
+<audio controls preload="metadata" aria-label="Primera parte de Tomás y Popi" src="{{ '/assets/audio/tomas-popi-superheroes-parte1.mp3' | relative_url }}"></audio>
 
 [Escuchar o descargar Tomás y Popi]({{ '/assets/audio/tomas-popi-superheroes-parte1.mp3' | relative_url }}) · [Leer los guiones y ver las viñetas]({{ '/bloque3-comics-ejemplos.html' | relative_url }})
 
@@ -122,7 +122,7 @@ Genera la canción cantada con acompañamiento musical.
 
 **Escucha la canción generada en Gemini Música.**
 
-<audio controls preload="none" aria-label="El viaje del aire, canción de Biología para 3.º de ESO" src="{{ '/assets/audio/El_viaje_del_aire.mp3' | relative_url }}"></audio>
+<audio controls preload="metadata" aria-label="El viaje del aire, canción de Biología para 3.º de ESO" src="{{ '/assets/audio/El_viaje_del_aire.mp3' | relative_url }}"></audio>
 
 [Escuchar o descargar «El viaje del aire»]({{ '/assets/audio/El_viaje_del_aire.mp3' | relative_url }})
 
@@ -132,7 +132,7 @@ Genera la canción cantada con acompañamiento musical.
 
 **Escucha la canción generada en Gemini Música.**
 
-<audio controls preload="none" aria-label="Turn Left at the Library, canción de inglés A2" src="{{ '/assets/audio/Turn_Left_at_the_Library.mp3' | relative_url }}"></audio>
+<audio controls preload="metadata" aria-label="Turn Left at the Library, canción de inglés A2" src="{{ '/assets/audio/Turn_Left_at_the_Library.mp3' | relative_url }}"></audio>
 
 [Escuchar o descargar «Turn Left at the Library»]({{ '/assets/audio/Turn_Left_at_the_Library.mp3' | relative_url }})
 
