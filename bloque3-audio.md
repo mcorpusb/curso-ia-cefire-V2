@@ -13,6 +13,8 @@ nav_order: 10
 
 ### Sarah y Salsa · Del susto a la calma
 
+![Portada del cuento Sarah y Salsa y las emociones]({{ '/assets/img/comics/sarah-salsa-emociones.png' | relative_url }})
+
 Escucha qué ocurre después del estallido del globo. ¿En qué momento cambia el ritmo de la narración? ¿Qué hace la voz para que puedas seguir el ejercicio de respiración?
 
 <audio controls preload="none" aria-label="Cuento de Sarah y Salsa" src="{{ '/assets/audio/sarah-salsa-emociones-elevenlabs.mp3' | relative_url }}"></audio>
@@ -20,6 +22,8 @@ Escucha qué ocurre después del estallido del globo. ¿En qué momento cambia e
 [Escuchar o descargar Sarah y Salsa]({{ '/assets/audio/sarah-salsa-emociones-elevenlabs.mp3' | relative_url }})
 
 ### Tomás y Popi · La aparición de las criaturas amarillas
+
+![Portada del cuento de superhéroes Tomás y Popi]({{ '/assets/img/comics/tomas-popi-superheroes.png' | relative_url }})
 
 Este fragmento termina cuando Popi salta hacia atrás. Escucha los segundos anteriores al salto. ¿Qué te permite anticipar la sorpresa?
 
