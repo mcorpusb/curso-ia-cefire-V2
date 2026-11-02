@@ -337,6 +337,19 @@ Comprueba que las simulaciones sean correctas y no se limiten
 a una imagen estática. Genera vista previa funcional.
 ```
 
+## Demostración adicional · HistoriaLab: Detectives de fuentes
+{: #historialab }
+
+**Geografía e Historia · 4.º de ESO.** Aplicación creada con Gemini Canvas para investigar la Revolución Industrial mediante documentos, perspectivas históricas, una línea del tiempo y conclusiones basadas en evidencias.
+
+La autora indica que ya ha publicado el proyecto con un identificador que comienza por `historialab-detectives-de-fuen`. **Pendiente de incorporar la URL pública completa** para que el profesorado pueda abrir la aplicación: no utilizar un enlace de edición de Google Sites.
+
+**Ruta de creación:** Gemini → Canvas → generar una aplicación funcional → probar los cinco laboratorios → revisar fuentes históricas y etiquetas de recreación → Exportar/publicar → compartir el enlace público.
+
+**Verificación docente:** comprobar que las tarjetas y retos funcionan y que los testimonios ficticios están marcados como recreaciones, no como citas documentales auténticas.
+
+---
+
 ## Plantilla de entrega · Llévatelo a tu aula
 
 Para cualquiera de las cinco actividades presenta:
