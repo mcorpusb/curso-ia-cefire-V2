@@ -259,6 +259,42 @@ Si falta información en las fuentes, indícalo: no inventes.
 
 ---
 
+## Demostración adicional · MathLab (Secundaria y Bachillerato)
+{: #mathlab }
+
+**MathLab: descubre las funciones y las derivadas** es una aplicación creada con **Gemini Canvas** para experimentar con gráficas, pendientes, rectas tangentes y cociente incremental. Está pensada para **4.º de ESO y 1.º de Bachillerato**. La captura facilitada muestra una pantalla inicial con accesos a los laboratorios y a la guía didáctica; el funcionamiento de todos los controles matemáticos aún requiere una comprobación práctica.
+
+[**Abrir MathLab en Google Sites**](https://sites.google.com/iessanvicente.com/mathlab-descubre-las-funciones) · [Ver el laboratorio de aplicaciones]({{ '/bloque3-artifacts.html' | relative_url }})
+
+> **Acceso:** el enlace se ha construido con la dirección de Google Sites y el nombre de página facilitados por la autora. Si Google Sites solicita acceso o la página no aparece, comprueba la configuración de publicación y los permisos del sitio antes de compartirlo con el profesorado.
+
+### Cómo reproducir la experiencia
+
+- Abre [Gemini](https://gemini.google.com/) y selecciona **Canvas**.
+- Solicita una app web titulada **MathLab** con cinco apartados: exploración de funciones, pendiente, derivada y tangente, cociente incremental y retos con pistas.
+- Pide gráficas dinámicas, deslizadores, comprobación de respuestas y una explicación de cada cambio; especifica que se debe generar una aplicación funcional, no una imagen.
+- Comprueba al menos tres casos: para `f(x)=x²`, la pendiente en `x=3` debe ser `6`; en `x=0` la tangente es horizontal; el cociente incremental no se evalúa directamente con `h=0`.
+- Si los controles funcionan, utiliza **Exportar** para continuar en Google Sites, revisa las condiciones de acceso y publica el sitio. Comparte la URL publicada, nunca la de edición.
+
+**Prompt reutilizable para generar una versión propia:**
+
+```text
+Actúa como docente de Matemáticas y desarrollador de aplicaciones educativas.
+Crea en Canvas una aplicación web interactiva sobre [tema matemático]
+para [curso] con estos laboratorios: [lista de conceptos].
+Incluye gráficas actualizadas en tiempo real, parámetros que pueda
+modificar el alumnado, explicaciones comprensibles y 5 retos con
+pistas tras cada error y solución razonada. Todo debe ser funcional,
+accesible, sin recopilar datos y matemáticamente correcto.
+Para funciones y derivadas, representa la gráfica, la tangente, su
+pendiente y el límite del cociente incremental sin dividir por cero.
+Añade botones de reinicio y una guía didáctica breve.
+```
+
+**Adaptaciones:** en **4.º de ESO**, prioriza tipos de funciones, transformaciones y pendiente; en **1.º de Bachillerato**, incorpora rectas secantes, tangentes y derivada; en **FP**, utiliza gráficas de costes, producción o velocidad con interpretación contextualizada.
+
+---
+
 ## Plantilla de entrega · Llévatelo a tu aula
 
 Para cualquiera de las cinco actividades presenta:
