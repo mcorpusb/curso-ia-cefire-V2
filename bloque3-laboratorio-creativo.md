@@ -264,9 +264,9 @@ Si falta información en las fuentes, indícalo: no inventes.
 
 **MathLab: descubre las funciones y las derivadas** es una aplicación creada con **Gemini Canvas** para experimentar con gráficas, pendientes, rectas tangentes y cociente incremental. Está pensada para **4.º de ESO y 1.º de Bachillerato**. La captura facilitada muestra una pantalla inicial con accesos a los laboratorios y a la guía didáctica; el funcionamiento de todos los controles matemáticos aún requiere una comprobación práctica.
 
-[**Abrir MathLab en Google Sites**](https://sites.google.com/iessanvicente.com/mathlab-descubre-las-funciones) · [Ver el laboratorio de aplicaciones]({{ '/bloque3-artifacts.html' | relative_url }})
+[**Abrir MathLab en Google Sites**](https://sites.google.com/iessanvicente.com/mathlabdescubrelasfuncionesyla) · [Ver el laboratorio de aplicaciones]({{ '/bloque3-artifacts.html' | relative_url }})
 
-> **Acceso:** el enlace se ha construido con la dirección de Google Sites y el nombre de página facilitados por la autora. Si Google Sites solicita acceso o la página no aparece, comprueba la configuración de publicación y los permisos del sitio antes de compartirlo con el profesorado.
+> **Acceso:** el enlace se ha formado con el dominio y el nuevo identificador de publicación facilitados por la autora; no ha podido verificarse el acceso público. Si Google Sites solicita acceso o la página no aparece, comprueba la configuración de publicación y los permisos del sitio antes de compartirlo con el profesorado.
 
 ### Cómo reproducir la experiencia
 
