@@ -1,453 +1,231 @@
 ---
 layout: page
-title: "Laboratorio creativo · 5 experiencias con IA"
+title: "Laboratorio creativo · Aplicaciones y recursos con IA"
 parent: "Bloque 3: Generación Multimodal"
 nav_order: 11
 ---
 
-# Laboratorio creativo · 5 experiencias de IA para llevar al aula
+# Laboratorio creativo · Aplicaciones y recursos con IA
 
-Cinco retos independientes que empiezan con un material sencillo y terminan en un recurso que el profesorado puede **probar, revisar y adaptar**. No hace falta completarlos todos: elige uno según tu etapa y el tiempo disponible.
+Del **prompt al recurso educativo**: ejemplos elaborados durante la formación y un procedimiento para reproducirlos. Elige una propuesta, comprueba cómo funciona y adapta su prompt a tu materia.
 
-**Ruta rápida:** [Dibujo → cuento o app](#dibujo) · [Escape room](#escape) · [Cuento con voz](#cuento) · [Podcast](#podcast) · [Quiz con pistas](#quiz)
+<div class="artifact-hero" markdown="1">
 
-| Reto | Producto | Tiempo orientativo de taller |
+**Itinerario de trabajo:** 1. Ver el ejemplo → 2. Leer cómo se creó → 3. Copiar el prompt → 4. Probar y corregir → 5. Llevarlo al aula.
+
+[Ir a los ejemplos](#ejemplos){: .btn .btn-primary } [Consultar nuevas ideas](#mas-ideas){: .btn }
+
+</div>
+
+## Ejemplos creados
+{: #ejemplos }
+
+| Ejemplo | Etapa | Herramienta |
 |:--|:--|:--|
-| Dibujo → cuento o aplicación | Cuento ilustrado o miniapp | 15–25 min |
-| Escape room | Juego de 3 pruebas | 20–30 min |
-| Cuento con voz y escenas | Relato ilustrado y narrado | 20–30 min |
-| Podcast | Audio de repaso con preguntas | 10–20 min |
-| Quiz con pistas | Cuestionario formativo interactivo | 15–20 min |
+| [El dragón de las emociones · Cuento](#cuento-dragon) | Infantil | Gemini Storybook (beta) |
+| [El dragón de las emociones · Juego](#juego-dragon) | Infantil | Gemini Canvas |
+| [CyberEscape · Phishing](#cyberescape) | FP | Aplicación HTML generada con IA |
+| [MathLab · Funciones y derivadas](#mathlab) | ESO/Bachillerato | Gemini Canvas |
+| [HistoriaLab · Fuentes históricas](#historialab) | ESO | Gemini Canvas |
+| [FísicaLab · Fuerzas y movimiento](#fisicalab) | ESO/Bachillerato | Gemini Canvas |
 
-> **Antes de empezar.** Usa dibujos ficticios, propios o con autorización y sin nombres, rostros ni otros datos que identifiquen al alumnado. No subas trabajos reales de menores a servicios externos sin la autorización y base jurídica correspondientes. En esta formación usa ejemplos simulados. Comprueba condiciones de acceso, créditos y permisos de publicación de cada herramienta. La generación automática puede contener errores; la publicación nunca sustituye la revisión docente.
+> **Antes de empezar:** usa contenido ficticio o propio, sin datos identificativos del alumnado. Comprueba exactitud, derechos, accesibilidad y permisos de acceso. Un recurso generado no equivale a un recurso validado.
 
 ---
 
-## 1. De un dibujo a un cuento o una aplicación
-{: #dibujo }
+## 1. El dragón de las emociones · Cuento ilustrado
+{: #cuento-dragon }
 
-**Objetivo:** partir de un personaje imaginario y transformarlo en una narración o una experiencia interactiva sin perder sus rasgos principales.
+**Infantil · 5 años · Gemini → Gemas → Storybook (beta).** A partir de un dibujo ficticio de un dragón verde con mochila roja, se creó un cuento sobre alegría, tristeza, miedo y calma.
 
-**Herramientas:** [Gemini](https://gemini.google.com/) para redactar e ilustrar una historia si tu cuenta ofrece **Storybook**; [Canva Code](https://www.canva.com/) para programar una miniapp sin escribir código. La disponibilidad de Storybook y los pasos exactos de la interfaz pueden variar según la cuenta.
+[Abrir el cuento compartido en Gemini](https://gemini.google.com/share/d/1lg5eNZrUPCBLuq2lIuK30A2Py0L_fpCD?usp=sharing). Storybook permite exportarlo como PDF si la opción está disponible. El archivo PDF no está alojado en este repositorio.
 
-### Paso a paso: ruta A · Cuento ilustrado
+**Cómo se creó**
 
-- **Prepara el dibujo.** Usa un dibujo ficticio de un dragón verde con mochila roja, o una ilustración propia sin datos de menores.
-- **Entra en Gemini con tu cuenta.** También puedes probar con una **cuenta gratuita**: en la prueba de este taller se accedió desde **Gemini → Gemas → Storybook (beta)**. Abre esa gema antes de adjuntar la imagen. La disponibilidad, los límites de generación y la ubicación del menú pueden variar según la cuenta. Si Storybook no aparece o no permite generar, utiliza un chat de Gemini para preparar el guion y las ilustraciones por separado.
-- **Adjunta el dibujo ficticio** si la herramienta admite imagen en esa modalidad.
-- **Pega el prompt** y genera una primera versión.
-- **Revisa página a página:** continuidad del personaje, ortografía, contenido, duración y lectura accesible. Corrige antes de compartir.
-- **Prueba en clase:** detén la lectura antes del desenlace y pregunta qué decisión tomaría el personaje y por qué.
-- **Descarga el PDF.** En Storybook, utiliza la opción de descarga en PDF si aparece en tu cuenta. Guarda el documento, ábrelo y comprueba que todas las páginas e ilustraciones se hayan exportado correctamente.
+1. Entra en [Gemini](https://gemini.google.com/) con una cuenta que tenga acceso a la gema **Storybook (beta)**.
+2. Adjunta el dibujo del personaje y pega el prompt desplegable.
+3. Genera el cuento, revisa los rasgos del dragón en todas las escenas y la adecuación de la narración a Infantil.
+4. Descarga el PDF, si aparece esa opción, y ábrelo para comprobar las páginas.
 
-**Ejemplo generado en la formación:** [«El dragón de las emociones» · abrir cuento compartido en Gemini](https://gemini.google.com/share/d/1lg5eNZrUPCBLuq2lIuK30A2Py0L_fpCD?usp=sharing). Se ha creado utilizando la gema **Storybook (beta)** con una cuenta gratuita. La autora confirma que permite descargarlo en PDF. **El enlace compartido puede requerir acceso a Gemini; comprueba los permisos antes de distribuirlo al profesorado.**
-
-**Para incorporarlo como descarga directa al curso:** exporta el PDF, revisa el resultado y súbelo al repositorio, por ejemplo a `assets/pdf/el-dragon-de-las-emociones.pdf`. No se ha subido todavía ese PDF.
-
-
-**Prompt reutilizable (cuento):**
-
-```text
-Actúa como autor y diseñador de cuentos educativos.
-Crea un cuento ilustrado en [idioma] para [etapa y curso] a partir
-del personaje ficticio que describo o adjunto.
-Personaje: [rasgos, colores, ropa y accesorios].
-Objetivo de aprendizaje: [objetivo observable].
-Tema o situación: [escena cercana al alumnado].
-Extensión: [número] páginas, con máximo [número] palabras por página.
-Cada página debe incluir: texto narrativo, descripción visual de la escena
-y una pregunta breve para conversar.
-Mantén consistentes los rasgos del personaje en todas las páginas.
-No inventes información del alumnado ni uses personajes reales.
-Acaba con un reto que permita demostrar qué han aprendido.
-Si no puedes crear las imágenes directamente, entrega instrucciones
-visuales listas para generarlas.
-```
-
-### Prompt del ejemplo · El dragón de las emociones · Storybook
+<details markdown="1">
+<summary><strong>Ver y copiar el prompt utilizado</strong></summary>
 
 ```text
 Crea un cuento infantil ilustrado titulado «El dragón de las emociones» para niños y niñas de 5 años. Utiliza la imagen adjunta como referencia y mantén exactamente los rasgos del protagonista: cuerpo verde con pequeñas manchas, barriga amarilla, ojos grandes, cuernos claros, alas amarillas, sonrisa amable y mochila roja. En su primer día de colegio descubre alegría al conocer amigos, tristeza al perder su juguete, miedo al escuchar un ruido desconocido y calma cuando respira despacio y pide ayuda. Crea seis escenas con ilustraciones coloridas y textos breves, expresiones faciales claras y castellano de España. Termina con «¿Cómo te sientes tú hoy?» e incluye una actividad oral para identificar emociones.
 ```
 
-### Paso a paso: ruta B · Dibujo convertido en miniapp
+</details>
 
-- Entra en [Canva](https://www.canva.com/), abre **Canva IA → Código** o la opción **Programar/Code** disponible en tu cuenta.
-- Describe el personaje de tu dibujo mediante texto; si el editor no admite adjuntar esa imagen al generar código, no presupongas que puede convertirla automáticamente.
-- Pide una actividad muy pequeña: **tres pantallas**, botones grandes, respuesta visible y un reto final.
-- Prueba todos los botones en **Vista previa**; pide correcciones concretas en el mismo chat.
-- Publica únicamente la versión revisada, si tu cuenta lo permite. Prueba la URL en otro dispositivo; no incluyas datos personales.
-
-**Prompt reutilizable (app):**
-
-```text
-Crea una miniaplicación web interactiva para [etapa y curso]
-sobre [contenido] protagonizada por [personaje ficticio y rasgos].
-Objetivo: [qué sabrá hacer el alumnado].
-Incluye una pantalla inicial, 3 retos progresivos y pantalla final.
-Interacción con botones claros, instrucciones breves y
-retroalimentación explicativa tras cada respuesta.
-No pidas registro ni almacenes datos del alumnado.
-Usa contraste alto, texto legible, teclado y etiquetas accesibles.
-Incluye botón Reiniciar y permite repetir un intento.
-No des por correcta una respuesta solo porque se haya pulsado;
-evalúa cada elección y explica el motivo.
-```
-
-**Ejemplos por etapa:** Infantil: el monstruo de los sentimientos elige cómo calmarse. Primaria: un dragón recorre las partes de una planta. Secundaria: el personaje decide cómo ahorrar energía. FP: un robot aprende a seleccionar EPI. EOI: un viajero practica peticiones de ayuda con diálogos A2.
-
-**Comprobación:** muestra tres decisiones del personaje y pide justificar cuál favorece el objetivo de aprendizaje.
+**Comprobación docente:** ¿Se distingue cada emoción por la escena y la expresión? ¿Mantiene el dragón la mochila roja?
 
 ---
 
-### Prompt del ejemplo · Juego del dragón · Gemini Canvas
+## 2. El dragón de las emociones · Juego interactivo
+{: #juego-dragon }
+
+**Infantil · 5 años · Gemini Canvas.** Una segunda actividad con el mismo personaje: elegir emociones, recibir pistas y acompañar una respiración tranquila.
+
+**Resultado:** juego creado durante el taller. Pendiente de incorporar aquí un enlace público verificado o el archivo exportado.
+
+**Cómo se creó**
+
+1. Abre Gemini y selecciona **Canvas**.
+2. Adjunta la ilustración y pega el prompt para construir una aplicación funcional.
+3. En vista previa, prueba cada emoción, las respuestas incorrectas y los botones de reinicio.
+4. Publica o exporta el resultado tras comprobarlo.
+
+<details markdown="1">
+<summary><strong>Ver y copiar el prompt utilizado</strong></summary>
 
 ```text
 Actúa como desarrollador de aplicaciones educativas para Educación Infantil. Crea la aplicación web jugable «El dragón de las emociones» para 5 años con la imagen adjunta del dragón verde y mochila roja. Incluye pantalla inicial, escenas de alegría (nuevo amigo), tristeza (juguete perdido), miedo (ruido y pedir ayuda), calma (respiración animada) y cierre. Para cada escena ofrece tres opciones de emoción, pista amable tras el error, segundo intento y explicación. Diseño ilustrado, botones grandes, apto para táctil, texto breve en castellano, sin datos personales, cronómetros ni penalizaciones. Todos los controles deben funcionar; no generes una presentación estática.
 ```
 
-## 2. Escape room generado con IA
-{: #escape }
+</details>
 
-**Objetivo:** convertir un contenido en tres pruebas encadenadas con retroalimentación, no solo en una pantalla decorativa.
-
-**Herramienta:** [Canva Code](https://www.canva.com/) o un entorno de generación de aplicaciones como [Claude Artifacts](https://claude.ai/), según disponibilidad.
-
-### Paso a paso
-
-- Elige **un objetivo y tres conceptos** que el alumnado deba aplicar.
-- Diseña en papel el recorrido: situación inicial → prueba 1 → prueba 2 → prueba 3 → explicación final.
-- Abre la herramienta y pega el prompt. Solicita datos y soluciones **ficticios**.
-- Prueba primero las respuestas correctas y después tres errores deliberados.
-- Comprueba que una respuesta equivocada **no desbloquea** la siguiente puerta.
-- Pide mejorar textos, accesibilidad y lógica; comparte la versión validada.
-
-**Prompt reutilizable:**
-
-```text
-Crea un escape room web educativo para [etapa, curso y materia].
-Título: [título]. Historia inicial: [situación breve].
-Objetivo evaluable: [objetivo].
-Diseña exactamente 3 pruebas, de dificultad creciente, sobre:
-1) [contenido 1], 2) [contenido 2], 3) [contenido 3].
-Para cada prueba incluye instrucciones, una respuesta correcta
-verificable, dos errores plausibles y una pista útil.
-Solo se avanza al resolver la prueba; no muestres las soluciones
-antes del intento. Tras un error, explica por qué no funciona
-sin revelar de golpe toda la respuesta.
-Incluye navegación con teclado, contraste adecuado, botón
-Reiniciar y un final con explicación de los tres aprendizajes.
-No uses cuentas, seguimiento individual ni servicios externos.
-Entrega una aplicación funcional, no una maqueta estática.
-```
-
-**Ejemplos por etapa:** Infantil: rescatar tres colores siguiendo patrones (con apoyo adulto). Primaria: descubrir el ciclo del agua. Secundaria: resolver pistas de fuentes históricas. FP: detectar phishing, verificar el dominio y comunicar un incidente. EOI: interpretar horarios, pedir indicaciones y resolver una situación comunicativa.
-
-**Prueba docente:** introduce una respuesta incorrecta en cada sala; anota si la pista ayuda sin regalar la solución.
+**Comprobación docente:** Las pistas deben ayudar a identificar una emoción sin penalizar al niño; la respiración guiada debe ser opcional.
 
 ---
 
-### Demostración realizada · CyberEscape: Operación Anti-Phishing SMR
+## 3. CyberEscape · Operación Anti-Phishing
+{: #cyberescape }
 
-Ya existe una versión HTML interactiva creada con Gemini que sirve de ejemplo para esta actividad. Incluye tres niveles sobre remitentes, enlaces sospechosos y medidas de seguridad, un temporizador de 20 minutos, retroalimentación tras cada respuesta y una pantalla final.
+**FP · 2.º SMR · Seguridad Informática.** Un escape room con tres pruebas: remitente, enlace sospechoso y respuesta segura.
 
-**Para publicarla:** guarda el archivo revisado como `escape-room-phishing-smr.html` en la raíz del repositorio y realiza commit y push. Cuando esté publicado, el juego estará disponible en [Abrir CyberEscape]({{ '/escape-room-phishing-smr.html' | relative_url }}). **El enlace solo funcionará cuando se haya subido el HTML.**
+[Jugar a CyberEscape]({{ '/escape-room-phishing-smr.html' | relative_url }})
 
-**Uso en la formación:** juega primero como alumno; después revisa las respuestas incorrectas, explica por qué el candado HTTPS no garantiza la legitimidad de un sitio y comenta que SPF/DKIM/DMARC y MFA reducen riesgos, pero no eliminan todos los ataques.
+**Cómo se creó**
 
-### Prompt del ejemplo · CyberEscape · Operación Anti-Phishing SMR
+1. Crea un proyecto interactivo en Gemini Canvas u otra herramienta capaz de generar HTML funcional.
+2. Pega el prompt de las tres pruebas y genera una primera versión.
+3. Comprueba rutas correctas e incorrectas; revisa las explicaciones de phishing, MFA y autenticación de correo.
+4. Exporta el HTML revisado y publícalo en el repositorio.
+
+<details markdown="1">
+<summary><strong>Ver y copiar el prompt utilizado</strong></summary>
 
 ```text
 Actúa como desarrollador de juegos educativos y especialista en ciberseguridad. Crea un ESCAPE ROOM INTERACTIVO para 2.º de SMR, Seguridad Informática, titulado «Misión Phishing: salva la cuenta del instituto». Una alumna recibe un correo que amenaza con bloquear la cuenta en diez minutos. Prueba 1: detectar un dominio de remitente distinto al oficial. Prueba 2: elegir entre tres URL ficticias cuál coincide con el dominio oficial e identificar riesgos. Prueba 3: escoger entre pulsar el enlace, responder con la contraseña o acceder al portal mediante marcador conocido y comunicar el correo. Diseño de misterio tecnológico, tres pruebas consecutivas con validación real, pistas, barra de progreso, botones grandes, efectos discretos, explicación final «¡Misión completada!», reinicio, móvil/tablet/ordenador, sin registro ni datos. No utilices enlaces reales de phishing. Genera una aplicación funcional, no una presentación.
 ```
 
-## 3. Cuento ilustrado con voz, emociones y escenas
-{: #cuento }
+</details>
 
-**Objetivo:** transformar un guion en una narración expresiva acompañada de imágenes y pausas para comprender.
-
-**Herramientas:** [ElevenLabs Text to Speech](https://elevenlabs.io/app/speech-synthesis) y [ElevenLabs Studio](https://elevenlabs.io/app/studio) si tu cuenta lo permite; las imágenes pueden elaborarse con la herramienta visual elegida. Puedes inspirarte en [Sarah y Salsa y Tomás y Popi]({{ '/bloque3-comics-ejemplos.html' | relative_url }}).
-
-### Paso a paso
-
-- Redacta una historia corta de **4 escenas** con un conflicto, un cambio emocional y una solución.
-- Crea una imagen por escena; repite la descripción de personajes y objetos para mantener continuidad.
-- Escribe el guion dividido por escenas y marca los cambios de emoción con etiquetas cuando el modelo las admita.
-- En **Text to Speech**, elige voz e idioma, genera una escena de prueba y escucha pronunciación y pausas.
-- En modelos compatibles, prueba indicaciones como `[whispers]`, `[curious]` o `[sighs]`; ajusta si suenan artificiales.
-- Exporta el audio; para un montaje final, organiza imágenes y audio en Studio o un editor de vídeo compatible.
-- Comprueba sincronización, volumen, subtítulos o transcripción y preguntas de comprensión.
-
-**Prompt reutilizable (guion + dirección):**
-
-```text
-Escribe un cuento educativo en [idioma] para [edad o curso].
-Objetivo: [aprendizaje]. Personajes ficticios: [rasgos estables].
-Organiza 4 escenas: inicio, problema, cambio emocional y solución.
-Para cada escena entrega:
-- descripción visual completa para ilustrarla;
-- narración de 35–60 palabras;
-- emoción de cada intervención y sugerencia de pausa;
-- pregunta de comprensión o inferencia.
-Después entrega el guion de locución listo para copiar en
-ElevenLabs, separado por escenas y sin instrucciones técnicas
-mezcladas con el texto hablado. Usa etiquetas de interpretación
-entre corchetes solo cuando sean compatibles con el modelo.
-Termina con una pregunta abierta sobre lo aprendido.
-```
-
-**Ejemplos por etapa:** Infantil: Sarah y Salsa superan un susto respirando con calma. Primaria: aventura por el sistema respiratorio. Secundaria: un personaje distingue rumor y evidencia. FP: Tomás y Popi detectan señales de un intento de suplantación. EOI: relato breve con expresiones A2 y pausas para repetir.
-
-**Comprobación:** reproduce primero el audio sin imágenes; pregunta qué emoción identifican y qué pista de la voz les hizo pensar eso.
+**Comprobación docente:** Ninguna respuesta incorrecta debe desbloquear el siguiente nivel. El candado HTTPS no certifica que una web sea legítima.
 
 ---
 
-## 4. Podcast educativo a partir de fuentes
-{: #podcast }
-
-**Objetivo:** convertir materiales seleccionados en un diálogo de repaso que conduzca a contrastar, no a memorizar pasivamente.
-
-**Herramienta:** [Gemini Notebook](https://notebooklm.google.com/), sección **Studio → Resumen de audio** cuando esté disponible.
-
-### Paso a paso
-
-- Prepara **dos fuentes breves, fiables y autorizadas**; elimina datos personales.
-- Crea un cuaderno y añade las fuentes. Especifica título, autor y fecha.
-- Verifica que el cuaderno reconozca el contenido preguntando por tres ideas y las referencias correspondientes.
-- En **Studio**, selecciona **Resumen de audio** y personaliza idioma, nivel y enfoque si la interfaz ofrece esas opciones.
-- Genera el resumen, escúchalo y anota posibles simplificaciones o errores frente a las fuentes.
-- Prepara **tres preguntas que obliguen a volver al texto**. No presentes el audio como sustituto de la evidencia.
-- Comparte el resultado únicamente si los permisos y derechos de las fuentes lo permiten.
-
-**Instrucción reutilizable para personalización:**
-
-```text
-Destina este resumen de audio a [etapa y nivel], materia [materia].
-Enfócalo en [objetivo]. Explica de manera dialogada 3 ideas
-centrales presentes en las fuentes, distingue hechos de ejemplos
-e identifica una confusión habitual. No inventes datos ni citas.
-Usa lenguaje claro en [idioma], una duración aproximada de
-[duración si la opción está disponible] y concluye con una pregunta
-que obligue a consultar las fuentes originales.
-```
-
-**Ejemplos por etapa:** Infantil: escuchar en grupo una explicación muy breve, mediada por el docente, sobre animales. Primaria: ciclo del agua basado en un texto escolar. Secundaria: dos enfoques de un acontecimiento histórico con fuentes contrastadas. FP: riesgos de phishing y medidas de verificación. EOI: diálogo sobre hábitos sostenibles con glosario de vocabulario.
-
-**Comprobación:** pide al alumnado localizar en las fuentes una afirmación del audio y señalar dónde aparece o si necesita matices.
-
----
-
-## 5. Quiz interactivo que enseña con pistas
-{: #quiz }
-
-**Objetivo:** dar retroalimentación que explique el error y una segunda oportunidad, en lugar de limitarse a «bien/mal».
-
-**Herramientas:** [Canva Code](https://www.canva.com/) para una actividad interactiva, o las opciones de cuestionario de Gemini Notebook para generar un banco inicial de preguntas a partir de fuentes.
-
-### Paso a paso
-
-- Define un objetivo y **cinco preguntas** alineadas con él.
-- Prepara una respuesta correcta y dos distractores razonables para cada pregunta.
-- Pide que cada fallo active **primero una pista**, después una explicación y una oportunidad de reintento.
-- Genera en Canva Code el cuestionario; si empiezas en Gemini Notebook, revisa y traslada las preguntas a la aplicación.
-- Prueba respuestas correctas, incorrectas y repetidas. Comprueba que la explicación no se contradice.
-- Añade indicador de progreso y botón Reiniciar, pero evita clasificaciones nominales del alumnado.
-- Pide al alumnado explicar por qué una opción incorrecta es tentadora y qué evidencia la descarta.
-
-**Prompt reutilizable:**
-
-```text
-Crea un cuestionario formativo interactivo para [etapa/curso]
-sobre [tema] con 5 preguntas basadas únicamente en [contenidos
-o fuentes facilitadas]. Objetivo: [objetivo].
-Cada pregunta tendrá 3 opciones, solo una correcta, y
-distractores vinculados a errores frecuentes.
-Si se falla: ofrece una pista conceptual SIN revelar la respuesta,
-permite reintentar y después explica la solución razonada.
-Si se acierta: explica por qué es correcta.
-Presenta una pregunta por pantalla, progreso, navegación
-accesible, botón Reiniciar y resumen final de los conceptos.
-No guardes nombres ni respuestas de estudiantes.
-Si falta información en las fuentes, indícalo: no inventes.
-```
-
-**Ejemplos por etapa:** Infantil: clasificar objetos por color o forma con imágenes. Primaria: funciones de los órganos. Secundaria: confundir recorrido del aire con intercambio gaseoso. FP: privilegios de solo lectura en una base de datos. EOI: comprender instrucciones de orientación en inglés A2.
-
-**Comprobación:** selecciona una opción incorrecta y evalúa si la pista realmente permite razonar la segunda respuesta.
-
----
-
-## Demostración adicional · MathLab (Secundaria y Bachillerato)
+## 4. MathLab · Funciones y derivadas
 {: #mathlab }
 
-**MathLab: descubre las funciones y las derivadas** es una aplicación creada con **Gemini Canvas** para experimentar con gráficas, pendientes, rectas tangentes y cociente incremental. Está pensada para **4.º de ESO y 1.º de Bachillerato**. La captura facilitada muestra una pantalla inicial con accesos a los laboratorios y a la guía didáctica; el funcionamiento de todos los controles matemáticos aún requiere una comprobación práctica.
+**Matemáticas · 4.º ESO y 1.º Bachillerato · Gemini Canvas.** Laboratorio para experimentar con funciones, pendiente, tangentes, cociente incremental y retos.
 
-[**Abrir MathLab en Google Sites**](https://sites.google.com/iessanvicente.com/mathlabdescubrelasfuncionesyla) · [Ver el laboratorio de aplicaciones]({{ '/bloque3-artifacts.html' | relative_url }})
+[Abrir MathLab en Google Sites](https://sites.google.com/iessanvicente.com/mathlabdescubrelasfuncionesyla) (comprobar permisos de acceso).
 
-> **Acceso:** el enlace se ha formado con el dominio y el nuevo identificador de publicación facilitados por la autora; no ha podido verificarse el acceso público. Si Google Sites solicita acceso o la página no aparece, comprueba la configuración de publicación y los permisos del sitio antes de compartirlo con el profesorado.
+**Cómo se creó**
 
-### Prompt del ejemplo · MathLab · Funciones y derivadas
+1. En Gemini, selecciona **Canvas** y pega el prompt de MathLab.
+2. Experimenta con puntos móviles y deslizadores; comprueba que las gráficas cambian realmente.
+3. Verifica varios casos matemáticos y corrige los errores.
+4. Exporta o publica la aplicación y prueba el enlace desde otra cuenta.
+
+<details markdown="1">
+<summary><strong>Ver y copiar el prompt utilizado</strong></summary>
 
 ```text
 Actúa como profesor de Matemáticas de Secundaria y desarrollador. Crea una app web real «MathLab: descubre las funciones y las derivadas» para 4.º ESO y 1.º Bachillerato. Diseño moderno, accesible y responsive. Laboratorio 1: gráficas dinámicas de f(x)=mx+b, ax²+bx+c, x³ y sin(x) con deslizadores. Laboratorio 2: dos puntos móviles y triángulo de pendiente m=Δy/Δx. Laboratorio 3: parábola x², punto móvil, tangente y pendiente f'(x)=2x, con gráfica de derivada en otro panel. Laboratorio 4: dos puntos de una secante, parámetro h y cociente [f(x+h)-f(x)]/h; explicar límite, nunca dividir por h=0. Laboratorio 5: seis retos sobre crecimiento, pendiente, parábola, tangente horizontal, derivada en x=3 y velocidad instantánea, con pistas y validación matemática. Gráficas, deslizadores, progreso y reinicios funcionales; sin datos personales. Comprueba que f'(3)=6 y que en x=0 la tangente es horizontal. No generes una maqueta.
 ```
 
-### Captura real · Laboratorio 2: Descubre la pendiente
+</details>
 
-La autora ha compartido una captura del laboratorio de pendientes. Muestra dos puntos móviles, un triángulo de incrementos y la fórmula calculada. En el ejemplo: A = (−2, −1), B = (2, 3); Δx = 4, Δy = 4 y **m = 1**. Estos valores se han revisado y son correctos.
-
-![MathLab: Laboratorio 2, gráfica de la pendiente con puntos A y B]({{ '/assets/img/mathlab-pendiente.png' | relative_url }})
-
-> **Imagen pendiente de subir al repositorio:** guarda la captura original facilitada por la autora con el nombre `assets/img/mathlab-pendiente.png`, haz commit y push. El texto y la referencia de imagen ya están preparados, pero la imagen no aparecerá hasta que exista ese archivo.
-
-**Mini-retos para el aula:** consigue una pendiente de 2; genera una pendiente negativa; coloca dos puntos a la misma altura; explica qué sucede si comparten la misma coordenada x. Comprueba cada respuesta con los cálculos de Δy/Δx.
-
-### Cómo reproducir la experiencia
-
-- Abre [Gemini](https://gemini.google.com/) y selecciona **Canvas**.
-- Solicita una app web titulada **MathLab** con cinco apartados: exploración de funciones, pendiente, derivada y tangente, cociente incremental y retos con pistas.
-- Pide gráficas dinámicas, deslizadores, comprobación de respuestas y una explicación de cada cambio; especifica que se debe generar una aplicación funcional, no una imagen.
-- Comprueba al menos tres casos: para `f(x)=x²`, la pendiente en `x=3` debe ser `6`; en `x=0` la tangente es horizontal; el cociente incremental no se evalúa directamente con `h=0`.
-- Si los controles funcionan, utiliza **Exportar** para continuar en Google Sites, revisa las condiciones de acceso y publica el sitio. Comparte la URL publicada, nunca la de edición.
-
-**Prompt reutilizable para generar una versión propia:**
-
-```text
-Actúa como docente de Matemáticas y desarrollador de aplicaciones educativas.
-Crea en Canvas una aplicación web interactiva sobre [tema matemático]
-para [curso] con estos laboratorios: [lista de conceptos].
-Incluye gráficas actualizadas en tiempo real, parámetros que pueda
-modificar el alumnado, explicaciones comprensibles y 5 retos con
-pistas tras cada error y solución razonada. Todo debe ser funcional,
-accesible, sin recopilar datos y matemáticamente correcto.
-Para funciones y derivadas, representa la gráfica, la tangente, su
-pendiente y el límite del cociente incremental sin dividir por cero.
-Añade botones de reinicio y una guía didáctica breve.
-```
-
-**Adaptaciones:** en **4.º de ESO**, prioriza tipos de funciones, transformaciones y pendiente; en **1.º de Bachillerato**, incorpora rectas secantes, tangentes y derivada; en **FP**, utiliza gráficas de costes, producción o velocidad con interpretación contextualizada.
+**Comprobación docente:** Para f(x)=x², f′(3)=6 y en x=0 la tangente es horizontal. En la captura del laboratorio de pendientes: A(−2,−1), B(2,3), m=1.
 
 ---
 
-## Próximas aplicaciones por materias
-{: #nuevas-apps }
-
-Puedes reutilizar el mismo proceso **Gemini → Canvas → prompt → Vista previa → prueba de contenido → publicación → integración en el curso**. Estas propuestas son puntos de partida, no aplicaciones ya publicadas.
-
-| Etapa y materia | Aplicación propuesta | Interacciones clave |
-|:--|:--|:--|
-| Primaria · Ciencias Naturales | **BioLab: el viaje de la sangre** | Corazón y circulación, recorrido, preguntas con pistas |
-| Secundaria · Geografía e Historia | **HistoriaLab: detectives de fuentes** | Ordenar hechos, comparar testimonios, justificar evidencias |
-| Secundaria · Física y Química | **FísicaLab: fuerzas y movimiento** | Ajustar masa y fuerza, observar aceleración, resolver retos |
-| ESO · Lengua Castellana | **LenguaLab: el detective sintáctico** | Identificar funciones sintácticas y recibir pistas |
-| FP · Seguridad Informática | **RedLab: construye una red segura** | Configurar red ficticia, reconocer riesgos, validar soluciones |
-| EOI · Inglés A2 | **CityQuest: encuentra tu camino** | Elegir indicaciones, practicar diálogos, revisar errores |
-
-### Prompt maestro adaptable para Gemini Canvas
-
-```text
-Actúa como docente especialista en [MATERIA] y diseñador de
-aplicaciones educativas. Crea una aplicación web interactiva
-llamada [NOMBRE] para alumnado de [ETAPA Y CURSO].
-Objetivo observable: [QUÉ DEBE COMPRENDER O HACER].
-Incluye 3 laboratorios o escenarios interactivos sobre:
-[CONCEPTO 1], [CONCEPTO 2] y [CONCEPTO 3].
-En cada uno ofrece una explicación breve, controles que realmente
-modifiquen el resultado y un reto con tres intentos como máximo.
-Da una pista útil tras el error y explica la respuesta al finalizar.
-Añade un apartado de guía docente, botón Reiniciar, accesibilidad
-para teclado y móvil y evita recoger datos personales.
-Comprueba que las simulaciones sean correctas y no se limiten
-a una imagen estática. Genera vista previa funcional.
-```
-
-## Demostración adicional · HistoriaLab: Detectives de fuentes
+## 5. HistoriaLab · Detectives de fuentes
 {: #historialab }
 
-**Geografía e Historia · 4.º de ESO.** Aplicación creada con Gemini Canvas para investigar la Revolución Industrial mediante documentos, perspectivas históricas, una línea del tiempo y conclusiones basadas en evidencias.
+**Geografía e Historia · 4.º ESO · Gemini Canvas.** Investigar la Revolución Industrial comparando fuentes, perspectivas y acontecimientos.
 
-La autora indica que ya ha publicado el proyecto con un identificador que comienza por `historialab-detectives-de-fuen`. **Pendiente de incorporar la URL pública completa** para que el profesorado pueda abrir la aplicación: no utilizar un enlace de edición de Google Sites.
+**Publicación indicada por la autora:** identificador `historialab-detectives-de-fuen…`. Falta la URL completa para enlazarla sin inventar su dirección.
 
-**Ruta de creación:** Gemini → Canvas → generar una aplicación funcional → probar los cinco laboratorios → revisar fuentes históricas y etiquetas de recreación → Exportar/publicar → compartir el enlace público.
+**Cómo se creó**
 
-**Verificación docente:** comprobar que las tarjetas y retos funcionan y que los testimonios ficticios están marcados como recreaciones, no como citas documentales auténticas.
+1. Abre Gemini Canvas y pega el prompt de investigación histórica.
+2. Genera cinco retos con tarjetas de fuentes, análisis y cronología.
+3. Revisa referencias auténticas y marca todos los testimonios inventados como **recreación didáctica**.
+4. Prueba las respuestas, publica y comprueba la URL pública.
 
----
-
-### Prompt del ejemplo · HistoriaLab · Detectives de fuentes
+<details markdown="1">
+<summary><strong>Ver y copiar el prompt utilizado</strong></summary>
 
 ```text
 Actúa como historiador, profesor de Geografía e Historia y desarrollador. Crea «HistoriaLab: Detectives de fuentes» para 4.º ESO, sobre la Revolución Industrial. Misión: investigar los cambios en la vida y el trabajo infantil. Diseña cinco laboratorios: (1) clasificar fuente primaria, secundaria o recreación mediante seis tarjetas; (2) analizar autor, fecha, público, intención y limitaciones de tres documentos; (3) comparar voces de trabajadora textil, propietario y reformador, marcadas claramente como RECREACIONES DIDÁCTICAS; (4) ordenar procesos de industrialización y Factory Act de 1833 en una línea temporal, evitando fechas inventadas; (5) responder con evidencias si la Factory Act protegió suficientemente a la infancia, mediante tarjetas, plantilla y rúbrica. Distingue citas auténticas, paráfrasis y ficción; verifica fuentes de National Archives y Parlamento británico. Diseño de archivo histórico azul oscuro y pergamino; tarjetas, pistas, validación, reinicio, accesibilidad y guía docente. No finjas evaluación automática semántica de texto libre ni inventes citas. Genera una aplicación jugable.
 ```
 
-## Demostración adicional · FísicaLab: Fuerzas y movimiento
+</details>
+
+**Comprobación docente:** Una fuente primaria no es automáticamente fiable. No atribuir citas inventadas a personajes históricos.
+
+---
+
+## 6. FísicaLab · Fuerzas y movimiento
 {: #fisicalab }
 
-**Física y Química · 4.º de ESO (ampliable a Bachillerato).** Aplicación generada con Gemini Canvas para experimentar con la fuerza neta, la segunda ley de Newton, el rozamiento, el plano inclinado y la caída libre.
+**Física y Química · 4.º ESO y 1.º Bachillerato · Gemini Canvas.** Simulaciones de fuerza neta, segunda ley de Newton, rozamiento, plano inclinado y caída libre.
 
-**Aplicación publicada:** [Abrir FísicaLab en Google Sites](https://sites.google.com/iessanvicente.com/fsicalabfuerzasymovimiento/full-page-embed?authuser=1). Enlace facilitado por la autora. **Acceso y controles pendientes de comprobar externamente:** si se solicita iniciar sesión, revisar los permisos de publicación. Para compartir con profesorado de otras cuentas, conviene disponer de una URL pública sin el parámetro `authuser=1`.
+[Abrir FísicaLab en Google Sites](https://sites.google.com/iessanvicente.com/fsicalabfuerzasymovimiento/full-page-embed?authuser=1) (puede requerir cuenta autorizada).
 
-. Pide a Gemini que sustituya esos textos por fórmulas legibles, por ejemplo «Fuerza neta = masa × aceleración», «a = 0» y «μₛ».
+**Cómo se creó**
 
-**Prompt de corrección para Gemini Canvas:**
+1. Genera FísicaLab con Gemini Canvas utilizando el prompt desplegable.
+2. Prueba los controles de masa, fuerza, rozamiento, ángulo y gravedad.
+3. Revisa las fórmulas: si aparecen delimitadores LaTeX (`$...$`), pide que se presenten como expresiones legibles.
+4. Publica la versión corregida y prueba su funcionamiento fuera del editor.
 
-```text
-Revisa todos los textos de FísicaLab. Algunas fórmulas se muestran
-literalmente como código LaTeX ($F_{neta}$, $a=0$, $\\mu_s$).
-Corrige su presentación en tarjetas, ayudas y laboratorios usando
-caracteres Unicode legibles (Fₙₑₜₐ, a = 0, μₛ, μₖ) o un
-renderizador matemático correctamente configurado.
-No modifiques las fórmulas físicas ni la lógica de las simulaciones.
-Comprueba que no quede ningún delimitador $ visible en la interfaz.
-```
-
-### Prompt del ejemplo · FísicaLab · Fuerzas y movimiento
+<details markdown="1">
+<summary><strong>Ver y copiar el prompt utilizado</strong></summary>
 
 ```text
 Actúa como profesor de Física y Química, diseñador de simulaciones y desarrollador web. Crea «FísicaLab · Fuerzas y movimiento» para 4.º ESO y 1.º Bachillerato: interfaz de laboratorio azul oscuro con animaciones calculadas, gráficas y controles reales. Seis laboratorios: (1) empujar una caja, cambiar masa 1–20 kg, fuerza de −100 a 100 N, velocidad inicial y rozamiento, mostrando fuerzas, velocidad y aceleración; (2) segunda ley F_neta=m·a, sliders, tabla y gráficas; (3) rozamiento estático y cinético con umbral μsN y fricción μkN; (4) plano inclinado de 0–60° con mg·senθ, mg·cosθ, normal y rozamiento correcto; (5) caída libre desde reposo con masas distintas, gravedad de Tierra/Luna y v=gt, s=½gt² sin resistencia del aire; (6) seis retos con pistas, respuestas validadas y reinicio. SI, g=9,81 m/s². Integración temporal estable independiente de FPS; no dividir por cero; vectores correctos. Validaciones: 5 kg con fuerza neta 20 N produce 4 m/s²; F_neta=0 produce a=0; sin aire masas distintas caen con igual aceleración. Incluye guía docente, accesibilidad, vista previa funcional y datos ficticios.
 ```
 
-### Guía para reproducirla
+</details>
 
-- Abre [Gemini](https://gemini.google.com/) y selecciona **Canvas**.
-- Solicita «FísicaLab: Fuerzas y movimiento» con seis laboratorios: movimiento, segunda ley de Newton, rozamiento, plano inclinado, caída libre y retos.
-- Exige controles funcionales para masa, fuerza, ángulo y gravedad, con animaciones y gráficas calculadas, no decorativas.
-- Verifica: 5 kg y 20 N de fuerza neta producen 4 m/s²; con fuerza neta cero la aceleración es cero; sin resistencia del aire dos cuerpos caen con la misma aceleración.
-- Prueba cada botón, la pausa y el reinicio; revisa especialmente los modelos de rozamiento estático y cinético.
-- Publica el resultado y comparte la **dirección pública**, no el enlace del editor. Comprueba los permisos desde una ventana privada.
-
-**Actividad breve para el alumnado:** predice qué ocurre al duplicar la fuerza manteniendo la masa; realiza la simulación y explica por qué cambia la aceleración.
+**Comprobación docente:** Con 5 kg y 20 N netos, a=4 m/s². Sin resistencia del aire dos objetos con distinta masa tienen la misma aceleración.
 
 ---
 
-> **Nota editorial:** los prompts de los ejemplos se presentan en formato unificado a partir de las instrucciones utilizadas durante su creación. No son transcripciones certificadas de los historiales de Gemini. Los prompts genéricos de cada actividad siguen disponibles como plantillas adaptables.
+## Más ideas para adaptar a otras materias
+{: #mas-ideas }
 
-## Plantilla de entrega · Llévatelo a tu aula
+Estas propuestas **todavía no son aplicaciones publicadas**. Reutiliza los prompts anteriores cambiando el objetivo, las situaciones y la verificación de respuestas.
 
-Para cualquiera de las cinco actividades presenta:
+| Materia | Propuesta | Qué experimenta el alumnado |
+|:--|:--|:--|
+| Primaria · Ciencias | **BioLab** | Recorrido de la sangre y funciones del corazón |
+| Lengua Castellana · ESO | **LenguaLab** | Análisis sintáctico con pistas |
+| EOI · Inglés A2 | **CityQuest** | Indicaciones y diálogos en un mapa |
+| FP · Informática | **RedLab** | Red simulada y decisiones de seguridad |
 
-- **Contexto:** etapa, curso, materia y objetivo observable.
-- **Material de partida:** dibujo ficticio, texto, contenidos o fuente autorizada.
-- **Proceso:** prompt inicial y al menos **una mejora** tras probar el recurso.
-- **Resultado:** enlace o captura que pueda abrirse y comprobarse; audio o vídeo con transcripción cuando proceda.
-- **Evidencia de aprendizaje:** una pregunta o tarea que demuestre comprensión.
-- **Revisión docente:** exactitud, adecuación, accesibilidad, privacidad y funcionamiento.
+### Plantilla breve para una nueva aplicación
 
-### Lista de comprobación
+```text
+Crea con Gemini Canvas una aplicación web interactiva para [etapa y curso]
+sobre [contenido]. Objetivo: [aprendizaje observable].
+Incluye tres situaciones con controles reales, preguntas verificables,
+pistas tras el error y una explicación final. Añade un botón Reiniciar,
+una guía docente, accesibilidad y adaptación a móvil.
+Usa datos ficticios y no recopiles información personal.
+Comprueba los resultados antes de entregar la vista previa.
+```
 
-- [ ] El contenido es correcto y está adaptado a mi grupo.
-- [ ] Los controles, audios, vídeos y enlaces funcionan.
-- [ ] Los errores generan una explicación útil, no solo una puntuación.
-- [ ] He incluido alternativa textual para audio e imágenes significativas.
-- [ ] No he subido datos ni imágenes identificables del alumnado.
-- [ ] Puedo explicar cómo evaluaré el aprendizaje, no solo el producto generado.
+## Recursos de apoyo
 
-### Recursos y guías
+- [Cómics y ejemplos narrados]({{ '/bloque3-comics-ejemplos.html' | relative_url }})
+- [Audio: ElevenLabs y Gemini]({{ '/bloque3-audio.html' | relative_url }})
+- [Laboratorio de Artifacts]({{ '/bloque3-artifacts.html' | relative_url }})
+- [Actividades del Bloque 3]({{ '/bloque3-actividades.html' | relative_url }})
 
-- [Ayuda oficial de Canva Code](https://www.canva.com/es_es/help/canva-code/)
-- [Guía de Studio de ElevenLabs](https://elevenlabs.io/docs/es/help-center/product/studio/studio/what-is-studio)
-- [Guía de texto a voz de ElevenLabs](https://elevenlabs.io/docs/es/eleven-creative/playground/text-to-speech)
-- [Ayuda de resumen de audio de Gemini Notebook](https://support.google.com/gemininotebook/answer/16212820?hl=es-ES)
-- [Laboratorio de cómics]({{ '/bloque3-comics-ejemplos.html' | relative_url }}) · [Taller de audio]({{ '/bloque3-audio.html' | relative_url }}) · [Laboratorio de Artifacts]({{ '/bloque3-artifacts.html' | relative_url }})
+> **Nota editorial:** los prompts de las aplicaciones son versiones organizadas a partir de las instrucciones de trabajo utilizadas durante el curso, no transcripciones verificadas de los historiales de Gemini. Las aplicaciones enlazadas deben probarse en una sesión real antes de reutilizarlas con alumnado.
 
-[← Volver a las actividades del Bloque 3]({{ '/bloque3-actividades.html' | relative_url }})
+[← Volver al Bloque 3]({{ '/bloque3.html' | relative_url }})
