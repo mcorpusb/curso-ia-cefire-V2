@@ -89,6 +89,8 @@ Estas rutas amplían el trabajo del Bloque 3 sin sustituir la actividad elegida:
   </article>
 </div>
 
+**Nuevo:** [✨ Laboratorio creativo · Cinco experiencias listas para el aula]({{ '/bloque3-laboratorio-creativo.html' | relative_url }}) — dibujo a cuento o app, escape room, cuento con voz, podcast y quiz con pistas. Incluye tutoriales, prompts y ejemplos por etapa.
+
 ## Entregable general del Bloque 3
 {: id="entregable-general" }
 
