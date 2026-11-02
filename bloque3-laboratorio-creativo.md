@@ -355,7 +355,7 @@ La autora indica que ya ha publicado el proyecto con un identificador que comien
 
 **Física y Química · 4.º de ESO (ampliable a Bachillerato).** Aplicación generada con Gemini Canvas para experimentar con la fuerza neta, la segunda ley de Newton, el rozamiento, el plano inclinado y la caída libre.
 
-**Estado comunicado por la autora:** publicada con identificador `fsicalabfuerzasymovimiento` (con esa grafía). **Pendiente de confirmar la URL completa de Google Sites** y de comprobar el funcionamiento de la aplicación antes de añadir un enlace público.
+**Aplicación publicada:** [Abrir FísicaLab en Google Sites](https://sites.google.com/iessanvicente.com/fsicalabfuerzasymovimiento/full-page-embed?authuser=1). Enlace facilitado por la autora. **Acceso y controles pendientes de comprobar externamente:** si se solicita iniciar sesión, revisar los permisos de publicación. Para compartir con profesorado de otras cuentas, conviene disponer de una URL pública sin el parámetro `authuser=1`.
 
 ### Guía para reproducirla
 
