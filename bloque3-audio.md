@@ -75,3 +75,21 @@ Abre [Google AI Studio](https://aistudio.google.com/), elige la generación de v
 Detén el audio tras la pregunta y pide al grupo que proponga una comprobación por un canal conocido. Para comparar herramientas, genera el mismo diálogo en ElevenLabs y escucha en cuál se distinguen mejor los turnos.
 
 [Guía de Google sobre generación de voz con Gemini](https://ai.google.dev/gemini-api/docs/speech-generation?hl=es)
+
+## Crear música con Gemini
+{: #gemini-musica }
+
+¿Qué música pondrías debajo de la voz de Popi para que se note el momento en que deja de tener miedo?
+
+![Pantalla Crear música de Gemini con Lyria 3.5. Se ven las plantillas Música de fondo y Memorizar algo, el campo para describir la pista y los controles Duración, Voces y Género.]({{ '/assets/img/gemini-musica.svg' | relative_url }})
+
+1. Abre [Gemini](https://gemini.google.com/) y selecciona **Música**. En la pantalla de la captura aparece **Crear música**.
+2. Elige **Música de fondo**. También puedes escribir directamente en **Describe la pista musical**.
+3. Revisa **Duración**, **Voces** y **Género**. Para acompañar el cuento, elige una duración próxima a la de la escena y pide una pista instrumental.
+4. Copia esta descripción y envíala:
+
+   > Crea una pieza instrumental para un cuento de Primaria. Popi oye algo detrás de la puerta. Empieza con notas de piano suaves y espaciadas. A mitad de la pieza descubre que es Tomás. Cambia entonces a una melodía cálida y tranquila. Sin letra ni percusión fuerte, para que se entienda la narración.
+
+5. Reproduce la pista junto al fragmento narrado. ¿Coincide el cambio musical con la frase «¡Ah, eras tú!»? Si llega demasiado pronto, pide que el piano mantenga la tensión unos segundos más.
+
+**Otra prueba para Primaria.** Selecciona **Memorizar algo** y pide una estrofa breve sobre el recorrido del aire desde la nariz hasta los pulmones. Escucha la letra y comprueba el orden de los órganos antes de cantarla en clase.
