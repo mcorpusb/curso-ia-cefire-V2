@@ -135,3 +135,13 @@ Genera la canción cantada con acompañamiento musical.
 #### FP · 2.º de SMR · «¿Abrirías ese enlace?»
 
 > Crea un rap dialogado en castellano de un minuto para 2.º de SMR, módulo de Seguridad Informática. Alba recibe un correo que amenaza con bloquearle la cuenta del centro en diez minutos. Dani le pregunta qué dirección aparece al desplegar el remitente. Alba descubre que el dominio no coincide con el del centro. En el estribillo utiliza «Para, comprueba, avisa». En la segunda estrofa, Alba abre el portal del centro desde su marcador habitual y comunica el mensaje a soporte. Haz que las voces suenen como dos compañeros de clase, con una base suave que permita entender cada pista. Termina con la pregunta «Y si el dominio pareciera correcto, ¿cómo comprobarías el aviso?».
+
+**Escucha «El truco en el remitente».** Vídeo musical generado para trabajar la detección de mensajes sospechosos y la verificación del remitente.
+
+<video controls preload="none" playsinline width="459" poster="{{ '/assets/img/el-truco-en-el-remitente.png' | relative_url }}" aria-label="Vídeo El truco en el remitente">
+  <source src="{{ '/assets/audio/El_truco_en_el_remitente.mp4' | relative_url }}" type="video/mp4">
+  Tu navegador no admite la reproducción de vídeo.
+</video>
+
+[Ver o descargar «El truco en el remitente» (MP4)]({{ '/assets/audio/El_truco_en_el_remitente.mp4' | relative_url }})
+
