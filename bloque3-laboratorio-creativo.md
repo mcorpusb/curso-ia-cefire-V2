@@ -350,6 +350,26 @@ La autora indica que ya ha publicado el proyecto con un identificador que comien
 
 ---
 
+## Demostración adicional · FísicaLab: Fuerzas y movimiento
+{: #fisicalab }
+
+**Física y Química · 4.º de ESO (ampliable a Bachillerato).** Aplicación generada con Gemini Canvas para experimentar con la fuerza neta, la segunda ley de Newton, el rozamiento, el plano inclinado y la caída libre.
+
+**Estado comunicado por la autora:** publicada con identificador `fsicalabfuerzasymovimiento` (con esa grafía). **Pendiente de confirmar la URL completa de Google Sites** y de comprobar el funcionamiento de la aplicación antes de añadir un enlace público.
+
+### Guía para reproducirla
+
+- Abre [Gemini](https://gemini.google.com/) y selecciona **Canvas**.
+- Solicita «FísicaLab: Fuerzas y movimiento» con seis laboratorios: movimiento, segunda ley de Newton, rozamiento, plano inclinado, caída libre y retos.
+- Exige controles funcionales para masa, fuerza, ángulo y gravedad, con animaciones y gráficas calculadas, no decorativas.
+- Verifica: 5 kg y 20 N de fuerza neta producen 4 m/s²; con fuerza neta cero la aceleración es cero; sin resistencia del aire dos cuerpos caen con la misma aceleración.
+- Prueba cada botón, la pausa y el reinicio; revisa especialmente los modelos de rozamiento estático y cinético.
+- Publica el resultado y comparte la **dirección pública**, no el enlace del editor. Comprueba los permisos desde una ventana privada.
+
+**Actividad breve para el alumnado:** predice qué ocurre al duplicar la fuerza manteniendo la masa; realiza la simulación y explica por qué cambia la aceleración.
+
+---
+
 ## Plantilla de entrega · Llévatelo a tu aula
 
 Para cualquiera de las cinco actividades presenta:
