@@ -93,3 +93,33 @@ Detén el audio tras la pregunta y pide al grupo que proponga una comprobación 
 5. Reproduce la pista junto al fragmento narrado. ¿Coincide el cambio musical con la frase «¡Ah, eras tú!»? Si llega demasiado pronto, pide que el piano mantenga la tensión unos segundos más.
 
 **Otra prueba para Primaria.** Selecciona **Memorizar algo** y pide una estrofa breve sobre el recorrido del aire desde la nariz hasta los pulmones. Escucha la letra y comprueba el orden de los órganos antes de cantarla en clase.
+
+### Prompt reutilizable · Crea una canción para tu clase
+
+Este **prompt reutilizable** sirve para crear canciones en Gemini Música. El profesorado solo tiene que cambiar lo que aparece entre corchetes y pegarlo en **Describe la pista musical**.
+
+```text
+Crea una canción en [idioma] para alumnado de [etapa, curso o nivel] de [asignatura o módulo]. Al terminar de escucharla, quiero que el alumnado sea capaz de [objetivo concreto].
+
+La canción parte de esta situación: [una escena cercana al alumnado]. Usa estos contenidos como referencia: [pega entre 3 y 5 ideas, expresiones o pasos que deben aparecer]. Respeta su significado y su orden cuando sea importante.
+
+Dale un estilo [pop acústico, rap, rumba, indie…], con [una voz / dos voces que se responden], ritmo [tranquilo / medio / animado] y una duración aproximada de [duración]. La voz debe entenderse por encima de la música. Utiliza un tono natural para esa edad y evita forzar las rimas si se pierde precisión.
+
+Empieza directamente con la escena. En la primera estrofa, plantea un problema. En el estribillo, convierte la idea principal en una frase breve que la clase pueda cantar. En la segunda estrofa, muestra cómo se aplica. Termina con una pregunta que el alumnado pueda responder al detener la música.
+
+Genera la canción cantada con acompañamiento musical.
+```
+
+### Tres ejemplos listos para pegar en «Describe la pista musical»
+
+#### Secundaria · Biología · «¿Por qué respiro más rápido?»
+
+> Crea una canción indie pop en castellano de aproximadamente un minuto para 3.º de ESO. La protagonista llega al tercer piso del instituto, se queda sin aliento y se pregunta qué ocurre dentro de su cuerpo. Sigue una bocanada de aire desde la nariz hasta los alvéolos, pasando por la faringe, la laringe, la tráquea, los bronquios y los bronquiolos. En el estribillo, deja clara la diferencia entre el recorrido del aire y el paso del oxígeno a la sangre. Usa una voz juvenil, dicción clara y un ritmo que permita seguir el viaje sin atropellar los nombres. Termina cantando «¿En qué momento pasó el oxígeno a mi sangre?».
+
+#### Idiomas · Inglés A2 · «Which way to the station?»
+
+> Crea una canción pop acústica en inglés para alumnado de nivel A2. Dos voces representan a una viajera y a una persona del barrio. La viajera pregunta «Excuse me, how do I get to the station?». La otra voz le indica, en este orden, que siga recto, gire a la izquierda al llegar a la biblioteca y cruce la calle. Usa «go straight on», «turn left at the library» y «cross the street». Convierte la pregunta inicial en un estribillo que la clase pueda cantar. Mantén un ritmo tranquilo y deja una pausa después de cada indicación para que el alumnado pueda dibujar la ruta mientras escucha. Duración aproximada de un minuto.
+
+#### FP · 2.º de SMR · «¿Abrirías ese enlace?»
+
+> Crea un rap dialogado en castellano de un minuto para 2.º de SMR, módulo de Seguridad Informática. Alba recibe un correo que amenaza con bloquearle la cuenta del centro en diez minutos. Dani le pregunta qué dirección aparece al desplegar el remitente. Alba descubre que el dominio no coincide con el del centro. En el estribillo utiliza «Para, comprueba, avisa». En la segunda estrofa, Alba abre el portal del centro desde su marcador habitual y comunica el mensaje a soporte. Haz que las voces suenen como dos compañeros de clase, con una base suave que permita entender cada pista. Termina con la pregunta «Y si el dominio pareciera correcto, ¿cómo comprobarías el aviso?».
