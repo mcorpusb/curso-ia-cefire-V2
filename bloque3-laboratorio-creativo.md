@@ -129,6 +129,14 @@ Entrega una aplicación funcional, no una maqueta estática.
 
 ---
 
+### Demostración realizada · CyberEscape: Operación Anti-Phishing SMR
+
+Ya existe una versión HTML interactiva creada con Gemini que sirve de ejemplo para esta actividad. Incluye tres niveles sobre remitentes, enlaces sospechosos y medidas de seguridad, un temporizador de 20 minutos, retroalimentación tras cada respuesta y una pantalla final.
+
+**Para publicarla:** guarda el archivo revisado como `escape-room-phishing-smr.html` en la raíz del repositorio y realiza commit y push. Cuando esté publicado, el juego estará disponible en [Abrir CyberEscape]({{ '/escape-room-phishing-smr.html' | relative_url }}). **El enlace solo funcionará cuando se haya subido el HTML.**
+
+**Uso en la formación:** juega primero como alumno; después revisa las respuestas incorrectas, explica por qué el candado HTTPS no garantiza la legitimidad de un sitio y comenta que SPF/DKIM/DMARC y MFA reducen riesgos, pero no eliminan todos los ataques.
+
 ## 3. Cuento ilustrado con voz, emociones y escenas
 {: #cuento }
 
