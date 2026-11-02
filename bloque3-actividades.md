@@ -78,9 +78,9 @@ Estas rutas amplían el trabajo del Bloque 3 sin sustituir la actividad elegida:
     <a href="{{ '/bloque3.html#32--cómics-e-ilustraciones-educativas-con-ia' | relative_url }}">Ir a cuentos y cómics <span aria-hidden="true">→</span></a>
   </article>
   <article>
-    <h3>Narraciones con ElevenLabs</h3>
-    <p>Transforma un guion revisado en una narración educativa y accesible mediante voz generada con IA.</p>
-    <a href="{{ '/bloque3.html#33--audios-realistas-narración-podcasts-y-accesibilidad' | relative_url }}">Ir a narraciones y audio <span aria-hidden="true">→</span></a>
+    <h3>Audio · ElevenLabs y Gemini</h3>
+    <p>Escucha dos cuentos y practica con un guion a una voz y un diálogo a dos voces.</p>
+    <a href="{{ '/bloque3-audio.html' | relative_url }}">Abrir el taller de audio <span aria-hidden="true">→</span></a>
   </article>
   <article>
     <h3>Aplicaciones interactivas</h3>
