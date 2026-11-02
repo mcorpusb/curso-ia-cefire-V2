@@ -38,6 +38,12 @@ Cinco retos independientes que empiezan con un material sencillo y terminan en u
 - **Pega el prompt** y genera una primera versión.
 - **Revisa página a página:** continuidad del personaje, ortografía, contenido, duración y lectura accesible. Corrige antes de compartir.
 - **Prueba en clase:** detén la lectura antes del desenlace y pregunta qué decisión tomaría el personaje y por qué.
+- **Descarga el PDF.** En Storybook, utiliza la opción de descarga en PDF si aparece en tu cuenta. Guarda el documento, ábrelo y comprueba que todas las páginas e ilustraciones se hayan exportado correctamente.
+
+**Ejemplo generado en la formación:** [«El dragón de las emociones» · abrir cuento compartido en Gemini](https://gemini.google.com/share/d/1lg5eNZrUPCBLuq2lIuK30A2Py0L_fpCD?usp=sharing). Se ha creado utilizando la gema **Storybook (beta)** con una cuenta gratuita. La autora confirma que permite descargarlo en PDF. **El enlace compartido puede requerir acceso a Gemini; comprueba los permisos antes de distribuirlo al profesorado.**
+
+**Para incorporarlo como descarga directa al curso:** exporta el PDF, revisa el resultado y súbelo al repositorio, por ejemplo a `assets/pdf/el-dragon-de-las-emociones.pdf`. No se ha subido todavía ese PDF.
+
 
 **Prompt reutilizable (cuento):**
 
