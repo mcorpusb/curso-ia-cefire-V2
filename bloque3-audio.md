@@ -116,6 +116,12 @@ Genera la canción cantada con acompañamiento musical.
 
 > Crea una canción indie pop en castellano de aproximadamente un minuto para 3.º de ESO. La protagonista llega al tercer piso del instituto, se queda sin aliento y se pregunta qué ocurre dentro de su cuerpo. Sigue una bocanada de aire desde la nariz hasta los alvéolos, pasando por la faringe, la laringe, la tráquea, los bronquios y los bronquiolos. En el estribillo, deja clara la diferencia entre el recorrido del aire y el paso del oxígeno a la sangre. Usa una voz juvenil, dicción clara y un ritmo que permita seguir el viaje sin atropellar los nombres. Termina cantando «¿En qué momento pasó el oxígeno a mi sangre?».
 
+**Escucha la canción generada en Gemini Música.**
+
+<audio controls preload="none" aria-label="El viaje del aire, canción de Biología para 3.º de ESO" src="{{ '/assets/audio/El_viaje_del_aire.mp3' | relative_url }}"></audio>
+
+[Escuchar o descargar «El viaje del aire»]({{ '/assets/audio/El_viaje_del_aire.mp3' | relative_url }})
+
 #### Idiomas · Inglés A2 · «Which way to the station?»
 
 > Crea una canción pop acústica en inglés para alumnado de nivel A2. Dos voces representan a una viajera y a una persona del barrio. La viajera pregunta «Excuse me, how do I get to the station?». La otra voz le indica, en este orden, que siga recto, gire a la izquierda al llegar a la biblioteca y cruce la calle. Usa «go straight on», «turn left at the library» y «cross the street». Convierte la pregunta inicial en un estribillo que la clase pueda cantar. Mantén un ritmo tranquilo y deja una pausa después de cada indicación para que el alumnado pueda dibujar la ruta mientras escucha. Duración aproximada de un minuto.
