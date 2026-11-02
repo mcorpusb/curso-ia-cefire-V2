@@ -33,6 +33,7 @@ Crea presentaciones, cómics, infografías, podcasts, audios realistas y vídeos
 - [📚 Recursos complementarios](#-recursos-complementarios)
 - [✅ Checklist de autoevaluación](#-checklist-de-autoevaluación)
 
+- [✨ Laboratorio creativo · 5 experiencias paso a paso]({{ '/bloque3-laboratorio-creativo.html' | relative_url }})
 - [🧪 Laboratorio · Dos cómics: Sarah y Salsa / Tomás y Popi]({{ '/bloque3-comics-ejemplos.html' | relative_url }})
 - [🧪 Google Labs / Flow · Laboratorio avanzado]({{ '/bloque3-infografias-flow.html' | relative_url }})
 - [🧪 Google Labs · Experimentos de IA para el aula]({{ '/google-labs-experimentos-ia-aula.html' | relative_url }})
