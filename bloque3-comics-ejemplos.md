@@ -88,7 +88,6 @@ Después de generar y revisar las ilustraciones, podemos convertir **«Sarah, Sa
 
 [Escuchar o descargar el MP3]({{ '/assets/audio/sarah-salsa-emociones-elevenlabs.mp3' | relative_url }})
 
-> **Audio de ejemplo publicado:** puedes escucharlo directamente o descargar el MP3. El nombre «Sarah» se pronuncia «Sara» en la narración en castellano.
 
 ### Pedir a la IA un guion para narrar
 
@@ -229,6 +228,16 @@ genera la portada y las páginas por separado. Comprueba continuidad
 de personajes, orden de viñetas, ortografía y precisión científica.
 ```
 
+### Resultados visuales generados
+
+**Primera versión: cómic de superhéroes**
+
+![Versión de superhéroes de Tomás y Popi]({{ '/assets/img/comics/tomas-popi-superheroes.png' | relative_url }})
+
+**Segunda versión: estilo cartoon**
+
+![Versión cartoon de Tomás y Popi]({{ '/assets/img/comics/tomas-popi-cartoon.png' | relative_url }})
+
 ### Audio de Tomás y Popi · Primera parte
 
 Narración generada en **ElevenLabs, con Martin Osborne – Polished and Intense (Eleven v4)**. Es un **fragmento**, no el cuento completo: llega hasta la aparición de las criaturas amarillas, cuando Popi salta hacia atrás.
@@ -240,7 +249,6 @@ Narración generada en **ElevenLabs, con Martin Osborne – Polished and Intense
 
 [Escuchar o descargar la primera parte en MP3]({{ '/assets/audio/tomas-popi-superheroes-parte1.mp3' | relative_url }})
 
-> **Pendiente de publicación del MP3:** para que el reproductor funcione, incorpora el archivo `assets/audio/tomas-popi-superheroes-parte1.mp3` a la rama `main` mediante GitHub Desktop (commit y push). El reproductor se ha preparado, pero el archivo de audio aún no está en el repositorio remoto.
 
 ### Audiocómic de superhéroes · Guion completo para ElevenLabs
 
@@ -501,16 +509,6 @@ Pero nuestros héroes saben que todavía quedan muchísimos misterios por explor
 
 **Para generar el audio:** abre [ElevenLabs · De texto a voz](https://elevenlabs.io/app/speech-synthesis), selecciona una voz narrativa y Eleven v4, copia el texto (sin los delimitadores del bloque) y prueba una escena. Si no tienes suficientes créditos, divide el guion en fragmentos en los cambios naturales de escena; no lo recortes sin conservar el resto. **El fragmento ya generado se detiene cuando Popi salta hacia atrás frente a una criatura amarilla**.
 
-### Resultados visuales generados
-
-**Primera versión: cómic de superhéroes**
-
-![Versión de superhéroes de Tomás y Popi]({{ '/assets/img/comics/tomas-popi-superheroes.png' | relative_url }})
-
-**Segunda versión: estilo cartoon**
-
-![Versión cartoon de Tomás y Popi]({{ '/assets/img/comics/tomas-popi-cartoon.png' | relative_url }})
-
 ### Experimentación · Cambiar solo el estilo
 
 Partimos del **mismo guion** y pedimos dos interpretaciones visuales. En la primera, «cómic americano de superhéroes: entintado grueso, composición épica, dramatismo, luces contrastadas». Después, sin cambiar ni personajes ni historia:
@@ -533,8 +531,7 @@ Este tercer ejemplo muestra un proceso distinto: partimos de un tema de ciberseg
 
 **[Abrir o descargar el cómic completo en PDF]({{ '/assets/docs/comic_intrusion_red_optimizado.pdf' | relative_url }})**
 
- > **PDF disponible:** consulta o descarga la versión optimizada desde el enlace anterior.
-
+ 
 ### Instrucciones utilizadas en NotebookLM
 
 **Prompt maestro para preparar el guion:**
