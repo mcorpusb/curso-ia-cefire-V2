@@ -81,7 +81,7 @@ Después de generar y revisar las ilustraciones, podemos convertir **«Sarah, Sa
 
 **Audio de demostración:** narración completa de aproximadamente **5 min 31 s**, realizada con la voz *Fiona – Warm & Engaging* y el modelo *Eleven v4*. Incluye diálogos interpretados con la misma voz, risas, sorpresa y respiración guiada.
 
-<audio controls preload="none" style="width:100%;max-width:740px">
+<audio controls preload="metadata" style="width:100%;max-width:740px">
   <source src="{{ '/assets/audio/sarah-salsa-emociones-elevenlabs.mp3' | relative_url }}" type="audio/mpeg">
   Tu navegador no admite el reproductor de audio.
 </audio>
@@ -242,7 +242,7 @@ de personajes, orden de viñetas, ortografía y precisión científica.
 
 Narración generada en **ElevenLabs, con Martin Osborne – Polished and Intense (Eleven v4)**. Es un **fragmento**, no el cuento completo: llega hasta la aparición de las criaturas amarillas, cuando Popi salta hacia atrás.
 
-<audio controls preload="none" style="width:100%;max-width:740px">
+<audio controls preload="metadata" style="width:100%;max-width:740px">
   <source src="{{ '/assets/audio/tomas-popi-superheroes-parte1.mp3' | relative_url }}" type="audio/mpeg">
   Tu navegador no admite el reproductor de audio.
 </audio>
