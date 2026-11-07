@@ -55,11 +55,11 @@ el profesor pegue literalmente.
 
 ## Cómo demostrar que funciona
 
-1. Copia las instrucciones en la herramienta.
-2. Pruébalas con un caso **ficticio**.
-3. Busca un error o carencia deliberadamente: ¿inventa el criterio? ¿confunde el nivel? ¿ignora una adaptación?
-4. Corrige las instrucciones y vuelve a probar.
-5. Presenta la versión revisada con una captura sin datos personales o una transcripción breve.
+- Copia las instrucciones en la herramienta.
+- Pruébalas con un caso **ficticio**.
+- Busca un error o carencia deliberadamente: ¿inventa el criterio? ¿confunde el nivel? ¿ignora una adaptación?
+- Corrige las instrucciones y vuelve a probar.
+- Presenta la versión revisada con una captura sin datos personales o una transcripción breve.
 
 **Entregable:** nombre del asistente, sus instrucciones, resultado de una prueba y una mejora documentada.
 
