@@ -27,9 +27,9 @@ Diseña rúbricas LOMLOE, genera adaptaciones curriculares rápidas y reflexiona
 - [📖 4.4 · Ética, privacidad y uso responsable de la IA en educación](#44--ética-privacidad-y-uso-responsable-de-la-ia-en-educación)
 - [📖 4.5 · Diseña tu política de uso de IA en el aula](#45--diseña-tu-política-de-uso-de-ia-en-el-aula)
 - [📖 4.6 · Comparativa final: herramientas y ecosistemas para evaluación](#46--comparativa-final-las-5-herramientas-para-evaluación-y-personalización)
-- [📝 Actividades prácticas de ayuda del Bloque 4](#-actividades-prácticas-de-ayuda-del-bloque-4)
+- [📝 Laboratorio práctico · Actividades del Bloque 4](#actividades-practicas-bloque-4)
 - [📚 Recursos complementarios](#-recursos-complementarios)
-- [✅ Checklist de autoevaluación final](#-checklist-de-autoevaluación-final)
+- [✅ Proyecto final](#proyecto-final)
 
 </nav>
 
@@ -550,89 +550,213 @@ Fomenta el uso responsable, no la prohibición total.
 
 ---
 
-## 📝 Actividades prácticas de ayuda del Bloque 4
-{: id="-actividades-prácticas-de-ayuda-del-bloque-4" }
+## 📝 Laboratorio práctico · Actividades del Bloque 4
+{: id="actividades-practicas-bloque-4" }
 
-### Actividad 4.1 — Rúbrica LOMLOE completa *(individual)*
+> **Elige tu itinerario.** Estas seis propuestas son **alternativas de práctica**, no seis entregas obligatorias. Selecciona una o dos que resulten útiles para tu etapa, especialidad y alumnado. Puedes reutilizar recursos de los bloques anteriores. Siempre revisa los productos de IA y trabaja con datos ficticios o públicos.
 
-- Elige un **criterio de evaluación real** de tu área y curso (cópialo del decreto).
-- Usa el ejemplo de la sección 4.1 para generar una **rúbrica analítica con 4 niveles**.
-- Verifica los criterios en **Gemini Notebook** (con el decreto cargado del Bloque 2).
-- Corrige y ajusta la rúbrica.
-- **Entregable:** rúbrica final en formato tabla + informe breve de las correcciones realizadas tras la verificación.
+Consulta la [guía ampliada de evaluación e integración en Aules](bloque4-evaluacion-con-ia.html), la [guía de asistentes](bloque4-agentes-ia.html) y la [alfabetización en IA](bloque4-alfabetizacion-alumnado.html).
 
-### Actividad 4.2 — Correcciones motivadoras automatizadas *(individual)*
+### Actividad 4.1 · Diseña instrumentos de evaluación con IA
 
-**Objetivo:** Automatizar la generación de retroalimentación constructiva para liberar tiempo docente.
+**Meta:** escoger **al menos dos** instrumentos adecuados para una actividad real: rúbrica, lista de cotejo, autoevaluación o cuestionario. Parte de criterios curriculares oficiales que tú aportas; la IA no debe inventarlos.
 
-- Toma **3 trabajos ficticios** (o reales anonimizados) de distinto nivel de tu asignatura.
-- Usa el ejemplo de la sección 4.1b para generar retroalimentación motivadora para cada uno en **Copilot**.
-- Repite en **Gemini** y compara: ¿cuál genera feedback más personalizado? ¿Cuál varía más la redacción?
-- Revisa los comentarios generados y ajústalos con tu conocimiento del alumnado.
-- **Entregable:** tabla con los 3 comentarios (versión Copilot + versión Gemini + versión final ajustada por ti) + reflexión (150 palabras) sobre cuánto tiempo te ha ahorrado y si el tono es adecuado.
+**Pasos:** (1) indica etapa, materia, actividad y criterio oficial; (2) solicita dos instrumentos complementarios; (3) exige descriptores observables y lenguaje adecuado; (4) verifica el resultado contra la fuente; (5) prueba y ajusta su utilidad.
 
-### Actividad 4.3 — Adaptación curricular con IA *(individual)*
+**Prompt para copiar:**
 
-- Elige a un **perfil ficticio** de alumno/a NEAE (no uses datos reales):
-   - Opción A: dislexia (Primaria)
-   - Opción B: incorporación tardía con español A2 (ESO)
-   - Opción C: altas capacidades (cualquier etapa)
-   - Opción D: discapacidad auditiva (FP)
-- Toma un **material o prueba** que uses realmente en tu aula.
-- Usa los prompts de la sección 4.3 para generar la adaptación con **Copilot**.
-- Repite con **Gemini** y compara.
-- **Entregable:** material adaptado (ambas versiones) + tabla comparativa Copilot vs. Gemini + reflexión (150 palabras) sobre qué herramienta ha generado adaptaciones más aplicables.
+```text
+Actúa como especialista en evaluación formativa. Etapa y curso: [..].
+Materia/módulo: [..]. Actividad: [..]. Objetivo: [..].
+Criterio oficial que aporto literalmente: [PEGAR TEXTO Y FUENTE].
+Diseña dos instrumentos diferentes, a elegir entre rúbrica analítica,
+lista de cotejo observable, autoevaluación y cuestionario.
+Explica cuándo usar cada uno. No inventes normativa ni criterios.
+Evita indicadores ambiguos; incluye instrucciones para el alumnado,
+criterios de éxito y respuesta o pauta de revisión docente.
+Adapta el lenguaje a la edad. Advierte de cualquier laguna.
+```
 
-### Actividad 4.4 — Auditoría de sesgos *(individual)*
+| Etapa | Ejemplo apropiado |
+|---|---|
+| Infantil | Lista de observación del juego cooperativo + autoevaluación de caritas, guiada por el adulto |
+| Primaria | Rúbrica sencilla de exposición sobre el sistema respiratorio + cuestionario visual |
+| ESO | Rúbrica de investigación de fuentes + autoevaluación de su proceso |
+| Bachillerato | Rúbrica de argumentación con evidencias + cuestionario de interpretación |
+| FP | Checklist de práctica de montaje seguro + rúbrica de documentación técnica |
+| EOI | Rúbrica de interacción oral + autoevaluación de estrategias comunicativas |
 
-- Toma cualquier material generado por IA durante el curso (una SA, una rúbrica, un cómic…).
-- Pasa el material por el prompt de auditoría de sesgos (sección 4.4.5).
-- Documenta los sesgos encontrados y las correcciones aplicadas.
-- **Entregable:** tabla de auditoría completada + material corregido.
+**Entrega:** actividad contextualizada, los dos instrumentos revisados y dos o tres frases justificando por qué los elegiste.
 
-### Actividad 4.5 — Debate: impacto real de la IA en el aula *(grupal, sesión síncrona)*
+### Actividad 4.2 · Diseña una evaluación interactiva y compártela en Aules
 
-**Objetivo:** Promover un uso ético y crítico de la IA reflexionando sobre su impacto real en la educación secundaria.
+**Meta:** crear una miniactividad que enseñe al corregir, con **pistas, oportunidades de reintento y explicación de cada error**. Puede ser un juego, cuestionario, simulador o página HTML/JS. No necesita programación manual: puedes pedir el prototipo a un asistente y probarlo.
 
-- En grupos de 4-5, leed la tabla de reflexión de la sección 4.4.4.
-- Cada grupo elige **2 preguntas** de la tabla y prepara una postura argumentada (10 minutos).
-- Debate abierto entre grupos (15 minutos): ¿la IA es una oportunidad o un riesgo para la educación secundaria? ¿Cómo cambia el rol del docente?
-- Individualmente, redactad un **"Compromiso ético personal"** (5 frases) sobre cómo usaréis la IA en vuestra práctica docente a partir de ahora.
-- **Entregable:** compromiso ético personal subido al foro + resumen de las conclusiones del grupo (200 palabras).
+**Pasos:** define objetivo → genera preguntas y feedback → verifica respuestas → prueba errores y aciertos → publica o exporta → comparte en Aules. **Tres vías:** enlazar un recurso URL; incrustar mediante iframe si está permitido; o subir HTML/paquete de recursos y verificar su ejecución. El procedimiento detallado, con código, está en la [guía de evaluación y Aules](bloque4-evaluacion-con-ia.html).
 
-### Actividad 4.6 — Política de IA para mi centro *(grupal, sesión síncrona)*
+**Prompt para copiar:**
 
-- En grupos de 4-5, usad el ejemplo de la sección 4.5 adaptándolo a vuestra etapa educativa.
-- Revisad el borrador generado: ¿es equilibrado? ¿Es realista? ¿Faltan casos?
-- Modificad y completad el documento.
-- Presentad al gran grupo los 3 puntos más importantes de vuestra política.
-- **Entregable:** documento de política (formato Word o PDF) + presentación de 3 diapositivas.
+```text
+Crea una pequeña aplicación educativa accesible y responsive para
+[ETAPA], [MATERIA] y [CONTENIDO]. Incluye cinco retos graduales
+con retroalimentación explicativa tras cada intento, una pista
+opcional, botón de reinicio y texto accesible por teclado.
+Usa HTML/CSS/JavaScript local sin librerías externas ni cuentas.
+No recojas datos personales ni transmitas respuestas a servidores.
+Entrega un único index.html funcional y explica cómo probarlo.
+```
+
+| Etapa | Prototipo |
+|---|---|
+| Infantil | Clasificar imágenes con acompañamiento del docente y feedback auditivo opcional |
+| Primaria | Repaso interactivo del sistema circulatorio con pistas |
+| ESO | Detectar errores en fuentes históricas y recibir explicaciones |
+| Bachillerato | Cuestionario razonado sobre falacias argumentativas |
+| FP | Simulador de decisiones de seguridad informática con consecuencias |
+| EOI | Comprensión lectora contextualizada con aclaraciones lingüísticas |
+
+**Entrega:** enlace o archivo funcional + una comprobación de cómo accedería el alumnado desde Aules. **Importante:** una app HTML externa no envía notas al libro de calificaciones de Aules automáticamente.
+
+### Actividad 4.3 · Personaliza un material siguiendo el DUA
+
+**Meta:** identificar **barreras del diseño**, no etiquetar ni reducir expectativas sobre las personas. Aplica el marco [CAST DUA 3.0](https://udlguidelines.cast.org/) para ofrecer alternativas de:
+
+1. **Implicación:** opciones, relevancia y autorregulación; por ejemplo, elegir el contexto de un problema sin cambiar su propósito.
+2. **Representación:** vías visuales, textuales y auditivas; por ejemplo, glosario, esquema, subtítulos y explicación paso a paso.
+3. **Acción y expresión:** formas de practicar y demostrar comprensión; por ejemplo, explicación oral, esquema comentado o práctica supervisada cuando evalúan la misma meta.
+
+**Proceso:** (1) elige un material; (2) describe barreras concretas: vocabulario denso, instrucciones largas, una única modalidad de respuesta; (3) conserva los objetivos y criterios que deben evaluarse; (4) solicita dos o tres alternativas; (5) comprueba su accesibilidad; (6) compara antes/después y justifica. **Modificar criterios curriculares o adoptar medidas individuales específicas no es una decisión automática de la IA.**
+
+**Prompt para copiar:**
+
+```text
+Rediseña este material para [ETAPA/MATERIA/EDAD] según CAST DUA 3.0.
+Meta de aprendizaje que NO debe cambiar: [..].
+Material original: [PEGAR MATERIAL SIN DATOS PERSONALES].
+Barreras observadas en el recurso: [..].
+Propón mejoras diferenciadas en implicación, representación
+y acción/expresión. Ofrece elecciones útiles y apoyos graduados
+sin asumir diagnósticos ni bajar automáticamente la exigencia.
+Entrega versión adaptada, tabla «barrera → cambio → principio DUA»
+y lista de comprobación de accesibilidad.
+```
+
+| Etapa | Barrera y solución de ejemplo |
+|---|---|
+| Infantil | Consigna oral larga → pictogramas y secuencia de tres pasos |
+| Primaria | Ficha de ciencias solo escrita → diagrama, glosario y respuesta alternativa |
+| ESO | Texto histórico complejo → estructura visual y vocabulario previo |
+| Bachillerato | Ensayo sin andamiaje → hitos, criterios claros y opciones para planificar |
+| FP | Práctica técnica con instrucciones extensas → pasos visuales, checklist y demostración |
+| EOI | Comprensión solo auditiva → apoyos de vocabulario y opciones accesibles según objetivo lingüístico |
+
+**Entrega:** original + versión rediseñada + tabla breve de barreras y cambios. Emplea únicamente ejemplos y perfiles ficticios.
+
+### Actividad 4.4 · Detectives de errores: el alumnado corrige a la IA
+
+**Demostración funcional:** [Abrir «Detectives de IA · Encuentra los errores»]({{ '/detectives-ia/' | relative_url }}) (Biología y Geología, 3.º ESO). Puedes abrirla en pantalla completa, descargar el `index.html` y compartirla por URL en Aules cuando se publique el sitio. El [solucionario docente](bloque4-evaluacion-con-ia.html#solucionario-docente-detectives-de-ia) está separado de la interfaz del alumnado.
+
+
+
+**Meta:** convertir una respuesta artificial deliberadamente imperfecta en objeto de análisis crítico. **El alumno debe encontrar, comprobar y explicar**, no pedir a otra IA que lo haga por él.
+
+**Pasos:** el docente prepara de dos a cuatro errores verificables; da al alumnado una respuesta y fuentes fiables; este subraya afirmaciones, marca errores, aporta evidencias, redacta versión corregida y explica sus decisiones. **Conserva una clave de respuestas para el docente.**
+
+**Prompt para copiar:**
+
+```text
+Diseña «El alumnado corrige a la IA» para [ETAPA/MATERIA/TEMA].
+Crea una respuesta breve que incluya exactamente tres errores
+verificables sobre [CONTENIDO], sin contenido peligroso.
+Entrega por separado: texto para el alumnado sin pistas,
+solucionario docente con localización del error, explicación correcta,
+fuente primaria sugerida y rúbrica breve para valorar la justificación.
+Adapta longitud y complejidad. No inventes referencias bibliográficas.
+```
+
+| Etapa | Reto |
+|---|---|
+| Infantil | Identificar una imagen que muestra un animal en el hábitat equivocado; guía adulta |
+| Primaria | Corregir tres ideas falsas sobre los planetas |
+| ESO | Detectar errores en una explicación sobre respiración |
+| Bachillerato | Revisar causas y evidencias de una afirmación histórica |
+| FP | Auditar una guía técnica con pasos incorrectos en un entorno simulado |
+| EOI | Corregir registro, gramática y adecuación de un correo ficticio |
+
+**Entrega:** texto con errores, solucionario verificado y modo de uso con el alumnado.
+
+### Actividad 4.5 · Diseña una tarea en la que la IA no sustituya el aprendizaje
+
+**Meta:** que el alumnado pueda usar IA como apoyo, pero deba mostrar observación propia, razonamiento, decisiones y evidencias del proceso.
+
+| Etapa | Actividad convencional | Rediseño con evidencia real |
+|---|---|---|
+| Infantil | Pedir un dibujo de una planta | Observar una planta real, dibujar sus cambios y explicarlos al adulto |
+| Primaria | Texto sobre reciclaje | Auditoría de residuos del aula con recuento real y propuestas justificadas |
+| ESO | Resumen de un experimento | Registro de mediciones y explicación de resultados inesperados |
+| Bachillerato | Ensayo de opinión | Borradores comentados, fuentes contrastadas y defensa oral breve |
+| FP | Informe de montaje | Fotos de un montaje simulado sin personas, pruebas y decisiones técnicas documentadas |
+| EOI | Redacción de un diálogo | Interacción oral improvisada con réplica y reflexión sobre estrategias |
+
+**Prompt para copiar:**
+
+```text
+Rediseña esta actividad para que el proceso de aprendizaje sea
+observable aunque se permita IA como apoyo:
+[ACTIVIDAD / ETAPA / OBJETIVOS].
+Entrega: actividad original; qué podría delegarse indebidamente
+en la IA; nueva consigna; evidencias que debe producir el alumnado;
+momentos de observación o defensa; criterios de evaluación;
+uso de IA permitido y no permitido. Evita asegurar que es
+«a prueba de IA».
+```
+
+**Entrega:** antes/después + evidencias verificables que solicitarías.
+
+### Actividad 4.6 · Crea tu propio asistente docente
+
+**Meta:** diseñar un flujo repetible para una necesidad concreta, incluso con una cuenta gratuita. Puede ser un **prompt reutilizable**, un conjunto de instrucciones o, si la cuenta lo permite, un asistente configurable (GPT, Gem u opción equivalente). No confundas un prompt largo con un agente autónomo.
+
+**Prompt base para copiar:**
+
+```text
+Eres mi asistente de [TAREA DOCENTE]. Trabajas para [ETAPA/MATERIA].
+Primero solicita los datos estrictamente necesarios.
+Objetivo: [..]. Fuente curricular aportada: [..].
+Flujo: 1) analiza la necesidad; 2) crea un primer borrador;
+3) verifica coherencia y accesibilidad; 4) muestra mejoras concretas.
+Entrega en [FORMATO]. Nunca inventes criterios normativos,
+no proceses datos personales, separa hechos de sugerencias,
+indica incertidumbre y solicita revisión docente antes de utilizarlo.
+Prueba estas instrucciones con el caso ficticio: [..].
+```
+
+**Ejemplos:** Infantil, generador de consignas con apoyos visuales; Primaria, rúbricas claras; ESO, cuestionarios razonados; Bachillerato, revisión de argumentos; FP, checklist de prácticas; EOI, asistente de simulación comunicativa.
+
+**Entrega:** nombre, instrucciones, prueba con un ejemplo y una mejora realizada.
 
 ---
 
-### Actividad 5 — Proyecto final «Mi flujo docente con IA» *(individual)*
+## ✅ Proyecto final · Mi aplicación real de la IA en el aula
+{: id="proyecto-final" }
 
-Esta actividad documenta un proceso real completo con IA, partiendo de una necesidad docente real. No hay formato obligatorio ni exige usar vibe coding. El objetivo es evidenciar el propio proceso de trabajo.
+**Reutiliza un producto de cualquiera de los cuatro bloques; no hace falta empezar otro trabajo.** Entrega tu recurso en un formato adecuado (documento, enlace, presentación, app, audio, vídeo, cómic, infografía, asistente...) y una explicación **breve, sin mínimo de palabras**, que responda a cuatro preguntas:
 
-Documenta las siguientes fases con tus propias palabras:
+1. **Contexto:** ¿qué necesidad docente querías resolver?
+2. **Proceso:** ¿qué herramienta utilizaste y qué cambiaste después de revisarla?
+3. **Producto:** ¿dónde está el recurso final?
+4. **Reflexión y aplicación:** ¿cómo lo usarías en el aula y qué límites comprobaste?
 
-| Fase | Qué documentas |
-|:-----|:----------------|
-| **Necesidad** | ¿Qué problema o tarea docente real tenías que resolver? |
-| **Fuentes/Contexto** | ¿Qué documentos, decretos o información has aportado a la IA? |
-| **Elección de herramienta** | ¿Por qué elegiste esa herramienta y no otra? |
-| **Proceso** | ¿Cómo ha ido la interacción? ¿Qué has ajustado en el camino? |
-| **Producto** | El material o documento generado (en formato que corresponda). |
-| **Verificación** | ¿Cómo has comprobado que el resultado es correcto y útil? |
-| **DUA/Accesibilidad** | ¿Has considerado la diversidad del alumnado? ¿Qué ajustes has hecho? |
-| **Aplicación** | ¿Cómo lo has usado o tienes previsto usarlo en el aula? |
-| **Reflexión** | ¿Qué has aprendido? ¿Qué no funcionarías a hacer igual? |
+**Entrega en Aules:** adjunta el archivo o enlace junto con la explicación. No incluyas datos personales, trabajos identificables ni capturas sensibles.
 
-**Entregable:** documento (Word, PDF u otro) que recorra las fases anteriores. Mínimo 400 palabras. Sube a la tarea «Proyecto Final» en Aules.
+## ✅ Autoevaluación de cierre
 
-> **⚠️ Seguridad GVA:** Usa **datos ficticios** para nombres de alumnado, centro, localidad, etc. No incluyas capturas de pantalla donde aparezcan datos personales reales.
-
----
+- [ ] Sé elegir un instrumento de evaluación y revisar su alineación curricular.
+- [ ] Sé ofrecer retroalimentación útil y comprobar un recurso interactivo antes de compartirlo en Aules.
+- [ ] Sé identificar barreras de aprendizaje y proponer opciones DUA sin alterar automáticamente los objetivos.
+- [ ] Puedo diseñar una tarea en la que el alumnado verifique y corrija errores de IA.
+- [ ] Sé usar un asistente con instrucciones revisables y límites de privacidad.
+- [ ] Puedo mostrar un recurso real y explicar qué he aprendido al elaborarlo.
 
 ## 📚 Recursos complementarios
 {: id="-recursos-complementarios" }
@@ -647,24 +771,6 @@ Documenta las siguientes fases con tus propias palabras:
 - [Decreto 107/2022 — Currículo de ESO y Bachillerato CV (DOGV)](https://dogv.gva.es/)
 
 ---
-
-## ✅ Checklist de autoevaluación final
-{: id="-checklist-de-autoevaluación-final" }
-
-Asegúrate de poder responder **sí** a todas estas preguntas antes de completar el curso:
-
-- [ ] Sé diseñar rúbricas analíticas y holísticas con IA alineadas con la LOMLOE.
-- [ ] Puedo generar retroalimentación motivadora y constructiva de forma automática, revisándola antes de entregarla.
-- [ ] Puedo generar adaptaciones curriculares rápidas para diferentes perfiles NEAE.
-- [ ] Conozco al menos 3 instrumentos de evaluación distintos que puedo crear con IA (rúbrica, lista de cotejo, diana).
-- [ ] Sé detectar sesgos en materiales generados por IA usando un prompt de auditoría.
-- [ ] He reflexionado críticamente sobre el impacto real de la IA en la educación secundaria y he definido mi compromiso ético personal.
-- [ ] Conozco el marco legal (RGPD, EU AI Act, instrucciones GVA) y los 7 principios éticos de uso de IA en el aula.
-- [ ] Puedo distinguir qué datos puedo y no puedo introducir en herramientas externas.
-- [ ] He completado el proyecto final «Mi flujo docente con IA», documentando un proceso real completo.
-
----
-
 
 <p style="text-align:center; color:gray; font-size:0.85em;">
 Curso 26IA92IN041 · 2.ª edición de 2026 · CEFIRE de Inteligencia Artificial y Pensamiento Computacional<br>

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Detectives de IA · Encuentra los errores</title>
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#17324b;background:#f1f6fb;line-height:1.55}
+*{box-sizing:border-box}body{margin:0}main{max-width:1060px;margin:auto;padding:clamp(1rem,3vw,2rem)}
+header{padding:2.2rem 0 1rem}.eyebrow{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:#166d86;font-weight:800}
+h1{font-size:clamp(2rem,4.5vw,3.2rem);margin:.2rem 0 .45rem;line-height:1.15}h2{margin:.4rem 0 1rem}
+.lead{font-size:1.07rem;max-width:760px;color:#456079}
+.panel{background:#fff;border:1px solid #d4e2ec;border-radius:20px;padding:clamp(1.1rem,3vw,2rem);box-shadow:0 8px 28px #193e5910;margin-top:1.15rem}
+.pill{display:inline-block;padding:.35rem .85rem;border-radius:50px;background:#e6f5f2;color:#166c59;font-weight:750;font-size:.85rem}
+button{font:inherit;cursor:pointer;min-height:44px;border-radius:12px;border:2px solid #0b597b;background:#0b597b;color:white;padding:.68rem 1.2rem;font-weight:750}
+button:focus-visible,input:focus-visible{outline:3px solid #e59a28;outline-offset:3px}
+button.secondary{color:#0b597b;background:white}button:disabled{opacity:.55;cursor:not-allowed}
+.actions{display:flex;gap:.7rem;flex-wrap:wrap;margin:1rem 0}
+.instructions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.tip{padding:.85rem;border-radius:12px;background:#f0f7fb}.tip strong{display:block}
+#activity[hidden],#intro[hidden],#results[hidden],#teacher[hidden]{display:none}
+.quote{border-left:4px solid #2097ac;padding:.75rem 1rem;background:#f6fbfd;margin:1.2rem 0}
+.statement{display:flex;align-items:flex-start;gap:.85rem;border:2px solid #d7e5ee;border-radius:14px;padding:1rem;margin:.65rem 0;cursor:pointer;background:#fff}
+.statement:has(input:checked){border-color:#08688c;background:#e8f5fb}
+.statement input{width:1.4rem;height:1.4rem;flex:none;accent-color:#08688c;margin:.2rem 0}
+.statement .num{font-weight:800;color:#0a647d}.statement .line{flex:1}
+.statement .feedback{display:block;margin-top:.4rem;font-size:.95rem}
+.statement.is-correct{border-color:#268365;background:#f0faf3}
+.statement.is-wrong{border-color:#b35a32;background:#fff6ee}
+.progress{font-weight:700;color:#326075}
+.hint{border-radius:12px;background:#fff7df;border-left:4px solid #d59618;padding:1rem;margin-top:1rem}
+.score{font-size:2rem;font-weight:900;color:#0b597b;margin:0}
+details{margin-top:1rem}summary{font-weight:700;cursor:pointer}
+footer{font-size:.88rem;color:#526b7f;padding:1.5rem 0}
+@media(max-width:640px){.instructions{grid-template-columns:1fr}.panel{border-radius:12px}.statement{padding:.8rem}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<main>
+<header><span class="eyebrow">Laboratorio de pensamiento crítico · 3.º ESO</span>
+<h1>🕵️ Detectives de IA</h1>
+<p class="lead">Encuentra los cinco errores en una explicación ficticia sobre el sistema respiratorio. Tu misión no es confiar en una respuesta: es comprobarla y justificar por qué es correcta o incorrecta.</p>
+<span class="pill">Sin registro · Sin recopilación de datos · Funciona sin conexión</span></header>
+<section class="panel" id="intro" aria-labelledby="introTitle">
+<h2 id="introTitle">Tu misión</h2>
+<div class="instructions">
+<div class="tip"><strong>1 · Lee</strong>Examinarás diez afirmaciones que una IA ficticia ha escrito sobre la respiración.</div>
+<div class="tip"><strong>2 · Detecta</strong>Marca únicamente las cinco afirmaciones que contienen errores científicos.</div>
+<div class="tip"><strong>3 · Comprueba</strong>Revisa las explicaciones. Contrasta siempre con tus apuntes y fuentes fiables.</div>
+</div>
+<p><strong>Tiempo orientativo:</strong> 10–15 minutos. Las pistas ayudan sin revelar directamente la respuesta. Puedes repetir sin penalización.</p>
+<div class="actions"><button id="start">Comenzar reto</button></div>
+</section>
+<section class="panel" id="activity" hidden aria-labelledby="taskTitle">
+<h2 id="taskTitle">¿Qué cinco afirmaciones son erróneas?</h2>
+<p class="quote">«Aquí tienes una explicación sobre cómo funciona el sistema respiratorio humano». <em>Texto ficticio preparado para detectar errores, no para estudiar sin contrastarlo.</em></p>
+<p class="progress" id="count" role="status" aria-live="polite">0 de 5 errores marcados</p>
+<div id="statements"></div>
+<div class="actions">
+<button id="check">Comprobar respuestas</button>
+<button class="secondary" id="hintBtn">Pedir una pista</button>
+<button class="secondary" id="reset">Empezar de nuevo</button>
+</div>
+<div id="hint" class="hint" role="status" aria-live="polite" hidden></div>
+</section>
+<section class="panel" id="results" hidden aria-labelledby="resultsTitle">
+<h2 id="resultsTitle">Resultado del reto</h2>
+<p id="score" class="score" aria-live="polite"></p>
+<p id="summary"></p>
+<p><strong>La puntuación es orientativa:</strong> demuestra aciertos en este cuestionario, no es una calificación escolar automática.</p>
+<div class="actions"><button id="retry">Reintentar</button><button class="secondary" id="explainAll">Ver explicaciones completas</button></div>
+<div id="review" hidden></div>
+</section>
+<section class="panel">
+<h2>Para seguir investigando</h2>
+<p>Contrasta las ideas usando tus materiales de clase y una fuente científica fiable. Pregúntate: ¿qué ocurre realmente en los alvéolos? ¿Cuál es la función del diafragma? ¿En qué se diferencian aire inspirado, aire espirado y respiración celular?</p>
+<p>El solucionario completo está disponible en la guía para el profesorado, separada de la actividad del alumnado.</p>
+</section>
+<footer>Recurso didáctico original. No guarda ni envía respuestas, nombres, calificaciones ni ningún otro dato personal. Revisión docente siempre necesaria.</footer>
+</main>
+<script>
+"use strict";
+const items=[
+{t:"El aire entra normalmente por la nariz o la boca y avanza por faringe, laringe y tráquea.",bad:false,why:"Correcto: es el recorrido principal hacia las vías respiratorias inferiores."},
+{t:"El intercambio de oxígeno y dióxido de carbono ocurre principalmente dentro de la tráquea.",bad:true,why:"Incorrecto: el intercambio gaseoso sucede en los alvéolos pulmonares y sus capilares, no principalmente en la tráquea."},
+{t:"La tráquea se divide en dos bronquios principales, uno hacia cada pulmón.",bad:false,why:"Correcto: cada bronquio principal conduce el aire a un pulmón."},
+{t:"Durante la inspiración normal, el diafragma se relaja y asciende para que los pulmones reciban aire.",bad:true,why:"Incorrecto: en la inspiración normal, el diafragma se contrae y desciende; aumenta el volumen torácico y entra aire."},
+{t:"Los alvéolos tienen paredes muy finas que facilitan el intercambio de gases con la sangre.",bad:false,why:"Correcto: las barreras finas favorecen la difusión de gases."},
+{t:"La sangre lleva el oxígeno desde los tejidos hasta los pulmones para que allí se utilice por primera vez.",bad:true,why:"Incorrecto: en la circulación pulmonar la sangre capta oxígeno en los pulmones y luego lo transporta a los tejidos; recoge dióxido de carbono de ellos."},
+{t:"El aire espirado conserva parte del oxígeno inspirado, aunque contiene menos que el aire que entra.",bad:false,why:"Correcto: no se consume todo el oxígeno del aire inspirado."},
+{t:"El pulmón izquierdo tiene tres lóbulos y el derecho dos, porque el corazón ocupa espacio a la derecha.",bad:true,why:"Incorrecto: el pulmón derecho suele tener tres lóbulos y el izquierdo dos; este último deja espacio al corazón."},
+{t:"La respiración pulmonar y la respiración celular son procesos relacionados, pero no idénticos.",bad:false,why:"Correcto: la ventilación y el intercambio gaseoso aportan oxígeno; la respiración celular usa ese oxígeno para obtener energía en las células."},
+{t:"Al espirar tranquilamente, el diafragma se contrae aún más y el tórax aumenta su volumen.",bad:true,why:"Incorrecto: en la espiración tranquila el diafragma se relaja y el retroceso elástico reduce el volumen torácico."}
+];
+const hints=[
+"Piensa en el lugar donde los gases pueden cruzar una pared muy fina y llegar a los capilares.",
+"Piensa si el diafragma se contrae o relaja cuando entra aire en los pulmones.",
+"Compara la dirección del oxígeno y del dióxido de carbono en el transporte sanguíneo.",
+"Recuerda qué pulmón tiene dos lóbulos y cuál tiene tres.",
+"Relaciona el movimiento del diafragma con los cambios del volumen torácico."
+];
+const $=id=>document.getElementById(id);
+let shown=0,attempts=0,latest=[];
+function render(){
+ $("statements").replaceChildren();
+ items.forEach((item,i)=>{
+  const lab=document.createElement("label");lab.className="statement";
+  const input=document.createElement("input");input.type="checkbox";input.value=i;input.setAttribute("aria-label","Marcar afirmación "+(i+1)+" como errónea");
+  input.addEventListener("change",()=>{const c=document.querySelectorAll('#statements input:checked').length;$("count").textContent=c+" de 5 errores marcados";});
+  const box=document.createElement("span");box.className="line";
+  const num=document.createElement("span");num.className="num";num.textContent="Afirmación "+(i+1)+". ";
+  box.append(num,document.createTextNode(item.t));lab.append(input,box);$("statements").append(lab);
+ });
+ $("count").textContent="0 de 5 errores marcados";$("hint").hidden=true;shown=0;attempts=0;
+ $("results").hidden=true;$("review").hidden=true;$("review").replaceChildren();
+}
+function showResults(){
+ const checked=[...document.querySelectorAll('#statements input')].map(n=>n.checked);
+ const hit=checked.reduce((acc,was,i)=>acc+(was===items[i].bad?1:0),0);
+ latest=checked;attempts++;
+ $("score").textContent=hit+" / "+items.length+" decisiones correctas";
+ $("summary").textContent=hit===10?"¡Muy bien! Has identificado los cinco errores y no has señalado afirmaciones correctas.":"Revisa los comentarios: para mejorar, explica qué evidencia demuestra que cada afirmación es correcta o incorrecta.";
+ $("results").hidden=false;
+ document.querySelectorAll(".statement").forEach((lab,i)=>{lab.classList.toggle("is-correct",checked[i]===items[i].bad);lab.classList.toggle("is-wrong",checked[i]!==items[i].bad);});
+ const review=$("review");review.replaceChildren();
+ items.forEach((item,i)=>{const p=document.createElement("p");const b=document.createElement("strong");b.textContent=(i+1)+". "+(item.bad?"Error intencionado. ":"Afirmación correcta. ");p.append(b,document.createTextNode(item.why));review.append(p);});
+ $("results").scrollIntoView({block:"start",behavior:"auto"});
+}
+$("start").addEventListener("click",()=>{$("intro").hidden=true;$("activity").hidden=false;render();$("taskTitle").focus?.();});
+$("check").addEventListener("click",()=>{if(document.querySelectorAll('#statements input:checked').length!==5){$("count").textContent="Marca exactamente cinco afirmaciones antes de comprobar.";return;}showResults();});
+$("hintBtn").addEventListener("click",()=>{$("hint").hidden=false;$("hint").textContent=hints[Math.min(shown,hints.length-1)];shown++;});
+$("reset").addEventListener("click",render);
+$("retry").addEventListener("click",()=>{render();$("taskTitle").scrollIntoView({block:"start"});});
+$("explainAll").addEventListener("click",()=>{$("review").hidden=!$("review").hidden;$("explainAll").textContent=$("review").hidden?"Ver explicaciones completas":"Ocultar explicaciones";});
+</script>
+</body>
+</html>
