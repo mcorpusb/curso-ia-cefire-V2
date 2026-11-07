@@ -98,11 +98,11 @@ No existe un único sistema universal de declaración o citación del uso de IA 
 
 Como buena práctica, cuando se use IA en un trabajo, conviene indicar:
 
-1. La herramienta utilizada.
-2. La finalidad de uso.
-3. Qué partes del trabajo fueron asistidas.
-4. Qué se revisó, modificó o descartó.
-5. Que el análisis, el razonamiento y las conclusiones finales son propios.
+- La herramienta utilizada.
+- La finalidad de uso.
+- Qué partes del trabajo fueron asistidas.
+- Qué se revisó, modificó o descartó.
+- Que el análisis, el razonamiento y las conclusiones finales son propios.
 
 {: .callout .callout--verifica }
 **Regla de oro de la autoría:** Si no puedes explicar el razonamiento detrás de cada párrafo de tu trabajo, ese párrafo no es tuyo, aunque lo hayas revisado superficialmente.
