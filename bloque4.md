@@ -654,6 +654,10 @@ y lista de comprobación de accesibilidad.
 
 ### Actividad 4.4 · Detectives de errores: el alumnado corrige a la IA
 
+**Demostración funcional:** [Abrir «Detectives de IA · Encuentra los errores»]({{ '/detectives-ia/' | relative_url }}) (Biología y Geología, 3.º ESO). Puedes abrirla en pantalla completa, descargar el `index.html` y compartirla por URL en Aules cuando se publique el sitio. El [solucionario docente](bloque4-evaluacion-con-ia.html#solucionario-docente-detectives-de-ia) está separado de la interfaz del alumnado.
+
+
+
 **Meta:** convertir una respuesta artificial deliberadamente imperfecta en objeto de análisis crítico. **El alumno debe encontrar, comprobar y explicar**, no pedir a otra IA que lo haga por él.
 
 **Pasos:** el docente prepara de dos a cuatro errores verificables; da al alumnado una respuesta y fuentes fiables; este subraya afirmaciones, marca errores, aporta evidencias, redacta versión corregida y explica sus decisiones. **Conserva una clave de respuestas para el docente.**
