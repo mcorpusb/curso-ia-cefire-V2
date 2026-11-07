@@ -41,19 +41,19 @@ Antes de publicar, prueba la aplicación sin iniciar sesión, desde una cuenta d
 
 ### Método A · Enlace externo (opción habitual y sencilla)
 
-1. Exporta o publica la actividad en una dirección HTTPS accesible al alumnado (p. ej., GitHub Pages si el recurso puede ser público).
-2. Abre tu curso de Aules y activa la edición.
-3. Añade una actividad o recurso del tipo **URL**; escribe el título, la URL y una explicación de objetivos.
-4. Configura la visualización disponible y guarda.
-5. Comprueba desde la perspectiva del alumnado que abre sin pedir cuentas no autorizadas.
+- Exporta o publica la actividad en una dirección HTTPS accesible al alumnado (p. ej., GitHub Pages si el recurso puede ser público).
+- Abre tu curso de Aules y activa la edición.
+- Añade una actividad o recurso del tipo **URL**; escribe el título, la URL y una explicación de objetivos.
+- Configura la visualización disponible y guarda.
+- Comprueba desde la perspectiva del alumnado que abre sin pedir cuentas no autorizadas.
 
 **Limitación:** un recurso URL por sí solo no registra automáticamente intentos o calificaciones en Aules.
 
 ### Método B · Incrustación (si la instalación la admite)
 
-1. En Aules, abre un recurso **Página** o editor HTML disponible.
-2. Si el editor y la política institucional permiten HTML incrustado, prueba este código con **una URL propia y permitida**.
-3. Guarda; verifica que el sistema no haya eliminado la etiqueta y que el servidor externo admita aparecer en iframe.
+- En Aules, abre un recurso **Página** o editor HTML disponible.
+- Si el editor y la política institucional permiten HTML incrustado, prueba este código con **una URL propia y permitida**.
+- Guarda; verifica que el sistema no haya eliminado la etiqueta y que el servidor externo admita aparecer en iframe.
 
 ```html
 <iframe
@@ -70,11 +70,11 @@ Antes de publicar, prueba la aplicación sin iniciar sesión, desde una cuenta d
 
 ### Método C · HTML descargado (solo si funciona en tu Aules)
 
-1. Comprueba que tienes `index.html` y todos los recursos necesarios en rutas relativas (CSS, JavaScript, imágenes).
-2. Prueba el recurso localmente, de preferencia en un servidor local de pruebas y sin datos de alumnado.
-3. Sube los archivos como recurso **Archivo** o paquete admitido por la instalación de Moodle; si se permite, identifica el archivo principal.
-4. Prueba si se muestra o se descarga y si la ejecución de JavaScript está habilitada.
-5. Si el HTML se descarga pero no se ejecuta, usa un hosting permitido y el método A.
+- Comprueba que tienes `index.html` y todos los recursos necesarios en rutas relativas (CSS, JavaScript, imágenes).
+- Prueba el recurso localmente, de preferencia en un servidor local de pruebas y sin datos de alumnado.
+- Sube los archivos como recurso **Archivo** o paquete admitido por la instalación de Moodle; si se permite, identifica el archivo principal.
+- Prueba si se muestra o se descarga y si la ejecución de JavaScript está habilitada.
+- Si el HTML se descarga pero no se ejecuta, usa un hosting permitido y el método A.
 
 **Atención:** no todas las instalaciones permiten ejecutar HTML/JavaScript subido. Para registrar resultados en el libro de calificaciones, considera actividades nativas **Cuestionario**, **H5P** o paquetes compatibles **SCORM** si están habilitados y son adecuados; no atribuyas esta capacidad a un iframe o HTML sin integración real. La disponibilidad concreta en Aules depende de la configuración y permisos.
 
@@ -125,9 +125,9 @@ Los dos ejemplos se elaboraron expresamente para el curso y **no corresponden a 
 
 **Actividad de interpretación en tres pasos:**
 
-1. Sube **una sola imagen sintética** y pide **transcripción literal** sin reconstruir por sentido.
-2. Copia los fragmentos indescifrables como `[ilegible]` y alternativas como `[dudoso: A/B]`. Si se puede leer menos de la mitad, la IA debe decirlo.
-3. Usa una rúbrica proporcionada por el docente **solo sobre los fragmentos realmente verificados**; revisa el original y determina personalmente qué dudas pueden resolverse.
+- Sube **una sola imagen sintética** y pide **transcripción literal** sin reconstruir por sentido.
+- Copia los fragmentos indescifrables como `[ilegible]` y alternativas como `[dudoso: A/B]`. Si se puede leer menos de la mitad, la IA debe decirlo.
+- Usa una rúbrica proporcionada por el docente **solo sobre los fragmentos realmente verificados**; revisa el original y determina personalmente qué dudas pueden resolverse.
 
 **Tabla modelo de revisión sin atribución de certeza:**
 
