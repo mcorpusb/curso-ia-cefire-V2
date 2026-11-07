@@ -621,9 +621,9 @@ Entrega un único index.html funcional y explica cómo probarlo.
 
 **Meta:** identificar **barreras del diseño**, no etiquetar ni reducir expectativas sobre las personas. Aplica el marco [CAST DUA 3.0](https://udlguidelines.cast.org/) para ofrecer alternativas de:
 
-1. **Implicación:** opciones, relevancia y autorregulación; por ejemplo, elegir el contexto de un problema sin cambiar su propósito.
-2. **Representación:** vías visuales, textuales y auditivas; por ejemplo, glosario, esquema, subtítulos y explicación paso a paso.
-3. **Acción y expresión:** formas de practicar y demostrar comprensión; por ejemplo, explicación oral, esquema comentado o práctica supervisada cuando evalúan la misma meta.
+- **Implicación:** opciones, relevancia y autorregulación; por ejemplo, elegir el contexto de un problema sin cambiar su propósito.
+- **Representación:** vías visuales, textuales y auditivas; por ejemplo, glosario, esquema, subtítulos y explicación paso a paso.
+- **Acción y expresión:** formas de practicar y demostrar comprensión; por ejemplo, explicación oral, esquema comentado o práctica supervisada cuando evalúan la misma meta.
 
 **Proceso:** (1) elige un material; (2) describe barreras concretas: vocabulario denso, instrucciones largas, una única modalidad de respuesta; (3) conserva los objetivos y criterios que deben evaluarse; (4) solicita dos o tres alternativas; (5) comprueba su accesibilidad; (6) compara antes/después y justifica. **Modificar criterios curriculares o adoptar medidas individuales específicas no es una decisión automática de la IA.**
 
@@ -742,10 +742,10 @@ Prueba estas instrucciones con el caso ficticio: [..].
 
 **Reutiliza un producto de cualquiera de los cuatro bloques; no hace falta empezar otro trabajo.** Entrega tu recurso en un formato adecuado (documento, enlace, presentación, app, audio, vídeo, cómic, infografía, asistente...) y una explicación **breve, sin mínimo de palabras**, que responda a cuatro preguntas:
 
-1. **Contexto:** ¿qué necesidad docente querías resolver?
-2. **Proceso:** ¿qué herramienta utilizaste y qué cambiaste después de revisarla?
-3. **Producto:** ¿dónde está el recurso final?
-4. **Reflexión y aplicación:** ¿cómo lo usarías en el aula y qué límites comprobaste?
+- **Contexto:** ¿qué necesidad docente querías resolver?
+- **Proceso:** ¿qué herramienta utilizaste y qué cambiaste después de revisarla?
+- **Producto:** ¿dónde está el recurso final?
+- **Reflexión y aplicación:** ¿cómo lo usarías en el aula y qué límites comprobaste?
 
 **Entrega en Aules:** adjunta el archivo o enlace junto con la explicación. No incluyas datos personales, trabajos identificables ni capturas sensibles.
 
