@@ -1,45 +1,66 @@
 ---
 layout: page
-title: "Agentes de IA para docentes"
+title: "Agentes y asistentes docentes"
 parent: "Bloque 4: Evaluación y Personalización"
 nav_order: 1
 ---
 
-# Agentes de IA para docentes
+# Diseña tu propio asistente docente
 {: .fs-8 }
 
-De prompt reutilizable a instrucciones estructuradas, Skill y Plugin.
-{: .fs-5 .fw-300 }
+Una tarea docente real → instrucciones reutilizables → prueba → revisión. Este contenido desarrolla la [Actividad 4.6](bloque4.html#actividades-practicas-bloque-4).
 
-> **Página en construcción · V2**
-> Esta unidad actualiza la parte de ChatGPT con una idea simple: lo importante no es el nombre comercial, sino saber diseñar un flujo de trabajo reutilizable. El contenido anterior queda como referencia en [bloque1-agentes-ia.md](../bloque1-agentes-ia.md).
+## No necesitas pagar ni programar
 
----
+Una **plantilla de prompt** bien diseñada sirve para repetir un flujo en cualquier herramienta accesible. Si tu plan permite asistentes configurables, puedes guardar esas instrucciones. Las capacidades, nombres y opciones para compartir cambian según el producto y las licencias.
 
-## ChatGPT: evolución de un flujo reutilizable
+| Nivel | Qué construyes | Ejemplo |
+|---|---|---|
+| 1 · Prompt reutilizable | Instrucciones que copias y adaptas | Crear una rúbrica para una actividad |
+| 2 · Instrucciones estructuradas | Objetivo, entradas, pasos y límites | Rúbrica con verificación y checklist |
+| 3 · Asistente configurable | Configuración persistente, si está disponible | GPT o Gem de apoyo a evaluación |
+| 4 · Flujo con herramientas | Acciones o fuentes conectadas con permisos | Consultar materiales y generar un borrador revisable |
 
-En ChatGPT, la secuencia práctica que trabajaremos es esta:
+**No todo prompt es un agente:** un agente puede gestionar pasos y herramientas bajo un marco de permisos; una conversación con instrucciones no implica autonomía.
 
-**Prompt reutilizable** → **instrucciones estructuradas** → **Skill** → **Plugin** con Skills y, si procede, apps conectadas.
+## Ejemplo completo · Asistente «Evaluador formativo»
 
-Esta secuencia representa una evolución conceptual del flujo reutilizable, no una ruta obligatoria que todos los participantes tengan que completar.
+```text
+ROL: Eres asistente de evaluación formativa para docentes.
+MISIÓN: Crear instrumentos, nunca calificar automáticamente al alumnado.
+ENTRADAS: Etapa, materia, edad, actividad, fuente curricular oficial
+aportada y tipo de instrumento solicitado.
+PROCESO:
+1. Si falta el objetivo o el criterio oficial, solicítalo.
+2. Analiza evidencias observables y alinea el instrumento con el criterio.
+3. Genera una primera versión en tabla clara y accesible.
+4. Revisa diferencias entre niveles, ambigüedades y sesgos.
+5. Entrega también una lista de comprobación y sugerencias de mejora.
+RESTRICCIONES: no inventes normativa ni criterios; no proceses nombres,
+calificaciones, diagnósticos ni trabajos identificables; señala dudas.
+SALIDA: instrumento listo para revisión humana + motivos de diseño.
+PRUEBA: diseña una rúbrica de cuatro niveles para una exposición oral
+sobre el agua en 5.º de Primaria usando únicamente el criterio que
+el profesor pegue literalmente.
+```
 
-### Qué significa cada paso
+## Personalización por etapa
 
-- **Prompt reutilizable**: una instrucción bien redactada que puedes copiar y volver a usar.
-- **Instrucciones estructuradas**: el mismo prompt, pero organizado por objetivo, pasos, formato y límites.
-- **Skill**: un flujo de trabajo reutilizable que guarda instrucciones, ejemplos, recursos y pasos para hacer una tarea con más consistencia.
-- **Plugin**: un contenedor de capacidades reutilizables que puede reunir Skills y, si procede, apps conectadas a servicios externos.
+- **Infantil:** consignas breves, observación cualitativa y apoyos visuales.
+- **Primaria:** instrumentos con pocos indicadores y lenguaje cercano.
+- **ESO:** criterios explícitos y reflexión sobre el proceso.
+- **Bachillerato:** rigor argumentativo y referencias verificables.
+- **FP:** desempeño observable, seguridad y secuenciación profesional.
+- **EOI:** adecuación comunicativa, interacción, pronunciación y estrategias.
 
-### Lo importante para el curso
+## Cómo demostrar que funciona
 
-- No llamamos “agente” a cualquier prompt largo.
-- Lo relevante es saber diseñar instrucciones claras, repetibles y revisables.
-- La disponibilidad de crear, instalar o compartir Skills depende del plan, del producto y de la configuración del espacio de trabajo.
-- Si una cuenta permite guardar la configuración, la usaremos como Plugin o Skill; si no, nos quedaremos con el prompt reutilizable.
+1. Copia las instrucciones en la herramienta.
+2. Pruébalas con un caso **ficticio**.
+3. Busca un error o carencia deliberadamente: ¿inventa el criterio? ¿confunde el nivel? ¿ignora una adaptación?
+4. Corrige las instrucciones y vuelve a probar.
+5. Presenta la versión revisada con una captura sin datos personales o una transcripción breve.
 
-### Idea docente
+**Entregable:** nombre del asistente, sus instrucciones, resultado de una prueba y una mejora documentada.
 
-Un buen flujo de ChatGPT para docentes no es el que más botones tiene, sino el que mejor ayuda a resolver una tarea real con menos improvisación y más coherencia.
-
-> En esta página no desarrollamos todavía Gemini ni Copilot.
+Para conocer las distinciones entre **GPTs, Gems, Skills y Plugins**, revisa la documentación vigente de cada proveedor: las funciones pueden cambiar y no todas están disponibles en todas las cuentas. No compartas herramientas con alumnado sin comprobar edades, licencias y permisos institucionales.
