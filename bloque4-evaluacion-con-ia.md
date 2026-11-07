@@ -110,18 +110,25 @@ Este código es solo un ejemplo didáctico de una pregunta; para la Actividad 4.
 
 ## Recursos visuales · Dos exámenes sintéticos
 
-Los dos ejemplos se elaboraron expresamente para el curso y **no corresponden a alumnado real**. Las imágenes incorporadas son versiones reducidas para visualización en la página; las grafías se han creado deliberadamente difíciles de descifrar. **No se debe fabricar una transcripción segura de estas imágenes.** La respuesta de referencia es el contenido que se pretendía representar, no una lectura certificada de lo escrito.
+Los dos ejemplos se elaboraron expresamente para el curso y **no corresponden a alumnado real**. Las imágenes visibles son recreaciones vectoriales ampliables, creadas para evitar el desenfoque de las versiones JPG reducidas; las grafías se han creado deliberadamente difíciles de descifrar. **No se debe fabricar una transcripción segura de estas imágenes.** La respuesta de referencia es el contenido que se pretendía representar, no una lectura certificada de lo escrito.
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1.2rem;align-items:start">
-  <figure>
-    <img src="{{ '/assets/img/bloque4/examen-ficticio-ciencias.jpg' | relative_url }}" width="260" height="350" alt="Examen ficticio de Ciencias Naturales con respuesta manuscrita muy difícil de leer, tachaduras y trazos confusos.">
-    <figcaption><strong>Caso A · Ciencias Naturales.</strong> Pregunta sobre la fotosíntesis.</figcaption>
+<div class="examenes-b4" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;align-items:start;margin:1.5rem 0;">
+  <figure style="margin:0;min-width:0;">
+    <a href="{{ '/assets/img/bloque4/examen-ficticio-ciencias-alta-resolucion.svg' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar examen ficticio de Ciencias Naturales">
+      <img src="{{ '/assets/img/bloque4/examen-ficticio-ciencias-alta-resolucion.svg' | relative_url }}" alt="Examen ficticio de Ciencias Naturales con pregunta legible sobre fotosíntesis y respuesta manuscrita casi ilegible." style="display:block;width:100%;max-width:430px;height:auto;border:1px solid #cfd8e2;border-radius:8px;" loading="lazy">
+    </a>
+    <figcaption><strong>Caso A · Ciencias Naturales.</strong> Fotosíntesis. <a href="{{ '/assets/img/bloque4/examen-ficticio-ciencias-alta-resolucion.svg' | relative_url }}" target="_blank" rel="noopener">Ampliar imagen</a></figcaption>
   </figure>
-  <figure>
-    <img src="{{ '/assets/img/bloque4/examen-ficticio-tecnologia.jpg' | relative_url }}" width="260" height="350" alt="Examen ficticio de Tecnología sobre un circuito en serie, con escritura irregular casi ilegible y tachaduras.">
-    <figcaption><strong>Caso B · Tecnología.</strong> Pregunta sobre circuitos en serie.</figcaption>
+  <figure style="margin:0;min-width:0;">
+    <a href="{{ '/assets/img/bloque4/examen-ficticio-tecnologia-alta-resolucion.svg' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar examen ficticio de Tecnología">
+      <img src="{{ '/assets/img/bloque4/examen-ficticio-tecnologia-alta-resolucion.svg' | relative_url }}" alt="Examen ficticio de Tecnología sobre un circuito en serie, con escritura manuscrita difícil de descifrar y tachaduras." style="display:block;width:100%;max-width:430px;height:auto;border:1px solid #cfd8e2;border-radius:8px;" loading="lazy">
+    </a>
+    <figcaption><strong>Caso B · Tecnología.</strong> Circuito en serie. <a href="{{ '/assets/img/bloque4/examen-ficticio-tecnologia-alta-resolucion.svg' | relative_url }}" target="_blank" rel="noopener">Ampliar imagen</a></figcaption>
   </figure>
 </div>
+
+> **Visualización:** estas son recreaciones vectoriales nítidas de los ejercicios ficticios, diseñadas para ampliarse sin perder definición. Conservamos también los JPG anteriores como material de referencia. Al tratarse de escritura sintética e intencionadamente ilegible, **no existe una transcripción literal segura** de los trazos.
+
 
 **Actividad de interpretación en tres pasos:**
 
