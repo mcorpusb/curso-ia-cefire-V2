@@ -1,528 +1,396 @@
 ---
 layout: page
-title: "Banco de Gems/GPTs educativos"
+title: "Banco de asistentes educativos"
 parent: "Bloque 4: Evaluación y Personalización"
 nav_order: 5
 ---
 
-# Banco de Gems/GPTs educativos para docentes
+# Banco de asistentes educativos: Gems, Skills y recursos reutilizables
 {: .fs-8 }
 
-Recursos de IA especializados organizados por etapas, listos para probar, adaptar y usar en el aula.
+Explora asistentes educativos, pon a prueba sus resultados y aprende a construir tus propias instrucciones. **Un buen asistente no sustituye las decisiones docentes: ayuda a preparar, comprobar y mejorar una tarea concreta.**
 {: .fs-5 .fw-300 }
 
-> **Aviso:** Los GPTs personalizados están en proceso de retirada. Algunos recursos de este banco pueden dejar de estar disponibles o migrar a Plugins. Comprueba siempre su disponibilidad antes de utilizarlos.
+> **Actualizado el 8 de noviembre de 2026.** Las plataformas cambian: la fecha de comprobación de un **enlace** no significa que se haya probado una sesión completa en Gemini ni que su uso esté autorizado en tu centro. Para todas las actividades encontrarás una opción con **prompt reutilizable**, sin necesidad de crear un GPT o una Gem.
 
----
-
-<div class="callout callout--idea" role="note" aria-label="Qué encontrarás en esta página">
-<div class="callout__titulo">💡 ¿Qué encontrarás aquí?</div>
-Un banco curado de Gems (Google Gemini) y GPTs (ChatGPT) educativos organizados por etapa, con instrucciones prácticas para probarlos, una plantilla de análisis, una rúbrica de evaluación y recursos del CEFIRE y la Generalitat Valenciana para ampliar tu biblioteca de herramientas de IA.
+<div class="callout callout--idea" role="note" aria-label="Ruta del banco">
+  <div class="callout__titulo">💡 Tu ruta</div>
+  <strong>Explora</strong> un asistente → <strong>prueba</strong> con un caso ficticio → <strong>adapta</strong> las instrucciones → <strong>valora</strong> el resultado.
+  <p><a href="{{ '/bloque4-agentes-ia.html' | relative_url }}" class="btn btn-primary">Aprender a crear mi asistente</a> <a href="#actividad-opcional" class="btn">Actividad opcional</a></p>
 </div>
 
----
+## 🧭 En esta página
+{: .no_toc }
 
-## Presentación
-{: id="1-presentación" }
-
-### ¿Qué es una Gem o un GPT educativo?
-
-Una **Gem** (Google Gemini) o un **GPT personalizado** (ChatGPT) es un asistente de IA especializado que ha sido configurado previamente con instrucciones, contexto y un rol concreto. En lugar de arrancar desde cero con cada conversación, una Gem/GPT ya sabe qué debe hacer, cómo responder y en qué registro. En el caso de ChatGPT, los GPTs forman parte de una etapa de transición hacia flujos reutilizables más modulares.
-
-Desde el punto de vista docente, son **asistentes temáticos reutilizables**: un tutor de matemáticas, un corrector de escritura, un generador de rúbricas, un simulador de entrevistas de trabajo...
-
-### ¿Para qué sirven en formación docente?
-
-- **Ahorro de tiempo**: tareas repetitivas (diseño de actividades, rúbricas, correos) se resuelven en segundos.
-- **Modelos de uso**: permiten ver cómo puede interactuar la IA con el alumnado antes de incorporarla al aula.
-- **Base para crear recursos propios**: cada Gem/GPT puede inspirar o clonarse para adaptarlo al contexto del centro.
-- **Exploración pedagógica**: el docente experimenta como usuario antes de proponer el recurso al alumnado.
-
-### Diferencia entre usar, copiar, adaptar y crear
-
-| Nivel | Qué significa | Esfuerzo |
-|:------|:-------------|:---------|
-| **Usar** | Abrir el enlace y empezar a conversar con el recurso tal como está | Bajo |
-| **Copiar** | Guardar el enlace para usarlo con frecuencia o compartirlo con colegas | Bajo |
-| **Adaptar** | Modificar el prompt inicial, el tono o las instrucciones del recurso para ajustarlo al contexto | Medio |
-| **Crear** | Diseñar una Gem o GPT propio desde cero, con instrucciones personalizadas | Alto |
-
-### ¿Por qué es útil un banco compartido?
-
-Un banco de recursos compartido permite:
-
-- no duplicar búsquedas entre el equipo docente,
-- garantizar que los recursos han sido revisados pedagógicamente,
-- facilitar la incorporación de docentes con menos experiencia en IA,
-- construir un patrimonio digital del claustro o del departamento.
-
-> **Importante:** Los recursos de este banco han sido seleccionados como punto de partida. **Siempre deben ser revisados y valorados por el docente antes de llevarlos al aula.** La IA puede cometer errores, generar contenido inadecuado o no ajustarse al currículo valenciano.
-
-### Advertencias antes de usar cualquier recurso
-
-> **Importante:**
->
-> - **No introduzcas datos personales del alumnado** (nombre, apellidos, curso, centro) en ninguna plataforma externa.
-> - Los recursos de EduGems funcionan con Google Gemini. Los GPTs requieren cuenta en ChatGPT.
-> - Verifica siempre que el recurso es adecuado para la **edad del alumnado** (algunos no están diseñados para menores de 13 años).
-> - La **revisión docente** es imprescindible: ningún resultado debe llegar al alumnado sin que el docente lo haya leído previamente.
-> - La **fiabilidad** no está garantizada. Contrasta los resultados con fuentes curriculares oficiales.
+- [Qué son los asistentes y qué está cambiando](#conceptos)
+- [Explora por etapa educativa](#etapas)
+- [Once recursos destacados](#destacados)
+- [Banco complementario sin duplicados](#complementarios)
+- [Asistentes que puedes crear tú mismo](#crea)
+- [Actividad opcional y ficha de análisis](#actividad-opcional)
+- [Seguridad y recursos oficiales](#seguridad)
+- [Referencias y revisión de enlaces](#referencias)
 
 ---
 
-## Cómo usar este banco
-{: id="2-cómo-usar-este-banco" }
+## Qué son los asistentes y qué está cambiando
+{: id="conceptos" }
 
-Sigue estos pasos cada vez que quieras explorar un recurso:
+| Concepto | Para qué sirve | ¿Hace falta una función de pago? |
+|---|---|---|
+| **Prompt reutilizable** | Instrucciones que puedes copiar y adaptar en una conversación | No necesariamente |
+| **Instrucciones estructuradas** | Prompt organizado por objetivo, entradas, procedimiento, formato y límites | No necesariamente |
+| **GPT personalizado** | Configuración de ChatGPT con instrucciones, archivos y otras opciones | Su creación y disponibilidad están cambiando |
+| **Gem de Gemini** | Asistente configurado con instrucciones para una función específica | Depende de cuenta, permisos y transición |
+| **Skill** | Procedimiento reutilizable que aplica instrucciones y, cuando procede, recursos | Depende de plataforma y cuenta |
+| **Plugin de ChatGPT** | Puede reunir Skills, instrucciones y aplicaciones conectadas | Depende del acceso a plugins y permisos |
+| **Aplicación conectada** | Acceso autorizado a datos o acciones de otro servicio | Requiere permisos de la cuenta externa |
+| **Agente con herramientas** | Gestiona varios pasos y herramientas dentro de sus permisos | No equivale a un prompt largo |
 
-- **Abre el enlace** del recurso en una pestaña nueva del navegador.
-- **Inicia sesión** si es necesario:
-   - EduGems → cuenta de Google (evita usar la cuenta `@edu.gva.es` en plataformas no homologadas).
-   - ChatGPT GPTs → cuenta personal en ChatGPT o versión gratuita limitada.
-- **Pruébalo con una tarea real**: escribe un prompt relacionado con tu asignatura o etapa (p. ej.: *"Crea una actividad de matemáticas para 4.º de primaria sobre fracciones"*).
-- **Guarda el enlace** en tu gestor de favoritos o en el documento de recursos del departamento.
-- **Revisa los resultados** antes de usarlos con el alumnado:
-   - ¿Son precisos?
-   - ¿Están alineados con el currículo?
-   - ¿El lenguaje es adecuado para la edad?
-- **No introduzcas datos personales del alumnado** en ningún momento.
-- **Documenta el uso**: anota qué recurso usaste, para qué tarea y cuál fue el resultado en la plantilla de análisis (apartado «Plantilla de análisis de una Gem/GPT»).
-- **Adapta el recurso** al contexto del centro si lo necesitas: cambia el nivel, el idioma, la asignatura o las instrucciones.
-- **Comparte la ficha de valoración** con el grupo-clase o el equipo docente para enriquecer el banco compartido.
+**Aviso importante para los cursos de 2026–2027:**
 
-> **Importante:** El uso de herramientas externas como EduGems o ChatGPT GPTs está fuera del entorno protegido de la GVA. Úsalas con criterio y no introduzcas información sensible del centro ni del alumnado.
+- **ChatGPT:** OpenAI anuncia la retirada general de los GPTs personalizados para el **11 de diciembre de 2026**, con excepciones concretas en determinados espacios Enterprise hasta el **11 de febrero de 2027**. La migración hacia Plugins depende del acceso de cada cuenta. No dependas de enlaces GPT de terceros para una actividad que tenga que funcionar el próximo año. [Comunicado oficial de OpenAI](https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq).
+- **Gemini:** Google anuncia la transición de Gems a Skills. Para cuentas personales adultas, los Gems pasarán a solo lectura el **17 de noviembre de 2026** y se retirarán el **17 de diciembre de 2026**; para Workspace Education, la transición está prevista en **junio de 2027**. [Documentación oficial de Google](https://support.google.com/gemini/answer/18560919?hl=es).
+- **EduGems:** es un catálogo de recursos y plantillas educativas creado por terceros, **no un producto oficial de Google ni una certificación de Conselleria**. Algunas fichas permiten acceder a una Gem, copiar un prompt o consultar instrucciones; cada opción depende de permisos, autoría y disponibilidad.
 
----
+**Consecuencia práctica:** conserva siempre el objetivo didáctico, las instrucciones y una prueba ficticia. Si una herramienta desaparece, podrás reconstruir el flujo en otra. **No copies instrucciones o contenidos privados de terceros sin permiso.**
 
-## Banco de Gems/GPTs educativos organizados por etapas
-{: id="3-banco-de-gemsgpts-educativos-organizados-por-etapas" }
+## Explora por etapa educativa
+{: id="etapas" }
 
-Las tablas siguientes recogen recursos organizados por etapa educativa. Las columnas indican la plataforma, el uso principal, el enlace directo, una sugerencia de uso en el aula y las precauciones más relevantes.
-
-> Leyenda de plataformas: **EduGems** = Google Gemini · **ChatGPT GPT** = OpenAI GPT personalizado
-
----
+<div class="artifact-stages">
+  <article>
+    <span>INFANTIL</span>
+    <h3>Explicar, observar y narrar</h3>
+    <p>Apoyos visuales, cuentos, consignas breves y observación docente.</p>
+    <a href="#infantil">Ver propuestas <span aria-hidden="true">→</span></a>
+  </article>
+  <article>
+    <span>PRIMARIA</span>
+    <h3>Comprender y repasar</h3>
+    <p>Problemas, cuestionarios, fichas y retroalimentación guiada.</p>
+    <a href="#primaria">Ver propuestas <span aria-hidden="true">→</span></a>
+  </article>
+  <article>
+    <span>ESO</span>
+    <h3>Cuestionar y contrastar</h3>
+    <p>Tutoría socrática, fuentes y actividades de detección de errores.</p>
+    <a href="#eso">Ver propuestas <span aria-hidden="true">→</span></a>
+  </article>
+  <article>
+    <span>BACHILLERATO</span>
+    <h3>Argumentar con rigor</h3>
+    <p>Debate, revisión de argumentos y autoevaluación.</p>
+    <a href="#bachillerato">Ver propuestas <span aria-hidden="true">→</span></a>
+  </article>
+  <article>
+    <span>FP</span>
+    <h3>Simular y verificar procesos</h3>
+    <p>Clientes, prácticas profesionales, resultados de aprendizaje y seguridad.</p>
+    <a href="#fp">Ver propuestas <span aria-hidden="true">→</span></a>
+  </article>
+  <article>
+    <span>EOI Y PERSONAS ADULTAS</span>
+    <h3>Dialogar y mejorar</h3>
+    <p>Simulaciones comunicativas, estrategias y revisión lingüística.</p>
+    <a href="#eoi">Ver propuestas <span aria-hidden="true">→</span></a>
+  </article>
+  <article>
+    <span>DUA Y DIVERSIDAD</span>
+    <h3>Reducir barreras</h3>
+    <p>Implicación, representación y acción y expresión.</p>
+    <a href="#dua">Ver propuestas <span aria-hidden="true">→</span></a>
+  </article>
+  <article>
+    <span>EQUIPOS DOCENTES</span>
+    <h3>Planificar con criterio</h3>
+    <p>Rúbricas, correos genéricos, actividades y revisión de materiales.</p>
+    <a href="#docentes">Ver propuestas <span aria-hidden="true">→</span></a>
+  </article>
+</div>
 
 ### Infantil
-{: id="31-infantil" }
+{: id="infantil" }
 
-| Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
-|:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
-| Decodable Texts | EduGems | Generar textos decodificables adaptados al nivel lector | [Abrir](https://www.edugems.ai/gem/decodable-texts) | El docente genera textos cortos con patrones fonéticos concretos para trabajar la conciencia fonológica | Revisar antes de usar; no todos los patrones se ajustan al sistema fonético del español o valenciano |
-| Story Writer | EduGems | Escritura colaborativa de cuentos sencillos | [Abrir](https://www.edugems.ai/gem/story-writer) | El docente co-escribe un cuento con la IA para proyectarlo en clase y trabajar la comprensión oral | Solo para uso docente; el alumnado de infantil no interactúa directamente con la herramienta |
-| Text Rewriter | EduGems | Reformular textos para ajustar complejidad | [Abrir](https://www.edugems.ai/gem/text-rewriter) | Simplificar instrucciones o cuentos para adaptarlos al nivel del grupo | Verificar que el resultado es comprensible y natural en la lengua de instrucción |
-| Vocabulary List | EduGems | Generar listas de vocabulario temático | [Abrir](https://www.edugems.ai/gem/vocabulary-list) | Crear listados de palabras para proyectos de aula (la granja, el cuerpo, las emociones) | Comprobar que el vocabulario es apropiado y está en el idioma correcto |
-
----
+- **Worksheet:** el docente prepara una secuencia visual sobre hábitos diarios y comprueba que las instrucciones son claras.
+- **UDL Lesson Remixer:** adapta una asamblea con pictogramas, turnos y opciones de participación.
+- **Prompt propio:** «Crea tres consignas breves para una actividad de clasificación de animales de 5 años. Propón apoyos visuales y preguntas orales para el docente».
 
 ### Primaria
-{: id="32-primaria" }
+{: id="primaria" }
 
-| Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
-|:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
-| AI Tutor | EduGems | Tutor adaptativo para explicar conceptos | [Abrir](https://www.edugems.ai/gem/ai-tutor) | Presentar la herramienta en pantalla para modelar cómo hacer preguntas sobre un tema | Supervisión docente continua; no apto para uso autónomo del alumnado sin guía |
-| Tutor Me / Khanmigo Lite | ChatGPT GPT | Tutor socrático de matemáticas y lengua | [Abrir](https://chatgpt.com/g/g-hRCqiqVlM-tutor-me) | Demostrar al alumnado cómo pedir ayuda paso a paso con problemas matemáticos | Requiere cuenta en ChatGPT; verificar política de edad mínima de la plataforma |
-| Math Story Problems | EduGems | Generar problemas matemáticos en contexto narrativo | [Abrir](https://www.edugems.ai/gem/math-story-problems) | Crear problemas personalizados con personajes o situaciones cercanas al alumnado | Comprobar que las operaciones son correctas antes de distribuirlos |
-| Number Talk Activity | EduGems | Diseñar actividades de cálculo mental oral | [Abrir](https://www.edugems.ai/gem/number-talk-activity) | Obtener secuencias de cálculo mental para la rutina de inicio de sesión de matemáticas | Adaptar los números al nivel real del grupo |
-| Reading Level Analyzer | EduGems | Analizar el nivel lector de un texto | [Abrir](https://www.edugems.ai/gem/reading-level-analyzer) | Pegar un texto y obtener una estimación del nivel lector para validar su adecuación | Los índices de legibilidad pueden variar según el sistema de referencia utilizado |
-| Re-level Text | EduGems | Reescribir un texto a un nivel lector diferente | [Abrir](https://www.edugems.ai/gem/re-level-text) | Adaptar lecturas del libro de texto a distintos perfiles del grupo (DUA) | Revisar que el contenido sigue siendo preciso tras la adaptación |
-| Worksheet | EduGems | Generar fichas de trabajo | [Abrir](https://www.edugems.ai/gem/worksheet) | Crear fichas rápidas de repaso para cualquier tema curricular | Revisar antes de imprimir; ajustar al currículo valenciano si es necesario |
-| Multiple Choice Quiz | EduGems | Generar preguntas de opción múltiple | [Abrir](https://www.edugems.ai/gem/multiple-choice-quiz) | Diseñar una evaluación formativa rápida al final de una unidad | Verificar que las respuestas incorrectas no son confusas o erróneas |
-| Exit Ticket | EduGems | Generar preguntas de cierre de sesión | [Abrir](https://www.edugems.ai/gem/exit-ticket) | Obtener 2-3 preguntas de reflexión para los últimos 5 minutos de clase | Adaptar la pregunta al objetivo de aprendizaje de la sesión |
-| Science Lab Experiment | EduGems | Diseñar experimentos de ciencias sencillos | [Abrir](https://www.edugems.ai/gem/science-lab-experiment) | Obtener una guía de experimento con materiales asequibles para el aula | Verificar la seguridad del experimento antes de realizarlo con el alumnado |
-| Science Phenomena | EduGems | Explorar fenómenos científicos | [Abrir](https://www.edugems.ai/gem/science-phenomena) | Generar descripciones de fenómenos cotidianos para introducir una unidad de ciencias | Contrastar con el currículo de ciencias naturales valencianas |
+- **AI Tutor:** el docente modela preguntas que ayuden a razonar, sin que el alumnado necesite una cuenta propia.
+- **Multiple Choice Quiz:** elabora un repaso sobre la nutrición con explicación de cada respuesta.
+- **Prompt propio:** «Diseña cuatro preguntas de fracciones para 4.º de Primaria, con errores típicos y una pista que no revele el resultado».
 
----
+### ESO
+{: id="eso" }
 
-### Secundaria
-{: id="33-secundaria" }
-
-| Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
-|:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
-| Socratic Partner | EduGems | Diálogo socrático para desarrollar el pensamiento crítico | [Abrir](https://www.edugems.ai/gem/socratic-partner) | El docente modela un diálogo con la IA sobre un texto filosófico o social para el grupo | Asegurarse de que el alumnado entiende que la IA puede argumentar posiciones incorrectas |
-| AI Tutor | EduGems | Tutor adaptativo multidisciplinar | [Abrir](https://www.edugems.ai/gem/ai-tutor) | El alumnado puede usarlo de forma guiada para repasar conceptos o preparar exámenes | Supervisión docente; establecer normas de uso antes de la sesión |
-| Tutor Me / Khanmigo Lite | ChatGPT GPT | Tutor socrático de matemáticas y ciencias | [Abrir](https://chatgpt.com/g/g-hRCqiqVlM-tutor-me) | Proponer al alumnado que pida ayuda al tutor sin que este le dé la respuesta directa | Verificar que el alumnado mayor de 13 años puede usar la plataforma |
-| Writing Skills Tutor | ChatGPT GPT | Tutor de escritura académica | [Abrir](https://chatgpt.com/g/g-hzsVjyLDt-writing-skills-tutor) | Pedir retroalimentación sobre un borrador de redacción antes de la entrega | No sustituye la evaluación docente; úsalo como revisión previa |
-| Language Learner | ChatGPT GPT | Práctica de idiomas con conversación guiada | [Abrir](https://chatgpt.com/g/g-SrsGydMuG-language-learner) | Practicar conversación en inglés, francés u otro idioma en sesiones de lengua extranjera | El alumnado debe tener supervisión docente en el uso de plataformas externas |
-| MathRelated: Personalized Math Tutor | ChatGPT GPT | Tutor personalizado de matemáticas | [Abrir](https://chatgpt.com/g/g-3aQtMkEGg-mathrelated-personalized-math-tutor) | Usar para refuerzo de matemáticas fuera del aula (tarea) con guía docente previa | Verificar los resultados paso a paso; la IA puede cometer errores de cálculo |
-| YouTube Quiz | EduGems | Generar cuestionarios a partir de vídeos de YouTube | [Abrir](https://www.edugems.ai/gem/youtube-quiz) | Introducir la URL de un vídeo educativo y obtener preguntas de comprensión | Verificar que el vídeo es adecuado antes de usarlo; revisar las preguntas generadas |
-| Student Assignment Feedback | EduGems | Generar retroalimentación formativa sobre trabajos | [Abrir](https://www.edugems.ai/gem/student-assignment-feedback) | El docente pega el texto de un alumno (anonimizado) y obtiene comentarios de mejora | Nunca introducir datos personales; usar textos anonimizados |
-| Career Explorer | EduGems | Explorar salidas profesionales relacionadas con los intereses del alumnado | [Abrir](https://www.edugems.ai/gem/career-explorer) | Usar en tutoría para que el alumnado reflexione sobre sus intereses y opciones de futuro | Las sugerencias son orientativas; contrastar con el orientador/a del centro |
-
----
+- **Socratic Partner:** debate guiado sobre la fiabilidad de una fuente.
+- **AI Tutor:** preguntas de apoyo para explicar un problema paso a paso.
+- **Prompt propio:** «Redacta una explicación ficticia de la respiración con tres errores verificables; separa el solucionario para el docente». Puedes probar la [actividad Detectives de IA]({{ '/detectives-ia/' | relative_url }}).
 
 ### Bachillerato
-{: id="34-bachillerato" }
+{: id="bachillerato" }
 
-| Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
-|:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
-| Socratic Partner | EduGems | Pensamiento crítico y debate filosófico | [Abrir](https://www.edugems.ai/gem/socratic-partner) | Preparar debates sobre textos filosóficos, sociales o científicos | El alumnado debe evaluar críticamente las respuestas de la IA |
-| Tutor Me / Khanmigo Lite | ChatGPT GPT | Tutor socrático de selectividad y ampliación | [Abrir](https://chatgpt.com/g/g-hRCqiqVlM-tutor-me) | Repasar contenidos de selectividad sin que la IA dé la respuesta directamente | Complementar con materiales curriculares oficiales de la GVA |
-| Writing Skills Tutor | ChatGPT GPT | Mejora de la escritura académica y ensayística | [Abrir](https://chatgpt.com/g/g-hzsVjyLDt-writing-skills-tutor) | Revisar borradores de trabajos de investigación o comentarios de texto | Insistir en que el alumnado debe asegurarse de que la IA no le ha escrito el texto |
-| MathRelated: Personalized Math Tutor | ChatGPT GPT | Tutor personalizado de matemáticas de bachillerato | [Abrir](https://chatgpt.com/g/g-3aQtMkEGg-mathrelated-personalized-math-tutor) | Refuerzo de cálculo, álgebra y estadística para la EVAU | Contrastar los resultados con soluciones verificadas |
-| Language Learner | ChatGPT GPT | Práctica avanzada de idiomas | [Abrir](https://chatgpt.com/g/g-SrsGydMuG-language-learner) | Preparar la prueba oral de idiomas de bachillerato o practicar redacción formal | Supervisión docente recomendada para evaluar la calidad lingüística |
-| Student Assignment Feedback | EduGems | Retroalimentación formativa sobre trabajos escritos | [Abrir](https://www.edugems.ai/gem/student-assignment-feedback) | El docente obtiene comentarios de mejora para distribuir al alumnado (textos anonimizados) | Nunca introducir datos personales del alumnado |
-| Career Explorer | EduGems | Orientación académica y profesional postsecundaria | [Abrir](https://www.edugems.ai/gem/career-explorer) | Usar en tutoría o en Proyecto de Vida para reflexionar sobre opciones universitarias o profesionales | Las orientaciones son de carácter general; derivar al servicio de orientación del centro |
-| Varsity Force Student Counselor & Career Coach | ChatGPT GPT | Orientación personalizada y coaching para el futuro académico | [Abrir](https://chatgpt.com/g/g-LJ1uBy0Y1-varsity-force-student-counselor-career-coach) | Complementar las sesiones de orientación con autoexploración asistida por IA | No sustituye la orientación profesional personalizada del centro |
-
----
+- **Socratic Partner:** obliga a justificar afirmaciones y revisar contraargumentos.
+- **Rubric:** bosquejo de criterios para comentar un texto, siempre usando el currículo oficial aportado.
+- **Prompt propio:** «Haz de interlocutor crítico sobre una tesis histórica. Pregunta por evidencias, objeciones y límites antes de ofrecer sugerencias».
 
 ### Formación Profesional
-{: id="35-formación-profesional" }
+{: id="fp" }
 
-| Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
-|:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
-| CTE Client Simulator | EduGems | Simulador de interacción con clientes (roleplay) | [Abrir](https://www.edugems.ai/gem/cte-client-simulator) | Practicar situaciones de atención al cliente, entrevistas o negociaciones profesionales | Asegurar que los escenarios son coherentes con el perfil profesional del ciclo |
-| DECA Role-Play Sim | EduGems | Simulación de escenarios profesionales y empresariales | [Abrir](https://www.edugems.ai/gem/deca-role-play-sim) | Simular situaciones de empresa o comercio para módulos de FOL o Empresa e Iniciativa Emprendedora | Adaptar la terminología al contexto español y al ciclo formativo concreto |
-| Job Interview Coach | EduGems | Entrenamiento para entrevistas de trabajo | [Abrir](https://www.edugems.ai/gem/job-interview-coach) | Practicar entrevistas de trabajo simuladas en módulo de FOL antes de las prácticas en empresa | Revisar que el enfoque es coherente con el mercado laboral español actual |
-| Career Explorer | EduGems | Explorar salidas profesionales del ciclo | [Abrir](https://www.edugems.ai/gem/career-explorer) | Usar en tutoría o FOL para reflexionar sobre itinerarios profesionales y formación continua | Las salidas son orientativas; contrastar con el orientador/a y el SEPE |
-| Ai Career & Tech Ed by GPN | ChatGPT GPT | Orientación en carreras tecnológicas y digitales | [Abrir](https://chatgpt.com/g/g-6836218d8dcc8191bd20084e1de70c3c-ai-career-tech-ed-by-gpn) | Explorar perfiles profesionales emergentes del sector digital con el alumnado de ciclos tecnológicos | Contexto principalmente anglosajón; adaptar al mercado laboral europeo |
-| Assessment Data Analyzer | EduGems | Analizar resultados de evaluaciones | [Abrir](https://www.edugems.ai/gem/assessment-data-analyzer) | El docente analiza datos de rendimiento del grupo (sin datos personales) para detectar patrones | Usar solo con datos agregados y anonimizados; no introducir calificaciones individuales nominales |
-| Rubric | EduGems | Generar rúbricas de evaluación | [Abrir](https://www.edugems.ai/gem/rubric) | Crear rúbricas para módulos profesionales alineadas con los resultados de aprendizaje del ciclo | Adaptar los criterios al currículo específico del ciclo y a la normativa LOMLOE/LOE |
+- **CTE Client Simulator:** simulación de cliente para practicar entrevistas y detectar requisitos en un entorno de bajo riesgo.
+- **Rubric:** borrador de rúbrica de una práctica técnica, sin inventar resultados de aprendizaje.
+- **Prompt propio:** «Simula un cliente que describe una incidencia informática ficticia. No reveles la causa; pregunta y responde progresivamente y al final ofrece feedback sobre el diagnóstico».
 
----
+### EOI y educación de personas adultas
+{: id="eoi" }
 
-### Educación de personas adultas y EOI
-{: id="36-educación-de-personas-adultas-y-eoi" }
+- **Socratic Partner:** debate y matización de argumentos según el nivel lingüístico.
+- **Worksheet:** elaboración de tareas de comprensión a partir de un texto público.
+- **Prompt propio:** «Representa un diálogo de nivel B1 para resolver un cambio de reserva. Deja que yo responda, señala un error relevante al finalizar y propone una reformulación natural».
 
-| Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
-|:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
-| AI Tutor | EduGems | Tutor adaptativo para adultos con distintos niveles | [Abrir](https://www.edugems.ai/gem/ai-tutor) | Personalizar el acompañamiento a personas adultas con itinerarios formativos muy diversos | Supervisión docente para asegurar que el contenido se ajusta al nivel MCERL o a los módulos de EPA |
-| Language Learner | ChatGPT GPT | Práctica de idiomas para adultos | [Abrir](https://chatgpt.com/g/g-SrsGydMuG-language-learner) | Practicar conversación, comprensión o escritura en la lengua estudiada en la EOI | El alumnado adulto puede usar la herramienta de forma más autónoma con instrucciones previas |
-| Writing Skills Tutor | ChatGPT GPT | Mejora de la escritura académica y profesional | [Abrir](https://chatgpt.com/g/g-hzsVjyLDt-writing-skills-tutor) | Revisar producciones escritas del alumnado de EOI o de ESPA antes de la evaluación | No sustituye la corrección docente; usar como herramienta de autocorrección |
-| Job Interview Coach | EduGems | Preparación de entrevistas de trabajo | [Abrir](https://www.edugems.ai/gem/job-interview-coach) | Practicar entrevistas de trabajo en el módulo de inserción sociolaboral o en FPB | Revisar el enfoque para que sea coherente con el perfil del alumnado adulto |
-| Career Explorer | EduGems | Explorar opciones de formación y empleo | [Abrir](https://www.edugems.ai/gem/career-explorer) | Usar en programas de orientación de EPA o PCPI para reflexionar sobre itinerarios de vida y trabajo | Orientación complementaria; derivar al servicio de orientación para casos específicos |
-| Text Rewriter | EduGems | Adaptar textos a diferentes niveles de complejidad | [Abrir](https://www.edugems.ai/gem/text-rewriter) | Simplificar o enriquecer textos para adaptarlos al nivel del grupo en lecturas o comprensión escrita | Verificar que el resultado es natural en la lengua de instrucción (español o valenciano) |
-| Vocabulary List | EduGems | Generar listas de vocabulario temático | [Abrir](https://www.edugems.ai/gem/vocabulary-list) | Crear glosarios para unidades didácticas de idiomas o para el vocabulario técnico de un módulo | Comprobar que el vocabulario es preciso y está en el idioma correcto |
+### Atención a la diversidad y DUA
+{: id="dua" }
 
----
-
-### Educación especial y atención a la diversidad
-{: id="37-educación-especial-y-atención-a-la-diversidad" }
-
-> **Importante:** Los recursos de esta sección están orientados al uso **docente** para diseñar materiales accesibles. Antes de proponer cualquier herramienta al alumnado con necesidades educativas especiales, consulta con el equipo de orientación del centro.
-
-| Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
-|:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
-| UDL Lesson Remixer | EduGems | Adaptar una sesión a los principios del DUA | [Abrir](https://www.edugems.ai/gem/udl-lesson-remixer) | Introducir el resumen de una sesión y obtener sugerencias de representación, acción y motivación según el DUA | Las sugerencias son generales; validar con el equipo de orientación |
-| UDL Barrier Buster | EduGems | Detectar barreras de aprendizaje en una actividad | [Abrir](https://www.edugems.ai/gem/udl-barrier-buster) | Analizar una tarea o evaluación para identificar posibles barreras antes de aplicarla al grupo | Combinar con la observación directa del docente |
-| Differentiation Strategies | EduGems | Generar estrategias de diferenciación curricular | [Abrir](https://www.edugems.ai/gem/differentiation-strategies) | Obtener propuestas de adaptación para una actividad concreta según distintos perfiles de aprendizaje | Validar con el equipo de PT/AL antes de aplicar |
-| IEP/504 SMART Goal | EduGems | Redactar objetivos SMART para planes de apoyo | [Abrir](https://www.edugems.ai/gem/iep-504-smart-goal) | Apoyar la redacción de objetivos individualizados para el DIAC o el PI (solo como borrador) | Nunca introducir datos personales del alumnado; revisar con el equipo de orientación |
-| Accommodation Suggestions | EduGems | Generar propuestas de adaptaciones y apoyos | [Abrir](https://www.edugems.ai/gem/accommodation-suggestions) | Obtener sugerencias de adaptaciones de acceso para alumnado con necesidades específicas | Las adaptaciones deben estar validadas por el equipo de orientación del centro |
-| Alternate Assessment | EduGems | Diseñar evaluaciones alternativas accesibles | [Abrir](https://www.edugems.ai/gem/alternate-assessment) | Crear instrumentos de evaluación adaptados a perfiles con dificultades de acceso al currículo ordinario | Contrastar con los criterios de evaluación del área y con el equipo de orientación |
-| Special Education | ChatGPT GPT | Asesoramiento docente en educación especial | [Abrir](https://chatgpt.com/g/g-f6OuMFn1F-special-education) | El docente consulta estrategias y recursos para apoyar al alumnado NEAE | Orientación general; no sustituye el asesoramiento especializado del equipo de orientación |
-| Re-level Text | EduGems | Adaptar textos a niveles de complejidad inferiores | [Abrir](https://www.edugems.ai/gem/re-level-text) | Simplificar materiales para alumnado con dificultades lectoras o con discapacidad intelectual leve | Verificar que el resultado es comprensible y adecuado para el perfil del alumnado |
-| Reading Level Analyzer | EduGems | Evaluar la adecuación lectora de un texto | [Abrir](https://www.edugems.ai/gem/reading-level-analyzer) | Comprobar si un material es adecuado para el nivel lector del alumnado antes de usarlo | Los índices de legibilidad son orientativos; la valoración docente es imprescindible |
-
----
+- **UDL Barrier Buster:** detecta problemas en **el diseño de la actividad**, no déficits atribuidos al alumnado.
+- **UDL Lesson Remixer:** propone opciones de implicación, representación y acción/expresión.
+- **Prompt propio:** «Conserva el objetivo [OBJETIVO], detecta barreras de este material público y ofréceme alternativas según [CAST DUA 3.0](https://udlguidelines.cast.org/), sin asumir diagnósticos».
 
 ### Profesorado y equipos docentes
-{: id="38-profesorado-y-equipos-docentes" }
+{: id="docentes" }
 
-| Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
-|:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
-| Lesson Plan | EduGems | Generador de programaciones de sesión | [Abrir](https://www.edugems.ai/gem/lesson-plan) | Obtener un borrador de sesión a partir del objetivo, nivel y duración indicados | Adaptar siempre al currículo LOMLOE y al contexto del centro antes de usar |
-| Lesson Plan Generator | ChatGPT GPT | Generador completo de unidades didácticas | [Abrir](https://chatgpt.com/g/g-nXwLRmfnW-lesson-plan-generator) | Diseñar el esquema de una unidad didáctica o situación de aprendizaje | Ajustar al currículo valenciano; el recurso usa el currículo anglosajón por defecto |
-| Teacher Lesson Planner AI | ChatGPT GPT | Planificación docente asistida por IA | [Abrir](https://chatgpt.com/g/g-bFlmtiHtZ-teacher-lesson-planner-ai) | Obtener secuencias de actividades para una sesión o una unidad | Revisar la alineación con las competencias clave y criterios de evaluación LOMLOE |
-| 5E Lesson Plan | EduGems | Diseñar sesiones con el modelo 5E (Engage, Explore, Explain, Elaborate, Evaluate) | [Abrir](https://www.edugems.ai/gem/5e-lesson-plan) | Útil para diseñar unidades de ciencias con indagación | Adaptar las fases del modelo al contexto del grupo y del currículo valenciano |
-| Rubric | EduGems | Generador de rúbricas de evaluación | [Abrir](https://www.edugems.ai/gem/rubric) | Crear rúbricas para cualquier tarea o proyecto; especificar nivel, área y criterios | Alinear los indicadores con los criterios de evaluación del currículo oficial |
-| Grading Partner | EduGems | Asistente de corrección y retroalimentación | [Abrir](https://www.edugems.ai/gem/grading-partner) | Obtener una primera valoración de producciones escritas (con textos anonimizados) | La nota final es siempre decisión del docente; no usar con datos personales del alumnado |
-| Assessment Data Analyzer | EduGems | Analizar datos de evaluación del grupo | [Abrir](https://www.edugems.ai/gem/assessment-data-analyzer) | Analizar resultados agregados para detectar patrones y dificultades del grupo | Solo con datos anonimizados y agregados; nunca con calificaciones individuales nominales |
-| Professional Learning Coach | EduGems | Desarrollo profesional docente | [Abrir](https://www.edugems.ai/gem/professional-learning-coach) | Reflexionar sobre la práctica docente o planificar objetivos de formación continua | Recurso orientado a la reflexión personal; no vinculante |
-| AI Prompt Architect | EduGems | Diseñar prompts efectivos para IA | [Abrir](https://www.edugems.ai/gem/ai-prompt-architect) | Aprender a estructurar prompts pedagógicos para obtener mejores resultados | Útil para docentes que están aprendiendo a usar la IA en el aula |
-| AI Prompt Doctor | EduGems | Mejorar prompts existentes | [Abrir](https://www.edugems.ai/gem/ai-prompt-doctor) | Introducir un prompt que no funciona bien y obtener sugerencias de mejora | Revisar los prompts mejorados antes de usarlos con el alumnado |
-| Worksheet | EduGems | Generador de fichas de trabajo | [Abrir](https://www.edugems.ai/gem/worksheet) | Crear fichas de repaso, ampliación o refuerzo para cualquier área y nivel | Revisar el contenido curricular antes de distribuir al alumnado |
-| Multiple Choice Quiz | EduGems | Generador de preguntas de opción múltiple | [Abrir](https://www.edugems.ai/gem/multiple-choice-quiz) | Diseñar evaluaciones formativas rápidas; especificar tema, nivel y número de preguntas | Verificar que las respuestas erróneas son plausibles pero no confusas |
-| Exit Ticket | EduGems | Preguntas de cierre de sesión | [Abrir](https://www.edugems.ai/gem/exit-ticket) | Obtener 2-3 preguntas de salida alineadas con el objetivo de la sesión | Personalizar las preguntas al contenido concreto trabajado |
+- **Rubric:** facilita borradores de instrumentos de evaluación.
+- **Exit Ticket:** plantea preguntas de salida útiles para decidir el próximo paso docente.
+- **Student Assignment Feedback / Grading Partner:** referencias para analizar diseños de feedback **solo con trabajos ficticios**; nunca delegar la calificación final ni subir expedientes o datos personales.
+- **Comunicación con familias y orientación:** utiliza borradores de mensajes generales y escenarios inventados. Evita introducir incidencias individuales o situaciones familiares reales.
 
 ---
 
-### Familias y orientación
-{: id="39-familias-y-orientación" }
+## Once recursos destacados · selección curada
+{: id="destacados" }
 
-| Recurso | Plataforma | Uso principal | Enlace | Cómo usarlo en el aula | Precauciones |
-|:--------|:-----------|:-------------|:-------|:----------------------|:-------------|
-| Email to Parents | EduGems | Redactar comunicaciones a familias | [Abrir](https://www.edugems.ai/gem/email-to-parents) | Generar un borrador de correo para informar a familias sobre actividades, normas o incidencias | Revisar y personalizar antes de enviar; no introducir datos personales del alumnado |
-| Class Newsletter | EduGems | Crear boletines informativos para familias | [Abrir](https://www.edugems.ai/gem/class-newsletter) | Generar un borrador de newsletter mensual con las actividades del aula | Adaptar el contenido y añadir la identidad visual del centro si es necesario |
-| Parent-Teacher Conference Prep Buddy | ChatGPT GPT | Preparar reuniones con familias | [Abrir](https://chatgpt.com/g/g-2n5Um8sEL-parent-teacher-conference-prep-buddy) | Preparar los puntos clave de una reunión de tutoría con familias | Nunca introducir datos personales del alumnado; trabajar siempre con información genérica |
-| Career Explorer | EduGems | Explorar itinerarios formativos y profesionales | [Abrir](https://www.edugems.ai/gem/career-explorer) | Usar en reuniones de orientación con familias para explorar opciones de futuro del alumnado | Las orientaciones son generales; complementar con el servicio de orientación del centro |
-| Varsity Force Student Counselor & Career Coach | ChatGPT GPT | Orientación y coaching académico-profesional | [Abrir](https://chatgpt.com/g/g-LJ1uBy0Y1-varsity-force-student-counselor-career-coach) | Usar en sesiones de orientación o tutoría individual para explorar metas y opciones | Recurso en inglés; adaptar si se usa con alumnado o familias hispanohablantes |
-| Job Interview Coach | EduGems | Preparación de entrevistas de trabajo | [Abrir](https://www.edugems.ai/gem/job-interview-coach) | Usar con alumnado o familias en transición al mercado laboral | Orientación general; derivar al SEPE o LABORA para apoyo específico |
+**Estado de comprobación (8/11/2026):** se ha comprobado que **la página de cada ficha** de esta selección se puede consultar en EduGems. **No se ha validado el inicio de sesión ni la ejecución completa de cada Gem en Gemini**, por lo que no se garantiza la disponibilidad funcional. El acceso cambia según cuenta, edad y transición a Skills.
 
----
+| Asistente / ficha | Función principal y ejemplo | Etapas | Precaución |
+|---|---|---|---|
+| [AI Tutor](https://www.edugems.ai/gem/ai-tutor) | Tutor con preguntas guiadas; repasar fracciones | Primaria, ESO, Adultos | No reemplaza apoyo del docente |
+| [UDL Barrier Buster](https://www.edugems.ai/gem/udl-barrier-buster) | Detectar barreras de una actividad | Todas | No introducir diagnósticos |
+| [UDL Lesson Remixer](https://www.edugems.ai/gem/udl-lesson-remixer) | Rediseñar una sesión según DUA | Todas | Mantener meta de aprendizaje |
+| [Worksheet](https://www.edugems.ai/gem/worksheet) | Fichas de repaso o refuerzo | Infantil, Primaria, ESO, EOI | Revisar contenidos |
+| [Rubric](https://www.edugems.ai/gem/rubric) | Rúbrica a partir de objetivos aportados | ESO, Bach., FP, EOI | Verificar criterio oficial |
+| [Socratic Partner](https://www.edugems.ai/gem/socratic-partner) | Contrastar argumentos y evidencias | ESO, Bach., EOI | No sustituir pensamiento propio |
+| [CTE Client Simulator](https://www.edugems.ai/gem/cte-client-simulator) | Simular entrevistas con clientes | FP | Contexto original anglosajón |
+| [Multiple Choice Quiz](https://www.edugems.ai/gem/multiple-choice-quiz) | Cuestionarios con clave de corrección | Primaria, ESO, FP | Verificar distractores y claves |
+| [Exit Ticket](https://www.edugems.ai/gem/exit-ticket) | Preguntas de cierre de sesión | Primaria, ESO, Bach. | Vincular al objetivo real |
+| [Student Assignment Feedback](https://www.edugems.ai/gem/student-assignment-feedback) | Feedback para revisión de un trabajo ficticio | ESO, Bach., FP | No procesar trabajos identificables |
+| [Grading Partner](https://www.edugems.ai/gem/grading-partner) | Ejemplo de flujo de revisión con rúbrica | Docentes | La IA no pone la nota definitiva |
 
-## Recursos Generalitat Valenciana / CEFIRE
-{: id="4-recursos-generalitat-valenciana--cefire" }
+**Plataforma:** las once fichas pertenecen al catálogo externo **EduGems**, basado en Gems y/o prompts para Gemini. Los enlaces son **fichas del catálogo**, no una garantía de acceso directo a una Gem funcional. **Última comprobación de las fichas:** 08/11/2026.
 
-Los recursos del CEFIRE y de la Generalitat Valenciana no son Gems ni GPTs, pero pueden **alimentar la creación de agentes y recursos personalizados**: sus contenidos, marcos curriculares y situaciones de aprendizaje son la materia prima ideal para configurar instrucciones de una Gem propia.
+<details>
+<summary><strong>¿Qué pasó con los GPTs públicos de la lista anterior?</strong></summary>
 
-| Recurso | Fuente | Etapa recomendada | Uso principal | Enlace | Cómo puede alimentar una Gem/GPT |
-|:--------|:-------|:-----------------|:-------------|:-------|:---------------------------------|
-| Herramientas de IA generativa para docentes | CEFIRE GVA | Todas | Formación docente introductoria en IA | [Acceder](https://portal.edu.gva.es/cefire/es/ferramentes-dintelligencia-artificial-generativa-per-a-docents-es/) | Sus actividades pueden convertirse en prompts de formación para un agente de desarrollo profesional |
-| IA generativa y ética digital para docentes | CEFIRE GVA | Todas | Ética, sesgos y uso responsable de la IA | [Acceder](https://portal.edu.gva.es/cefire/es/intelligencia-artificial-generativa-i-etica-digital-per-a-docents-es/) | El marco ético puede incluirse como instrucción de sistema en cualquier Gem docente |
-| IA en Educación Primaria | CEFIRE GVA | Primaria | Integración curricular de la IA en primaria | [Acceder](https://portal.edu.gva.es/cefire/es/intelligencia-artificial-en-educacio-primaria-es/) | Las situaciones de aprendizaje pueden servir de base para configurar un AI Tutor o un Worksheet adaptado al currículo valenciano |
-| IA en Educación Secundaria | CEFIRE GVA | Secundaria | Integración curricular de la IA en secundaria | [Acceder](https://portal.edu.gva.es/cefire/es/intelligencia-artificial-en-educacio-secundaria-es/) | Sus ejemplos de uso pueden trasladarse a configuraciones de Socratic Partner o Student Assignment Feedback |
-| Situaciones de aprendizaje con IA | CEFIRE GVA | Todas | Diseño de situaciones de aprendizaje con IA | [Acceder](https://portal.edu.gva.es/cefire/es/situacions-daprenentatge-i-recursos-educatius-amb-intelligencia-artificial-es/) | Las situaciones de aprendizaje pueden convertirse en contextos de entrada para un Lesson Plan o 5E Lesson Plan |
-| Kit para diseñar situaciones de aprendizaje con IA | CEFIRE GVA | Todas | Herramientas y plantillas para diseñar con IA | [Acceder](https://portal.edu.gva.es/cefire/es/intelligencia-artificial-a-laula-kit-per-a-dissenyar-situacions-daprenentatge-es/) | El kit puede usarse como plantilla de instrucciones para un agente de planificación docente |
-| Metodologías activas con IA | CEFIRE GVA | Todas | Aprendizaje basado en proyectos, cooperativo y ABP con IA | [Acceder](https://portal.edu.gva.es/cefire/es/metodologies-actives-amb-intelligencia-artificial-es/) | Los modelos metodológicos pueden estructurar las instrucciones de un Lesson Plan Generator adaptado al ABP |
-| Vibe Coding con IA | CEFIRE GVA | Secundaria / FP | Creación de recursos interactivos con IA generativa | [Acceder](https://portal.edu.gva.es/cefire/es/vibe-coding-per-a-crear-recursos-interactius-amb-intelligencia-artificial-es/) | El enfoque de creación puede combinarse con AI Prompt Architect para diseñar instrucciones de agentes |
-| IA generativa para profesorado científico-técnico | CEFIRE GVA | Secundaria / FP / Bachillerato | IA aplicada a materias científicas y técnicas | [Acceder](https://portal.edu.gva.es/cefire/es/aplicacio-de-la-ia-generativa-com-a-recurs-per-al-professorat-dambit-cientific-i-tecnic-es/) | Sus ejemplos de uso en laboratorio y diseño técnico pueden configurar un Science Lab Experiment adaptado al currículo valenciano |
-| CEFIRE de IA y Pensamiento Computacional | CEFIRE GVA | Todas | Centro de referencia para formación en IA educativa | [Acceder](https://portal.edu.gva.es/cefire/es/cfr_cefire-ia-es/) | Punto de partida para encontrar formaciones, comunidades y materiales de referencia de la GVA |
+El catálogo antiguo contenía enlaces a GPTs de terceros como Tutor Me, Writing Skills Tutor o Language Learner, algunos repetidos por etapa. Dada la retirada anunciada para diciembre de 2026, **no los recomendamos como recursos estables**. Puedes consultarlos mientras existan, pero **no se han probado individualmente en esta revisión**. Para una formación que debe poder reutilizarse, conserva mejor un prompt propio y un caso de prueba. No se publican aquí como enlaces recomendados y verificados.
 
----
+</details>
 
-## Actividad práctica
-{: id="5-actividad-práctica" }
+## Otros recursos del catálogo
+{: id="complementarios" }
 
-## Actividad: Curar, probar y adaptar una Gem/GPT educativa
+Estos recursos son alternativas o inspiración complementaria; **su página y funcionamiento no se han comprobado individualmente en esta actualización**. Evita exigirlos como condición de entrega.
 
-### Descripción general
+| Recurso | Posible uso | Estado |
+|---|---|---|
+| [Decodable Texts](https://www.edugems.ai/gem/decodable-texts) | Lecturas iniciales | Enlace heredado, pendiente de comprobar |
+| [Story Writer](https://www.edugems.ai/gem/story-writer) | Cuentos colaborativos | Enlace heredado, pendiente de comprobar |
+| [Text Rewriter](https://www.edugems.ai/gem/text-rewriter) | Reformular textos | Enlace heredado, pendiente de comprobar |
+| [Vocabulary List](https://www.edugems.ai/gem/vocabulary-list) | Glosarios y vocabulario | Enlace heredado, pendiente de comprobar |
+| [Number Talk Activity](https://www.edugems.ai/gem/number-talk-activity) | Cálculo mental | Enlace heredado, pendiente de comprobar |
+| [Reading Level Analyzer](https://www.edugems.ai/gem/reading-level-analyzer) | Estimaciones orientativas de legibilidad | Enlace heredado, pendiente de comprobar |
+| [Re-level Text](https://www.edugems.ai/gem/re-level-text) | Lecturas a distintos niveles | Enlace heredado, pendiente de comprobar |
+| [Science Lab Experiment](https://www.edugems.ai/gem/science-lab-experiment) | Experimentos propuestos | Revisar siempre seguridad |
+| [Career Explorer](https://www.edugems.ai/gem/career-explorer) | Orientación profesional | No sustituye al orientador/a |
+| [Job Interview Coach](https://www.edugems.ai/gem/job-interview-coach) | Entrevistas simuladas | Contextualizar al mercado español |
 
-Esta actividad propone al docente recorrer el ciclo completo de **curación, prueba y adaptación** de un recurso de IA para usarlo en el aula con criterio pedagógico. No se trata de usar la herramienta, sino de **evaluarla y transformarla** en un recurso propio.
-
-### Objetivo
-
-Seleccionar una Gem o GPT del banco, probarla con una tarea real, analizar su utilidad pedagógica, detectar riesgos y diseñar una propuesta concreta de uso en el aula.
-
-### Duración
-
-45-60 minutos (formato de taller, formación docente o trabajo autónomo).
-
-### Agrupamiento
-
-Individual o por parejas del mismo departamento o etapa.
-
-### Materiales
-
-- Acceso a [EduGems](https://www.edugems.ai/) o [ChatGPT GPTs](https://chatgpt.com/gpts) (cuenta personal).
-- Plantilla de análisis (apartado «Plantilla de análisis de una Gem/GPT» de esta página).
-- Rúbrica de evaluación (apartado «Rúbrica de evaluación» de esta página).
-- Documento colaborativo del grupo (Aules, Drive o similar).
-
-### Pasos
-
-**Paso 1 — Elige tu etapa educativa**
-
-Decide con qué etapa vas a trabajar: Infantil, Primaria, Secundaria, Bachillerato, FP, Adultos/EOI, Educación especial o Familias/Orientación.
-
-**Paso 2 — Selecciona una Gem/GPT del banco**
-
-Elige uno de los recursos del banco de Gems/GPTs correspondiente a tu etapa. Puedes elegir el que más llame tu atención o el que más se ajuste a una necesidad real de tu aula.
-
-**Paso 3 — Pruébala con una tarea real**
-
-Accede al recurso y escribe al menos dos prompts relacionados con tu asignatura o unidad en curso. Por ejemplo:
-
-- *"Diseña una actividad de introducción a las fracciones para 4.º de primaria."*
-- *"Genera tres preguntas de salida sobre la II República para 4.º de ESO."*
-
-Guarda las respuestas para analizarlas.
-
-**Paso 4 — Analiza su utilidad pedagógica**
-
-Rellena la **plantilla de análisis** del apartado «Plantilla de análisis de una Gem/GPT». Responde a estas preguntas:
-
-- ¿El resultado es preciso y fiable?
-- ¿Está alineado con el currículo?
-- ¿El lenguaje es adecuado para la etapa?
-- ¿Ahorra tiempo real al docente?
-- ¿Tiene valor pedagógico añadido?
-
-**Paso 5 — Detecta riesgos**
-
-Identifica al menos dos riesgos o limitaciones del recurso:
-
-- ¿Puede generar contenido inadecuado?
-- ¿Requiere cuenta con restricciones de edad?
-- ¿Puede substituir el pensamiento del alumnado?
-- ¿Hay riesgo de plagio o dependencia?
-- ¿Respeta la privacidad?
-
-**Paso 6 — Adapta el recurso al contexto**
-
-Propón cómo modificarías el prompt inicial o el uso del recurso para ajustarlo a:
-
-- tu asignatura o área,
-- el nivel concreto del grupo,
-- la lengua de instrucción (español, valenciano, inglés),
-- posibles adaptaciones DUA,
-- el currículo LOMLOE y el contexto valenciano.
-
-**Paso 7 — Diseña una mini situación de aprendizaje o recurso**
-
-A partir del recurso explorado, diseña una propuesta concreta:
-
-- Una actividad de aula (con desarrollo, materiales y evaluación breve).
-- O un recurso concreto (ficha, rúbrica, cuestionario) generado con la herramienta y revisado por ti.
-
-**Paso 8 — Comparte la ficha final**
-
-Sube la plantilla cumplimentada al espacio de trabajo colectivo del grupo (foro de Aules, documento compartido o pizarra digital). Añade:
-
-- tu valoración global del recurso (1-5 estrellas),
-- tu recomendación: *¿Listo para usar, adaptar o solo inspiración?*
-
-### Plantilla de análisis (resumen rápido para la actividad)
-
-| Campo | Tu respuesta |
-|:------|:-------------|
-| Nombre del recurso | |
-| Enlace | |
-| Etapa y área | |
-| Prompt de prueba 1 | |
-| Resultado obtenido 1 | |
-| Prompt de prueba 2 | |
-| Resultado obtenido 2 | |
-| ¿Es fiable y preciso? | |
-| ¿Está alineado con el currículo? | |
-| Riesgos detectados | |
-| Adaptación propuesta | |
-| Propuesta de uso en el aula | |
-| Valoración (1-5) | |
-| ¿Listo para usar, adaptar o solo inspiración? | |
-
-### Criterios de evaluación
-
-Consulta la rúbrica completa en el apartado «Rúbrica de evaluación» de esta página. Se evaluará:
-
-- La adecuación pedagógica del recurso seleccionado.
-- La calidad del análisis crítico.
-- La propuesta de adaptación y uso en el aula.
-- La identificación de riesgos y medidas de protección.
-
-### Producto final
-
-Una **ficha de análisis** cumplimentada y una **mini propuesta de aula** (actividad o recurso) lista para ser compartida con el equipo docente o incorporada al banco del centro.
+**No se ha incorporado como recomendado** el supuesto [Language Learner de EduGems](https://www.edugems.ai/gem/language-learner): no fue posible confirmar su ficha durante la revisión. Para EOI se ofrece una plantilla propia más abajo, sin depender de ese enlace.
 
 ---
 
-## Plantilla de análisis de una Gem/GPT
-{: id="6-plantilla-de-análisis-de-una-gemgpt" }
+## Asistentes que puedes crear tú mismo
+{: id="crea" }
 
-Usa esta plantilla para documentar cualquier recurso de IA educativo que explores. Puedes copiarla en un documento propio o en el espacio colaborativo del curso.
+Los siguientes son **seis diseños originales del curso**, no GPTs/Gems ya creados en una plataforma. Copia las instrucciones en una herramienta que tengas disponible, utiliza **casos públicos o inventados**, prueba el resultado y ajusta lo necesario. Una versión más amplia del proceso está en [«Diseña tu propio asistente docente»]({{ '/bloque4-agentes-ia.html' | relative_url }}).
 
-| Campo | Descripción / Tu respuesta |
-|:------|:--------------------------|
-| **Nombre del recurso** | Nombre del Gem o GPT |
-| **Enlace** | URL directa al recurso |
-| **Plataforma** | EduGems / ChatGPT GPT / Gemini Gem / Otra |
-| **Autor / Fuente** | Quién lo ha creado (si está disponible) |
-| **Etapa educativa** | Infantil / Primaria / Secundaria / Bachillerato / FP / Adultos / Especial |
-| **Perfil de usuario** | Docente / Alumnado / Familias / Orientación |
-| **Función principal** | En una frase: ¿para qué sirve? |
-| **Qué permite hacer** | Listado de funciones concretas |
-| **Cómo se usa** | Pasos para usarlo (breve guía práctica) |
-| **Ejemplo de prompt de entrada** | Un prompt real que has probado |
-| **Resultado esperado** | Qué tipo de respuesta genera |
-| **Ventajas** | Puntos fuertes del recurso |
-| **Limitaciones** | Puntos débiles o restricciones |
-| **Riesgos** | Riesgos pedagógicos, éticos o de privacidad |
-| **Adaptaciones DUA** | ¿Permite adaptar para alumnado con NEAE? ¿Cómo? |
-| **Privacidad y datos** | ¿Requiere cuenta? ¿Usa datos personales? ¿Es seguro para menores? |
-| **Valoración docente** | Puntuación subjetiva y comentario libre |
-| **¿Listo para usar, adaptar o solo inspiración?** | Selecciona uno y justifica |
-| **Propuesta de uso en el aula** | Descripción breve de cómo lo usarías con tu grupo |
-| **Evidencia o producto generado** | Enlace o descripción del recurso creado con esta herramienta |
+### Asistente A · Rúbricas competenciales
 
----
+**Para qué sirve:** crear descriptores claros y observables sin inventar currículo. **Prueba:** exposición oral de 5.º de Primaria. **Resultado esperado:** tabla con cuatro niveles y lista de control. **Limitación:** no valida automáticamente la normativa. **Mejora posible:** aportar previamente el texto del decreto y revisar el vocabulario.
 
-## Rúbrica de evaluación
-{: id="7-rúbrica-de-evaluación" }
+\`\`\`text
+ROL: asesor de evaluación competencial para [ETAPA, MATERIA].
+OBJETIVO: proponer una rúbrica para [ACTIVIDAD] con [NIVELES] niveles.
+ENTRADAS: criterio de evaluación oficial que yo pego literalmente:
+[CRITERIO Y REFERENCIA]; evidencias observables: [EVIDENCIAS].
+PROCESO: identifica dimensiones que se puedan observar; crea
+descriptores progresivos; revisa sesgos y accesibilidad; muestra dudas.
+SALIDA: tabla con indicadores y niveles + breve checklist docente.
+LÍMITES: no inventes códigos ni normas, no califiques alumnado real.
+Si falta el criterio oficial, pídelo antes de diseñar la rúbrica.
+\`\`\`
 
-Usa esta rúbrica para valorar la calidad pedagógica de una Gem/GPT educativa o la propuesta de uso elaborada por el docente.
+### Asistente B · Materiales accesibles según DUA
 
-| Criterio | 1 — Inicial | 2 — Básico | 3 — Adecuado | 4 — Excelente |
-|:---------|:-----------|:----------|:------------|:-------------|
-| **Adecuación pedagógica** | El recurso no responde a una necesidad educativa real | El recurso resuelve una tarea docente pero sin reflexión pedagógica | El recurso está justificado pedagógicamente y responde a un objetivo de aprendizaje | El recurso está plenamente integrado en la práctica docente con fundamentación pedagógica clara |
-| **Alineación curricular** | No hay relación con el currículo | Se menciona el currículo pero no hay relación directa | El recurso se relaciona con competencias o criterios de evaluación concretos | El recurso está alineado con el currículo LOMLOE, el contexto valenciano y los criterios de evaluación del área |
-| **Utilidad real** | El recurso no aporta valor real al docente o al alumnado | El recurso aporta valor en casos muy concretos | El recurso ahorra tiempo o mejora la calidad de materiales en situaciones habituales | El recurso transforma positivamente una o varias tareas docentes habituales |
-| **Claridad de uso** | No se entiende cómo usar el recurso | Se entiende el uso pero faltan instrucciones concretas | Las instrucciones son claras y el docente puede usarlo de forma autónoma | Las instrucciones incluyen ejemplos, prompts de prueba y orientaciones para diferentes perfiles |
-| **Calidad de resultados** | Los resultados son incorrectos, inadecuados o irrelevantes | Los resultados son parcialmente útiles pero requieren revisión significativa | Los resultados son correctos y útiles con una revisión docente normal | Los resultados son de alta calidad y apenas requieren edición para ser usados directamente en el aula |
-| **Inclusión y accesibilidad** | No se considera la diversidad del alumnado | Se mencionan algunas adaptaciones posibles sin concreción | Se proponen adaptaciones concretas para distintos perfiles de aprendizaje | El recurso integra principios DUA y propone adaptaciones específicas para alumnado con NEAE |
-| **Seguridad y privacidad** | No se identifican riesgos ni se toman medidas de protección | Se identifican riesgos pero no se proponen medidas | Se identifican los principales riesgos y se proponen medidas básicas de protección | Se hace un análisis completo de riesgos de privacidad, edad, fiabilidad y dependencia, con medidas concretas |
-| **Posibilidad de adaptación** | El recurso se usa tal cual, sin ninguna adaptación | Se propone alguna modificación menor | Se diseña una adaptación significativa al contexto del centro o del grupo | Se propone una versión completamente adaptada al currículo, la lengua y el perfil del alumnado |
-| **Transferencia al aula** | No hay propuesta de uso concreto en el aula | Hay una idea de uso pero sin concreción | Hay una propuesta de actividad o recurso concreto y viable | La propuesta incluye objetivo, secuencia de actividad, criterios de evaluación y producto del alumnado |
+**Para qué sirve:** reducir barreras del propio material. **Prueba:** ficha de ciencias con instrucciones largas para 4.º de Primaria. **Resultado:** original comparado con rediseño. **Limitación:** no reemplaza a orientación ni determina adaptaciones curriculares individuales. **Mejora:** comprobar accesibilidad real de imágenes y alternativas.
 
----
+\`\`\`text
+ROL: diseñador de materiales con CAST DUA 3.0.
+ETAPA: [..]. OBJETIVO QUE SE MANTIENE: [..].
+MATERIAL ORIGINAL SIN DATOS PERSONALES: [..].
+BARRERAS DEL RECURSO: [..].
+TAREA: identifica barreras de implicación, representación y acción/
+expresión. Propón al menos dos alternativas por principio que mantengan
+el aprendizaje esperado; evita suponer diagnósticos.
+SALIDA: versión adaptada + tabla «barrera → ajuste → principio DUA»
++ comprobaciones de accesibilidad pendientes.
+LÍMITES: no alteres por tu cuenta los criterios curriculares.
+\`\`\`
 
-## Dónde encontrar más recursos
-{: id="8-dónde-encontrar-más-recursos" }
+### Asistente C · Cuestionarios con retroalimentación
 
-| Fuente | Qué permite encontrar | Enlace |
-|:-------|:---------------------|:-------|
-| EduGems | Catálogo curado de Gems educativos para Google Gemini | [edugems.ai](https://www.edugems.ai/) |
-| ChatGPT Explore GPTs | Explorador de GPTs personalizados en ChatGPT | [chatgpt.com/gpts](https://chatgpt.com/gpts) |
-| Gemini Gems | Crear y explorar Gems propios en Google Gemini | [gemini.google.com/gems](https://gemini.google.com/gems) |
-| CEFIRE Generalitat Valenciana | Formaciones, recursos y comunidades docentes GVA | [portal.edu.gva.es/cefire](https://portal.edu.gva.es/cefire/) |
-| CEFIRE IA y Pensamiento Computacional | Centro de referencia de la GVA en IA educativa | [cfr_cefire-ia](https://portal.edu.gva.es/cefire/es/cfr_cefire-ia-es/) |
-| Aules Generalitat Valenciana | Plataforma Moodle educativa de la GVA | [portal.edu.gva.es/aules](https://portal.edu.gva.es/aules/) |
-| Mestre a Casa | Portal de recursos educativos de la GVA | [mestreacasa.gva.es](https://mestreacasa.gva.es/) |
-| INTEF Recursos Educativos | Repositorio nacional de recursos educativos digitales | [intef.es/recursos-educativos](https://intef.es/recursos-educativos/) |
-| Procomún | Red de recursos educativos abiertos del INTEF | [procomun.intef.es](https://procomun.intef.es/) |
-| eTwinning | Red europea de colaboración entre centros educativos | [school-education.ec.europa.eu/es/etwinning](https://school-education.ec.europa.eu/es/etwinning) |
-| UNESCO IA en educación | Marco y directrices internacionales de IA educativa | [unesco.org/en/digital-education/artificial-intelligence](https://www.unesco.org/en/digital-education/artificial-intelligence) |
-| Microsoft Copilot Education | Recursos de IA educativa de Microsoft para docentes | [microsoft.com/education/products/copilot](https://www.microsoft.com/education/products/copilot) |
+**Para qué sirve:** crear preguntas verificables con explicación de errores. **Prueba:** cinco preguntas sobre ecosistemas de 1.º de ESO. **Resultado:** cuestionario, clave y feedback. **Limitación:** posibles distractores ambiguos. **Mejora:** contrastar con apuntes o manual oficial.
 
----
+\`\`\`text
+ROL: creador de cuestionarios formativos para [ETAPA, MATERIA].
+FUENTE VERIFICADA aportada por el docente: [TEXTO / REFERENCIA].
+Crea [N] preguntas con cuatro opciones, una respuesta correcta
+y tres distractores plausibles pero inequívocamente incorrectos.
+Por cada pregunta: respuesta, explicación, error frecuente y pista
+que no revele la solución. Señala incertidumbre y revisa consistencia.
+No inventes información no apoyada por la fuente.
+\`\`\`
 
-## Cadenas de búsqueda útiles
-{: id="9-cadenas-de-búsqueda-útiles" }
+### Asistente D · Detectives de errores de IA
 
-Usa estas búsquedas en Google para encontrar más recursos de IA educativa. Puedes copiarlas directamente en la barra de búsqueda.
+**Para qué sirve:** que el alumnado cuestione una explicación y verifique las afirmaciones. **Prueba:** respiración humana en 3.º ESO; [aplicación interactiva del curso]({{ '/detectives-ia/' | relative_url }}). **Resultado:** texto con errores, solucionario y preguntas de reflexión. **Limitación:** los errores deben ser deliberados, comprobables y adecuados para la edad. **Mejora:** pedir al alumnado fuentes justificadas, no solo marcar casillas.
 
-| Búsqueda | Para qué sirve |
-|:---------|:--------------|
-| `site:chatgpt.com/g educación docente` | Encontrar GPTs personalizados orientados a la educación y la docencia |
-| `site:chatgpt.com/g "situaciones de aprendizaje"` | GPTs específicos para diseñar situaciones de aprendizaje LOMLOE |
-| `site:chatgpt.com/g "programación didáctica"` | GPTs para elaborar programaciones didácticas |
-| `site:chatgpt.com/g "LOMLOE"` | GPTs que incorporan el marco curricular LOMLOE |
-| `site:chatgpt.com/g "rúbricas"` | GPTs especializados en diseño de rúbricas de evaluación |
-| `site:chatgpt.com/g "educación especial"` | GPTs para apoyo educativo y atención a la diversidad |
-| `site:chatgpt.com/g "Formación Profesional"` | GPTs orientados a ciclos formativos y FP |
-| `site:chatgpt.com/g "oposiciones docentes"` | GPTs para preparación de oposiciones al cuerpo docente |
-| `site:portal.edu.gva.es/cefire "inteligencia artificial"` | Formaciones y recursos CEFIRE sobre IA |
-| `site:portal.edu.gva.es/cefire "situaciones de aprendizaje"` | Recursos CEFIRE para diseño con IA |
-| `site:portal.edu.gva.es/cefire "competencia digital docente"` | Recursos CEFIRE sobre CDD y DigComp |
-| `site:portal.edu.gva.es "IA generativa" "docentes"` | Recursos de la GVA sobre IA generativa para docentes |
-| `site:edugems.ai/gem lesson plan` | Gems de EduGems para planificación docente |
-| `site:edugems.ai/gem rubric` | Gems de EduGems para evaluación y rúbricas |
-| `site:edugems.ai/gem UDL` | Gems de EduGems para diseño universal del aprendizaje |
+\`\`\`text
+ROL: diseñador de actividades de pensamiento crítico.
+ETAPA Y TEMA: [..]. FUENTES PRIMARIAS: [..].
+Prepara una explicación ficticia con exactamente [N] errores
+factuales contrastables. Evita errores peligrosos o ambiguos.
+Entrega DOS versiones: ficha del alumnado SIN soluciones;
+solucionario docente con error, corrección, fuente y justificación.
+Incluye una pista gradual y dos preguntas de reflexión.
+No inventes referencias ni afirmes que una fuente está verificada
+si no puedes comprobarla.
+\`\`\`
 
----
+### Asistente E · Simulación para Formación Profesional
 
-## Cómo integrar esta página en el curso
-{: id="10-cómo-integrar-esta-página-en-el-curso" }
+**Para qué sirve:** practicar habilidades de diagnóstico, comunicación o atención al cliente. **Prueba:** un cliente ficticio describe problemas de conexión Wi-Fi en una oficina simulada de SMR. **Resultado:** conversación por turnos y checklist de evidencias. **Limitación:** la simulación no demuestra una práctica real ni reemplaza comprobaciones de seguridad. **Mejora:** incluir una defensa oral de decisiones.
 
-### Enlace recomendado desde `index.md`
+\`\`\`text
+ROL: cliente simulado de [CICLO/MÓDULO].
+RESULTADO DE APRENDIZAJE OFICIAL APORTADO: [TEXTO].
+SITUACIÓN FICTICIA: [..]. DIFICULTAD: [..].
+No reveles el problema ni la solución antes de que el estudiante
+formule preguntas. Responde como cliente, de una en una.
+Al terminar, propone feedback formativo y checklist de decisiones.
+Nunca simules haber observado una práctica física no documentada.
+No inventes resultados de aprendizaje ni uses datos de clientes reales.
+\`\`\`
 
-Se recomienda añadir esta página como recurso complementario en la sección **"Recursos adicionales del curso"** de [index.md](index.md), con una descripción que invite al docente a explorar el banco.
+### Asistente F · Interlocutor para EOI
 
-### Relación con otras páginas del curso
+**Para qué sirve:** practicar interacción, registro y estrategias comunicativas. **Prueba:** reclamación cordial de un servicio en nivel B1. **Resultado:** diálogo y devolución lingüística. **Limitación:** puede simplificar matices culturales o cometer errores. **Mejora:** ofrecer variantes de registro y comprobarlas con fuentes lingüísticas.
 
-| Página del curso | Relación con este banco |
-|:----------------|:------------------------|
-| [bloque1-agentes-ia.md](bloque1-agentes-ia.md) | El banco amplía los ejemplos de agentes con recursos ya construidos y listos para usar o adaptar. Los Gems/GPTs son la versión "lista para usar" de los agentes que el docente aprende a diseñar en ese bloque |
-| [bloque1-seguridad.md](bloque1-seguridad.md) | Las advertencias de privacidad, los criterios de edad y los riesgos de fiabilidad de esta página son un complemento directo de los contenidos de seguridad del bloque 1 |
-| [bloque1-accesibilidad-ia.md](bloque1-accesibilidad-ia.md) | La sección «Educación especial y atención a la diversidad» y las adaptaciones DUA de los recursos conectan directamente con los contenidos de accesibilidad e inclusión del bloque 1 |
-| [bloque1-actividad-infantil.md](bloque1-actividad-infantil.md) | Los recursos de la sección «Infantil» pueden usarse como punto de partida o como referencia para las actividades de esta página |
-| [bloque1-actividad-primaria.md](bloque1-actividad-primaria.md) | Los recursos de la sección «Primaria» amplían y concretan las propuestas de actividad de primaria del bloque 1 |
-| [bloque1-actividad-secundaria.md](bloque1-actividad-secundaria.md) | Los recursos de las secciones 3.3 y 3.4 (Secundaria y Bachillerato) se conectan con las actividades de secundaria del bloque 1 |
-| [bloque1-actividad-fp.md](bloque1-actividad-fp.md) | Los recursos de la sección «Formación Profesional» complementan directamente las actividades de formación profesional del bloque 1 |
-| [bloque1-actividad-eoi.md](bloque1-actividad-eoi.md) | Los recursos de la sección «Educación de personas adultas y EOI» amplían las propuestas de actividad para EOI y educación de adultos del bloque 1 |
+\`\`\`text
+ROL: interlocutor para practicar [IDIOMA] de nivel MCER [NIVEL].
+SITUACIÓN: [ESCENARIO FICTICIO]. OBJETIVO: [..].
+Conversa de un turno cada vez: espera mi respuesta antes de seguir.
+Adapta el registro y no corrijas cada frase durante el diálogo.
+Al terminar, elige dos mejoras prioritarias de léxico, gramática,
+pronunciación (solo si tienes audio) o adecuación comunicativa.
+Explica por qué y presenta una reformulación natural.
+No atribuyas errores de pronunciación a una transcripción escrita.
+\`\`\`
 
-### Propuesta de uso como actividad transversal
-
-Esta página puede funcionar como **actividad transversal del curso** en tres momentos:
-
-- **Al inicio del bloque 1**: exploración libre del banco para identificar recursos de interés personal.
-- **Durante el bloque 2 o 3**: uso de la plantilla de análisis para documentar un recurso y diseñar una aplicación en el aula.
-- **Al final del curso**: elaboración de un banco de recursos compartido del claustro, alimentado con las fichas de análisis de todos los participantes.
-
-> **Sugerencia:** El banco puede crecer como documento colaborativo del equipo docente del centro, alimentado durante y después del curso. Propón a los participantes que aporten al menos una ficha antes del final de la formación.
+**¿Y si quieres guardar uno como Skill o Plugin?** Organiza el objetivo, entradas, pasos, límites y ejemplos, verifica los resultados y consulta las instrucciones del fabricante. La función concreta puede no estar disponible en tu cuenta. Nunca es requisito para completar esta actividad.
 
 ---
 
-<p style="text-align:center; color:gray; font-size:0.85em;">
-Recurso elaborado para el curso "Herramientas de Inteligencia Artificial Generativa para Docentes" · CEFIRE de IA y Pensamiento Computacional · 2026<br>
-Contenido bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
-</p>
+## Actividad opcional · Explora, prueba, adapta y valora
+{: id="actividad-opcional" }
+
+**Tiempo orientativo: 20–30 minutos.** Esta propuesta complementa, **pero no añade una entrega obligatoria**, a la [Actividad 4.6 del Bloque 4]({{ '/bloque4.html#actividades-practicas-bloque-4' | relative_url }}).
+
+- **Explora:** elige una ficha del catálogo o un prompt propio.
+- **Prueba:** plantea un caso docente ficticio y guarda la respuesta.
+- **Adapta:** ajusta el nivel, la materia, las instrucciones y el idioma.
+- **Valora:** explica qué funciona, qué falla, qué riesgo existe y si lo recomendarías.
+
+### Ficha breve única
+
+| Campo | Tu valoración |
+|---|---|
+| Recurso y enlace (si existe) | |
+| Etapa, materia y finalidad | |
+| Prueba ficticia y resultado obtenido | |
+| Adaptación o mejora realizada | |
+| Fiabilidad: ¿qué verificaste y con qué fuente? | |
+| Accesibilidad/DUA: ¿qué barreras revisaste? | |
+| Privacidad, edad y requisitos de acceso | |
+| Valoración: usar / adaptar / solo inspiración | |
+
+### Mini-rúbrica opcional de autoevaluación
+
+| Criterio | Inicial | Adecuado | Bien logrado |
+|---|---|---|---|
+| **Utilidad educativa** | No responde al objetivo | Responde parcialmente | Mejora una tarea concreta |
+| **Fiabilidad** | Sin verificación | Verificación parcial | Evidencias contrastadas |
+| **Accesibilidad** | No considera barreras | Incluye algunos apoyos | Ofrece alternativas coherentes |
+| **Privacidad** | No detecta riesgos | Identifica riesgos | Previene y documenta riesgos |
+| **Adaptación** | Copia sin revisar | Ajusta instrucciones | Prueba, corrige y justifica |
+
+**Entrega opcional:** una ficha y una propuesta breve de uso en el aula. No es necesario generar un GPT ni registrar una cuenta nueva.
+
+---
+
+## Seguridad, privacidad y recursos institucionales
+{: id="seguridad" }
+
+- **Datos:** nunca introduzcas nombres, notas individuales, imágenes identificables, informes psicopedagógicos ni incidencias personales en herramientas externas sin la autorización y garantías institucionales pertinentes. Para este curso: **solo materiales sintéticos o públicos**.
+- **Menores:** revisa la edad mínima, supervisión exigida y autorización institucional. Una herramienta accesible técnicamente no es necesariamente adecuada para estudiantes.
+- **Cuentas:** distingue entre cuenta personal, cuenta institucional y acceso de alumnado. No des por hecho que las políticas de una cuenta protegen otra.
+- **Evaluación:** la IA puede preparar una rúbrica o feedback, pero el juicio evaluativo final es del profesorado.
+- **Autoría y sesgos:** comprueba los resultados y respeta licencias y permisos de los materiales de terceros.
+- **DUA:** aporta alternativas para reducir barreras; no hagas adaptaciones individualizadas automáticas ni introduzcas diagnósticos.
+
+### Fuentes para contrastar y ampliar
+
+| Fuente | Para qué utilizarla |
+|---|---|
+| [CEFIRE · portal oficial](https://portal.edu.gva.es/cefire/) | Comprobar formación y recursos de Conselleria; busca la página vigente de cada curso |
+| [AEPD · guías y materiales](https://www.aepd.es/guias) | Protección de datos y centros educativos |
+| [INTEF](https://intef.es/) | Recursos educativos y competencia digital |
+| [CAST · DUA 3.0](https://udlguidelines.cast.org/) | Principios de implicación, representación y acción/expresión |
+| [UNESCO · IA en educación](https://www.unesco.org/en/digital-education/artificial-intelligence) | Marco ético y orientaciones pedagógicas |
+| [OpenAI · transición de GPTs](https://help.openai.com/en/articles/20001519-custom-gpt-retirement-and-migration-faq) | Fechas, Plugins y migración |
+| [OpenAI · Skills](https://help.openai.com/en/articles/20001066-skills-in-chatgpt) | Skills reutilizables |
+| [Google · Gems a Skills](https://support.google.com/gemini/answer/18560919?hl=es) | Fechas por tipo de cuenta |
+
+Estas fuentes no implican que los asistentes de EduGems estén avalados, homologados o aprobados por la GVA.
+
+## Referencias y verificación
+{: id="referencias" }
+
+**Fecha de revisión editorial:** 08/11/2026.
+
+- **Comprobado:** el contenido público y la existencia de las once fichas EduGems destacadas; las páginas oficiales de OpenAI y Google utilizadas para describir transiciones.
+- **No comprobado:** ejecución real de las once Gems dentro de cuentas del alumnado/profesorado, permisos de cada tenant educativo y enlaces complementarios heredados.
+- **No comprobado todavía:** funcionamiento en móvil y construcción de GitHub Pages de esta rama; se verificará tras su revisión y publicación.
+- **Pendiente de mantenimiento:** revisar las fechas de retirada de Gems/GPTs antes de nuevas ediciones; retirar enlaces que queden obsoletos.
+- **Fichas externas:** autoría de sus creadores; el curso ofrece casos y prompts originales, no reproduce instrucciones privadas de terceros.
+
+<p style="text-align:center;color:gray;font-size:0.85em">Curso IA para docentes · Bloque 4 · Recurso complementario de consulta y creación responsable</p>
