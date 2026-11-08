@@ -171,6 +171,8 @@ Explora asistentes educativos, pon a prueba sus resultados y aprende a construir
 ## Once recursos destacados · selección curada
 {: id="destacados" }
 
+**Prueba de acceso efectuada:** en las fichas [AI Tutor](https://www.edugems.ai/gem/ai-tutor) y [UDL Barrier Buster](https://www.edugems.ai/gem/udl-barrier-buster) se han comprobado los botones **Use the Gem**, **Copy the Gem** y **Copy the prompt**. En el caso de AI Tutor, **Use the Gem** abre una dirección `gemini.google.com/gem/...`, pero Gemini solicita iniciar sesión. Por tanto, **se ha comprobado la ruta al recurso, no una conversación funcional con la Gem**. Para el taller puedes usar las plantillas propias de esta página sin depender de ese acceso.
+
 **Estado de comprobación (8/11/2026):** se ha comprobado que **la página de cada ficha** de esta selección se puede consultar en EduGems. **No se ha validado el inicio de sesión ni la ejecución completa de cada Gem en Gemini**, por lo que no se garantiza la disponibilidad funcional. El acceso cambia según cuenta, edad y transición a Skills.
 
 | Asistente / ficha | Función principal y ejemplo | Etapas | Precaución |
@@ -388,7 +390,8 @@ Estas fuentes no implican que los asistentes de EduGems estén avalados, homolog
 **Fecha de revisión editorial:** 08/11/2026.
 
 - **Comprobado:** el contenido público y la existencia de las once fichas EduGems destacadas; las páginas oficiales de OpenAI y Google utilizadas para describir transiciones.
-- **No comprobado:** ejecución real de las once Gems dentro de cuentas del alumnado/profesorado, permisos de cada tenant educativo y enlaces complementarios heredados.
+- **Acceso comprobado parcialmente:** las fichas AI Tutor y UDL Barrier Buster muestran enlaces de uso y copia; el acceso a la Gem de AI Tutor conduce a la pantalla de inicio de sesión de Gemini.
+- **No comprobado:** conversación funcional con las once Gems, permisos de cada cuenta educativa y enlaces complementarios heredados.
 - **No comprobado todavía:** funcionamiento en móvil y construcción de GitHub Pages de esta rama; se verificará tras su revisión y publicación.
 - **Pendiente de mantenimiento:** revisar las fechas de retirada de Gems/GPTs antes de nuevas ediciones; retirar enlaces que queden obsoletos.
 - **Fichas externas:** autoría de sus creadores; el curso ofrece casos y prompts originales, no reproduce instrucciones privadas de terceros.
