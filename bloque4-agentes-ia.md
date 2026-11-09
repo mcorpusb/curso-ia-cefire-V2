@@ -1081,6 +1081,77 @@ y expresión para que el alumnado pueda demostrar lo aprendido.
 **Conclusión:** crear un agente no es garantía de que siga cada instrucción. Debemos **probarlo, detectar errores y mejorarlo**. Esta primera versión funciona como asistente configurado; para automatizaciones reales con sistemas externos se necesitan herramientas, permisos y, en ocasiones, Copilot Studio.
 
 ---
+## Ampliación práctica · Añade una Skill a un agente de Copilot
+{: id="skill-cuentacuentos-copilot" }
+
+Esta ampliación parte de un segundo agente, **«Cuentacuentos Mágico Infantil»**, configurado para crear historias para Educación Infantil de **3 a 6 años**. Queremos que sus instrucciones generales redacten cuentos y que una habilidad adicional se especialice en **adaptar un cuento existente a alumnado de 3, 4 o 5 años**.
+
+### Paso 1 · Crear y probar el agente cuentacuentos
+
+En Microsoft 365 Copilot abre **Agentes → Nuevo agente → Configurar**, o edita un agente propio si ya lo tienes creado. En nuestra práctica se configuró así:
+
+- **Nombre:** Cuentacuentos Mágico Infantil.
+- **Descripción:** asistente creativo para docentes de Infantil que genera cuentos originales, breves y adaptados a la edad, con emociones, participación oral y actividades.
+- **Instrucciones:** historias con inicio, aventura y desenlace; vocabulario adecuado a 3, 4 o 5 años; sonidos, repeticiones, propuestas DUA, tres preguntas de comprensión y dos actividades; respuestas en castellano o valenciano y sin datos personales del alumnado.
+
+**Primera prueba:** se pidió un cuento sobre **Mico, un gatito naranja que aprende a compartir juguetes**, para 3 años. Entre las propuestas finales, el agente incluyó las actividades «La pelota viajera» y «La caja de Mico», además de una dramatización con sonidos y gestos. La evidencia disponible muestra esa parte final; no permite comprobar toda la narración original.
+
+### Paso 2 · Abrir la sección Habilidades
+
+En la configuración del cuentacuentos, abre **Habilidades → Agregar**. En la cuenta utilizada aparecen dos opciones: **Crear con chat** y **Cargar**. Para el taller se seleccionó **Crear con chat**.
+
+**Nota:** las habilidades asociadas a este agente no deben confundirse con las Skills independientes que creamos desde «Personalizar → Habilidades» en Gemini.
+
+### Paso 3 · Crear la habilidad `adaptar-cuentos-infantiles`
+
+Pide a Agent Builder que cree una habilidad con este objetivo:
+
+~~~text
+Crea una habilidad reutilizable llamada adaptar-cuentos-infantiles
+para el agente Cuentacuentos Mágico Infantil.
+
+Su función es adaptar un cuento ORIGINAL ya existente a
+alumnado de 3, 4 o 5 años, conservando sus personajes,
+su argumento principal y su mensaje.
+
+3 años: frases cortas, repetición, vocabulario sencillo,
+onomatopeyas y gestos.
+4 años: diálogos breves, pequeñas aventuras y preguntas.
+5 años: narración más elaborada, decisiones y reflexión.
+
+Incluye:
+- Título y edad recomendada.
+- Cuento adaptado completo.
+- Tres preguntas de comprensión.
+- Dos actividades de aula.
+- Una propuesta inclusiva de participación y apoyos DUA.
+
+No uses datos personales de menores. Responde en castellano
+o valenciano según lo solicitado.
+
+Si el texto original no está disponible y el usuario pide
+conservar fielmente los personajes y acontecimientos,
+solicítalo antes de adaptar: no inventes una continuidad.
+~~~
+
+**Resultado observado:** la nueva habilidad apareció en **Habilidades** con el nombre `adaptar-cuentos-infantiles` y la descripción de que se invoca al adaptar un cuento existente a una edad diferente. Esto confirma que se **añadió al agente**.
+
+### Paso 4 · Probar la habilidad
+
+Se solicitó una versión para **5 años** de la historia del gatito Mico, con más diálogos, decisiones de los personajes y preguntas de reflexión.
+
+**Resultado producido:** el cuento titulado **«Mico y el gran descubrimiento de compartir»** incorpora la caja de juguetes, una decisión inicial de no compartir, la reflexión del protagonista, tres preguntas de comprensión y dos actividades: «El juego de las decisiones de Mico» y «La caja de compartir». Añade propuestas DUA como pictogramas, gestos, dramatización, anticipación de vocabulario y alternativas para responder.
+
+### La comprobación que no debemos omitir
+
+El resultado es **útil como cuento para 5 años**, pero no demuestra por sí solo una **adaptación fiel del texto original**. En el fragmento disponible del primer cuento aparecía **Lila**; en la nueva versión figuran **Luna, Tano y Tina**, y no se había facilitado el cuento original completo como fuente. Tampoco basta la respuesta final para demostrar qué procedimiento interno ejecutó Copilot: sabemos que la habilidad está incorporada al agente, pero no podemos afirmar que todas sus reglas se activaran correctamente en esa conversación.
+
+**Mejora propuesta:** aportar el texto íntegro del cuento original y repetir la petición. Después comprobar: personajes conservados, secuencia de acontecimientos, extensión y vocabulario ajustados a la edad, participación y apoyos DUA. Si algún elemento cambia, revisar las instrucciones de la habilidad y volver a probar.
+
+**Aprendizaje clave del taller:** *que una Skill esté creada y entregue una respuesta convincente no garantiza que haya cumplido todas las condiciones*. La evaluación crítica del resultado sigue correspondiendo al docente.
+
+---
+
 ### ¿Qué hacemos después?
 
 Ya hemos probado la Gem, la Skill y un primer agente de Copilot. Si la cuenta dispone de permisos y licencias, una actividad de ampliación puede incorporar documentos oficiales como conocimiento o conectar herramientas y flujos mediante Copilot Studio.
