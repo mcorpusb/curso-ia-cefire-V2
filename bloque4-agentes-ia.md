@@ -574,6 +574,36 @@ Utiliza solo información general y casos ficticios.
 
 **Evidencia de la práctica:** nombre de la Gem o plantilla, instrucciones, resultado de prueba y una mejora realizada. **No es obligatorio compartir públicamente una Gem**.
 
+### Mejora real tras la primera prueba: bloquear la generación sin criterio
+{: id="mejora-gem-criterio" }
+
+En nuestra prueba con **«Evaluador formativo · Todas las etapas»**, la Gem elaboró una rúbrica completa sobre el ciclo del agua de 5.º de Primaria **sin pedir previamente un criterio de evaluación oficial**. Aunque el borrador incluía descriptores y propuestas DUA, mezcló el objetivo que propuso la IA con dimensiones de valoración no justificadas por un criterio aportado.
+
+**Enseñanza para el taller:** un resultado aparentemente bueno **puede incumplir la instrucción más importante**. Antes de guardar la Gem, añade al **principio** de sus instrucciones este bloque:
+
+~~~text
+REGLA PRIORITARIA DE INICIO:
+Antes de crear una rúbrica vinculada a evaluación curricular,
+comprueba si he aportado el texto literal del criterio de
+evaluación oficial o resultado de aprendizaje aplicable.
+Si no lo he aportado, NO crees la rúbrica ni inventes el criterio.
+Responde solo solicitando:
+- El criterio oficial y la fuente o norma de procedencia.
+- La actividad y las evidencias que deseo observar.
+- La etapa, materia y el formato necesario, si faltan.
+Cuando los aporte, verifica que los indicadores propuestos
+se fundamenten en ellos; señala cualquier dimensión que no
+pueda justificarse y pide confirmación antes de incluirla.
+No interpretes una mera referencia al curso o al tema como si
+fuera un criterio oficial.
+~~~
+
+**Repite exactamente esta prueba:** «Quiero crear una rúbrica para evaluar una exposición oral sobre el ciclo del agua en 5.º de Primaria».
+
+**Comportamiento esperado:** la Gem solicita el criterio oficial y la información que falte **sin generar todavía la rúbrica**. Una vez facilitado el criterio, se puede continuar con un ejemplo ficticio y revisar el resultado.
+
+**Importante:** puedes hacer la prueba primero con la vista previa y **guardar la Gem solo después** de que se comporte como esperabas. No hay que dar por correcta una rúbrica sin contrastarla con el currículo y el objetivo real de la actividad.
+
 ### Capturas de pantalla del tutorial
 
 Las siguientes capturas se añadirán cuando se haya seguido el proceso en una cuenta docente autorizada. Así la guía reflejará la **interfaz real** y no imágenes inventadas:
@@ -582,7 +612,7 @@ Las siguientes capturas se añadirán cuando se haya seguido el proceso en una c
 - **Captura B · recibida y revisada:** pantalla **«Gestor de Gems»**. En tu cuenta aparecen Gems prediseñadas por Google, la sección **«Mis Gems»** y el botón azul **«+ Nuevo Gem»** en la esquina inferior derecha. El aviso superior indica que **a partir de junio de 2027** comenzará la migración automática de estas Gems a habilidades; permite usarlas y editarlas hasta su migración y advierte de posibles acciones para conservar archivos. La captura real todavía está pendiente de subirse como imagen al repositorio.
 - **Captura C · recibida y revisada:** editor **«Nuevo Gem»**. En la columna izquierda aparecen los campos **Nombre**, **Descripción**, **Instrucciones**, **Herramienta predeterminada** (inicialmente «No hay herramienta predeterminada») y **Conocimientos** (para añadir archivos de referencia). A la derecha aparece **Vista previa**, que indica que primero hay que asignar un nombre; **Guardar** se muestra deshabilitado mientras faltan datos. Para el ejemplo general del curso: nombre «Evaluador formativo · Todas las etapas», descripción «Asistente para diseñar rúbricas, listas de cotejo, cuestionarios y autoevaluaciones con criterios aportados por el profesorado», instrucciones del [ejemplo general](#ejemplo--general-asistente-de-evaluación-docente), sin herramienta predeterminada ni archivos para la primera prueba. La captura real está pendiente de incorporarse como archivo de imagen al repositorio.
 - **Captura D · configuración completada:** el nombre y la descripción están cumplimentados, las instrucciones se han pegado, se mantiene «No hay herramienta predeterminada» y no se han añadido archivos en «Conocimientos». En la parte superior aparece «El Gem no se ha guardado» y el botón azul «Guardar», por lo que la creación **aún no está guardada**. Imagen pendiente de subir al repositorio, una vez revisada su privacidad.
-- **Captura E · prueba iniciada, respuesta pendiente:** la Gem «Evaluador formativo · Todas las etapas» muestra la solicitud «Quiero crear una rúbrica para evaluar una exposición oral sobre el ciclo del agua en 5.º de Primaria». En la segunda captura el modelo sigue procesando la respuesta (se ve un estado intermedio en inglés), por lo que **todavía no se ha validado el comportamiento final**. Hay que comprobar si pregunta por el criterio curricular oficial y los datos que falten antes de generar la rúbrica. **Privacidad:** la captura de prueba contiene el nombre de un centro educativo en el aviso inferior; recorta u oculta esa franja antes de publicar la imagen.
+- **Captura E · resultado real de la primera prueba (Gem todavía sin guardar):** ante la solicitud de una rúbrica para una exposición oral sobre el ciclo del agua en 5.º de Primaria, Gemini generó directamente un objetivo, cuatro dimensiones de evaluación, una rúbrica de cuatro niveles, recomendaciones DUA y un checklist. **Hallazgo importante:** no solicitó antes el criterio curricular oficial, aunque se le había indicado que lo hiciera; lo preguntó **al final**. Por tanto, el resultado es **un borrador pedagógico no validado curricularmente**, no un instrumento listo para evaluar. La prueba demuestra por qué hay que revisar las instrucciones. La captura original debe recortarse para ocultar la referencia al centro educativo antes de publicarla.
 - **Captura F:** Gem guardada y prueba revisada.
 
 Antes de publicar las capturas, **oculta la fotografía de perfil, el correo, nombres, identificadores, documentos privados y cualquier dato personal**. Cuando la transición a Skills cambie el editor, podremos actualizar este apartado conservando los prompts y las pruebas.
