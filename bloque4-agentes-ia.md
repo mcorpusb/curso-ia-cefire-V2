@@ -604,6 +604,14 @@ fuera un criterio oficial.
 
 **Importante:** puedes hacer la prueba primero con la vista previa y **guardar la Gem solo después** de que se comporte como esperabas. No hay que dar por correcta una rúbrica sin contrastarla con el currículo y el objetivo real de la actividad.
 
+### Segunda prueba real · La Gem ya pide el criterio oficial
+
+Tras reforzar las instrucciones, repetimos la petición: «Quiero crear una rúbrica de cuatro niveles para evaluar una exposición oral sobre el ciclo del agua en 5.º de Primaria». **Esta vez la Gem no generó la rúbrica directamente**: solicitó el criterio oficial literal y su referencia normativa, el área o materia, la duración y modalidad de exposición, los apoyos visuales y el formato de evaluación.
+
+**Resultado de la prueba:** la instrucción prioritaria se ha cumplido **en este caso**. No se garantiza que todas las respuestas futuras sean correctas; la rúbrica definitiva sigue necesitando un criterio oficial aportado por el docente y revisión humana. Para completar la validación, facilita un criterio curricular auténtico y comprueba que cada indicador se corresponde con él.
+
+**Aprendizaje del taller:** primera prueba → detectar el fallo → modificar instrucciones → repetir la misma petición → verificar el cambio. Conserva ambas respuestas como evidencia ficticia del proceso de mejora.
+
 ### Capturas de pantalla del tutorial
 
 Las siguientes capturas se añadirán cuando se haya seguido el proceso en una cuenta docente autorizada. Así la guía reflejará la **interfaz real** y no imágenes inventadas:
