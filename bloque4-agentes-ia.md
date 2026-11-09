@@ -612,24 +612,48 @@ Tras reforzar las instrucciones, repetimos la petición: «Quiero crear una rúb
 
 **Aprendizaje del taller:** primera prueba → detectar el fallo → modificar instrucciones → repetir la misma petición → verificar el cambio. Conserva ambas respuestas como evidencia ficticia del proceso de mejora.
 
-### Capturas de pantalla del tutorial
+### Capturas reales · Crear y probar la Gem
 
-Las siguientes capturas se añadirán cuando se haya seguido el proceso en una cuenta docente autorizada. Así la guía reflejará la **interfaz real** y no imágenes inventadas:
+Las siguientes imágenes corresponden a nuestra práctica documentada en noviembre de 2026. Puedes **pulsar sobre cualquiera para ampliarla**. Se han recortado las franjas que mostraban información del centro.
 
-- **Captura A · recibida y revisada:** en la interfaz de Gemini en español, despliega **«Más»** en la barra lateral y selecciona **«Gems»**. La captura real ya está preparada para incorporarse como imagen al repositorio; todavía no está insertada en la página.
-- **Captura B · recibida y revisada:** pantalla **«Gestor de Gems»**. En tu cuenta aparecen Gems prediseñadas por Google, la sección **«Mis Gems»** y el botón azul **«+ Nuevo Gem»** en la esquina inferior derecha. El aviso superior indica que **a partir de junio de 2027** comenzará la migración automática de estas Gems a habilidades; permite usarlas y editarlas hasta su migración y advierte de posibles acciones para conservar archivos. La captura real todavía está pendiente de subirse como imagen al repositorio.
-- **Captura C · recibida y revisada:** editor **«Nuevo Gem»**. En la columna izquierda aparecen los campos **Nombre**, **Descripción**, **Instrucciones**, **Herramienta predeterminada** (inicialmente «No hay herramienta predeterminada») y **Conocimientos** (para añadir archivos de referencia). A la derecha aparece **Vista previa**, que indica que primero hay que asignar un nombre; **Guardar** se muestra deshabilitado mientras faltan datos. Para el ejemplo general del curso: nombre «Evaluador formativo · Todas las etapas», descripción «Asistente para diseñar rúbricas, listas de cotejo, cuestionarios y autoevaluaciones con criterios aportados por el profesorado», instrucciones del [ejemplo general](#ejemplo--general-asistente-de-evaluación-docente), sin herramienta predeterminada ni archivos para la primera prueba. La captura real está pendiente de incorporarse como archivo de imagen al repositorio.
-- **Captura D · configuración completada:** el nombre y la descripción están cumplimentados, las instrucciones se han pegado, se mantiene «No hay herramienta predeterminada» y no se han añadido archivos en «Conocimientos». En la parte superior aparece «El Gem no se ha guardado» y el botón azul «Guardar», por lo que la creación **aún no está guardada**. Imagen pendiente de subir al repositorio, una vez revisada su privacidad.
-- **Captura E · resultado real de la primera prueba (Gem todavía sin guardar):** ante la solicitud de una rúbrica para una exposición oral sobre el ciclo del agua en 5.º de Primaria, Gemini generó directamente un objetivo, cuatro dimensiones de evaluación, una rúbrica de cuatro niveles, recomendaciones DUA y un checklist. **Hallazgo importante:** no solicitó antes el criterio curricular oficial, aunque se le había indicado que lo hiciera; lo preguntó **al final**. Por tanto, el resultado es **un borrador pedagógico no validado curricularmente**, no un instrumento listo para evaluar. La prueba demuestra por qué hay que revisar las instrucciones. La captura original debe recortarse para ocultar la referencia al centro educativo antes de publicarla.
-- **Captura F · pantalla final recibida:** se ve la Gem **«Evaluador formativo · Todas las etapas»** en su interfaz de conversación, con icono, nombre, descripción y la caja **«Pregunta a Gemini»**, fuera del editor. Esto es **coherente con una Gem creada y abierta para su uso**; la imagen no muestra el listado «Mis Gems» ni permite verificar por sí sola la persistencia tras cerrar y volver a entrar. La primera prueba generó la rúbrica sin pedir el criterio y la segunda, tras mejorar las instrucciones, **sí solicitó el criterio oficial antes de comenzar**. Para cerrar la comprobación, vuelve a «Mis Gems» y confirma que figura en el listado. La imagen final recibida no muestra datos identificativos visibles de alumnado o centro y está pendiente de subirse al repositorio.
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/gem1.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar menú de Gemini en español con la ruta Más y Gems"><img src="{{ '/assets/img/bloque4/tutoriales/gem1.png' | relative_url }}" alt="menú de Gemini en español con la ruta Más y Gems" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 1 · Abrir Más → Gems</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/gem1.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
 
-Antes de publicar las capturas, **oculta la fotografía de perfil, el correo, nombres, identificadores, documentos privados y cualquier dato personal**. Cuando la transición a Skills cambie el editor, podremos actualizar este apartado conservando los prompts y las pruebas.
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/gem2.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar Gestor de Gems y botón azul Nuevo Gem"><img src="{{ '/assets/img/bloque4/tutoriales/gem2.png' | relative_url }}" alt="Gestor de Gems y botón azul Nuevo Gem" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 2 · Gestor de Gems y botón Nuevo Gem</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/gem2.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
 
-### Cierre de la práctica · Gem
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/gem3.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar campos Nombre, Descripción e Instrucciones en el editor de Gem"><img src="{{ '/assets/img/bloque4/tutoriales/gem3.png' | relative_url }}" alt="campos Nombre, Descripción e Instrucciones en el editor de Gem" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 3 · Editor de una Gem nueva</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/gem3.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
 
-Hemos configurado «Evaluador formativo · Todas las etapas», detectado que su primera respuesta generaba una rúbrica sin criterio oficial y mejorado las instrucciones. En la segunda prueba, el asistente **pidió primero el criterio**. Conserva esa configuración y la evidencia de las dos pruebas; si la cuenta lo permite, verifica también la Gem en «Mis Gems».
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/gem4.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar nombre, descripción, instrucciones y vista previa de la Gem"><img src="{{ '/assets/img/bloque4/tutoriales/gem4.png' | relative_url }}" alt="nombre, descripción, instrucciones y vista previa de la Gem" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 4 · Configurar el asistente Evaluador formativo</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/gem4.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
 
-**Siguiente taller:** vamos a crear una **Skill especializada** para elaborar rúbricas. No es necesario repetir todo el asistente general: nos centraremos en un procedimiento concreto que podremos invocar desde una conversación de Gemini.
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/gem5.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar Gem recibe petición de rúbrica para ciclo del agua"><img src="{{ '/assets/img/bloque4/tutoriales/gem5.png' | relative_url }}" alt="Gem recibe petición de rúbrica para ciclo del agua" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 5 · Primera prueba en la vista previa</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/gem5.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
+
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/gem6.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar Gem genera indicadores sin solicitar criterio oficial; resultado pendiente de validación"><img src="{{ '/assets/img/bloque4/tutoriales/gem6.png' | relative_url }}" alt="Gem genera indicadores sin solicitar criterio oficial; resultado pendiente de validación" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 6 · Primera respuesta: rúbrica sin criterio previo</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/gem6.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
+
+**Qué aprendimos con la primera prueba:** la Gem produjo una rúbrica convincente, pero **incumplió la regla de pedir el criterio curricular**. Reforzamos las instrucciones y, en la segunda prueba descrita arriba, ya solicitó el criterio antes de continuar.
+
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/gem7.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar Gem Evaluador formativo Todas las etapas disponible para conversar"><img src="{{ '/assets/img/bloque4/tutoriales/gem7.png' | relative_url }}" alt="Gem Evaluador formativo Todas las etapas disponible para conversar" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 7 · Pantalla de conversación de la Gem</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/gem7.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
+
+**Privacidad:** son ejemplos ficticios. No aparecen nombres de estudiantes; la edición de las capturas elimina el pie institucional visible en los originales.
 
 ---
 
@@ -654,16 +678,49 @@ Las funciones exactas dependen de la cuenta de Gemini. Consulta la [documentaci�
 
 ### Crear la habilidad paso a paso · Capturas reales
 
-- **Captura Skill 1 · acceso:** en el lateral de Gemini, selecciona **«Más» → «Personalizar»**.
-- **Captura Skill 2 · biblioteca:** en **«Personalizar»** abre la pestaña **«Habilidades»**. Aparecen habilidades recomendadas y el botón **«Crear»**.
-- **Captura Skill 3 · opciones de creación:** despliega **«Crear»**. En la interfaz observada aparecen **«Crear con Gemini»**, **«Crear manualmente»** y **«Subir»**. Para esta práctica seleccionamos **«Crear manualmente»**.
-- **Captura Skill 4 · editor:** se muestran **Nombre**, **Descripción** e **Instrucciones**, además de **«Añadir archivos»** y **«Crear»**. No necesitas adjuntar documentos para el primer ejercicio.
-- **Captura Skill 5 · configuración:** completa los tres campos con el ejemplo siguiente.
-- **Captura Skill 6 · instalada:** después de crearla aparece **«Instalado (1)»** y la habilidad **«crear-rubricas-competenciales»**. En el menú de los tres puntos se ven opciones como **Usar ahora**, **Editar con Gemini**, **Editar manualmente**, **Descargar**, **Sustituir habilidad**, **Desactivar** y **Eliminar**.
-- **Captura Skill 7 · invocación:** desde la conversación, la prueba escribe **@crear-rubricas-competenciales** seguido de la petición. El prefijo @ permite seleccionar o invocar explícitamente la habilidad.
-- **Captura Skill 8 · prueba real:** ante una solicitud para crear una rúbrica de cuatro niveles sobre el ciclo del agua en 5.º de Primaria, la Skill **no elaboró directamente la rúbrica**. Solicitó el criterio oficial literal, la normativa de referencia, el enfoque de evaluación y las características del formato, tal como se había definido.
+Aquí tienes el **recorrido completo con imágenes de nuestra práctica**, en el mismo orden en que la realizamos. Haz clic para ampliar cada pantalla.
 
-**Estado de las evidencias:** las capturas reales de esta práctica se han recibido y revisado, pero aún falta incorporarlas como archivos de imagen al repositorio. Antes de publicarlas, revisa que no aparezcan nombres de centros, perfiles o datos privados.
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/skill1.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar menú Más de Gemini con Personalizar seleccionado"><img src="{{ '/assets/img/bloque4/tutoriales/skill1.png' | relative_url }}" alt="menú Más de Gemini con Personalizar seleccionado" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 1 · Gemini → Más → Personalizar</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill1.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
+
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/skill2.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar catálogo de habilidades de Gemini con botón Crear"><img src="{{ '/assets/img/bloque4/tutoriales/skill2.png' | relative_url }}" alt="catálogo de habilidades de Gemini con botón Crear" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 2 · Pestaña Habilidades</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill2.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
+
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/skill3.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar menú de creación de habilidades con Crear con Gemini, Crear manualmente y Subir"><img src="{{ '/assets/img/bloque4/tutoriales/skill3.png' | relative_url }}" alt="menú de creación de habilidades con Crear con Gemini, Crear manualmente y Subir" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 3 · Crear manualmente</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill3.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
+
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/skill4.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar formulario de nueva Skill con Nombre Descripción e Instrucciones"><img src="{{ '/assets/img/bloque4/tutoriales/skill4.png' | relative_url }}" alt="formulario de nueva Skill con Nombre Descripción e Instrucciones" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 4 · Editor de una habilidad</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill4.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
+
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/skill5.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar Skill con descripción e instrucciones completadas"><img src="{{ '/assets/img/bloque4/tutoriales/skill5.png' | relative_url }}" alt="Skill con descripción e instrucciones completadas" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 5 · Configuración de crear-rubricas-competenciales</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill5.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
+
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/skill6.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar sección Instalado y menú con Usar ahora y Editar manualmente"><img src="{{ '/assets/img/bloque4/tutoriales/skill6.png' | relative_url }}" alt="sección Instalado y menú con Usar ahora y Editar manualmente" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 6 · Habilidad instalada y opciones del menú</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill6.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
+
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/skill7.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar petición a Gemini invocando @crear-rubricas-competenciales"><img src="{{ '/assets/img/bloque4/tutoriales/skill7.png' | relative_url }}" alt="petición a Gemini invocando @crear-rubricas-competenciales" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 7 · Invocar la Skill con @</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill7.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
+
+<figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
+  <a href="{{ '/assets/img/bloque4/tutoriales/skill8.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar Gemini solicita criterio oficial y otros datos antes de generar rúbrica"><img src="{{ '/assets/img/bloque4/tutoriales/skill8.png' | relative_url }}" alt="Gemini solicita criterio oficial y otros datos antes de generar rúbrica" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
+  <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 8 · Respuesta correcta de la habilidad</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill8.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
+</figure>
+
+**Resultado comprobado:** la habilidad solicitó el criterio de evaluación oficial y no generó todavía la rúbrica. No se ha validado una rúbrica definitiva hasta que el docente proporcione ese criterio.
 
 ### Ejemplo completo · Skill «crear-rubricas-competenciales»
 
