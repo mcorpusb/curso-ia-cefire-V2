@@ -626,6 +626,8 @@ Las siguientes capturas se añadirán cuando se haya seguido el proceso en una c
 Antes de publicar las capturas, **oculta la fotografía de perfil, el correo, nombres, identificadores, documentos privados y cualquier dato personal**. Cuando la transición a Skills cambie el editor, podremos actualizar este apartado conservando los prompts y las pruebas.
 
 ## Taller guiado · Crea una Skill (habilidad) en Gemini
+
+> **📄 Manual PDF para Aules:** [Descargar el manual ilustrado «Cómo crear una Skill en Gemini» (9 páginas)]({{ '/assets/docs/bloque4/Manual_creacion_Skill_Gemini_Bloque4_Aules.pdf' | relative_url }}). Incluye ocho capturas reales del proceso, instrucciones completas, prueba de funcionamiento y comparación con una Gem. Puedes abrirlo o descargarlo sin depender de enlaces temporales del chat.
 {: id="taller-skill-gemini" }
 
 **Objetivo:** convertir un procedimiento docente en una habilidad reutilizable y compararla con la Gem del apartado anterior. **Tiempo orientativo:** 15–20 minutos.
