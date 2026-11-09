@@ -1304,6 +1304,28 @@ en los nombres de preguntas ni en las respuestas.
 
 Comprueba que Claude **utiliza la Skill**, que pregunta por las fuentes si no puede acceder a ellas y que entrega **exactamente 10 preguntas**. Para la segunda prueba, cambia solo la **dificultad** (por ejemplo, de alta a baja) y evalúa si los enunciados realmente se simplifican.
 
+### Resultado real de la primera prueba · Claude genera el banco
+
+En la prueba con material docente del tema **«Seguridad pasiva: copias de seguridad y recuperación de datos»**, se obtuvo un bloque GIFT con **10 preguntas**: **5 verdadero/falso y 5 de opción múltiple**, cada una con **cuatro opciones y exactamente una correcta**. Los identificadores son descriptivos y **sin numeración**; la respuesta correcta de opción múltiple aparece en posiciones variadas.
+
+Fragmento representativo del resultado (el banco completo debe validarse en Aules):
+
+~~~text
+::VF_RestauracionDiferencial::Para restaurar un sistema a partir de copias diferenciales basta con disponer de la última copia completa y de la última copia diferencial.{T####Correcto. La copia diferencial guarda lo modificado desde la última completa, por lo que solo se necesitan esas dos copias (apartado 3.2).}
+
+::OM_RestaurarIncrementales::Se hace una copia completa cada viernes y una incremental cada día. Si el sistema de ficheros falla, ¿qué copias hay que recuperar?{
+~Solo la copia completa y la última incremental
+=La última copia completa y todas las incrementales realizadas hasta la fecha del fallo
+~Únicamente la última copia incremental
+~La última copia completa y solo la primera incremental posterior
+####En las incrementales cada copia depende de la anterior, por lo que hay que restaurar la completa más todas las incrementales hasta el fallo (apartado 3.2).
+}
+~~~
+
+**Detalle técnico revisado:** el separador \`####\` introduce **retroalimentación general** en GIFT, también en las preguntas verdadero/falso; es distinto del separador \`#\` utilizado para comentarios de respuestas concretas. La sintaxis está documentada por [Moodle](https://docs.moodle.org/en/GIFT_format). La revisión de la estructura **no sustituye** la importación efectiva ni la verificación de cada respuesta frente al material original.
+
+**Resultado comparado hasta ahora:** Claude ha respetado la cantidad, los dos tipos de preguntas, la ausencia de numeración y la variación de la posición correcta en este ensayo. En la primera versión de Gemini detectamos problemas de exportación \`.md\` y numeración; tras mejorar sus instrucciones, Gemini también generó un \`.txt\` estructurado. No es una comparación de calidad definitiva: faltan las pruebas de importación y revisión de contenido.
+
 ### Paso 6 · Validar en Aules y comparar con Gemini
 
 - Importa el archivo de prueba desde **Banco de preguntas → Importar → GIFT** en una categoría de ensayo de Aules.
