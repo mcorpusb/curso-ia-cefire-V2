@@ -578,7 +578,7 @@ Utiliza solo información general y casos ficticios.
 
 Las siguientes capturas se añadirán cuando se haya seguido el proceso en una cuenta docente autorizada. Así la guía reflejará la **interfaz real** y no imágenes inventadas:
 
-- **Captura A:** acceso a Gems desde la barra lateral.
+- **Captura A · recibida y revisada:** en la interfaz de Gemini en español, despliega **«Más»** en la barra lateral y selecciona **«Gems»**. La captura real ya está preparada para incorporarse como imagen al repositorio; todavía no está insertada en la página.
 - **Captura B:** botón «Nueva Gem» o su equivalente.
 - **Captura C:** nombre y editor de instrucciones.
 - **Captura D:** apartado «Conocimientos» (si se utiliza).
