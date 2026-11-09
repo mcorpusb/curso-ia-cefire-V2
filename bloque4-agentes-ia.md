@@ -625,10 +625,20 @@ Las siguientes capturas se añadirán cuando se haya seguido el proceso en una c
 
 Antes de publicar las capturas, **oculta la fotografía de perfil, el correo, nombres, identificadores, documentos privados y cualquier dato personal**. Cuando la transición a Skills cambie el editor, podremos actualizar este apartado conservando los prompts y las pruebas.
 
+### Cierre de la práctica · Gem
+
+Hemos configurado «Evaluador formativo · Todas las etapas», detectado que su primera respuesta generaba una rúbrica sin criterio oficial y mejorado las instrucciones. En la segunda prueba, el asistente **pidió primero el criterio**. Conserva esa configuración y la evidencia de las dos pruebas; si la cuenta lo permite, verifica también la Gem en «Mis Gems».
+
+**Siguiente taller:** vamos a crear una **Skill especializada** para elaborar rúbricas. No es necesario repetir todo el asistente general: nos centraremos en un procedimiento concreto que podremos invocar desde una conversación de Gemini.
+
+---
+
 ## Taller guiado · Crea una Skill (habilidad) en Gemini
+{: id="taller-skill-gemini" }
+
+**Continuación directa del taller anterior:** después de crear la Gem «Evaluador formativo · Todas las etapas», aprenderemos a crear la habilidad «crear-rubricas-competenciales». Aquí tienes **toda la explicación paso a paso**, las instrucciones copiables y la prueba real. El PDF es solo un material complementario.
 
 > **📄 Manual PDF para Aules:** [Descargar el manual ilustrado «Cómo crear una Skill en Gemini» (9 páginas)]({{ '/assets/docs/bloque4/Manual_creacion_Skill_Gemini_Bloque4_Aules.pdf' | relative_url }}). Incluye ocho capturas reales del proceso, instrucciones completas, prueba de funcionamiento y comparación con una Gem. Puedes abrirlo o descargarlo sin depender de enlaces temporales del chat.
-{: id="taller-skill-gemini" }
 
 **Objetivo:** convertir un procedimiento docente en una habilidad reutilizable y compararla con la Gem del apartado anterior. **Tiempo orientativo:** 15–20 minutos.
 
@@ -736,10 +746,6 @@ exposición oral sobre el ciclo del agua en 5.º de Primaria.
 
 ---
 
-### Después de esta práctica
+### ¿Qué hacemos después?
 
-- **Gem:** conserva una configuración de asistente en Gemini, mientras esté disponible para tu cuenta.
-- **Skill:** conserva un procedimiento reutilizable que Gemini puede aplicar en conversaciones compatibles.
-- **Agente de Copilot:** puede incorporar instrucciones y, si hay permisos y licencias, conexiones y acciones para realizar un flujo de trabajo.
-
-**La siguiente demostración del curso** podrá comparar la misma tarea docente realizada mediante un prompt, una Skill y un agente de Copilot; no es necesario programar los tres para completar la Actividad 4.6.
+Una vez probadas la Gem y la Skill, el siguiente ejercicio del Bloque 4 puede ser crear un **agente en Copilot**, si la licencia y los permisos lo permiten. Así compararemos las instrucciones guardadas, una habilidad especializada y un flujo que utiliza herramientas autorizadas.
