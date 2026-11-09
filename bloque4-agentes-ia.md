@@ -625,6 +625,115 @@ Las siguientes capturas se añadirán cuando se haya seguido el proceso en una c
 
 Antes de publicar las capturas, **oculta la fotografía de perfil, el correo, nombres, identificadores, documentos privados y cualquier dato personal**. Cuando la transición a Skills cambie el editor, podremos actualizar este apartado conservando los prompts y las pruebas.
 
+## Taller guiado · Crea una Skill (habilidad) en Gemini
+{: id="taller-skill-gemini" }
+
+**Objetivo:** convertir un procedimiento docente en una habilidad reutilizable y compararla con la Gem del apartado anterior. **Tiempo orientativo:** 15–20 minutos.
+
+### Gem y Skill: diferencia en la práctica
+
+| Gem | Skill / habilidad |
+|---|---|
+| Abres un asistente personalizado que conserva sus instrucciones. | Puedes utilizar un procedimiento especializado desde una conversación de Gemini. |
+| Nuestro ejemplo es «Evaluador formativo · Todas las etapas»: crea distintos instrumentos. | Nuestro ejemplo es «crear-rubricas-competenciales»: se centra exclusivamente en elaborar rúbricas. |
+| El docente conversa con el asistente configurado. | Puede invocar la habilidad en el chat usando **@nombre-de-la-habilidad**, si está disponible en su cuenta. |
+
+Las funciones exactas dependen de la cuenta de Gemini. Consulta la [documentación oficial de Google sobre Skills](https://support.google.com/gemini/answer/18560919?hl=es).
+
+### Crear la habilidad paso a paso · Capturas reales
+
+- **Captura Skill 1 · acceso:** en el lateral de Gemini, selecciona **«Más» → «Personalizar»**.
+- **Captura Skill 2 · biblioteca:** en **«Personalizar»** abre la pestaña **«Habilidades»**. Aparecen habilidades recomendadas y el botón **«Crear»**.
+- **Captura Skill 3 · opciones de creación:** despliega **«Crear»**. En la interfaz observada aparecen **«Crear con Gemini»**, **«Crear manualmente»** y **«Subir»**. Para esta práctica seleccionamos **«Crear manualmente»**.
+- **Captura Skill 4 · editor:** se muestran **Nombre**, **Descripción** e **Instrucciones**, además de **«Añadir archivos»** y **«Crear»**. No necesitas adjuntar documentos para el primer ejercicio.
+- **Captura Skill 5 · configuración:** completa los tres campos con el ejemplo siguiente.
+- **Captura Skill 6 · instalada:** después de crearla aparece **«Instalado (1)»** y la habilidad **«crear-rubricas-competenciales»**. En el menú de los tres puntos se ven opciones como **Usar ahora**, **Editar con Gemini**, **Editar manualmente**, **Descargar**, **Sustituir habilidad**, **Desactivar** y **Eliminar**.
+- **Captura Skill 7 · invocación:** desde la conversación, la prueba escribe **@crear-rubricas-competenciales** seguido de la petición. El prefijo @ permite seleccionar o invocar explícitamente la habilidad.
+- **Captura Skill 8 · prueba real:** ante una solicitud para crear una rúbrica de cuatro niveles sobre el ciclo del agua en 5.º de Primaria, la Skill **no elaboró directamente la rúbrica**. Solicitó el criterio oficial literal, la normativa de referencia, el enfoque de evaluación y las características del formato, tal como se había definido.
+
+**Estado de las evidencias:** las capturas reales de esta práctica se han recibido y revisado, pero aún falta incorporarlas como archivos de imagen al repositorio. Antes de publicarlas, revisa que no aparezcan nombres de centros, perfiles o datos privados.
+
+### Ejemplo completo · Skill «crear-rubricas-competenciales»
+
+**Nombre:** \`crear-rubricas-competenciales\`
+
+**Descripción (cuándo utilizarla):**
+
+~~~text
+Utiliza esta habilidad cuando el profesorado solicite crear,
+revisar o mejorar una rúbrica de evaluación para cualquier
+etapa educativa.
+
+Diseña rúbricas de cuatro niveles a partir de criterios de
+evaluación oficiales o resultados de aprendizaje proporcionados
+por el docente. Si faltan estos datos, solicítalos antes
+de generar el instrumento.
+~~~
+
+**Instrucciones (cómo debe trabajar):**
+
+~~~text
+ROL:
+Eres una habilidad especializada en diseñar rúbricas de
+evaluación competencial para docentes de Infantil,
+Primaria, ESO, Bachillerato, FP y EOI.
+
+OBJETIVO:
+Crear rúbricas claras, observables y alineadas con los
+criterios curriculares facilitados por el profesorado.
+
+REGLA PRIORITARIA:
+Antes de crear una rúbrica, comprueba si el docente ha
+proporcionado el criterio oficial de evaluación o el
+resultado de aprendizaje correspondiente.
+
+Si falta:
+- No generes la rúbrica.
+- Solicita el criterio literal y su fuente.
+- Pregunta por los datos esenciales pendientes.
+- Espera la respuesta antes de continuar.
+
+PROCEDIMIENTO:
+- Identifica etapa, materia y actividad.
+- Analiza el criterio oficial proporcionado.
+- Identifica evidencias observables.
+- Propón indicadores vinculados al criterio.
+- Genera una rúbrica de cuatro niveles con descriptores
+  claros y progresivos.
+- Revisa ambigüedades, diferencias entre niveles,
+  posibles sesgos y barreras de accesibilidad.
+- Señala indicadores no respaldados por el criterio.
+- Incluye una lista de comprobación docente.
+
+SALIDA:
+Tabla de rúbrica de cuatro niveles, justificación de la
+relación con el criterio y recomendaciones de mejora.
+
+LÍMITES:
+No inventes normativa, criterios o resultados de aprendizaje.
+No añadas indicadores ajenos al criterio sin advertirlo.
+No utilices datos personales ni asignes notas definitivas.
+La rúbrica requiere revisión docente antes de utilizarse.
+~~~
+
+### Prueba comparada con la Gem
+
+Escribe en un chat nuevo, seleccionando la habilidad mediante **@**:
+
+~~~text
+@crear-rubricas-competenciales
+Quiero crear una rúbrica de cuatro niveles para evaluar una
+exposición oral sobre el ciclo del agua en 5.º de Primaria.
+~~~
+
+**Resultado observado:** Gemini respondió solicitando el criterio literal y la normativa, si se evaluaría contenido científico y expresión oral, y los detalles de duración, soporte visual y pautas DUA. **Esta prueba concreta ha cumplido la regla prioritaria.** Todavía no se ha comprobado la calidad de una rúbrica definitiva, porque no se ha aportado el criterio oficial.
+
+**Enseñanza para el profesorado:** la habilidad no es una Gem con otro nombre. Hemos configurado una **capacidad especializada** que podemos invocar dentro de Gemini. Su comportamiento se comprueba con la misma prueba que realizamos con la Gem, y puede modificarse desde **«Editar manualmente»**.
+
+**Próximo paso opcional:** aportar un criterio de evaluación real, generar una rúbrica, revisar los indicadores y conservar la versión final como ejemplo de evaluación formativa.
+
+---
+
 ### Después de esta práctica
 
 - **Gem:** conserva una configuración de asistente en Gemini, mientras esté disponible para tu cuenta.
