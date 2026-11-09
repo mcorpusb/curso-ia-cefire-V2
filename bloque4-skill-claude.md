@@ -13,6 +13,10 @@ nav_order: 3
 ## Taller guiado · Crea tu primera Skill en Claude
 {: id="taller-skill-claude" }
 
+> **📄 Manual PDF para Aules (4 páginas y 3 capturas reales):** [Descargar el manual «Crea tu primera Skill en Claude»]({{ '/assets/docs/bloque4/Manual_Skill_Claude_Bloque4_Aules.pdf' | relative_url }}). Incluye instalación, carga del ZIP, activación, petición de prueba y revisión de preguntas GIFT. 
+>
+> **📦 Skill lista para instalar:** [Descargar generador-gift-aules-claude.zip]({{ '/assets/docs/bloque4/generador-gift-aules-claude.zip' | relative_url }}). No es necesario descomprimir el ZIP antes de subirlo a Claude.
+
 **Objetivo:** crear y probar una habilidad de Claude para generar **cuestionarios GIFT para Moodle/Aules**, utilizando los mismos materiales que en la Skill de Gemini. Compararemos **un archivo de instrucciones \`SKILL.md\`** con la creación manual desde Gemini, sin confundir una Skill con una conversación que simplemente contiene un prompt.
 
 **Disponibilidad (consulta realizada en noviembre de 2026):** Anthropic indica que las Skills están disponibles en planes **Free, Pro, Max, Ultra, Team y Enterprise**, siempre que estén habilitadas las capacidades necesarias de ejecución de código y creación de archivos. En cuentas organizativas, la administración puede restringir su creación. [Usar habilidades en Claude — documentación oficial](https://support.claude.com/es/articles/12512180-usar-habilidades-en-claude).
