@@ -579,7 +579,7 @@ Utiliza solo información general y casos ficticios.
 Las siguientes capturas se añadirán cuando se haya seguido el proceso en una cuenta docente autorizada. Así la guía reflejará la **interfaz real** y no imágenes inventadas:
 
 - **Captura A · recibida y revisada:** en la interfaz de Gemini en español, despliega **«Más»** en la barra lateral y selecciona **«Gems»**. La captura real ya está preparada para incorporarse como imagen al repositorio; todavía no está insertada en la página.
-- **Captura B:** botón «Nueva Gem» o su equivalente.
+- **Captura B · recibida y revisada:** pantalla **«Gestor de Gems»**. En tu cuenta aparecen Gems prediseñadas por Google, la sección **«Mis Gems»** y el botón azul **«+ Nuevo Gem»** en la esquina inferior derecha. El aviso superior indica que **a partir de junio de 2027** comenzará la migración automática de estas Gems a habilidades; permite usarlas y editarlas hasta su migración y advierte de posibles acciones para conservar archivos. La captura real todavía está pendiente de subirse como imagen al repositorio.
 - **Captura C:** nombre y editor de instrucciones.
 - **Captura D:** apartado «Conocimientos» (si se utiliza).
 - **Captura E:** vista de prueba y respuesta del asistente.
