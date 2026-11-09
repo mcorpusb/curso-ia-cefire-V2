@@ -664,7 +664,15 @@ Las siguientes imágenes corresponden a nuestra práctica documentada en noviemb
 
 > **📄 Manual PDF para Aules:** [Descargar el manual ilustrado «Cómo crear una Skill en Gemini» (9 páginas)]({{ '/assets/docs/bloque4/Manual_creacion_Skill_Gemini_Bloque4_Aules.pdf' | relative_url }}). Incluye ocho capturas reales del proceso, instrucciones completas, prueba de funcionamiento y comparación con una Gem. Puedes abrirlo o descargarlo sin depender de enlaces temporales del chat.
 
-**Objetivo:** convertir un procedimiento docente en una habilidad reutilizable y compararla con la Gem del apartado anterior. **Tiempo orientativo:** 15–20 minutos.
+**Objetivo:** crear y utilizar una Skill llamada `crear-rubricas-competenciales`, comprobar que exige el criterio de evaluación oficial antes de elaborar una rúbrica y compararla con la Gem creada previamente. **Tiempo orientativo:** 15–20 minutos.
+
+**Al finalizar el taller serás capaz de:**
+- Acceder al catálogo de **Habilidades** y encontrar sus opciones de creación.
+- Distinguir **Nombre** (identificador), **Descripción** (finalidad y cuándo utilizarla) e **Instrucciones** (procedimiento y límites).
+- Invocar la habilidad con `@crear-rubricas-competenciales` desde una conversación de Gemini.
+- Revisar una respuesta real y comparar la Skill con la Gem anterior.
+
+No necesitas incorporar datos personales ni trabajos reales del alumnado: utilizaremos una situación ficticia de **5.º de Primaria sobre el ciclo del agua**.
 
 ### Gem y Skill: diferencia en la práctica
 
@@ -678,42 +686,90 @@ Las funciones exactas dependen de la cuenta de Gemini. Consulta la [documentaci�
 
 ### Crear la habilidad paso a paso · Capturas reales
 
-Aquí tienes el **recorrido completo con imágenes de nuestra práctica**, en el mismo orden en que la realizamos. Haz clic para ampliar cada pantalla.
+Este recorrido incorpora y desarrolla los pasos del documento **«Crea tu primera Skill en Google Gemini» (12 páginas)**. Las capturas proceden de nuestra práctica real. **Pulsa sobre ellas para ampliarlas.**
+
+#### Paso 1 · Abrir Habilidades
+
+En la barra lateral de Gemini selecciona **Más → Personalizar**. Esta ruta permite acceder a la configuración personal y a las habilidades.
 
 <figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
   <a href="{{ '/assets/img/bloque4/tutoriales/skill1.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar menú Más de Gemini con Personalizar seleccionado"><img src="{{ '/assets/img/bloque4/tutoriales/skill1.png' | relative_url }}" alt="menú Más de Gemini con Personalizar seleccionado" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
   <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 1 · Gemini → Más → Personalizar</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill1.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
 </figure>
 
+Una vez dentro de «Personalizar», abre la pestaña **Habilidades**. Verás las habilidades recomendadas y el botón **Crear**. Una Skill es un procedimiento reutilizable: **puede aplicarse desde una conversación de Gemini**, sin tener que abrir la Gem de evaluación como un asistente aparte.
+
 <figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
   <a href="{{ '/assets/img/bloque4/tutoriales/skill2.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar catálogo de habilidades de Gemini con botón Crear"><img src="{{ '/assets/img/bloque4/tutoriales/skill2.png' | relative_url }}" alt="catálogo de habilidades de Gemini con botón Crear" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
   <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 2 · Pestaña Habilidades</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill2.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
 </figure>
+
+#### Paso 2 · Elegir «Crear manualmente»
+
+Pulsa **Crear**. El menú que aparece en nuestra cuenta ofrece **Crear con Gemini**, **Crear manualmente** y **Subir**. Para aprender a definir una habilidad, elige **Crear manualmente**: así controlaremos su procedimiento y comprobaremos sus límites.
 
 <figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
   <a href="{{ '/assets/img/bloque4/tutoriales/skill3.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar menú de creación de habilidades con Crear con Gemini, Crear manualmente y Subir"><img src="{{ '/assets/img/bloque4/tutoriales/skill3.png' | relative_url }}" alt="menú de creación de habilidades con Crear con Gemini, Crear manualmente y Subir" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
   <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 3 · Crear manualmente</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill3.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
 </figure>
 
+El editor muestra **tres campos esenciales**:
+
+| Campo | Para qué sirve | Ejemplo de esta práctica |
+|---|---|---|
+| **Nombre** | Identificador de la habilidad | `crear-rubricas-competenciales` |
+| **Descripción** | Qué hace y **cuándo** debe utilizarla Gemini | Crear, revisar o mejorar rúbricas competenciales |
+| **Instrucciones** | Qué pasos debe seguir, qué datos pedir y qué límites respetar | Pedir el criterio oficial y elaborar una rúbrica de cuatro niveles |
+
+En la parte superior también aparecen **Añadir archivos** y **Crear**. En esta primera práctica, **no añadas archivos**.
+
 <figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
   <a href="{{ '/assets/img/bloque4/tutoriales/skill4.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar formulario de nueva Skill con Nombre Descripción e Instrucciones"><img src="{{ '/assets/img/bloque4/tutoriales/skill4.png' | relative_url }}" alt="formulario de nueva Skill con Nombre Descripción e Instrucciones" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
   <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 4 · Editor de una habilidad</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill4.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
 </figure>
+
+#### Paso 3 · Configurar la habilidad
+
+Escribe el nombre **`crear-rubricas-competenciales`**. En **Descripción** indica que debe utilizarse cuando un docente solicite una rúbrica y que necesita el criterio de evaluación oficial o el resultado de aprendizaje aportado por el profesorado.
+
+En **Instrucciones** pega el procedimiento completo que aparece debajo de las capturas. La regla prioritaria es imprescindible: **si falta el criterio oficial, no debe generar la rúbrica; debe pedirlo primero**.
 
 <figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
   <a href="{{ '/assets/img/bloque4/tutoriales/skill5.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar Skill con descripción e instrucciones completadas"><img src="{{ '/assets/img/bloque4/tutoriales/skill5.png' | relative_url }}" alt="Skill con descripción e instrucciones completadas" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
   <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 5 · Configuración de crear-rubricas-competenciales</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill5.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
 </figure>
 
+#### Paso 4 · Crear y comprobar que aparece como instalada
+
+Pulsa el botón azul **Crear** y vuelve a **Habilidades**. En nuestra prueba apareció en **«Instalado (1)»**.
+
+En los tres puntos de la habilidad puedes seleccionar **Usar ahora**, **Editar con Gemini**, **Editar manualmente**, **Descargar**, **Sustituir habilidad**, **Desactivar** o **Eliminar**. Para mostrar al profesorado cómo mejorarla después de una prueba, destaca **Editar manualmente**.
+
 <figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
   <a href="{{ '/assets/img/bloque4/tutoriales/skill6.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar sección Instalado y menú con Usar ahora y Editar manualmente"><img src="{{ '/assets/img/bloque4/tutoriales/skill6.png' | relative_url }}" alt="sección Instalado y menú con Usar ahora y Editar manualmente" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
   <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 6 · Habilidad instalada y opciones del menú</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill6.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
 </figure>
 
+#### Paso 5 · Invocarla con @ en una conversación nueva
+
+Abre una conversación y escribe el nombre de la habilidad con **@** delante; si Gemini muestra un selector, elige la habilidad correspondiente. La petición de nuestra demostración es:
+
+~~~text
+@crear-rubricas-competenciales
+Quiero crear una rúbrica de cuatro niveles para evaluar una
+exposición oral sobre el ciclo del agua en 5.º de Primaria.
+~~~
+
 <figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
   <a href="{{ '/assets/img/bloque4/tutoriales/skill7.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar petición a Gemini invocando @crear-rubricas-competenciales"><img src="{{ '/assets/img/bloque4/tutoriales/skill7.png' | relative_url }}" alt="petición a Gemini invocando @crear-rubricas-competenciales" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
   <figcaption style="font-size:.9rem;margin-top:.5rem;"><strong>Captura 7 · Invocar la Skill con @</strong> · <a href="{{ '/assets/img/bloque4/tutoriales/skill7.png' | relative_url }}" target="_blank" rel="noopener">Ampliar captura</a></figcaption>
 </figure>
+
+#### Paso 6 · Comprobar la respuesta real
+
+En la prueba, la Skill **no elaboró inmediatamente la rúbrica**: solicitó el **criterio oficial literal y su referencia normativa**, preguntó si evaluaríamos contenidos científicos y expresión oral y pidió información sobre el formato y posibles pautas DUA.
+
+**Esta es la comprobación decisiva:** sin criterio curricular, se detuvo. Todavía no podemos validar una rúbrica definitiva, porque en esta prueba no se le facilitó ese criterio.
 
 <figure class="tutorial-captura" style="margin:1rem 0 1.75rem;">
   <a href="{{ '/assets/img/bloque4/tutoriales/skill8.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Ampliar Gemini solicita criterio oficial y otros datos antes de generar rúbrica"><img src="{{ '/assets/img/bloque4/tutoriales/skill8.png' | relative_url }}" alt="Gemini solicita criterio oficial y otros datos antes de generar rúbrica" loading="lazy" style="display:block;width:100%;max-width:780px;height:auto;border:1px solid #d2d9e2;border-radius:9px;"></a>
@@ -724,7 +780,7 @@ Aquí tienes el **recorrido completo con imágenes de nuestra práctica**, en el
 
 ### Ejemplo completo · Skill «crear-rubricas-competenciales»
 
-**Nombre:** \`crear-rubricas-competenciales\`
+**Nombre:** `crear-rubricas-competenciales`
 
 **Descripción (cuándo utilizarla):**
 
@@ -784,6 +840,23 @@ No añadas indicadores ajenos al criterio sin advertirlo.
 No utilices datos personales ni asignes notas definitivas.
 La rúbrica requiere revisión docente antes de utilizarse.
 ~~~
+
+### ¿Qué demuestra esta práctica?
+
+El valor de una Skill no está únicamente en redactar una buena respuesta: también debe **reconocer cuándo le faltan datos y pedirlos antes de continuar**.
+
+El documento de 12 páginas concluye comparando las dos prácticas:
+
+| Nuestra Gem | Nuestra Skill |
+|---|---|
+| **Evaluador formativo · Todas las etapas** | **crear-rubricas-competenciales** |
+| Asistente general para distintos instrumentos de evaluación | Procedimiento especializado en rúbricas |
+| Se abre como una conversación propia | Se puede invocar con **@** desde el chat |
+| En la primera prueba no pidió el criterio; modificamos las instrucciones y corregimos el comportamiento | En la primera prueba **sí pidió el criterio antes de crear la rúbrica** |
+
+**Comprobación docente:** confirma que la habilidad está instalada, que su descripción deja claro cuándo usarla, que no inventa criterios ni solicita datos personales y que la prueba ha quedado documentada. En un contexto real, la revisión final siempre corresponde al profesorado.
+
+---
 
 ### Prueba comparada con la Gem
 
